@@ -1,0 +1,18 @@
+#define which apparatuses are on which page
+
+apparatuses:
+  - vault
+  - uneven bars
+  - beam
+  - floor
+FIG: NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
+output_directory: ../data/
+pages:
+  vault: "3-13"
+  vault: "3-13"
+  uneven bars: "15-47"
+  uneven bars TA: "49-53"
+  beam: "55-92"
+  beam TA: "94-99"
+  floor: "101-120"
+  floor TA: "122-126"
