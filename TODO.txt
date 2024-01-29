@@ -1,0 +1,4 @@
+This file sums up my train of thoughts and what could/should be improved.
+
+1. track the page where the element is found to link to the original PDF (where you have the picture)
+2. Add the studenten A's
