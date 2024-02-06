@@ -34,15 +34,15 @@ def extractElements(s, apparatus):
         )
     elif apparatus == "uneven bars":
         pattern = (
-            r"(\d+\.\d+)\s+(?!(?:Brug|\d|\s|–|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})"
+            r"(\d+\.\d+)\s+(?!(?:Brug|\d\.\d{3,}|\s|–|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})"
         )
     elif apparatus == "beam":
         pattern = (
-            r"(\d+\.\d+)\s+(?!(?:Balk|\d|\s|–|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})"
+            r"(\d+\.\d+)\s+(?!(?:Balk|\d\.\d{3,}|\s|–|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})"
         )
     elif apparatus == "floor":
         pattern = (
-            r"(\d+\.\d+)\s+(?!(?:Vloer|\d|\s|–|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})"
+            r"(\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|–|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})"
         )
     else:
         raise ValueError("apparatus name is not valid")
@@ -135,11 +135,11 @@ def main():
                 # this is a weird exception where they mean the same but write it differently
                 if name == "HANDSTANDOVERSLAG MET/ZONDER 1/1 DRAAI IN 1E VLUCHTFASE - IN 2E VLUCHTFASE SALTO VOOR - OF ACHTEROVER MET/ZONDER LA-DRAAI":
                     continue
-                assert groups[apparatus][number] == name, "whoops "
+                assert groups[apparatus][number] == name.lower(), "whoops "
 
 
             else:                
-                groups[apparatus][number] = name
+                groups[apparatus][number] = name.lower()
 
 
 

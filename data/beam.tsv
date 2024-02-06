@@ -78,9 +78,27 @@ number	description	value	group	difficulty
 2.212	Hurkhoeksprong met ½ draai (180º) vanuit dwars stand - afzet van een of beide benen	0.2	2	B
 2.412	Hurkhoeksprong met 1/1 draai (360º) vanuit dwarsstand - afzet van een of beide benen	0.4	2	D
 2.512	Hurkhoeksprong met 1½ draai (540º) vanuit dwarsstand - afzet van een of beide benen	0.5	2	E
+3.101	1/1 draai (360° ) op 1 been - vrije been naar keuze onder de horizontaal	0.1	3	A
+3.201	1½ draai (540°) op 1 been - vrije been naar keuze onder de horizontaal	0.2	3	B
+3.401	2/1 draai (720°) op 1 been - vrije been naar keuze onder de horizontaal	0.4	3	D
+3.501	3/1 draai (1080°) op 1 been - vrije been naar keuze onder de horizontaal	0.5	3	E
+3.302	1/1 draai (360°) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai	0.3	3	C
+3.402	1½ draai (540°) op 1 been – het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai	0.4	3	D
+3.403	1/1 draai (360°) met het vrije been achterwaarts met beide handen vastgehouden	0.4	3	D
+3.304	1/1 draai (360°) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)	0.3	3	C
+3.404	1½ draai ( 540°) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)	0.4	3	D
+3.504	2/1 draai ( 720°) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)	0.5	3	E
+3.305	1/1 draai (360º) op 1 been - met vasthouden van het vrije been met de hand in 180º - spagaat van begin tot einde van de draai	0.3	3	C
+3.405	1½ draai (54 0º) op 1 been - met vasthouden van het vrije been met de hand in 180º - spagaat van begin tot einde van de draai	0.4	3	D
+3.505	2/1 draai (720°) op 1 been – met vasthouden van het vrije been met de hand in 180º - spagaat van begin tot einde van de draai	0.5	3	E
 3.206	½ duikdraai (180°) via standspagaat (180° beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand	0.2	3	B
+3.406	1/1 duikdraai (360°) via standspagaat (180° beenspreiding) met/ zonder vluchtig aanraken van de balk met 1 hand	0.4	3	D
+3.207	1/1 d raai (360°) in hurkzit op 1 been – houding van het vrije been naar keuze	0.2	3	B
+3.307	1½ d raai (540°) in hurkzit op 1 been – houding van het vrije been naar keuze	0.3	3	C
 3.407	(*) 2/1 d raai (720°) of 2½ draai (960°) in hurkzit op 1 been – houding van het vrije been naar keuze	0.4	3	D
+3.507	3/1 draai (1080°) in hurkzit op 1 been – houding van het vrije been naar keuze	0.5	3	E
 3.208	(*) 1/1 tot 1½ draai (360° - 540°) in buiklig - steunen van de handen na elkaar is toegestaan	0.2	3	B
+3.408	1¼ draai (450°) in vouwlig - beenromphoek gesloten	0.4	3	D
 4.101	(D)  Vanuit hielenzit - lichaamswel voorwaarts via tenenstand tot stand	0.1	4	A
 4.102	(D) (*) Standspagaat voorlings met steun van de handen voor standbeen (beenspreiding 180° - 2 sec .) of stand op 1 been met de voet van het vrije been in voorwaartse positie boven hoofdhoogte (2 sec.)   Zweefstand voorlings met gestrekt standbeen (beenspreiding 180  - 2 sec.)	0.1	4	A
 4.202	Hoge hoeksteun (2 sec.)	0.2	4	B
