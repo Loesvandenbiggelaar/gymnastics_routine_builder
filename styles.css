@@ -1,3 +1,8 @@
+:root {
+    font-size: 16px;
+    --accent-color: #0e84d4
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -32,6 +37,9 @@ label {
     border-radius: 5px;
     cursor: pointer;
 }
+label:hover{
+    background-color: #0e84d4;
+}
 
 input[type="radio"]:checked + label {
     background-color: #0e84d4;
@@ -40,8 +48,58 @@ input[type="radio"]:checked + label {
     
 }
 
+.checkbox-label {
+    cursor: pointer;
+    display: block;
+    /* padding: 5px; */
+    border: 1px solid #ccc;
+    /* margin-bottom: 5px; */
+}
 
-#output {
+.checkbox-label:hover {
+    background-color: var(--accent-color);
+}
+
+.checkbox-label input {
+    display: none;
+}
+
+/* input[type="tt"]:checked + span {
+    background-color: #0e84d4;
+    opacity: 100%;
+    color: black;
+    
+} */
+
+#checkboxesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#checkboxesContainer input {
+    display: none;
+}
+
+#checkboxesContainer input:checked + label {
+    background-color: #0e84d4;
+    opacity: 100%;
+}
+
+/* #output {
     margin-top: 20px;
     font-size: 18px;
+} */
+
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
