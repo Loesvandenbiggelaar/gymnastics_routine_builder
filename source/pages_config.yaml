@@ -1,31 +1,57 @@
 #define which apparatuses are on which page
 
 apparatuses:
-  - vault
-  - uneven bars
-  - beam
-  - floor
-FIG: NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
-output_directory: ../data/
-pages:
   vault:
-    start: 3
-    end: 13
+    start page: 2
+    end page: 13
+    regex:
+      group:
+        en: GROUP\s+(\d)\s+.\s+(.*?)\s+T?\d\.\d{2}
+        nl: GROEP\s+(\d)\s+.\s+(.*?)\s+T?\d\.\d{2}
+      element:
+        en:
+        nl: (T?\d\.\d+?)\s+(?!TOEGEVOEGD?)(?!T\d\.\d+)([^\d \ ].+?)\s*(\d\.\d*)\s*P
   uneven bars:
-    start: 15
-    end: 47
-  uneven bars TA:
-    start: 49
-    end: 53
+    start page: 15
+    end page: 53
+    regex:
+      group:
+        en: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
+        nl: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
+      element:
+        en:
+        nl: (\d+\.\d+)\s+(?!(?:Brug|\d\.\d{3,}|\s|\W|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
   beam:
-    start: 55
-    end: 92
-  beam TA:
-    start: 94
-    end: 99
+    start page: 55
+    end page: 92
+    regex:
+      group:
+        en: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
+        nl: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
+      element:
+        en:
+        nl: (\d+\.\d+)\s+(?!(?:Balk|\d\.\d{3,}|\s|\W|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
   floor:
-    start: 101
-    end: 120
-  floor TA:
-    start: 122
-    end: 126
+    start page: 101
+    end page: 126
+    regex:
+      group:
+        en: (\d\.000)\s+.\s+(([A-Z\W\`\'\.\s]+(?:[A-Z]{2,}|\.)))
+        nl: (\d\.000)\s+.\s+(([A-Z\W\`\'\.\s]+(?:[A-Z]{2,}|\.)))
+      element:
+        en:
+        nl: (\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|\W|-|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
+file:
+  en: en_2022-2024 WAG COP.pdf
+  nl: NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
+output directory: ../data/
+string adjustments:
+  - ["  ", " "]
+  - [" ’", "’"]
+  - [" '", "'"]
+  - ["ME T", "MET"]
+  - ["MET /", "MET/"]
+  - ["MET/ ", "MET/"]
+  - ["FLIK -FLAK", "FLIK-FLAK"]
+  - ["LA -DRAAI", "LA-DRAAI"]
+  - ["L ENGTE AS-DRAAI", "LA-DRAAI"]
