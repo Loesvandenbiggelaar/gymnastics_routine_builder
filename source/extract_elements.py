@@ -26,7 +26,6 @@ class elementExtractor:
         with open(config, "r") as f:
             return yaml.safe_load(f)
 
-
     def loadReader(self):
         """
         Load the pdf file
@@ -35,7 +34,6 @@ class elementExtractor:
         print("reading pages of", file)
         return PyPDF2.PdfReader(file)
     
-
     def addApparatus(self, app):
         """
         add a apparatus to analyze.
@@ -85,7 +83,8 @@ class elementExtractor:
         regex = self.config["apparatuses"][apparatus]["regex"]["element"][self.language]
         res = re.findall(regex, page)
         for r in res:
-            self.elements[apparatus].append(list(r))
+            if r[1] != r[1].upper():
+                self.elements[apparatus].append(list(r))
         return 
 
     def loadPages(self, apparatus):
@@ -107,18 +106,14 @@ class elementExtractor:
             pages = self.loadPages(apparatus)
             for page in pages:
                 text = page.extract_text().replace("\n", "")
+                # print(text)
                 self.getGroup(text, apparatus)
                 self.getElements(text, apparatus)
         
-    
     def writeResult(self):
         for apparatus, elements in self.elements.items():
-            # print(apparatus)
-            # print(elements)
             with open(self.config["output directory"] + apparatus + ".tsv", "w", encoding="utf-8") as f:
-                # f.write("number\tdescription\tvalue\tgroup\tdifficulty\n")
                 for element in elements:
-                    # print(element)
                     f.write(
                         "\t".join([e if e != None else " " for e in element]).replace("\r", " ")
                         + "\n"
@@ -134,21 +129,55 @@ class elementExtractor:
                 return difficulty[int(n[0:2])]
             else:
                 raise ValueError("No valid number:", element)
+        
+        def getValue(element):
+            difficulty = getDifficulty(element)
+            value = None
+            if difficulty in ["TA", "A"]:
+                value= 0.1
+            if difficulty == "B":
+                value= 0.2
+            if difficulty == "C":
+                value= 0.3
+            if difficulty == "D":
+                value= 0.4
+            if difficulty == "E":
+                value= 0.5
+            if difficulty == "F":
+                value= 0.6
+            if difficulty == "G":
+                value= 0.7
+            if difficulty == "H":
+                value= 0.8
+            if difficulty == "I":
+                value= 0.9
+            if difficulty == "J":
+                value= 1
+            return str(value)
+
+        def getTypeOfElement(element, apparatus):
+            group = int(element[3])
+            typ= self.config["apparatuses"][apparatus]["group types"][group]
+            elementName = element[1]
+            if "(D)" in elementName:
+                typ="gymnastic"
+            return typ
+
         for apparatus, elements in self.elements.items():
             for element in elements:
                 number = element[0]
                 grNumber = int(number.split(".")[0].replace("T", ""))
+                if apparatus != "vault":
+                    element.append(getValue(element))
                 element.append(str(grNumber))
-
-                difficulty = getDifficulty(element)
-                element.append(difficulty)
-                # print(self.groups)
-                # group = self.groups[apparatus][grNumber]
+                element.append(getDifficulty(element))                
+                element.append(getTypeOfElement(element, apparatus))
                 
-                pass
 
 def main():
     extractor = elementExtractor("pages_config.yaml", language="nl")
+    # print(extractor.config["apparatuses"]["beam"]["regex"]["element"]["nl"])
+    # extractor.addApparatus(["beam"])
     extractor.addApparatus(["vault","uneven bars", "beam", "floor"])
     extractor.processApparatuses()
     extractor.expandElements()
