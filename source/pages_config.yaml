@@ -34,7 +34,7 @@ apparatuses:
         nl: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
       element:
         en:
-        nl: (\d+\.\d+)\s+(?!(?:Brug|\d\.\d{3,}|\s|[A-Z]|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
+        nl: (\d+\.\d+)\s+(?!(?:Brug|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
   beam:
     start page: 55
     end page: 92
@@ -53,7 +53,7 @@ apparatuses:
         en:
         nl: (\d+\.\d+)\s+(?!(?:Balk|\d\.\d{3,}|\s|-|–|\.|\/|\[A-Z]{5,}))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
   floor:
-    start page: 101
+    start page: 100
     end page: 126
     group types:
       1: gymnastic
@@ -68,7 +68,7 @@ apparatuses:
         nl: (\d\.000)\s+.\s+(([A-Z\W\`\'\.\s]+(?:[A-Z]{2,}|\.)))
       element:
         en:
-        nl: (\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|[A-Z]|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
+        nl: (\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
 file:
   en: en_2022-2024 WAG COP.pdf
   nl: NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
