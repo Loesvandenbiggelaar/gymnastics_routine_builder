@@ -106,7 +106,7 @@ class elementExtractor:
             pages = self.loadPages(apparatus)
             for page in pages:
                 text = page.extract_text().replace("\n", "")
-                # print(text)
+                print(text)
                 self.getGroup(text, apparatus)
                 self.getElements(text, apparatus)
         
@@ -177,8 +177,8 @@ class elementExtractor:
 def main():
     extractor = elementExtractor("pages_config.yaml", language="nl")
     # print(extractor.config["apparatuses"]["beam"]["regex"]["element"]["nl"])
-    # extractor.addApparatus(["beam"])
-    extractor.addApparatus(["vault","uneven bars", "beam", "floor"])
+    extractor.addApparatus(["floor"])
+    # extractor.addApparatus(["vault","uneven bars", "beam", "floor"])
     extractor.processApparatuses()
     extractor.expandElements()
     extractor.writeResult()
