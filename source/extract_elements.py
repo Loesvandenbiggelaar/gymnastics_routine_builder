@@ -177,8 +177,8 @@ class elementExtractor:
 def main():
     extractor = elementExtractor("pages_config.yaml", language="nl")
     # print(extractor.config["apparatuses"]["beam"]["regex"]["element"]["nl"])
-    extractor.addApparatus(["floor"])
-    # extractor.addApparatus(["vault","uneven bars", "beam", "floor"])
+    # extractor.addApparatus(["floor"])
+    extractor.addApparatus(["vault","uneven bars", "beam", "floor"])
     extractor.processApparatuses()
     extractor.expandElements()
     extractor.writeResult()
