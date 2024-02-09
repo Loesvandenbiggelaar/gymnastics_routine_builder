@@ -1,5 +1,5 @@
 
-var selectedApparatus = "floor"
+var selectedApparatus = "vault"
 let dataTable;
 function showSelection() {
     var selectedOption = document.querySelector('input[name="options"]:checked');
@@ -16,6 +16,9 @@ function showSelection() {
     }
 }
 function displayTSV(filePath) {
+    table = document.getElementById("tsvTable");
+    table.innerHTML = "<thead><tr><th>Number</th><th>Description</th><th>Value</th><th>Group</th><th>Difficulty</th><th>Type</th></tr></thead><tbody><!-- Table body will be filled dynamically using JavaScript --></tbody>"
+
     // Destroy the existing DataTable instance if it exists
     if ($.fn.DataTable.isDataTable('#tsvTable')) {
         // If yes, destroy the existing instance
@@ -62,7 +65,7 @@ function displayTSV(filePath) {
 }
 
 function createButtons(eventType) {
-    fetch('data/groups.json') // Replace 'your_json_file.json' with the actual path to your JSON file
+    fetch('data/groups.json')
         .then(response => response.json())
         .then(jsonData => {
             const container = document.getElementById('checkboxesContainer');
@@ -91,19 +94,16 @@ function createButtons(eventType) {
 // Function to update DataTables based on checkbox changes
 function updateTableOnCheckboxChange(jsonData) {
     const checkboxes = document.querySelectorAll('#checkboxesContainer input');
-    // console.log(checkboxes)
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', () => {
             const selectedItems = Array.from(checkboxes)
                 .filter(checkbox => checkbox.checked)
                 .map(checkbox => checkbox.id);
-            // console.log(selectedItems)
             const filteredData = Object.keys(jsonData[selectedApparatus])
                 .filter(key => selectedItems.includes(key))
                 .map(key => key);
 
-            console.log(filteredData)
-            updateTable(filteredData);
+                updateTable(filteredData);
 
         });
     });
@@ -111,21 +111,5 @@ function updateTableOnCheckboxChange(jsonData) {
 
 // Function to update DataTables with new data
     function updateTable(data) {
-        // Clear the existing table
-        // console.log($('#tsvTable').DataTable().data)
-        // Add the filtered data to the table
-        const regex = RegExp("[" + data.join(",") + "]")
-        console.log(regex)
-        $('#tsvTable').DataTable().column(0).search(regex, true, false).draw()
-
-        // Redraw the table
-        // $('#tsvTable').DataTable().draw();
+        $('#tsvTable').DataTable().column(3).search(data.join("|"), true, true, false).draw()
     }
-
-
-// Example: Create buttons for the "vault" initially
-createButtons(selectedApparatus);
-
-
-// Call the function to initially display a default TSV file
-displayTSV('data/'+selectedApparatus+'.tsv');

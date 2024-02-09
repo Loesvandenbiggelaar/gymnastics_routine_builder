@@ -106,7 +106,7 @@ class elementExtractor:
             pages = self.loadPages(apparatus)
             for page in pages:
                 text = page.extract_text().replace("\n", "")
-                print(text)
+                # print(text)
                 self.getGroup(text, apparatus)
                 self.getElements(text, apparatus)
         
