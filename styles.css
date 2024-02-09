@@ -1,6 +1,16 @@
 :root {
     font-size: 16px;
-    --accent-color: #0e84d4
+    --blue-base:#0e84d4;
+    --grey-base:#a8a8a8;
+
+    --blue-accent1:#5095c1;
+    --blue-accent2:#2c6d9d;
+    --blue-accent3:#87c9ff;
+
+    --grey-accent1:#7d7d7d;
+    --grey-accent2:#595959;
+    --grey-accent3:#b3b3b3;
+
 }
 
 body {
@@ -30,35 +40,32 @@ input[type="radio"] {
 }
 
 label {
-    background-color: #a1a1a1;
-    opacity: 50%;
+    background-color: var(--grey-base);
+    /* opacity: 50%; */
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    display:flex;
 }
 label:hover{
-    background-color: #0e84d4;
+    background-color: var(--grey-accent3);
 }
 
 input[type="radio"]:checked + label {
-    background-color: #0e84d4;
+    background-color: var(--blue-base);
     opacity: 100%;
-    /* color: black; */
-    
+    /* color: black; */   
 }
 
 .checkbox-label {
     cursor: pointer;
     display: block;
     /* padding: 5px; */
-    border: 1px solid #ccc;
+    border: 1px solid var(--grey-base);
     /* margin-bottom: 5px; */
 }
 
-.checkbox-label:hover {
-    background-color: var(--accent-color);
-}
 
 .checkbox-label input {
     display: none;
@@ -74,7 +81,7 @@ input[type="radio"]:checked + label {
 #checkboxesContainer {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.1rem;
 }
 
 #checkboxesContainer input {
@@ -82,14 +89,8 @@ input[type="radio"]:checked + label {
 }
 
 #checkboxesContainer input:checked + label {
-    background-color: #0e84d4;
-    opacity: 100%;
+    background-color: var(--blue-base);
 }
-
-/* #output {
-    margin-top: 20px;
-    font-size: 18px;
-} */
 
 
 /* table */
