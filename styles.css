@@ -25,14 +25,20 @@ select {
 }
 
 button {
-    margin-top: 10px;
+    /* margin-top: 5px;
+    padding: 5px; */
+    background-color: var(--grey-base);
+    color: #fff;
     padding: 10px;
-    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    display:flex;
 }
+
 .radio-container {
     display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
 input[type="radio"] {
@@ -41,13 +47,14 @@ input[type="radio"] {
 
 label {
     background-color: var(--grey-base);
-    /* opacity: 50%; */
     color: #fff;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     display:flex;
 }
+
+
 label:hover{
     background-color: var(--grey-accent3);
 }
@@ -66,6 +73,12 @@ input[type="radio"]:checked + label {
     /* margin-bottom: 5px; */
 }
 
+.radio-container label {
+    width: 60px;
+    display:block;
+    text-align: center;
+    /* tex */
+}
 
 .checkbox-label input {
     display: none;
@@ -78,21 +91,18 @@ input[type="radio"]:checked + label {
     
 } */
 
-#checkboxesContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
+/* 
+
+
+ */
+
+ #checkboxesContainer input:checked + label {
+    background-color: var(--blue-base);
 }
 
 #checkboxesContainer input {
     display: none;
 }
-
-#checkboxesContainer input:checked + label {
-    background-color: var(--blue-base);
-}
-
-
 /* table */
 table {
     border-collapse: collapse;
@@ -103,4 +113,58 @@ th, td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+}
+
+.dataTables_wrapper label {
+    background-color: var(--blue-accent1);
+}
+
+
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropbtn {
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px;
+    font-size: var(--font-size);
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--grey-base);
+    /* min-width: 160px; */
+    z-index: 1;
+    border-radius: 0;
+
+}
+
+.dropdown-content label {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--grey-accent3);
+    cursor: pointer;
+    color: white;
+    border-radius: 0;
+}
+
+.dropdown-content label:hover, .dropdown-content label:focus-within {
+    background-color: var(--grey-accent1);
+    /* color: white; */
+    border-radius: 0;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

@@ -40,7 +40,7 @@ function displayTSV(filePath) {
                     continue;
                 }
                 const columns = row.split('\t');
-                const newRow = $('<tr>');
+                const newRow = $('<tr onclick="selectRow(this)">');
 
                 for (const column of columns) {
                     const cell = $('<td>').text(column);
@@ -113,3 +113,10 @@ function updateTableOnCheckboxChange(jsonData) {
     function updateTable(data) {
         $('#tsvTable').DataTable().column(3).search(data.join("|"), true, true, false).draw()
     }
+
+
+function selectRow(item) {
+    
+    console.log(item)
+
+}

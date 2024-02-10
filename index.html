@@ -15,7 +15,7 @@
 <body>
 
     <h1>Maak je eigen turn oefening!</h1>
-
+    <h3>je oefening:</h3><div class="routine"></div>
     <h2 for="toestelMenu">Kies je toestel:</h2>
     <div class="radio-container">
         <input type="radio" id="radio1" name="options" value="vault" onclick="showSelection(this)">
@@ -30,10 +30,15 @@
         <input type="radio" id="radio4" name="options" value="floor" onclick="showSelection(this)">
         <label for="radio4">Vloer</label>
     </div>
-    <div id="checkboxesContainer">
-        <!-- Buttons will be added dynamically here -->
+
+    <div class="dropdown">
+        <button>Filter groepen</button>
+            <div id="checkboxesContainer", class="dropdown-content">
+                <!-- Buttons will be added dynamically here -->
+            </div>
     </div>
 
+    
     <table id="tsvTable" class="display">
     </table>
 
