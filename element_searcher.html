@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+    
+
+</head>
+<body>
+    <nav><a href="./index.html">home</a></nav>
+
+    <!-- <h1>Maak je eigen turn oefening!</h1> -->
+    <h2 for="toestelMenu">Kies je toestel:</h2>
+    <div class="radio-container">
+        <input type="radio" id="radio1" name="options" value="vault" onclick="showSelection(this)">
+        <label for="radio1">Sprong</label>
+
+        <input type="radio" id="radio2" name="options" value="uneven bars" onclick="showSelection(this)">
+        <label for="radio2">Brug</label>
+
+        <input type="radio" id="radio3" name="options" value="beam" onclick="showSelection(this)">
+        <label for="radio3">Balk</label>
+
+        <input type="radio" id="radio4" name="options" value="floor" onclick="showSelection(this)">
+        <label for="radio4">Vloer</label>
+    </div>
+
+    <div class="dropdown">
+        <button>Filter groepen</button>
+            <div id="checkboxesContainer", class="dropdown-content">
+                <!-- Buttons will be added dynamically here -->
+            </div>
+    </div>
+
+    
+    <table id="tsvTable" class="display">
+    </table>
+
+     <script src="script.js"></script>
+     <link rel="stylesheet" href="styles.css">
+
+</body>
+</html>

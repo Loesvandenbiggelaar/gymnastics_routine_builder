@@ -49,7 +49,11 @@ function displayTSV(filePath) {
 
                 tableBody.append(newRow);
             }
+
+            if (selectedApparatus == "vault")
+            {columntargets = [0,3,4,5]} else {columntargets = [0,2,3,5]}
             // Initialize DataTables
+            //  see options: https://datatables.net/reference/option/
             $('#tsvTable').DataTable({
                 // destroy:true,
                 searching: true,
@@ -57,7 +61,9 @@ function displayTSV(filePath) {
                 paging: true,
                 ordering: true,
                 lengthMenu: [10, 25, 50, 75, 100],
-                pageLength: 10 // Initial number of rows per page
+                info: false,
+                columnDefs: [{targets: columntargets, visible:false}],
+                pageLength: 10, // Initial number of rows per page
             });
 
         })
