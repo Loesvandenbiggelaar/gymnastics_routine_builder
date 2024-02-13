@@ -2,13 +2,14 @@ import re
 import PyPDF2
 import yaml
 from difflib import SequenceMatcher
+from functions import loadConfig
 
 
 
 class elementExtractor:
     def __init__(self, config, language) -> None:
 
-        self.config = self.loadConfig(config)
+        self.config = loadConfig(config)
         self.language = language
         self.reader = self.loadReader()
         self.apparatuses = []
@@ -17,14 +18,6 @@ class elementExtractor:
 
         return
     
-    def loadConfig(self, config):
-        """
-        Load the config file, which is in YAML format.
-        file: The YAML file to read
-        """
-        print("Loading config file")
-        with open(config, "r") as f:
-            return yaml.safe_load(f)
 
     def loadReader(self):
         """

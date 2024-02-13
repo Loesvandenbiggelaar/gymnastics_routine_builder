@@ -1,0 +1,48 @@
+classifications:
+  draai:
+    default: None
+    values:
+      - [180, ½, 1/2]
+      - [270, ¾, 3/4]
+      - [360, 1/1]
+      - [540, 1 ½, 1 1/2]
+      - [720, 2/1]
+      - [900, 2 ½, 2 1/2]
+      - [1080, 3/1]
+  salto:
+    aantal:
+      default: enkel
+      values:
+        - [enkel]
+        - [dubbel]
+        - [driedubbel, tripel]
+    vorm:
+      default: None
+      values:
+        - [hurk]
+        - [hoek]
+        - [strek]
+    richting:
+      default: None
+      values:
+        - [voorover, v.o.]
+        - [achterover, v.o.]
+
+apparatuses:
+  vault:
+    type:
+      - handstandoverslag / yamashita
+      - tsukahara
+      - arabier flik-flak / yurchenko
+      - streksprong
+    eerste vluchtfase:
+      - draai
+    tweede vluchtfase:
+      - draai
+      - salto
+  uneven bars:
+    type:
+      - kip
+      - sprong
+      - salto
+      - handstand
