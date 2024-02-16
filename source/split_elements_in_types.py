@@ -1,19 +1,29 @@
 import pandas as pd
 import re
-from functions import loadConfig, saveJson
+from functions import loadConfig, saveJson, loadJson
 
 class elementTyping:
-    def __init__(self, config, file, apparatus) -> None:
+    def __init__(self, config, groupConfig, file, apparatus) -> None:
         self.apparatus = apparatus
         self.config = loadConfig(config)
-        self.df = self.loadElements(file)
+        # self.loadElements(file)[apparatus]
+        # loadJson(groupConfig)
 
     
     def loadElements(self, file):
-        """should be deprecated in the future"""
-        return pd.read_csv(file, sep="\t",  names=["number", "element", "value", "group", "difficulty", "type"] )
-
+        self.elements = loadJson(file)
+        return
+    def addElements(self, json):
+        self.elements = json
+        return 
     
+    def loadGroups(self, file):
+        self.groups = loadJson(file)
+        return
+    def addGroups(self, json):
+        self.groups = json
+        return
+
     def findType(self, element):
         """
         For the given element, find the correct type of element, as specified in the config file.
@@ -25,7 +35,7 @@ class elementTyping:
                 break
             
         if not foundType:
-            raise ValueError ("no type found for " + e)
+            raise ValueError ("no type found for " + element)
         else:
             return foundType
         
@@ -75,48 +85,81 @@ class elementTyping:
         
         if not res["salto"]["vorm"]:
             res["salto"] = None
+
+        # res =  {key:value for key, value in res.items() if key in self.config["apparatuses"][self.apparatus][fase +" vluchtfase"]}
         return res
+
     
-    def processVault(self):
+    def processVault(self, elements):
         """
         This is vault specific. 
         """
-        self.elements = {}
-        for element in self.df.iterrows():
-            e = element[1]["element"]
+        for element in elements.values():
+            e = element["description"]
             t = None
-            self.elements[element[1]["number"]] = {}
+            breakdown = {}
             typ = self.findType(e)
-            self.elements[element[1]["number"]]["type"] = typ
+            breakdown["type"] = typ
             eerste = self.processVluchtfase(e, "eerste")
             tweede = self.processVluchtfase(e, "tweede")
 
             if typ == "tsukahara":
                 tweede = self.processVluchtfase(e, "eerste")
-                tweede["salto"]["richting"] = "achterover"
                 eerste = self.processVluchtfase("dont process me", "eerste")
             
-            self.elements[element[1]["number"]]["eerste vluchtfase"] = eerste
-            self.elements[element[1]["number"]]["tweede vluchtfase"] = tweede
-        self.elements
+            breakdown["eerste vluchtfase"] = eerste
+            breakdown["tweede vluchtfase"] = tweede
+            element["breakdown"]=breakdown
+        
     
+    def processOther(self, elements):
+        for element in elements.values():
+            # print("i", element["group"])
+            # print("e", self.config["apparatuses"][self.apparatus])
+            cl = self.config["apparatuses"][self.apparatus][int(element["group"])]
+            classifications = {key:value for key, value in self.config["classifications"].items() if key in cl}
+            # print("cl", cl)
+            res = self.getClassifications(classifications, element["description"])
+            try:
+                if not res["salto"]["vorm"]:
+                    res["salto"] = None
+            except KeyError:
+                pass
+            element["breakdown"]= res
+
+
+    def addGroup(self, elements):
+
+        for element in elements.values():
+            # print("g", type(element["group"]))
+            # print("p", self.groups[self.apparatus])            
+            # print(element)
+            element["breakdown"]["group"] = self.groups[self.apparatus][int(element["group"])]
 
     def process(self):
+        # for elements in self.elements.values():
+        #     print(elements)
         if self.apparatus == "vault":
-            self.processVault()
+            self.processVault(self.elements)
+        elif self.apparatus in ["uneven bars", "beam", "floor"]:
+            self.processOther(self.elements)
         else:
             raise ValueError ("please provide a valid apparatus")
+        
+        self.addGroup(self.elements)
+            
     def save(self, file):
         saveJson(file, self.elements)
         
 
 def main():
-    apparatus = "vault"
-    configFile = "source/element_grouping.yaml"
-    dataFile = "data/"+apparatus+".tsv"
-    et = elementTyping(configFile, dataFile, apparatus)
-    elements = et.process()
-    et.save("data/"+apparatus+".json")
+    apparatus = "uneven bars"
+    # configFile = "source/element_grouping.yaml"
+    # dataFile = "data/elements.json"
+    # groupConfig = "data/groups.json"
+    # et = elementTyping(configFile, groupConfig, dataFile, apparatus)
+    # et.process()
+    # et.save("data/"+apparatus+".json")
 
 
 if __name__ == main():

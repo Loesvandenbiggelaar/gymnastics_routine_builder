@@ -2,6 +2,7 @@ classifications:
   draai:
     default: None
     values:
+      - [90, 1/4]
       - [180, ½, 1/2]
       - [270, ¾, 3/4]
       - [360, 1/1]
@@ -13,11 +14,11 @@ classifications:
     aantal:
       default: enkel
       values:
-        - [enkel]
-        - [dubbel]
+        - [enkel, salto]
+        - [dubbel, Dubbel]
         - [driedubbel, tripel]
     vorm:
-      default: None
+      default: hurk
       values:
         - [hurk]
         - [hoek]
@@ -26,7 +27,18 @@ classifications:
       default: None
       values:
         - [voorover, v.o.]
-        - [achterover, v.o.]
+        - [achterover, a.o.]
+  beenspreiding: #impementation works but the numbers conflict with the "draai"
+    default: None
+    values:
+      - [135]
+      - [180]
+    richting:
+      default: v.o.
+      values:
+        - [voorover, v.o.]
+        - [achterover, a.o.]
+        - [zijwaarts]
 
 apparatuses:
   vault:
@@ -41,8 +53,81 @@ apparatuses:
       - draai
       - salto
   uneven bars:
-    type:
-      - kip
-      - sprong
+    1:
+      - draai
+      - beenspreiding
+    2:
+      - draai
+      - beenspreiding
+    3:
+      - draai
+      - richting
+    4:
       - salto
-      - handstand
+      - richting
+      - draai
+    5:
+      - salto
+      - richting
+      - draai
+    6:
+      -
+  beam:
+    1:
+      - draai
+      - beenspreiding
+      - salto
+      - richting
+    2:
+      - draai
+      - beenspreiding
+    3:
+      - draai
+    4:
+      - richting
+      - draai
+      - richting
+    5:
+      - salto
+      - richting
+      - draai
+    6:
+      - salto
+      - richting
+      - draai
+  floor:
+    1:
+      - draai
+      - beenspreiding
+    2:
+      - draai
+      - beenspreiding
+    3:
+      - draai
+      - richting
+    4:
+      - salto
+      - richting
+      - draai
+    5:
+      - salto
+      - richting
+      - draai
+    6:
+      - salto
+      - draai
+      - richting
+  # uneven bars:
+  #   opsprong:
+  #     type:
+  #       - group 1
+
+  #   achteropzwaaien en vrije heupdraaien:
+  #     type:
+  #       - opzwaai
+  #       - heupdraai
+  #       - losom
+  #   reuzendraaien:
+  #     type:
+  #       - reuzendraai
+  #       - vlucht
