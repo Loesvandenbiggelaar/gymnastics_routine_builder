@@ -1,5 +1,15 @@
 :root {
+    /* Basic Colors */
+    color-scheme: light dark;
+    --color-base: light-dark(#eadeda, #262626);
+    --color-text: light-dark(#262626, #eadeda);
+    --color-accent: #2176ae;
+    --color-attention: #e34234; /* alternatively: #ff4f00*/
+
+    /* Default Style */
     font-size: 16px;
+
+    /* Old Colors */
     --blue-base:#0e84d4;
     --grey-base:#a8a8a8;
 
@@ -16,6 +26,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background: var(--color-base);
 }
 
 select {
