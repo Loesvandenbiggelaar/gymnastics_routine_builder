@@ -1,3 +1,34 @@
+nav {
+    display: flex;
+    gap: 12px;
+}
+
+nav a {
+    position: relative;
+    padding: 0.15em;
+
+    /* text style */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
 nav a.active {
-    color: red;
+    color: var(--color-accent);
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    background-color: var(--color-accent);
+    transition: width 0.25s ease;
+}
+
+nav a.active::after, nav a:hover::after {
+    width: 100%;
 }

@@ -1,0 +1,9 @@
+#apparatus_picker {
+    display: flex;
+    gap: 12px
+}
+
+p#apparatus_picker_label {
+    font-weight: bold;
+    margin-right: 20px;
+}
