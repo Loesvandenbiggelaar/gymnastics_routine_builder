@@ -19,7 +19,7 @@ $(document).ready(async function() {
 $(document).ready(function() { 
     // Get the current page's URL
     const current_path = window.location.pathname;
-    console.log("Current Path"current_path);
+    console.log("Current Path", current_path);
     // Find all <a> tags inside the <nav id="page-navigation"> and loop through them
     $('#page-navigation').find('a').each(function() {
         console.log($(this).attr('href'));
