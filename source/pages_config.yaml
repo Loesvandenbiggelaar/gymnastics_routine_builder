@@ -71,8 +71,8 @@ apparatuses:
         nl: (\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
 file:
   en: en_2022-2024 WAG COP.pdf
-  nl: NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
-output directory: ../data/
+  nl: source/NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
+output directory: data/
 string adjustments:
   - ["  ", " "]
   - ["    ", " "]
@@ -85,3 +85,4 @@ string adjustments:
   - ["FLIK -FLAK", "FLIK-FLAK"]
   - ["LA -DRAAI", "LA-DRAAI"]
   - ["L ENGTE AS-DRAAI", "LA-DRAAI"]
+  - ["VOO ROVER", "VOOROVER"]

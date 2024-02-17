@@ -1,0 +1,133 @@
+classifications:
+  draai:
+    default: None
+    values:
+      - [90, 1/4]
+      - [180, ½, 1/2]
+      - [270, ¾, 3/4]
+      - [360, 1/1]
+      - [540, 1 ½, 1 1/2]
+      - [720, 2/1]
+      - [900, 2 ½, 2 1/2]
+      - [1080, 3/1]
+  salto:
+    aantal:
+      default: enkel
+      values:
+        - [enkel, salto]
+        - [dubbel, Dubbel]
+        - [driedubbel, tripel]
+    vorm:
+      default: hurk
+      values:
+        - [hurk]
+        - [hoek]
+        - [strek]
+    richting:
+      default: None
+      values:
+        - [voorover, v.o.]
+        - [achterover, a.o.]
+  beenspreiding: #impementation works but the numbers conflict with the "draai"
+    default: None
+    values:
+      - [135]
+      - [180]
+    richting:
+      default: v.o.
+      values:
+        - [voorover, v.o.]
+        - [achterover, a.o.]
+        - [zijwaarts]
+
+apparatuses:
+  vault:
+    type:
+      - handstandoverslag / yamashita
+      - tsukahara
+      - arabier flik-flak / yurchenko
+      - streksprong
+    eerste vluchtfase:
+      - draai
+    tweede vluchtfase:
+      - draai
+      - salto
+  uneven bars:
+    1:
+      - draai
+      - beenspreiding
+    2:
+      - draai
+      - beenspreiding
+    3:
+      - draai
+      - richting
+    4:
+      - salto
+      - richting
+      - draai
+    5:
+      - salto
+      - richting
+      - draai
+    6:
+      -
+  beam:
+    1:
+      - draai
+      - beenspreiding
+      - salto
+      - richting
+    2:
+      - draai
+      - beenspreiding
+    3:
+      - draai
+    4:
+      - richting
+      - draai
+      - richting
+    5:
+      - salto
+      - richting
+      - draai
+    6:
+      - salto
+      - richting
+      - draai
+  floor:
+    1:
+      - draai
+      - beenspreiding
+    2:
+      - draai
+      - beenspreiding
+    3:
+      - draai
+      - richting
+    4:
+      - salto
+      - richting
+      - draai
+    5:
+      - salto
+      - richting
+      - draai
+    6:
+      - salto
+      - draai
+      - richting
+  # uneven bars:
+  #   opsprong:
+  #     type:
+  #       - group 1
+
+  #   achteropzwaaien en vrije heupdraaien:
+  #     type:
+  #       - opzwaai
+  #       - heupdraai
+  #       - losom
+  #   reuzendraaien:
+  #     type:
+  #       - reuzendraai
+  #       - vlucht
