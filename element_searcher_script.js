@@ -54,7 +54,7 @@ function displayTSV(filePath, apparatus) {
                 // ordering: true,
                 // // lengthMenu: [10, 25, 50, 75, 100],
                 // info: false,
-                columnDefs: [{targets: columntargets, visible:false}],
+                // columnDefs: [{targets: columntargets, visible:false}],
                 // pageLength: 10, // Initial number of rows per page
             });
 
