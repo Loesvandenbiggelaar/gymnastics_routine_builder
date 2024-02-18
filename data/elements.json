@@ -1,6 +1,6 @@
 {
-  "vault": {
-    "1.00": {
+  "vault": [
+    {
       "number": "1.00",
       "description": "Handstandoverslag voorover",
       "value": "1.60",
@@ -26,7 +26,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.01": {
+    {
       "number": "1.01",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase \u00bd draai (180\u00ba )",
       "value": "2.00",
@@ -52,7 +52,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.02": {
+    {
       "number": "1.02",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase 1/1 draai (360\u00ba)",
       "value": "2.60",
@@ -78,7 +78,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.03": {
+    {
       "number": "1.03",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase 1 \u00bd draai (540\u00ba)",
       "value": "3.20",
@@ -104,7 +104,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.04": {
+    {
       "number": "1.04",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase 2/1 draai (720\u00ba)",
       "value": "3.60",
@@ -130,7 +130,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.05": {
+    {
       "number": "1.05",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase 2 \u00bd draai (900\u00ba )",
       "value": "4.00",
@@ -156,7 +156,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.10": {
+    {
       "number": "1.10",
       "description": "Yamashita",
       "value": "2.00",
@@ -178,7 +178,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.11": {
+    {
       "number": "1.11",
       "description": "Yamashita - in de tweede vluchtfase \u00bd draai (180\u00ba)",
       "value": "2.40",
@@ -200,7 +200,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.12": {
+    {
       "number": "1.12",
       "description": "Yamashita - in de tweede vluchtfase 1/1 draai (360\u00ba)",
       "value": "2.80",
@@ -222,7 +222,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.20": {
+    {
       "number": "1.20",
       "description": "Handstandoverslag voorover met \u00bd draai (180\u00ba) in de eerste vluchtfase \u2013 afstoot af",
       "value": "1.60",
@@ -248,7 +248,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.21": {
+    {
       "number": "1.21",
       "description": "Handstandoverslag voorover met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase \u00bd draai (180\u00ba) (naar beide richtingen)",
       "value": "2.40",
@@ -274,7 +274,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.22": {
+    {
       "number": "1.22",
       "description": "Handstandoverslag voorover met  \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase 1/1 draai (360\u00ba)",
       "value": "2.60",
@@ -300,7 +300,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.23": {
+    {
       "number": "1.23",
       "description": "Handstandoverslag voorover met  \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase 1 \u00bd draai (540\u00ba)",
       "value": "3.20",
@@ -326,7 +326,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.24": {
+    {
       "number": "1.24",
       "description": "Handstandoverslag voorover met  \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase 2/1 draai (720\u00ba)",
       "value": "3.60",
@@ -352,7 +352,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.30": {
+    {
       "number": "1.30",
       "description": "Handstandoverslag voorover met  1/1 draai (360\u00ba) in de eerste vluchtfase",
       "value": "3.20",
@@ -378,7 +378,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.31": {
+    {
       "number": "1.31",
       "description": "Handstandoverslag voorover met  1/1 d raai (360\u00ba) in de eerste vlucht fase - in de tweede vluchtfase 1/1 draai (360\u00ba)",
       "value": "3.60",
@@ -404,7 +404,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.40": {
+    {
       "number": "1.40",
       "description": "Arabier flik -flak \u2013 afstoot af",
       "value": "2.00",
@@ -426,7 +426,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.50": {
+    {
       "number": "1.50",
       "description": "Arabier flik -flak met \u00bd draai in de eerste vluchtfase \u2013 overslag af",
       "value": "2.20",
@@ -448,7 +448,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.51": {
+    {
       "number": "1.51",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase \u00bd draai ( 180\u00b0) af",
       "value": "2.60",
@@ -470,7 +470,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.52": {
+    {
       "number": "1.52",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase 1/1 draai (360\u00ba) af",
       "value": "3.00",
@@ -492,7 +492,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.53": {
+    {
       "number": "1.53",
       "description": "Arabier flik -flak met \u00bd draai (18 0\u00ba) in de eerste vluchtfase - in de tweede vluchtfase met 1 \u00bd draai (54 0\u00ba) af",
       "value": "3.40",
@@ -514,7 +514,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.60": {
+    {
       "number": "1.60",
       "description": "Arabier flik -flak met  1/1 draai  (360\u00ba) i n de eerste vluchtfase \u2013 afstoot  af",
       "value": "2.40",
@@ -536,7 +536,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.61": {
+    {
       "number": "1.61",
       "description": "Arabier flik -flak met  1/1 draai  (360\u00ba) i n de eerste vluchtfase \u2013 in de tweede  vluchtfase \u00bd draai (180\u00b0) af",
       "value": "2.80",
@@ -558,7 +558,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "1.62": {
+    {
       "number": "1.62",
       "description": "Arabier flik -flak met  1/1 draai  (360\u00ba) i n de eerste vluchtfase \u2013 in de tweede  vluchtfase  1/1 draai (360\u00ba) af",
       "value": "3.20",
@@ -580,7 +580,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "2.10": {
+    {
       "number": "2.10",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gehurkt",
       "value": "3.60",
@@ -610,7 +610,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.11": {
+    {
       "number": "2.11",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gehurkt met \u00bd draai (180\u00ba) of in de tweede vluchtfase \u00bd draai (180\u00ba) en salto achterover  gehurkt",
       "value": "3.80",
@@ -640,7 +640,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.12": {
+    {
       "number": "2.12",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gehurkt met  1/1 draai (360\u00ba)",
       "value": "4.20",
@@ -670,7 +670,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.13": {
+    {
       "number": "2.13",
       "description": "Handstandoverslag voorover - in de tweede vlu chtfase salto voorover gehurkt m et 1 \u00bd draai (540\u00ba)",
       "value": "4.60",
@@ -700,7 +700,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.20": {
+    {
       "number": "2.20",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gehoekt",
       "value": "3.80",
@@ -730,7 +730,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.21": {
+    {
       "number": "2.21",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gehoekt met \u00bd draai (180\u00ba) of in de tweede vluchtfase \u00bd draai (180\u00ba) en salto achterover gehoekt",
       "value": "4.00",
@@ -760,7 +760,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.22": {
+    {
       "number": "2.22",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gehoekt met 1/1 draai (360\u00ba)",
       "value": "4.40",
@@ -790,7 +790,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.30": {
+    {
       "number": "2.30",
       "description": "Handstandoverslag voorover  - in de tweede vluchtfase salto voor over gestrekt",
       "value": "4.40",
@@ -816,7 +816,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.31": {
+    {
       "number": "2.31",
       "description": "Handstandoverslag voorover - in de tweede vluchtfa se salto voorover gestrekt met \u00bd draai (180\u00ba)",
       "value": "4.60",
@@ -846,7 +846,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.32": {
+    {
       "number": "2.32",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gestrekt met  1/1 draai (360\u00ba)",
       "value": "5.00",
@@ -876,7 +876,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.33": {
+    {
       "number": "2.33",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gestrekt met 1 \u00bd draai (540\u00ba)",
       "value": "5.40",
@@ -906,7 +906,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.34": {
+    {
       "number": "2.34",
       "description": "Handstandoverslag voorover - in de tweede vluchtfase salto voorover gestrekt met 2/1 draai (720\u00ba)",
       "value": "5.80",
@@ -936,7 +936,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.40": {
+    {
       "number": "2.40",
       "description": "Handstandoverslag voorover met 1/1 draai (360\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehurkt",
       "value": "4.80",
@@ -966,7 +966,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.41": {
+    {
       "number": "2.41",
       "description": "Handstandoverslag voorover met 1/1 draai (360\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voo rover gehoekt",
       "value": "5.20",
@@ -992,7 +992,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "2.50": {
+    {
       "number": "2.50",
       "description": "Handstandoverslag voorover -  in de tweede vluchtfase dubbele salto voorover gehurkt",
       "value": "6.00",
@@ -1022,7 +1022,7 @@
         "group": "handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
       }
     },
-    "3.10": {
+    {
       "number": "3.10",
       "description": "Tsukahara gehurkt",
       "value": "3.20",
@@ -1044,7 +1044,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.11": {
+    {
       "number": "3.11",
       "description": "Tsukahara gehurkt met \u00bd draai  (180\u00ba)",
       "value": "3.40",
@@ -1066,7 +1066,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.12": {
+    {
       "number": "3.12",
       "description": "Tsukahara gehurkt met 1/1 draai (360\u00ba)",
       "value": "3.80",
@@ -1088,7 +1088,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.13": {
+    {
       "number": "3.13",
       "description": "Tsukahara gehurkt met 1 \u00bd draai (540\u00ba)",
       "value": "4.20",
@@ -1110,7 +1110,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.14": {
+    {
       "number": "3.14",
       "description": "Tsukahara gehurkt met 2/1 draai (720\u00ba)",
       "value": "4.60",
@@ -1132,7 +1132,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.20": {
+    {
       "number": "3.20",
       "description": "Tsukahara gehoekt",
       "value": "3.40",
@@ -1154,7 +1154,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.30": {
+    {
       "number": "3.30",
       "description": "Tsukahara gestrekt",
       "value": "3.80",
@@ -1176,7 +1176,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.31": {
+    {
       "number": "3.31",
       "description": "Tsukahara gestrekt met \u00bd draai (180\u00ba)",
       "value": "4.00",
@@ -1198,7 +1198,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.32": {
+    {
       "number": "3.32",
       "description": "Tsukahara gestrekt met 1/1 draai (360\u00ba)",
       "value": "4.40",
@@ -1220,7 +1220,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.33": {
+    {
       "number": "3.33",
       "description": "Tsukahara gestrekt met 1 \u00bd draai (540\u00ba)",
       "value": "4.80",
@@ -1242,7 +1242,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.34": {
+    {
       "number": "3.34",
       "description": "Tsukahara gestrekt met 2/1  draai (720\u00ba)",
       "value": "5.20",
@@ -1264,7 +1264,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "3.35": {
+    {
       "number": "3.35",
       "description": "Tsukahara gestrekt met  2 \u00bd draai (900\u00ba)",
       "value": "5.60",
@@ -1286,7 +1286,7 @@
         "group": "handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.10": {
+    {
       "number": "4.10",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehurkt",
       "value": "3.00",
@@ -1312,7 +1312,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.11": {
+    {
       "number": "4.11",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehurkt met \u00bd draai (180\u00ba )",
       "value": "3.20",
@@ -1338,7 +1338,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.12": {
+    {
       "number": "4.12",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehurkt met 1/1 draai (360\u00ba)",
       "value": "3.60",
@@ -1364,7 +1364,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.13": {
+    {
       "number": "4.13",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase  salto achterover gehurkt met 1  \u00bd draai (540\u00ba)",
       "value": "4.00",
@@ -1390,7 +1390,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.14": {
+    {
       "number": "4.14",
       "description": "Arabier flik -flak in de eerste  vluchtfase - in de tweede vluchtfase salto achterover  gehurkt met 2/1 draai (720\u00ba)",
       "value": "4.40",
@@ -1416,7 +1416,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.20": {
+    {
       "number": "4.20",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehoekt",
       "value": "3.20",
@@ -1442,7 +1442,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.30": {
+    {
       "number": "4.30",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover  gestrekt",
       "value": "3.60",
@@ -1468,7 +1468,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.31": {
+    {
       "number": "4.31",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover  gestrekt met \u00bd draai (180\u00ba)",
       "value": "3.80",
@@ -1494,7 +1494,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.32": {
+    {
       "number": "4.32",
       "description": "Arabier flik -flak in de eerste  vluchtfase - in de tweede vluchtfase salto achterover  gestrekt met 1/1 draai (360\u00ba)",
       "value": "4.20",
@@ -1520,7 +1520,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.33": {
+    {
       "number": "4.33",
       "description": "Arabier flik -flak in de eerste  vluchtfase - in de tweede vluchtfase salto achterover  gestrekt met 1 \u00bd draai (540\u00ba)",
       "value": "4.60",
@@ -1546,7 +1546,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.34": {
+    {
       "number": "4.34",
       "description": "Arabier flik -flak in de eerste  vluchtfase - in de tweede  vluchtfase salto achterover  gestrekt met 2/1 draai (720\u00ba)",
       "value": "5.00",
@@ -1572,7 +1572,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.35": {
+    {
       "number": "4.35",
       "description": "Arabier flik -flak in de eerste vluchtfase - in de tweede vluchtfase salto achterover gestrekt met 2  \u00bd draai (900\u00ba)",
       "value": "5.40",
@@ -1598,7 +1598,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.40": {
+    {
       "number": "4.40",
       "description": "Arabier flik -flak met \u00be draai (270\u00b0) in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehurkt",
       "value": "3.60",
@@ -1624,7 +1624,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.41": {
+    {
       "number": "4.41",
       "description": "Arabier flik -flak met  \u00be draai (270\u00b0) in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehurkt met \u00bd draai (180\u00ba)",
       "value": "4.00",
@@ -1650,7 +1650,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.42": {
+    {
       "number": "4.42",
       "description": "Arabier flik -flak met  \u00be draai ( 270\u00b0) in de eerste vluchtfase - in de tweede vluchtfase salto achterover gehurkt met 1/1 draai (360\u00ba)",
       "value": "4.20",
@@ -1676,7 +1676,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.50": {
+    {
       "number": "4.50",
       "description": "Arabier flik -flak met \u00be draai (270\u00b0) in de eerste vluchtfase en in de tweede  vluchtfase salto achterover gehoekt",
       "value": "3.80",
@@ -1702,7 +1702,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.51": {
+    {
       "number": "4.51",
       "description": "Arabier flik -flak met \u00be draai (270\u00b0) in de eerste vluchtfase - in de tweede vluchtfase salto achterover gestrekt",
       "value": "4.20",
@@ -1728,7 +1728,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.52": {
+    {
       "number": "4.52",
       "description": "Arabier flik -flak met \u00be draai (270\u00b0) in de eerste vluchtfase - in de tweede vluchtfase salto achterover gestrekt met \u00bd draai (180\u00ba)",
       "value": "4.60",
@@ -1754,7 +1754,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "4.53": {
+    {
       "number": "4.53",
       "description": "Arabier flik -flak met \u00be draai (270\u00b0) in de eerste vluc htfase - in de tweede vluchtfase salto achterover gestrekt met 1/1 draai (360\u00ba)",
       "value": "5.00",
@@ -1780,7 +1780,7 @@
         "group": "arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
       }
     },
-    "5.10": {
+    {
       "number": "5.10",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehurkt",
       "value": "3.80",
@@ -1806,7 +1806,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.11": {
+    {
       "number": "5.11",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba)  in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehurkt met \u00bd draai (180\u00ba ) of  in de tweede vluchtfase \u00bd draai (180\u00ba) en salto achterover gehurkt",
       "value": "4.00",
@@ -1832,7 +1832,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.12": {
+    {
       "number": "5.12",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase \u2013  in de tweede vluchtfase salto voorover gehurkt met 1/1 draai (360\u00ba)",
       "value": "4.40",
@@ -1858,7 +1858,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.13": {
+    {
       "number": "5.13",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba)  in de eerste vluchtfase - in de  tweede vluchtfase salto voorover  gehurkt met 1\u00bd draai (540\u00ba)",
       "value": "4.80",
@@ -1884,7 +1884,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.20": {
+    {
       "number": "5.20",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehoekt",
       "value": "4.00",
@@ -1910,7 +1910,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.21": {
+    {
       "number": "5.21",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehoekt met \u00bd draai (180\u00ba)  of  - in de tweede vluchtfase \u00bd draai (180\u00ba) en salto achterover gehoekt",
       "value": "4.20",
@@ -1936,7 +1936,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.22": {
+    {
       "number": "5.22",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehoekt met 1/1 draai (360\u00ba)",
       "value": "4.60",
@@ -1962,7 +1962,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.30": {
+    {
       "number": "5.30",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gestrekt",
       "value": "4.60",
@@ -1988,7 +1988,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.31": {
+    {
       "number": "5.31",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gestrekt met \u00bd draai (180\u00ba)",
       "value": "4.80",
@@ -2014,7 +2014,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.32": {
+    {
       "number": "5.32",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gestrekt met 1/1 draai (360\u00ba)",
       "value": "5.20",
@@ -2040,7 +2040,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.33": {
+    {
       "number": "5.33",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba)  in de eerste vluchtfase - in de tweede vluchtfase salto voorover gestrekt met  1\u00bd draai (540\u00ba)",
       "value": "5.60",
@@ -2066,7 +2066,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "5.34": {
+    {
       "number": "5.34",
       "description": "Arabier flik -flak met \u00bd draai (180\u00ba)  in de eerste vluchtfase - in de tweede vluchtfase salto voorover gestrekt met 2/1 draai (720\u00ba)",
       "value": "6.00",
@@ -2092,7 +2092,7 @@
         "group": "arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
       }
     },
-    "0.10": {
+    {
       "number": "0.10",
       "description": "Streksprong op - streksprong af",
       "value": "1.10",
@@ -2114,7 +2114,7 @@
         "group": "vrije sprongen"
       }
     },
-    "T1.41": {
+    {
       "number": "T1.41",
       "description": "Arabier flik -flak in de 1e vluchtfase -  in de 2e vluchtfase \u00bd draai (180\u00ba) af",
       "value": "2.40",
@@ -2136,7 +2136,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "T1.42": {
+    {
       "number": "T1.42",
       "description": "Arabier flik -flak in de 1e vluchtfase - in de 2e vluchtfase 1/1 draai (360\u00ba) af",
       "value": "2.80",
@@ -2158,7 +2158,7 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     },
-    "T1.43": {
+    {
       "number": "T1.43",
       "description": "Arabier flik -flak in de 1e vluchtfase - in de 2e vluchtfase met 1\u00bd draai (540\u00ba) af",
       "value": "3.20",
@@ -2180,9 +2180,9 @@
         "group": "handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
       }
     }
-  },
-  "uneven bars": {
-    "1.103": {
+  ],
+  "uneven bars": [
+    {
       "number": "1.103",
       "description": "Zweefhangzwaai aan de LL  (of strekhang -zwaai voorwaarts aan de HL ) doorhoeken  tot ruglingse steun ( kipopzwaai ruglings, contact  ligger met achterkant van bovenbenen)  of met uitspreiden tot zweefhang aan dezelfde ligger",
       "difficulty": "A",
@@ -2195,7 +2195,7 @@
         "group": "opsprongen"
       }
     },
-    "1.203": {
+    {
       "number": "1.203",
       "description": "Ruglingse kip vanuit - zweefhangzwaai aan de LL of voorzwaai aan de HL - doorhoeken tot vouwhang, kipopzwaai ruglings a.o. tot steun ruglings",
       "difficulty": "B",
@@ -2208,7 +2208,7 @@
         "group": "opsprongen"
       }
     },
-    "1.104": {
+    {
       "number": "1.104",
       "description": "Sprong tot vluchtige hang aan de HL - ook in ondergreep - kip tot streksteun op de HL",
       "difficulty": "A",
@@ -2221,7 +2221,7 @@
         "group": "opsprongen"
       }
     },
-    "1.204": {
+    {
       "number": "1.204",
       "description": "Vanuit parallelstand voor  de HL - sprong met  \u00bd draai (180\u00b0) - kip tot streksteun op de HL    Vrije sprong met \u00bd draai (180\u00ba) over de LL tot strekhang aan de HL",
       "difficulty": "B",
@@ -2230,7 +2230,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "beenspreiding": 180, "group": "opsprongen" }
     },
-    "1.304": {
+    {
       "number": "1.304",
       "description": "Sprong met \u00bd draai (180\u00b0) over de LL - kip tot streksteun op de HL",
       "difficulty": "C",
@@ -2239,7 +2239,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "beenspreiding": 180, "group": "opsprongen" }
     },
-    "1.105": {
+    {
       "number": "1.105",
       "description": "Vanuit parallelstand voor de HL - sprong met 1/1 draai (360\u00b0) tot strekhang aan de HL",
       "difficulty": "A",
@@ -2252,7 +2252,7 @@
         "group": "opsprongen"
       }
     },
-    "1.106": {
+    {
       "number": "1.106",
       "description": "Spreiden over de LL met afstoot van de handen tot strekhang aan de HL",
       "difficulty": "A",
@@ -2265,7 +2265,7 @@
         "group": "opsprongen"
       }
     },
-    "1.206": {
+    {
       "number": "1.206",
       "description": "Vrije spreidsprong over de LL tot strekhang aan de  HL   Hechtsprong (benen gesloten) over de LL met afzet van de handen tot strekhang aan de HL",
       "difficulty": "B",
@@ -2278,7 +2278,7 @@
         "group": "opsprongen"
       }
     },
-    "1.306": {
+    {
       "number": "1.306",
       "description": "Vrije gestrekte sprong over de LL tot strekhang aan de HL",
       "difficulty": "C",
@@ -2291,7 +2291,7 @@
         "group": "opsprongen"
       }
     },
-    "1.406": {
+    {
       "number": "1.406",
       "description": "Hechtsprong (benen gesloten) over de LL met afzet van de handen en 1/1 (360\u00b0) draai tot strekhan g aan de HL",
       "difficulty": "D",
@@ -2304,7 +2304,7 @@
         "group": "opsprongen"
       }
     },
-    "1.207": {
+    {
       "number": "1.207",
       "description": "Salto v.o. gehurkt, gespreid of gehoekt over de LL tot ellehang aan de LL",
       "difficulty": "B",
@@ -2317,7 +2317,7 @@
         "group": "opsprongen"
       }
     },
-    "1.307": {
+    {
       "number": "1.307",
       "description": "Vanuit parallelstand voor de HL - salto v.o. tot vluchtige strekhang aan de HL   Salto v.o. gehoekt over de LL met handafzet tot strekhang aan de  HL",
       "difficulty": "C",
@@ -2330,7 +2330,7 @@
         "group": "opsprongen"
       }
     },
-    "1.407": {
+    {
       "number": "1.407",
       "description": "Salto v.o. gehurkt over de LL tot strekhang aan de HL zonder aanraken van de LL",
       "difficulty": "D",
@@ -2343,7 +2343,7 @@
         "group": "opsprongen"
       }
     },
-    "1.208": {
+    {
       "number": "1.208",
       "description": "Arabier voor de LL - vlucht achterwaarts (gespreid) tot vluchtige vrije spreidhoek -steun op de LL",
       "difficulty": "B",
@@ -2356,7 +2356,7 @@
         "group": "opsprongen"
       }
     },
-    "1.308": {
+    {
       "number": "1.308",
       "description": "Arabier voor de L L - vlucht achterwaarts over de LL met gesloten benen of gespreid tot strekhang aan de HL",
       "difficulty": "C",
@@ -2369,7 +2369,7 @@
         "group": "opsprongen"
       }
     },
-    "1.408": {
+    {
       "number": "1.408",
       "description": "Arabier voor de LL  - vlucht achter waarts over de LL met 1/1 draai (360\u00ba) tot strekhang aan de HL",
       "difficulty": "D",
@@ -2382,7 +2382,7 @@
         "group": "opsprongen"
       }
     },
-    "1.409": {
+    {
       "number": "1.409",
       "description": "Arabier voor de LL - salto a.o. gehurkt over de LL tot zweefhang aan de LL     Arabier voor de LL - flik-flak tot  handstand op de LL",
       "difficulty": "D",
@@ -2395,7 +2395,7 @@
         "group": "opsprongen"
       }
     },
-    "1.509": {
+    {
       "number": "1.509",
       "description": "Arabier voor de LL - flik-flak met 1/1 draai (360\u00b0) tot vrije steun of handstand op de LL",
       "difficulty": "E",
@@ -2408,7 +2408,7 @@
         "group": "opsprongen"
       }
     },
-    "1.609": {
+    {
       "number": "1.609",
       "description": "Arabier voor de LL \u2013 twistsalto gehurkt over de LL tot strekhang aan de HL zonder aanraken van de LL",
       "difficulty": "F",
@@ -2421,7 +2421,7 @@
         "group": "opsprongen"
       }
     },
-    "1.709": {
+    {
       "number": "1.709",
       "description": "Arabier voor de LL \u2013 twistsalto gehoekt  over de LL tot strekhang aan de HL zonder aanraken van de LL    Brug \u2013 Groep 1 \u2013 5  ",
       "difficulty": "G",
@@ -2434,7 +2434,7 @@
         "group": "opsprongen"
       }
     },
-    "1.210": {
+    {
       "number": "1.210",
       "description": "Sprong tot in handstand op de LL  (benen gesloten of gespreid)  met gebogen heupen en daarna gestrekt , ook met \u00bd draai (180\u00b0) in de handstandfase",
       "difficulty": "B",
@@ -2443,7 +2443,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "beenspreiding": 180, "group": "opsprongen" }
     },
-    "1.310": {
+    {
       "number": "1.310",
       "description": "Sprong tot handstand op de LL  (benen gesloten of gespreid)  met heupen gebogen en daarna gestrekt en 1/1 draai (360\u00ba) in de handstandfase   Sprong met gestrekt lichaam tot hand -stand op de LL, ook met \u00bd draai  (180\u00b0)",
       "difficulty": "C",
@@ -2452,7 +2452,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 360, "beenspreiding": 180, "group": "opsprongen" }
     },
-    "1.410": {
+    {
       "number": "1.410",
       "description": "Sprong met gestrekt lichaam tot handstand op de LL met 1/1 draai (360\u00ba) in  handstandfase",
       "difficulty": "D",
@@ -2465,7 +2465,7 @@
         "group": "opsprongen"
       }
     },
-    "1.411": {
+    {
       "number": "1.411",
       "description": "Sprong tot vrije steun op de HL - losom tot in handstand op de HL, ook met \u00bd draai  (180\u00ba) in handstandfase op de HL",
       "difficulty": "D",
@@ -2474,7 +2474,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "beenspreiding": 180, "group": "opsprongen" }
     },
-    "2.101": {
+    {
       "number": "2.101",
       "description": "Achteropzwaai tot handstand met gespreide benen of met gebogen heupen, ook met omspringen",
       "difficulty": "A",
@@ -2487,7 +2487,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.201": {
+    {
       "number": "2.201",
       "description": "Achteropzwaai tot handstand met gesloten benen en gestrekte heupen; ook met omspringen tot in ellegreep of ondergreep; ook met 1/2 draai (180\u00ba), benen gesloten of gespreid",
       "difficulty": "B",
@@ -2500,7 +2500,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.301": {
+    {
       "number": "2.301",
       "description": "Achterop zwaai met 1/1 draai (360\u00ba) tot handstand",
       "difficulty": "C",
@@ -2513,7 +2513,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.401": {
+    {
       "number": "2.401",
       "description": "Achteropzwaai met 1 \u00bd draai (540\u00b0) tot handstand",
       "difficulty": "D",
@@ -2526,7 +2526,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.202": {
+    {
       "number": "2.202",
       "description": "Streksteun borstlings op de HL - over-hoeken met vluchtfase of vrij overspreiden voorwaarts over de HL met \u00bd draai (180\u00b0) tot strekhang aan de HL",
       "difficulty": "B",
@@ -2539,7 +2539,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.302": {
+    {
       "number": "2.302",
       "description": "Vrije heupdraai a.o. aan LL of HL, hecht met vluchtfase en \u00bd draai (180\u00b0) tijdens het passeren van de ligger (hechtkeren) tot hang aan dezelfde ligger - ook vanuit vrije heupdraai a.o. aan de HL (vrij hechtkeren)",
       "difficulty": "C",
@@ -2552,7 +2552,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.303": {
+    {
       "number": "2.303",
       "description": "Vanuit streksteun borstlings op de HL - achteropzwaai met loslaten en 1/1 draai (360\u00b0) tot strekhang aan de HL",
       "difficulty": "C",
@@ -2565,7 +2565,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.403": {
+    {
       "number": "2.403",
       "description": "Streksteun borstlings op de LL aan de binnenzijde van de LL  \u2013 achteropzwaai met saltorol v.o. tot strekhang aan de HL (Radochla -rol)",
       "difficulty": "D",
@@ -2578,7 +2578,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.503": {
+    {
       "number": "2.503",
       "description": "Streksteun borstlings op de HL - achteropzwaai met salto v.o. gespreid tot strekhang aan de HL (Comaneci -salto)",
       "difficulty": "E",
@@ -2591,7 +2591,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.104": {
+    {
       "number": "2.104",
       "description": "Heupdraai v.o. (heupen tegen de ligger)",
       "difficulty": "A",
@@ -2604,7 +2604,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.404": {
+    {
       "number": "2.404",
       "description": "Vrije heupdraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) in handstandfase (Weilerkip)",
       "difficulty": "D",
@@ -2617,7 +2617,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.105": {
+    {
       "number": "2.105",
       "description": "Heupdraai a.o. aan de lage of hoge ligger tot streksteun (met of zonder steun van de handen)    (Vrije) heupdraai a.o. aan de LL \u2013 opstrekken  / heup afzet  (hechten) \u2013 met herpakken van de LL",
       "difficulty": "A",
@@ -2630,7 +2630,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.305": {
+    {
       "number": "2.305",
       "description": "Losom tot  handstand, ook met omspringen tot in andere greep in de handstandfase, of met \u00bd draai (180\u00ba) tot handstand",
       "difficulty": "C",
@@ -2643,7 +2643,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.405": {
+    {
       "number": "2.405",
       "description": "Losom met 1/1 draai (360\u00b0) tot handstand",
       "difficulty": "D",
@@ -2656,7 +2656,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.505": {
+    {
       "number": "2.505",
       "description": "Losom met 1 \u00bd draai (540\u00ba) tot handstand",
       "difficulty": "E",
@@ -2669,7 +2669,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.206": {
+    {
       "number": "2.206",
       "description": "Vrije onderzwaai met loslaten en contrabeweging v.o. in de vluchtfase tot strekhang aan de HL",
       "difficulty": "B",
@@ -2682,7 +2682,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.406": {
+    {
       "number": "2.406",
       "description": "Streksteun borstlings op de LL aan  binnenzijde - losom door handstand met vluchtfase tot strekhang aan de HL (Schaposchnikova)",
       "difficulty": "D",
@@ -2695,7 +2695,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.506": {
+    {
       "number": "2.506",
       "description": "Losom aan de HL, contraspreiden over de HL tot strekhang aan de HL",
       "difficulty": "E",
@@ -2708,7 +2708,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.606": {
+    {
       "number": "2.606",
       "description": "Losom aan de HL, contra hoeken over de HL tot strekhang aan de HL    Losom aan de HL  met contraspreiden over de HL met \u00bd draai (180\u00b0)  tot hang in gemengde ellegreep",
       "difficulty": "F",
@@ -2721,7 +2721,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.307": {
+    {
       "number": "2.307",
       "description": "Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hechten tot strekhang aan de HL (benen gesloten of gespreid)",
       "difficulty": "C",
@@ -2734,7 +2734,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.407": {
+    {
       "number": "2.407",
       "description": "Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hecht en met \u00bd draai (180\u00b0) tot strekhang aan de HL (benen gesloten of gespreid)",
       "difficulty": "D",
@@ -2747,7 +2747,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "3.201": {
+    {
       "number": "3.201",
       "description": "Reuzendraai a.o. tot handstand in bovengreep, ook aan \u00e9\u00e9n arm   Reuzendraai a.o. met \u00bd draai (180\u00b0) of met \u00bd draai - \u00bd draai (180\u00b0/180\u00b0) tot handstand",
       "difficulty": "B",
@@ -2756,7 +2756,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.301": {
+    {
       "number": "3.301",
       "description": "Reuzendraai a.o. met 1/1 draai (360\u00ba) tot handstand",
       "difficulty": "C",
@@ -2765,7 +2765,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 360, "group": "reuzendraaien" }
     },
-    "3.401": {
+    {
       "number": "3.401",
       "description": "Reuzendraai a.o. met gesprongen 1/1 draai (360\u00b0) tot handstand",
       "difficulty": "D",
@@ -2774,7 +2774,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 360, "group": "reuzendraaien" }
     },
-    "3.402": {
+    {
       "number": "3.402",
       "description": "Strekhang aan de HL \u2013 voorzwaai met \u00bd draai (180\u00b0) en vluchtfase tot handstand op de LL",
       "difficulty": "D",
@@ -2783,7 +2783,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.502": {
+    {
       "number": "3.502",
       "description": "Strekhang aan HL \u2013 voorzwaai met 1\u00bd  draai (540\u00b0) en vlucht over de LL tot hang aan de LL",
       "difficulty": "E",
@@ -2792,7 +2792,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 540, "group": "reuzendraaien" }
     },
-    "3.403": {
+    {
       "number": "3.403",
       "description": "Strekhangzwaai voorwaarts, contraspreiden - ruglingse hecht (Tkatchev) over de HL tot strekhang       Strekhangzwaai voorwaarts met \u00bd draai (180\u00b0), gehoekt overspringen over de HL tot strekhang",
       "difficulty": "D",
@@ -2801,7 +2801,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.503": {
+    {
       "number": "3.503",
       "description": "Tkatchev gehoekt  Tkatchev met \u00bd draai (180\u00b0)   Strekhangzwaai v oorwaarts met \u00bd draai (180\u00ba) - \u00bd draai (180\u00ba) en contra spreiden in de vlucht over de HL tot strekhang aan de HL",
       "difficulty": "E",
@@ -2810,7 +2810,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.304": {
+    {
       "number": "3.304",
       "description": "Strekhang aan de HL, gezicht naar de LL - voorzwaai en saltorol a.o. gehurkt of gespreid tot zweefhang aan of vrije spreidhoeksteun op de LL",
       "difficulty": "C",
@@ -2819,7 +2819,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.404": {
+    {
       "number": "3.404",
       "description": "Strekhang aan de HL, gezicht naar de LL - voorzwaai, salto a.o. gestrekt tussen de liggers tot vrije streks teun op de LL  (Pak Salto)",
       "difficulty": "D",
@@ -2828,7 +2828,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.504": {
+    {
       "number": "3.504",
       "description": "Pak salto met 1/1 draai (360\u00ba)",
       "difficulty": "E",
@@ -2837,7 +2837,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 360, "group": "reuzendraaien" }
     },
-    "3.604": {
+    {
       "number": "3.604",
       "description": "Gezicht naar buiten - voorzwaai aan de HL - contrasalto v.o. met gespreide benen tot strekhang aan de HL in ondergreep      Brug \u2013 Groep 3 \u2013 2 ",
       "difficulty": "F",
@@ -2846,7 +2846,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.405": {
+    {
       "number": "3.405",
       "description": "Voorzwaai met \u00bd draai (180\u00ba) en salto v.o. gespreid (Deltchev Salto), of voorzwaai en salto a.o. met \u00bd draai (180\u00ba) gehoekt (Gienger Salto)  tot strekhang aan de HL",
       "difficulty": "D",
@@ -2855,7 +2855,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.505": {
+    {
       "number": "3.505",
       "description": "Voorzwaai en salto achterwaarts met \u00bd draai  (180\u00b0) gestrekt tot strekhang aan de HL",
       "difficulty": "E",
@@ -2864,7 +2864,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.705": {
+    {
       "number": "3.705",
       "description": "Voorzwaai en salto a.o. gestrekt met  1\u00bd  draai (540\u00b0) tot strekhang aan de HL     Brug \u2013 Groep 3 \u2013 3   ",
       "difficulty": "G",
@@ -2873,7 +2873,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 540, "group": "reuzendraaien" }
     },
-    "3.206": {
+    {
       "number": "3.206",
       "description": "Reuzendraai v.o. in onder -, boven - of mixgreep tot handstand, ook met gespreide benen of gebogen heupen in de opzwaai, ook met \u00bd draai (180\u00b0) tot handstand",
       "difficulty": "B",
@@ -2882,7 +2882,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.306": {
+    {
       "number": "3.306",
       "description": "Reuzendraai v.o. met 1/1 draai (360\u00ba) tot handstand",
       "difficulty": "C",
@@ -2891,7 +2891,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 360, "group": "reuzendraaien" }
     },
-    "3.506": {
+    {
       "number": "3.506",
       "description": "Reuzendraai v.o. in ondergreep tot handstand met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase tot in ellegreep of reuzendraai v.o. in ondergreep met 1\u00bd (540\uf0b0) draai tot handstand",
       "difficulty": "E",
@@ -2900,7 +2900,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 540, "group": "reuzendraaien" }
     },
-    "3.307": {
+    {
       "number": "3.307",
       "description": "Achterzwaai (rug naar de LL) in boven - of ondergreep  met gespreide benen vlucht achterwaarts  over de LL tot handstand op de LL",
       "difficulty": "C",
@@ -2909,7 +2909,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.407": {
+    {
       "number": "3.407",
       "description": "Achterzwaai (rug naar de LL) in onder -greep, met loslaten en \u00bd draai (180\u00ba) in de vlucht tussen de liggers en weer vastpakken van de LL in zweefhang",
       "difficulty": "D",
@@ -2918,7 +2918,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.308": {
+    {
       "number": "3.308",
       "description": "Achterzwaai in ondergreep of ellegreep, salto v.o. gehurkt tot strekhang aan de HL (Jaeger Salto)",
       "difficulty": "C",
@@ -2927,7 +2927,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.408": {
+    {
       "number": "3.408",
       "description": "Jaeger salto  gespreid tot strekhang aan de HL",
       "difficulty": "D",
@@ -2936,7 +2936,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.508": {
+    {
       "number": "3.508",
       "description": "Jaeger salto gespreid met \u00bd draai (180\u00b0) tot strekhang aan de HL",
       "difficulty": "E",
@@ -2945,7 +2945,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.608": {
+    {
       "number": "3.608",
       "description": "Jaeger salto gestrekt tot strekhang aan de HL",
       "difficulty": "F",
@@ -2954,7 +2954,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.708": {
+    {
       "number": "3.708",
       "description": "Achterzwaai in ellegreep met salto v.o. gehurkt over de HL to t strekhang aan de  HL in onder greep",
       "difficulty": "G",
@@ -2963,7 +2963,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.309": {
+    {
       "number": "3.309",
       "description": "Achterzwaai in ondergreep met vrij hoekwenden of spreidsprong en \u00bd draai (180\u00b0) over  de HL tot strekhang aan de HL",
       "difficulty": "C",
@@ -2972,7 +2972,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.409": {
+    {
       "number": "3.409",
       "description": "Achterzwaai in ondergreep met \u00bd draai (180\u00b0) en met gespreide benen vlucht achterwaarts over  de HL tot strekhang aan de HL",
       "difficulty": "D",
@@ -2981,7 +2981,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.310": {
+    {
       "number": "3.310",
       "description": "Reuzendraai v.o. in ellegreep (rugwaarts) met gehoekt of gestrekt lichaam (ellegreepreus) tot handstand, ook met \u00bd draai (180\u00ba) tot handstand",
       "difficulty": "C",
@@ -2990,7 +2990,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.410": {
+    {
       "number": "3.410",
       "description": "Reuzendraai v.o. in ellegreep met 1/1 draai (360\u00ba) tot handstand",
       "difficulty": "D",
@@ -2999,7 +2999,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 360, "group": "reuzendraaien" }
     },
-    "3.510": {
+    {
       "number": "3.510",
       "description": "Reuzendraai v.o. in ellegreep met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase, voltooid in de handstandfase, of  Reuzendraai v.o. in ellegreep met 1 \u00bd draai (540\u00ba) tot handstand",
       "difficulty": "E",
@@ -3008,7 +3008,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 540, "group": "reuzendraaien" }
     },
-    "4.101": {
+    {
       "number": "4.101",
       "description": "Vrije spreiddraai v.o. aan de LL of de HL tot vrije steun",
       "difficulty": "A",
@@ -3021,7 +3021,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.201": {
+    {
       "number": "4.201",
       "description": "Kip aan HL, via vrije spreidsteun -  zwaaien /heffen tot handstand en  \u00bd draai (180\u00ba) in handstandfase",
       "difficulty": "B",
@@ -3034,7 +3034,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.301": {
+    {
       "number": "4.301",
       "description": "Stalder v.o. tot handstand,  ook met \u00bd draai (180\u00b0)",
       "difficulty": "C",
@@ -3047,7 +3047,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.401": {
+    {
       "number": "4.401",
       "description": "Stalder v.o. met 1/1 draai (360\u00b0) tot handstand",
       "difficulty": "D",
@@ -3060,7 +3060,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.302": {
+    {
       "number": "4.302",
       "description": "Vrije spreiddraai a.o. aan de HL met vlucht  tot zweefhang aan de LL",
       "difficulty": "C",
@@ -3077,7 +3077,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.402": {
+    {
       "number": "4.402",
       "description": "Vrije spreiddraai a.o. aan de HL met vlucht tot handstand op de LL",
       "difficulty": "D",
@@ -3094,7 +3094,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.502": {
+    {
       "number": "4.502",
       "description": "Stalder a.o. aan de HL met contraspreiden achterwaarts over de HL tot strekhang",
       "difficulty": "E",
@@ -3111,7 +3111,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.602": {
+    {
       "number": "4.602",
       "description": "Stalder a.o. aan de HL met contrahoeken achterwaarts over de HL tot strekhang   Stalder a.o. aan de HL met contraspreiden over de HL met \u00bd draai (180\u00b0)  tot gemende ellegreep  aan de HL  Brug \u2013 Groep 4 \u2013 1 ",
       "difficulty": "F",
@@ -3128,7 +3128,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.103": {
+    {
       "number": "4.103",
       "description": "Vrije spreiddraai v.o. in ellegreep tot vrije steun",
       "difficulty": "A",
@@ -3141,7 +3141,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.403": {
+    {
       "number": "4.403",
       "description": "Stalder v.o. in ellegreep tot handstand,  ook met \u00bd draai (180\u00b0) tot handstan d",
       "difficulty": "D",
@@ -3154,7 +3154,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.503": {
+    {
       "number": "4.503",
       "description": "Stalder v.o. in ellegreep met 1/1 draai (360\u00ba) tot handstand",
       "difficulty": "E",
@@ -3167,7 +3167,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.104": {
+    {
       "number": "4.104",
       "description": "Vrije spreiddraai a.o. aan de tot vrije steun",
       "difficulty": "A",
@@ -3184,7 +3184,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.304": {
+    {
       "number": "4.304",
       "description": "Stalder a.o. tot handstand, ook met gesprongen greepwissel in handstandfase of met \u00bd draai (180\u00ba) tot handstand",
       "difficulty": "C",
@@ -3201,7 +3201,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.404": {
+    {
       "number": "4.404",
       "description": "Stalder a.o. met 1/1 draai (360\u00b0) tot handstand",
       "difficulty": "D",
@@ -3218,7 +3218,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.504": {
+    {
       "number": "4.504",
       "description": "Stalder a.o. met 1 \u00bd draai (540\u00b0) tot handstand",
       "difficulty": "E",
@@ -3235,7 +3235,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.205": {
+    {
       "number": "4.205",
       "description": "Met gezicht naar binnen - stalder a.o. met vlucht en contrabeweging tot hang aan de HL",
       "difficulty": "B",
@@ -3252,7 +3252,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.305": {
+    {
       "number": "4.305",
       "description": "Met gezicht naar binnen - stalder a.o. met hecht tot strekhang aan de HL",
       "difficulty": "C",
@@ -3269,7 +3269,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.405": {
+    {
       "number": "4.405",
       "description": "Met gezicht naar buiten aan de LL -  stalder a.o. door handstand met vlucht tot strekhang aan de HL",
       "difficulty": "D",
@@ -3286,7 +3286,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.505": {
+    {
       "number": "4.505",
       "description": "Stalder a.o. door handstand met \u00bd draai in vlucht tot strekhang aan de HL",
       "difficulty": "E",
@@ -3303,7 +3303,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.106": {
+    {
       "number": "4.106",
       "description": "Ruglingse streksteun  - gehoekte zitdraai v.o. tot ruglingse streksteun",
       "difficulty": "A",
@@ -3316,7 +3316,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.406": {
+    {
       "number": "4.406",
       "description": "Vrije hoekdraai v.o. tot handstand, ook met \u00bd draai (1 80\u00ba) tot handstand",
       "difficulty": "D",
@@ -3329,7 +3329,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.506": {
+    {
       "number": "4.506",
       "description": "Vrije hoekdraai  v.o. met 1/1 draai (360\u00ba) tot handstand",
       "difficulty": "E",
@@ -3342,7 +3342,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.107": {
+    {
       "number": "4.107",
       "description": "Ruglingse streksteun - gehoekte zitdraai a.o. tot ruglingse streksteun",
       "difficulty": "A",
@@ -3359,7 +3359,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.407": {
+    {
       "number": "4.407",
       "description": "Vrije hoekdraai a.o. tot handstand, ook met \u00bd draai (180\u00ba)  tot handstand",
       "difficulty": "D",
@@ -3376,7 +3376,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.507": {
+    {
       "number": "4.507",
       "description": "Vrije hoekdraai a.o. met 1/1 draai (360\u00ba)  tot handstand",
       "difficulty": "E",
@@ -3393,7 +3393,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.208": {
+    {
       "number": "4.208",
       "description": "Vrije hoekdraai a.o. aan de LL met contrabeweging en vlucht tot strekhang aan de HL",
       "difficulty": "B",
@@ -3410,7 +3410,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.308": {
+    {
       "number": "4.308",
       "description": "Vrije hoekdraai a.o. aan de LL met hecht vlucht tot strekhang aan de HL",
       "difficulty": "C",
@@ -3427,7 +3427,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.508": {
+    {
       "number": "4.508",
       "description": "Vrije hoekdraai a.o. tot handstand met vlucht tot strekhang aan de HL, ook met  \u00bd draai (180\u00b0)    Vrije hoekdraai a.o. met gespreide contravlucht (open heupen voor de vlucht)  over de HL tot strekhang",
       "difficulty": "E",
@@ -3444,7 +3444,7 @@
         "group": "stalderdraaien"
       }
     },
-    "4.608": {
+    {
       "number": "4.608",
       "description": "Vrije hoekdraai a.o. met gehoekte contravlucht (open heupen voor de vlucht)  over de HL tot strekhang",
       "difficulty": "F",
@@ -3461,7 +3461,7 @@
         "group": "stalderdraaien"
       }
     },
-    "5.101": {
+    {
       "number": "5.101",
       "description": "Ruglingse streksteun op de lage ligger of hoge ligger - gehoekte zitdraai v.o. met uitspreiden tot hang aan dezelfde ligger",
       "difficulty": "A",
@@ -3474,7 +3474,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.301": {
+    {
       "number": "5.301",
       "description": "Streksteun ruglings op de HL aan de buitenzijde - draai a.o. tot vouwhangzwaai of gehoekte  zitdraai v.o. - uitspreiden met vluchtfase over de LL tot zweefhang    Idem streksteun ruglings op de LL aan de buitenzijde \u2013 gehoekte zitdraai v.o. met uitspreiden  en greepwissel tot strekhang aan de HL",
       "difficulty": "C",
@@ -3491,7 +3491,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.501": {
+    {
       "number": "5.501",
       "description": "Ruglingse streksteun op de HL - gehoekte zitdraai v.o. door vrije uitgestrekte steun (in ellegreep) in de handstandfase (Adler), ook met \u00bd draai (180\u00b0)",
       "difficulty": "E",
@@ -3504,7 +3504,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.202": {
+    {
       "number": "5.202",
       "description": "Ruglingse streksteun op de HL aan de binnenzijde - gehoekte zitdraai a.o. met  greepwissel tot zweef -hang aan de LL",
       "difficulty": "B",
@@ -3521,7 +3521,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.302": {
+    {
       "number": "5.302",
       "description": "Vrije ruglingse h oeksteun op de HL (benen gesloten) - volledige draai a.o. tot in vrije ruglingse steun op de HL (Steinemann -draai)",
       "difficulty": "C",
@@ -3538,7 +3538,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.402": {
+    {
       "number": "5.402",
       "description": "Vrije ruglingse hoeksteun op de HL (benen gesloten)  -volledige draai a.o. aan de HL - doorgaan door vrije ruglingse hoeksteun ao over de HL tot strekhang aan de HL   Vanuit handstand vrije hoekdraai a.o. tot In vrije ruglingse hoeksteun",
       "difficulty": "D",
@@ -3555,7 +3555,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.502": {
+    {
       "number": "5.502",
       "description": "Vrije ruglingse hoeksteun op de HL (benen gesloten)  -draai a.o. aan de HL - doorga an tot salto a.o. gestrekt (of gehoekt) tussen de liggers tot vrije streksteun op de LL  -draai a.o. aan de HL - \u00bd draai (180\u00b0) met vluchtfase tot handstand op de LL",
       "difficulty": "E",
@@ -3572,7 +3572,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.303": {
+    {
       "number": "5.303",
       "description": "Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met terughoeken achterwaarts tot strekhang aan de HL",
       "difficulty": "C",
@@ -3589,7 +3589,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.403": {
+    {
       "number": "5.403",
       "description": "Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met contra -vluchtfase achterwaarts gespreid tot strekhang aan de HL",
       "difficulty": "D",
@@ -3606,7 +3606,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.104": {
+    {
       "number": "5.104",
       "description": "Disloqueren (Schleudern) uit vouwhangzwaai a.o. aan de HL tot strekhang aan de HL",
       "difficulty": "A",
@@ -3623,7 +3623,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.304": {
+    {
       "number": "5.304",
       "description": "Schleudern tot bijna handstand met omspringen tot in bovengreep aan de HL",
       "difficulty": "C",
@@ -3636,7 +3636,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.404": {
+    {
       "number": "5.404",
       "description": "Vouwhangzwaai a.o. aan de HL - disloqueren met vluchtfase tot handstand op de LL ,  ook vanuit doorsteken",
       "difficulty": "D",
@@ -3653,7 +3653,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.105": {
+    {
       "number": "5.105",
       "description": "Zolendraai v.o. (gehoekt of gespreid)",
       "difficulty": "A",
@@ -3666,7 +3666,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.305": {
+    {
       "number": "5.305",
       "description": "Gehoekte zolendraai v.o. tot handstand, ook met \u00bd draai (180\u00b0)  tot handstand",
       "difficulty": "C",
@@ -3679,7 +3679,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.405": {
+    {
       "number": "5.405",
       "description": "Gehoekte zolendraai v.o. met 1/1 draai (360\u00b0) tot handstand",
       "difficulty": "D",
@@ -3692,7 +3692,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.106": {
+    {
       "number": "5.106",
       "description": "Zolendraai v.o. in ellegreep (gehoekt of gespreid)",
       "difficulty": "A",
@@ -3705,7 +3705,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.306": {
+    {
       "number": "5.306",
       "description": "Gehoekte zolendraai v.o. tot handstand in ellegreep, ook met \u00bd draai (180 \uf0b0)",
       "difficulty": "C",
@@ -3718,7 +3718,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.406": {
+    {
       "number": "5.406",
       "description": "Gehoekte zolendraai v.o in ellegreep met 1/1 draai (360 \uf0b0) tot handstand",
       "difficulty": "D",
@@ -3731,7 +3731,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.207": {
+    {
       "number": "5.207",
       "description": "Onderzwaai aan de LL (met steun van de voeten) met contravlucht voorwaarts tot strekhang aan de HL",
       "difficulty": "B",
@@ -3744,7 +3744,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.307": {
+    {
       "number": "5.307",
       "description": "Onderzwaai aan de HL of  LL met  1\u00bd draai (540\u00b0) tot strek - of zweefhang",
       "difficulty": "C",
@@ -3757,7 +3757,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.607": {
+    {
       "number": "5.607",
       "description": "Met gezicht naar buiten - onderzwaai aan de HL met voeten op de ligger  - contra -salto v.o. met gespreide benen tot strekhang aan de HL in ondergreep",
       "difficulty": "F",
@@ -3770,7 +3770,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.108": {
+    {
       "number": "5.108",
       "description": "Gehoekte zolendraai a.o. (gehoekt of gespreid)",
       "difficulty": "A",
@@ -3787,7 +3787,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.308": {
+    {
       "number": "5.308",
       "description": "Gehoekte zolendraai a.o. tot handstand, ook met greepwissel tot ondergreep, ook met \u00bd draai (180 \uf0b0)",
       "difficulty": "C",
@@ -3804,7 +3804,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.408": {
+    {
       "number": "5.408",
       "description": "Gehoekte zolendraai a.o. met 1/1  draai (360\u00b0) tot handstand",
       "difficulty": "D",
@@ -3821,7 +3821,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.508": {
+    {
       "number": "5.508",
       "description": "Gehoekte zolendraai a.o. met 1\u00bd draai (540\u00b0) tot handstand",
       "difficulty": "E",
@@ -3838,7 +3838,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.409": {
+    {
       "number": "5.409",
       "description": "Streksteun voorlings aan  de binnenzijde van de LL - gehoekte zolendraai a.o. door handstand met vlucht tot strekhang aan de HL",
       "difficulty": "D",
@@ -3855,7 +3855,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.509": {
+    {
       "number": "5.509",
       "description": "Met gezicht naar buiten \u2013 gehoekte zolendraai a.o. aan de LL door handstand met vlucht en \u00bd draai (180\u00ba) of 1/1 draai (360\u00b0) tot hang aan de HL",
       "difficulty": "E",
@@ -3872,7 +3872,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.410": {
+    {
       "number": "5.410",
       "description": "Gehoekte zolendraai a.o. met contraspreiden tot strekhang aan de HL",
       "difficulty": "D",
@@ -3889,7 +3889,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.510": {
+    {
       "number": "5.510",
       "description": "Gehoekte  zolendraai a .o. met gehoekte hecht over de HL tot strekhang aan de HL   Gehoekte  zolendraai a .o. met contraspreiden  - rugwaarts  over de HL met \u00bd draai (180\u00ba) tot strekhang  aan de HL in gemengde ellegreep",
       "difficulty": "E",
@@ -3902,7 +3902,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.610": {
+    {
       "number": "5.610",
       "description": "Gehoekte zolendraai a.o. met gestrekte contravlucht \u2013 rugwaarts  in gestrekte positie over de HL tot strekhang",
       "difficulty": "F",
@@ -3919,7 +3919,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "5.710": {
+    {
       "number": "5.710",
       "description": "Gehoekte zolendraai a.o. met gestrekte contravlucht \u2013 rugwaarts  in gestrekte positie over de HL met \u00bd draai (180\u00ba) tot strekhang in gemengde ellegreep      Brug \u2013 Groep 5 \u2013 6 ",
       "difficulty": "G",
@@ -3936,7 +3936,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "6.101": {
+    {
       "number": "6.101",
       "description": "Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0)",
       "difficulty": "A",
@@ -3945,7 +3945,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.201": {
+    {
       "number": "6.201",
       "description": "Vanaf HL - onderzwaai met salto v.o. gehurkt of gehoekt",
       "difficulty": "B",
@@ -3954,7 +3954,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.301": {
+    {
       "number": "6.301",
       "description": "Vanaf HL - onderzwaai  - salto v.o. gehurkt of gehoekt met \u00bd (180\u00ba) of 1/1 draai (360\u00b0)",
       "difficulty": "C",
@@ -3963,7 +3963,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.401": {
+    {
       "number": "6.401",
       "description": "Vanaf HL - onderzwaai  - salto v.o. gehurkt met 1\u00bd  draai (540\u00b0)    Onderzwaai \u2013 gestrekte salto v.o. met \u00bd draai (180\u00b0)",
       "difficulty": "D",
@@ -3972,7 +3972,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.102": {
+    {
       "number": "6.102",
       "description": "Vanaf HL \u2013 vrije onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0)",
       "difficulty": "A",
@@ -3981,7 +3981,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.302": {
+    {
       "number": "6.302",
       "description": "Vanaf HL - vrije onderzwaai met salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)    Vrije spreiddraai v.o. m et salto v .o. gehurkt , ook met \u00bd draai (180\u00b0)",
       "difficulty": "C",
@@ -3990,7 +3990,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.402": {
+    {
       "number": "6.402",
       "description": "Vanaf HL  - vrije onderzwaai met salto v .o. gehurkt met 1/1 draai (360\u00b0)    Vrije gehoekte draai a.o. gevolgd door salto v.o. gestrekt met \u00bd draai (180\u00ba)   Vanaf HL -  vrije spreiddraai met salto v.o. gehurkt met 1/1 draai (360\u00b0)",
       "difficulty": "D",
@@ -3999,7 +3999,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.502": {
+    {
       "number": "6.502",
       "description": "Vanaf HL \u2013 vrije onderzwaai  met salto v.o. gehurkt met 1\u00bd draai (540\u00b0)",
       "difficulty": "E",
@@ -4008,7 +4008,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.303": {
+    {
       "number": "6.303",
       "description": "Vanaf HL onderzwaai met \u00bd draai (180\u00b0) of vrije onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gehurkt of gehoekt.",
       "difficulty": "C",
@@ -4017,7 +4017,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.403": {
+    {
       "number": "6.403",
       "description": "Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gestrekt    Vanaf HL - vrije onderzwaai met \u00bd draai (180 \u00b0) gevolgd door  salto a.o. gestrekt   Vanaf HL - onderzwaai met \u00bd draai (180\u00b0)  gevolgd door  salto a.o. gehurkt met 1/1 draai (360\u00b0)",
       "difficulty": "D",
@@ -4026,7 +4026,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.104": {
+    {
       "number": "6.104",
       "description": "Voorzwaai - salto a.o. gehurkt, gehoekt of gestrekt",
       "difficulty": "A",
@@ -4035,7 +4035,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.204": {
+    {
       "number": "6.204",
       "description": "Voorzwaai - salto a.o. gehurkt of gestrekt met \u00bd draai (180\u00b0) of met  1/1 draai (360\u00b0)",
       "difficulty": "B",
@@ -4044,7 +4044,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.304": {
+    {
       "number": "6.304",
       "description": "Voorzwaai - salto a.o. gestrekt met 1\u00bd draai (540\u00b0) of 2/1 dr aai (720\u00b0)",
       "difficulty": "C",
@@ -4053,7 +4053,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.404": {
+    {
       "number": "6.404",
       "description": "Voorzwaai - salto a.o. gestrekt met 2\u00bd draai (900\u00ba)",
       "difficulty": "D",
@@ -4062,7 +4062,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.504": {
+    {
       "number": "6.504",
       "description": "Voorzwaai \u2013 salto a.o. gestrekt met 3/1 draai (1080\u00b0)",
       "difficulty": "E",
@@ -4071,7 +4071,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.205": {
+    {
       "number": "6.205",
       "description": "Voorzwaai - dubbele salto a.o. gehurkt",
       "difficulty": "B",
@@ -4080,7 +4080,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.305": {
+    {
       "number": "6.305",
       "description": "Voorzwaai - dubbele salto a.o. gehoekt",
       "difficulty": "C",
@@ -4089,7 +4089,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.405": {
+    {
       "number": "6.405",
       "description": "Voorzwaai - dubbele salto a.o. gehurkt  of gehoekt  met 1/1 draai (360\u00b0) in de eerste salto of in de tweede salto",
       "difficulty": "D",
@@ -4098,7 +4098,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.505": {
+    {
       "number": "6.505",
       "description": "Voorzwaai \u2013 dubbele salto a.o. gehurkt met 1 \u00bd draai (540\u00b0)",
       "difficulty": "E",
@@ -4107,7 +4107,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.605": {
+    {
       "number": "6.605",
       "description": "Voorzwaai \u2013 dubbele  salto a.o. gehurkt met 2/1 draai  (720\u00b0)",
       "difficulty": "F",
@@ -4116,7 +4116,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.406": {
+    {
       "number": "6.406",
       "description": "Voorzwaai dubbele salto a.o. gestrekt",
       "difficulty": "D",
@@ -4125,7 +4125,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.506": {
+    {
       "number": "6.506",
       "description": "Voorzwaai  dubbele salto a.o. gestrekt met 1/1 draai (360\u00b0) in de eerste of tweede salto",
       "difficulty": "E",
@@ -4134,7 +4134,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.706": {
+    {
       "number": "6.706",
       "description": "Voorzwaai dubbele salto a.o. gestrekt met 2/1 draai (720\u00b0)     Brug \u2013 Groep 6 - 4 ",
       "difficulty": "G",
@@ -4143,7 +4143,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.407": {
+    {
       "number": "6.407",
       "description": "Voorzwaai - salto a.o. gehurkt met \u00bd draai (180\u00b0) doorgaand in salto v.o. gehurkt     Voorzwaai met \u00bd draai (180\u00b0) \u2013 dubbele salto v.o. gehurkt.",
       "difficulty": "D",
@@ -4152,7 +4152,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.507": {
+    {
       "number": "6.507",
       "description": "Voorzwaai - salto a.o. gestrekt met \u00bd draai (180\u00ba) doorgaand in salto v.o. gestrekt     Voorzwaai met \u00bd draai (180\u00ba) \u2013dubbele salto v.o. gehoekt",
       "difficulty": "E",
@@ -4161,7 +4161,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.707": {
+    {
       "number": "6.707",
       "description": "Voorzwaai drievoudige salto a.o. gehurkt",
       "difficulty": "G",
@@ -4170,7 +4170,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.108": {
+    {
       "number": "6.108",
       "description": "Achterzwaai - salto v.o. gehurkt, gehoekt of gestrekt of vrije spreiddraai v.o. gevolgd door salto v.o. gehurkt",
       "difficulty": "A",
@@ -4179,7 +4179,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.208": {
+    {
       "number": "6.208",
       "description": "Achterzwaai - salto v.o. gehurkt of gestrekt met \u00bd (180\u00b0) of 1/1 (360\u00b0) draai",
       "difficulty": "B",
@@ -4188,7 +4188,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.308": {
+    {
       "number": "6.308",
       "description": "Achterzwaai  - salto v.o. gestrekt  met 1\u00bd draai (540\u00b0 ) of met 2/1 draai (720\u00ba)     Vanuit ellegreep, zwaai a.o. \u00bd draai (180\u00b0) dubbele salto a.o. gehurkt.",
       "difficulty": "C",
@@ -4197,7 +4197,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.408": {
+    {
       "number": "6.408",
       "description": "Achterzwaai - dubbele salto v.o.  gehurkt",
       "difficulty": "D",
@@ -4206,7 +4206,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.508": {
+    {
       "number": "6.508",
       "description": "Achterzwaai - dubbele salto v.o. gehurkt met \u00bd draai (180\u00b0) - ook salto v.o. met \u00bd draai (180\u00b0) overgaand in salto a.o. gehurkt.",
       "difficulty": "E",
@@ -4215,7 +4215,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.608": {
+    {
       "number": "6.608",
       "description": "Achterzwaai \u2013 dubbele salto v.o. gehoekt met \u00bd draai (180\u00ba)",
       "difficulty": "F",
@@ -4224,7 +4224,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.209": {
+    {
       "number": "6.209",
       "description": "Heupdraai a.o. aan de LL of HL \u2013 afhechten, ook vanuit vrije heupdraai a.o.",
       "difficulty": "B",
@@ -4233,7 +4233,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.309": {
+    {
       "number": "6.309",
       "description": "Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met  1/1 draai (360\u00ba)",
       "difficulty": "C",
@@ -4242,7 +4242,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.409": {
+    {
       "number": "6.409",
       "description": "Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met salto a.o. gehurkt",
       "difficulty": "D",
@@ -4251,7 +4251,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.509": {
+    {
       "number": "6.509",
       "description": "Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met \u00bd  draai (180\u00b0) \u2013 salto v.o.",
       "difficulty": "E",
@@ -4260,7 +4260,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.609": {
+    {
       "number": "6.609",
       "description": "Heupdraai a.o. (ook vrij) aan de LL  of HL \u2013 afhechten met salto a.o. met 1/1 draai (360\u00b0)",
       "difficulty": "F",
@@ -4269,7 +4269,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.210": {
+    {
       "number": "6.210",
       "description": "Streksteun borstlings op de HL  - achterzwaai  - salto v.o. gehurkt",
       "difficulty": "B",
@@ -4278,7 +4278,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.310": {
+    {
       "number": "6.310",
       "description": "Streksteun borstlings op de HL - achterzwaai - salto v.o. gehoekt of salto a.o. gehurkt of gehoekt",
       "difficulty": "C",
@@ -4287,7 +4287,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "1.000": {
+    {
       "number": "1.000",
       "description": "\u2013 OPSPRONGEN       Brug \u2013 TA - Groep 1 - 1",
       "difficulty": "TA",
@@ -4300,7 +4300,7 @@
         "group": "opsprongen"
       }
     },
-    "1.001": {
+    {
       "number": "1.001",
       "description": "Borstwaartsomtrekken, afzet 1 of 2 benen",
       "difficulty": "TA",
@@ -4313,7 +4313,7 @@
         "group": "opsprongen"
       }
     },
-    "1.002": {
+    {
       "number": "1.002",
       "description": "Opspringen tot steun  Geldt alleen voor supplement 6 & 7",
       "difficulty": "TA",
@@ -4326,7 +4326,7 @@
         "group": "opsprongen"
       }
     },
-    "1.007": {
+    {
       "number": "1.007",
       "description": "Vanuit aanloop en afzet met 2 benen heupdraai  voorover",
       "difficulty": "TA",
@@ -4339,7 +4339,7 @@
         "group": "opsprongen"
       }
     },
-    "1.010": {
+    {
       "number": "1.010",
       "description": "Opspr ingen tot vrije steun en heup draai achterover",
       "difficulty": "TA",
@@ -4352,7 +4352,7 @@
         "group": "opsprongen"
       }
     },
-    "2.001": {
+    {
       "number": "2.001",
       "description": "Achteropzwaai horizontaal  - Geldt voor supplement E, F, G, H en supplement 3 t/m 7  als MW - Geldt voor supplement D niet als MW",
       "difficulty": "TA",
@@ -4365,7 +4365,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "2.005": {
+    {
       "number": "2.005",
       "description": "Vrije heupdraai achterover",
       "difficulty": "TA",
@@ -4378,7 +4378,7 @@
         "group": "achteropzwaaien en vrije heupdraaien"
       }
     },
-    "3.001": {
+    {
       "number": "3.001",
       "description": "1x kurbet; in stille hang overstrekte kurbethouding (hol) (1 sec.) gevolgd door gesloten kurbethouding (bol) (1 sec.)   Geldt alleen voor supplement 3 t/m 7",
       "difficulty": "TA",
@@ -4387,7 +4387,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.002": {
+    {
       "number": "3.002",
       "description": "Strekhangzwaai (voorzwaai achterzwaai)   Geldt all\u00e9\u00e9n voor supplement F,  G en H  en supplement 3 t/m 7  als MW",
       "difficulty": "TA",
@@ -4396,7 +4396,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.003": {
+    {
       "number": "3.003",
       "description": "Neerzwaai tussen de liggers, voorzwaai met \u00bd draai (180\u00b0) op hoge ligger hoogte (horizontaal)",
       "difficulty": "TA",
@@ -4405,7 +4405,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.004": {
+    {
       "number": "3.004",
       "description": "Voorzwaai borstwaartsom (driekwartreus)",
       "difficulty": "TA",
@@ -4414,7 +4414,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "3.005": {
+    {
       "number": "3.005",
       "description": "Zweefhangzwaai aan de lage ligger met \u00bd draai (180\u00b0) om de lengte as",
       "difficulty": "TA",
@@ -4423,7 +4423,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": 180, "group": "reuzendraaien" }
     },
-    "3.006": {
+    {
       "number": "3.006",
       "description": "Vanuit stille hang optrekken tot buighang met kin boven ligger  (1 sec.), terug tot hang  Geldt alleen voor supplement 3 t/m 7      ",
       "difficulty": "TA",
@@ -4432,7 +4432,7 @@
       "type": "acrobatic",
       "breakdown": { "draai": null, "group": "reuzendraaien" }
     },
-    "5.008": {
+    {
       "number": "5.008",
       "description": "Ophurken (met liggerwissel)",
       "difficulty": "TA",
@@ -4445,7 +4445,7 @@
         "group": "gehoekte draaien"
       }
     },
-    "6.001": {
+    {
       "number": "6.001",
       "description": "Vanuit streksteun op de ligger - (tegenspreiden) ondersprong af tot stand",
       "difficulty": "TA",
@@ -4454,7 +4454,7 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     },
-    "6.002": {
+    {
       "number": "6.002",
       "description": "Vanuit streksteun voorover duikelen tot hoekhang (3 sec.) en komen tot stand  Geldt alleen voor supplement 3 t/m 7",
       "difficulty": "TA",
@@ -4463,9 +4463,9 @@
       "type": "acrobatic",
       "breakdown": { "group": "afsprongen" }
     }
-  },
-  "beam": {
-    "1.204": {
+  ],
+  "beam": [
+    {
       "number": "1.204",
       "description": "(D)    Sprong met \u00bd draai (180\u00b0) tot vrije spreidhoeksteun of sprong achterwaarts door spreidhouding over de balk tot steun voorlings of tot parallelspagaat - aanloop 90\u00b0 t.o.v. de balk",
       "difficulty": "B",
@@ -4479,7 +4479,7 @@
         "group": "opsprongen"
       }
     },
-    "1.304": {
+    {
       "number": "1.304",
       "description": "(D)   Arabier, spreidhoeksprong rugwaarts over de balk - heupdraai a.o. - aanloop 90\u00b0 t.o.v. de balk",
       "difficulty": "C",
@@ -4497,7 +4497,7 @@
         "group": "opsprongen"
       }
     },
-    "1.105": {
+    {
       "number": "1.105",
       "description": "(D)    Sprong (met handensteun) tot parallelspagaat of spreidhoekzit met afzet van 2 benen. Spagaatpositie moet getoond worden als eindpositie  zonder  steun van de handen. In spreidhoekzit moet de romp de balk raken.    Sprong tot dwarsspagaat met afzet van 1 been of 2 benen \u2013 aanloop schuin  t.o.v. de balk ( met handensteun)",
       "difficulty": "A",
@@ -4511,7 +4511,7 @@
         "group": "opsprongen"
       }
     },
-    "1.305": {
+    {
       "number": "1.305",
       "description": "(D)  Vrij opspringen tot dwarsspagaat , afzet van 2 benen - aanloop schuin t.o.v.  balk      Vrij opspringen met beenwissel tot dwarsspagaat - aanloop schuin t.o.v.  balk",
       "difficulty": "C",
@@ -4525,7 +4525,7 @@
         "group": "opsprongen"
       }
     },
-    "1.405": {
+    {
       "number": "1.405",
       "description": "(D) Wisselspagaatsprong met \u00bd draai (180\u00b0) tot dwarsspagaat zonder gebruik van de handen \u2013 aanloop schuin t.o.v. balk",
       "difficulty": "D",
@@ -4539,7 +4539,7 @@
         "group": "opsprongen"
       }
     },
-    "1.106": {
+    {
       "number": "1.106",
       "description": "Vanuit parallelstand voorlings \u2013 overhurken of overhoeken tot steun ruglings",
       "difficulty": "A",
@@ -4553,7 +4553,7 @@
         "group": "opsprongen"
       }
     },
-    "1.207": {
+    {
       "number": "1.207",
       "description": "Sprong tot rol voorwaarts aan de pun t of in het midden van de balk    Opsprong tot  vrije spreidhoeksteun aan de punt van de balk - achteropzwaai tot rol voorwaarts",
       "difficulty": "B",
@@ -4567,7 +4567,7 @@
         "group": "opsprongen"
       }
     },
-    "1.108": {
+    {
       "number": "1.108",
       "description": "Radslag met buiging van beide armen via borststand tot rijzit   Vanuit stand aan de zijkant van de balk opspringen tot borststeun met beide armen gebogen",
       "difficulty": "A",
@@ -4581,7 +4581,7 @@
         "group": "opsprongen"
       }
     },
-    "1.208": {
+    {
       "number": "1.208",
       "description": "Sprong met \u00bd draai over de schouder tot nekstand, \u00bd draai (180\u00b0) over de schouder tot borststand",
       "difficulty": "B",
@@ -4595,7 +4595,7 @@
         "group": "opsprongen"
       }
     },
-    "1.308": {
+    {
       "number": "1.308",
       "description": "Sprong met \u00bd draai over de schouder tot nekstand - 1/1 draai (360\u00b0) over de schouder tot borststand of met 1 1/2 draai (540\u00b0)",
       "difficulty": "C",
@@ -4609,7 +4609,7 @@
         "group": "opsprongen"
       }
     },
-    "1.309": {
+    {
       "number": "1.309",
       "description": "Vanuit dwarsstand, gezicht naar de punt van de balk - kopkip    Vanuit p arallelstand: Sprong met gebogen heupen tot handstand (hoek) tot langzame overslag v.o.     Vanuit p arallelstand: Sprong met gebogen heupen tot handstand (hoek) tot handstandoverslag v.o. met landen tot uitvalstand of op 2 voeten",
       "difficulty": "C",
@@ -4623,7 +4623,7 @@
         "group": "opsprongen"
       }
     },
-    "1.609": {
+    {
       "number": "1.609",
       "description": "Arabier voor de balk (aan de punt) - flik-flak met \u00bd draai (180\u00b0) en overslag v.o.",
       "difficulty": "F",
@@ -4637,7 +4637,7 @@
         "group": "opsprongen"
       }
     },
-    "1.210": {
+    {
       "number": "1.210",
       "description": "Springen, heffen of zwaaien tot parallel - of dwarshandstand (2 sec.) - terugkomen tot een eindpositie, met aanraken van de balk  of tot vrije spreidhoeksteun  ook met \u00bd draai (180\u00b0)  in handstand",
       "difficulty": "B",
@@ -4651,7 +4651,7 @@
         "group": "opsprongen"
       }
     },
-    "1.310": {
+    {
       "number": "1.310",
       "description": "Springen, heffen of zwaaien tot dwars - of parallelhandstand met  1/1 - 1\u00bd draai (360\u00b0 - 540\u00b0) in de handstand - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun",
       "difficulty": "C",
@@ -4665,7 +4665,7 @@
         "group": "opsprongen"
       }
     },
-    "1.111": {
+    {
       "number": "1.111",
       "description": "Vrije steun voorlings met steun op 1 of beide geborgen armen (2 sec.), ook met benen in spagaatpositie",
       "difficulty": "A",
@@ -4679,7 +4679,7 @@
         "group": "opsprongen"
       }
     },
-    "1.211": {
+    {
       "number": "1.211",
       "description": "Vanuit parallel - of dwarsstand  sprong met gebogen heupen tot  vrije steun voorlings boven horizontaal op minimaal 45\u00b0 (bovenbalans)  (2 sec .) \u2013  terugkomen tot eindpositie  naar keuze",
       "difficulty": "B",
@@ -4693,7 +4693,7 @@
         "group": "opsprongen"
       }
     },
-    "1.311": {
+    {
       "number": "1.311",
       "description": "Sprong met gestrekte heupen tot bovenbalans (2 sec .)    Springen , heffen of zwaaien tot handst and -  terugkomen tot bovenbalans (2 sec .), ook met \u00bd draai (180\u00b0) in handst and   Springen , heffen of zwaaien tot handst and- terugkomen tot hoge hoeksteun  (2 sec.) , ook met \u00bd draai (180\u00b0) in handst and   Springen, heffen of zwaaien tot handst and (2 sec.) met 1 hand loslaten tot stand op 1 voet, of met zijwaarts naar beneden zwaaien, ook met \u00bd d raai (180\u00b0) in handst and",
       "difficulty": "C",
@@ -4707,7 +4707,7 @@
         "group": "opsprongen"
       }
     },
-    "1.411": {
+    {
       "number": "1.411",
       "description": "Springen, heffen of zwaaien tot dwars - of parallelhandstand - 1/1 draai (360\u00b0) in de handstand - terugkomen tot bovenbalans  (2 sec.)  of hoge hoeksteun (2 sec .)",
       "difficulty": "D",
@@ -4721,7 +4721,7 @@
         "group": "opsprongen"
       }
     },
-    "1.312": {
+    {
       "number": "1.312",
       "description": "Handst and met grote overstrekking van de romp (2 sec .), idem gehoekt met 1 been verticaal, het andere been gebogen (2 sec .) \u2013 terugkomen tot eindpositie naar keuze       Handst and dwars - of parallel met benen horizontaal \u2013 omgekeerde bovenbalans in verschillende varianten (2 sec.) \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "C",
@@ -4735,7 +4735,7 @@
         "group": "opsprongen"
       }
     },
-    "1.412": {
+    {
       "number": "1.412",
       "description": "Springen of heffen tot parallelhandstand \u2013 langzame overslag v.o. tot parallelstand op 2 benen",
       "difficulty": "D",
@@ -4749,7 +4749,7 @@
         "group": "opsprongen"
       }
     },
-    "1.213": {
+    {
       "number": "1.213",
       "description": "Heffen tot parallelhandst and, door buigen en strekken van de benen - sprongetje met \u00bc draai (90\u00b0)  tot dwarsstand \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "B",
@@ -4763,7 +4763,7 @@
         "group": "opsprongen"
       }
     },
-    "1.313": {
+    {
       "number": "1.313",
       "description": "Springen of heffen tot dwars - of parallelhandst and - komen tot handstand  op 1 arm (2 sec .) - terugkomen tot eindpositie naar keuze",
       "difficulty": "C",
@@ -4777,7 +4777,7 @@
         "group": "opsprongen"
       }
     },
-    "1.413": {
+    {
       "number": "1.413",
       "description": "Springen of heffen op 1 arm tot handstand  met terugkomen tot eindpositie naar keuze , ook springen o f heff en tot dwars - of parallelhandstand - komen tot parallelhandstand  op 1 arm (2 sec .) - terugkomen tot vrije spreidhoek steun op 1 arm , ook met \u00bd draai",
       "difficulty": "D",
@@ -4791,7 +4791,7 @@
         "group": "opsprongen"
       }
     },
-    "1.114": {
+    {
       "number": "1.114",
       "description": "Sprong tot handstand  met gebogen of gestrekte benen \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "A",
@@ -4805,7 +4805,7 @@
         "group": "opsprongen"
       }
     },
-    "1.214": {
+    {
       "number": "1.214",
       "description": "Radslag op 1 of beide armen",
       "difficulty": "B",
@@ -4819,7 +4819,7 @@
         "group": "opsprongen"
       }
     },
-    "1.314": {
+    {
       "number": "1.314",
       "description": "Aanloop 90\u00b0 ten opzichte van de balk - sprong met 1/4 draai (90\u00b0) en met gestrekte heupen tot vluchtige handstand  op 1 arm met direct \u00bc draai (90\u00b0) en steun op t weede arm tot parallelhandst and \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "C",
@@ -4833,7 +4833,7 @@
         "group": "opsprongen"
       }
     },
-    "1.414": {
+    {
       "number": "1.414",
       "description": "Arabier voor de balk - sprong met  \u00bd draai (180\u00b0) tot nabij parallel - handstand op balk  - terugkomen tot eindpositie naar keuze",
       "difficulty": "D",
@@ -4847,7 +4847,7 @@
         "group": "opsprongen"
       }
     },
-    "1.514": {
+    {
       "number": "1.514",
       "description": "Arabier voor de balk \u2013 flik-flak met 1/1 draai (360\u00ba) gevolgd door heupdraai a.o.",
       "difficulty": "E",
@@ -4865,7 +4865,7 @@
         "group": "opsprongen"
       }
     },
-    "1.215": {
+    {
       "number": "1.215",
       "description": "Overslag v.o. met kaatsen van de handen op de plank tot steun ruglings \u2013 of met \u00bc draai (90\u00b0) tot buitendwarszit op het rechter - of linkerdijbeen \u2013 aanloop 90\u00b0 ten opzichte van de balk",
       "difficulty": "B",
@@ -4879,7 +4879,7 @@
         "group": "opsprongen"
       }
     },
-    "1.315": {
+    {
       "number": "1.315",
       "description": "Vrije overslag v.o. tot steun ruglings - of met 1/4 draai (90\u00b0) tot buitendwarszit op de dij,",
       "difficulty": "C",
@@ -4893,7 +4893,7 @@
         "group": "opsprongen"
       }
     },
-    "1.615": {
+    {
       "number": "1.615",
       "description": "Vrije overslag v.o.  tot dwarsstand - aanloop aan uiteinde van de balk \u2013 afzet van beide benen",
       "difficulty": "F",
@@ -4907,7 +4907,7 @@
         "group": "opsprongen"
       }
     },
-    "1.416": {
+    {
       "number": "1.416",
       "description": "Salto v.o. gehurkt tot dwars - of parallelstand - aanloop aan uiteinde  van de balk",
       "difficulty": "D",
@@ -4921,7 +4921,7 @@
         "group": "opsprongen"
       }
     },
-    "1.516": {
+    {
       "number": "1.516",
       "description": "Salto v.o. gehoekt tot stand - aanloop aan uiteinde van de balk",
       "difficulty": "E",
@@ -4935,7 +4935,7 @@
         "group": "opsprongen"
       }
     },
-    "1.616": {
+    {
       "number": "1.616",
       "description": "Salto v.o. gehurkt \u00bd draai (180\u00b0)",
       "difficulty": "F",
@@ -4949,7 +4949,7 @@
         "group": "opsprongen"
       }
     },
-    "1.716": {
+    {
       "number": "1.716",
       "description": "Arabier voor de balk (aan de punt) \u2013 afzet rugwaarts met \u00bd draai (180\u00ba) \u2013 salto v.o. gehurkt tot stand",
       "difficulty": "G",
@@ -4963,7 +4963,7 @@
         "group": "opsprongen"
       }
     },
-    "1.317": {
+    {
       "number": "1.317",
       "description": "Arabier voor de balk (aan de punt) - flik-flak door handstand tot rijzit",
       "difficulty": "C",
@@ -4977,7 +4977,7 @@
         "group": "opsprongen"
       }
     },
-    "1.417": {
+    {
       "number": "1.417",
       "description": "Arabier voor de balk (aan de punt) -  flik-flak door handstand - steun op 1 of 2 armen -tot dwarsstand op de balk   Arabier voor de balk (aan de punt) -  flik-flak met 1/1 draai (360\u00b0) tot rijzit",
       "difficulty": "D",
@@ -4991,7 +4991,7 @@
         "group": "opsprongen"
       }
     },
-    "1.517": {
+    {
       "number": "1.517",
       "description": "Arabier voor de balk (aan de punt) - flik-flak met \u00be draai (27 0\u00b0) tot dwarsstand op de balk",
       "difficulty": "E",
@@ -5005,7 +5005,7 @@
         "group": "opsprongen"
       }
     },
-    "1.518": {
+    {
       "number": "1.518",
       "description": "Arabier voor de balk (aan de punt) - salto a.o. gehurkt, gehoekt of gestrekt met uitstappen tot dwars - of parallelstand op de balk",
       "difficulty": "E",
@@ -5023,7 +5023,7 @@
         "group": "opsprongen"
       }
     },
-    "1.618": {
+    {
       "number": "1.618",
       "description": "Arabier voor de balk (aan de punt) - salto a.o. gehurkt met 1/1 draai ( 360\u00b0) tot dwarsstand   Arabier voor de balk (aan de punt) - salto a.o. gestrekt tot dwarsstand op de balk",
       "difficulty": "F",
@@ -5041,7 +5041,7 @@
         "group": "opsprongen"
       }
     },
-    "1.718": {
+    {
       "number": "1.718",
       "description": "Arabier voor de balk (aan de punt) - salto a.o. gestrekt met 1/1 draai ( 360\u00b0) tot dwarsstand op de balk",
       "difficulty": "G",
@@ -5059,7 +5059,7 @@
         "group": "opsprongen"
       }
     },
-    "1.619": {
+    {
       "number": "1.619",
       "description": "Sprong voorwaarts met \u00bd draai (180\u00b0) - salto a.o. gehoekt",
       "difficulty": "F",
@@ -5077,7 +5077,7 @@
         "group": "opsprongen"
       }
     },
-    "2.101": {
+    {
       "number": "2.101",
       "description": "Loops pagaatsprong voorwaarts met  afzet van 1 been ( 180\u00b0 beenspreiding)",
       "difficulty": "A",
@@ -5090,7 +5090,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.301": {
+    {
       "number": "2.301",
       "description": "Spagaatsprong voorwaarts met \u00bd draai (180\u00b0), met afzet van 1 been",
       "difficulty": "C",
@@ -5103,7 +5103,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.202": {
+    {
       "number": "2.202",
       "description": "Spagaatsprong (180\u00ba beenspreiding) met afzet van 2 benen in dwarspositie",
       "difficulty": "B",
@@ -5116,7 +5116,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.302": {
+    {
       "number": "2.302",
       "description": "Spagaatsprong met \u00bd draai (180\u00ba) , afzet van 2 benen in dwarspositie",
       "difficulty": "C",
@@ -5129,7 +5129,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.402": {
+    {
       "number": "2.402",
       "description": "Spagaatsprong met 1/1 draai (360\u00ba) , afzet van 2 benen in dwarspositie",
       "difficulty": "D",
@@ -5142,7 +5142,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.203": {
+    {
       "number": "2.203",
       "description": "(*) Spreidhoeksprong (beide benen boven horizontaal)  of zijwaartse spagaatsprong met afzet van 2 benen in dwarsstand",
       "difficulty": "B",
@@ -5155,7 +5155,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.303": {
+    {
       "number": "2.303",
       "description": "Spreidhoeksprong met \u00bd draai (180\u00b0) vanuit dwars stand",
       "difficulty": "C",
@@ -5168,7 +5168,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.403": {
+    {
       "number": "2.403",
       "description": "Spreidhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand",
       "difficulty": "D",
@@ -5181,7 +5181,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.204": {
+    {
       "number": "2.204",
       "description": "Fouett\u00e9 sprong met \u00bd draai (180\u00b0), landen tot arabesque (vrije been boven horizontaal)",
       "difficulty": "B",
@@ -5194,7 +5194,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.404": {
+    {
       "number": "2.404",
       "description": "Fouett\u00e9  sprong met beenwissel tot  dwarsspagaat (be enspreiding 180\u00ba) \u2013 (tour jet\u00e9)",
       "difficulty": "D",
@@ -5207,7 +5207,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.504": {
+    {
       "number": "2.504",
       "description": "Spagaatsprong voorwaarts met 1/1 draai (360\u00ba), met afzet van 1 been",
       "difficulty": "E",
@@ -5220,7 +5220,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.105": {
+    {
       "number": "2.105",
       "description": "Loopsprong voorwaarts met beenwissel tot hurkhoekpositie (heuphoek 45\u00ba)",
       "difficulty": "A",
@@ -5233,7 +5233,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.305": {
+    {
       "number": "2.305",
       "description": "Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat (180\u00b0 na beenwissel)",
       "difficulty": "C",
@@ -5246,7 +5246,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.405": {
+    {
       "number": "2.405",
       "description": "Wisselpagaatsprong voorwaarts met \u00bd draai (180\u00ba)",
       "difficulty": "D",
@@ -5259,7 +5259,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.505": {
+    {
       "number": "2.505",
       "description": "Spagaatsprong voorw. met  beenwissel tot ringhouding (180\u00b0 beenspreiding na beenwissel)",
       "difficulty": "E",
@@ -5272,7 +5272,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.206": {
+    {
       "number": "2.206",
       "description": "Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal)  \u2013 landing op \u00e9\u00e9n of beide benen",
       "difficulty": "B",
@@ -5285,7 +5285,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.306": {
+    {
       "number": "2.306",
       "description": "Spagaatsprong v.w. met beenwissel en \u00bc draai (90\u00ba) tot zijwaartse spagaat (180\u00b0) of spreidhoekpositie (Johnson)",
       "difficulty": "C",
@@ -5298,7 +5298,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.506": {
+    {
       "number": "2.506",
       "description": "Johnson met toegevoegde \u00bd draai (180\u00ba)",
       "difficulty": "E",
@@ -5311,7 +5311,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.107": {
+    {
       "number": "2.107",
       "description": "Hoeksprong in dwars stand  (heuphoek < 90\u00b0)",
       "difficulty": "A",
@@ -5324,7 +5324,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.207": {
+    {
       "number": "2.207",
       "description": "Hoeksprong in dwars stand  (heuphoek 90\u00b0) met \u00bd draai (180\u00ba)",
       "difficulty": "B",
@@ -5337,7 +5337,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.407": {
+    {
       "number": "2.407",
       "description": "Hoeksprong in dwarsstand met 1/1 draai (360\u00b0)",
       "difficulty": "D",
@@ -5350,7 +5350,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.108": {
+    {
       "number": "2.108",
       "description": "Sissone (180\u00ba beenspreiding  in de diagonaal/ 45\u00b0  t.o.v. de vloer) met afzet van 2 voeten en landing op 1 voet",
       "difficulty": "A",
@@ -5363,7 +5363,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.208": {
+    {
       "number": "2.208",
       "description": "* Ringsprong met achterste voet op hoofdhoogte en lichaam en hoofd a.o. (180\u00ba beenspreiding) of reeringsprong",
       "difficulty": "B",
@@ -5376,7 +5376,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.308": {
+    {
       "number": "2.308",
       "description": "Sprong met achterwaartse buiging van het bovenlichaam en hoofd a.o. en de voeten bijna het hoofd rakend (Schaapsprong)",
       "difficulty": "C",
@@ -5389,7 +5389,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.408": {
+    {
       "number": "2.408",
       "description": "*   Loopspagaatringsprong (180\u00ba beenspreiding)  met afzet van 2 benen",
       "difficulty": "D",
@@ -5402,7 +5402,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.209": {
+    {
       "number": "2.209",
       "description": "(*) Sprong met \u00bd draai (180\u00b0) - het vrije been boven horizontaal , afzet van 1 been   Streksprong met 1/1 (360\u00b0) vanuit dwarsstand",
       "difficulty": "B",
@@ -5415,7 +5415,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.409": {
+    {
       "number": "2.409",
       "description": "Streksprong met 1\u00bd draai (540\u00b0) vanuit dwarsstand",
       "difficulty": "D",
@@ -5428,7 +5428,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.110": {
+    {
       "number": "2.110",
       "description": "(*)    Kattensprong (knie\u00ebn na elkaar boven horizontaal)   Schaarsprong (benen boven horizontaal)",
       "difficulty": "A",
@@ -5441,7 +5441,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.210": {
+    {
       "number": "2.210",
       "description": "Kattensprong met  \u00bd draai (180\u00b0)  (knie\u00ebn na elkaar boven horizontaal)",
       "difficulty": "B",
@@ -5454,7 +5454,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.310": {
+    {
       "number": "2.310",
       "description": "Kattensprong met 1/1 draai (360\u00b0)",
       "difficulty": "C",
@@ -5467,7 +5467,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.211": {
+    {
       "number": "2.211",
       "description": "Hurksprong met \u00bd draai (180\u00ba) vanuit dwars stand  (heup - en knie -hoek 45\u00ba) - afzet van een of beide benen",
       "difficulty": "B",
@@ -5480,7 +5480,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.311": {
+    {
       "number": "2.311",
       "description": "Hurksprong met 1/1 draai (360\u00b0) vanuit dwarsstand - afzet van een of beide benen",
       "difficulty": "C",
@@ -5493,7 +5493,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.411": {
+    {
       "number": "2.411",
       "description": "Hurksprong met 1 \u00bd draai (540\u00b0) vanuit dwarsstand - afzet van een of beide benen",
       "difficulty": "D",
@@ -5506,7 +5506,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.112": {
+    {
       "number": "2.112",
       "description": "* Hurkhoeksprong vanuit  dwarsstand (heuphoek 45\u00ba en knie\u00ebn bij elkaar) \u2013 afzet van een of beide benen",
       "difficulty": "A",
@@ -5519,7 +5519,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.212": {
+    {
       "number": "2.212",
       "description": "Hurkhoeksprong met \u00bd draai (180\u00ba) vanuit dwars stand  - afzet van een of beide benen",
       "difficulty": "B",
@@ -5532,7 +5532,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.412": {
+    {
       "number": "2.412",
       "description": "Hurkhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand - afzet van een of beide benen",
       "difficulty": "D",
@@ -5545,7 +5545,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.512": {
+    {
       "number": "2.512",
       "description": "Hurkhoeksprong met 1\u00bd draai (540\u00ba) vanuit dwarsstand  - afzet van een of beide benen",
       "difficulty": "E",
@@ -5558,7 +5558,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "3.101": {
+    {
       "number": "3.101",
       "description": "1/1 draai (360\u00b0 ) op 1 been - vrije been naar keuze onder de horizontaal",
       "difficulty": "A",
@@ -5567,7 +5567,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.201": {
+    {
       "number": "3.201",
       "description": "1\u00bd draai (540\u00b0) op 1 been - vrije been naar keuze onder de horizontaal",
       "difficulty": "B",
@@ -5576,7 +5576,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 540, "group": "gymnastische draaien" }
     },
-    "3.401": {
+    {
       "number": "3.401",
       "description": "2/1 draai (720\u00b0) op 1 been - vrije been naar keuze onder de horizontaal",
       "difficulty": "D",
@@ -5585,7 +5585,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 720, "group": "gymnastische draaien" }
     },
-    "3.501": {
+    {
       "number": "3.501",
       "description": "3/1 draai (1080\u00b0) op 1 been  -  vrije been naar keuze onder de  horizontaal",
       "difficulty": "E",
@@ -5594,7 +5594,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 1080, "group": "gymnastische draaien" }
     },
-    "3.302": {
+    {
       "number": "3.302",
       "description": "1/1 draai (360\u00b0) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai",
       "difficulty": "C",
@@ -5603,7 +5603,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.402": {
+    {
       "number": "3.402",
       "description": "1\u00bd draai (540\u00b0) op 1 been \u2013 het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai",
       "difficulty": "D",
@@ -5612,7 +5612,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 540, "group": "gymnastische draaien" }
     },
-    "3.403": {
+    {
       "number": "3.403",
       "description": "1/1 draai (360\u00b0) met het vrije been achterwaarts met beide handen vastgehouden",
       "difficulty": "D",
@@ -5621,7 +5621,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.304": {
+    {
       "number": "3.304",
       "description": "1/1 draai (360\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele  draai op horizontaal  (standbeen en vrije been mag gestrekt of gebogen zijn)",
       "difficulty": "C",
@@ -5630,7 +5630,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.404": {
+    {
       "number": "3.404",
       "description": "1\u00bd draai ( 540\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele  draai op horizontaal  (standbeen en vrije been mag gestrekt of gebogen zijn)",
       "difficulty": "D",
@@ -5639,7 +5639,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 540, "group": "gymnastische draaien" }
     },
-    "3.504": {
+    {
       "number": "3.504",
       "description": "2/1 draai ( 720\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele  draai op horizontaal  (standbeen en vrije been mag gestrekt of gebogen zijn)",
       "difficulty": "E",
@@ -5648,7 +5648,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 720, "group": "gymnastische draaien" }
     },
-    "3.305": {
+    {
       "number": "3.305",
       "description": "1/1 draai (360\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba - spagaat van begin tot einde van de draai",
       "difficulty": "C",
@@ -5657,7 +5657,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.405": {
+    {
       "number": "3.405",
       "description": "1\u00bd draai (54 0\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba  - spagaat van begin tot einde van de draai",
       "difficulty": "D",
@@ -5666,7 +5666,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 180, "group": "gymnastische draaien" }
     },
-    "3.505": {
+    {
       "number": "3.505",
       "description": "2/1 draai (720\u00b0)  op 1 been \u2013 met vasthouden van het vrije been met de hand in 180\u00ba - spagaat van begin tot einde van de draai",
       "difficulty": "E",
@@ -5675,7 +5675,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 720, "group": "gymnastische draaien" }
     },
-    "3.206": {
+    {
       "number": "3.206",
       "description": "\u00bd duikdraai (180\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand",
       "difficulty": "B",
@@ -5684,7 +5684,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 180, "group": "gymnastische draaien" }
     },
-    "3.406": {
+    {
       "number": "3.406",
       "description": "1/1 duikdraai (360\u00b0) via standspagaat (180\u00b0 beenspreiding) met/ zonder vluchtig aanraken van de balk met 1 hand",
       "difficulty": "D",
@@ -5693,7 +5693,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.207": {
+    {
       "number": "3.207",
       "description": "1/1 d raai (360\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze",
       "difficulty": "B",
@@ -5702,7 +5702,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 360, "group": "gymnastische draaien" }
     },
-    "3.307": {
+    {
       "number": "3.307",
       "description": "1\u00bd d raai (540\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze",
       "difficulty": "C",
@@ -5711,7 +5711,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 540, "group": "gymnastische draaien" }
     },
-    "3.407": {
+    {
       "number": "3.407",
       "description": "(*) 2/1 d raai (720\u00b0) of 2\u00bd draai (960\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze",
       "difficulty": "D",
@@ -5720,7 +5720,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 720, "group": "gymnastische draaien" }
     },
-    "3.507": {
+    {
       "number": "3.507",
       "description": "3/1 draai (1080\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze",
       "difficulty": "E",
@@ -5729,7 +5729,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 1080, "group": "gymnastische draaien" }
     },
-    "3.208": {
+    {
       "number": "3.208",
       "description": "(*) 1/1 tot 1\u00bd draai (360\u00b0 - 540\u00b0) in buiklig - steunen van de handen na elkaar is toegestaan",
       "difficulty": "B",
@@ -5738,7 +5738,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": 540, "group": "gymnastische draaien" }
     },
-    "3.408": {
+    {
       "number": "3.408",
       "description": "1\u00bc draai (450\u00b0) in vouwlig - beenromphoek gesloten",
       "difficulty": "D",
@@ -5747,7 +5747,7 @@
       "type": "gymnastic",
       "breakdown": { "draai": null, "group": "gymnastische draaien" }
     },
-    "4.101": {
+    {
       "number": "4.101",
       "description": "(D)    Vanuit hielenzit - lichaamswel voorwaarts via tenenstand tot stand",
       "difficulty": "A",
@@ -5759,7 +5759,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.102": {
+    {
       "number": "4.102",
       "description": "(D)  (*)  Standspagaat voorlings met steun van de handen voor standbeen (beenspreiding 180\u00b0 - 2 sec .) of stand op 1 been met de voet van het vrije been in voorwaartse positie boven hoofdhoogte (2 sec.)      Zweefstand voorlings met gestrekt standbeen (beenspreiding 180 \uf0b0 - 2 sec.)",
       "difficulty": "A",
@@ -5771,7 +5771,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.202": {
+    {
       "number": "4.202",
       "description": "Hoge hoeksteun (2 sec.)",
       "difficulty": "B",
@@ -5783,7 +5783,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.103": {
+    {
       "number": "4.103",
       "description": "Opzwaaien tot dwars - of parallel -handstand (2 sec .) \u2013 terugkomen tot eindpositie die de balk aanraakt",
       "difficulty": "A",
@@ -5795,7 +5795,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.203": {
+    {
       "number": "4.203",
       "description": "Opzwaaien tot dwarshandstand - doorrollen v.o. met of zonder steun van de handen  tot zit of tot hurkzit",
       "difficulty": "B",
@@ -5807,7 +5807,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.204": {
+    {
       "number": "4.204",
       "description": "Rol v.o. zonder steun van de handen  tot zit of tot hurkzit    Vanuit rijzit, zwaai a.w . tot schouder rol v.o . met heup strekking tot zit positie in hurkstand",
       "difficulty": "B",
@@ -5819,7 +5819,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.304": {
+    {
       "number": "4.304",
       "description": "Vrije schouderrol  v.o. met strekking van de heupen en zonder steun van de handen tot zit of hurkzit",
       "difficulty": "C",
@@ -5831,7 +5831,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.105": {
+    {
       "number": "4.105",
       "description": "Rol a.o. met handensteun op de balk \u2013 landen op 1 of beide voeten",
       "difficulty": "A",
@@ -5843,7 +5843,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.305": {
+    {
       "number": "4.305",
       "description": "Rol a.o. tot handstand",
       "difficulty": "C",
@@ -5855,7 +5855,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.206": {
+    {
       "number": "4.206",
       "description": "Rol zijwaarts met gehurkt  lichaam  - of rol zijwaarts gestrekt of spreidhoek door nekstand, ook met \u00bd draai (180\u00b0) over de schouder",
       "difficulty": "B",
@@ -5867,7 +5867,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.306": {
+    {
       "number": "4.306",
       "description": "Rol zijwaarts met gestrekt lichaam",
       "difficulty": "C",
@@ -5879,7 +5879,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.107": {
+    {
       "number": "4.107",
       "description": "Radslag, ook met steun op 1 hand of radslag met vluchtfase voor of na de handensteun",
       "difficulty": "A",
@@ -5891,7 +5891,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.307": {
+    {
       "number": "4.307",
       "description": "Vanuit spreidzit of spreidspagaat - rol zijwaarts gestrekt, benen gespreid \u2013 eindpos itie naar keuze",
       "difficulty": "C",
@@ -5903,7 +5903,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.108": {
+    {
       "number": "4.108",
       "description": "Langzame overslag v.o., met/zonder ongelijke handplaatsing   Langzame overslag v.o., a.o. (Tik -Tak)",
       "difficulty": "A",
@@ -5915,7 +5915,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.208": {
+    {
       "number": "4.208",
       "description": "Langzame overslag v.o., met steun op 1 arm",
       "difficulty": "B",
@@ -5927,7 +5927,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.308": {
+    {
       "number": "4.308",
       "description": "Opzwaai tot handstand in dwarspositie met \u00bd draai (180\u00b0) tot langzame overslag v.o.    Langzame overslag v.o. in parallelpositie tot parallelstand",
       "difficulty": "C",
@@ -5939,7 +5939,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.109": {
+    {
       "number": "4.109",
       "description": "Langzame overslag a.o., met/zonder  ongelijke handplaatsing, ook tot rijzit",
       "difficulty": "A",
@@ -5951,7 +5951,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.209": {
+    {
       "number": "4.209",
       "description": "Langzame overslag a.o., met steun op 1 arm",
       "difficulty": "B",
@@ -5963,7 +5963,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.309": {
+    {
       "number": "4.309",
       "description": "Langzame overslag a.o. met \u00bd draai (180\u00b0) doorgaand in langzame overslag v.o.   Langzame overslag a.o. in parallelpositie tot parallelstand    Langzame  overslag a.o. met doorhoeken van 1 been tot dwars spagaat",
       "difficulty": "C",
@@ -5975,7 +5975,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.210": {
+    {
       "number": "4.210",
       "description": "Vanuit hurkspreidzit - langzame overslag a.o. (Valdez/zitbruggetje)",
       "difficulty": "B",
@@ -5987,7 +5987,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "4.310": {
+    {
       "number": "4.310",
       "description": "Valdez  met 1/1 draai (360\u00b0) , terugkomen tot een eindpositie waarbij de balk wordt aangeraakt   Vanuit hurkspreidzit - zwaai a.o. door  het horizontale  vlak met steun van 1 arm",
       "difficulty": "C",
@@ -5999,7 +5999,7 @@
         "group": "houdingen en acrobatische elementen zonder vlucht"
       }
     },
-    "5.201": {
+    {
       "number": "5.201",
       "description": "Handstandoverslag v.o. met vluchtfase, landing op \u00e9\u00e9n of beide benen  (zelfde element); ook met steun van \u00e9\u00e9n arm",
       "difficulty": "B",
@@ -6012,7 +6012,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.301": {
+    {
       "number": "5.301",
       "description": "Handstandoverslag v.o. met beenwissel in de vluchtfase",
       "difficulty": "C",
@@ -6025,7 +6025,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.401": {
+    {
       "number": "5.401",
       "description": "Sprong achterwaarts ( flik-flak afzet) met \u00bd draai (180\u00b0) tot overslag voorwaarts, ook met steun op \u00e9\u00e9n arm, of tot tik-tak",
       "difficulty": "D",
@@ -6038,7 +6038,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.501": {
+    {
       "number": "5.501",
       "description": "Sprong achterwaarts ( flik-flak afzet) met \u00bd draai (180\u00b0) tot overslag voorwaarts  met landing op 2 voeten",
       "difficulty": "E",
@@ -6051,7 +6051,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.202": {
+    {
       "number": "5.202",
       "description": "Flik-flak tot landing op 2 voeten",
       "difficulty": "B",
@@ -6064,7 +6064,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.302": {
+    {
       "number": "5.302",
       "description": "Flik-flak met \u00bd draai (180 \uf0b0) tot handstand (2 sec .) \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "C",
@@ -6077,7 +6077,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.402": {
+    {
       "number": "5.402",
       "description": "Flik-flak vanuit parallelpositie met \u00bd draai (180 \uf0b0) tot handstand en terugkomen tot eindpositie naar keuze",
       "difficulty": "D",
@@ -6090,7 +6090,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.303": {
+    {
       "number": "5.303",
       "description": "Flik-flak met \u00bc (90\u00ba) tot handstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "C",
@@ -6103,7 +6103,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.403": {
+    {
       "number": "5.403",
       "description": "Flik-flak met \u00be draai (270\u00ba) tot parallelhandstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "D",
@@ -6116,7 +6116,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.204": {
+    {
       "number": "5.204",
       "description": "Flik-flak met uitstappen , ook met steun op \u00e9\u00e9n arm",
       "difficulty": "B",
@@ -6129,7 +6129,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.304": {
+    {
       "number": "5.304",
       "description": "Flik-flak met \u00bd draai (180\u00ba) na de steun van de handen",
       "difficulty": "C",
@@ -6142,7 +6142,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.404": {
+    {
       "number": "5.404",
       "description": "Flik-flak met minimaal \u00be draai (270 \uf0b0) voor de steun van de handen",
       "difficulty": "D",
@@ -6155,7 +6155,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.405": {
+    {
       "number": "5.405",
       "description": "Flik-flak met uitstappen  vanuit parallelpositie",
       "difficulty": "D",
@@ -6168,7 +6168,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.505": {
+    {
       "number": "5.505",
       "description": "Flik-flak vanuit  parallelpositie met 1/1 draai (360\u00b0) tot heupdraai a.o.",
       "difficulty": "E",
@@ -6185,7 +6185,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.206": {
+    {
       "number": "5.206",
       "description": "Auerbach flik-flak (Gainer flik-flak), ook met steun op \u00e9\u00e9n arm",
       "difficulty": "B",
@@ -6198,7 +6198,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.306": {
+    {
       "number": "5.306",
       "description": "Auerbach flik -flak met \u00bc draai (90\u00b0) tot handstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze",
       "difficulty": "C",
@@ -6211,7 +6211,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.406": {
+    {
       "number": "5.406",
       "description": "Auerbach flik-flak met minimaal \u00be draai (270\u00b0) voor de steun van de handen",
       "difficulty": "D",
@@ -6224,7 +6224,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.207": {
+    {
       "number": "5.207",
       "description": "Flik-flak of auerbach flik-flak, met hoge vluchtfase tot rijzit",
       "difficulty": "B",
@@ -6237,7 +6237,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.307": {
+    {
       "number": "5.307",
       "description": "Flik-flak of auerbach flik -flak met hoeken en strekken van de heupen  in de vluchtfase tot rijzit",
       "difficulty": "C",
@@ -6250,7 +6250,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.407": {
+    {
       "number": "5.407",
       "description": "Flik-flak met 1/1 draai (360\u00b0) \u2013 tot rijzit",
       "difficulty": "D",
@@ -6263,7 +6263,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.208": {
+    {
       "number": "5.208",
       "description": "Arabier",
       "difficulty": "B",
@@ -6276,7 +6276,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.408": {
+    {
       "number": "5.408",
       "description": "Vrije (aerial) radslag \u2013 landing  op \u00e9\u00e9n of twee voeten  in dwars - of parallelstand , ook met beenwissel",
       "difficulty": "D",
@@ -6289,7 +6289,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.508": {
+    {
       "number": "5.508",
       "description": "Vrije (aerial) arabier gehurkt of gehoekt \u2013 afzet van twee voeten     Vrije (aerial) radslag in parallelpositie",
       "difficulty": "E",
@@ -6302,7 +6302,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.409": {
+    {
       "number": "5.409",
       "description": "Vrije (aerial) overslag v.o., landing op \u00e9\u00e9n of beide voeten",
       "difficulty": "D",
@@ -6315,7 +6315,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.310": {
+    {
       "number": "5.310",
       "description": "Salto v.o. gehurkt, afzet van \u00e9\u00e9n been tot stand op \u00e9\u00e9n of beide voeten",
       "difficulty": "C",
@@ -6328,7 +6328,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.410": {
+    {
       "number": "5.410",
       "description": "Salto v.o. gehurkt tot dwarsstand",
       "difficulty": "D",
@@ -6341,7 +6341,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.510": {
+    {
       "number": "5.510",
       "description": "Salto v.o. gehoekt tot dwarsstand",
       "difficulty": "E",
@@ -6354,7 +6354,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.411": {
+    {
       "number": "5.411",
       "description": "Salto zijwaarts gehurkt , afzet vanaf \u00e9\u00e9n  been tot parallelstand",
       "difficulty": "D",
@@ -6367,7 +6367,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.511": {
+    {
       "number": "5.511",
       "description": "Salto zijwaarts gehurkt met \u00bd draai (180\u00b0), afzet vanaf \u00e9\u00e9n been tot parallelstand",
       "difficulty": "E",
@@ -6380,7 +6380,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.611": {
+    {
       "number": "5.611",
       "description": "Twist salto gehurkt (afzet achterwaarts met \u00bd draai (180\u00b0) - salto voorwaarts)",
       "difficulty": "F",
@@ -6393,7 +6393,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.312": {
+    {
       "number": "5.312",
       "description": "Salto a.o. gehurkt, gehoekt of gestrekt (met uitstappen )",
       "difficulty": "C",
@@ -6410,7 +6410,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.512": {
+    {
       "number": "5.512",
       "description": "Salto a.o. gestrekt met  gesloten benen",
       "difficulty": "E",
@@ -6427,7 +6427,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.612": {
+    {
       "number": "5.612",
       "description": "Salto a.o. gehurkt met 1/1 dr aai (360\u00b0)",
       "difficulty": "F",
@@ -6444,7 +6444,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.712": {
+    {
       "number": "5.712",
       "description": "Salto a.o. gestrekt met 1/1 draai (360\u00b0 )      Balk \u2013 Groep 5 \u2013 6 ",
       "difficulty": "G",
@@ -6461,7 +6461,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.313": {
+    {
       "number": "5.313",
       "description": "Auerbach salto a. o. gehurkt, gehoekt of gestrekt met uitstappen",
       "difficulty": "C",
@@ -6474,7 +6474,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "5.613": {
+    {
       "number": "5.613",
       "description": "Sprong voorwaarts met \u00bd draai (180\u00b0) - salto a.o. gehurkt of gehoekt",
       "difficulty": "F",
@@ -6491,7 +6491,7 @@
         "group": "acrobatische vluchtelementen"
       }
     },
-    "6.101": {
+    {
       "number": "6.101",
       "description": "Vrije overslag v.o. met \u00bd draai (180\u00b0)",
       "difficulty": "A",
@@ -6504,7 +6504,7 @@
         "group": "afsprongen"
       }
     },
-    "6.201": {
+    {
       "number": "6.201",
       "description": "Vrije overslag v.o. met 1/1 draai (360\u00b0)   Vrije radslag met \u00bd draai (180\u00b0)",
       "difficulty": "B",
@@ -6517,7 +6517,7 @@
         "group": "afsprongen"
       }
     },
-    "6.301": {
+    {
       "number": "6.301",
       "description": "Vrije overslag v.o. met 1\u00bd draai (540\u00ba)",
       "difficulty": "C",
@@ -6530,7 +6530,7 @@
         "group": "afsprongen"
       }
     },
-    "6.501": {
+    {
       "number": "6.501",
       "description": "Vrije (aerial) radslag met gehurkte salto achterwaarts",
       "difficulty": "E",
@@ -6543,7 +6543,7 @@
         "group": "afsprongen"
       }
     },
-    "6.102": {
+    {
       "number": "6.102",
       "description": "Salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)",
       "difficulty": "A",
@@ -6556,7 +6556,7 @@
         "group": "afsprongen"
       }
     },
-    "6.202": {
+    {
       "number": "6.202",
       "description": "Salto v.o. gestrekt, ook met \u00bd draai (180\u00b0)",
       "difficulty": "B",
@@ -6569,7 +6569,7 @@
         "group": "afsprongen"
       }
     },
-    "6.302": {
+    {
       "number": "6.302",
       "description": "Salto v.o. gestrekt met 1/1 draai (360\uf0b0) of met 1 \u00bd draai (540\u00ba)",
       "difficulty": "C",
@@ -6582,7 +6582,7 @@
         "group": "afsprongen"
       }
     },
-    "6.402": {
+    {
       "number": "6.402",
       "description": "Salto v.o. gestrekt met 2/1 draai (720\u00ba)",
       "difficulty": "D",
@@ -6595,7 +6595,7 @@
         "group": "afsprongen"
       }
     },
-    "6.602": {
+    {
       "number": "6.602",
       "description": "Dubbele salto v.o. gehurkt      Balk \u2013 Groep 6 \u2013 1 ",
       "difficulty": "F",
@@ -6608,7 +6608,7 @@
         "group": "afsprongen"
       }
     },
-    "6.203": {
+    {
       "number": "6.203",
       "description": "Twistsalto gehurkt, gehoekt  (sprong achterwaarts met \u00bd draai (180\u00b0) - salto v.o.)",
       "difficulty": "B",
@@ -6621,7 +6621,7 @@
         "group": "afsprongen"
       }
     },
-    "6.303": {
+    {
       "number": "6.303",
       "description": "Streksprong voorwaarts met 1/1 draai (360\u00b0) en salto v.o. gehurkt, of gehoekt",
       "difficulty": "C",
@@ -6634,7 +6634,7 @@
         "group": "afsprongen"
       }
     },
-    "6.403": {
+    {
       "number": "6.403",
       "description": "Streksprong voorwaarts met 1/1 draai (360\u00b0) en salto v.o. gestrekt",
       "difficulty": "D",
@@ -6647,7 +6647,7 @@
         "group": "afsprongen"
       }
     },
-    "6.703": {
+    {
       "number": "6.703",
       "description": "Dubbele twistsalto v.o. gehurkt",
       "difficulty": "G",
@@ -6660,7 +6660,7 @@
         "group": "afsprongen"
       }
     },
-    "6.104": {
+    {
       "number": "6.104",
       "description": "Salto a.o. gehurkt, gehoekt of gestrekt, ook met \u00bd draai (180\u00b0)",
       "difficulty": "A",
@@ -6677,7 +6677,7 @@
         "group": "afsprongen"
       }
     },
-    "6.204": {
+    {
       "number": "6.204",
       "description": "Salto a.o. gehurkt of gestrekt met 1/1 draai (360\u00b0)",
       "difficulty": "B",
@@ -6694,7 +6694,7 @@
         "group": "afsprongen"
       }
     },
-    "6.304": {
+    {
       "number": "6.304",
       "description": "Salto a.o. gehurkt of gestrekt met 1\u00bd dr aai (540\u00b0)",
       "difficulty": "C",
@@ -6711,7 +6711,7 @@
         "group": "afsprongen"
       }
     },
-    "6.404": {
+    {
       "number": "6.404",
       "description": "Salto a.o. gestrekt met 2\u00bd draai (900\u00b0)",
       "difficulty": "D",
@@ -6728,7 +6728,7 @@
         "group": "afsprongen"
       }
     },
-    "6.604": {
+    {
       "number": "6.604",
       "description": "Salto a.o. gestrekt met 3/1 draai (1080\u00b0)",
       "difficulty": "F",
@@ -6745,7 +6745,7 @@
         "group": "afsprongen"
       }
     },
-    "6.405": {
+    {
       "number": "6.405",
       "description": "Dubbele salto a.o. gehurkt",
       "difficulty": "D",
@@ -6762,7 +6762,7 @@
         "group": "afsprongen"
       }
     },
-    "6.505": {
+    {
       "number": "6.505",
       "description": "Dubbele salto a.o. gehoekt",
       "difficulty": "E",
@@ -6779,7 +6779,7 @@
         "group": "afsprongen"
       }
     },
-    "6.705": {
+    {
       "number": "6.705",
       "description": "Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto",
       "difficulty": "G",
@@ -6796,7 +6796,7 @@
         "group": "afsprongen"
       }
     },
-    "6.805": {
+    {
       "number": "6.805",
       "description": "Dubbele salto a.o. gehurkt met 2/1 draai (720\u00b0)",
       "difficulty": "H",
@@ -6813,7 +6813,7 @@
         "group": "afsprongen"
       }
     },
-    "6.106": {
+    {
       "number": "6.106",
       "description": "Auerbach salto gehurkt, gehoekt  of gestrekt  aan de zijkant van de balk - ook met \u00bd draai (180\u00b0) gehurkt of gestrekt",
       "difficulty": "A",
@@ -6826,7 +6826,7 @@
         "group": "afsprongen"
       }
     },
-    "6.206": {
+    {
       "number": "6.206",
       "description": "Auerbach salto gehurkt  of gestrekt  met 1/1 draai (360\u00ba)  aan de zijkant van de balk",
       "difficulty": "B",
@@ -6839,7 +6839,7 @@
         "group": "afsprongen"
       }
     },
-    "6.306": {
+    {
       "number": "6.306",
       "description": "Auerbach salto gehurkt  of gestrekt  met 1\u00bd  (540\uf0b0) of 2/1 draai (720\u00ba)  aan de zijkant van de balk",
       "difficulty": "C",
@@ -6852,7 +6852,7 @@
         "group": "afsprongen"
       }
     },
-    "6.406": {
+    {
       "number": "6.406",
       "description": "Auerbach salto gestrekt met  2\u00bd draai (900\u00ba) aan de zijkant van de balk",
       "difficulty": "D",
@@ -6865,7 +6865,7 @@
         "group": "afsprongen"
       }
     },
-    "6.606": {
+    {
       "number": "6.606",
       "description": "Auerbach salto gestrekt met 3/1 draai (1080\u00ba) aan de zijkant van de balk",
       "difficulty": "F",
@@ -6878,7 +6878,7 @@
         "group": "afsprongen"
       }
     },
-    "6.207": {
+    {
       "number": "6.207",
       "description": "Auerbach salto gehurkt of gehoekt aan punt van de balk",
       "difficulty": "B",
@@ -6891,7 +6891,7 @@
         "group": "afsprongen"
       }
     },
-    "6.307": {
+    {
       "number": "6.307",
       "description": "Auerbach salto gestrekt  met gesloten benen aan de punt van de balk      Auerbach salto gehurkt met 1/1 draai (360\u00b0) aan de punt van de balk",
       "difficulty": "C",
@@ -6904,7 +6904,7 @@
         "group": "afsprongen"
       }
     },
-    "6.407": {
+    {
       "number": "6.407",
       "description": "Auerbach salto gestrekt met 1/1 draai (360\u00b0) aan de punt van de balk       Auerbach salto met 1\u00bd draai ( 540\u00b0) aan de punt van de balk",
       "difficulty": "D",
@@ -6917,7 +6917,7 @@
         "group": "afsprongen"
       }
     },
-    "6.507": {
+    {
       "number": "6.507",
       "description": "Auerbach salto gestrekt met 2/1 draai (720\u00b0) aan de punt van de balk",
       "difficulty": "E",
@@ -6930,9 +6930,9 @@
         "group": "afsprongen"
       }
     }
-  },
-  "floor": {
-    "1.101": {
+  ],
+  "floor": [
+    {
       "number": "1.101",
       "description": "Spagaatsprong voorwaarts - afzet van \u00e9\u00e9n been  (180\u00b0 beenspreiding)",
       "difficulty": "A",
@@ -6945,7 +6945,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.201": {
+    {
       "number": "1.201",
       "description": "Spagaatsprong voorwaarts met \u00bd draai (180\u00b0) \u2013 afzet van \u00e9\u00e9n been",
       "difficulty": "B",
@@ -6958,7 +6958,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.301": {
+    {
       "number": "1.301",
       "description": "Spagaatsprong voorwaarts met 1/1 draai (360\u00ba)  \u2013 afzet van \u00e9\u00e9n been",
       "difficulty": "C",
@@ -6971,7 +6971,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.202": {
+    {
       "number": "1.202",
       "description": "(*) Fouett\u00e9sprong met beenwissel tot  dwarsspagaat (beenspreiding 180\u00ba) (tour jet\u00e9 )   Tour jete tot ringhouding  (achterste voet op hoofdhoogte, romp achterover en hoofd achterover)",
       "difficulty": "B",
@@ -6984,7 +6984,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.302": {
+    {
       "number": "1.302",
       "description": "(*) Tour jete met extra  \u00bd draai ( 180\u00ba) met landing  op \u00e9\u00e9n of beide  voeten of  tot zit in spagaat",
       "difficulty": "C",
@@ -6997,7 +6997,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.402": {
+    {
       "number": "1.402",
       "description": "Spagaatsprong voorwaarts met 1 /1 draai (360\u00ba) \u2013 afzet van \u00e9\u00e9n been",
       "difficulty": "D",
@@ -7010,7 +7010,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.103": {
+    {
       "number": "1.103",
       "description": "Hurksprong met spreiden van de benen  tot dwars - spagaat (180\u00ba) tijdens de vluchtfase",
       "difficulty": "A",
@@ -7023,7 +7023,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.203": {
+    {
       "number": "1.203",
       "description": "* Een butterfly v.o. of a.o. \u2013 lichaam parallel aan de vloer, benen gespreid en voeten boven heuphoogte gedurende de vlucht",
       "difficulty": "B",
@@ -7036,7 +7036,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.104": {
+    {
       "number": "1.104",
       "description": "(*) Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal) of zijwaart se spagaat \u2013 landing op \u00e9\u00e9n of beide benen",
       "difficulty": "A",
@@ -7049,7 +7049,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.204": {
+    {
       "number": "1.204",
       "description": "Spagaatsprong voorwaarts met beenwissel en \u00bc draai (90\u00ba) tot zijwaartse spagaat  of tot spreidhoekpositie (beide benen boven horizontaal (Johnson)",
       "difficulty": "B",
@@ -7062,7 +7062,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.304": {
+    {
       "number": "1.304",
       "description": "(*)  Spagaatsprong voorwaarts met beenwissel en \u00bd draai (180\u00ba) in de vluchtfase",
       "difficulty": "C",
@@ -7075,7 +7075,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.404": {
+    {
       "number": "1.404",
       "description": "(*)  Spagaatsprong voorwaarts met beenwissel en 1/1 draai (360\u00b0) in de vluchtfase  Johnson met toegevoegde 1/1 draai (360\u00b0)",
       "difficulty": "D",
@@ -7088,7 +7088,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.105": {
+    {
       "number": "1.105",
       "description": "Loopsprong voorwaarts met beenwissel tot hurk-hoekpositie",
       "difficulty": "A",
@@ -7101,7 +7101,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.205": {
+    {
       "number": "1.205",
       "description": "Spagaatsprong voorwaarts met beenwissel (180\u00ba  beenspreiding na de beenwissel)",
       "difficulty": "B",
@@ -7114,7 +7114,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.305": {
+    {
       "number": "1.305",
       "description": "Spagaatsprong voorwaarts met beenwissel tot ringhouding (180\u00ba beenspreiding)",
       "difficulty": "C",
@@ -7127,7 +7127,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.405": {
+    {
       "number": "1.405",
       "description": "Spagaatsprong voorwaarts met beenwissel tot ringhouding  en \u00bd draai (180\u00b0)",
       "difficulty": "D",
@@ -7140,7 +7140,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.106": {
+    {
       "number": "1.106",
       "description": "Hoeksprong ( heuphoek < 90\u00b0 ) met \u00bd draai (180\u00ba)",
       "difficulty": "A",
@@ -7153,7 +7153,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.206": {
+    {
       "number": "1.206",
       "description": "Schaapsprong (bovenlichaam achterwaarts gebogen en hoofd achterover en de voeten bijna het hoofd rakend)",
       "difficulty": "B",
@@ -7166,7 +7166,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.306": {
+    {
       "number": "1.306",
       "description": "Hoeksprong ( heuphoek < 90\u00b0 ) met 1/1 draai ( 360\u00ba)",
       "difficulty": "C",
@@ -7179,7 +7179,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.107": {
+    {
       "number": "1.107",
       "description": "(*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel (180\u00ba beens preiding)",
       "difficulty": "A",
@@ -7192,7 +7192,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.207": {
+    {
       "number": "1.207",
       "description": "(*) Spreidhoeksprong of spagaatsprong parallel met \u00bd draai ( 180\u00ba)",
       "difficulty": "B",
@@ -7205,7 +7205,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.307": {
+    {
       "number": "1.307",
       "description": "(*)  Spreidhoeksprong of spagaatsprong parallel met 1/1 draai ( 360\u00ba)",
       "difficulty": "C",
@@ -7218,7 +7218,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.407": {
+    {
       "number": "1.407",
       "description": "(*) Spreidhoeksprong of spagaatsprong parallel met 1\u00bd draai (540\u00b0)   Spagaatsprong voorwaarts  met  1\u00bd d raai (540\u00ba)  \u2013 afzet van beide benen",
       "difficulty": "D",
@@ -7231,7 +7231,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.108": {
+    {
       "number": "1.108",
       "description": "(*) Spreidhoeksprong (beide benen boven horizontaal) of spagaatsprong parallel  met landing tot ligsteun, ook met  \u00bd draai (180\u00ba)   Hup met 1/1 draai (360\u00ba) tot spreidpositie met landing   tot ligsteun  - afzet van \u00e9\u00e9n been",
       "difficulty": "A",
@@ -7244,7 +7244,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.208": {
+    {
       "number": "1.208",
       "description": "(*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel met 1/1 draai (360\u00b0), landing tot ligsteun",
       "difficulty": "B",
@@ -7257,7 +7257,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.109": {
+    {
       "number": "1.109",
       "description": "(*)  Spagaatsprong voorwaarts (180\u00b0 beenspreiding)  - afzet van twee benen",
       "difficulty": "A",
@@ -7270,7 +7270,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.209": {
+    {
       "number": "1.209",
       "description": "(*) Ringsprong (achterste voet op hoofdhoogte, romp achterover, 180\u00ba beenspreiding en hoofd achterover)  \u2013 afzet van twee benen   Reeringsprong (achterste voet op hoofdhoogte , romp achterover  en hoofd achterover ) \u2013 afzet van twee benen  Spagaatringsprong (180\u00ba beenspreiding  \u2013 afzet van twee benen   Spagaatringsprong met \u00bd draai (180\u00ba ) - afzet van twee benen",
       "difficulty": "B",
@@ -7283,7 +7283,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.309": {
+    {
       "number": "1.309",
       "description": "Loopspagaatringsprong (180\u00ba ) beenspreiding  \u2013 afzet van \u00e9\u00e9n been",
       "difficulty": "C",
@@ -7296,7 +7296,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.409": {
+    {
       "number": "1.409",
       "description": "(*)  Loopspagaatsprong (afzet van \u00e9\u00e9n been)   Spagaatsprong (afzet van twee benen) met 1/1 (360\u00b0) draai tot ringhouding   Wisselspagaat tot ringpositie met \u00bd draai (180\u00ba)",
       "difficulty": "D",
@@ -7309,7 +7309,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.110": {
+    {
       "number": "1.110",
       "description": "Streksprong met 1/1 draai (360\u00ba)",
       "difficulty": "A",
@@ -7322,7 +7322,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.310": {
+    {
       "number": "1.310",
       "description": "Streksprong met 2/1 draai (720\u00ba)",
       "difficulty": "C",
@@ -7335,7 +7335,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.111": {
+    {
       "number": "1.111",
       "description": "Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal )",
       "difficulty": "A",
@@ -7348,7 +7348,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.211": {
+    {
       "number": "1.211",
       "description": "Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal) met 1/1 draai (360\u00ba )",
       "difficulty": "B",
@@ -7361,7 +7361,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.311": {
+    {
       "number": "1.311",
       "description": "Kattensprong met  2/1 draai (720\u00ba)",
       "difficulty": "C",
@@ -7374,7 +7374,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.112": {
+    {
       "number": "1.112",
       "description": "Fouett\u00e9sprong tot landing in arabesque (vrije been boven horizontaal)",
       "difficulty": "A",
@@ -7387,7 +7387,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.212": {
+    {
       "number": "1.212",
       "description": "Sprong met \u00bd draai (180\u00b0), vrije been gedurende de draai gestrekt boven horizontaal",
       "difficulty": "B",
@@ -7400,7 +7400,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.312": {
+    {
       "number": "1.312",
       "description": "Sprong met 1/1 draai (360\u00ba), vrije been gedurende de gehele draai gestrekt boven horizontaal",
       "difficulty": "C",
@@ -7413,7 +7413,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.213": {
+    {
       "number": "1.213",
       "description": "Hurksprong met 1/1  draai (360\u00ba)",
       "difficulty": "B",
@@ -7426,7 +7426,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.313": {
+    {
       "number": "1.313",
       "description": "(*) Hurksprong met 2/1 draai (720\u00ba), ook met landing tot ligsteun",
       "difficulty": "C",
@@ -7439,7 +7439,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.114": {
+    {
       "number": "1.114",
       "description": "Hurkhoeksprong (\u00e9\u00e9n been gebogen en het andere been voorwaarts gestrekt , boven  horizontaal met gesloten knie\u00ebn )",
       "difficulty": "A",
@@ -7452,7 +7452,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.214": {
+    {
       "number": "1.214",
       "description": "(*)  Hurkhoeksprong met 1/1 draai (360\u00ba)",
       "difficulty": "B",
@@ -7465,7 +7465,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.514": {
+    {
       "number": "1.514",
       "description": "Hurkhoeksprong met 2/1 draai (720\u00ba)",
       "difficulty": "E",
@@ -7478,7 +7478,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.101": {
+    {
       "number": "2.101",
       "description": "1/1 draai (360\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze",
       "difficulty": "A",
@@ -7491,7 +7491,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.201": {
+    {
       "number": "2.201",
       "description": "2/1 draai (720\u00ba) op \u00e9\u00e9n  been - vrije been onder de horizontaal naar keuze \u2019",
       "difficulty": "B",
@@ -7504,7 +7504,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.301": {
+    {
       "number": "2.301",
       "description": "3/1 draai (1080\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze",
       "difficulty": "C",
@@ -7517,7 +7517,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.501": {
+    {
       "number": "2.501",
       "description": "4/1 draai (1440\u00ba) op \u00e9\u00e9n been \u2013 vrije been onder de horizontaal naar keuze",
       "difficulty": "E",
@@ -7530,7 +7530,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.202": {
+    {
       "number": "2.202",
       "description": "1/1 draai (360\u00ba) met het vrije been van het begin tot het ein de van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)",
       "difficulty": "B",
@@ -7543,7 +7543,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.402": {
+    {
       "number": "2.402",
       "description": "2/1 draai (720\u00ba) met het vrije been van het begin tot het einde van de draai op  horizontaal , ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)",
       "difficulty": "D",
@@ -7556,7 +7556,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.203": {
+    {
       "number": "2.203",
       "description": "1/1 draai (360\u00ba) met het vrije been vastgehouden  in 180\u00ba spagaat positie  gedurende de gehele draai",
       "difficulty": "B",
@@ -7569,7 +7569,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.403": {
+    {
       "number": "2.403",
       "description": "2/1 draai ( 720\u00b0) met het vrije been vastgehouden  in 180\u00ba spagaat positie  gedurende de gehele draai",
       "difficulty": "D",
@@ -7582,7 +7582,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.503": {
+    {
       "number": "2.503",
       "description": "3/1 draai (1080 \u00ba) met het vrije been vastgehouden  in 180\u00ba spagaat positie  gedurende de gehele draai",
       "difficulty": "E",
@@ -7595,7 +7595,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.204": {
+    {
       "number": "2.204",
       "description": "1/1 draai (360 \uf0b0) op 1 been in \u201cback attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai )",
       "difficulty": "B",
@@ -7608,7 +7608,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.404": {
+    {
       "number": "2.404",
       "description": "(*) 2/1 draai ( 720\uf0b0) op 1 been \u201cin back attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai )  2/1 draai (720 \uf0b0) op 1 been met het vrije been achterwaar ts vastgehouden met beiden handen gedurende de  draai",
       "difficulty": "D",
@@ -7621,7 +7621,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.205": {
+    {
       "number": "2.205",
       "description": "1/1 draai (360\uf0b0) in zweefstand met vrije been boven horizo ntaal gedurende de gehele draai",
       "difficulty": "B",
@@ -7634,7 +7634,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.206": {
+    {
       "number": "2.206",
       "description": "1/1 duikdraai (360\u00ba) door standspagaat zonder aanraken van de vloer met de handen",
       "difficulty": "B",
@@ -7647,7 +7647,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.207": {
+    {
       "number": "2.207",
       "description": "1/1 draai (360\u00ba)  pirouette  in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai",
       "difficulty": "B",
@@ -7660,7 +7660,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.307": {
+    {
       "number": "2.307",
       "description": "2/1 draai (720\u00ba) pirouette gestart met vrije been op horizontaal, naar beneden tot eindiging van draai in hurk hoek positie",
       "difficulty": "C",
@@ -7673,7 +7673,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.407": {
+    {
       "number": "2.407",
       "description": "2/1 draai (720\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai (geen afzet van de handen toegestaan bij de start van de draai)",
       "difficulty": "D",
@@ -7686,7 +7686,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.507": {
+    {
       "number": "2.507",
       "description": "3/1 draai (1080\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai (geen afzet van de handen toegestaan bij de start van de dr aai)",
       "difficulty": "E",
@@ -7699,7 +7699,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "2.208": {
+    {
       "number": "2.208",
       "description": "2/1 draai (720\u00ba) of meer op de rug in kiphouding (been - romphoek gesloten)",
       "difficulty": "B",
@@ -7712,7 +7712,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "3.101": {
+    {
       "number": "3.101",
       "description": "Springen, zwaaien of heffen tot handstand \u2013 beweging erna naar keuze, ook met \u00bd  en 1/1 draai (180\u00ba -360\u00ba) in handstand",
       "difficulty": "A",
@@ -7724,7 +7724,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.201": {
+    {
       "number": "3.201",
       "description": "Springen, zwaaien of heffen tot handstand met 1\u00bd -2/1 draai ( 540\u00ba-720\u00ba) in handstand  \u2013 beweging erna naar k euze",
       "difficulty": "B",
@@ -7736,7 +7736,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.102": {
+    {
       "number": "3.102",
       "description": "Hechtrol",
       "difficulty": "A",
@@ -7748,7 +7748,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.103": {
+    {
       "number": "3.103",
       "description": "Rol achterover tot handstand met \u00bd of 1/1 draai (180\u00ba -360\u00ba) in handstand",
       "difficulty": "A",
@@ -7760,7 +7760,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.203": {
+    {
       "number": "3.203",
       "description": "Rol achterover tot handstand met 1\u00bd - 2/1 draai ( 540\u00b0-720\u00ba) in handstand",
       "difficulty": "B",
@@ -7772,7 +7772,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.104": {
+    {
       "number": "3.104",
       "description": "Langzame overslag achterover vanuit stand of hurkspreidzit tot handstand met 1/1 draai (360\u00ba) in handstand - beweging erna naar keuze",
       "difficulty": "A",
@@ -7784,7 +7784,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.105": {
+    {
       "number": "3.105",
       "description": "Overslag v.o. - afzet van \u00e9\u00e9n been of o verslag v.o. - afzet van beide benen - met of zonder hechtfase voor de steun van de handen - landing naar keuze   Sprong achterwaarts met \u00bd draai (180\u00ba) tot overslag v.o. (twistoverslag) - landing naar keuze",
       "difficulty": "A",
@@ -7796,7 +7796,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.305": {
+    {
       "number": "3.305",
       "description": "Overslag v.o. met 1/1 draai (360\u00ba) na de steun van de handen of voor de steun",
       "difficulty": "C",
@@ -7808,7 +7808,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.106": {
+    {
       "number": "3.106",
       "description": "Arabier",
       "difficulty": "A",
@@ -7820,7 +7820,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.107": {
+    {
       "number": "3.107",
       "description": "Alle flik-flak- en Auerbach -flik-flak- variaties, ook met steun van \u00e9\u00e9n arm",
       "difficulty": "A",
@@ -7832,7 +7832,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.207": {
+    {
       "number": "3.207",
       "description": "Flik-flak met 1/1 draai (360\u00ba)  voor de steun van de handen",
       "difficulty": "B",
@@ -7844,7 +7844,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "4.101": {
+    {
       "number": "4.101",
       "description": "Salto v.o.  gehurkt  of gehoekt",
       "difficulty": "A",
@@ -7857,7 +7857,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.201": {
+    {
       "number": "4.201",
       "description": "Salto v.o. gehurkt met \u00bd of 1/1 draai (180\u00ba -360\u00ba), ook salto v.o. gehoekt met \u00bd draai (180\u00ba)",
       "difficulty": "B",
@@ -7870,7 +7870,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.501": {
+    {
       "number": "4.501",
       "description": "Dubbele salto v.o. gehurkt",
       "difficulty": "E",
@@ -7883,7 +7883,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.601": {
+    {
       "number": "4.601",
       "description": "Dubbel salto v.o. gehurkt met \u00bd draai (180\u00b0)   Dubbel salto v.o. gehoekt",
       "difficulty": "F",
@@ -7896,7 +7896,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.202": {
+    {
       "number": "4.202",
       "description": "Salto v.o. gestrekt ; ook met \u00bd draai (180\u00ba)",
       "difficulty": "B",
@@ -7909,7 +7909,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.302": {
+    {
       "number": "4.302",
       "description": "Salto v.o. gestrekt met 1/1 of 1\u00bd draai (360\u00ba of 540\u00ba)",
       "difficulty": "C",
@@ -7922,7 +7922,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.402": {
+    {
       "number": "4.402",
       "description": "Salto v.o. gestrekt met 2/1 draai (720\u00ba)",
       "difficulty": "D",
@@ -7935,7 +7935,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.502": {
+    {
       "number": "4.502",
       "description": "Salto v.o. gestrekt met  2\u00bd draai (900\u00ba)",
       "difficulty": "E",
@@ -7948,7 +7948,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.602": {
+    {
       "number": "4.602",
       "description": "Salto v.o. gestrekt met 3/1 draai (1080 \u00ba)",
       "difficulty": "F",
@@ -7961,7 +7961,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.103": {
+    {
       "number": "4.103",
       "description": "Vrije (aerial) overslag v.o.",
       "difficulty": "A",
@@ -7974,7 +7974,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.104": {
+    {
       "number": "4.104",
       "description": "Vrije (aerial) radslag of vrije (aerial) arabier",
       "difficulty": "A",
@@ -7987,7 +7987,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.105": {
+    {
       "number": "4.105",
       "description": "Vanuit afzet vw met \u00e9\u00e9n of beide benen \u2013 salto zijwaarts gehurkt of gehoekt",
       "difficulty": "A",
@@ -8000,7 +8000,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.205": {
+    {
       "number": "4.205",
       "description": "Twistsalto gehurkt of gehoekt ( afzet achterover met \u00bd draai (180\u00ba), salto v.o.) \u2013 landing naar keuze",
       "difficulty": "B",
@@ -8017,7 +8017,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.505": {
+    {
       "number": "4.505",
       "description": "Dubbele twistsalto gehurkt, ook met \u00bd draai (180 \uf0b0)",
       "difficulty": "E",
@@ -8030,7 +8030,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.605": {
+    {
       "number": "4.605",
       "description": "Dubbele twistsalto gehoekt   Ook met \u00bd draai (180\uf0b0)",
       "difficulty": "F",
@@ -8043,7 +8043,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "4.805": {
+    {
       "number": "4.805",
       "description": "Dubbele twistsalto gestrekt",
       "difficulty": "H",
@@ -8056,7 +8056,7 @@
         "group": "salto\u2019s v.o. en zijwaarts"
       }
     },
-    "5.101": {
+    {
       "number": "5.101",
       "description": "Salto a.o. gehurkt, gehoekt, gestrekt",
       "difficulty": "A",
@@ -8073,7 +8073,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.201": {
+    {
       "number": "5.201",
       "description": "Salto a.o. gehurkt of gestrekt met \u00bd of 1/1 draai (180\u00ba of 360\u00ba)",
       "difficulty": "B",
@@ -8090,7 +8090,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.301": {
+    {
       "number": "5.301",
       "description": "Salto a.o. gestrekt met 1\u00bd  of 2/1 draai (540\u00ba of 720\u00ba)",
       "difficulty": "C",
@@ -8107,7 +8107,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.401": {
+    {
       "number": "5.401",
       "description": "Salto a.o. gestrekt met 2\u00bd draai (900\u00ba)",
       "difficulty": "D",
@@ -8124,7 +8124,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.501": {
+    {
       "number": "5.501",
       "description": "Salto a.o. gestrekt met 3/1 draai (1080\u00ba)",
       "difficulty": "E",
@@ -8141,7 +8141,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.601": {
+    {
       "number": "5.601",
       "description": "Salto a.o. gestrekt met 3 \u00bd draai (1260\u00ba)",
       "difficulty": "F",
@@ -8158,7 +8158,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.402": {
+    {
       "number": "5.402",
       "description": "Dubbele salto a.o. gehurkt of gehoekt",
       "difficulty": "D",
@@ -8175,7 +8175,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.502": {
+    {
       "number": "5.502",
       "description": "Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00ba)",
       "difficulty": "E",
@@ -8192,7 +8192,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.802": {
+    {
       "number": "5.802",
       "description": "Dubbele salto a.o. gehurkt met 2/1 draai (720\u00ba)",
       "difficulty": "H",
@@ -8209,7 +8209,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.1002": {
+    {
       "number": "5.1002",
       "description": "Dubbele salto a.o. gehurkt met  3/1 draai ( 1080\u00ba)",
       "difficulty": "J",
@@ -8226,7 +8226,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.603": {
+    {
       "number": "5.603",
       "description": "Dubbele salto a.o. gestrekt",
       "difficulty": "F",
@@ -8243,7 +8243,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.703": {
+    {
       "number": "5.703",
       "description": "Dubbel salto a.o. gestrekt met \u00bd draai (180\u00b0)",
       "difficulty": "G",
@@ -8260,7 +8260,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.803": {
+    {
       "number": "5.803",
       "description": "Dubbele salto a.o. gestrekt met 1/1 draai (360\u00ba)",
       "difficulty": "H",
@@ -8277,7 +8277,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.903": {
+    {
       "number": "5.903",
       "description": "Dubbel salto a.o. gestrekt met 2/1 draai (720\u00b0)",
       "difficulty": "I",
@@ -8294,7 +8294,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.104": {
+    {
       "number": "5.104",
       "description": "Temposalto",
       "difficulty": "A",
@@ -8307,7 +8307,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.204": {
+    {
       "number": "5.204",
       "description": "Temposalto met \u00bd draai (180\u00ba)",
       "difficulty": "B",
@@ -8320,7 +8320,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "5.304": {
+    {
       "number": "5.304",
       "description": "Temposalto met 1/1 draai (360\u00ba)",
       "difficulty": "C",
@@ -8333,7 +8333,7 @@
         "group": "salto \u2019s a.o."
       }
     },
-    "1.001": {
+    {
       "number": "1.001",
       "description": "Loopsprong voorwaarts (beenspreiding 135\u00ba)",
       "difficulty": "TA",
@@ -8346,7 +8346,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.002": {
+    {
       "number": "1.002",
       "description": "Loopsprong op de plaats (beenspreiding 135\u00ba)",
       "difficulty": "TA",
@@ -8359,7 +8359,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.005": {
+    {
       "number": "1.005",
       "description": "Wisselloopsprong (beenspreiding 135\u00ba)",
       "difficulty": "TA",
@@ -8372,7 +8372,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.007": {
+    {
       "number": "1.007",
       "description": "Spreidsprong met gestrekte heupen (beenspreiding 135\u00ba)",
       "difficulty": "TA",
@@ -8385,7 +8385,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.009": {
+    {
       "number": "1.009",
       "description": "Sisonne (beenspreiding 135\u00ba)",
       "difficulty": "TA",
@@ -8398,7 +8398,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.010": {
+    {
       "number": "1.010",
       "description": "Streksprong met 1/2 draai (180\u00ba)",
       "difficulty": "TA",
@@ -8411,7 +8411,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.011": {
+    {
       "number": "1.011",
       "description": "Schaarsprong voorwaarts met gestrekte benen",
       "difficulty": "TA",
@@ -8424,7 +8424,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "1.012": {
+    {
       "number": "1.012",
       "description": "Hurksprong (benen gesloten), ook met \u00bd draai - afzet van een of beide benen",
       "difficulty": "TA",
@@ -8437,7 +8437,7 @@
         "group": "gymnastische sprongen"
       }
     },
-    "2.001": {
+    {
       "number": "2.001",
       "description": "\u00bd draai  (180\u00b0) op 1 been - vrije been  in pass\u00e9  Geldt alleen voor supplement 3 t/m 7",
       "difficulty": "TA",
@@ -8450,7 +8450,7 @@
         "group": "gymnastische draaien"
       }
     },
-    "3.001": {
+    {
       "number": "3.001",
       "description": "Zwaaien tot handstand , vluchtig of 1 seconde (180\u00b0)   Handstanddoorrol",
       "difficulty": "TA",
@@ -8462,7 +8462,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.002": {
+    {
       "number": "3.002",
       "description": "Rol voorover of snelle rol voorover zonder handensteun",
       "difficulty": "TA",
@@ -8474,7 +8474,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.003": {
+    {
       "number": "3.003",
       "description": "Rol achterover  (tot handstand)",
       "difficulty": "TA",
@@ -8486,7 +8486,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.004": {
+    {
       "number": "3.004",
       "description": "Langzame overslag voorover of l angzame overslag v.o., a.o. (Tik-Tak)",
       "difficulty": "TA",
@@ -8498,7 +8498,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.005": {
+    {
       "number": "3.005",
       "description": "Langzame overslag achterover, ook vanuit hurkspreidzit (Valdez)",
       "difficulty": "TA",
@@ -8510,7 +8510,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.006": {
+    {
       "number": "3.006",
       "description": "Radslag",
       "difficulty": "TA",
@@ -8522,7 +8522,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "3.007": {
+    {
       "number": "3.007",
       "description": "Radslag  op 1 arm",
       "difficulty": "TA",
@@ -8534,7 +8534,7 @@
         "group": "elementen met steun van de handen"
       }
     },
-    "6.001": {
+    {
       "number": "6.001",
       "description": "Geldt alleen voor supplement 6 t/m 7  Spreidzit met buik op de grond",
       "difficulty": "TA",
@@ -8547,5 +8547,5 @@
         "group": "lenigheidselementen"
       }
     }
-  }
+  ]
 }

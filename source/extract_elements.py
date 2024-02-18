@@ -108,7 +108,8 @@ class elementExtractor:
                 self.getElements(text, apparatus)
         
     def writeResult(self):
-        saveJson(self.config["output directory"] + "elements.json", self.elements)
+        # saveJson(self.config["output directory"] + "elements.json", self.elements)
+        saveJson(self.config["output directory"] + "elements.json", {key:list(value.values()) for key, value in self.elements.items()})
         saveJson(self.config["output directory"] + "groups.json", self.groups)
         return
 

@@ -1,55 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- jQuery -->
-    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <!-- Datatables Package -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
-    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
-  
+  <!-- Datatables Package -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+  <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
 
-    <script src="element_searcher_script.js"></script>
+  <script src="element_searcher_script.js"></script>
 
-    <!-- Load header.html -->
-    <script src="load_header.js"></script>
+  <!-- Load header.html -->
+  <script src="load_header.js"></script>
 
-
-    <link rel="stylesheet" href="main_style.css">
-    <link rel="stylesheet" href="styles/element_searcher_styles.css">
-    
-
+  <link rel="stylesheet" href="main_style.css" />
+  <link rel="stylesheet" href="styles/element_searcher_styles.css" />
 </head>
+
 <body>
-    <div id="apparatus_picker" class="radio-container">
-        <p id="apparatus_picker_label">Choose the apparatus</p>
-        <input type="radio" id="radio1" name="options" value="vault" onclick="showSelection(this)">
-        <label for="radio1">Sprong</label>
+  <div id="apparatus_picker" class="radio-container">
+    <p id="apparatus_picker_label">Choose the apparatus</p>
+    <input type="radio" id="radio1" name="options" value="vault" onclick="showSelection(this)" />
+    <label for="radio1">Sprong</label>
 
-        <input type="radio" id="radio2" name="options" value="uneven bars" onclick="showSelection(this)">
-        <label for="radio2">Brug</label>
+    <input type="radio" id="radio2" name="options" value="uneven bars" onclick="showSelection(this)" />
+    <label for="radio2">Brug</label>
 
-        <input type="radio" id="radio3" name="options" value="beam" onclick="showSelection(this)">
-        <label for="radio3">Balk</label>
+    <input type="radio" id="radio3" name="options" value="beam" onclick="showSelection(this)" />
+    <label for="radio3">Balk</label>
 
-        <input type="radio" id="radio4" name="options" value="floor" onclick="showSelection(this)">
-        <label for="radio4">Vloer</label>
-    </div>
+    <input type="radio" id="radio4" name="options" value="floor" onclick="showSelection(this)" />
+    <label for="radio4">Vloer</label>
+  </div>
 
-    <!-- <div class="dropdown">
-        <button>Filter groepen</button>
-            <div id="checkboxesContainer", class="dropdown-content">
-            </div>
-    </div> -->
+  <table id="elements_table" class="display">
+    <thead id="table_header">
+      <tr id="table_header_row"></tr>
+    </thead>
 
-    
-    <table id="tsvTable" class="display">
-    </table>
-
+    <tbody></tbody>
+  </table>
 </body>
+
 </html>
