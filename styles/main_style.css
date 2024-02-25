@@ -39,6 +39,7 @@
 }}
 
 body {
+    margin: 0;
     color: var(--color-text);
     background: var(--color-base);
 }
@@ -53,4 +54,8 @@ body > .bg {
     background-size: cover;
     -webkit-filter: blur(10px);
     opacity: 0.2;
+}
+
+main {
+    margin: 10px;
 }
