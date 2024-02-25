@@ -11,6 +11,7 @@
     /* Basic Colors */
     color-scheme: light dark;
     --color-base: #eadeda;
+    --color-base-secondary: #cbcbcb;
     --color-text:#262626;
     --color-accent: #2176ae;
     --color-secondary: #b660cd;
@@ -29,6 +30,7 @@
 @media (prefers-color-scheme: dark){ :root {
     /* Override Variables for Dark Mode */
     --color-base: #262626;
+    --color-base-secondary: #343434;
     --color-text: #eadeda;
     --color-accent: #328cc1;
     --color-secondary: #b660cd;
