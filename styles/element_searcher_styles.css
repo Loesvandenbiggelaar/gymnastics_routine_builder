@@ -18,7 +18,18 @@
     position: relative;
     font-family: Kode Mono, Poppins, Arial;
     font-weight: 600;
+
+    /* Align Icon in Label */
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
 }
+
+.svg_icon {
+    height: 2.5em;
+    fill: currentColor;
+}
+
 
 #apparatus_picker input:checked + label {
     color: var(--color-text);
