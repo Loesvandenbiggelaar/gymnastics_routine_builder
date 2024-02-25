@@ -1,5 +1,7 @@
 .header {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
 
@@ -32,7 +34,7 @@ nav a {
     color: inherit;
 }
 
-nav a iconify-icon {
+iconify-icon {
     font-size: 1.5em;
 }
 
@@ -53,4 +55,14 @@ nav a::after {
 
 nav a.active::after, nav a:hover::after {
     width: 100%;
+}
+
+#language_selector {
+    /* Aligning the icons */
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+
+    /* Hover */
+    cursor: pointer;
 }

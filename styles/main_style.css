@@ -31,6 +31,8 @@
     --color-base: #262626;
     --color-text: #eadeda;
     --color-accent: #328cc1;
+    --color-secondary: #b660cd;
+    --color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
     --color-attention: #d9b310;
 }}
 
