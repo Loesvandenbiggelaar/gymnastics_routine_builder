@@ -143,15 +143,16 @@ def main():
      # Example usage
     config = loadConfig("source/pages_config.yaml")
     apparatus = "floor"
+    language = "en"
     output_folder = "data/images/" + apparatus + "/"
     if os.path.exists(output_folder):
         shutil.rmtree(output_folder)
     # os.makedirs(output_folder, 511)
     print("doing", output_folder)
     # target_page = 64  # Specify the page number you want to extract text and images from
-    target_pages = [config["apparatuses"][apparatus]["start page"]["en"], config["apparatuses"][apparatus]["end page"]["en"]]  # Specify the page number you want to extract text and images from
+    target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
     print(target_pages)
-    extract_text_and_images(config["file"]["en"], output_folder, target_pages)
+    extract_text_and_images(config["file"][language], output_folder, target_pages)
 
 
 
