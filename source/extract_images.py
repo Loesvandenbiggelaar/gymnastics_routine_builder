@@ -77,6 +77,7 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
     pdf_document = fitz.open(pdf_path)
     
     # Check if the target page is within the range of pages
+    # Select the given target pages
     if isinstance(target_page, int):
         if target_page < 0 or target_page >= len(pdf_document):
             print("Error: Invalid target page number.")
@@ -86,6 +87,9 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
         pages = range(target_page[0], target_page[1]+1)
     else:
         raise ValueError ("target_page not valid")
+    
+    # Loop over every target page in pages.
+    # Each target page is loaded and processed.
     for target in pages:
         page = pdf_document.load_page(target)
         page_layout = getPageLayout(page)
@@ -100,10 +104,6 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
         
         # Loop through images on the page
         for img_info in images:
-            xref = img_info[0]
-            base_image = pdf_document.extract_image(xref)
-            image_bytes = base_image["image"]
-
             # Get the text closest and above the image
             bbox_image = page.get_image_bbox(img_info[7])
 
@@ -116,7 +116,6 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
 
             found = ""
             found = findText(page, img_info, found_text, page_layout)
-            # print("found", found)
             if found == "":
                 found = findText(page, img_info, found_text, "other")
 
@@ -125,33 +124,28 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
                 
                 writeImage(page, image_path, img_info)
             else:
-                print("warning! could not process ", img_info[7])
+                # The images which could not be processed are saved here. 
+                # Saving the images is good for debugging/optimization purposes
                 unprocessed_path = os.path.join( output_folder,"unprocessed/")
-                print("exists", os.path.exists(output_folder))
                 if not os.path.exists(unprocessed_path):
                     os.makedirs(unprocessed_path, 511)
-                    print('made directory')
+                    print('made directory', unprocessed_path)
                 image_path = unprocessed_path + f"page{target}_{img_info[7]}.png"
                 writeImage(page, image_path, img_info)
-                print("saved unprocessed image to", image_path)
-                # assert 1 == 2
+                print("Could not process",img_info[7],"and saved to", image_path)
 
     pdf_document.close()
 
 
 def main():
-     # Example usage
     config = loadConfig("source/pages_config.yaml")
     apparatus = "floor"
     language = "en"
     output_folder = "data/images/" + apparatus + "/"
+    # If the output folder already exists, delete it and its content.
     if os.path.exists(output_folder):
         shutil.rmtree(output_folder)
-    # os.makedirs(output_folder, 511)
-    print("doing", output_folder)
-    # target_page = 64  # Specify the page number you want to extract text and images from
     target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
-    print(target_pages)
     extract_text_and_images(config["file"][language], output_folder, target_pages)
 
 
