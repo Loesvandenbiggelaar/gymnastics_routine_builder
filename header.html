@@ -1,13 +1,22 @@
 <!-- Load header.html -->
 <script src="scripts/set_active_navigation.js"></script>
+
+<!-- MDI Icons / Iconify -->
+<script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+<script src="scripts/insert_local_svg.js"></script>
+
+<!-- Styles -->
 <link rel="stylesheet" href="styles/main_style.css" />
 <link rel="stylesheet" href="styles/header_style.css">
-<header>
-    <h1>Welcome</h1>
+<header class="header">
+    <a href="./" style="color: var(--color-attention)" >Gymnastics Routine Builder</a>
     <nav id="page_navigation">
-        <a class="page_link" href="./">Home</a>
-        <a class="page_link" href="./element_searcher">Elements</a>
-        <a class="page_link" href="./routine_builder.html">Routine builder</a>
+        <a class="page_link" href="./element_searcher"><iconify-icon icon="mdi:magnify-scan"></iconify-icon>Elements</a>
+        <a class="page_link" href="./routine_builder.html"><iconify-icon icon="material-symbols:sports-gymnastics"></iconify-icon>Routine builder</a>
+        <a class="page_link" href="./rules.html"><iconify-icon icon="material-symbols:book-4"></iconify-icon>Rules</a>
+    </nav>
+    <nav id="settings">
+    <div id="language_selector">En<iconify-icon icon="material-symbols:language"></iconify-icon></div>
     </nav>
 </header>
 <link rel="stylesheet" href="styles/main_style.css">

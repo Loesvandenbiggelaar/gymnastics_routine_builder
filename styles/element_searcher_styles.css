@@ -1,9 +1,97 @@
+/* APPARATUS PICKER STYLES */
 #apparatus_picker {
     display: flex;
-    gap: 12px
+    align-items: center;
+    gap: 8px;
+    border-bottom: solid var(--color-text);
+    padding: 0px var(--page-margin-side);
+    margin: 10px 0px 25px 0px;
+}
+
+#apparatus_picker input {
+    display: none;
+}
+
+#apparatus_picker label {
+    cursor: pointer;
+    padding: 10px 15px;
+    position: relative;
+    font-family: Kode Mono, Poppins, Arial;
+    font-weight: 600;
+
+    /* Align Icon in Label */
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.svg_icon {
+    height: 2.5em;
+    fill: currentColor;
+}
+
+
+#apparatus_picker input:checked + label {
+    color: var(--color-text);
+}
+
+#apparatus_picker label::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.2;
+    background: var(--color-attention);
+    opacity: 0;
+    transform: skew(-30deg);
+}
+
+#apparatus_picker input:checked + label {
+    color: var(--color-base);
+}
+
+#apparatus_picker label:hover::before {
+    opacity: 0.3;
+    height: 100%;
+}
+
+#apparatus_picker input:checked + label::before {
+    opacity: 1;
+    height: 100%;
 }
 
 p#apparatus_picker_label {
     font-weight: bold;
-    margin-right: 20px;
+    margin: 0 20px 0 0;
+}
+
+/* TABLE STYLES */
+
+#elements_table tr.odd {
+    background: var(--color-base);
+}
+
+#elements_table tr.even {
+    background: var(--color-base-secondary);
+}
+
+#table_header{
+    /* bg */
+    border-bottom: solid red;
+    position: relative;
+
+    /* text changes */
+    font-weight: 600;
+    font-family: Kode Mono, Poppins, Arial;
+}
+#table_header::after {
+    content: '';
+    background: var(--color-accent-gradient);
+    opacity: 0.3;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
 }
