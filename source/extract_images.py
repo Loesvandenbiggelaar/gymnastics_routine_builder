@@ -107,7 +107,8 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
     # Loop over every target page in pages.
     # Each target page is loaded and processed.
     for target in pages:
-        page = pdf_document.load_page(target)
+        # pdf starts counting from 1, python starts counting from 0
+        page = pdf_document.load_page(target - 1)
         page_layout = getPageLayout(page)
 
         # Extract text from the page
@@ -122,7 +123,6 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
         for img_info in images:
             # Get the text closest and above the image
             bbox_image = page.get_image_bbox(img_info[7])
-
             # all the judges symbols are also images.
             # These have a smaller format. a size of < 75 will be assumed to be such a symbol.
             if (bbox_image.bottom_right - bbox_image.top_left)[0] < 75:

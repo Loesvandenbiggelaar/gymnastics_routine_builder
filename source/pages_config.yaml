@@ -4,10 +4,10 @@ apparatuses:
   vault:
     start page:
       nl: 2
-      en: 60
+      en: 61
     end page:
       nl: 13
-      en: 69
+      en: 70
     group types:
       1: acrobatic
       2: acrobatic
@@ -25,10 +25,10 @@ apparatuses:
   uneven bars:
     start page:
       nl: 15
-      en: 72
+      en: 73
     end page:
       nl: 53
-      en: 104
+      en: 105
     group types:
       1: acrobatic
       2: acrobatic
@@ -46,10 +46,10 @@ apparatuses:
   beam:
     start page:
       nl: 55
-      en: 107
+      en: 108
     end page:
       nl: 92
-      en: 145
+      en: 146
     group types:
       1: acrobatic
       2: gymnastic
@@ -67,10 +67,10 @@ apparatuses:
   floor:
     start page:
       nl: 100
-      en: 147
+      en: 148
     end page:
       nl: 126
-      en: 167
+      en: 168
     group types:
       1: gymnastic
       2: gymnastic
