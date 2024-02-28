@@ -129,8 +129,6 @@ def combineImages(page, metadata):
         writeImage(page,img_info)
     return newImages
 
-
-
 def extract_text_and_images(pdf_path, output_folder, target_page):
     metadata = []
     
@@ -179,8 +177,10 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
             # all the judges symbols are also images.
             # These have a smaller format. a size of < 75 will be assumed to be such a symbol.
             if (bbox_image.bottom_right - bbox_image.top_left)[0] < 75:
-                # print("assuming", img_info[7], "is a judge symbol")
-                continue
+                metadata_img["type"] = "symbol"
+            else:
+                metadata_img["type"] = "element"
+
 
 
             found = ""
@@ -190,9 +190,11 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
 
             if found != "":
                 metadata_img["element"] = found
-                image_path = os.path.join(output_folder, f"page{metadata_img['page']}_element_{metadata_img['element']}_{metadata_img['img_id']}.png")
+                image_path = os.path.join(output_folder, metadata_img['type'])
+                if not os.path.exists(image_path):
+                    os.mkdir(image_path)
+                image_path = os.path.join(image_path, f"page{metadata_img['page']}_element_{metadata_img['element']}_{metadata_img['img_id']}.png")
                 
-                # metadata_img["filename"] = getImageName(image_path)
                 metadata_img["filename"] = image_path
                 writeImage(page, metadata_img)
             else:
@@ -212,12 +214,13 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
         
         combineImages(page, [m for m in metadata if m["page"]==metadata_img["page"]])
 
+        
     pdf_document.close()
     return metadata
 
 def main():
     config = loadConfig("source/pages_config.yaml")
-    apparatus = "floor"
+    apparatus = "vault"
     language = "en"
     output_folder = "data/images/" + apparatus + "/"
     # If the output folder already exists, delete it and its content.
