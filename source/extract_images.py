@@ -155,7 +155,7 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
 
 def main():
     config = loadConfig("source/pages_config.yaml")
-    apparatus = "beam"
+    apparatus = "floor"
     language = "en"
     output_folder = "data/images/" + apparatus + "/"
     # If the output folder already exists, delete it and its content.
