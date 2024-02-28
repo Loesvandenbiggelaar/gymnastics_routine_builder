@@ -3,21 +3,24 @@ import fitz
 import os
 import shutil
 import re
-from functions import loadConfig
+import pandas as pd
+from functions import loadConfig, saveJson
 
-def writeImage(page, image_path, image_bytes, count=1):
+def writeImage(page, image_metadata):
+    clip = fitz.Rect(image_metadata["bbox"]["x0"],image_metadata["bbox"]["y0"],image_metadata["bbox"]["x1"],image_metadata["bbox"]["y1"],)
+    pix =  page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip)
+    pix.save(image_metadata["filename"])
+    return
+
+def getImageName(image_path, count=1):
     if count == 1:
         image_path = image_path.replace(".png", f"_{count}.png")
     else:
         image_path = re.sub(r"(\d*?).png", str(count)+".png", image_path)
     if os.path.exists(image_path):
-        writeImage(page, image_path, image_bytes, count+1)
+        return getImageName(image_path, count+1)
     else:
-        print("write image", image_path)
-        # with open(image_path, "wb") as image_file:
-        #     image_file.write(image_bytes)
-        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=page.get_image_bbox(image_bytes[7]))
-        pix.save(image_path)
+        return image_path
 
 
 def getPageLayout(page):
@@ -84,7 +87,53 @@ def findText(page, image, found_text, page_layout):
     return "".join(found)
 
 
+def combineImages(page, metadata):
+    newImages = []
+    for x in pd.DataFrame(metadata).groupby("element").agg(list).iterrows():
+        if len(x[1]["img_id"]) == 1:
+            continue
+
+        # The assumption is that if the x0 and x1 (left and right border) are equal, the images are scattered and should be combined.
+        # If the x0 and x1 are not equal, separate images are assumed
+        if len(set([bbox["x0"] for bbox in x[1]["bbox"]])) != 1:
+            continue
+        if len(set([bbox["x1"] for bbox in x[1]["bbox"]])) != 1:
+            continue
+
+        img_info = {}
+        assert len(set(x[1]["page"])) == 1
+        newBbox = {"x0": 0, "y0":0, "x1":0, "y1":0}
+        for bbox in x[1]["bbox"]:
+            # print("bbox", bbox)
+            for axis, value in bbox.items():
+                # init
+                if newBbox[axis] == 0:
+                    newBbox[axis] = value
+                else:
+                    # get the outer boundaries combined
+                    if axis == "y0":
+                        if newBbox[axis] > value:
+                            newBbox[axis] = value
+                    elif axis == "y1":
+                        if newBbox[axis] < value:
+                            newBbox[axis] = value
+        
+        # print(x[0], newBbox)
+        img_info["element"] = x[0]
+        img_info["bbox"] = newBbox
+        img_info["page"] = x[1]["page"][0]
+        img_info["filename"] =x[1]["filename"][0].split("page")[0]+ f"page{img_info['page']}_element_{x[0]}_{''.join(x[1]["img_id"])}.png"
+        newImages.append(img_info)
+        for file in x[1]["filename"]:
+            os.remove(file)
+        writeImage(page,img_info)
+    return newImages
+
+
+
 def extract_text_and_images(pdf_path, output_folder, target_page):
+    metadata = []
+    
     # Create output folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -121,8 +170,12 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
         
         # Loop through images on the page
         for img_info in images:
+            metadata_img = {}
+            metadata_img["img_id"] = img_info[7]
+            metadata_img["page"] = target
             # Get the text closest and above the image
             bbox_image = page.get_image_bbox(img_info[7])
+            metadata_img["bbox"] = {"x0": bbox_image.x0, "y0":bbox_image.y0, "x1":bbox_image.x1, "y1":bbox_image.y1}
             # all the judges symbols are also images.
             # These have a smaller format. a size of < 75 will be assumed to be such a symbol.
             if (bbox_image.bottom_right - bbox_image.top_left)[0] < 75:
@@ -136,9 +189,12 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
                 found = findText(page, img_info, found_text, "other")
 
             if found != "":
-                image_path = os.path.join(output_folder, f"page{target}_element_{found}.png")
+                metadata_img["element"] = found
+                image_path = os.path.join(output_folder, f"page{metadata_img['page']}_element_{metadata_img['element']}_{metadata_img['img_id']}.png")
                 
-                writeImage(page, image_path, img_info)
+                # metadata_img["filename"] = getImageName(image_path)
+                metadata_img["filename"] = image_path
+                writeImage(page, metadata_img)
             else:
                 # The images which could not be processed are saved here. 
                 # Saving the images is good for debugging/optimization purposes
@@ -147,11 +203,17 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
                     os.makedirs(unprocessed_path, 511)
                     print('made directory', unprocessed_path)
                 image_path = unprocessed_path + f"page{target}_{img_info[7]}.png"
-                writeImage(page, image_path, img_info)
-                print("Could not process",img_info[7],"and saved to", image_path)
+                
+                metadata_img["filename"]= getImageName(image_path)
+                writeImage(page, metadata_img)
+                
+                print("Could not process",metadata_img["img_id"],"and saved to", image_path)
+            metadata.append(metadata_img)
+        
+        combineImages(page, [m for m in metadata if m["page"]==metadata_img["page"]])
 
     pdf_document.close()
-
+    return metadata
 
 def main():
     config = loadConfig("source/pages_config.yaml")
@@ -162,8 +224,9 @@ def main():
     if os.path.exists(output_folder):
         shutil.rmtree(output_folder)
     target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
-    extract_text_and_images(config["file"][language], output_folder, target_pages)
+    metadata = extract_text_and_images(config["file"][language], output_folder, target_pages)
 
+    saveJson(output_folder + "metadata.json", metadata)
 
 
 if __name__ == main():
