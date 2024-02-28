@@ -32,7 +32,7 @@ def getPageLayout(page):
 
 
 def findText(page, image, found_text, page_layout):
-    found = ""
+    found = []
     optionA = []
     closestx = 1e6
     bbox_image = page.get_image_bbox(image[7])
@@ -50,24 +50,40 @@ def findText(page, image, found_text, page_layout):
             elif page_layout == "other":
                 text_y1 = field.y1
                 text_x1 = abs(field.x1 - page.bleedbox.y1)
-            diff = round(bbox_image.y0 - round(text_y1))
+            diff = round(bbox_image.y0 - round(text_y1 /10)* 10)
             if diff < 0:
                 continue
-            if diff < 15:
+            if diff < 10:
                 # In this case the number is too close to the picture and it is assumed its a number from the points; e.g. "3.20 P." instead of element 3.20
                 continue
             if diff == closestx:
-                optionA.append(item)
+                optionA.append([item, text_x1])
                 closestx = diff
             elif diff < closestx:
-                optionA = [item]
+                optionA = [[item, text_x1]]
                 closestx = diff
-            for option in optionA:
-                if bbox_image.x0 < text_x1 < bbox_image.x1:
-                    found = option
-                    # print(found)
-                    pass
-    return found
+    
+    
+    for option, text_x1 in optionA:
+        if bbox_image.x0 - 35 < text_x1 < bbox_image.x1 + 25:
+            found.append(option)
+            # print(found)
+            pass
+    distance = 800
+    for option, text_x1 in optionA:
+        # print(option, bbox_image.x1 - text_x1 , distance)
+        if 0 < bbox_image.x1 - text_x1 < distance:
+            distance = bbox_image.x1 - text_x1
+            found = [option]
+
+    # print("found", found[0])
+    if len(found) > 1:
+        print(f"found more than one option for {image[7]}: {found}")
+        found = []
+
+    return "".join(found)
+
+
 def extract_text_and_images(pdf_path, output_folder, target_page):
     # Create output folder if it doesn't exist
     if not os.path.exists(output_folder):
@@ -96,7 +112,7 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
 
         # Extract text from the page
         page_text = page.get_text()
-        regex_pattern = re.compile(r"(\d+\.\d+)\s+\n+(?!P\.)")
+        regex_pattern = re.compile(r"(\d+\.\d+)\s+\n?(?!P\.)")
         found_text = re.findall(regex_pattern, page_text)
         
         # Extract images and their positions
@@ -139,7 +155,7 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
 
 def main():
     config = loadConfig("source/pages_config.yaml")
-    apparatus = "floor"
+    apparatus = "beam"
     language = "en"
     output_folder = "data/images/" + apparatus + "/"
     # If the output folder already exists, delete it and its content.
