@@ -59,7 +59,8 @@ body > .bg {
 }
 
 main {
-    margin: 10px;
+    margin: 10px auto;
+    max-width: 70rem;
 }
 
 /* Fix scrollbar for Svrollbar */
