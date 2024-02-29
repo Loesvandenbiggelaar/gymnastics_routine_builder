@@ -22,13 +22,13 @@
 		{ name: 'Rules', path: '/rules', icon: 'material-symbols:book-4' }
 	];
 	// Set currentPath to see if the link is active
-	$: current_path = $page.route.id;
+	$: current_path = $page.route.id || 'null';
 
 	// Title of current page
 	let title = 'Gymnastics Bible';
 
 	//Set title for tabs (somehow it only works with a function?)
-	$: current_path_name = routes.find((route) => route.path === current_path).name;
+	$: current_path_name = routes.find((route) => route.path === current_path)?.name;
 
 	function set_tab_title(title, path) {
 		return path === undefined ? title : ['GB', current_path_name].join(' - ');
