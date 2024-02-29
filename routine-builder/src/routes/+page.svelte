@@ -1,4 +1,6 @@
 <script>
 </script>
 <!-- Header Component -->
-HOME PAGE
+<main>
+    <h1>Home Page</h1>
+</main>

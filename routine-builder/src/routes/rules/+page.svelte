@@ -1,3 +1,5 @@
 <script>
 </script>
-<h1>Rules</h1>
+<main>
+    <h1>Rules</h1>
+</main>

@@ -1,3 +1,5 @@
 <script>
 </script>
-<h1>Routine Builder</h1>
+<main>
+    <h1>Routine Builder</h1>
+</main>
