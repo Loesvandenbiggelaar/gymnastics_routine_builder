@@ -1,0 +1,8 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"lang": "nl",
+	"lang_full": "Nederlands",
+	"lang_icon": "circle-flags:nl",
+	"header_title": "routine maker",
+	"header_elements": "Elementen"
+}

@@ -10,10 +10,30 @@
 	// Scrollbar
 	import { Svrollbar } from 'svrollbar';
 
+	// Translations vis Inlang/Paraglide //
+	import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit';
+	import { i18n } from '$lib/i18n';
+	import * as m from '$paraglide/messages.js';
+	import {
+		languageTag,
+		setLanguageTag,
+		availableLanguageTags,
+		onSetLanguageTag
+	} from '$paraglide/runtime.js';
+
+	// Current Language
+	$: current_lang = languageTag() || 'en';
+
+	// Change Language Function
+	onSetLanguageTag(() => {
+		console.log(`The language changed to ${languageTag()}`);
+		i18n.reroute();
+	});
+
 	// Import to check routing URL
 	import { page } from '$app/stores';
 	const routes = [
-		{ name: 'Elements', path: '/elements', icon: 'mdi:magnify-scan' },
+		{ name: m.header_elements(), path: '/elements', icon: 'mdi:magnify-scan' },
 		{
 			name: 'Routine Builder',
 			path: '/routine_builder',
@@ -25,7 +45,7 @@
 	$: current_path = $page.route.id || 'null';
 
 	// Title of current page
-	let title = 'Gymnastics Bible';
+	$: title = m.header_title() || 'title';
 
 	//Set title for tabs (somehow it only works with a function?)
 	$: current_path_name = routes.find((route) => route.path === current_path)?.name;
@@ -35,30 +55,37 @@
 	}
 
 	$: tab_title = set_tab_title(title, current_path_name);
-
-	// Current Language
-	$: current_lang = 'en';
 </script>
 
 <!-- HEADER COMPONENT -->
-<title>{tab_title}</title>
-<Svrollbar />
-<header id="header">
-	<a href="/" id="header_logo">{title}</a>
-	<nav>
-		{#each routes as route}
-			<a class="page_nav" href={route.path} class:active={current_path == route.path}>
-				<Icon icon={route.icon} />
-				{route.name}
-			</a>
-		{/each}
-	</nav>
-	<nav id="language_selector">
-		{current_lang}
-		<Icon icon="material-symbols:language" />
-	</nav>
-</header>
-<slot />
+<ParaglideJS {i18n}>
+	<title>{tab_title}</title>
+	<Svrollbar />
+	<header id="header">
+		<a href="/" id="header_logo">{title}</a>
+		<nav>
+			{#each routes as route}
+				<a class="page_nav" href={route.path} class:active={current_path == route.path}>
+					<Icon icon={route.icon} />
+					{route.name}
+				</a>
+			{/each}
+		</nav>
+		<nav id="language_selector">
+			{m.lang()}
+			<Icon icon="material-symbols:language" />
+			<div id="language_dropdown">
+				{#each availableLanguageTags as language}
+					<button value={language} on:click={() => setLanguageTag(language)}>
+						<Icon icon={m.lang_icon({}, { languageTag: language })} />
+						{m.lang_full({}, { languageTag: language })}</button
+					>
+				{/each}
+			</div>
+		</nav>
+	</header>
+	<slot />
+</ParaglideJS>
 
 <!-- STYLES -->
 <style>
@@ -136,5 +163,16 @@
 
 		/* Hover */
 		cursor: pointer;
+	}
+
+	#language_dropdown {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	#language_dropdown button {
+		width: 100%;
+		text-align: left;
 	}
 </style>

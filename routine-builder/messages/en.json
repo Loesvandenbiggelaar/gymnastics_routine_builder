@@ -1,0 +1,11 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"Routine_Builder": "Routine Builder",
+	"Teststring": "testme",
+	"lang": "en",
+	"lang_full": "English",
+	"lang_icon": "circle-flags:uk",
+	"header_title": "routine builder",
+	"test": "Elements",
+	"header_elements": "Elements"
+}
