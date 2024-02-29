@@ -15,12 +15,26 @@
     // Set currentPath to see if the link is active
     $: current_path = $page.route.id;
 
+    // Title of current page
+    let title = 'Gymnastics Bible';
+
+    //Set title for tabs (somehow it only works with a function?)
+    $: current_path_name = routes.find(route => route.path === current_path).name;
+    
+    function set_tab_title(title, path) {
+        return (path === undefined) ? title : ['GB', current_path_name].join(" - ");
+    }
+
+    $: tab_title = set_tab_title(title, current_path_name);
+
+    // Current Language
     $: current_lang = 'en';
 </script>
 
 <!-- HEADER COMPONENT -->
+<title>{tab_title}</title>
 <header id="header">
-  <a href="/" id="header_logo">Gymnastics Routine Builder</a>
+  <a href="/" id="header_logo">{title}</a>
   <nav>
     {#each routes as route}
       <a
