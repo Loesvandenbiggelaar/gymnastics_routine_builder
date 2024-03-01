@@ -1,4 +1,5 @@
 <script>
+	import * as m from '$paraglide/messages.js';
 </script>
 
 <!-- Header Component -->

@@ -10,6 +10,13 @@
 	// Scrollbar
 	import { Svrollbar } from 'svrollbar';
 
+	// Import to check routing URL
+	import { page } from '$app/stores';
+	import { redirect } from '@sveltejs/kit';
+
+	// Set currentPath to see if the link is active and for redirecting with lang support
+	$: current_path = $page.route.id || 'null';
+
 	// Translations vis Inlang/Paraglide //
 	import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit';
 	import { i18n } from '$lib/i18n';
@@ -27,11 +34,16 @@
 	// Change Language Function
 	onSetLanguageTag(() => {
 		console.log(`The language changed to ${languageTag()}`);
-		i18n.reroute();
 	});
 
-	// Import to check routing URL
-	import { page } from '$app/stores';
+	// Import redirects
+	import { goto } from '$app/navigation';
+	function langRedirect(lang) {
+		setLanguageTag(lang);
+		goto(`/${lang}${current_path}`);
+	}
+
+	//Routing variables
 	const routes = [
 		{ name: m.header_elements(), path: '/elements', icon: 'mdi:magnify-scan' },
 		{
@@ -41,8 +53,6 @@
 		},
 		{ name: 'Rules', path: '/rules', icon: 'material-symbols:book-4' }
 	];
-	// Set currentPath to see if the link is active
-	$: current_path = $page.route.id || 'null';
 
 	// Title of current page
 	$: title = m.header_title() || 'title';
@@ -76,7 +86,7 @@
 			<Icon icon="material-symbols:language" />
 			<div id="language_dropdown">
 				{#each availableLanguageTags as language}
-					<button value={language} on:click={() => setLanguageTag(language)}>
+					<button value={language} on:click={() => langRedirect(language)}>
 						<Icon icon={m.lang_icon({}, { languageTag: language })} />
 						{m.lang_full({}, { languageTag: language })}</button
 					>
