@@ -8,62 +8,64 @@
 
 /* Setup */
 :root {
-    /* Basic Colors */
-    color-scheme: light dark;
-    --color-base: #eadeda;
-    --color-base-secondary: #cbcbcb;
-    --color-text:#262626;
-    --color-accent: #2176ae;
-    --color-secondary: #b660cd;
-    --color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
-    --color-attention: #e34234; /* alternatively: #ff4f00*/
+	/* Basic Colors */
+	color-scheme: light dark;
+	--color-base: #eadeda;
+	--color-base-secondary: #cbcbcb;
+	--color-text: #262626;
+	--color-accent: #2176ae;
+	--color-secondary: #b660cd;
+	--color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
+	--color-attention: #e34234; /* alternatively: #ff4f00*/
 
-    /* Default Style */
-    font-size: 16px;
-    font-family: Poppins, Arial, sans-serif;
-    --page-margin-side: min(45px, 5vw);
+	/* Default Style */
+	font-size: 16px;
+	font-family: Poppins, Arial, sans-serif;
+	--page-margin-side: min(45px, 5vw);
 
-    /* Overrides */
-    accent-color: var(--color-accent);
+	/* Overrides */
+	accent-color: var(--color-accent);
 }
 
-@media (prefers-color-scheme: dark){ :root {
-    /* Override Variables for Dark Mode */
-    --color-base: #262626;
-    --color-base-secondary: #343434;
-    --color-text: #eadeda;
-    --color-accent: #328cc1;
-    --color-secondary: #b660cd;
-    --color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
-    --color-attention: #d9b310;
-}}
+@media (prefers-color-scheme: dark) {
+	:root {
+		/* Override Variables for Dark Mode */
+		--color-base: #262626;
+		--color-base-secondary: #343434;
+		--color-text: #eadeda;
+		--color-accent: #328cc1;
+		--color-secondary: #b660cd;
+		--color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
+		--color-attention: #d9b310;
+	}
+}
 
 body {
-    /* Others */
-    margin: 0;
-    color: var(--color-text);
-    background: var(--color-base);
+	/* Others */
+	margin: 0;
+	color: var(--color-text);
+	background: var(--color-base);
 }
 
 body > .bg {
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background-image: url("../images/background-sharp.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-    opacity: 0.2;
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background-image: url('../images/background-sharp.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+	opacity: 0.2;
 }
 
 main {
-    margin: 10px auto;
-    max-width: 70rem;
+	margin: 10px auto;
+	max-width: min(70rem, 80vw);
 }
 
 /* Fix scrollbar for Svrollbar */
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }

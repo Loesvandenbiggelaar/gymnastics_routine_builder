@@ -34,11 +34,6 @@
 	// Current Language
 	$: current_lang = languageTag() || 'en';
 
-	// Change Language Function
-	onSetLanguageTag(() => {
-		console.log(`The language changed to ${languageTag()}`);
-	});
-
 	// Import redirects
 	import { goto } from '$app/navigation';
 	function langRedirect(lang) {
@@ -73,7 +68,8 @@
 <!-- HEADER COMPONENT -->
 <ParaglideJS {i18n}>
 	<Navbar />
-	<!-- <title>{tab_title}</title> -->
 	<Svrollbar />
-	<slot />
+	<main>
+		<slot />
+	</main>
 </ParaglideJS>

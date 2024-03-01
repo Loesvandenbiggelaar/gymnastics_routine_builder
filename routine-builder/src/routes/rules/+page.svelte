@@ -1,5 +1,5 @@
 <script>
+	import * as m from '$paraglide/messages.js';
 </script>
-<main>
-    <h1>Rules</h1>
-</main>
+
+<h1>{m.page_rules_title()}</h1>

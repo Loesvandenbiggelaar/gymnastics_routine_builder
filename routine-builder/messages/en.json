@@ -8,5 +8,8 @@
 	"header_title": "routine builder",
 	"test": "Elements",
 	"header_elements": "Elements",
-	"page_elements_title": "Elements"
+	"page_elements_title": "Elements",
+	"title_shorthand": "Gym",
+	"page_rules_title": "Rules",
+	"page_routinebuilder_title": "Routine Builder"
 }

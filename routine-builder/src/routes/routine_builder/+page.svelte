@@ -1,5 +1,5 @@
 <script>
+	import * as m from '$paraglide/messages.js';
 </script>
-<main>
-    <h1>Routine Builder</h1>
-</main>
+
+<h1>{m.page_routinebuilder_title()}</h1>
