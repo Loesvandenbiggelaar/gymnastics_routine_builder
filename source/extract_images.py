@@ -220,16 +220,19 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
 
 def main():
     config = loadConfig("source/pages_config.yaml")
-    apparatus = "vault"
+    output_folder = "data/images/"
     language = "en"
-    output_folder = "data/images/" + apparatus + "/"
-    # If the output folder already exists, delete it and its content.
-    if os.path.exists(output_folder):
-        shutil.rmtree(output_folder)
-    target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
-    metadata = extract_text_and_images(config["file"][language], output_folder, target_pages)
-
-    saveJson(output_folder + "metadata.json", metadata)
+    json = {}
+    for apparatus in ["vault", "beam", "uneven bars", "floor"]:
+        # apparatus = "vault"
+        output_sub_folder = output_folder + apparatus + "/"
+        # If the output folder already exists, delete it and its content.
+        if os.path.exists(output_sub_folder):
+            shutil.rmtree(output_sub_folder)
+        target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
+        json[apparatus] = extract_text_and_images(config["file"][language], output_sub_folder, target_pages)
+        
+    saveJson(output_folder + "metadata.json", json)
 
 
 if __name__ == main():
