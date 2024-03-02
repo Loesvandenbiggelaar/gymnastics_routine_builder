@@ -1,0 +1,70 @@
+{
+  "vault": {
+    "1": {
+      "en": "Handspring, yamashita, round-off with or without LA turn in 1st and/or 2nd flight phase",
+      "nl": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase"
+    },
+    "2": {
+      "en": "Handspring FWD with/without 1/1 turn (360°) in 1st flight phase – salto FWD/BWD with/without LA twist in 2nd flight phase",
+      "nl": "Handstandoverslag met/zonder 1/1 draai in de 1e vluchtfase - in de 2e vluchtfase salto voor - of achterover met/zonder la-draai"
+    },
+    "3": {
+      "en": "Handspring with ¼ - ½ turn (90°-180°) in 1st flight phase (tsukahara) – salto BWD with/without twist in 2nd flight phase",
+      "nl": "Handstandoverslag met 1/4 - 1/2 draai in de 1e vluchtfase (tsukahara) - in de 2e vluchtfase salto achterover met/zonder la-draai"
+    },
+    "4": {
+      "en": "Round-off (yurchenko) with/wo ¾ turn (270°) in 1st flight phase – salto BWD with/without twist in 2nd flight phase",
+      "nl": "Arabier flik-flak met/zonder 3/4 draai in 1e vluchtfase (yurchenko -inzet) - in 2e vluchtfase salto achterover met/zonder la-draai"
+    },
+    "5": {
+      "en": "Round-off with ½ turn (180°) in 1st flight phase – salto FWD/BWD with/without twist in 2nd flight phase",
+      "nl": "Arabier flik-flak met 1/2 draai in de 1e vluchtfase - in de 2e vluchtfase salto voorover of achterover met/zonder la-draai"
+    },
+    "0": {
+      "en": "Free jumps",
+      "nl": "Vrije sprongen"
+    }
+  },
+  "uneven bars": {
+    "1": { "en": "Mounts", "nl": "Opsprongen" },
+    "2": {
+      "en": "Casts and clear hip circles",
+      "nl": "Acheropzwaaien en vrije heupdraaien"
+    },
+    "3": { "en": "Giant circles", "nl": "Reuzendraaien" },
+    "4": { "en": "Stalder circles", "nl": "Stalderdraaien" },
+    "5": { "en": "Pike circles", "nl": "Gehoekte draaien" },
+    "6": { "en": "Dismounts", "nl": "Afsprongen" }
+  },
+  "beam": {
+    "1": { "en": "Mounts", "nl": "Opsprongen" },
+    "2": {
+      "en": "Gymnastic leaps, jumps and hops",
+      "nl": "Gymnastische sprongen"
+    },
+    "3": { "en": "Gymnastic turns", "nl": "Gymnastische draaien" },
+    "4": {
+      "en": "Holds and acrobatic non-flight",
+      "nl": "Houdingen en acrobatische elementen zonder vlucht"
+    },
+    "5": { "en": "Acrobatic flight", "nl": "Acrobatische vluchtelementen" },
+    "6": { "en": "Dismounts", "nl": "afsprongen" }
+  },
+  "floor": {
+    "1": {
+      "en": "Gymnastic leaps, jumps and hops",
+      "nl": "Gymnastische sprongen"
+    },
+    "2": { "en": "Gymnastic turns", "nl": "Gymnastische draaien" },
+    "3": {
+      "en": "Hand support elements",
+      "nl": "Elementen met steun van de handen"
+    },
+    "4": {
+      "en": "Saltos forward & sideward",
+      "nl": "Salto's voorover en zijwaarts"
+    },
+    "5": { "en": "Saltos backward", "nl": "salto's achterover" },
+    "6": { "en": "flexibility elements", "nl": "Lenigheidselementen" }
+  }
+}
