@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- jQuery -->
   <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-  <!-- Datatables Package -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
-  <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+  <!-- grid.js Package -->
+  <script src="https://cdn.jsdelivr.net/npm/gridjs/dist/gridjs.umd.js"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" /> -->
 
   <script src="scripts/element_searcher_script.js"></script>
 
@@ -21,30 +21,25 @@
 
 <body>
   <main>
-  <div id="apparatus_picker" class="radio-container">
-    <!-- <p id="apparatus_picker_label">Choose the apparatus</p> -->
+    <div id="apparatus_picker" class="radio-container">
+      <!-- <p id="apparatus_picker_label">Choose the apparatus</p> -->
 
-    <input type="radio" id="radio1" name="options" value="vault" onclick="showSelection(this)" />
-    <label for="radio1"><svg-icon src="images/icons/vault.svg"></svg-icon>Vault</label>
+      <input type="radio" id="radio1" name="options" value="vault" onclick="showSelection(this)" />
+      <label for="radio1"><svg-icon src="images/icons/vault.svg"></svg-icon>Vault</label>
 
-    <input type="radio" id="radio2" name="options" value="uneven bars" onclick="showSelection(this)" />
-    <label for="radio2"><svg-icon src="images/icons/uneven_bars.svg"></svg-icon>Uneven Bars</label>
+      <input type="radio" id="radio2" name="options" value="uneven bars" onclick="showSelection(this)" />
+      <label for="radio2"><svg-icon src="images/icons/uneven_bars.svg"></svg-icon>Uneven Bars</label>
 
-    <input type="radio" id="radio3" name="options" value="beam" onclick="showSelection(this)" />
-    <label for="radio3"><svg-icon src="images/icons/beam.svg"></svg-icon>Beam</label>
+      <input type="radio" id="radio3" name="options" value="beam" onclick="showSelection(this)" />
+      <label for="radio3"><svg-icon src="images/icons/beam.svg"></svg-icon>Beam</label>
 
-    <input type="radio" id="radio4" name="options" value="floor" onclick="showSelection(this)" />
-    <label for="radio4"><svg-icon src="images/icons/floor.svg"></svg-icon>Floor</label>
-  </div>
+      <input type="radio" id="radio4" name="options" value="floor" onclick="showSelection(this)" />
+      <label for="radio4"><svg-icon src="images/icons/floor.svg"></svg-icon>Floor</label>
+    </div>
 
-  <table id="elements_table" class="display">
-    <thead id="table_header">
-      <tr id="table_header_row"></tr>
-    </thead>
+    <div id="wrapper"></div>
 
-    <tbody></tbody>
-  </table>
-</main>
+  </main>
 </body>
 
 </html>
