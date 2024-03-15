@@ -1,0 +1,213 @@
+{
+  "dames 1": {
+    "D-score": {
+      "Moeilijkheidswaarde": {
+        "Aantal": 8,
+        "Moeilijkheid": ["A", "B", "C", "D"],
+        "Minimaal acro": 3,
+        "Minimaal dans": 3
+      },
+      "Verbindingswaarde": [0.1, 0.2],
+      "Afsprongbonus": 0.2
+    },
+    "Samenstellingseisen": {
+      "Sprong": {
+        "1": {
+          "Description": {
+            "nl": "Er mogen 2 sprongen uitgevoerd worden.",
+            "en": ""
+          }
+        },
+        "2": {
+          "Description": {
+            "nl": "De beste score telt voor de meerkamp, het gemiddelde telt voor toestelwedstrijden.",
+            "en": ""
+          }
+        }
+      },
+      "Brug ongelijk": {
+        "1": {
+          "Description": {
+            "nl": "Vluchtelement van hoge ligger naar lage ligger of van lage ligger naar hoge ligger.",
+            "en": ""
+          }
+        },
+        "2": {
+          "Description": {
+            "nl": "Een gespreide of gesloten opzwaai tot handstand met/zonder draai (max. afwijking 30°)(ergens in de oefening).",
+            "en": ""
+          }
+        },
+        "3": {
+          "Description": {
+            "nl": "Een cirkelelement uit groep 2, 4 of 5 door of tot handstand (max. afwijking van de verticaal van 30°).",
+            "en": ""
+          }
+        },
+        "4": {
+          "Description": {
+            "nl": "Een element met lengteasdraai van minimaal 180° in de oefening (op- en afsprong mogen niet gebruikt worden).",
+            "en": ""
+          }
+        }
+      },
+      "Balk": {
+        "1": {
+          "Description": {
+            "nl": "Een verbinding van minimaal 2 verschillende danselementen, waarvan één sprong met 180° beenspreiding in dwars-./zijwaartse spagaat of spreidhoekpositie.",
+            "en": ""
+          }
+        },
+        "2": {
+          "Description": {
+            "nl": "Een draai uit groep 3 of rol/flair.",
+            "en": ""
+          }
+        },
+        "3": {
+          "Description": {
+            "nl": "Een acrobatische verbinding van minimaal 2 elementen, waarvan tenminste 1 element met vlucht.",
+            "en": ""
+          }
+        },
+        "4": {
+          "Description": {
+            "nl": "Acrobatische elementen in verschillende richtingen (achterwaarts en voor-/zijwaarts).",
+            "en": ""
+          }
+        }
+      },
+      "Vloer": {
+        "1": {
+          "Description": {
+            "nl": "Een danspassage samengesteld uit 2 verschillende sprongen of huppen, direct of indirect verbonden, met minimaal 1 sprong met 180° beenspreiding in dwars-/zijwaartse spagaat of spreidhoekpositie",
+            "en": ""
+          }
+        },
+        "2": {
+          "Description": {
+            "nl": "Salto met lengteas draai van 360°.",
+            "en": ""
+          }
+        },
+        "3": {
+          "Description": {
+            "nl": "Een acrolijn met 2 salto's.",
+            "en": ""
+          }
+        },
+        "4": {
+          "Description": {
+            "nl": "Salto voorwaarts en achterwaarts (geen aerials)",
+            "en": ""
+          }
+        }
+      }
+    },
+    "Verbindingswaarde": {
+      "Brug ongelijk": {
+        "elementen": {
+          "dezelfde": "ja",
+          "volgorde": "vrij",
+          "0.1": [
+            ["B", "B"],
+            ["B", "C"]
+          ],
+          "0.2": [
+            ["C", "CDEFGH"],
+            ["B", "DEFGH"]
+          ]
+        },
+        "afsprongbonus": { "0.2": [["CDEFGH"]] }
+      },
+      "Balk": {
+        "Acro met vlucht, (mag opsprong en afsprong zijn)": {
+          "dezelfde": "ja",
+          "volgorde": "vrij",
+          "0.1": [["B", "B"]],
+          "0.2": [["B", "CDEFGH"]]
+        },
+        "Dans": {
+          "dezelfde": "nee",
+          "volgorde": "vrij",
+          "0.1": [
+            ["B", "B"],
+            ["A", "C"]
+          ],
+          "0.2": [
+            ["B", "CDEFGH"],
+            ["A", "DEFGH"]
+          ]
+        },
+        "Draaien": {
+          "dezelfde": "nee",
+          "volgorde": "vrij",
+          "0.1": [["A", "BCDEFGH"]]
+        },
+        "Mix": {
+          "dezelfde": "nee",
+          "volgorde": "vrij",
+          "0.1": [
+            ["B", "B"],
+            ["A", "C"]
+          ],
+          "0.2": [
+            ["B", "CDEFGH"],
+            ["A", "DEFGH"]
+          ]
+        },
+        "Seriebonus": {
+          "dezelfde": 2,
+          "0.1": [["A", "B", "B"]]
+        },
+        "afsprongbonus": { "0.2": [["CDEFGH"]] }
+      },
+      "Vloer": {
+        "Salto's direct": {
+          "dezelfde": "ja",
+          "volgorde": "vrij",
+          "0.1": [["A", "B"]],
+          "0.2": [
+            ["B", "BCDEFGH"],
+            ["A", "CDEFGH"]
+          ]
+        },
+        "Salto's indirect": {
+          "dezelfde": "ja",
+          "volgorde": "vrij",
+          "0.1": [
+            ["B", "B"],
+            ["A", "A", "B"],
+            ["A", "C"]
+          ],
+          "0.2": [
+            ["B", "CDEFGH"],
+            ["A", "A", "C"],
+            ["A", "DEFGH"]
+          ]
+        },
+        "Dans": {
+          "dezelfde": "nee",
+          "volgorde": "vrij",
+          "0.1": [
+            ["B", "B"],
+            ["A", "C"]
+          ],
+          "0.2": [["B", "CDEFGH"]]
+        },
+        "Draaien": {
+          "dezelfde": "nee",
+          "volgorde": "vrij",
+          "0.1": [["B", "BCDEFGH"]]
+        },
+        "Mix": {
+          "dezelfde": "nee",
+          "volgorde": "vast",
+          "0.1": [["B-salto", "ABCDEFGH-dans"]],
+          "0.2": [["CDEFGH-salto", "ABCDEFGH-dans"]]
+        },
+        "afsprongbonus": { "0.2": [["CDEFGH"]] }
+      }
+    }
+  }
+}
