@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-inline-svg": "^1.2.0",
 		"svrollbar": "^0.12.0"
 	}
 }

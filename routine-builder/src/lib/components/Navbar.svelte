@@ -22,13 +22,13 @@
 	// ---
 	//Routing variables
 	export const routes = [
-		{ name: m.header_elements(), path: '/elements', icon: 'mdi:magnify-scan' },
+		{ name: m.page_elements_title(), path: '/elements', icon: 'mdi:magnify-scan' },
 		{
-			name: 'Routine Builder',
+			name: m.page_routinebuilder_title(),
 			path: '/routine_builder',
 			icon: 'material-symbols:sports-gymnastics'
 		},
-		{ name: 'Rules', path: '/rules', icon: 'material-symbols:book-4' }
+		{ name: m.page_rules_title(), path: '/rules', icon: 'material-symbols:book-4' }
 	];
 
 	// Import to check routing URL
@@ -55,25 +55,30 @@
 	<!-- Available Routes -->
 	<nav>
 		{#each routes as route}
-			<a class="page_nav" href={route.path} class:active={current_path == route.path}>
+			<a
+				class="page_nav underline_animation"
+				href={route.path}
+				class:active={current_path == route.path}
+			>
 				<Icon icon={route.icon} />
 				{route.name}
 			</a>
 		{/each}
 	</nav>
 	<!-- Setting and Language Selector -->
-	<nav id="language_selector">
-		{m.lang()}
+	<button id="language_selector" role="button" class="underline_animation">
+		<p class="lang_tag">{m.lang()}</p>
 		<Icon icon="material-symbols:language" />
 		<div id="language_dropdown">
 			{#each availableLanguageTags as language}
-				<button value={language} on:click={() => langRedirect(language)}>
+				<button value={language} tabindex="0" on:click={() => langRedirect(language)}>
+					<!-- {#if language == languageTag()}<p>✅</p>{/if} -->
+					{m.lang_full({}, { languageTag: language })}
 					<Icon icon={m.lang_icon({}, { languageTag: language })} />
-					{m.lang_full({}, { languageTag: language })}</button
-				>
+				</button>
 			{/each}
 		</div>
-	</nav>
+	</button>
 </header>
 
 <!-- STYLES -->
@@ -128,7 +133,7 @@
 		font-weight: bold;
 	}
 
-	nav a::after {
+	.underline_animation::after {
 		content: '';
 		position: absolute;
 		height: 2px;
@@ -139,29 +144,91 @@
 		transition: width 0.25s ease;
 	}
 
-	nav a.active::after,
-	nav a:hover::after {
+	.underline_animation.active::after,
+	.underline_animation:hover::after,
+	.underline_animation:focus::after,
+	.underline_animation:focus-within::after {
 		width: 100%;
 	}
 
 	#language_selector {
+		all: unset;
+		position: relative;
 		/* Aligning the icons */
 		display: flex;
 		align-items: center;
 		gap: 0.2em;
+		min-height: 2em;
 
 		/* Hover */
 		cursor: pointer;
 	}
 
+	#language_selector p {
+		margin: 0px;
+	}
+
 	#language_dropdown {
+		/* Hide underneath selector */
+		z-index: 1;
+		position: absolute;
+		right: 0;
+		top: 100%;
+		opacity: 0;
+		visibility: collapse;
+		/* Transition show/hide */
+		transform: all 0.2 ease;
+		/* Style */
 		display: flex;
 		flex-direction: column;
 		align-items: start;
 	}
 
+	#language_selector:focus-within #language_dropdown {
+		visibility: visible;
+		animation: dropdown 0.2s ease forwards;
+	}
+
+	@keyframes dropdown {
+		from {
+			right: -100px;
+			opacity: 0;
+		}
+		to {
+			right: 0;
+			opacity: 1;
+		}
+	}
+
 	#language_dropdown button {
 		width: 100%;
 		text-align: left;
+		/* Color and style */
+		font-family: Poppins, arial, sans-serif;
+		border: none;
+		background-color: var(--color-base-secondary);
+		/* Animate */
+		transition: all 0.2s ease;
+		/* Aligning */
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		flex-wrap: nowrap;
+		gap: 0.5em;
+	}
+
+	#language_dropdown button:first-child {
+		border-radius: 0.7em 0.7em 0px 0px;
+	}
+
+	#language_dropdown button:last-child {
+		border-radius: 0px 0px 0.7em 0.7em;
+	}
+
+	#language_dropdown button:hover,
+	#language_dropdown button:focus {
+		transform: scale(1.3);
+		border-radius: 100px;
+		font-weight: bold;
 	}
 </style>
