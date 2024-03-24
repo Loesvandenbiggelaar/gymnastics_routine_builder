@@ -13,6 +13,7 @@
 	--color-base: #eadeda;
 	--color-base-secondary: #cbcbcb;
 	--color-text: #262626;
+	--color-text-secondary: #262626;
 	--color-accent: #2176ae;
 	--color-secondary: #b660cd;
 	--color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
@@ -33,6 +34,7 @@
 		--color-base: #262626;
 		--color-base-secondary: #343434;
 		--color-text: #eadeda;
+		--color-text-secondary: #eadeda;
 		--color-accent: #328cc1;
 		--color-secondary: #b660cd;
 		--color-accent-gradient: linear-gradient(75deg, var(--color-accent), var(--color-secondary));
