@@ -2,6 +2,8 @@
 	import * as m from '$paraglide/messages.js';
 	// Iconify for cool icons!
 	import Icon from '@iconify/svelte';
+	// Custom local svg component
+	import IconSVG from '$lib/components/IconSVG.svelte';
 
 	// GridJS and elements data
 	import Grid from 'gridjs-svelte';
@@ -14,17 +16,15 @@
 	];
 	// Importing the json from local file
 	import json from '$lib/data/elements.json';
+	import IconSvg from '../../lib/components/IconSVG.svelte';
 	let selected_apparatus = 'vault'; // Default set to "vault"
 	$: data = json[selected_apparatus];
 
-	// Components
-	import IconSVG from '$lib/components/IconSVG.svelte';
-
 	export const apparatus = [
-		{ name: m.apparatus_vault(), icon: 'mdi:magnify-scan', id: 'vault' },
-		{ name: m.apparatus_beam(), icon: 'mdi:magnify-scan', id: 'beam' },
-		{ name: m.apparatus_uneven_bars(), icon: 'mdi:magnify-scan', id: 'uneven bars' },
-		{ name: m.apparatus_floor(), icon: 'mdi:magnify-scan', id: 'floor' }
+		{ name: m.apparatus_vault(), icon: 'vault.svg', id: 'vault' },
+		{ name: m.apparatus_beam(), icon: 'beam.svg', id: 'beam' },
+		{ name: m.apparatus_uneven_bars(), icon: 'uneven_bars.svg', id: 'uneven bars' },
+		{ name: m.apparatus_floor(), icon: 'floor.svg', id: 'floor' }
 	];
 </script>
 
@@ -41,19 +41,19 @@
 			on:change={console.log(selected_apparatus)}
 		/>
 		<label for={ap.id}
-			><Icon icon={ap.icon} />
+			><IconSvg src={ap.icon} />
 			<p>{ap.name}</p></label
 		>
 	{/each}
 </div>
-<Grid {data} {columns} search sort />
+<Grid {data} {columns} search sort pagination />
 <p>
 	{m.lorem_ipsum()}
 </p>
 
 <style>
 	/* Import Grid Styles */
-	@import 'https://cdn.jsdelivr.net/npm/gridjs/dist/theme/mermaid.min.css';
+	@import '$lib/styles/gridJS_style.css';
 
 	.apparatus_picker {
 		display: grid;
@@ -90,5 +90,9 @@
 
 	.apparatus_picker input:checked + label {
 		font-weight: bold;
+	}
+
+	svg {
+		fill: red;
 	}
 </style>
