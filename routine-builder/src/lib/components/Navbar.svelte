@@ -93,9 +93,14 @@
 		/* Sticky Header */
 		position: sticky;
 		top: 0;
+		z-index: 1;
 
 		background: var(--color-accent-gradient);
 		padding: 10px var(--page-margin-side);
+	}
+
+	#navbar.collapsed {
+		/* height: 10px; */
 	}
 
 	#header_logo {

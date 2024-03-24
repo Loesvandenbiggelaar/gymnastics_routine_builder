@@ -73,3 +73,9 @@
 		<slot />
 	</main>
 </ParaglideJS>
+
+<style>
+	svg {
+		fill: orange !important;
+	}
+</style>

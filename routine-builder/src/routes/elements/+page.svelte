@@ -30,21 +30,29 @@
 
 <!-- Header Component -->
 <h1>{m.page_elements_title()}</h1>
-<div class="apparatus_picker">
-	{#each apparatus as ap}
-		<input
-			type="radio"
-			bind:group={selected_apparatus}
-			id={ap.id}
-			name="apparatus"
-			value={ap.id}
-			on:change={console.log(selected_apparatus)}
-		/>
-		<label for={ap.id}
-			><IconSvg src={ap.icon} />
-			<p>{ap.name}</p></label
-		>
-	{/each}
+<div id="apparatus_wrapper">
+	<div id="male_female_picker">
+		<input type="radio" name="male_female" id="female" checked />
+		<label for="female"><Icon icon="tabler:gender-female" /></label>
+		<input type="radio" name="male_female" id="male" />
+		<label for="male"><Icon icon="tabler:gender-male" /></label>
+	</div>
+	<div class="apparatus_picker">
+		{#each apparatus as ap}
+			<input
+				type="radio"
+				bind:group={selected_apparatus}
+				id={ap.id}
+				name="apparatus"
+				value={ap.id}
+				on:change={console.log(selected_apparatus)}
+			/>
+			<label for={ap.id}
+				><IconSvg src={ap.icon} />
+				<p>{ap.name}</p></label
+			>
+		{/each}
+	</div>
 </div>
 <Grid {data} {columns} search sort pagination />
 <p>
@@ -55,10 +63,46 @@
 	/* Import Grid Styles */
 	@import '$lib/styles/gridJS_style.css';
 
+	#apparatus_wrapper {
+		display: grid;
+		column-gap: 1.5em;
+		grid-template-columns: min-content 1fr;
+	}
+
+	#male_female_picker {
+		background-color: var(--color-base-secondary);
+		display: flex;
+		flex-direction: column;
+		/* Styling */
+		--border-radius: 100px;
+		border-radius: var(--border-radius);
+	}
+
+	#male_female_picker input {
+		display: none;
+	}
+	#male_female_picker label {
+		font-size: 1.5em;
+		padding: 0.1em;
+	}
+	#male_female_picker input:checked + label {
+		background-color: var(--color-secondary);
+	}
+
+	#male_female_picker input:checked + label[for='male'] {
+		background-color: var(--color-accent);
+	}
+
+	#male_female_picker label:first-of-type {
+		border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+	}
+	#male_female_picker label:last-of-type {
+		border-radius: 0px 0px var(--border-radius) var(--border-radius);
+	}
+
 	.apparatus_picker {
 		display: grid;
-		gap: 10px;
-		grid-template-columns: repeat(auto-fit, minmax(0, 10rem));
+		grid-template-columns: repeat(auto-fit, minmax(0, 8.2rem));
 		text-align: center;
 	}
 
@@ -74,9 +118,22 @@
 		gap: 0.2em;
 		padding: 0.2em;
 		/* Box Styling */
-		border-radius: 100px;
+		--border-radius: 1em;
+		--border: solid var(--color-text-secondary) 0.5px;
+		border: var(--border);
+		border-left: none;
+		height: 3.5em;
 		/* Sizing */
-		font-size: 1.6rem;
+		font-size: 1.2rem;
+	}
+
+	.apparatus_picker label:first-of-type {
+		border-left: var(--border);
+		border-radius: var(--border-radius) 0px 0px var(--border-radius);
+	}
+
+	.apparatus_picker label:last-of-type {
+		border-radius: 0px var(--border-radius) var(--border-radius) 0px;
 	}
 
 	.apparatus_picker label:hover {
@@ -90,9 +147,6 @@
 
 	.apparatus_picker input:checked + label {
 		font-weight: bold;
-	}
-
-	svg {
-		fill: red;
+		background-color: var(--color-accent);
 	}
 </style>
