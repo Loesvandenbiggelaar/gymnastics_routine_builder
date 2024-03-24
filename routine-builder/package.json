@@ -26,6 +26,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"gridjs": "^6.2.0",
+		"gridjs-svelte": "^2.1.1",
 		"svelte-inline-svg": "^1.2.0",
 		"svrollbar": "^0.12.0"
 	}

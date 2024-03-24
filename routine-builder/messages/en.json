@@ -16,5 +16,9 @@
 	"apparatus_vault": "vault",
 	"apparatus_beam": "beam",
 	"apparatus_uneven_bars": "uneven bars",
-	"apparatus_floor": "floor"
+	"apparatus_floor": "floor",
+	"element_table_header_number": "Number",
+	"element_table_header_description": "Description",
+	"element_table_header_value": "Value",
+	"element_table_header_difficulty": "Difficulty"
 }
