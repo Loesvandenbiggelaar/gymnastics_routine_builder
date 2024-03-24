@@ -7,10 +7,10 @@
 	import IconSVG from '$lib/components/IconSVG.svelte';
 
 	export const apparatus = [
-		{ name: m.apparatus_vault(), icon: 'mdi:magnify-scan' },
-		{ name: m.apparatus_beam(), icon: 'mdi:magnify-scan' },
-		{ name: m.apparatus_uneven_bars(), icon: 'mdi:magnify-scan' },
-		{ name: m.apparatus_floor(), icon: 'mdi:magnify-scan' }
+		{ name: m.apparatus_vault(), icon: 'mdi:magnify-scan', id: 'vault' },
+		{ name: m.apparatus_beam(), icon: 'mdi:magnify-scan', id: 'beam' },
+		{ name: m.apparatus_uneven_bars(), icon: 'mdi:magnify-scan', id: 'uneven_bars' },
+		{ name: m.apparatus_floor(), icon: 'mdi:magnify-scan', id: 'floor' }
 	];
 </script>
 
@@ -18,8 +18,8 @@
 <h1>{m.page_elements_title()}</h1>
 <div class="apparatus_picker">
 	{#each apparatus as ap}
-		<input type="radio" id={ap.name} name="apparatus" value={ap.name} />
-		<label for={ap.name}
+		<input type="radio" id={ap.id} name="apparatus" value={ap.id} />
+		<label for={ap.id}
 			><Icon icon={ap.icon} />
 			<p>{ap.name}</p></label
 		>
