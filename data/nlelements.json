@@ -1,0 +1,1204 @@
+{
+  "floor": [
+    {
+      "number": "1.1",
+      "description": "Vanuit handstand dalen tot hoeksteun of gespreide hoeksteun (2 s)",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.2",
+      "description": "Spitz",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.3",
+      "description": "Spitz met benen horiz ontaal",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.7",
+      "description": "Uit spreidstand heffen naar handstand (2 s).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.8",
+      "description": "Met gehoekt lichaam en gestrekte armen, of gestrekt lichaam gebogen armen heffen met gesloten benen tot handstand (2s)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.9",
+      "description": "Spitz (2 s) heffen naar handstand (2 s). Ook met gespreide benen.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.10",
+      "description": "Manna (2 s) heffen na ar handstand (2 s). Ook met gespreide benen.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.13",
+      "description": "Uit buiklig rol tot handstand (2 s)",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.14",
+      "description": "Vanuit ligsteun, spagaat, hoeksteun of spreidhoeksteun heffen tot handstand (2 s).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.16",
+      "description": "Uit Manna (2 s) disloqueren naar handstand (2 s).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.19",
+      "description": "Handstand (2 s).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.20",
+      "description": "Heffen tot, dalen naar of opzet tot Japanse hdst (2 s)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.21",
+      "description": "Vanuit spagaat heffen tot Japanse handstand (2 s)",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.25",
+      "description": "Gespreide bovenbalans (2 s).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.26",
+      "description": "Bovenbalans (2 s).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.27",
+      "description": "Zwaluw (2 s).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.31",
+      "description": "\u00bd of 1/1 draai in of tot handstand.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.32",
+      "description": "Uit gespreide bovenbalans (2 s) heffen tot handstand (2 s).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.33",
+      "description": "Uit bovenbalans (2 s) heffen tot handstand (2 s).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.34",
+      "description": "Uit zwaluw (2 s) heffen tot Japa nse handstand (2 s).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.37",
+      "description": "Vanuit hoeksteun achterover rollen tot stand.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.44",
+      "description": "Endo rol tot handstand (2 s).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.45",
+      "description": "Endo rol gehoekt tot handstand  (2 s)  (benen gesloten) .",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.46",
+      "description": "Element hoeft niet vanuit handstand te komen om erkend te worden.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.49",
+      "description": "Boogje vw.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.55",
+      "description": "Split of spagaat (stop verplicht).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.61",
+      "description": "Alle zweefstanden (2 s).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.62",
+      "description": "Alle zweefstanden met beenspreiding van 180\u00b0 zonder vasthouden van been (2 s).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 180,
+        "beenspreiding": 180,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.67",
+      "description": "Sprong rw tot ligsteun.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.68",
+      "description": "Sprong met hoeken en strekken of met 1/1 draai tot ligsteun.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.73",
+      "description": "Butterfly.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.74",
+      "description": "Butterfly met 1/1 draai vw of aw.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.75",
+      "description": "Butterfly met 2/1 draai.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 720,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.79",
+      "description": "1 flank of flair.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.80",
+      "description": "Flanken of flairs tot handstand.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.81",
+      "description": "Flanken of flairs tot handstand en dalen tot flank of flair.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.82",
+      "description": "Flair gesprongen met 360\u00b0 draai rw door de handstand en doorgaan in flair (2 sprongen).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.86",
+      "description": "Uit handstand dalen tot flank of flair.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.91",
+      "description": "Flair met \u00bd spindel.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.92",
+      "description": "Flair met 1/1 spindel (In 2 flanken)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.93",
+      "description": "Flair met spindel > 270\u00b0 direct tot handstand.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 270,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.98",
+      "description": "Flair met \u00bd spindel tot handstand.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.100",
+      "description": "Flair met spindel > 270\u00b0 (in 2 flanken) direct tot handstand en terug naar flank of flair.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 270,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.103",
+      "description": "Russenwenden 360\u00b0 of 540\u00b0.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 540,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.104",
+      "description": "Russenwenden 720\u00b0 of 900\u00b0.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 900,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.105",
+      "description": "Russenwenden 1080\u00b0 of meer.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 1080,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.109",
+      "description": "Stutrol door handstand met \u00bd draai.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "1.110",
+      "description": "Stutrol met gesprongen 1/1 draai door de handstand.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "niet acrobatische elementen"
+      }
+    },
+    {
+      "number": "2.1",
+      "description": "Overslag of flak-flik.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.4",
+      "description": "Overslag salto vw gehurkt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.7",
+      "description": "Zweefrol.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.13",
+      "description": "Salto vw gehurkt of gehoekt, ook met \u00bd draai.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.14",
+      "description": "Salto vw gestrekt, ook met \u00bd draai.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.16",
+      "description": "Dubbel salto vw gehurkt, ook met \u00bd draai.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.17",
+      "description": "Dubbel salto vw gehoekt, ook met \u00bd draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.20",
+      "description": "Salto vw gehurkt met 1/1 draai, ook met 3/2 draai.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.27",
+      "description": "Salto vw gestrekt met 1/1 draai, ook met 3/2 draai.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.28",
+      "description": "Salto vw gestrekt met 2/1 draai.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 720,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.29",
+      "description": "Salto vw gestrekt met 5/2 draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.30",
+      "description": "Salto vw gestrekt met 3/1 draai.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 1080,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.36",
+      "description": "Salto vw gestrekt met 7/2 draai.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.38",
+      "description": "Salto vw gehurkt of gehoekt tot ligsteun.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.41",
+      "description": "Dubbel salto vw gehurkt met 1/1 draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 360,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.42",
+      "description": "Dubbel salto vw gehurkt met 3/2 draai.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.46",
+      "description": "Sprong vw met \u00bd draai tot dubbel salto rw gehurkt of gehoekt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "2.48",
+      "description": "Dubbel salto vw gestrekt met 3/2 draai.  (Zapata 2)         H",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "2",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "beenspreiding": null,
+        "group": "acrobatische elementen voorwaarts"
+      }
+    },
+    {
+      "number": "3.1",
+      "description": "Salto rw gehurkt of gehoekt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.2",
+      "description": "Salto rw gestrekt of tempo salto rw.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.3",
+      "description": "Dubbel salto rw gehurkt.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.4",
+      "description": "Dubbel salto rw gehurkt of gehoekt met 1/1 draai, ook dubbel twistsalto  met \u00bd draai.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 360, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.5",
+      "description": "Dubbel salto rw gehurkt met 2/1 draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 720, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.6",
+      "description": "Dubbel salto rw gehurkt met 3/1 draai.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 1080,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.7",
+      "description": "Salto rw gehurkt of gehoekt met \u00bd draai, of twistsalto gehurkt of gehoekt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.8",
+      "description": "Salto rw g estrekt met \u00bd of 1/1 draai.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 360, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.10",
+      "description": "Dubbel twistsalto gehurkt of gehoekt, of dubbel salto rw gehurkt of gehoekt met 1/2 draai.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 180, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.11",
+      "description": "Dubbel salto rw gehurkt met 3/2 draai, of salto rw gestrekt met 3/2 draai tot salto vw gehurkt.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.12",
+      "description": "Dubbel salto rw gehurkt met 5/2 draa i.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.13",
+      "description": "Flik-Flak",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.15",
+      "description": "Dubbel salto rw gehoekt.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.18",
+      "description": "Triple salto rw gehurkt.",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.24",
+      "description": "Triple salto rw gehoekt.  (Nagornyy)",
+      "value": "0.9",
+      "difficulty": "I",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.26",
+      "description": "Salto rw gehurkt met 3/2 draai .",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.27",
+      "description": "Salto rw gestrekt met 3/2 of 2/1 draai .",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 720, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.28",
+      "description": "Salto rw gestrekt met 5/2 draai.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.29",
+      "description": "Salto rw gestrekt met 7/2 draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.31",
+      "description": "Sprong rw met \u00bd draai tot rol vw.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.34",
+      "description": "Salto rw gestrekt met 3/1 draai.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 1080,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.36",
+      "description": "Salto rw gestrekt met 4/1 draai.  (Shirai / Nguyen)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.41",
+      "description": "Dubbel salto gespreid met 1/1 draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 360, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.42",
+      "description": "Salto rw gestrekt met 2/1 draai en salto rw gehoekt.  (Kolyvanov)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 720, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.46",
+      "description": "Dubbel salto rw gestekt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.47",
+      "description": "Dubbel twistsalto gestrekt, of dubbel salto rw gestrekt met \u00bd draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.48",
+      "description": "Dubbel salto rw gestrekt met 3/2 draai, of dubbel twistsalto gestrekt met 1/1 draai.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 360, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.53",
+      "description": "Dubbel salto rw gestrekt met 1/1 draai, of dubbel twistsalto gestrekt met \u00bd draai.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 360, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.54",
+      "description": "Dubbel salto rw gestrekt met 2/1 draai.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": { "draai": 720, "group": "acrobatische elementen rugwaarts" }
+    },
+    {
+      "number": "3.60",
+      "description": "Dubbel salto rw gestrekt met 5/2 draai.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": null,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    },
+    {
+      "number": "3.66",
+      "description": "Dubbel salto rw. gestrekt met 3/1 draai.  (Shirai 3)",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "3",
+      "type": "acrobatic",
+      "breakdown": {
+        "draai": 1080,
+        "group": "acrobatische elementen rugwaarts"
+      }
+    }
+  ]
+}

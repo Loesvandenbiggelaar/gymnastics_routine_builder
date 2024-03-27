@@ -1,0 +1,141 @@
+#define which apparatuses are on which page
+
+apparatuses:
+  floor:
+    start page:
+      nl: 39
+      en:
+    end page:
+      nl: 50
+      en:
+    group types:
+      1: non-acrobatic
+      2: acrobatic
+      3: acrobatic
+    regex:
+      group:
+        en:
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en:
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  pommel horse:
+    start page:
+      nl: 63
+      en:
+    end page:
+      nl: 76
+      en:
+    group types:
+      1: acrobatic
+      2: acrobatic
+      3: acrobatic
+      4: acrobatic
+    regex:
+      group:
+        en:
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en:
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  rings:
+    start page:
+      nl: 83
+      en:
+    end page:
+      nl: 102
+      en:
+    group types:
+      1: acrobatic
+      2: acrobatic
+      3: acrobatic
+      4: acrobatic
+    regex:
+      group:
+        en:
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en:
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  vault:
+    start page:
+      nl: 109
+      en:
+    end page:
+      nl: 116
+      en:
+    group types:
+      1: gymnastic
+      2: gymnastic
+      3: acrobatic
+      4: acrobatic
+      5: acrobatic
+      6: gymnastic
+    regex:
+      group:
+        en:
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en:
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  parralel bars:
+    start page:
+      nl: 123
+      en:
+    end page:
+      nl: 140
+      en:
+    group types:
+      1: gymnastic
+      2: gymnastic
+      3: acrobatic
+      4: acrobatic
+      5: acrobatic
+      6: gymnastic
+    regex:
+      group:
+        en:
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en:
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  high bar:
+    start page:
+      nl: 147
+      en:
+    end page:
+      nl: 165
+      en:
+    group types:
+      1: acrobatic
+      2: acrobatic
+      3: acrobatic
+      4: acrobatic
+    regex:
+      group:
+        en:
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en:
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+file:
+  en:
+  nl: source/files/Men/Reglement-Bovenbouw-versie-1.1.pdf
+exception_file: source/files/Men/elements_men_G_H.yaml
+output directory: data/
+string adjustments:
+  - ["  ", " "]
+  - ["    ", " "]
+  - ["   ", " "]
+  - [" ’", "’"]
+  - [" '", "'"]
+  - ["ME T", "MET"]
+  - ["MET /", "MET/"]
+  - ["MET/ ", "MET/"]
+  - ["FLIK -FLAK", "FLIK-FLAK"]
+  - ["LA -DRAAI", "LA-DRAAI"]
+  - ["L ENGTE AS-DRAAI", "LA-DRAAI"]
+  - ["VOO ROVER", "VOOROVER"]
+  - ["MO8N7S", "MOUNTS"]
+  - ["ʊ", "-"]
+  - ["G,A17 C,5C/E6", "GIANT CIRCLES"]
