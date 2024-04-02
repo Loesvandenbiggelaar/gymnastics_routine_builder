@@ -3,6 +3,7 @@ import PyPDF2
 import yaml
 from difflib import SequenceMatcher
 from functions import *
+import langdetect
 # from extract_elements import elementExtractor
 from split_elements_in_types import elementTyping
 
@@ -62,12 +63,22 @@ class elementExtractorMen:
             number = dict_translate_nr[res[0]]
             nr = number
             name =adjustString(res[1], self.config["string adjustments"])
+            text_description = name.split("- ")
+            if self.language == "en":
+                text = text_description[1]
+            elif self.language == "fr":
+                text = text_description[0]
+            elif self.language == "es":
+                text = text_description[2]
+            else:
+                text = name
+
             if number in self.groups[apparatus].keys():
-                ratio = SequenceMatcher(None, name.lower(), self.groups[apparatus][number]).ratio()
+                ratio = SequenceMatcher(None, text.lower(), self.groups[apparatus][number]).ratio()
                 if ratio < 0.9:
                     raise AssertionError ("items are not similar enough:", ratio)
             else:                
-                self.groups[apparatus][int(number)] = name.lower()
+                self.groups[apparatus][int(number)] = text.lower()
     
         return nr
 
@@ -75,12 +86,30 @@ class elementExtractorMen:
         regex = self.config["apparatuses"][apparatus]["regex"]["element"][self.language]
         res = re.findall(regex, page)
         for r in res:
+            if r[1] in ["|", ""]:
+                continue
+            if r[1].replace(" ", "").replace(".", "").isdigit():
+                continue
+            text_description = re.split(r"\|(?=[A-Z])", r[1])
+            
+            if len(text_description) < 3:
+                # print("warning, could not process", text_description)
+                continue
+
+            if self.language == "en":
+                text = text_description[1]
+            elif self.language == "fr":
+                text = text_description[0]
+            elif self.language == "es":
+                text = text_description[2]
+            else:
+                text = r[1]
             try:
-                if r[1] != r[1].upper():
+                if text != text.upper():
                     if apparatus == "vault":
-                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":r[1], "value":r[2]}
+                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":text}
                     else:
-                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":r[1]}
+                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":text}
                         
             except IndexError:
                 print("[WARNING] not a valid result!:", r)
@@ -101,25 +130,26 @@ class elementExtractorMen:
             for page in pages:
                 text = page.extract_text().replace("\n", "")
                 group_nr = self.getGroup(text, apparatus)
-                self.getElements(text, apparatus, group_nr)
+                self.getElements(page.extract_text().replace("\n", "|"), apparatus, group_nr)
         
     def writeResult(self):
         # saveJson(self.config["output directory"] + "elements.json", self.elements)
-        saveJson(self.config["output directory"] +self.language+ "elements.json", {key:list(value.values()) for key, value in self.elements.items()})
-        saveJson(self.config["output directory"] +self.language+ "groups.json", self.groups)
+        saveJson(self.config["output directory"] +self.language+ "_elements.json", {key:list(value.values()) for key, value in self.elements.items()})
+        saveJson(self.config["output directory"] +self.language+ "_groups.json", self.groups)
         return
 
 
     def expandElements(self):
-        # print(exceptions[self.apparatuses])
         def getDifficulty(element, exceptions):
+
             difficulty = ["TA", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
             n = element["number"].split(".")[1]
             difficulty_val = int(n) % 6
-            # print(n, difficulty_val)
             if 6> difficulty_val > 0:
                 return difficulty[difficulty_val]
             elif difficulty_val == 0:
+                if not exceptions:
+                    return "F"
                 v = exceptions.get(element["number"], "F")
                 return v
             else:
@@ -160,31 +190,35 @@ class elementExtractorMen:
 
 
         exceptions_dict = loadConfig(self.config["exception_file"])
+        vaultValues = loadConfig(self.config["vault_values_file"])
         for apparatus, elements in self.elements.items():
             for element, values in elements.items():
                 number = values["number"]
                 grNumber = int(number.split(".")[0].replace("T", ""))
-                if apparatus != "vault":
+                if apparatus == "vault":
+                    values["value"] = vaultValues[number]
+                else:
                     values["value"] = getValue(values, exceptions_dict[apparatus])
                 values["difficulty"] = getDifficulty(values, exceptions_dict[apparatus])               
                 values["group"] = str(grNumber)
-                values["type"]=getTypeOfElement(values, apparatus)
-            elements = self.doElementTyping(elements, apparatus)
+                values["type"]=getTypeOfElement(values, apparatus=apparatus)
+            elements = self.doElementTyping(apparatus)
                 
                 
-    def doElementTyping(self, elements, apparatus):
+    def doElementTyping(self, apparatus):
         configFile = "source/element_grouping.yaml"
         dataFile = "data/elements.json"
         groupConfig = "data/groups.json"
-        et = elementTyping(configFile, groupConfig, dataFile, apparatus)
+        et = elementTyping(configFile, groupConfig, dataFile, apparatus, "men")
         et.addElements(self.elements[apparatus])
         et.addGroups(self.groups)
         return et.process(self.language)
 
 
 def main():
-    extractor = elementExtractorMen("source/pages_config_men.yaml", language="nl")
-    extractor.addApparatus(["floor"])
+    extractor = elementExtractorMen("source/pages_config_men.yaml", language="es")
+    # extractor.addApparatus([ "vault"])
+    extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
     extractor.processApparatuses()
     extractor.expandElements()
     extractor.writeResult()

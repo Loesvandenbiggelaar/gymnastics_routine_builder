@@ -14,15 +14,15 @@ classifications:
     aantal:
       default: enkel
       values:
-        - [enkel, salto]
-        - [dubbel, Dubbel]
-        - [driedubbel, tripel]
+        - [enkel, salto, single]
+        - [dubbel, Dubbel, double]
+        - [driedubbel, tripel, triple]
     vorm:
       default: hurk
       values:
-        - [hurk]
-        - [hoek]
-        - [strek]
+        - [hurk, tucked]
+        - [hoek, piked]
+        - [strek, straight]
     richting:
       default: None
       values:
@@ -41,93 +41,192 @@ classifications:
         - [zijwaarts]
 
 apparatuses:
-  vault:
-    type:
-      - handstandoverslag / yamashita
-      - tsukahara
-      - arabier flik-flak / yurchenko
-      - streksprong
-    eerste vluchtfase:
-      - draai
-    tweede vluchtfase:
-      - draai
-      - salto
-  uneven bars:
-    1:
-      - draai
-      - beenspreiding
-    2:
-      - draai
-      - beenspreiding
-    3:
-      - draai
-      - richting
-    4:
-      - salto
-      - richting
-      - draai
-    5:
-      - salto
-      - richting
-      - draai
-    6:
-      -
-  beam:
-    1:
-      - draai
-      - beenspreiding
-      - salto
-      - richting
-    2:
-      - draai
-      - beenspreiding
-    3:
-      - draai
-    4:
-      - richting
-      - draai
-      - richting
-    5:
-      - salto
-      - richting
-      - draai
-    6:
-      - salto
-      - richting
-      - draai
-  floor:
-    1:
-      - draai
-      - beenspreiding
-    2:
-      - draai
-      - beenspreiding
-    3:
-      - draai
-      - richting
-    4:
-      - salto
-      - richting
-      - draai
-    5:
-      - salto
-      - richting
-      - draai
-    6:
-      - salto
-      - draai
-      - richting
-  # uneven bars:
-  #   opsprong:
-  #     type:
-  #       - group 1
+  women:
+    vault:
+      type:
+        - handstandoverslag / yamashita
+        - tsukahara
+        - arabier flik-flak / yurchenko
+        - streksprong
+      eerste vluchtfase:
+        - draai
+      tweede vluchtfase:
+        - draai
+        - salto
+    uneven bars:
+      1:
+        - draai
+        - beenspreiding
+      2:
+        - draai
+        - beenspreiding
+      3:
+        - draai
+        - richting
+      4:
+        - salto
+        - richting
+        - draai
+      5:
+        - salto
+        - richting
+        - draai
+      6:
+        -
+    beam:
+      1:
+        - draai
+        - beenspreiding
+        - salto
+        - richting
+      2:
+        - draai
+        - beenspreiding
+      3:
+        - draai
+      4:
+        - richting
+        - draai
+        - richting
+      5:
+        - salto
+        - richting
+        - draai
+      6:
+        - salto
+        - richting
+        - draai
+    floor:
+      1:
+        - draai
+        - beenspreiding
+      2:
+        - draai
+        - beenspreiding
+      3:
+        - draai
+        - richting
+      4:
+        - salto
+        - richting
+        - draai
+      5:
+        - salto
+        - richting
+        - draai
+      6:
+        - salto
+        - draai
+        - richting
+    # uneven bars:
+    #   opsprong:
+    #     type:
+    #       - group 1
 
-  #   achteropzwaaien en vrije heupdraaien:
-  #     type:
-  #       - opzwaai
-  #       - heupdraai
-  #       - losom
-  #   reuzendraaien:
-  #     type:
-  #       - reuzendraai
-  #       - vlucht
+    #   achteropzwaaien en vrije heupdraaien:
+    #     type:
+    #       - opzwaai
+    #       - heupdraai
+    #       - losom
+    #   reuzendraaien:
+    #     type:
+    #       - reuzendraai
+    #       - vlucht
+  men:
+    floor:
+      1:
+        - draai
+        - richting
+      2:
+        - salto
+        - draai
+        - richting
+      3:
+        - salto
+        - draai
+        - richting
+      4:
+        - salto
+        - draai
+        - richting
+    pommel horse:
+      1:
+        - draai
+        - richting
+      2:
+        - salto
+        - draai
+        - richting
+      3:
+        - salto
+        - draai
+        - richting
+      4:
+        - salto
+        - draai
+        - richting
+    rings:
+      1:
+        - draai
+        - richting
+      2:
+        - salto
+        - draai
+        - richting
+      3:
+        - salto
+        - draai
+        - richting
+      4:
+        - salto
+        - draai
+        - richting
+    parallel bars:
+      1:
+        - draai
+        - richting
+      2:
+        - salto
+        - draai
+        - richting
+      3:
+        - salto
+        - draai
+        - richting
+      4:
+        - salto
+        - draai
+        - richting
+    high bar:
+      1:
+        - draai
+        - richting
+      2:
+        - salto
+        - draai
+        - richting
+      3:
+        - salto
+        - draai
+        - richting
+      4:
+        - salto
+        - draai
+        - richting
+    vault:
+      type:
+        nl:
+        fr:
+          - single
+        es:
+          - single
+        en:
+          - single salto
+          - handspring salto
+          - handspring with ¼ or ½ turn
+          - round off / scherbo entry / yurchenko
+      eerste vluchtfase:
+        - draai
+      tweede vluchtfase:
+        - draai
+        - salto
