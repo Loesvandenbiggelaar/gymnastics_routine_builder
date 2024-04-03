@@ -1,30 +1,236 @@
 {
   "floor": [
     {
+      "number": "1.37",
+      "description": " Desde \u00e1ngulo piernas abiertas voltear a la |posici\u00f3n.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.26",
+      "description": "\t Apoyo\tfacial\thorizontal\t(2\ts.).27.\tHirondelle\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.43",
+      "description": "\t Rodar\tpiernas\tabiertas\tal\tapoyo\tinvertido\t(2\ts.).33.\tDe\tl\u2019appui\tfacial\thorizontal\t 2\ts.\ts\u2019\u00e9lever\t\u00e0\tl\u2019appui\t|renvers\u00e9\t(2\ts.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.3825",
+      "description": "\t Apoyo\tfacial\thorizontal\tpiernas\tabiertas\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.32",
+      "description": "\t Desde\t el\tap.\tfacial\thorizontal\t piernas\tabiertas,\t|(2\ts.)\televarse\tal\tapoyo\tinvertido\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.45",
+      "description": "\t Rodar\ten\tcarpa\tal\tapoyo\tinvertido\t(2\ts.).\t|(piernas juntas)46. 47.35. 36.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.61",
+      "description": "\t\tTodas\tlas\tplanchas\t(2\ts.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.67",
+      "description": "\t Salto\tatr\u00e1s\tal\tapoyo\tacostado\tfacial.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.68",
+      "description": " Salto atr\u00e1s en carpa - extendido o adelante |con\t1/1\tg\tal\tapoyo\tacostado\tfacial.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.49",
+      "description": "\t Paloma.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.55",
+      "description": "\t Spagat\tde\tfrente\to\tlat.\t(se\tnecesita\tparar).EG I:  Elements non-acrobatiques - Non-acrobatic Elements - Elementos no acrob\u00e1ticos",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.62",
+      "description": "\t Todas\t las\tplanchas\tpiernas\tabiertas\t180\u00ba,\tsin\t|apoyo\tde\tmanos\t(2\ts.).|(Endo)|",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.86",
+      "description": " Desde el apoyo invertido bajar a molinos o |molinos\tpiernas\tabiertas.75.\tPapillon\tavec\t2/1\ttour.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.95",
+      "description": " Molinos\tp.\tab.\tsalto\tatr\u00e1s\tcon\t360\u00ba\tal\tapoyo\t|invertido\tcon\tgiro\ty\tbajar\ta\tmolino\tp.\tabiertas.\t(2\t|saltos).83. 84.73.\tPapillon.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.79",
+      "description": "\t 1\tmolino\to\tmolino\tpiernas\tabiertas.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.80",
+      "description": " Molinos o molinos piernas abiertas al apoyo |invertido.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.81",
+      "description": " Molinos o molinos piernas abiertas al apoyo |invertido\ty\tbajar\ta\tmolinos\to\tmolinos\tp.\tab.\t(Tong Fei)",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.91",
+      "description": "\t Molinos\to\tmolinos\tp.\tabiertas\tcon\t\u00bd\tgiro.92.\tCercles\t d.\tjambes\t\u00e9cart\u00e9s\tavec\t1/1\tpivot\t(dans\t",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.98",
+      "description": " Molinos o molinos piernas abiertas con \u00bd giro |al\tapoyo\tinvertido.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.104",
+      "description": "\t Rusa\tfacial\tcon\t720\u00b0\to\t900\u00b0.105.\tFacial\trusse\tavec\t1080\u00b0\tou\tplus.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.110",
+      "description": "\t Rodar\t atr\u00e1s\tcon\t1/1\tg.\tsaltado\tal\tap.\tinvertido.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.100",
+      "description": "\t Molinos\t p.\tab.\tcon\tgiro\t>\t270\u00ba\t(en\t2\tmolinos)\t|direc.\tal\tap.\tinv.\ty\tbajar\ta\tmolino\to\tmolino\tp.\tab.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.109",
+      "description": "\t Rodar\tatr\u00e1s\tal\tapoyo\tinvertido\tcon\t\u00bd\tg.\t111.\t|",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "2.7",
+      "description": "\t Tigre.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": "\t Paloma\tadelante\to\tfl\tic\tfl\tac\tadelante.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
       "number": "2.14",
-      "description": "Salto fwd. tucked or piked, also with \u00bd t.|\tMortal\tad.\tagr.\to\ten\tcarpa,\ttambi\u00e9n\tcon\t\u00bd\tg.",
+      "description": "\t Mortal\tadelante\text.,\ttambi\u00e9n\tcon\t\u00bd\tg.13.\tSalto\tavant\tgroup\u00e9\tou\tcarp\u00e9,\taussi\tavec\t\u00bd\tt.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hoek", "richting": null },
-        "group": "elementos acrob\u00e1ticos adelante"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "2.16",
-      "description": "Double salto fwd. piked, also with \u00bd t.|\t Doble\tmortal\tad.en\tcarpa,\ttambien\tcon\t\u00bd\tg.|",
+      "number": "2.4",
+      "description": "\t Paloma\tmortal\tagrupado.",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hoek", "richting": null },
-        "group": "elementos acrob\u00e1ticos adelante"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.16",
+      "description": "\t Doble\tmortal\tad.\tagrupado,\ttambi\u00e9n\tcon\t\u00bd\tg..17.\tDouble\tsalto\tavant\tcarp\u00e9,\taussi\tavec\t\u00bd\tt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.20224828",
+      "description": "\t Mortal\tad.\text.\tcon\t2/1\tg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.46",
@@ -32,12 +238,7 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 360,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos adelante"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "2.43",
@@ -45,105 +246,553 @@
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos adelante"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "2.26",
-      "description": "Salto fwd. str. with 5/2 t.|\t Mortal\tad.\text.\tcon\t5/2\tg.",
+      "description": "\t Mortal\tad.\text.\tcon\t3/1\tg.29.\tSalto\tav.\ttendu\tavec\t5/2\tt.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos adelante"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "2.38",
-      "description": "Double salto fwd. tucked with 1/1 turn.",
+      "description": " Mortal adelante agrupado o en carpa al apoyo |acostado\tfacial.39.\t 40.\t 41.\tDouble\tsalto\tavant\tgroupe\tavec\t1/1\tt.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 360,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos adelante"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": "\t Mortal\tatr\u00e1s\textendido\to\t Tempo.3.\t Double\tsalto\tarri\u00e8re\tgroup\u00e9.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.9",
-      "description": "Tambi\u00e9n\t\u00bd\tg.\tdoble\tad.\tcon\t\u00bd\tg.5.\tDouble\tsalto\tarri\u00e8re\tgroupe\tavec\t2/1\tt.| Double salto bwd. tucked with 2/1 t. |\t Doble\tmortal\tatr\u00e1s\tagrupado\tcon\t2/1\tg.",
+      "description": "Arabian double t. or p. with \u00bd t.",
       "value": "0.3",
       "difficulty": "C",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 720,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos atr\u00e1s (shirai 3)"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.16",
-      "description": "H(Tsukahara)",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos atr\u00e1s (shirai 3)"
-      }
-    },
-    {
-      "number": "3.48",
-      "description": "Tamayo",
+      "number": "3.12",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\tcon\t5/2\tg.6.\t Double\tsalto\tarri\u00e8re\tgroup\u00e9\tavec\t3/1\tt.",
       "value": "0.6",
       "difficulty": "F",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos atr\u00e1s (shirai 3)"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.71",
-      "description": "Aussi/Also/Tambi\u00e9n Penev",
+      "number": "3.16",
+      "description": "\t Salto\tat.\tcon\t\u00bd\tg.\tdoble\tad.\tagr.\to\ten\tcarpa\to\t|doble\tmortal\tatr\u00e1s\tagr.\to\ten\tcarpa\tcon\t\u00bd\tg.11.\tDouble\t salto\tarri\u00e8re\tgroup\u00e9\tarr.\tavec\t3/2\tt.\tou\t|salto\tarr.\ttendu\tavec\t3/2\tt.\tet\tsalto\tav.\tgroup\u00e9.\t",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.24",
+      "description": "\t Triple\tmortal\ten\tcarpa.",
+      "value": "0.9",
+      "difficulty": "I",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.18",
+      "description": "\t Triple\tmortal\tagrupado.|(Liukin )",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": "\t Mortal\tatr\u00e1s\textendido\tcon\t\u00bd\tg.\to\tsalto\tatr\u00e1s\t|con\tmedio\tgiro\tmortal\tadelante\text.\to\t1/1\tgiro7.\t Salto\tarri\u00e8re\tgroup\u00e9\tou\tcarp\u00e9\tavec\t\u00bd\tt.\tou\tsalto\t|arr.\tgr.\tou\tcarp\u00e9\tavec\t\u00bd\tt.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.14",
+      "description": " Back handspring .",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": "\t Mortal\tatr\u00e1s\text.\tcon\t7/2\tg.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": "\t Mortal \tatr\u00e1s\text.\tcon\t2/1\tg.\ty\tmortal\tat.\ten\tcarpa.33.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.46",
+      "description": "\t Doble\tmortal\tatr\u00e1s\textendido.47.\t\tSalto\t arr.\tavec\t\u00bd\tt.\tdouble\tsalto\t av.\tou\tdouble\t|salto\tarri\u00e8re\ttendu\tavec\t\u00bd\tt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.41",
+      "description": "\t Doble\tmortal\tlateral\tpiernas\tab.\tcon\t1/1\tg.|(Lou Yun)",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos acrob\u00e1ticos atr\u00e1s (shirai 3)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.28",
+      "description": "\t Mortal\tatr\u00e1s\text.\tcon\t5/2\tg.26.\tSalto\tarri\u00e8re\tgroupe\tavec\t3/2\tt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.34",
+      "description": "\t Mortal\tatr\u00e1s\text.\tcon\t3/1\tg.36.\tSalto\tarri\u00e8re\ttendu\tavec\t4/1\tt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.48",
+      "description": "Jump bwd. to dbl. salto fwd. str. with 1/1 t.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.71",
+      "description": "Jump bwd. to dbl. salto fwd. str. with \u00bd t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.59",
+      "description": " Double salto bwd. str. with 5/2 t. ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.66",
+      "description": "\t Doble\tmortal\tatr\u00e1s\text.\tcon\t3/1\tg.G",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.72",
+      "description": "\t Doble\tmortal\tatr\u00e1s\textendido\tcon\t2/1\tg.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
     }
   ],
   "rings": [
     {
-      "number": "2.70",
-      "description": "Vertical pull up to cross or  L-cross (2 s.).|\t Dominaci\u00f3n\ta\tfuerza,\ta\tcristo\to\tcristo\ten\t\u00e1ngulo\t|(2\ts.).",
+      "number": "1.25",
+      "description": "\t Dislocaci\u00f3n\tatr\u00e1s\tagrupada\to\ten\tcarpa.26.\t\u00c9tablissement en avant en tournant en arri\u00e8re  \u00e0 |l\u2019appui\tjambes\t\u00e9c\tappuy\u00e9es\tsur\tles\tpoignets\t(2\ts.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.33",
+      "description": "\t Dom.\tat.\textendido\tpor\tel\tapoyo\tinvertido.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.37",
+      "description": "\t Dislocaci\u00f3n\tadelante\ten\tcarpa\to\textendido.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.38",
+      "description": "\t Lanzarse\t en\tsuspensi\u00f3n\t atr\u00e1s\tdislocando\t ad.\tal\t|apoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.44",
+      "description": " Doble mortal de apoyo adelante agrupado a la |suspensi\u00f3n.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.31",
+      "description": "\t Dominaci\u00f3n\tat.\tal\tapoyo.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.43",
+      "description": "\t De\tla\tsuspensi\u00f3n\tdislocaci\u00f3n\tadelante.34.\t 35. 36.30.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.39",
+      "description": "\t Honma\textendida.|(Yamawaki)46.\tDouble\tsalto\td\u2019appui\tavant\tca.\tou\ttendu\t\u00e0\tla\tsusp.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.49",
+      "description": "\t Kippe\tal\tapoyo.\t51.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.55",
+      "description": "\t B\u00e1scula\t con\tbrazos\tdoblados\tdorsal\tal\tapoyo.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.56",
+      "description": "\t B\u00e1scula\tdorsal\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.61",
+      "description": "\t Impulso\tad.\ta\timpulso\tatr\u00e1s\ta\tla\tsuspensi\u00f3n.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.62",
+      "description": "\t Dominaci\u00f3n\t atr\u00e1s\ta\t\u00e1ngulo\tpiernas\tabiertas\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.67",
+      "description": "\t Desde\t el\tapoyo\to\tcristo,\tgiro\tde\tapoyo\tatr\u00e1s\ten\t|carpa\to\textendido\tal\tapoyo,\tcon\tbrazos\tdobl.53. 52.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.63",
+      "description": "\t Del\tapoyo\tmortal\tad.\ten\tcarpa\tal\tapoyo.|",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.81",
+      "description": " Molino atr\u00e1s (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.87",
+      "description": "\t Honma\te\timpulso\tal\tapoyo\tinvertido\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.75",
+      "description": "\t Impulso\t at.\to\tmolino\tatr\u00e1s\tal\tap.\tinvertido\t(2\ts.).74.\tBascule\t dorsale\tor\ttour\td\u2019appui\tarri\u00e8re\ttendu\t\u00e0\t|l\u2019appui\trenvers\u00e9.\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.86",
+      "description": "\t Desde\tapoyo\timpulso\tal\tapoyo\tinvertido\t(2\ts.).88.\tHonma\ttendu\tet\t\u00e9lan\t\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).\t",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": "\t \u00c1ngulo\t(2\ts.)\to\t\u00e1ngulo\tpiernas\tabiertas\t(2\ts.).3.\t Croix\trenvers\u00e9e\t(2\ts.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.9",
+      "description": "\t Apoyo\tfacial\thorizontal\t(2\ts.).10.\tAppui\tfacial\thorizontal\t entre\tles\tanneaux\t(hiron-|delle)\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.13",
+      "description": "\t Suspensi\u00f3n\tfacial\thorizontal\t(2\ts.).7.\t Suspension\tdorsale\thorizontale\t(2\ts.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.14",
+      "description": "\t Cualquier\tcristo\t(2\ts.).11.\tHirondelle\tinvers\u00e9e\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.8",
+      "description": "\t \u00c1ngulo,\tpiernas\televadas\tverticalmente\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.15",
+      "description": "\t Cristo\ten\t\u00e1ngulo\tp.\tverticales\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.22",
+      "description": " De cristo p. vert. subir a \u00e1ngulo p. vert. (2 s.)17.",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de fuerza y mantenimiento (2 seg.)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.23",
+      "description": " Subir vert. brazos ext. a \u00e1ngulo p. vert. (2 s.)6.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.4",
+      "description": "\t De\tcristo\tinv.,\telev.\tal\tapoyo\tinvertido\t(2\ts.).5.|(Hirondelle)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.19",
+      "description": "\t Apoyo\t facial\thorizontal\t piernas\tabiertas\t(2\ts.).|",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.25",
+      "description": "\t Elevarse\tcuerpo\ty\tb.\tflex.\tal\tapoyo\tinv.\t(2\ts).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.27",
+      "description": "\t Elevarse\t cuerpo\ty\tb.\text.\tal\tapoyo\tinvertido\to\t|del\tapoyo\tfacial\thorizontal\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.28",
+      "description": "\t Elevarse\t cuerpo\text.\ty\tbrazos\text.\tdesde\t|hirondelle\tal\tap.\tinvertido\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.31",
+      "description": "\t Giro\tde\tapoyo\tad.\tlentamente\ten\tcarpa\tcon\t|brazos\tdoblados\tal\tapoyo.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.32",
+      "description": "\t Giro\tde\tapoyo\tad.\tlentamente\text.\tal\tapoyo.33.\tTour\td\u2019appui\tav.\ttendu\tlentement,\t \u00e0\tl\u2019appui\t|renverse.\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.39",
+      "description": " Giro lento de apoyo adelante cuerpo y a cristo |o\tcristo\ten\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.46",
+      "description": " Press to hdst. with str. body a. bent arms or b. |body. a. str. arms, or fr. strad. sup. lever (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.34",
+      "description": "\t Giro\tde\tapoyo\tad\text.\tlentamente\t a\tcristo\tinver-|tido\t(2\ts.).36.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.42",
+      "description": " Giro lento de apoyo atr\u00e1s con cuerpo extendido |a\t\u00e1ngulo\t(2\ts.).|*\tAussi\tjam.\tec./\talso\tstrad.\tlegs\t/\t Tambi\u00e9n\tp.\tab.*\t|- Aussi jambes \u00e9cart\u00e9s|- Also straddle legs.|- Tambi\u00e9n piernas abiertas",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.52",
+      "description": "L-cross (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.58",
+      "description": "\t De\to\tpor\tla\tsus.\tdorsal\thoriz.,\tdominaci\u00f3n\ta\t|fuerza\ta\tcristo\to\tcristo\ten\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.50",
+      "description": "\t Dominaci\u00f3n\ta\tfuerza,\tb.\tfl\tex.\ta\tla\tsuspensi\u00f3n\t|dorsal\thorizontal\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.51",
+      "description": "\t Dominaci\u00f3n\ta\tfuerza,\tbrazos\textendidos\ta\tla\t|suspensi\u00f3n\tdorsal\thorizontal\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.56",
+      "description": "\t De\tcristo\to\tcristo\ten\t\u00e1ngulo,\tvoltear\tatr\u00e1s\ta\tla\t|suspensi\u00f3n\tdorsal\thorizontal\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.62",
+      "description": " Del apoyo invertido bajar horizontal a la suspen-|si\u00f3n\tdorsal\thorizontal\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.57",
+      "description": "\t Dominaci\u00f3n\ta\tfuerza,\tb.\text.\ta\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.68",
+      "description": "\t Del\tapoyo\tinvertido,\tbajar\tlentamente\tpor\tcristo\t|invertido\ta\tla\tsuspensi\u00f3n\tinvertida.63.\tDe\tl\u2019appui\tou\tla\tcroix,\ts\u2019abaisser\tlent.\tbras\tt.\t\u00e0\tla\t|susp.\tet\t\u00e9tablis.\ten\tforce,\t\u00e0\tla\tcroix\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.70",
+      "description": "\t De\thirondelle\televarse\tal\tapoyo\tfac.\thoriz.\t(2\ts.).64.\t\u00c9tablissement\ten\tforce,\t\u00e0\tla\tcroix\tou\tcroix\tangle\t|(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.72",
@@ -151,25 +800,95 @@
       "value": "0.6",
       "difficulty": "F",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de fuerza y mantenimiento (2 seg.)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.71",
+      "description": "\t Desde\tHirondelle,\tbajar\thoriz.\tlentamente\ta\t|plancha\tdorsal\tpara\tsubir\ta\tHirondelle\t(2\ts.).49.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.67",
+      "description": "\t Nakayama\ta\tcristo\ten\tV\t(2\ts.).54.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.66",
-      "description": "EG II:  \u00c9l\u00e9ments de force et maintien (2 s.) - Strength elements and hold elements (2 sec.) - Elementos de fuerza y mantenimiento (2 seg.)",
+      "description": "\t Desde\tla\tsusp.\tsubir\tlentamente\t\tcon\tbrazos\t|ext.\ta\ttrav\u00e9s\tde\tcristo\ta\tcristo\tinv.\t(2\tseg.)|(Van Gelder)(Azarian)|(Nakayama)|(Li Xiaoshuang)|(Zanetti)|(NG Kiu Chung)",
       "value": "0.6",
       "difficulty": "F",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de fuerza y mantenimiento (2 seg.)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.53",
+      "description": "\t Azarian\ta\tcristo\ten\tV\t(2\ts.).|(Tay)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.60",
+      "description": " Desde plancha dorsal (no se requiere parada) |subir\tcuerpo\text.\ta\ttrav\u00e9s\tde\tcristo\ta\thirondelle\t|invertida\t(2\ts.).|(Zahran)|(Tulloch 2)|",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.75",
+      "description": "\t De\tcristo\to\tcristo\ten\t\u00e1ngulo,\tdominaci\u00f3n \ta\t|fuerza\ta\t\u00e1ngulo\t(2\ts.).76.\tDe\tla\tcroix\tangle,\ts\u2019\u00e9lever\t\u00e0\tla\tcroix\trenvs.\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.82",
+      "description": "\t Del\tapoyo\tfacial\thorizontal,\t elevarse\ta\tcristo\t|invertido\t(2\ts.).83.\tDe\tl\u2019hirondelle,\ts\u2019\u00e9lever\t\u00e0\tla\tcroix\trenvs.\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.89",
+      "description": "\t De\tcristo,\televarse\ta\tHirondelle\t(2\ts.).81.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.87",
+      "description": " De\tcristo,\televarse\tdirectamente\t al\tapoyo\tfacial\t|horizontal\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.95",
+      "description": "\t De\tcristo\tinvertido,\tbajar\ta\tla\tsuspensi\u00f3n\t inv.\ty\t|dominar\tlent.\tvolteando\t atr\u00e1s\ta\thirondelle\t (2\ts.).73.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.96",
+      "description": "\t De\tcristo\tinv.,\tbajar\ta\tla\tsuspensi\u00f3n\t inv.\ty\tdomi -|nar\tlentamente\tvolteando\tatr\u00e1s\ta\tcristo\t(2\ts.).77.\tDe\tla\tcroix\ts\u2019\u00e9lever\tcorps\ttendu\t\u00e0\tla\tcroix\trenvs\t|(2\ts.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.106",
@@ -177,25 +896,23 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de fuerza y mantenimiento (2 seg.)"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "2.101",
-      "description": "EG II:  \u00c9l\u00e9ments de force et maintien (2 s.) - Strength elements and hold elements (2 sec.) - Elementos de fuerza y mantenimiento (2 seg.)",
+      "description": "\t Voltear.\tatr\u00e1s\tlentamente\tcuerpo\ty\tbrazos\text\t|al\tapoyo\tfacial\thorizontal\t(2\ts.).|(Yan Mijayoung)|(Tulloch)|(Ng Kiu Chung 2)",
       "value": "0.5",
       "difficulty": "E",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de fuerza y mantenimiento (2 seg.)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.118",
+      "description": "\t Rodar\tad.\tlentam.\tcuerpo\text.\ta\ttrav\u00e9s\tde\tcristo\t|a\tplancha\tsin\tir\tpreviamente\tal\tap.\t(2\ts.).120.\tAzarian\t\u00e0\tl\u2019hirodelle\trenverse\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.130",
@@ -203,12 +920,207 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de fuerza y mantenimiento (2 seg.)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.126",
+      "description": "\t Desde\tplancha\tdorsal\tsubir\tcon\tcuerpo\text.\ta\t|cristo\tinvertido\t(2\ts.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.132",
+      "description": " Desde las suspensi\u00f3n dominaci\u00f3n a fuerza a |cristo\tinvertido\t(2\ts.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.141",
+      "description": "\t Rodar\tlent.\tad.\tcuerpo\text.\ta\ttrav\u00e9s\tde\tcristo\t|a\thirondelle.|(Balandin 1)|(Balandin 3)",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.137",
+      "description": "\t Desde\tlas\tsusp.\tdom.\ta\tfuerza,\ta\ttrav\u00e9s\tde\t|hirondelle\ta\tplancha\t(2\ts.)124.\tTour\td\u2019appui\tavant\tlentement,\tcorps\ttendus,\t|\u00e0\tla\tcroix\t(2\tsec.)\tou\t\u00e0\tla\tcroix\ten\t\u00e9querre\t(2\t|sec.),\taussi\tde\tla\tsuspension\tinvers\u00e9e.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.3",
+      "description": "\t Dominaci\u00f3n\tad.\ta\t\u00e1ngulo\tp.\tverticales\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": "\t Dominaci\u00f3n\tadelante.\ta\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.14",
+      "description": "\t Lanzarse\t en\tsuspensi\u00f3n\t atr\u00e1s\tdislocando\t ad.\t|a\t\u00e1ngulo\t(2\ts.).|(Honma)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": "\t Kipe\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.9",
+      "description": "\t Kipe\ta\t\u00e1ngulo\tp.\tverticales\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.17",
+      "description": "\t Honma\ta\tcristo\ten\tV\t(2\ts.).|(Tanaka)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.16",
+      "description": "\t Honma\ta\tcristo\to\tcristo\ten\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.22",
+      "description": "\t Del\tapoyo\tmortal\tc.\ta\tcristo\to\tcristo\ten\t\u00e1ng.\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.33",
+      "description": "\t Dominaci\u00f3n\t atr\u00e1s\ta\tcristo\to\tcristo\ten\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": "\t Kipe\ta\thirondelle\tinvertida\t(2\ts.).39.\tBascule\t\u00e0\tla\tcroix\tou\tcroix\tangle\t(2\ts.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.45",
+      "description": " B\u00e1scula\tdorsal\ta\tcristo\to\tcristo\ten\t\u00e1ngulo\t(2\ts.).46.\tBascule\tdorsale\t\u00e0\tl\u2019appui\tfacial\thoriz.\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.47",
+      "description": "\t B\u00e1scula\tdorsal\ta\thirondelle\t(2\ts.).28.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.35",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\ta\tcristo\ten\tV\t(2\ts.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.57",
+      "description": " Dominaci\u00f3n adelante volteando atr\u00e1s a cristo |o\tcristo\ten\t\u00e1ngulo\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.53",
+      "description": "\t B\u00e1scula\tdorsal\ta\tcristo\tinvertido\t(2\ts.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.69",
+      "description": " Uprise bwd. to support scale (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.68",
+      "description": " Dominaci\u00f3n atr\u00e1s al apoyo facial horizontal |piernas\tabiertas\t(2\ts.).50.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.65",
+      "description": " Dominaci\u00f3n adelante volteando atr\u00e1s a cristo |invertido\t(2\ts.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.56",
+      "description": " Dominaci\u00f3n adelante volteando atr\u00e1s al apoyo |facial\thorizontal\tpiernas\tabiertas\t(2\ts.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.59",
+      "description": " Dominaci\u00f3n adelante volteando atr\u00e1s a hiron -|delle\t(2\ts.)|",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.83",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\ta\tcristo\tinvertido\t(2\ts.).73.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.88",
@@ -216,40 +1128,281 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "impulso a elementos de mantenimiento a fuerza (2 seg.)"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.1",
+      "description": "\t Mortal\tad.\ten\tcarpa\to\text.\ttambi\u00e9n\tcon\t\u00bd\tg.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.2",
+      "description": "\t Mortal\tad.\ten\tcarpa\to\textendido\tcon\t1/1\tg.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.3",
+      "description": "\t Mortal\tad.\ten\tcarpa\to\textendido\tcon\t3/2\tg.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": " Doble\tmortal\tad.\tagrupado\t o\tagrupado\t con\t\u00bd\tg.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.10",
+      "description": "\t Doble\tmortal\tad.\tagr.\tcon\t3/2\tg.\t(tamb.\t1/1\tg.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": "Doble\tmortal\tad.\ten\tcarpa\tcon\t\u00bd\tg\to\ten\t|carpa\tcon\t\u00bd\tg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.17",
+      "description": "\t Doble\tmortal\tad.\ten\tcarpa\tcon\t3/2\tg.\t(tamb.\t1/1\tg.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.23",
+      "description": "\t Mortal\t adelante\ten\tcarpa\to\textendida\t con\t2/1\tg.|(Fischer)|(Balabanov)|",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.25",
+      "description": "\t Mortal\t atr\u00e1s\ten\tcarpa\to\text.\ttambi\u00e9n\tcon\t\u00bd\tg.26.\tSalto\tarri\u00e8re\ttendu\tavec\t1/1\tt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.32",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\to\ten\tcarpa.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.33",
+      "description": "\t Doble\tmortal\textendido.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.45",
+      "description": "\t Doble\tmortal\tat.\tagr.\tcon\t\u00bd o 1/1\tg.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.36",
+      "description": "\t Triple\tmortal\tatr\u00e1s\tagrupado.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.46",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\tcon\t3/2\tg.48.\t Double\tsalto\tarri\u00e8re\tgroupe\tavec\t5/2\tt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.47",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\tcon\t2/1\tg.41.\t30. 29.\tSalto\tarri\u00e8re\ttendu\tavec\t3/1\tt.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.44",
+      "description": " Triple salto bwd. piked.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.66",
+      "description": "\t Mortal\t atr\u00e1s\textendido\t con\t1/1\tg.\ty\tmortal\tatr\u00e1s\t|agrupado.52.\tDouble\tsalto\tarri\u00e8re\ttendu\tavec\t\u00bd\tou\t1/1\tt.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
     }
   ],
   "pommel horse": [
     {
-      "number": "2.44",
-      "description": "Any side support 1/1 spindle with hand support to |the other side and return (max. 2 fl  airs or circles).|\t Cualquier\tap.\tlat.\t1/1\tpivot\tcon\tapoyo\tde\tmano\t|al\totro\tlado\ty\tvolver\t(m\u00e1x.\t2\tfl\tair\to\tmolinos).|(Magyar)25.\tTout,\t1\u20444\tpivot\tsur\tl\u2019extr\u00e9mit\u00e9.\t",
+      "number": "1.20226544",
+      "description": "\t Tijera\tatr\u00e1s\tcon\tsalto\t(tambi\u00e9n\tcon\t\u00bd\tg.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.27",
+      "description": "\t Tijera\tatr\u00e1s\tcon\tsalto\tlat.\tde\tun\textremo\tal\totro\t|(1-2\ta\t4-5).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.32",
+      "description": " Doble\ttijera\tatr\u00e1s\t(\u00bc\tg.\tad.\ty\t\u00bc\tg.\tatr\u00e1s).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.38",
+      "description": "\t Movimiento\t p.\tabiertas\tatr\u00e1s\tpor\tel\tapoyo\tinver -|tido\ty\tvolver\tal\tap.\tp.\tabiertas\ttransversalmente.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": "\t Todo\tmolino\to\tmolinos\tp.\tabiertas\tap.\tlateral.2.\t Cercle\td.\tjambes\ten\tappui\tlat\u00e9ral\tsur\t1\tar\u00e7on.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.8",
+      "description": "\t Molino\ten\tapoyo\tlateral\tcon\tap.\tsobre\tcada\textr.\t|o\tentre\tlos\tarcos.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 360,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "molinos, molinos p. abiertas, con o sin giros y apoyo invertido, keres, rusas, flops y elementos combinados"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "2.6849",
-      "description": "St\u00f6ckli\tinv.,\tSDA\to\tmolino\ten\tun\tarco\tp.\tab.\tal\t|ap.\tinv.,\t3/3\t(ad.-\tat.)\tdesplaz.,\t360\u00ba\tg.\ta\tmolino\t|p.\tabiertas.",
+      "number": "2.13",
+      "description": "\t Molinos\ten\tapoyo\tfacial\ttransv.\tsobre\tel\textr.14.\tCercles\t des\tjambes\ten\tappui\ttransversal\t sur\t1\t|ar\u00e7on\t(de\tou\tavec\t\u00bc\tt.\tavant).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.19",
+      "description": " Molinos en apoyo dorsal transversal sobre el |extremo.20.\tCercles\t des\tjambes\ten\tappui\ttransversal\t entre\t|les\tar\u00e7ons.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.37",
+      "description": "\t Cualquier\t1/1\tpivot\ten\tm\u00e1x.\t2\tmolinos\tel\tfi\tnal.\t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.44",
+      "description": "\t Flair\tcon\tdesplaz.\tde\tsalto\tatr\u00e1s\tal\tap.\tinv.\ty\t|volver\ta\tmolino\to\tfl\tair.29.\tTout\tapp.\tlat,\t1/1\tpivot\tav.\tles\tar\u00e7ons\tentre\tles\t|mains\t(cercles\td.\tjamb.\tec.\tou\tcerc.\td.\tjamb).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.35",
+      "description": "\t Apoyo\tfacial\ttransv.,\t1/1\tp\u00edvot\tad.\tmanos\tentre\tlos\t|arcos\t(m\u00e1x.\t2\tmolinos)..36.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.47",
+      "description": " Cualquier 1/1 pivot adelante arcos entre las |manos\t(fl\tair\to\tmolinos).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.39",
+      "description": "\t Molino\to\tfl\tair\tal\tapoyo\tinv.\t(con\to\tsin\t\u00bd\tg.)\ty\t|volver\ta\tmolino\to\tfl\tair.42.",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 360,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "molinos, molinos p. abiertas, con o sin giros y apoyo invertido, keres, rusas, flops y elementos combinados"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.41",
+      "description": "\t 1/1\tp\u00edvot\ten\tlos\tarcos\tm\u00e1x.\ten\t2\tmolinos\tpiernas\t|abiertas\to\tcerradas.\t|(Berki)|(Keikha 1) (Keikha 2)|(Keikha 5)|",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.6849",
+      "description": "St\u00f6ckli\tDirecta\tA\t(SDA)\tfuera\tde\tlos\tarcos.53. 54.\tSt\u00f6ckli\tinv.,\tDSA\tou\tcercles\tsur\tl\u2019ar\u00e7on\tjambes\t|\u00e9cart\u00e9es\ta\tl\u2019a.t.r.\t3/3\ttransport\t(av.-\tarr.)\tavec\t360\t|t.\tet\ts\u2019abaisser\taux\tcercles\tdes\tjambes\t\u00e9cart\u00e9s.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.55",
+      "description": "\t St\u00f6ckli\tdirecta\tB\t(SDB).57. 58. 59. 60.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.62",
+      "description": "\t Pase\tdorsal\tcon\t1/1\tg.\tsobre\t1\tarco.66.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.64",
@@ -257,12 +1410,15 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "molinos, molinos p. abiertas, con o sin giros y apoyo invertido, keres, rusas, flops y elementos combinados"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.61",
+      "description": "\t Pase\tdorsal\tadelante\tcon\t\u00bd\tg.\t(doble\tdorsal).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.69",
@@ -270,25 +1426,183 @@
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 270,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "molinos, molinos p. abiertas, con o sin giros y apoyo invertido, keres, rusas, flops y elementos combinados"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.38",
-      "description": "Travel fwd. in cross support with support on |leather, pommel, pommel, leather(3/3) (1-2-4-5).",
+      "number": "2.20226973",
+      "description": "\t Tramelot\tdirecto.75.\t 76. 77. 78.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.79",
+      "description": "\t Pase\tfac.\tad.\tcon\t\u00bd\tg.\tal\tap.\tfac.\tlat.\tsobre\tel\t|extr.,\tdesde\tapoyo\tlateral\tusando\t1\to\t2\tarcos.80.\tSt\u00f6ckli\tinvers\u00e9,\ttour\t180\u00b0\t(ou\t270\u00b0\tdans\tun\t|cercle\t\u00e0\tpartir\td\u2019un\tar\u00e7on).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.85",
+      "description": " Checa\tdorsal,\tap.\tsobre\tel\textremo\tde\tlos\t|arcos.89. 90.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.92",
+      "description": " Checa dorsal en los arcos o arco entre las |manos.93.\t 94. 95. 96.\t|(Bezugo)|(Pinheiro)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.91",
+      "description": "\t Costal\talemana.|(Davtyan)",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.20227097",
+      "description": "\t\t Rusa\tfacial\tcon\t180\u00b0\to\t270\u00b0.98.\tFacial\trusse\tavec\t360\u00b0\tou\t540\u00b0.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.103",
+      "description": " On the leather, Russian wendeswing with 180\u00b0, |or\t270\u00b0 also with travel.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.109",
+      "description": "\t Rusa\t facial\tcon\t180\u00b0\to\t270\u00b0\tsobre\t1\tarco\to\t|entre\tlos\tarcos.111.\tFacial\trusse\tavec\t360\u00b0\tou\t540\u00b0\tsur\t1\tar\u00e7on\tou\t|entre\tles\tar\u00e7ons.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2022713",
+      "description": " Cualquier desplazamiento en apoyo lateral  |(3/3),\tmanos\tentre\tlos\tarcos.4.\tTout\ttransport\tpar-dessus\t les\t2\tar\u00e7ons\t\u00e0\tl\u2019appui\t|lat\u00e9ral\tsur\tl\u2019autre\textr\u00e9m.\t(3/3)\tau\tdessus\tdes\t2\t|ar\u00e7ons.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.10",
+      "description": "\t Desde\t ap.\tlat\ten\tun\textremo,\tdesplazamiento\t|de\tsalto\tpor\tencima\tde\tlos\t2\tarcos\tal\tapoyo\tlat.\t|sobre\tel\totro\textremo.(1-2\ta\t4-5)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": " Molinos con cualquier desplazamiento en apoyo |lateral\t(3/3).",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "desplazamientos, incluyen-do krolls, tong fei, wu guonian, roth desplazamientos con giro."
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": " Molinos con cualquier desplazamiento adelante |de\tsalto\tal\tapoyo\tlateral\t(1/3).9.\t Cercles\t d.\tjambes\tavec\ttout\ttransport\tav.\tsaut\u00e9\t",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.17",
+      "description": "\t De\tap.\tlat.\tal\tlado\tdel\tarco,\tdesplaz.\tlat\tsaltado\t|por\tencima\tde\tlos\t2\tarcos\tal\tap.\tfacial\tlat\tal\tlado\t|del\tarco\tsobre\tel\totro\textremo\t(1-1\ta\t5-5).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.21",
+      "description": " Todo desplazamiento con \u00bd p\u00edvot en apoyo |transversal\t(desplazamiento\t\u00bd\to\t2/3).20.\tTout\ttransport\tavec\t\u00bd\tpivot\t\u00e0\tl\u2019appui\ttransversal \t|(1/3\ttransport).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.43",
+      "description": "2nd p., with \u00bc turn to side sup. on other end (3/3).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.47",
+      "description": " Molinos con desplazamiento adelante o atr\u00e1s |con\t\u00bc\tp\u00edvot\tal\tapoyo\tlateral.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.29",
+      "description": " Desplazamiento 3/3 sobre los dos arcos con \u00bd |p\u00edvot.30.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.35",
+      "description": "Cualquier\tdespl.\t3/3\ten\tfl\tair\tcon\t1/1\tpiv.\ten\t2\tm.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.41",
+      "description": "\t Desplazamiento\tad.\ten\tapoyo\ttransversal\tsobre\t|los\t2\tarcos.|(Driggs)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": "\t Desplazamiento\tad.\t(3/3)\ten\tapoyo\ttransversal\t|adelante\tde\tsalto.28.\tTout\ttransport\tavant\t3/3\tavec\t\u00bd\tpivot\tsur\tun\t|ar\u00e7on\tpar-dessus\tl\u2019autre\tar\u00e7on.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": "\t Desplazamiento\tad.\ten\tap.\ttransversal\t(\u00bd\to\t2/3).39.\tTransport\tav.\tavec\tappui\tsur\tle\tcheval.\tsur\tchaque\t|arc.\tet\tsur\tl\u2019autre\textr\u00e9mit\u00e9.\t(3/3)\t(1-2-4-5).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.56",
+      "description": "\t Desplazamiento\tatr\u00e1s\tcon\tap.\tsobre\tel\tcaballo\t|sobre cada arco y sobre el otro extremo (3/3) |(5-4-2-1).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.57",
@@ -296,25 +1610,47 @@
       "value": "0.3",
       "difficulty": "C",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "desplazamientos, incluyen-do krolls, tong fei, wu guonian, roth desplazamientos con giro."
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.53",
+      "description": "\t Desplazamiento\tat.\ten\tapoyo\ttransversal\tsobre\t|los\tdos\tarcos.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.50",
+      "description": "Travel bwd. in cross support (\u00bd or 2/3).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.62",
+      "description": "\t Molino\tcon\tdesplaz.\tatr\u00e1s\ten\tap.\ttransversal\tde\t|una parte del caballo u arco al otro ( \u2153).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.64",
-      "description": "Any other travel bwd. in cross support to other |end (3/3).|  Todo desplazamiento atr\u00e1s hacia el otro extre-|mo\t(3/3.).|(Sivado)|(Kurbanov)|(Moguilny)|(Urzica)",
+      "description": "\t Pase\tdorsal\tatr\u00e1s,\tpase\tdorsal\tadelante,\tpase\t|dorsal\tatr\u00e1s.63.\t 65.\t52.\tTout\tautre\ttransport\tar.\tsur\tl\u2019autre\textr\u00e9m.\t(3/3).",
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "desplazamientos, incluyen-do krolls, tong fei, wu guonian, roth desplazamientos con giro."
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.58",
+      "description": "\t Pase\tdorsal\tad.,\tSt\u00f6ckli\tinv., pase\tdorsal\tad.54.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.70",
@@ -322,51 +1658,63 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "desplazamientos, incluyen-do krolls, tong fei, wu guonian, roth desplazamientos con giro."
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.7473",
+      "description": "720\u00b0 or more turning.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.88",
+      "description": "\t St\u00f6ckli\tinvertida\tdesde\tapoyo\ttransversal\ten\t|un\textremo\tal\totro.89.\tSur\tle\tcheval,\ten\tappui\ttransversal,\tfacial\trusse\t|avec\t360\u00ba\tor\t540\u00ba\tau\t-\tdessus\tles\tar\u00e7ons.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.91",
-      "description": "St\u00f6ckli\tinvertida\tdesde\tapoyo\ttransversal\tde\tun\t|extremo\tal\tarco\tm\u00e1s\tlejano.96.\t81.\tDe\tl\u2019appui\tlat.\tavec\tl\u2019ar\u00e7on\tentre\tles\tmains,\tfacial\t|russe\t360\u00ba\tavec\ttransp.\t\u00e0\tl\u2019autre\textr\u00e9m.\t| From side support pommel between hand, rus-|sian wendeswing 360\u00ba with travel to the other |end in side support.|\t Desde\tapoyo\tlat.\tarco\tentre\tmanos,\trusa\t360\u00ba\t|con\tdespl.\tal\totro\textremo\ten\tapoyo\tlateral.82.\tTout\tfacial\trusse\tavec\t360\u00b0\tt.\tet\ttransport\t3/3.",
+      "description": "St\u00f6ckli\tinvertida\tdesde\tapoyo\ttransversal\tde\tun\t|extremo\tal\tarco\tm\u00e1s\tlejano.96.\t81.\tDe\tl\u2019appui\tlat.\tavec\tl\u2019ar\u00e7on\tentre\tles\tmains,\tfacial\t|russe\t360\u00ba\tavec\ttransp.\t\u00e0\tl\u2019autre\textr\u00e9m.\t",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 360,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "desplazamientos, incluyen-do krolls, tong fei, wu guonian, roth desplazamientos con giro."
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.1",
-      "description": "Chaguinian to wende.|\t Chaguinian\tseguida\tde\talemana\tfacial.",
+      "description": " Alemana facial (desde Molino o Molino piernas |abiertas).2.\t Chaguinian\tsuivi\tde\tfacial\tallemand.",
       "value": "0.1",
       "difficulty": "A",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "salidas"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "4.20",
-      "description": "Circle or fl  air with hop travel bwd. thr. hdst.| Molino o molino piernas abiertas y desplaza-|miento\tde\tsalto\tatr\u00e1s\tpor\tel\tapoyo\tinvertido.7.\t 10.\tSur\tl\u2019extr.,\tdouble\tfacial\trusse\tavec\t1080\u00b0\tou\tplus.",
+      "number": "4.9",
+      "description": "\t Sobre\tel\textremo,\trusa\tfacial\t720\u00b0\to\t900\u00ba.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.14",
+      "description": "\t Del\tap.\tfacial\tlat.,\tpase\tfacial\tadelante\tcon\t\u00bd\tg.\t|al\tapoyo\tfacial\tlateral\ty\talemana\tfacial.13.",
       "value": "0.2",
       "difficulty": "B",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 1080,
-        "salto": { "aantal": "dubbel", "vorm": "hurk", "richting": null },
-        "group": "salidas"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.20",
+      "description": "\t Molino\to\tmolino\tp.\tabierto\tpor\tel\tapoyo\tinvertido\t|(tambi\u00e9n\tcon\t\u00be\tg.\tcon\to\tsin\tdesplazamiento).21.\tCercle\tdes\tjambes\tou\tcercle\t\u00e9cart\u00e9\tet\ttransport\t|saut\u00e9\tarri\u00e8re\tpar\tl\u2019appui\trenvers\u00e9.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
     },
     {
       "number": "4.16",
@@ -374,366 +1722,577 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "salidas"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.3",
+      "description": "\t SDA\tal\tapoyo\tinvertido\t3/3\tcon\t450\u00ba\to\tm\u00e1s.6.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.24",
+      "description": "\t St\u00f6ckli\tinv.\to\tSDA\to\tmolino\ten\tun\tarco\tpor\tel\tap\t|inv.|(Kolyvanov)|(Jessen)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.22",
+      "description": "\t .Rusas\t180\u00ba\tdesde\tun\tfi\tnal\tdel\tcaballo\tal\totro\t|a\ttrav\u00e9s\tdel\tapoyo\tinv\tde\tsalida.|(Pellerin)|(Loos)|",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
     }
   ],
   "vault": [
     {
+      "number": "1.131",
+      "description": "\t Kasamatsu\textendido\tcon\t3/2\tg.",
+      "value": 5.2,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.125",
+      "description": "\t Kasamatsu\t extendido\t con\t\u00bd\tg.\to.\tTsukahara\t|extendido\tcon\t3/2\tg.",
+      "value": 4.4,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.126",
+      "description": "\t Kasamatsu\t ext.\tcon\t1/1\tg.\to.\tTsukahara\t ext.\tcon\t2/1\tg.",
+      "value": 4.8,
+      "difficulty": "F",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.132",
+      "description": "\t Kasamatsu\textendido\tcon\t2/1\tg.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.133",
+      "description": "7/2 t.",
+      "value": 6.0,
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.219",
+      "description": "\t Paloma\tmortal\tadelante\textendido.",
+      "value": 3.6,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.220",
+      "description": "\t Paloma\t mortal\tad.\text.\tcon\t\u00bd\tg.\t(Cuervo\text.).212.",
+      "value": 4.0,
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.207",
+      "description": "\t Paloma\tmortal\tad.\tagr.",
+      "value": 2.4,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.208",
+      "description": "\t Paloma\tmortal\tad.\tagr.\tcon\t\u00bd\t\t(o.\tCuervo\tagr.).",
+      "value": 2.8,
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.213",
+      "description": "\t Paloma\tmortal\ten\tcarpa.",
+      "value": 2.8,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.214",
+      "description": "\t Paloma\t mortal\ten\tcarpa\tcon\t\u00bd\tg.\t(Cuervo\tcarp.).211.\t 209.\t 210.",
+      "value": 3.2,
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.201",
+      "description": "\t Paloma.202.\tRenversement\tavant\tavec\t\u00bd\tt.",
+      "value": 1.6,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.204",
+      "description": "\t Paloma\tcon\t3/2\tg.",
+      "value": 2.2,
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.205",
+      "description": "\t Paloma\tcon\t2/1\tg.",
+      "value": 2.4,
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.206",
+      "description": "\t Paloma\tcon\t5/2\tg.",
+      "value": 2.6,
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.225",
+      "description": "\t Paloma\tdoble\tmortal\tagrupado.226.\tRoche\tavec\t\u00bd\ttour.",
+      "value": 5.2,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.228",
+      "description": "\t Paloma\t y\tmortal\tad\tcon\t\u00bd\tg.\ty\tmortal\tat.\tagr.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.231",
+      "description": "\t Paloma\tdoble\tmortal\tad.\ten\tcarpa.232.\tDragulescu\tcarp\u00e9.",
+      "value": 5.6,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "3.309",
+      "description": "\t Tsukahara\tagrupado\tcon\t\u00bd\tg.",
+      "value": 2.4,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.308",
+      "description": "\t Tsukahara\ten\tcarpa.",
+      "value": 2.4,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.307",
+      "description": "\t Rondada\tcon\t\u00bc\tg.\ty\tmortal\tatr\u00e1s\tagrupado.|(Tsukahara)",
+      "value": 2.2,
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.313",
+      "description": "\t Tsukahara\textendido.",
+      "value": 3.2,
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.314",
+      "description": "\t Tsukahara\textendido\tcon\t\u00bd\tg.",
+      "value": 3.6,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.315",
+      "description": "\t Tsukahara\text.\tcon\t1/1\tg.\to\tKasamatsu\text.",
+      "value": 4.0,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.321",
+      "description": "\t Doble\t Tsukahara\tcon\t1/1\tgiro.",
+      "value": 6.0,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.320",
+      "description": "\t Tsukahara\tcon\tmortal\tatr\u00e1s\ten\tcarpa.|(Lu Yu Fu)319.\tTsukahara\tavec\tsalto\tarri\u00e8re\tgr.",
+      "value": 5.6,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.301",
+      "description": "\t Rondada\tcon\t\u00bc\tg.",
+      "value": 1.6,
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.302",
+      "description": "\t Rondada\tcon\t3/4\tg.",
+      "value": 1.8,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.303",
+      "description": "\t Rondada\tcon\t5/4\tg.",
+      "value": 2.0,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.401",
+      "description": "\t Rondada,\tinversi\u00f3n\tatr\u00e1s.",
+      "value": 1.6,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.410",
+      "description": "\t Yurchenko\tagrupado\tcon\t3/2\tg.411.\tYurchenko\tgroup\u00e9\tavec\t2/1\tt.",
+      "value": 3.2,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
       "number": "4.413",
-      "description": "Round off, handspring bwd. with \u00bd turn.|\t Rondada,\tinversi\u00f3n\tatr\u00e1s\tcon\t\u00bd\tg.403.\tRondade,\trenversement\tarri\u00e8re\tavec\t1/1\ttour.",
+      "description": "\t Yurchenko\ten\tcarpa.402.\tRondade,\trenversement\tarri\u00e8re\tavec\t\u00bd\ttour.",
       "value": 2.4,
       "difficulty": "E",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": 360,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.407",
-      "description": "Yurchenko t. with \u00bd t.|\t Yurchenko\tagrupado\tcon\t\u00bd\tg.409.\tYurchenko\tgroup\u00e9\tavec\t1/1\tt.",
+      "description": "\t Rondada,\tinversi\u00f3n\tatr\u00e1s\ty\tmortal\tatr\u00e1s\tagr.408.\tYurchenko\tgroup\u00e9\tavec\t\u00bd\tt.",
       "value": 2.2,
       "difficulty": "E",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": 360,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.414",
+      "description": "\t Yurchenko\text.",
+      "value": 3.2,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.415",
+      "description": "\t Yurchenko\text.\tcon\t\u00bd\tg.",
+      "value": 3.6,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.416",
+      "description": "\t Yurchenko\textendido\tcon\t1/1\tg.",
+      "value": 4.0,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.417",
+      "description": "\t Yurchenko\textendido\tcon\t3/2\tg.",
+      "value": 4.4,
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.418",
+      "description": "\t Yurchenko\textendido\tcon\t2/1\tg.",
+      "value": 4.8,
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.419",
+      "description": "\t Yurchenko\textendido\tcon\t5/2\tg.",
+      "value": 5.2,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.420",
+      "description": "\t Yurchenko\textendido\tcon\t3/1\tg.|(Shirai - KIM Hee Hoon)",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.421",
+      "description": "\t Yurchenko\textendido\tcon\t7/2\tg.|(Shirai 2)",
+      "value": 6.0,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.437",
+      "description": "\t Rondada,\t \u00bd\tg.\tpaloma\tdoble\tmortal\ten\tcarpa.",
+      "value": 3.0,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.439",
+      "description": "\t Rondada,\t\u00bd\tg.\tpaloma\tmortal\tadelante\text.",
+      "value": 3.8,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.440",
+      "description": "\t Rondada,\t \u00bd\tg.\tpaloma\tmortal\tadelante\text.\t|con\t\u00bd\tg.|(Hutcheon)441.\tRondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|avant\ttendu\ta.\t1/1\tt.",
+      "value": 4.2,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.438",
+      "description": " Rondada,\t\u00bd\tg.\tpaloma\tmortal\ten\tcarpa\tcon\t\u00bd\tg.EG IV:  Sauts \u00e0 partir de rondade - Round off entry vaults.- Saltos con entrada de rondada",
+      "value": 3.4,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.444",
+      "description": " Rondada,\t \u00bd\tg.\tpaloma\tmortal\tad\text\tcon\t5/2\tg.|(Li Xiao Peng)",
+      "value": 5.8,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.443",
+      "description": " Rondada,\t \u00bd\tg.\tpaloma\tmortal\tad.\text.\tcon\t2/1\tg.",
+      "value": 5.4,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.442",
+      "description": " Rondada,\t \u00bd\tg.\tpaloma\tmortal\tad.\text.\tcon\t3/2\tg.",
+      "value": 5.0,
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.431",
+      "description": "\t Rondada,\t\u00bd\tg.\tpaloma.",
+      "value": 1.8,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.432",
+      "description": "\t Rondada,\t\u00bd\tg.\tpaloma\tcon\t\u00bd\tg.",
+      "value": 2.0,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.434",
+      "description": "\t Rondada,\t\u00bd\tg.\tpaloma\tmortal\tagrupado.",
+      "value": 2.6,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.433",
+      "description": "\t Rondada,\t\u00bd\tg.\tpaloma\tcon\t1/1\tg.",
+      "value": 2.2,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.435",
+      "description": "\t Rondada,\t\u00bd\tg.\tpaloma\tmortal\tagrupado\tcon\t\u00bd\tg.",
+      "value": 3.0,
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.425",
+      "description": "\t Yurchenko\ty\tmortal\tat.\tagr.",
+      "value": 5.2,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.426",
+      "description": "\t Melissanidis\ten\tcarpa.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
     },
     {
       "number": "4.467",
-      "description": "Entrada de Scherbo \tmortal\tat\text.",
+      "description": "\tarri\u00e8re",
       "value": 3.8,
       "difficulty": "E",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
-    },
-    {
-      "number": "4.468",
-      "description": "Scherbo|\t|con|\t|\u00bd|\t|g.",
-      "value": 4.2,
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.470",
-      "description": "Scherbo|\t|con|\t|3/2|\t|g.",
+      "description": "Scherbo",
       "value": 5.0,
       "difficulty": "B",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.469",
-      "description": "Scherbo|\t|con|\t|1/1|\t|g.",
+      "description": "Scherbo",
       "value": 4.6,
       "difficulty": "A",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": 360,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.472",
-      "description": "Scherbo|\t|con|\t|5/2|\t|g.",
+      "description": "Scherbo",
       "value": 5.8,
       "difficulty": "D",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.471",
-      "description": "Scherbo|\t|con|\t|2/1|\t|g.",
+      "description": "Scherbo",
       "value": 5.4,
       "difficulty": "C",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": 720,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.461",
-      "description": "Entrada de Scherbo y mortal atr\u00e1s agrupado|con|\t|1/1|\t|g.",
+      "description": "\tarri\u00e8re",
       "value": 3.4,
       "difficulty": "E",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": 360,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.462",
-      "description": "Entrada de Scherbo y mortal atr\u00e1s agrupado|con|\t|3/2|\t|g.",
+      "description": "\tsalto",
       "value": 3.8,
       "difficulty": "F",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.457",
-      "description": "Entrada\tde \tS cherbo \te \tinv ersi\u00f3n \tat r\u00e1s\tc on \t1/ 1 \tg.",
+      "description": "\t|avec",
       "value": 2.6,
       "difficulty": "A",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.460",
-      "description": "Entrada de Scherbo y  mortal atr\u00e1s agrupado|con|\t|\u00bd|\t|g.",
+      "description": "\t|et",
       "value": 3.0,
       "difficulty": "D",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.459",
-      "description": "Entrada de Scherbo y mortal\tatr\u00e1s\ten\tcarpa.458.|\tRondade,|\tsaut|\tarri\u00e8re|\tavec|\t1/1|\tt.|\tet|\trenverse -|ment|\t|arri\u00e8re|\t|et|\t|salto|\t|arri\u00e8re|\t|group\u00e9.",
+      "description": "\t|et",
       "value": 3.0,
       "difficulty": "C",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": 360,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.455",
-      "description": "Entrada|\t|de|\t",
+      "description": "Scherbo entry to back handspring.",
       "value": 2.2,
       "difficulty": "E",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.456",
-      "description": "Entrada de Scherbo e inversi\u00f3n atr\u00e1s con\t\u00bd\tg.",
+      "description": "\t|avec",
       "value": 2.4,
       "difficulty": "F",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "4.449",
-      "description": "Rondada,\t\u00bd\tg.\tpaloma\tdoble\tmortal\tad.\tagr.",
+      "description": "\t|group\u00e9.",
       "value": 5.4,
       "difficulty": "E",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "type": "",
-        "eerste vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "tweede vluchtfase": {
-          "draai": null,
-          "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-          "beenspreiding": null
-        },
-        "group": "saltos con entrada de rondada"
-      }
+      "type": "acrobatic"
     }
   ],
   "parallel bars": [
@@ -743,47 +2302,111 @@
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
     },
     {
-      "number": "1.40",
-      "description": "Healy type element ).| Mortal atr\u00e1s al apoyo invertido sobre una banda |(conectado con elementos del tipo Healy )|(Rumbutis)",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
-    },
-    {
-      "number": "1.45",
-      "description": "Double salto t. to up. arm hang.|\t Doble\tmortal\tagrupado\tal\tapoyo\tbraquial.",
+      "number": "1.33",
+      "description": "Salto bwd to handstand. Also to one rail.",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
     },
     {
-      "number": "1.52",
-      "description": "Hdst. with \u00be t. and fall back to sup. with \u00bc t.|\t Del\tapoyo\tinvertido\t\u00be\tg.\ty\t\u00bc\tg\tal\tapoyo.54.",
+      "number": "1.32",
+      "description": "\t Impulso\tad.\tal\tapoyo\tinvertido\ty\tsalto\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.34",
+      "description": " Mortal atr\u00e1s con pase de piernas abiertas |adelante\tal\tapoyo.",
       "value": "0.4",
       "difficulty": "D",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.26",
+      "description": "\t Elev.\tcuer.\ty\tb.\tfl\tex.\to\tcuer.\tfl\tex.\tb.\text.\tal\tap.\t|inv.,\ten\t1\to\t2\tbandas\t(2\ts.)\ttambi\u00e9n\tpiernas\tab.25.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.43",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tcon\tmedio\tgiro\ta\tapoyo\tbraquial.36. 35.\t30.\tDemi-tour\ten\tavant\tavec\t5/4\ttour\ta\tl\u2019a.t.r.\tsur\t|un\tbras,\tet\tHealy\ta\tl\u2019appui.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.28",
+      "description": "\t Impulso\tad.\tcon\t5/4\tg.\tal\tapoyo\tinvertido\ten\tun\t|brazo\ta\ttrav\u00e9s\tde\thealy\tal\tapoyo\tbraquial.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.40",
+      "description": "Healy type element ).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.45",
+      "description": "\t Mortal\tatr\u00e1s\tcon\t\u00bd\tg.\tal\tapoyo\tbraquial.46.\tDouble\tsalto\tarri\u00e8re\tgr.\t\u00e0\tl\u2019appui\tbrachial.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.47",
+      "description": "\t Doble\tmortal\ten\tcarpa\tal\tapoyo\tbraquial.|(Toumilovich) (Morisue) (Huang Liping)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.52",
+      "description": "\t 3/2\tmortal\tatr\u00e1s\tcon\t\u00bd\tg.\tal\tapoyo\tbraquial.50.\tL\u2019appui\trenvers\u00e9\t\u00bc\tt.\tet\t\u00bc\tt.\t\u00e0\tl\u2019appui.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.62",
+      "description": "\t St\u00fctzkehre\tatr\u00e1s\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.63",
+      "description": "\t St\u00fctzkehre\tatr\u00e1s\tpor\tel\tapoyo\tinv.\tal\tapoyo.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.68",
+      "description": "1 rail).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
     },
     {
       "number": "1.69",
@@ -791,23 +2414,31 @@
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
     },
     {
-      "number": "1.83",
-      "description": "Swing bwd. with 1/1 t. hop to hdst. |\t Lanzarse\tatr\u00e1s\tcon\t1/1\tg.\tde\tsalto\tal\tapoyo\t|invertido.75.\t\u00c9lanc\u00e9\ten\tarri\u00e8re\tavec\t\u00be\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\trenvers\u00e9.",
+      "number": "1.57",
+      "description": "\t St\u00fctzkehre\tatr\u00e1s\tpasando\tlas\tpiernas\tabiertas\t|atr\u00e1s\tal\tapoyo.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.71",
+      "description": "1 rail, Healy (360\u00b0 or more) to support.",
       "value": "0.5",
       "difficulty": "E",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": 360,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.83",
+      "description": "\t Lanzarse\tatr\u00e1s\tcon\t\u00bd\tg.\tde\tsalto\tal\tapoyo\t|invertido.76.\t\u00c9lanc\u00e9 \ten\tarri\u00e8re\tavec\t1/1\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\tren-|vers\u00e9.\t",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
     },
     {
       "number": "1.79",
@@ -815,271 +2446,969 @@
       "value": "0.1",
       "difficulty": "A",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.85",
+      "description": "From hdst. on 1 rail, \u00bd or \u00be pir. fwd. or bwd. in |hdst.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
     },
     {
       "number": "1.93",
-      "description": "Any 1/1 pirouette in hdst. on 2 rails.|\t Todo\t1/1\tg.\ten\tapoyo\tinvertido\tsobre\t2\tbandas.",
+      "description": "\t Del\tapoyo\tinvertido,\tmortal\tadelante\tal\tapoyo\t|invertido\tgirando\tpresa,\tbajando\tal\tapoyo.|(Carballo 2)80.\tTout\t1/1\tt.\ten\tappui\trenvers\u00e9\tsur\t2\tbarres.",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": 360,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.95",
+      "description": "\t 5/4\tmortal\tad.\tp.\tabiertas\tdirectamente\ta\tla\t|suspensi\u00f3n.|(Lee Chul Hon/Sasaki)|",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.99",
+      "description": "\t Mortal\tadelante\tal\tapoyo.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.98",
+      "description": " 5/4 mortal adelante agrupado o en carpa al |apoyo\tbraquial.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.100",
+      "description": " 5/4 mortal adelante piernas abiertas al |apoyo\tbraquial.101.\t5/4\tsalto\tavant\t\u00e9cart\u00e9\t\u00e0\tl\u2019appui\tbras\tfl\t\u00e9chi.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.104",
+      "description": "\t Mortal\tadelante\tagrupado\to\ten\tcarpa\tcon\t\u00bc.\t|a\tla\tsuspensi\u00f3n\tlateral\tsobre\t1\tbanda.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.105",
+      "description": "\t Mortal\tadelante\ten\tcarpa\ta\tla\tsuspensi\u00f3n.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.106",
+      "description": " Doble mortal adelante agrupado al apoyo |braquial.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
     },
     {
       "number": "1.107",
-      "description": "Salto fwd. with 1/1 t. to up. arm hang.|\t Mortal\tcon\t1/1\tg.\tal\tapoyo\tbraquial.111.\t5/4\tsalto\tavant\ttendu\t\u00e0\tl\u2019appui\tbrachial.|\t 5/4\tsalto\tforward\tstr.\tto\tupper\tarm\thang| 5/4 mortal adelante extendido al apoyo bra-|quial.110.\t 109.",
+      "description": " Doble mortal adelante en carpa al apoyo |braquial.|(Urzica)113.\tSalto\tav.\tavec\t1/1\tt.\t\u00e0\tl\u2019appui\tbrachial.",
       "value": "0.5",
       "difficulty": "E",
       "group": "1",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": 360,
-        "group": "elementos en o por el apoyo sobre dos bandas"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.7",
+      "description": "\t Dominaci\u00f3n\tad.\tcon\t\u00bc\tg.\ta\tla\tsuspensi\u00f3n\tlateral\t|al\texterior.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.8",
+      "description": " Rodar atr\u00e1s con \u00bd g.\tdesde\tel\tapoyo\tbraquial\to\t|dominaci\u00f3n\tad.\ty\tKato\tsaltado\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
     },
     {
       "number": "2.14",
-      "description": "Fwd. uprise and straddle cut bwd to handstand.| Dominaci\u00f3n adelante pasando las piernas atr\u00e1s |al\tapoyo\tinvertido.4.",
+      "description": "\t Rodar\tatr\u00e1s\tal\tapoyo\tinvertido\tcon\tbrazos\text.2.\t\u00c9tablissement en avant et passer les jambes en |arri\u00e8re\tl\u2019appui\trenvers\u00e9.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
     },
     {
       "number": "2.20",
-      "description": "Roll bwd. with strad. cut to support.| Rodar atr\u00e1s y pasar las piernas adelante al |apoyo.",
+      "description": " Salto atr\u00e1s pasando las piernas adelante al apoyo |braquial.21.\tRouler\tarri\u00e8re\tet\tpass.\tles\tjambes\tav.\t\u00e0\tl\u2019appui.\t",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.1",
+      "description": "\t Dominaci\u00f3n\tad.\tal\tapoyo.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
     },
     {
       "number": "2.23",
-      "description": "Roll bwd with salto bwd piked to upper arm hang.| Rodar atr\u00e1s y mortal atr\u00e1s en carpa al apoyo |braquial.11.\t\u00c9tablissement\ten\tavant\tavec\tMakuts\t\u00e0\tl\u2019appui\t|brachial.|\t Fwd.\tuprise\tto\tMakuts\tto\tupper\tarm.|\t Dominaci\u00f3n\tadelante\tcon\tMakuts\ta\tbraquial.",
+      "description": " Rodar atr\u00e1s y mortal atr\u00e1s agrupado al apoyo |braquial.24.\tRouler arri\u00e8re et salto arri\u00e8re carp\u00e9 \u00e0 l\u2019appui |brachial.",
       "value": "0.5",
       "difficulty": "E",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hoek", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.18",
+      "description": "\t Dominaci\u00f3n\tadelante\tcon\t3/2\tg.\tal\tapoyo\tinv.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
     },
     {
       "number": "2.19",
-      "description": "G(Watanabe)(Tsolakidis 1)|(Tsolakidis 2)|(Dimitrenko) (Li Xiaopeng)",
+      "description": "\t Dominaci\u00f3n\tadelante\tcon\tMakuts\tal\tapoyo.",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.17",
+      "description": "\t Dominaci\u00f3n\tadelante\tcon\t1/1\tg.\tal\tapoyo\tinv.|(Richards)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.5",
+      "description": "\t Dominaci\u00f3n\tadelante\tcon\t\u00bd\tg.\tal\tapoyo\tinver-|tido.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.3",
+      "description": " Dominaci\u00f3n adelante pasando las piernas atr\u00e1s a |la\tsuspensi\u00f3n.|(Muntean)",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
     },
     {
       "number": "2.15",
-      "description": "Fwd. uprise with St\u00fcz. 3/4 t. or 1/4 t. to hdst.|\t Dom.\tad.\tSt\u00fcz.\t3/4\tg.\to\t1/4\tg\tal\tapoyo\tinv.|",
+      "description": "\t Rodar\tatr\u00e1s\tdesde\tbraquial\tal\tap.\tinv.\tcon\t1/4\t|de\tgiro\ta\tuna\tbanda.|(Kovtun)suivi\telem.\ttype\tbascule\td\u2019\u00e9lan\tsur\tune\tbarre/follow. by glide |kip one rail type el./seguido\telem.\tdel\ttipo\tlarga\ten\tuna\tbanda6.\t \u00c9tabl.\tavant\tavec\t3/4\tt.\tou\t1/4\tt.\u00e0\tl\u2019appui\trenv.",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": 270,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.43",
+      "description": " Rodar atr\u00e1s con \u00bd g. agrupado a la suspensi\u00f3n.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.44",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\tcon\t\u00bd\tg.\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
     },
     {
       "number": "2.46",
-      "description": "Bwd. uprise and 5/4 salto fwd. t. to up.arm hang.| Dominaci\u00f3n atr\u00e1s y 5/4 mortal adelante agrupa-|do,\ten\tcarpa\tal\tapoyo\tbraquial.47.\t\u00c9tablissement \tarri\u00e8re\tet\tdouble\tsalto\tav.\tgroup\u00e8\t|\u00e0\tl\u2019appui\tbrachial.",
+      "description": "\t Dominaci\u00f3n\tat.\ty\tmortal\tad.\ten\tcarpa\to\textendido\t|al\tapoyo.45.\t\u00c9tablissement \tarri\u00e8re\tet\t5/4\tsalto\tavant\tgroup\u00e9,\t|carp\u00e9\t\u00e0\tl\u2019appui\tbrachial.",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "dubbel", "vorm": "hurk", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.38",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\tcon\t\u00bd\tg.\ty\tpasar\tlas\tp.\tatr\u00e1s\t|al\tapoyo\tbraquial.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.39",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\tcon\t\u00bd\tg.\ty\tpasar\tlas\tpiernas\t|atr\u00e1s\tal\tapoyo.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
     },
     {
       "number": "2.32",
-      "description": "Bwd. uprise with \u00bd t. hop to handstand.|\t Dominaci\u00f3n\tatr\u00e1s\tcon\t\u00bd\tg.\tsaltar\tal\tapoyo\t|invertido.",
+      "description": " Dominaci\u00f3n atr\u00e1s al apoyo invertido (tambi\u00e9n |con\t\u00bd\tg.).33.\t\u00c9tablissement \tarri\u00e8re\tavec\t\u00bd\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\t|renvers\u00e9.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "gymnastic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos desde apoyo braquial"
-      }
+      "type": "gymnastic"
     },
     {
-      "number": "3.68",
-      "description": "Belle piked.|\t Belle\ten\tcarpa.58 Du\tgrand\ttour\tarri\u00e8re,\tdouble\tsalto\tgroupe\t\u00e0\t l\u2019appui |brachial.|\t Fr.\tgiant.\tsw.\tbwd.,\tdbl.\tsalto\tt.\tto\tup.\tarm\thang.| De molino atr\u00e1s doble mortal agrupada al apoyo |braquial.",
+      "number": "2.34",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\tcon\t\u00be\tg.\tsaltar\tal\tapoyo\t|invertido\tsobre\t1\tbanda.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.28",
+      "description": " Rodar atr\u00e1s con \u00bd g. agrupado al apoyo bra-|quial.|(Harada)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.54",
+      "description": " Dominaci\u00f3n atr\u00e1s y 5/4 mortal adelante piernas |abiertas\ta\tla\tsuspensi\u00f3n.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.72",
+      "description": "Bwd.\tuprise\tand\t5/4\tsalto\tfwd.\tstraddled\tto\tup.\t|arm\thang.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.56",
+      "description": " Dominaci\u00f3n atr\u00e1s pasando las piernas adelante |al\tapoyo\tbrazos\textendidos.55.\t\u00c9tablissement  arri\u00e8re et passer les jambes |\u00e9cart\u00e9es\ten\tavant\t\u00e0\tl\u2019appui\tbras\tfl\t\u00e9chis.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "3.15",
+      "description": "\t Moy\tal\tapoyo\tp.\text.\t(tambi\u00e9n\tsin\tdejar\tlas\t|presas).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.3",
+      "description": "\t Impulso\t adelante\tpase\tpiernas\tatr\u00e1s\ty\tagarre\text.\t|en\tla\thorizontal\ta\tbraquial\ty\tbrazos\tdoblados.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.9",
+      "description": "\t Moy\ten\tcarpa\tcon\t1/1\tg.\tal\tapoyo\tbraquial.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.21",
+      "description": "Molino\tal\tap.\tinv.\to\tcon\tdisloc.\tad.\t(tambi\u00e9n\tcon\t|\u00bc\to\t\u00bd\tg.\to\ta\t1\tbanda).|(Kenmotsu)4.\t Moy\tcarp\u00e9\tavec\tpasser\tjambes\t\u00e9cart\u00e9es\ten\t|arri\u00e8re \u00e0 l\u2019appui renvers\u00e9",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.10",
+      "description": "\t Moy\ty\tmortal\tadelante\tagrupado,en \tcarpa\to\t|piernas\tabiertas\tal\tapoyo\tbraquial.(Nolet)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.22",
+      "description": "Healy type element ).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": "\t Moy\ten\tcarpa\tcon\tpiernas\tabiertas\t\u00bd\tg.,\tal\tapoyo\t|braquial\t(tambi\u00e9n\tcon\tpiernas\tcerradas).",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "dubbel", "vorm": "hoek", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.66",
-      "description": "Giant swing bwd. and salto with \u00bd t. to hang.| Molino atr\u00e1s y mortal agrupado o en carpa con |\u00bd\tg.\ta\tla\tsuspensi\u00f3n.62.\t 61.\t|(Belle)",
+      "number": "3.14",
+      "description": " Moy al apoyo piernas dobladas (tambi\u00e9n sin |dejar\tlas\tpresas).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": " Bajarse con mortal atr\u00e1s extensi\u00f3n a la sus-|pensi\u00f3n.40.\tGrand\ttour\tarri\u00e8re\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.30",
+      "description": " Molino Diamidov con \u00bc or \u00bd al\tapoyo\tinvertido.",
       "value": "0.6",
       "difficulty": "F",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.63",
-      "description": "Giant swing bwd. and salto with \u00bd t. to up. arm |hang.| Molino atr\u00e1s y mortal agrupado o en carpa con |\u00bd\tg.\tal\tapoyo\tbraquial.",
+      "number": "3.46",
+      "description": "\t Molino\tatr\u00e1s\tcon\tMakuts\ta\tbraquial.41.\t 37.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.48",
+      "description": "\t Molino\tatr\u00e1s\tcon\tMakuts.|(Baumann)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.39",
+      "description": " Molino atr\u00e1s con \u00bd g.\tal\tapoyo\tbraquial.42.\tGrand\t tour\tarr.\tavec\tDiamidov\t \u00e0\tl\u2019app.\trenv.\t|dans 1 barre ( encha\u00een\u00e9\t avec\tun\t\u00e9l\u00e9ment\tde\t|type Healy .",
       "value": "0.3",
       "difficulty": "C",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.75",
-      "description": "Glide kip with \u00bd t. to support.|\t B\u00e1scula\tcon\t\u00bd\tg.\tal\tapoyo\tinvertido.76.",
+      "number": "3.51",
+      "description": " Molino atr\u00e1s con pase de piernas abiertas al |apoyo\to\tbrazos\tfl\tex.",
       "value": "0.3",
       "difficulty": "C",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.92",
-      "description": "Glide kip to strad. cut bwd. to hand.| B\u00e1scula pasando piernas abiertas a la suspen-|si\u00f3n80.\tBascule\ten\tpassant\tles\tjambes\t\u00e9cart\u00e9es\ten\t|arri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9\tsur\t1\tou\t2\tbarre.",
+      "number": "3.53",
+      "description": "\t Molino\tatr\u00e1s\tcon\t\u00bd\tg.\ty\tpasar\tpiernas\tabiertas\t|atr\u00e1s\ta\tbraquial.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.68",
+      "description": "\t Belle\tcon\t1/1\tgiro.59.\tBelle\tcarp\u00e9.",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "3.73",
-      "description": "G78.\tGrand\ttour\tarri\u00e8re\tavec\t\u00bd\tt.\tet\t3/2\tsalto\tavant\t|carp\u00e9 \u00e0 l\u2019appui\tbrachial.",
+      "number": "3.66",
+      "description": "\t Molino\tatr\u00e1s\tcon\t\u00bd\tg.\ty\t3/2\tmortal\tadelante\ta\t|braquial.65.\tGrand\ttour\tarri\u00e8re\tet\tsalto\tgroup\u00e9\tou\tcarp\u00e9\tavec\t|\u00bd\tt.\t\u00e0\tla\tsuspension.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.67",
+      "description": " Molino atr\u00e1s y mortal agrupado o en carpa con |\u00bd\tg.\tal\tapoyo.",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.63",
+      "description": "\t Molino\tatr\u00e1s\ty\tmortal\ten\tcarpa\tcon\t\u00bd\tg.\ta\tla\t|suspensi\u00f3n\tsobre\tel\textreme.64 Grand tour arri\u00e8re et salto group\u00e9 ou carp\u00e9 avec |\u00bd\tt.\t\u00e0\tl\u2019appui\tbrachial.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.75",
+      "description": "\t B\u00e1scula\tde\timpulso\tatr\u00e1s\tal\tapoyo\tinvertido.74.\tBascule\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.86",
+      "description": " B\u00e1scula de impulso en una banda piernas |abiertas\tal\tapoyo\tinvertido.82.\t|(Okubo)|(Li Donghua)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.92",
+      "description": "\t B\u00e1scula\tde\timpulso\tpor\tel\tlateral\tp.\tlev.\tvertical\t|y\tsalto\tcon\t\u00bd\tg.\ta\tla\tsusp.\tsobre\tla\totra\tbanda.87.\tBascule\td\u2019\u00e9lan\tpar\tl\u2019\u00e9querre\tjambes\tserr\u00e9es\t\u00e0\t|l\u2019appui renvers\u00e9",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.73",
+      "description": "\t B\u00e1scula\tde\timpulso.|(Fokin)|(Esparza)",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.98",
+      "description": "\t Ballest\u00f3n\talem\u00e1n\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.97",
+      "description": "\t Ballest\u00f3n\talem\u00e1n\ta\tbraquial.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.99",
+      "description": "\t Dominaci\u00f3n\t adelante\tvolteando\t atr\u00e1s\tcon\t\u00bd\tg.\t|a\tbraquial.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.100",
+      "description": "\t Felge\tcon\t\u00bd\tg.\tal\tapoyo\tpor\tdetr\u00e1s.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.104",
+      "description": "\t Ballest\u00f3n\talem\u00e1n\tcon\t\u00bd\tg\tal\tapoyo\tbraquial.105.\tBascule\tallemande\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.116",
+      "description": "\t Felge\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.117",
+      "description": " Felge pasando las piernas abiertas adelante |al\tapoyo.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.113",
+      "description": "\t Felge\tcon\t5/4\tg.\tal\tapoyo\tinvertido.103.102. 101.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.120",
+      "description": " Felge\ta\ttrav\u00e9s\tdel\tapoyo\tinvertido\tMakuts.119.\t\u00c9tab.\tav.\ten\ttournant\ten\tarr.\t\u00e0\tl\u2019appui\trenv.\t|dans\t1\tbarre.(encha\u00een\u00e9\t avec\tun\t\u00e9l\u00e9m.\tde\ttype\t",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.128",
+      "description": "\t Felge\tad.\tcon\t\u00bd\tg.\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.123",
+      "description": " Felge con salto agrupado salto y \u00bd giro al |apoyo braquial.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.130",
-      "description": "Shoot up with \u00bd or 3/4 t. to hdst.| Felge en una banda con \u00bd o 3/4\tg.\tal\tapoyo\t|invertido.132.",
+      "description": "\t Felge\ten\tuna\tbanda\tcon\t\u00bc\tg.\tal\tapoyo\tinv.131.\t \u00c9tablissement \tavant\ten\ttourn.\ten\tarri\u00e8re\tavec\t|\u00bd ou 3/4\tt.\t\u00e0\tl\u2019appui\trenvers\u00e9.",
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 270,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.125",
+      "description": "\t Felge\tcon\tmortal\tatr\u00e1s\tagr.\tal\tapoyo\tbraquial.|(Gagnon)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.134",
+      "description": "\t Felge\tad.\tal\tapoyo.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.124",
-      "description": "Basket with salto bwd p. to up. arm hang.|\t Felge\tcon\tmortal\tatr\u00e1s\ten\tcarpa.\tal\tapoyo\t|braquial.|(Juarez 1)EG III: \u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. - Long swings in hang en 1 or 2 bars and Underswings - Elementos de impulso por la suspensi\u00f3n |sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
+      "description": " Felge con salto ext. salto y \u00bd giro al apoyo |braquial.|(Gagnon 2)|(Nguyen)",
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s."
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "4.22",
-      "description": "G|(Larduet)11.\tDouble\tsalto\tav.\tgr.\ta.\t\u00bd\tt.\tou\t\u00bd\tt.\tdoub.\tsalt.\tarr.| Double salto fwd. t. w. \u00bd t. or \u00bd t. dobl. salt. bwd.|\t Doble\tmortal\tad.\tag.\tc.\t\u00bd\tg.\to\t\u00bd\tg.\tdob.\tmort.\tat.|(Dalaloyan)",
+      "number": "3.137",
+      "description": " Felge en una banda al apoyo invertido bajan-|do\tatr\u00e1s\tal\tapoyo\tmediante\t\u00bc\tgiro.|(Malone)|",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.1",
+      "description": "\t Mortal\tad.\ten\tcarpa\to\text.,\ttambi\u00e9n\tcon\t\u00bd\tt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.2",
+      "description": " Salto fwd. piked or str. with 1/1 or 3/2 t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": "\t Doble\tmortal\tad.\tagrupado\t desde\tel\textremo\tde\t|las\tbandas.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.5",
+      "description": "\t Doble\tmortal\tadelante\tagrupado.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": " Mortal adelante en carpa o extendido con 2/1 o ",
       "value": "0.4",
       "difficulty": "D",
       "group": "4",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "salidas"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.17",
+      "description": " Doble mortal adelante en carpa con \u00bd\tg.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.6",
+      "description": "\t Doble\tmortal\tadelante\ten\tcarpa.|(Belyavskiy)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.19",
+      "description": "\t Mortal\t atr\u00e1s\ten\tcarpa\to\text.,\ttambi\u00e9n\tcon\t\u00bd\tt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.20",
+      "description": "\t Mortal\t atr\u00e1s\ten\tcarpa\to\textendido\t con\t1/1\to\t3/2\tg.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.22",
+      "description": "\t Mortal\tatr\u00e1s\ten\tcarpa\to\textendido\tcon\t2/1\tg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.41",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\t con\t\u00bd\tg.\to\tmortal\t|atr\u00e1s\t\u00bd\tg.\ty\tmortal\tadelante\tagrupado37.\t 38.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.45",
+      "description": "\t De\tla\tsuspensi\u00f3n\t en\tel\textremo,\tdoble\tmortal\t|atr\u00e1s\tagrupado.46.\tDe\tla\tsuspension\tsur\tl\u2019extr\u00e9mit\u00e9,\tdouble\tsalto\t|arri\u00e8re\tcarp\u00e9.\t",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.32",
+      "description": " Doble mortal agrupado atr\u00e1s desde el extremo |de\tlas\tbandas.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.33",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.34",
+      "description": "\t Doble\tmortal\tatr\u00e1s\ten\tcarpa.36.\tDouble\tsalto\tarri\u00e8re\tgroup\u00e9\tavec\t1/1\tt.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.28",
+      "description": "\t Facial\ty\tmortal\tatr\u00e1s\tagrupado\to\ten\tcarpa.|(Roethlisberger)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.48",
+      "description": "\t De\tla\tsuspensi\u00f3n\t en\tel\textremo,\tdoble\tmortal\t|atr\u00e1s\tagrupado\tcon\t2/1\tg.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.47",
+      "description": "\t De\tla\tsuspensi\u00f3n\t en\tel\textremo,\tdoble\tmortal\t|atr\u00e1s agrupado con 1/1 o \u00bd\tg.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
     }
   ],
   "high bar": [
     {
+      "number": "1.26",
+      "description": "\t Molino\tad.\tde\tun\tbrazo\tpresa\tpalmar\t(360\u00b0).27.\tSur\t1\tbras,\tgrand\ttour\tav.\tavec\t1/1\tt.\ta\tprise\t|cubitale\tet\t1/1\tt.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.44",
+      "description": "\t Molino\tatr\u00e1s\tcon\tsalto.45.\tGrand\ttour\t arri\u00e8re\tsaut\u00e9\tavec\t1/1\tt.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.43",
+      "description": "\t Molino\tatr\u00e1s\tsalto\tpresa\tpalmar.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.32",
+      "description": " Molino atr\u00e1s de un brazo (360 \u00b0).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.202214156",
+      "description": "\t Molino\tatr\u00e1s\tcon\t\u00bd\tg.\ten\tpresa\tcubital.(Rybalko)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.50",
+      "description": "\t Molino\t atr\u00e1s\tcon\tsalto\tcon\t\u00bd\tg.\ten\tpresa\tcubital.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.62",
+      "description": "\t Impulso\tadelante\tsalto\ta\tpresa\tcubital.52.\tGrand\ttour\tarr.\tsaut\u00e9\tavec\t3/2\tt.\ten\tpr.\tcub.\tdouble.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.68",
+      "description": "\t Molino\ten\tpresa\tcubital.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.69",
+      "description": "\t Molino\tdorsal\tadelante\t(molino\tRuso).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.70",
+      "description": "\t Molino\tdorsal\tatr\u00e1s\t(molino\tcheco).|",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.75",
+      "description": "\t Molino\t cubital\tcon\t1/1\tg.\tpor\tel\tap.\tinv.\tpr.\tmix.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.73",
+      "description": " Molino atr\u00e1s con dislocaci\u00f3n adelante subien-|do\tpor\tel\tapoyo\tinvertido.74.\t \u00c9tablissement\t Steineman\t avec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
       "number": "2.2",
-      "description": "Back uprise and strad. hecht with \u00bd t. to hang .|also\tw.\t\u00bd\tt.|\t Domi.\tat.y\ttigre\tp.\tab.\tcon\t\u00bd\tg.\ta\tla\tsuspensi\u00f3n.\t|o con \u00bd g m\u00e1s |(Markelov)",
+      "description": " Dominaci\u00f3n atr\u00e1s pasando las piernas abiertas |adelante\ta\tla\tsuspensi\u00f3n\tdorsal.3.\t\u00c9tabl.arr.\tet\tpoisson\t\u00e9cart\u00e9\tavec\t\u00bd\tt.\t\u00e0\tla\tsusp.\t|aussi avec \u00bd t",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "sueltas"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "2.28",
-      "description": "Tkatchev\tp.\tab.\ttambi\u00e9n\tcon\t\u00bd\tt.29.\tPiatti\ttendu,\taussi\tavec\t\u00bd\tt.\t\u00e0\tprise\tpalmaire-|cubitale\t\u00e9lan\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9.",
+      "number": "2.9",
+      "description": "\t Markelov\text.\tcon\tpiernas\tjuntas,\ttambi\u00e9n\tcon\t|\u00bd g",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.6",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\ty\ttigre\text.\tcon\t3/2\tg.\ta\tla\tsusp.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.23",
+      "description": "\t Tkatchev\tcon\t\u00bd\tg.\ta\tpresa\tcubital.|(Samiloglu)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.21",
+      "description": "\t Impulso\tad.\ty\tsalto\tdorsal\tp.\tcarp.\ta\tla\tsusp,\ttambi\u00e9n\t|con \u00bd g.15.\tElan\ten\tav.\tet\tsaut\u00e9\tdorsal\tjamb.\t\u00e9c.\t\u00e0\tla\tsusp. aussi |avec \u00bd t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.16",
+      "description": "\t Tkatchev\textendido,\ttambi\u00e9n\tcon\t\u00bd\tg.\ta\tpre-|sa\tmixta\tdominaci\u00f3n\tatr\u00e1s\tal\tapoyo\tinvertido.|(Moznik)",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "sueltas"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.17",
+      "description": " Tkatchev straight with 1/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.14432",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\ty\tsalto\tdorsal\tcon\t\u00bc\tg.\ta\tla\t|suspensi\u00f3n.27.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.36",
+      "description": "\t Piatti\textendido\tcon\t1/1\tgiro.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.39",
+      "description": "\t Impulso\tatr\u00e1s\ty\tmortal\tadelante\tagrupado,\ten\t|carpa\to\tp.\tab.\ta\tla\tsusp.,\ttambi\u00e9n\tde\tcubital.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.40",
+      "description": "\t Mortal\tadelante\textendido,\ttambi\u00e9n\tde\tcubital.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.35",
+      "description": "\t Piatti\ten\tcarpa,\ttambi\u00e9n\tcon .\u00bd\tg.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.42",
+      "description": "\t Mortal\tad.\text.\tcon\t1/1\tg.,\ttambi\u00e9n\tde\tcubital.(Balabanov)|(J\u00e4ger)(Winkler - Pogorelev)(Suarez)|(Xiao Ruizhi)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.48",
+      "description": "\t Mortal\tad.\text.\tcon\t2/1\tg.,\ttambi\u00e9n\tde\tcubital.41.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.46",
+      "description": "\t Impulso\tad.\ty\tcontrasalto\tad.\tp.\tab.\ta\tla\tsusp.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.45",
+      "description": " Molino Checo y salto dorsal piernas abiertas a |la\tsuspensi\u00f3n.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.26",
+      "description": "\t Dominaci\u00f3n\tatr\u00e1s\ty\tsalto\ten\tcarpa\tcon\t\u00bd\tg.\ta\t|la\tsuspensi\u00f3n.|(Voronin)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.28",
+      "description": "\t Impulso\tcirc.\tlibre\tat.,\tp.\tab.o\tgiro\tde\tapoyo\tcon\t",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.57",
@@ -1087,38 +3416,111 @@
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "sueltas"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.66",
+      "description": "\t Gaylord\tcon\t\u00bd\tg.55.49.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "2.71",
-      "description": "G58.\t52.\t|(Sapronenko)54.\t\t|(Pegan)|(Gienger)",
+      "description": "\t Gaylord\tcon\t1/1\tg.|(Koudinov)",
       "value": "0.5",
       "difficulty": "E",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "sueltas"
-      }
+      "type": "acrobatic"
     },
     {
-      "number": "2.94",
-      "description": "G(Cassina)",
+      "number": "2.60",
+      "description": "\t Lanzarse\tad.\ty\tmortal\tatr\u00e1s\tcon\t3/2\tt.\ta\tla\tsusp.|(Deff)|(Gaylord)",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.64",
+      "description": "\t Mortal\tad.\tpor\tencima\tde\tla\tb.\tagr.\to\tp.\tab.,\ttambi\u00e9n\t|desde\tcubital.|(Deltchev)",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "sueltas"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.51",
+      "description": "\t Lanzarse\tad.,\t\u00bd\tg\tmortal\tadelante\ta\tla\tsusp.|",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.202214682",
+      "description": "\t Mortal\t atr\u00e1s\tagrupado\t con\t\u00bd\tg.\tpor\tencima\tde\t|la\tbarra.|(Gaylord 2)|(Kovacs)88.\tDouble\tsalto\tarri\u00e8re\tgr.\tpar-dessus\tla\tbarre.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.89",
+      "description": "\t Kovacs\tcon\t1/1\tg.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.95",
+      "description": "\t Kovacs\ten\tcarpa\to\textendido.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.83",
+      "description": "\t Mortal\t atr\u00e1s\ten\tcarpa\tcon\t\u00bd\tg.\tpor\tencima\tde\t|la\tbarra.79.73.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.94",
+      "description": "\t Kovacs\textendido\to\ten\tcarpa\tcon\t1/1\tgiro.|(Kolman)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.90",
+      "description": "\t Kovacs\tcon\t2/1\tg.|(Pineda - piked )84.\t\t76.\t",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.108",
+      "description": "\t Kovacs\tcon\t3/2\tg.\ta\tpresa\tmixta.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.102",
+      "description": "\t Kovacs\textendido\tcon\t2/1\tgiro.",
+      "value": "0.9",
+      "difficulty": "I",
+      "group": "2",
+      "type": "acrobatic"
     },
     {
       "number": "3.2",
@@ -1126,12 +3528,47 @@
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.13",
+      "description": "\t De\tla\tsuspensi\u00f3n\to\tdel\tapoyo,\timpulso\tpor\t|debajo\tal\tapoyo\tinvertido.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": "\t Del\tapoyo\tinv.,\tgiro\tde\tapoyo\tad.\tpor\tel\tap.\tinv.9.\t 10.\t|",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.33",
+      "description": "\t Impulso\tcirc.\tcarp.\tp.\tjuntas.\tad.\tpor\tel\tap.\tinv.34.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": "\t Impulso\tcirc.\tcarp.\tp.\tab.\tpor\tel\tap.\tinvertido.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.45",
+      "description": "\t Impulso\tcirc.\ten\tcarpa\tatr\u00e1s\tpor\tel\tap.\tinvertido.30. 28. 29.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.42",
@@ -1139,12 +3576,23 @@
       "value": "0.6",
       "difficulty": "F",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.44",
+      "description": "\t Impulso\tcirc.\tcarp.\tp.\tab.\tpor\tel\tap.\tinv.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.25",
+      "description": "\t De\tla\tsuspensi\u00f3n\to\tdel\tapoyo,\timpulso\tpor\t|debajo\tsaltando\tal\tapoyo\tinvertido.\t27.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.48",
@@ -1152,12 +3600,7 @@
       "value": "0.6",
       "difficulty": "F",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "3.70",
@@ -1165,12 +3608,7 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "3.57",
@@ -1178,25 +3616,87 @@
       "value": "0.3",
       "difficulty": "C",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
     },
     {
       "number": "3.59",
-      "description": "Adler and 1/1 t. through hdst. in ungr.",
+      "description": "\t Adler\tpor\tel\tapoyo\tinvertido.65.\t\t\u00c9lan\tcirculaire\tAdler\tavec\t1/1\tt.\tpar\tl\u2019appui\t|renvers\u00e9\tavec\tprise\tpalmaire.",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": 360,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.79",
+      "description": "\t Impulso\tatr\u00e1s\ta\tla\tsuspensi\u00f3n\tdorsal.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.80",
+      "description": "\t De\tla\tsusp.\tdorsal,\tdominaci\u00f3n\t ad.\tal\tap.\tdorsal.81.\t\u00c9lan\ten\tarri\u00e8re\t\u00e0\tla\tsuspension\tdorsale.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.87",
+      "description": " Steineman con pase en carpa entre las presas |al\tapoyo\tinvertido.76.\t \u00c9lan\t circulaire\t Adler\tavec\t1/1\tt.\tpar\tl\u2019appui\t|renvers\u00e9\tavec\tprise\tmixte\taussi\tavec\tsaut.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.92",
+      "description": " Steineman con pase costal atr\u00e1s al apoyo o la |suspensi\u00f3n.93.\t82.\t|(Baldauf)|",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.152103",
+      "description": "\t Impulso\tcircular\ten\tcarpa\tad.\tpasando\tpiernas\t|abiertas\tatr\u00e1s\ta\tla\tsuspensi\u00f3n\to\tal\tapoyo.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.110",
+      "description": "\t Impulso\tcircular\ten\tcarpa\tad.\tpasando\tpiernas\t|abiertas\tal\tapoyo\tinvertido.105.\t\u00c9lan\tcirc.\tcarp\u00e9\ten\tav.\tet\tpass.\t\u00e9c.\tavec\t\u00bd\tt.\t",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.111",
+      "description": "\t Carballo\tcon\t\u00bd\tg.\ta\tpresa\tpalmar\t-\tcubital.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.107",
+      "description": "\t Quintero\ten\tpresa\tcubital.108.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.97",
+      "description": " 101.\t|(Carballo) (Quintero)",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
     },
     {
       "number": "3.100",
@@ -1204,12 +3704,231 @@
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic",
-      "breakdown": {
-        "draai": null,
-        "salto": { "aantal": "enkel", "vorm": "hurk", "richting": null },
-        "group": "elementos cerca de la barra y elementos adler"
-      }
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.99",
+      "description": "\t Endo\tpresa\tcubital\tpor\tel\tapoyo\tinvertido.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.20221531",
+      "description": "\t Mortal\tad.\ten\tcarpa\to\text.,\ttambi\u00e9n\tcon\t\u00bd\tg.2.\tSalto\tavant\ttendu\tavec\t1/1\tou\t3/2\tt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": "\t Doble\tmortal\tad.\tagr.,\ten\tcarpa\to\tcon\t\u00bd\tg.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.10",
+      "description": "\t Doble\t mortal\tad.\tagrupado,\t en\tcarpa\to\tcon\t1/1\t|o\t3/2\tg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.21",
+      "description": "\t Doble\t mortal\tadelante\tagrupado,\t en\tcarpa\to\t|con\t\u00bd\tg.\tpor\tencima\tde\tla\tbarra.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.3",
+      "description": "\t Mortal\tadelante\textendido\tcon\t2/1\to.\t5/2\tg.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": "\t Doble\tmortal\textendido\to\tcon\t\u00bd\tg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.11",
+      "description": "\t Doble\t mortal\tadelante\tagrupado,\t en\tcarpa\to\t|con\t2/1\to\t5/2\tg.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.17",
+      "description": "\t Doble\tmortal\textendido\tcon\t1/1\to\t3/2\tg.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.6",
+      "description": "\t Triple\tmortal\tad.\tagr.\to\tcon\t\u00bd\tg.|(Rumbutis)EG IV:  Sorties - Dismounts - Salidas",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.22",
+      "description": " Dbl. salto fwd. t. or p. w. 1/1 or 3/2 t. over the bar.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.202215425",
+      "description": "\t Mortal\tat.\ten\tcarpa\to\text.\ttambi\u00e9n\tcon\t\u00bd\to\t1/1\tg.26.\tSalto\tarri\u00e8re\ttendu\tavec\t3/2\tou\t2/1\tt.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.32",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\to\tcen\tcarpa.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.33",
+      "description": "\t Doble\tmortal\tatr\u00e1s\tagrupado\tcon\t1/1\tg.|(Tsukahara)",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.39",
+      "description": "\t Doble\tmortal\textendido.40.\tDouble\tsalto\tarri\u00e8re\ttendu\tavec\t1/1\tt.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.27",
+      "description": "\t Mortal\tatr\u00e1s\textendido\tcon\t5/2\to.\t3/1\tg.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.34",
+      "description": " Doble\tmortal\tatr\u00e1s\tagrupado\tcon\t2/1\tg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.41",
+      "description": "\t Doble\tmortal\tatr\u00e1s\textendido\tcon\t2/1\tg.|(Watanabe)",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.42",
+      "description": "\t Doble\tmortal\tatr\u00e1s\textendido\tcon\t3/1\tg.29.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.202215550",
+      "description": "  Doble\tmortal\tatr\u00e1s\tagr.\tpor\tencima\tde\tla\tbarra.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.51",
+      "description": "\t Doble\t mortal\tatr\u00e1s\tagr.\tcon\t1/1\tg.\tpor\tencima\t|de\tla\tbarra.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.58",
+      "description": "  Doble\tmortal\text.\tcon\t1/1\tg.\tpor\tencima\tde\tla\tb.|(Hayden)57.\tDouble\t salto\tarri\u00e8re\ttendu\tpar-dessus\t la\tbarre.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.52",
+      "description": "\t\t Doble\t mortal\tatr\u00e1s\tagr.\tcon\t2/1\tg.\tpor\tencima\t|de\tla\tbarra.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.60",
+      "description": "\t Triple\tmortal\tagrupado\tcon\t1/1\tg.|(Belle)",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.61",
+      "description": "\t Tigre\tp.\tabiertas,\ttigre\to\ttigre\tcon\t\u00bd\tg.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.62",
+      "description": "\t Tigre\tcon\t1/1\to\t3/2\tg.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.64",
+      "description": "\t Tigre\tcon\t2/1\tg.EG IV:  Sorties - Dismounts - Salidas",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.70",
+      "description": "\t Triple\tmortal\tatr\u00e1s\ten\tcarpa.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
     }
   ]
 }

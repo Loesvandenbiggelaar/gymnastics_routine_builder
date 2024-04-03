@@ -90,26 +90,29 @@ class elementExtractorMen:
                 continue
             if r[1].replace(" ", "").replace(".", "").isdigit():
                 continue
-            text_description = re.split(r"\|(?=[A-Z])", r[1])
-            
-            if len(text_description) < 3:
-                # print("warning, could not process", text_description)
-                continue
 
-            if self.language == "en":
-                text = text_description[1]
-            elif self.language == "fr":
-                text = text_description[0]
-            elif self.language == "es":
-                text = text_description[2]
-            else:
+
+            if self.language == "nl":
                 text = r[1]
+            else:
+                text_description = re.split(r"\|(?=[A-Z|\s|\d])", r[1])
+                if len(text_description) < 3:
+                    print("warning, could not process", text_description)
+                    continue
+                if self.language == "en":
+                    text = text_description[1]
+                elif self.language == "fr":
+                    text = text_description[0]
+                elif self.language == "es":
+                    text = text_description[2]
+                else:
+                    raise ValueError (self.language + " is not supported yet!")
+            
             try:
                 if text != text.upper():
-                    if apparatus == "vault":
+                        # print(r[0], group_nr, text)
                         self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":text}
-                    else:
-                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":text}
+
                         
             except IndexError:
                 print("[WARNING] not a valid result!:", r)
@@ -202,7 +205,7 @@ class elementExtractorMen:
                 values["difficulty"] = getDifficulty(values, exceptions_dict[apparatus])               
                 values["group"] = str(grNumber)
                 values["type"]=getTypeOfElement(values, apparatus=apparatus)
-            elements = self.doElementTyping(apparatus)
+            # elements = self.doElementTyping(apparatus)
                 
                 
     def doElementTyping(self, apparatus):
@@ -216,8 +219,8 @@ class elementExtractorMen:
 
 
 def main():
-    extractor = elementExtractorMen("source/pages_config_men.yaml", language="es")
-    # extractor.addApparatus([ "vault"])
+    extractor = elementExtractorMen("source/pages_config_men.yaml", language="nl")
+    # extractor.addApparatus([ "floor"])
     extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
     extractor.processApparatuses()
     extractor.expandElements()

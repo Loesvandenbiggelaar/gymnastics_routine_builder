@@ -1,1 +1,3942 @@
-{"floor": [{"number": "2.14", "description": "Salto fwd. straight, also with \u00bd t.|\t Mortal\tadelante\text.,\ttambi\u00e9n\tcon\t\u00bd\tg.13.\tSalto\tavant\tgroup\u00e9\tou\tcarp\u00e9,\taussi\tavec\t\u00bd\tt.", "value": "0.2", "difficulty": "B", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "2.16", "description": "Double salto fwd. tucked, also with \u00bd t.|\t Doble\tmortal\tad.\tagrupado,\ttambi\u00e9n\tcon\t\u00bd\tg..17.\tDouble\tsalto\tavant\tcarp\u00e9,\taussi\tavec\t\u00bd\tt.", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "2.46", "description": "Jump fwd. with \u00bd t. to dbl. salto bwd. t.", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "2.43", "description": "Double salto fwd. str. with 3/2 turn.", "value": "0.1", "difficulty": "A", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "2.26", "description": "Salto fwd. str. with 3/1 t.|\t Mortal\tad.\text.\tcon\t3/1\tg.29.\tSalto\tav.\ttendu\tavec\t5/2\tt.", "value": "0.2", "difficulty": "B", "group": "2", "type": "acrobatic", "breakdown": {"draai": 1080, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "2.38", "description": "Salto fwd. t. or p. to front support.| Mortal adelante agrupado o en carpa al apoyo |acostado\tfacial.39.\t 40.\t 41.\tDouble\tsalto\tavant\tgroupe\tavec\t1/1\tt.", "value": "0.2", "difficulty": "B", "group": "2", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "2.44", "description": "G|(Deferr)|(Zapata)|(Zapata 2)", "value": "0.2", "difficulty": "B", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements forward "}}, {"number": "3.9", "description": "Arabian double t. or p. with \u00bd t.|\t Doble\tmortal\tatr\u00e1s\tag.\to\ten\tcarpa\tcon\t1/1\tg.\t", "value": "0.3", "difficulty": "C", "group": "3", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "dubbel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements backward "}}, {"number": "3.20", "description": "Aussi/Also/Tambi\u00e9n Korosteljev|(Nagornyy)", "value": "0.2", "difficulty": "B", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements backward "}}, {"number": "3.48", "description": "Jump bwd. to dbl. salto fwd. str. with 1/1 t.|\t Doble\t mortal\tatr\u00e1s\textendido\t con\t3/2\tg.\to\tsalto\t|\u00bd\tg.\tdoble\tmortal\tad.\tcon\t1/1\tg.", "value": "0.6", "difficulty": "F", "group": "3", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements backward "}}, {"number": "3.71", "description": "Jump bwd. to dbl. salto fwd. str. with \u00bd t.|\t Doble\tmortal\tatr\u00e1s\textendido\t con\t1/1\tg.\to\tsalto\t|\u00bd\tg.\tdoble\tmortal\tad.\tcon\t\u00bd\tg.", "value": "0.5", "difficulty": "E", "group": "3", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "acrobatic elements backward "}}], "rings": [{"number": "2.70", "description": "From swallow, press to support scale (2 s.).|\t De\thirondelle\televarse\tal\tapoyo\tfac.\thoriz.\t(2\ts.).64.\t\u00c9tablissement\ten\tforce,\t\u00e0\tla\tcroix\tou\tcroix\tangle\t|(2\ts.).", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "strength elements and hold elements (2 sec.) "}}, {"number": "2.72", "description": "From hanging scale rw. press to swallow (also |to Support Scale) (2 s.).", "value": "0.6", "difficulty": "F", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "strength elements and hold elements (2 sec.) "}}, {"number": "2.66", "description": "From hang vertical pull up, slowly with straight |arms through cross to inverted swallow (2 s.).|\t Desde\tla\tsusp.\tsubir\tlentamente\t\tcon\tbrazos\t|ext.\ta\ttrav\u00e9s\tde\tcristo\ta\tcristo\tinv.\t(2\tseg.)|(Van Gelder)(Azarian)|(Nakayama)|(Li Xiaoshuang)|(Zanetti)|(NG Kiu Chung)", "value": "0.6", "difficulty": "F", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "strength elements and hold elements (2 sec.) "}}, {"number": "2.106", "description": "Slow Roll bwd. with str. body to swallow (2 s.).", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "strength elements and hold elements (2 sec.) "}}, {"number": "2.101", "description": "Roll bwd. slowly with str. arms and body to free |sup. scale (2 s.).|\t Voltear.\tatr\u00e1s\tlentamente\tcuerpo\ty\tbrazos\text\t|al\tapoyo\tfacial\thorizontal\t(2\ts.).|(Yan Mijayoung)|(Tulloch)|(Ng Kiu Chung 2)", "value": "0.5", "difficulty": "E", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "strength elements and hold elements (2 sec.) "}}, {"number": "2.130", "description": "From hang vertical pull up support and press |to hdst. with straight body and straight arms..", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "strength elements and hold elements (2 sec.) "}}, {"number": "3.88", "description": "Felge bwd. straight to free sup. scale. (2 s.)", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "swing to strength hold elements (2 sec.) "}}, {"number": "4.44", "description": "G|(Tuuha)42.\tTriple\tsalto\tarri\u00e8re\tcarp\u00e9.| Triple salto bwd. piked.|\t Triple\tmortal\tatr\u00e1s\ten\tcarpa.|(Whittenburg)", "value": "0.2", "difficulty": "B", "group": "4", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hoek", "richting": null}, "group": "dismounts "}}], "pommel horse": [{"number": "2.44", "description": "Flair with hop travel bwd. through hdst. and lower |to circles or fl  airs.|\t Flair\tcon\tdesplaz.\tde\tsalto\tatr\u00e1s\tal\tap.\tinv.\ty\t|volver\ta\tmolino\to\tfl\tair.29.\tTout\tapp.\tlat,\t1/1\tpivot\tav.\tles\tar\u00e7ons\tentre\tles\t|mains\t(cercles\td.\tjamb.\tec.\tou\tcerc.\td.\tjamb).", "value": "0.2", "difficulty": "B", "group": "2", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "circle and flairs, with and/or without spindles and handstands, kehr -swings, russian w., flops and combined elements "}}, {"number": "2.6849", "description": "St\u00f6ckli\tDirecta\tA\t(SDA)\tfuera\tde\tlos\tarcos.53. 54.\tSt\u00f6ckli\tinv.,\tDSA\tou\tcercles\tsur\tl\u2019ar\u00e7on\tjambes\t|\u00e9cart\u00e9es\ta\tl\u2019a.t.r.\t3/3\ttransport\t(av.-\tarr.)\tavec\t360\t|t.\tet\ts\u2019abaisser\taux\tcercles\tdes\tjambes\t\u00e9cart\u00e9s.| Reverse St\u00f6ckli, DSA or pommel circle strad. |through hdst., 3/3 travel (fwd.- bwd), 360\u00ba turn |to fl  airs.", "value": "0.3", "difficulty": "C", "group": "2", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "circle and flairs, with and/or without spindles and handstands, kehr -swings, russian w., flops and combined elements "}}, {"number": "2.64", "description": "Direct St\u00f6ckli A (DSA). on the pommels or pom-|mel between hands.", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "circle and flairs, with and/or without spindles and handstands, kehr -swings, russian w., flops and combined elements "}}, {"number": "2.69", "description": "Kehr with 270\u00ba t. on 1 p. (Sohn technique) from |side to cross support.", "value": "0.3", "difficulty": "C", "group": "2", "type": "acrobatic", "breakdown": {"draai": 270, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "circle and flairs, with and/or without spindles and handstands, kehr -swings, russian w., flops and combined elements "}}, {"number": "3.38", "description": "Travel fwd. in cross support (\u00bd or 2/3).|\t Desplazamiento\tad.\ten\tap.\ttransversal\t(\u00bd\to\t2/3).39.\tTransport\tav.\tavec\tappui\tsur\tle\tcheval.\tsur\tchaque\t|arc.\tet\tsur\tl\u2019autre\textr\u00e9mit\u00e9.\t(3/3)\t(1-2-4-5).", "value": "0.2", "difficulty": "B", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles "}}, {"number": "3.57", "description": "From support on end, kehr fwd. around 1st p., rev. ", "value": "0.3", "difficulty": "C", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles "}}, {"number": "3.64", "description": "Kehre bwd., kehre fwd., kehre bwd.|\t Pase\tdorsal\tatr\u00e1s,\tpase\tdorsal\tadelante,\tpase\t|dorsal\tatr\u00e1s.63.\t 65.\t52.\tTout\tautre\ttransport\tar.\tsur\tl\u2019autre\textr\u00e9m.\t(3/3).", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles "}}, {"number": "3.70", "description": "From sup. on end, Russian wendeswing fwd. to |other end without sup. on or btw. the p. (side to |side support, side to cross, cross to side, cross |to cross).", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles "}}, {"number": "3.91", "description": "Reverse St\u00f6ckli from cross support on end to |the far pommel", "value": "0.1", "difficulty": "A", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles "}}, {"number": "4.1", "description": "Wende (from circle or fl  air).| Alemana facial (desde Molino o Molino piernas |abiertas).2.\t Chaguinian\tsuivi\tde\tfacial\tallemand.", "value": "0.1", "difficulty": "A", "group": "4", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "dismounts "}}, {"number": "4.20", "description": "Circle or fl  air through hdst. (also with \u00be t. with |or without travel).|\t Molino\to\tmolino\tp.\tabierto\tpor\tel\tapoyo\tinvertido\t|(tambi\u00e9n\tcon\t\u00be\tg.\tcon\to\tsin\tdesplazamiento).21.\tCercle\tdes\tjambes\tou\tcercle\t\u00e9cart\u00e9\tet\ttransport\t|saut\u00e9\tarri\u00e8re\tpar\tl\u2019appui\trenvers\u00e9.", "value": "0.2", "difficulty": "B", "group": "4", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "dismounts "}}, {"number": "4.16", "description": "DSA or rev. St\u00f6ckli  with hop bwd. through hdst. |on\tother\tend.", "value": "0.4", "difficulty": "D", "group": "4", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "dismounts "}}], "vault": [{"number": "4.413", "description": "Yurchenko piked.|\t Yurchenko\ten\tcarpa.402.\tRondade,\trenversement\tarri\u00e8re\tavec\t\u00bd\ttour.", "value": 2.4, "difficulty": "E", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hoek", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.407", "description": "Round off, hdspr. bwd. and salto bwd. t.|\t Rondada,\tinversi\u00f3n\tatr\u00e1s\ty\tmortal\tatr\u00e1s\tagr.408.\tYurchenko\tgroup\u00e9\tavec\t\u00bd\tt.", "value": 2.2, "difficulty": "E", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.467", "description": "Scherbo entry to salto bwd. straight.", "value": 3.8, "difficulty": "E", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.468", "description": "Scherbo with \u00bd t.", "value": 4.2, "difficulty": "F", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.470", "description": "Scherbo with 3/2 t.", "value": 5.0, "difficulty": "B", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.469", "description": "Scherbo with 1/1 t.", "value": 4.6, "difficulty": "A", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.472", "description": "Scherbo with 5/2 t.", "value": 5.8, "difficulty": "D", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.471", "description": "Scherbo with 2/1 t.", "value": 5.4, "difficulty": "C", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": 720, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.461", "description": "Scherbo entry |to salto bwd. tucked with 1/1|turn.", "value": 3.4, "difficulty": "E", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.462", "description": "Scherbo entry to salto bwd. tucked with 3/2|turn.", "value": 3.8, "difficulty": "F", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.457", "description": "Scherbo |entry to back handspring with 1/1|turn.", "value": 2.6, "difficulty": "A", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.460", "description": "Scherbo entry to salto bwd. tucked with \u00bd turn.", "value": 3.0, "difficulty": "D", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.459", "description": "Scherbo entry to salto bwd. piked.", "value": 3.0, "difficulty": "C", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hoek", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.455", "description": "Scherbo entry to back handspring.", "value": 2.2, "difficulty": "E", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.456", "description": "Scherbo entry to back handspring with \u00bdturn.| ", "value": 2.4, "difficulty": "F", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}, {"number": "4.449", "description": "Round off, \u00bd t. a. hdspr. fwd. and double salto fwd. tucked.", "value": 5.4, "difficulty": "E", "group": "4", "type": "acrobatic", "breakdown": {"type": "round off / scherbo entry / yurchenko", "eerste vluchtfase": {"draai": null, "salto": {"aantal": "dubbel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "tweede vluchtfase": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "beenspreiding": null}, "group": "round off entry vaults."}}], "parallel bars": [{"number": "1.27", "description": "Healy\t\u00e0\tl\u2019appui.", "value": "0.3", "difficulty": "C", "group": "1", "type": "gymnastic", "breakdown": {"draai": null, "group": "elements in support or through support on 2 bars "}}, {"number": "1.40", "description": "Salto bwd to handstand 1 rail (connected to ", "value": "0.4", "difficulty": "D", "group": "1", "type": "gymnastic", "breakdown": {"draai": null, "group": "elements in support or through support on 2 bars "}}, {"number": "1.45", "description": "Salto bwd. with \u00bd t. to up. arm hang.|\t Mortal\tatr\u00e1s\tcon\t\u00bd\tg.\tal\tapoyo\tbraquial.46.\tDouble\tsalto\tarri\u00e8re\tgr.\t\u00e0\tl\u2019appui\tbrachial.", "value": "0.3", "difficulty": "C", "group": "1", "type": "gymnastic", "breakdown": {"draai": null, "group": "elements in support or through support on 2 bars "}}, {"number": "1.52", "description": "Hdst. with \u00bc t. and fall back to sup. with \u00bc t.|\t Del\tapoyo\tinvertido\t\u00bc\tg.\ty\t\u00bc\tg\tal\tapoyo.51.\tL\u2019appui\trenvers\u00e9.\t\u00be\tt.\tet\t\u00bc\tt.\t\u00e0\tl\u2019appui.", "value": "0.4", "difficulty": "D", "group": "1", "type": "gymnastic", "breakdown": {"draai": null, "group": "elements in support or through support on 2 bars "}}, {"number": "1.69", "description": "Following a swing element (min. B) to hdst., |hdst. on 1 rail, Healy to upper arm hang .", "value": "0.3", "difficulty": "C", "group": "1", "type": "gymnastic", "breakdown": {"draai": null, "group": "elements in support or through support on 2 bars "}}, {"number": "1.83", "description": "Swing bwd. with \u00bd t. hop to hdst.|\t Lanzarse\tatr\u00e1s\tcon\t\u00bd\tg.\tde\tsalto\tal\tapoyo\t|invertido.76.\t\u00c9lanc\u00e9 \ten\tarri\u00e8re\tavec\t1/1\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\tren-|vers\u00e9.\t", "value": "0.5", "difficulty": "E", "group": "1", "type": "gymnastic", "breakdown": {"draai": 360, "group": "elements in support or through support on 2 bars "}}, {"number": "1.79", "description": "Any hdst. with \u00bd turn. (also with 2 s.).", "value": "0.1", "difficulty": "A", "group": "1", "type": "gymnastic", "breakdown": {"draai": null, "group": "elements in support or through support on 2 bars "}}, {"number": "1.93", "description": "From hdst., salto fwd to support or from hdsd. |with rotated grip, inlocate to support.|\t Del\tapoyo\tinvertido,\tmortal\tadelante\tal\tapoyo\t|invertido\tgirando\tpresa,\tbajando\tal\tapoyo.|(Carballo 2)80.\tTout\t1/1\tt.\ten\tappui\trenvers\u00e9\tsur\t2\tbarres.", "value": "0.3", "difficulty": "C", "group": "1", "type": "gymnastic", "breakdown": {"draai": 360, "group": "elements in support or through support on 2 bars "}}, {"number": "1.107", "description": "Double salto fwd. p. to up. arm hang.| Doble mortal adelante en carpa al apoyo |braquial.|(Urzica)113.\tSalto\tav.\tavec\t1/1\tt.\t\u00e0\tl\u2019appui\tbrachial.", "value": "0.5", "difficulty": "E", "group": "1", "type": "gymnastic", "breakdown": {"draai": 360, "group": "elements in support or through support on 2 bars "}}, {"number": "2.14", "description": "Roll bwd to handstand with straight arms.|\t Rodar\tatr\u00e1s\tal\tapoyo\tinvertido\tcon\tbrazos\text.2.\t\u00c9tablissement en avant et passer les jambes en |arri\u00e8re\tl\u2019appui\trenvers\u00e9.", "value": "0.2", "difficulty": "B", "group": "2", "type": "gymnastic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "2.20", "description": "Salto bwd. with strad. cut to up. arm hang.| Salto atr\u00e1s pasando las piernas adelante al apoyo |braquial.21.\tRouler\tarri\u00e8re\tet\tpass.\tles\tjambes\tav.\t\u00e0\tl\u2019appui.\t", "value": "0.2", "difficulty": "B", "group": "2", "type": "gymnastic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "2.23", "description": "Roll bwd with salto bwd tuck to upper arm hang.| Rodar atr\u00e1s y mortal atr\u00e1s agrupado al apoyo |braquial.24.\tRouler arri\u00e8re et salto arri\u00e8re carp\u00e9 \u00e0 l\u2019appui |brachial.", "value": "0.5", "difficulty": "E", "group": "2", "type": "gymnastic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "2.19", "description": "Fwd. uprise to Makuts to support.|\t Dominaci\u00f3n\tadelante\tcon\tMakuts\tal\tapoyo.", "value": "0.1", "difficulty": "A", "group": "2", "type": "gymnastic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "2.15", "description": "Back toss from upper arm with 1/4 turn to one rail.|\t Rodar\tatr\u00e1s\tdesde\tbraquial\tal\tap.\tinv.\tcon\t1/4\t|de\tgiro\ta\tuna\tbanda.|(Kovtun)suivi\telem.\ttype\tbascule\td\u2019\u00e9lan\tsur\tune\tbarre/follow. by glide |kip one rail type el./seguido\telem.\tdel\ttipo\tlarga\ten\tuna\tbanda6.\t \u00c9tabl.\tavant\tavec\t3/4\tt.\tou\t1/4\tt.\u00e0\tl\u2019appui\trenv.", "value": "0.3", "difficulty": "C", "group": "2", "type": "gymnastic", "breakdown": {"draai": 270, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "2.46", "description": "Bwd. uprise and salto fwd. p. or straight to sup.|\t Dominaci\u00f3n\tat.\ty\tmortal\tad.\ten\tcarpa\to\textendido\t|al\tapoyo.45.\t\u00c9tablissement \tarri\u00e8re\tet\t5/4\tsalto\tavant\tgroup\u00e9,\t|carp\u00e9\t\u00e0\tl\u2019appui\tbrachial.", "value": "0.4", "difficulty": "D", "group": "2", "type": "gymnastic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "2.32", "description": "Bwd. uprise to handstand (or w. \u00bd t).| Dominaci\u00f3n atr\u00e1s al apoyo invertido (tambi\u00e9n |con\t\u00bd\tg.).33.\t\u00c9tablissement \tarri\u00e8re\tavec\t\u00bd\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\t|renvers\u00e9.", "value": "0.2", "difficulty": "B", "group": "2", "type": "gymnastic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "elements starting in upper arm position "}}, {"number": "3.68", "description": "Belle with 1/1 turn.|\t Belle\tcon\t1/1\tgiro.59.\tBelle\tcarp\u00e9.", "value": "0.2", "difficulty": "B", "group": "3", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.66", "description": "Giant swing bwd. with \u00bd t. and 3/2 salto fwd to up |arm hang.|\t Molino\tatr\u00e1s\tcon\t\u00bd\tg.\ty\t3/2\tmortal\tadelante\ta\t|braquial.65.\tGrand\ttour\tarri\u00e8re\tet\tsalto\tgroup\u00e9\tou\tcarp\u00e9\tavec\t|\u00bd\tt.\t\u00e0\tla\tsuspension.", "value": "0.6", "difficulty": "F", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.63", "description": "Giant swing bwd. and salto with \u00bd t to hang on |the end.|\t Molino\tatr\u00e1s\ty\tmortal\ten\tcarpa\tcon\t\u00bd\tg.\ta\tla\t|suspensi\u00f3n\tsobre\tel\textreme.64 Grand tour arri\u00e8re et salto group\u00e9 ou carp\u00e9 avec |\u00bd\tt.\t\u00e0\tl\u2019appui\tbrachial.", "value": "0.3", "difficulty": "C", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.75", "description": "Glide kip bwd. to hdst.|\t B\u00e1scula\tde\timpulso\tatr\u00e1s\tal\tapoyo\tinvertido.74.\tBascule\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.", "value": "0.3", "difficulty": "C", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.92", "description": "Glide kip through L-sit p. to hdst.|\t B\u00e1scula\tde\timpulso\tpor\tel\tlat.\tal\tap.\tinvertido.88.\tBascule\td\u2019\u00e9lan\tpar\tl\u2019\u00e9querre\tjambes\tserr\u00e9es\t\u00e0\t|l\u2019appui\trenvers\u00e9\tet\tsaut\tavec\t3/4\tt.\tou\tplus.|\t Glide\tkip\tthrough\tL-sit\tp.to\thdst.\tand\thop\twith\t|3/4\tt\tor\tmore.|\t B\u00e1scula\tde\timp.\tpor\tel\tlat.\tal\tapoyo\tinvertido\ty\t|salto.\t81.\tBascule\ten\tpassant\tles\tjambes\t\u00e9cart\u00e9es\ten\t|arri\u00e8re\t\u00e0\tla\tsuspension.", "value": "0.2", "difficulty": "B", "group": "3", "type": "acrobatic", "breakdown": {"draai": 270, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.73", "description": "Glide kip.|\t B\u00e1scula\tde\timpulso.|(Fokin)|(Esparza)", "value": "0.1", "difficulty": "A", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.120", "description": "Healy).| Basket to one rail hdst. (connected to Healy |type element ).|\t Felge\t al\tap.\tinv.\ten\tuna\tbanda\t(conectado a |elemento del tipo Healy ).118.111.\tBascule\t allemande\t avec\tpass.\tjambes\t\u00e9car-|t\u00e9es\ten\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9.| Cast to straddle cut backward to handstand.| Ballest\u00f3n alem\u00e1n pasando piernas abiertas |atr\u00e1s\tal\tapoyo\tinvertido.110.\t 109.| (Zhou Shixiong)(Teng Hai Bin)|(Chiarlo)(Arican)", "value": "0.7", "difficulty": "G", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.130", "description": "Shoot up with \u00bc t. to hdst.|\t Felge\ten\tuna\tbanda\tcon\t\u00bc\tg.\tal\tapoyo\tinv.131.\t \u00c9tablissement \tavant\ten\ttourn.\ten\tarri\u00e8re\tavec\t|\u00bd ou 3/4\tt.\t\u00e0\tl\u2019appui\trenvers\u00e9.", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": 270, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "3.124", "description": "Ga Ga 2126.\t \u00c9tablissement \tavant\ten\ttourn.\ten\tarri\u00e8re\tavec\t|salto\tarri\u00e8re\tcarpe\t\u00e0\tl\u2019appui\tbrachial.", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "long swings in hang en 1 or 2 bars and underswings "}}, {"number": "4.22", "description": "F|(Kan)24.\tDouble\tsalto\tavant\tgroup\u00e9\tavec\t1/1\tt.\t| Double salto fwd. tucked with 1/1 t.| Doble mortal adelante agrupado con 1/1\tg.", "value": "0.4", "difficulty": "D", "group": "4", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "dismounts "}}], "high bar": [{"number": "2.2", "description": "Back uprise and straddle over to hang rw.| Dominaci\u00f3n atr\u00e1s pasando las piernas abiertas |adelante\ta\tla\tsuspensi\u00f3n\tdorsal.3.\t\u00c9tabl.arr.\tet\tpoisson\t\u00e9cart\u00e9\tavec\t\u00bd\tt.\t\u00e0\tla\tsusp.\t|aussi avec \u00bd t", "value": "0.2", "difficulty": "B", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "flight elements "}}, {"number": "2.42", "description": "Salto fwd. straight with 1/1 t. also from el grip.|\t Mortal\tad.\text.\tcon\t1/1\tg.,\ttambi\u00e9n\tde\tcubital.(Balabanov)|(J\u00e4ger)(Winkler - Pogorelev)(Suarez)|(Xiao Ruizhi)", "value": "0.6", "difficulty": "F", "group": "2", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "strek", "richting": null}, "group": "flight elements "}}, {"number": "2.46", "description": "Swing fwd. and counter salto fwd. strad. to hg.|\t Impulso\tad.\ty\tcontrasalto\tad.\tp.\tab.\ta\tla\tsusp.", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "flight elements "}}, {"number": "2.28", "description": "Stalder or free hip circle bwd to Tkatchev |straddle, also with \u00bd t.|\t Impulso\tcirc.\tlibre\tat.,\tp.\tab.o\tgiro\tde\tapoyo\tcon\t", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "flight elements "}}, {"number": "2.57", "description": "Swing fwd. and salto bwd. piked w. \u00bd t. to hang.", "value": "0.3", "difficulty": "C", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hoek", "richting": null}, "group": "flight elements "}}, {"number": "2.71", "description": "Gaylord with 1/1 t.|\t Gaylord\tcon\t1/1\tg.|(Koudinov)", "value": "0.5", "difficulty": "E", "group": "2", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "flight elements "}}, {"number": "2.94", "description": "H(Bretschneider)", "value": "0.4", "difficulty": "D", "group": "2", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "flight elements "}}, {"number": "3.2", "description": "Kip to hdst. or from mixed grip to hdst.", "value": "0.2", "difficulty": "B", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}, {"number": "3.42", "description": "Stalder with hop 3/2 turn through hdst. in el-grip.", "value": "0.6", "difficulty": "F", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}, {"number": "3.48", "description": "Stalder with hop 3/2 turn through hdst. in mix |el-grip.", "value": "0.6", "difficulty": "F", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}, {"number": "3.70", "description": "Adler hop to hdst. in ungr. or ovgr. or mixed grip.", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}, {"number": "3.57", "description": "Stalder legs together with hop through hdst.", "value": "0.3", "difficulty": "C", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}, {"number": "3.59", "description": "Stoop circle rearward fwd. through hdst. |(Adler).|\t Adler\tpor\tel\tapoyo\tinvertido.65.\t\t\u00c9lan\tcirculaire\tAdler\tavec\t1/1\tt.\tpar\tl\u2019appui\t|renvers\u00e9\tavec\tprise\tpalmaire.", "value": "0.5", "difficulty": "E", "group": "3", "type": "acrobatic", "breakdown": {"draai": 360, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}, {"number": "3.100", "description": "Endo legs together in el-grip thr. hdst.", "value": "0.4", "difficulty": "D", "group": "3", "type": "acrobatic", "breakdown": {"draai": null, "salto": {"aantal": "enkel", "vorm": "hurk", "richting": null}, "group": "in bar and adler elements "}}]}
+{
+  "floor": [
+    {
+      "number": "1.37",
+      "description": " From L-sit, etc., turn over bwd. to stand.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.26",
+      "description": " Support scale (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.43",
+      "description": " Endo roll to handstand (2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.3825",
+      "description": " Support scale, legs straddle (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.32",
+      "description": " From straddled support scale (2 s.) press hdst. |(2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.45",
+      "description": " Endo roll piked to handstand (2 s.). (legs together)",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.61",
+      "description": "  Any standing scale (2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.67",
+      "description": " Jump bwd. to front support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.68",
+      "description": " Jump bwd. with pike-stretch or with 1/1 turn to |front support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.49",
+      "description": " Forward walkover.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.55",
+      "description": " Cross or side split (stop required).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.62",
+      "description": " Any standing scale with 180\u00b0  straddle, no hand |hold (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.86",
+      "description": " Lower from hdst. to flair or circle.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.95",
+      "description": " Flair hopping with 360\u00b0 t. bwd. thr. hdst and |back to flair (2 hops). ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.79",
+      "description": " 1 circle or flair.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.80",
+      "description": " Circles or flair to handstand.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.81",
+      "description": " Flair or circle to hdst. continue to flair or circle.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.91",
+      "description": " Flair with \u00bd spindle.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.98",
+      "description": " Flair with \u00bd spindle to handstand.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.104",
+      "description": " Russian wendeswing with 720\u00b0 or 900 \u00b0.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.110",
+      "description": " Roll bwd. with hop 1/1 t. through hdst. ",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.100",
+      "description": " Flair with > 270\u00ba spindle (in 2 circles) directly |to handstand and continue to circle or flair.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.109",
+      "description": " Roll bwd. through hdst. with \u00bd t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "2.7",
+      "description": "Dive roll.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": "Forward handspring or fl  yspring.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.14",
+      "description": "Salto fwd. straight, also with \u00bd t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.4",
+      "description": "Handspring salto fwd. tuck.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.16",
+      "description": "Double salto fwd. tucked, also with \u00bd t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.20224828",
+      "description": "Salto fwd. str. with 2/1 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.46",
+      "description": "Jump fwd. with \u00bd t. to dbl. salto bwd. t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.43",
+      "description": "Double salto fwd. str. with 3/2 turn.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.26",
+      "description": "Salto fwd. str. with 3/1 t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.38",
+      "description": "Salto fwd. t. or p. to front support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.44",
+      "description": "G|(Deferr)|(Zapata)|(Zapata 2)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": " Salto backwards str. or Tempo salto bwd.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.9",
+      "description": " Double salto bwd. t. or piked with 1/1 t. Also ",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.12",
+      "description": " Double salto bwd. tucked with 5/2 \tt.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.16",
+      "description": " Arabian double tucked or piked or double salto |bwd. t. or p. with \u00bd t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.24",
+      "description": " Triple salto bwd. piked.",
+      "value": "0.9",
+      "difficulty": "I",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.18",
+      "description": " Triple salto bwd. tucked.",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": " Salto backwards str. w. \u00bd t. or 1/1 t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.14",
+      "description": " 13.\tRenversement\tarri\u00e8re.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.20",
+      "description": "Aussi/Also/Tambi\u00e9n Korosteljev|(Nagornyy)",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": " Salto bwd. str. with 7/2 t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": " Salto bwd. str. with 2/1 t and salto bwd piked.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.46",
+      "description": " Double salto bwd. straight.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.41",
+      "description": " Double salto straddled with 1/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.28",
+      "description": " Salto bwd. str. with 5/2 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.34",
+      "description": " Salto bwd. str. with 3/1 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.48",
+      "description": " Double salto bwd. str. with 3/2 t. or arabian ",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.71",
+      "description": " Double salto bwd. straight with 1/1 t. or arabian ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.59",
+      "description": " 60.\tDouble\tsalto\tarri\u00e8re\tt.\tavec\t5/2\tt.\t",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.66",
+      "description": " Double salto bwd. str. with 3/1 t. ",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.72",
+      "description": " Double salto bwd. str. with 2/1 t. ",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    }
+  ],
+  "rings": [
+    {
+      "number": "1.25",
+      "description": " Dislocate bwd. piked or straight.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.33",
+      "description": " Uprise bwd. str. through handstand.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.37",
+      "description": " Inlocate piked or straight.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.38",
+      "description": " Backward swing to salto fwd. piked to support .",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.44",
+      "description": " Double salto fwd. tucked to hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.31",
+      "description": " Uprise bwd. to support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.43",
+      "description": " Slow inlocate from hang.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.39",
+      "description": " Honma straight.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.49",
+      "description": " Kip to support. ",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.55",
+      "description": " Back kip with bent arms to support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.56",
+      "description": " Back kip to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.61",
+      "description": " Fwd. swing to swing bwd. in hang.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.62",
+      "description": " Uprise bwd. to straddled L-sit (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.67",
+      "description": " From support or cross, felge bwd. piked or |straight with bent arms to support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.63",
+      "description": " Bwd. swing, salto piked to support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.81",
+      "description": " Uprise bwd. or giant swing to handstand (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.87",
+      "description": " Honma and swing bwd. to handstand (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.75",
+      "description": " Swing bwd. or giant swing fwd to hdst. (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.86",
+      "description": " From support swing bwd. to handstand (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": " L-sit (2 s.) or straddled L-sit (2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.9",
+      "description": " Support scale (planche)(2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.13",
+      "description": " Hanging scale frontways (front lever) (2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.14",
+      "description": " Any cross (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.8",
+      "description": " V-sit (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.15",
+      "description": " V cross (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.22",
+      "description": " V Cross, press to V-sit (2 sec.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.23",
+      "description": " Vertical pull up with str. arms to V-cross (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.4",
+      "description": " Press from inverted cross to handstand (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.19",
+      "description": " Support scale straddled (2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.25",
+      "description": " Press to hdst. with bent body and bent arms (2 s).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.27",
+      "description": " Press to hdst. with str. body and str. arms or |from sup. lever (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.28",
+      "description": " Press to hdst. with str. body and str. arms from |swallow (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.31",
+      "description": " Slow roll fwd. piked with bent arms, to support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.32",
+      "description": " Slow roll fwd. straight with bent arms, to sup -|port.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.39",
+      "description": " Slow roll fwd. straight to cross or L-cross (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.46",
+      "description": " 48.26.\t S\u2019\u00e9lev.\t corps\tt.\tet\tbras\tfl.\tou\tcorps\tfl.\tet\tbras\tt.\t|ou\tde\tl\u2019app.\tfac.\thoriz.\t\u00e9c.\t\u00e0\tl\u2019app.\trenv.\t(2\ts.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.34",
+      "description": " Slow roll fwd. straight to inverted cross (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.42",
+      "description": " Slow roll bwd. slowly and straight. body to L sit |(2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.52",
+      "description": " Slow Roll bwd. with straight  body to cross or ",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.58",
+      "description": "From or through hanging scale rearways, pull |to cross or L-cross (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.50",
+      "description": "Vertical pull up with bent arms to hanging scale |rearways (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.51",
+      "description": "Vertical pull up with straight arms to hanging |scale rearways (2 s.) .",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.56",
+      "description": " Fr. cross or L-cr., move fwd. to back lever (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.62",
+      "description": "From hdst., lower horiz. to back lever (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.57",
+      "description": "Vertical pull up to L-sit (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.68",
+      "description": " From handstand, lower slowly through inverted |cross to inverted hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.70",
+      "description": "From swallow, press to support scale (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.72",
+      "description": "From hanging scale rw. press to swallow (also |to Support Scale) (2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.71",
+      "description": "From swallow, lower slowly to hanging scale, |press to swallow (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.67",
+      "description": " Nakayama to V cross (2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.66",
+      "description": "From hang vertical pull up, slowly with straight |arms through cross to inverted swallow (2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.53",
+      "description": "Azarian to V Cross (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.60",
+      "description": "Through hanging scale rearways (no hold re-|quired) pull with str. body through cross to inv. |swallow (2 s.). ",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.75",
+      "description": " From cross or L-cross, press to L-sit (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.82",
+      "description": " From support lever, press to  inverted cross (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.89",
+      "description": " From cross, press to swallow (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.87",
+      "description": " From cross, press to planche without first going |to support (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.95",
+      "description": " From inverted cross lower slowly to inverted |hang and felge bwd. slowly to swallow (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.96",
+      "description": " From inverted cross lower slowly to inverted |hang and felge bwd. slowly to cross (2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.106",
+      "description": "Slow Roll bwd. with str. body to swallow (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.101",
+      "description": "Roll bwd. slowly with str. arms and body to free |sup. scale (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.118",
+      "description": " Slow roll fwd. with straight body through cross |and press to support scale without fi  rst going |to support (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.130",
+      "description": "From hang vertical pull up support and press |to hdst. with straight body and straight arms..",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.126",
+      "description": "Through hang rearways press and straight body |to inverted cross (2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.132",
+      "description": "From hang vertical pull up to inv.\tcross\t(2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.141",
+      "description": " Slow roll forward with straight body through |cross\tto\tswallow\t(2\tsec).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.137",
+      "description": "From hang vertical pull up thr.\tswallow\tto\tsup.\t|scale (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.3",
+      "description": " Uprise fwd. to V-sit (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": " Uprise fwd. to L-sit, (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.14",
+      "description": " Backward swing to salto fwd. p. to L-sit (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": " Kip to L-sit (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.9",
+      "description": " Kip to V-sit (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.17",
+      "description": " Honma to V cross (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.16",
+      "description": " Honma to cross / L-cross (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.22",
+      "description": " Bwd. swing, salto fwd p. to cross or L- cross (2 s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.33",
+      "description": " Uprise bwd. to cross or L-cross (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": " Kip to inverted swallow (2 s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.45",
+      "description": " Back kip to cross or L-cross (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.47",
+      "description": " Back kip to swallow (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.35",
+      "description": " Uprise bwd. to V cross (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.57",
+      "description": " Felge upward to cross or L-cross (2 s.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.53",
+      "description": " Back kip to inverted cross (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.69",
+      "description": " 70.\t\u00c9tablissement.\t en\tarri\u00e8re\t\u00e0\tl\u2019appui\tfacial\thori-|zontal\t(2\ts.).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.68",
+      "description": " Uprise bwd. to support scale straddled (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.65",
+      "description": " Felge upward to invert. cross  (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.56",
+      "description": " Felge upward to support scale straddled (2 s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.59",
+      "description": " Felge upward to Swallow (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.83",
+      "description": "Uprise bwd. to inverted cross (2 s.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.88",
+      "description": "Felge bwd. straight to free sup. scale. (2 s.)",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.1",
+      "description": " Salto fwd. piked or straight, also with \u00bd t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.2",
+      "description": " Salto fwd. piked or straight with 1/1 t. ",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.3",
+      "description": " Salto fwd. piked or straight with 3/2 t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": " Double salto fwd. tucked or tucked with \u00bd t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.10",
+      "description": " Double salto fwd. tucked with 3/2 t (also 1/1 t.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": " Double salto fwd. piked or piked with \u00bd t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.17",
+      "description": " Double salto fwd. piked with 3/2 t. (also 1/1 t.).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.23",
+      "description": " Salto fwd. piked or straight with 2/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.25",
+      "description": " Salto bwd. piked or straight also with \u00bd.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.32",
+      "description": " Double salto bwd. tucked or piked.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.33",
+      "description": " Double salto bwd. straight.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.45",
+      "description": " Double salto bwd. t. with \u00bd or 1/1 t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.36",
+      "description": " Triple salto bwd. tucked.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.46",
+      "description": " Double salto bwd. t. with 3/2 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.47",
+      "description": " Double salto bwd. t. with 2/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.44",
+      "description": "G|(Tuuha)42.\tTriple\tsalto\tarri\u00e8re\tcarp\u00e9.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.66",
+      "description": " Salto bwd. str. with 1/1 t. and salto t.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    }
+  ],
+  "pommel horse": [
+    {
+      "number": "1.20226544",
+      "description": " Scissor bwd.with hop swd.(also with \u00bd t.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.27",
+      "description": " Scissor bwd. with hop swd. from one end to the |other (1-2\tto\t4-5).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.32",
+      "description": " Double scissor bwd. (\u00bc t. fwd. a. \u00bc t. bwd).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.38",
+      "description": " Leg cut or undercut bwd. through hdst. and |lower to support w. strad. legs.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": " Any circle or flair in side support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.8",
+      "description": " Circle with support outside pommels or between |the pommels in side support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.13",
+      "description": " Circles in cross support frontways on end.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.19",
+      "description": " Circles in cross support rearways on end.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.37",
+      "description": " Any 1/1 spindle within max. 2 circles on the end.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.44",
+      "description": "Flair with hop travel bwd. through hdst. and lower |to circles or fl  airs.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.35",
+      "description": "Cross support, 1/1 spindle with hands between the |pommels max. 2 circles. ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.47",
+      "description": "Any 1/1 spindle with both pommels between the |hands (fl  air or circle). ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.39",
+      "description": "Flair or circle through hdst. (with or without \u00bd |t.) and lower to fl  air or circle.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.41",
+      "description": " 1/1 spindle w. legs straddle or together on the |pommels inside max. 2 circles. ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.6849",
+      "description": " Direct St\u00f6ckli A (DSA) outside pommels.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.55",
+      "description": "Direct St\u00f6ckli B (DSB).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.62",
+      "description": "Kehr with 1/1 turn on 1 pommel.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.64",
+      "description": "Direct St\u00f6ckli A (DSA). on the pommels or pom-|mel between hands.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.61",
+      "description": "Double rear (kehr).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.69",
+      "description": "Kehr with 270\u00ba t. on 1 p. (Sohn technique) from |side to cross support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.20226973",
+      "description": " Direct Tramlot.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.79",
+      "description": " Wendeswing fwd. w. \u00bd t. to sup. fw. on the end, |from side support using 1 or 2 pommels.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.85",
+      "description": " Czechkehre outside p. ",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.92",
+      "description": " Czechkehre on the pommels or pommel be-|tween hands.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.91",
+      "description": " Schwabenflank.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.20227097",
+      "description": " Russian wendeswing with 180 \u00b0 or\t270\u00b0.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.103",
+      "description": "270\u00b0,\taussi\tavec\ttransport.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.109",
+      "description": " Russian wendeswing with 180\u00b0 or 270\u00b0 on 1 |p. or between the pommels.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2022713",
+      "description": " Any travel in side support (3/3), hands between |pommels.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.10",
+      "description": " From side sup. on one end, travel hop over both |p. to side sup. on other end (1-2 to 4-5).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": " Circles with any travel in side support (3/3).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": " Circles with any hop travel. in side support (1/3).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.17",
+      "description": " From side sup. beside the p., travel hop o. 2 p. |to sup. fwd on other end (1-1 to 5-5).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.21",
+      "description": " All travels with \u00bd spindle in cross support (\u00bd |or 2/3 travel).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.43",
+      "description": "Fr. cr. sup. on end, tr. fwd. in 2 circles to 1st p., to ",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.47",
+      "description": "Travel fwd. or bwd. with \u00bc spindle to side support.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.29",
+      "description": "Travel 3/3 over both pommels with \u00bd Spindle.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.35",
+      "description": " Any 3/3 travel in fl  airs with 1/1 Spindle inside 2 |circles.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.41",
+      "description": "Travel forward in cross support over both pom-|mels.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": "3/3 cross support travel fwd. with hop. ",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": "Travel fwd. in cross support (\u00bd or 2/3).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.56",
+      "description": "Travel bwd. in cross sup with support on leather, |pommel, pommel, leather(3/3) (5-4-2-1).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.57",
+      "description": "From support on end, kehr fwd. around 1st p., rev. ",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.53",
+      "description": "Travel backward in cross support over both |pommels. ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.62",
+      "description": "Travel bwd. in cross sup. from one horse part |or pommel to another (\u2153).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.64",
+      "description": "Kehre bwd., kehre fwd., kehre bwd.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.58",
+      "description": "Kehre fwd., rev. St\u00f6ckli, kehre fwd.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.70",
+      "description": "From sup. on end, Russian wendeswing fwd. to |other end without sup. on or btw. the p. (side to |side support, side to cross, cross to side, cross |to cross).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.7473",
+      "description": "Any 3/3 travel in Russian type wendeswing with ",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.88",
+      "description": " Reverse St\u00f6ckli from cross support on one end |to the other.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.91",
+      "description": "Reverse St\u00f6ckli from cross support on end to |the far pommel",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.1",
+      "description": "Wende (from circle or fl  air).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": "On the end, Russian wend. with 720\u00b0 or\t900\u00b0.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.14",
+      "description": " Fr. s. sup. fw., wendeswing fwd. w. \u00bd t. to sup. |fw. followed by Schwabenfl  ank a. wende off.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.20",
+      "description": "Circle or fl  air through hdst. (also with \u00be t. with |or without travel).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": "DSA or rev. St\u00f6ckli  with hop bwd. through hdst. |on\tother\tend.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.3",
+      "description": "DSA to hdst. 3/3 with 450\u00ba or more turn.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.24",
+      "description": "DSA, rev. St\u00f6ckli or circle on one pommel |through hdst.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.22",
+      "description": "180\u00b0 Russian from one end of the horse to the |other end through Handstand to dismount",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    }
+  ],
+  "vault": [
+    {
+      "number": "1.131",
+      "description": " Kasamatsu str. with 3/2 t. ",
+      "value": 5.2,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.125",
+      "description": " Kasamatsu str. with \u00bd t. or Tsukahara str. w. 3/2 t.",
+      "value": 4.4,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.126",
+      "description": " Kasamatsu str. w. 1/1 t. or Tsukahara str. w. 2/1 t.",
+      "value": 4.8,
+      "difficulty": "F",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.132",
+      "description": " Kasamatsu str. with 2/1 t.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.133",
+      "description": " Kasamatsu str. with 5/2 t. or Tsukahara st. with ",
+      "value": 6.0,
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.219",
+      "description": " Handspring fwd. and salto fwd. str.",
+      "value": 3.6,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.220",
+      "description": " Hdspr. fwd. and salto fwd. str. w. \u00bd t. (Cuervo |str.).",
+      "value": 4.0,
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.207",
+      "description": " Handspring fwd. and salto fwd. t.",
+      "value": 2.4,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.208",
+      "description": " Hdspr. fwd. and salto fwd. t. w. \u00bd t. (or Cuervo t.).",
+      "value": 2.8,
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.213",
+      "description": " Handspring fwd. and salto fwd. piked.",
+      "value": 2.8,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.214",
+      "description": " Hdspr. fwd. and salto fwd. p. w. \u00bd t. (Cuervo p.).",
+      "value": 3.2,
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.201",
+      "description": " Forward handspring.",
+      "value": 1.6,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.204",
+      "description": " Forward handspring with 3/2 t.",
+      "value": 2.2,
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.205",
+      "description": " Forward handspring with 2/1 t.",
+      "value": 2.4,
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.206",
+      "description": " Forward handspring with 5/2 t.",
+      "value": 2.6,
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.225",
+      "description": " Handspring fwd. and dbl. salto fwd. t.",
+      "value": 5.2,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.228",
+      "description": " Handspring fwd. and salto fwd. t. w. \u00bd t. and |salto bwd. t.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.231",
+      "description": " Handspring fwd. and dbl. salto fwd. piked.",
+      "value": 5.6,
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "3.309",
+      "description": " Tsukahara t. with \u00bd t.",
+      "value": 2.4,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.308",
+      "description": " Tsukahara piked.",
+      "value": 2.4,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.307",
+      "description": " Handspring sw. w. \u00bc t. a. salto bwd. t.",
+      "value": 2.2,
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.313",
+      "description": " Tsukahara straight.",
+      "value": 3.2,
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.314",
+      "description": " Tsukahara str. with \u00bd t. ",
+      "value": 3.6,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.315",
+      "description": " Tsukahara str. w. 1/1 t. or\tKasamatsu\tstr.",
+      "value": 4.0,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.321",
+      "description": " Double Tsukahara with 1/1 twist.",
+      "value": 6.0,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.320",
+      "description": " Tsukahara with salto bwd. piked.",
+      "value": 5.6,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.301",
+      "description": " Handspring sw. with \u00bc t.",
+      "value": 1.6,
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.302",
+      "description": " Handspring sw. with 3/4 t.",
+      "value": 1.8,
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.303",
+      "description": " Handspring sw. with 5/4 t.",
+      "value": 2.0,
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.401",
+      "description": "Round off, handspring bwd.",
+      "value": 1.6,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.410",
+      "description": " Yurchenko t. with 3/2 t.",
+      "value": 3.2,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.413",
+      "description": "Yurchenko piked.",
+      "value": 2.4,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.407",
+      "description": "Round off, hdspr. bwd. and salto bwd. t.",
+      "value": 2.2,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.414",
+      "description": "Yurchenko straight.",
+      "value": 3.2,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.415",
+      "description": "Yurchenko straight with \u00bd t.",
+      "value": 3.6,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.416",
+      "description": "Yurchenko straight with 1/1 t.",
+      "value": 4.0,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.417",
+      "description": "Yurchenko straight with 3/2 t.",
+      "value": 4.4,
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.418",
+      "description": "Yurchenko straight with 2/1 t.",
+      "value": 4.8,
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.419",
+      "description": "Yurchenko straight with 5/2 t.",
+      "value": 5.2,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.420",
+      "description": "\t Yurchenko\tStraight\t3/1\tt.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.421",
+      "description": "\t Yurchenko\tStraight\t7/2\tt.",
+      "value": 6.0,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.437",
+      "description": " Round off, \u00bd t. a. hdspr. fwd. and salto fwd. p.",
+      "value": 3.0,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.439",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |str.",
+      "value": 3.8,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.440",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |str. with \u00bd t.",
+      "value": 4.2,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.438",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |p. with \u00bd t.",
+      "value": 3.4,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.444",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |str. with 5/2 t.",
+      "value": 5.8,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.443",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |straight with 2/1 t.",
+      "value": 5.4,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.442",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |straight with 3/2 t.",
+      "value": 5.0,
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.431",
+      "description": "\t Round\toff,\t\u00bd\tt.\tand\thandspring\tfwd.",
+      "value": 1.8,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.432",
+      "description": " Round off, \u00bd t. and hdspr. fwd. with \u00bd t.",
+      "value": 2.0,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.434",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |tucked.",
+      "value": 2.6,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.433",
+      "description": " Round off, \u00bd t. and hdspr. fwd. with 1/1 t.",
+      "value": 2.2,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.435",
+      "description": " Round off, \u00bd t. and hdspr. fwd. and salto fwd. |tucked with \u00bd t.",
+      "value": 3.0,
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.425",
+      "description": " Yurchenko and salto bwd. t.",
+      "value": 5.2,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.426",
+      "description": " Melissanidis piked.",
+      "value": 5.6,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.467",
+      "description": "\tsaut",
+      "value": 3.8,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.468",
+      "description": "\t|avec",
+      "value": 4.2,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.470",
+      "description": "Scherbo with 3/2 t.",
+      "value": 5.0,
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.469",
+      "description": "Scherbo with 1/1 t.",
+      "value": 4.6,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.472",
+      "description": "Scherbo with 5/2 t.",
+      "value": 5.8,
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.471",
+      "description": "Scherbo with 2/1 t.",
+      "value": 5.4,
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.461",
+      "description": "\tsaut",
+      "value": 3.4,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.462",
+      "description": "\tarri\u00e8re\tet",
+      "value": 3.8,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.457",
+      "description": "\t|arri\u00e8re",
+      "value": 2.6,
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.460",
+      "description": "\t|arri\u00e8re",
+      "value": 3.0,
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.459",
+      "description": "\t|arri\u00e8re",
+      "value": 3.0,
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.455",
+      "description": "\t|arri\u00e8re.",
+      "value": 2.2,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.456",
+      "description": "\t|arri\u00e8re",
+      "value": 2.4,
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.449",
+      "description": "\t|avant",
+      "value": 5.4,
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    }
+  ],
+  "parallel bars": [
+    {
+      "number": "1.27",
+      "description": "Healy\t\u00e0\tl\u2019appui.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.33",
+      "description": "1\tbarre.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.32",
+      "description": "Swing fwd. to hdst., hop to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.34",
+      "description": "Salto backward with straddle cut to support.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.26",
+      "description": "Any press w. bent arm str. body, or str. arm bent |body to hdst., on 1 or 2 rails (2 s.) also straddled.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.43",
+      "description": " Double salto backwards with half turn to upper arm.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.28",
+      "description": " Swing forward with 5/4 t. on one arm through-|hdst. and healy to up. arm.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.40",
+      "description": "Salto bwd to handstand 1 rail (connected to ",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.45",
+      "description": "Salto bwd. with \u00bd t. to up. arm hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.47",
+      "description": "Double salto p. to up. arm hang.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.52",
+      "description": "3/2 salto bwd. with \u00bd t. to up. arm hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.62",
+      "description": "St\u00fctzkehr bwd. to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.63",
+      "description": "St\u00fctzkehr bwd. through hdst. to support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.68",
+      "description": " Healy to upper arm hang (also from hdst. on ",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.69",
+      "description": "Following a swing element (min. B) to hdst., |hdst. on 1 rail, Healy to upper arm hang .",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.57",
+      "description": "St\u00fctzkehr bwd. with straddle cut bwd. to sup.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.71",
+      "description": "Following a swing element (min. B) to hdst on ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.83",
+      "description": "Swing bwd. with \u00bd t. hop to hdst.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.79",
+      "description": "Any hdst. with \u00bd turn. (also with 2 s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.85",
+      "description": " 86.\tDe\tl\u2019appui\trenvers\u00e9\tsur\t1.\tbarre,\t\u00bd\tou\t\u00be\tt.\tavant\t|ou\tarri\u00e8re\ten\tappui\trenvers\u00e9.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.93",
+      "description": "From hdst., salto fwd to support or from hdsd. |with rotated grip, inlocate to support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.95",
+      "description": "5/4 salto fwd. strad. directly to hang.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.99",
+      "description": "Salto fwd to support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.98",
+      "description": "5/4 salto fwd. t. or p. to upper arm hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.100",
+      "description": "5/4 salto fwd. straddled to up. arm hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.104",
+      "description": "Salto fwd. t. or p. with \u00bc t. to hang on 1 rail.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.105",
+      "description": "Salto fwd. piked. to hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.106",
+      "description": "Double salto fwd. t. to up. arm hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.107",
+      "description": "Double salto fwd. p. to up. arm hang.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.7",
+      "description": "Fwd. uprise with \u00bc t. to hang on 1 rail.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.8",
+      "description": "Roll bwd. with \u00bd t. from up. arm. hang or Fwd.  |uprise to Kato hop to sup.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.14",
+      "description": "Roll bwd to handstand with straight arms.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.20",
+      "description": "Salto bwd. with strad. cut to up. arm hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.1",
+      "description": "Forward uprise to support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.23",
+      "description": "Roll bwd with salto bwd tuck to upper arm hang.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.18",
+      "description": "Fwd. uprise with 3/2 t. to handstand.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.19",
+      "description": "Fwd. uprise to Makuts to support.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.17",
+      "description": "Fwd. uprise with 1/1 t. to handstand.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.5",
+      "description": "Fwd. uprise with \u00bd t. to handstand.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.3",
+      "description": "Fwd. uprise and straddle cut bwd to hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.15",
+      "description": "Back toss from upper arm with 1/4 turn to one rail.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.43",
+      "description": "Roll bwd. with \u00bd t. tuck to hang.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.44",
+      "description": "Bwd. uprise with \u00bd t. to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.46",
+      "description": "Bwd. uprise and salto fwd. p. or straight to sup.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.38",
+      "description": " Bwd. uprise with \u00bd t. and straddle cut bwd to |upper arm hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.39",
+      "description": "Bwd. uprise with \u00bd t. a. strad. cut bwd. to sup.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.32",
+      "description": "Bwd. uprise to handstand (or w. \u00bd t).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.34",
+      "description": "Bwd. uprise with \u00be t. hop to hdst. on 1 rail.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.28",
+      "description": "Roll bwd. with \u00bd t. tuck to upper arm hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.54",
+      "description": "Bwd.\tuprise\tand\t5/4\tsalto\tfwd.\tstraddled\tto\t \t|hang.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.72",
+      "description": " 53.\t\u00c9tablissement \tarri\u00e8re\tet\t5/4\tsalto\tav.\t\u00e9cart\u00e9\t\u00e0\t|l\u2019appui\tbrachial.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "2.56",
+      "description": " Bwd. uprise and strad. cut or fl  ank over to sup. |str.\tarm.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "gymnastic"
+    },
+    {
+      "number": "3.15",
+      "description": " Moy to support str. legs (also without grip |release).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.3",
+      "description": " Swing forward, straddle cut backward, and regrasp |with straight body at horizontal to bent and upper arm.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.9",
+      "description": " Moy piked with 1/1 t. to up. arm hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.21",
+      "description": " Giant swing bwd. to hdst. or with inlocation fwd. |(also with \u00bc or \u00bd turn and to one rail).  ",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.10",
+      "description": " Moy and salto fwd. t., p. or strad. to upper arm |hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.22",
+      "description": " Giant swing bwd. to hdst. on one rail ( connected to ",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": " Moy piked with stradd. cut bwd. and \u00bd t. to up. |arm hang (also legs together).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.14",
+      "description": " Moy to support bent legs (also without grip |release).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": " Swing down with salto bwd. str. to hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.30",
+      "description": " Giant swg. Diamidov with \u00bc or \u00bd t. to hdst.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.46",
+      "description": " Giant swing bwd. with Makuts to upper hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.48",
+      "description": " Giant swing bwd. with Makuts.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.39",
+      "description": " Giant swing bwd. with \u00bd t. to up. arm hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.51",
+      "description": "Giant swing bwd. with straddle cut to support or |bent arms support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.53",
+      "description": "Giant swing bwd. with \u00bd t. and str. cut bwd. to |up. arms.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.68",
+      "description": "Belle with 1/1 turn.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.66",
+      "description": "Giant swing bwd. with \u00bd t. and 3/2 salto fwd to up |arm hang.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.67",
+      "description": "Giant swing bwd. and salto with \u00bd t. to support. ",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.63",
+      "description": "Giant swing bwd. and salto with \u00bd t to hang on |the end.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.75",
+      "description": "Glide kip bwd. to hdst.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.86",
+      "description": "Glide kip one rail through L-sit strad. to hdst.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.92",
+      "description": " Glide kip through V-sit and hop \u00bd turn to hang |on\tother\trail.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.73",
+      "description": "Glide kip.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.98",
+      "description": " Cast to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.97",
+      "description": " Cast to upper arm hang.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.99",
+      "description": " Felge with \u00bd t. to upper arm hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.100",
+      "description": " Felge with \u00bd t. to rear support.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.104",
+      "description": " Cast with \u00bd t. to up. arm hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.116",
+      "description": " Basket to support",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.117",
+      "description": " Basket with immed. straddle cut to support.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.113",
+      "description": " Basket with 5/4 t. to handstand.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.120",
+      "description": " Basket through handstand to Makuts.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.128",
+      "description": " Basket forward with \u00bd t. to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.123",
+      "description": " Basket roll backward with tuck salto \u00bd to upper |arm hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.130",
+      "description": "Shoot up with \u00bc t. to hdst.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.125",
+      "description": "Basket with salto bwd t. to up. arm hang.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.134",
+      "description": "Basket forward to support.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.124",
+      "description": " Basket roll backward with str. salto \u00bd to upper |arm hang.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.137",
+      "description": "Shoot up to handstand and fall back to support |with \u00bc turn.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.1",
+      "description": " Salto fwd. piked or straight also with \u00bd t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.2",
+      "description": " 3.\tSalto\tavant\tcarp\u00e9\tou\ttendu\tavec\t1/1\tou\t3/2\tt.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": " Double salto fwd. t. from end.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.5",
+      "description": " Double salto fwd. t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": " Salto fwd. piked or str. with 2/1 or 5/2 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.17",
+      "description": " Double salto fwd. piked with \u00bd t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.6",
+      "description": " Double salto fwd. piked.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.19",
+      "description": " Salto bwd. piked or str., also with \u00bd t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.20",
+      "description": " Salto bwd. piked or str. with 1/1 or 3/2 t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.22",
+      "description": " Salto bwd. str. with 2/1 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.41",
+      "description": " Double salto bwd. t. with \u00bd t. or salto bwd. \u00bd t. |to salto fwd. tucked. ",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.45",
+      "description": " From hang on end, double salto bwd. t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.32",
+      "description": " Double salto bwd. t. from end.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.33",
+      "description": " Double salto bwd. t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.34",
+      "description": " Double salto bwd. pike.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.28",
+      "description": " High wende and salto bwd tuck or p.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.48",
+      "description": " From hang on end, dbl. salto bwd. t. with 2/1 t.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.47",
+      "description": " From hang on end, dbl. salto bwd. t. with 1/1 or |\u00bd t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    }
+  ],
+  "high bar": [
+    {
+      "number": "1.26",
+      "description": " Giant swing fwd. with one arm in ungr. (360\u00b0).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.44",
+      "description": " Flying giant swing bwd.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.43",
+      "description": " Giant swing bwd. with hop to undergrip.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.32",
+      "description": " One arm giant swing bwd. (360 \u00b0).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.202214156",
+      "description": " Giant swing bwd. with \u00bd t. to el-grip.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.50",
+      "description": " Giant swing bwd. with hop \u00bd t. to el-grip.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.62",
+      "description": " Long swing fwd. with hop to el-grip. ",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.68",
+      "description": " El-grip giant swing.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.69",
+      "description": "\t Giant\tswing\trearways\tfwd.\t(Russian\tgiant).",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.70",
+      "description": " Giant swing rw. bwd. (Czech giant swing).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.75",
+      "description": " Elgrip giant swg. with 1/1 t. thr. hdst. in mx. gr.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.73",
+      "description": " Giant swing bwd. with inlocation during swing |and dislocate to hdst.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.2",
+      "description": "Back uprise and straddle over to hang rw.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.9",
+      "description": " Markelov str. with legs together .also with \u00bd t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.6",
+      "description": "Back uprise and hecht straight with 3/2 t. to hang.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.23",
+      "description": "Tkatchev straddled \u00bd t. to double elgrip.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.21",
+      "description": " Swing fwd. and vault bwd. piked  to hang, also with \u00bd t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.16",
+      "description": "Tkatchev straight, also with \u00bd t. to mix el-grip |into back uprise to hdst.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.17",
+      "description": " 18.\tTkatchev\ttendu\tavec\t1/1\tt.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.14432",
+      "description": "Back uprise and rear vault with \u00bc t. to hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.36",
+      "description": "\t Piatti\tstraight\twith\t1/1\tturn.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.39",
+      "description": "Swing bwd. and salto fwd. t., p. or strad. to hg. |also from el-grip.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.40",
+      "description": "Salto fwd. straight, also from el-grip.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.35",
+      "description": "Piatti piked.also w. .\u00bd t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.42",
+      "description": "Salto fwd. straight with 1/1 t. also from el grip.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.48",
+      "description": "Salto fwd. straight with 2/1 t. also from el grip.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.46",
+      "description": "Swing fwd. and counter salto fwd. strad. to hg.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.45",
+      "description": "Czech giant and vault bwd. strad. to hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.26",
+      "description": "Back uprise and piked vault with \u00bd t. to hang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.28",
+      "description": "Stalder or free hip circle bwd to Tkatchev |straddle, also with \u00bd t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.57",
+      "description": "Swing fwd. and salto bwd. piked w. \u00bd t. to hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.66",
+      "description": "Gaylord with \u00bd t.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.71",
+      "description": "Gaylord with 1/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.60",
+      "description": "Swing fwd. and salto bwd. w. 3/2 t. to hang.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.64",
+      "description": " Salto fwd, tuck or strad. over the bar, also from el-grip.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.51",
+      "description": "Swing fwd. \u00bd t. to salto fwd. strad. to hang.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.202214682",
+      "description": " Salto bwd. \u00bd t. tucked over the bar.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.89",
+      "description": " Kovacs with 1/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.95",
+      "description": " Kovacs piked or straight.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.83",
+      "description": " Salto bwd. \u00bd t. piked over the bar.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.94",
+      "description": " Kovacs straight or piked with 1/1 turn.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.90",
+      "description": " Kovacs with 2/1 t.",
+      "value": "0.8",
+      "difficulty": "H",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.108",
+      "description": " Kovacs with 3/2 t. to mix grip.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.102",
+      "description": " Kovacs straight with 2/1 turn.",
+      "value": "0.9",
+      "difficulty": "I",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.2",
+      "description": "Kip to hdst. or from mixed grip to hdst.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.13",
+      "description": "From hang or from support, free hip circle |through handstand.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.8",
+      "description": "From hdst., free hip circle fwd. thr. hdst.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.33",
+      "description": "Free circle fwd. legs together thr. hdst.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.38",
+      "description": "Free circle bwd. straddle thr. hdst.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.45",
+      "description": "Stalder legs together thr. hdst.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.42",
+      "description": "Stalder with hop 3/2 turn through hdst. in el-grip.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.44",
+      "description": "Free circle fwd. straddled thr. hdst.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.25",
+      "description": "From hang or from support, free hip circle hop |to handstand.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.48",
+      "description": "Stalder with hop 3/2 turn through hdst. in mix |el-grip.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.70",
+      "description": "Adler hop to hdst. in ungr. or ovgr. or mixed grip.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.57",
+      "description": "Stalder legs together with hop through hdst.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.59",
+      "description": "Stoop circle rearward fwd. through hdst. |(Adler).",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.79",
+      "description": " Back toss to dorsal hang.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.80",
+      "description": " From dorsal hang, uprise fwd. to support rw.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.87",
+      "description": " Steineman uprise w. stoop or to hdst.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.92",
+      "description": " Steineman uprise w. flank bwd. to sup.\tor\thang.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.152103",
+      "description": "Stoop circle fwd. to straddle cut to hang or sup.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.110",
+      "description": " Stoop circle fwd. to straddle cut through hdst.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.111",
+      "description": "Carballo with \u00bd turn to mixed el-grip.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.107",
+      "description": "Quintero to el-grip.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.100",
+      "description": "Endo legs together in el-grip thr. hdst.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.99",
+      "description": "Endo in el-grip thr. hdst.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.20221531",
+      "description": " Salto fwd. piked or straight, also with \u00bd t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.9",
+      "description": " Double salto fwd. t. or p.or with \u00bd turn.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.10",
+      "description": " Double salto fwd. t. or p. with 1/1 or 3/2 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.21",
+      "description": " Double salto fwd. t. or p. or with \u00bd turn over |the bar.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.3",
+      "description": " Salto fwd. str. with 2/1 or 5/2 t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.16",
+      "description": " Double salto fwd. str. or with \u00bd t. ",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.11",
+      "description": " Double salto fwd. t. or p. with 2/1 or 5/2 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.17",
+      "description": " Double salto fwd. str. with 1/1 or 3/2 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.6",
+      "description": " Triple salto fwd. t. or with \u00bd t. ",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.22",
+      "description": "3/2\tt.\tpar-\tdessus\tla\tbarre.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.202215425",
+      "description": " Salto bwd. piked or str. also with \u00bd or 1/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.32",
+      "description": " Double salto bwd. tuck or pike.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.33",
+      "description": " Double salto bwd. t. with 1/1 t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.39",
+      "description": " Double salto bwd. str.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.27",
+      "description": " Salto bwd. str. with 5/2 or 3/1 t.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.34",
+      "description": " Double salto bwd. t. with 2/1 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.41",
+      "description": " Double salto bwd. str. with 2/1 t.",
+      "value": "0.5",
+      "difficulty": "E",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.42",
+      "description": " Double salto bwd. str. with 3/1 t.",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.202215550",
+      "description": " Double salto bwd. t. over the bar.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.51",
+      "description": " Doble salto bwd. t. with 1/1 t. over the bar.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.58",
+      "description": " Double salto bwd. str. w. 1/1 t. over the bar.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.52",
+      "description": " Double salto bwd. t. with 2/1 t. over the bar",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.60",
+      "description": " Triple salto bwd. t. with 1/1 t.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.61",
+      "description": " Hecht strad., hecht or hecht w. \u00bd t.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.62",
+      "description": " Hecht w. 1/1 or 3/2 t.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.64",
+      "description": " Hecht w. 2/1 t.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.70",
+      "description": " Triple salto bwd. p.",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "4",
+      "type": "acrobatic"
+    }
+  ]
+}

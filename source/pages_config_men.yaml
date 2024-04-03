@@ -72,10 +72,10 @@ apparatuses:
       4: acrobatic
     regex:
       group:
-        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
       element:
         en: (\d+)\.\s+(.*?)\s*(?=\|\d+\.|\Z)
         fr: (\d+)\.\s+(.*?)\s*(?=\|\d+\.|\Z)
