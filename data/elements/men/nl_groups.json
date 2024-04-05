@@ -1,1 +1,37 @@
-{"floor": {"1": "niet acrobatische elementen", "2": "acrobatische elementen voorwaarts", "3": "acrobatische elementen rugwaarts"}, "rings": {"1": "kip en zwaai elementen & zwaaien door of tot de handstand.", "2": "kracht en houdingselementen (2 sec.)", "3": "elementen tot krachthoudingen (2 sec.)", "4": "afsprongen"}, "pommel horse": {"1": "beenzwaaien en scharen", "2": "flanken en flair, met en zonder spindels en handstanden, keerzwaaien, russenwenden, flops en gecombineerde onderdelen.", "3": "transporten inclusief krolls, tong fei, wu guonian, roth en transporten met spindels.", "4": "afsprongen."}, "vault": {"1": "enkelvoudige salto sprongen met complexe draaien", "2": "overslag salto sprongen met of zonder eenvoudige draaien , en alle dubbelsalto vw. sprongen", "3": "- overslagen zijwaarts en tsukahara sprongen met of zonder draaien (<= 1/1 draai) en alle dubbelsalto\u2019s rw", "4": "sprongen met een arabier voor de afzet"}, "parallel bars": {"1": "elementen in of door steun op twee leggers.", "2": "elementen beginnend in bovenarmhang.", "3": "zwaai -elementen door hang aan 1 of 2 leggers en onderzwaaien.", "4": "afsprongen."}, "high bar": {"1": "lange zwaaien met of zonder draaien.", "2": "vluchtelementen.", "3": "elementen dicht bij de stok en adler elementen.", "4": "afsprongen."}}
+{
+  "floor": {
+    "1": "Niet acrobatische elementen",
+    "2": "Acrobatische elementen voorwaarts",
+    "3": "Acrobatische elementen rugwaarts"
+  },
+  "rings": {
+    "1": "Kip en zwaai elementen & zwaaien door of tot de handstand.",
+    "2": "Kracht en houdingselementen (2 sec.)",
+    "3": "Elementen tot krachthoudingen (2 sec.)",
+    "4": "Afsprongen"
+  },
+  "pommel horse": {
+    "1": "Beenzwaaien en scharen",
+    "2": "Flanken en Flair, met en zonder spindels en handstanden, Keerzwaaien, Russenwenden, Flops en gecombineerde onderdelen.",
+    "3": "Transporten inclusief Krolls, Tong Fei, Wu Guonian, Roth en transporten met spindels.",
+    "4": "Afsprongen."
+  },
+  "vault": {
+    "1": "Enkelvoudige salto sprongen met complexe draaien",
+    "2": "Overslag salto sprongen met of zonder eenvoudige draaien , en alle dubbelsalto vw. sprongen",
+    "3": "- Overslagen zijwaarts en Tsukahara sprongen met of zonder draaien (<= 1/1 draai) en alle dubbelsalto\u2019s rw",
+    "4": "Sprongen met een arabier voor de afzet"
+  },
+  "parallel bars": {
+    "1": "Elementen in of door steun op twee leggers.",
+    "2": "Elementen beginnend in bovenarmhang.",
+    "3": "Zwaai -elementen door hang aan 1 of 2 leggers en onderzwaaien.",
+    "4": "Afsprongen."
+  },
+  "high bar": {
+    "1": "Lange zwaaien met of zonder draaien.",
+    "2": "Vluchtelementen.",
+    "3": "Elementen dicht bij de stok en Adler elementen.",
+    "4": "Afsprongen."
+  }
+}
