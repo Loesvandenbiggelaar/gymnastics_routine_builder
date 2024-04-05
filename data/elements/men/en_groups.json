@@ -1,37 +1,37 @@
 {
   "floor": {
-    "1": "non-acrobatic elements ",
-    "2": "acrobatic elements forward ",
-    "3": "acrobatic elements backward "
+    "1": "Non-acrobatic Elements",
+    "2": "Acrobatic elements forward",
+    "3": "Acrobatic elements backward"
   },
   "rings": {
-    "1": "kip and swing elements & swings through or to handstand ",
-    "2": "strength elements and hold elements (2 sec.) ",
-    "3": "swing to strength hold elements (2 sec.) ",
-    "4": "dismounts "
+    "1": "Kip and swing elements & swings through or to handstand",
+    "2": "Strength elements and hold elements (2 sec.)",
+    "3": "Swing to Strength hold elements (2 sec.)",
+    "4": "Dismounts"
   },
   "pommel horse": {
-    "1": "single leg swings and scissors ",
-    "2": "circle and flairs, with and/or without spindles and handstands, kehr -swings, russian w., flops and combined elements ",
-    "3": "travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles ",
-    "4": "dismounts "
+    "1": "Single leg swings and scissors",
+    "2": "Circle and flairs, with and/or without spindles and handstands, Kehr -swings, Russian w., flops and combined elements",
+    "3": "Travel type elements, including Krolls, Tong Fei, Wu Guonian, Roth and Traveling Spindles",
+    "4": "Dismounts"
   },
   "vault": {
-    "1": "single salto vaults with complex twists ",
-    "2": "handspring salto vaults with or without simple twists, and all double salto fwd.",
-    "3": "handspring with \u00bc or \u00bd turn in the 1st flight phase ",
-    "4": "round off entry vaults."
+    "1": "Single salto vaults with complex twists",
+    "2": "Handspring salto vaults with or without simple twists, and all double salto fwd.",
+    "3": "Handspring with \u00bc or \u00bd turn in the 1st flight phase",
+    "4": "Round off entry vaults."
   },
   "parallel bars": {
-    "1": "elements in support or through support on 2 bars ",
-    "2": "elements starting in upper arm position ",
-    "3": "long swings in hang en 1 or 2 bars and underswings ",
-    "4": "dismounts "
+    "1": "Elements in support or through support on 2 bars",
+    "2": "Elements starting in upper arm position",
+    "3": "Long swings in hang en 1 or 2 bars and Underswings",
+    "4": "Dismounts"
   },
   "high bar": {
-    "1": "long hang swings and turns ",
-    "2": "flight elements ",
-    "3": "in bar and adler elements ",
-    "4": "dismounts "
+    "1": "Long hang swings and turns",
+    "2": "Flight elements",
+    "3": "In bar and Adler elements",
+    "4": "Dismounts"
   }
 }

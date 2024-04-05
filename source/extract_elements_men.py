@@ -3,7 +3,6 @@ import PyPDF2
 import yaml
 from difflib import SequenceMatcher
 from functions import *
-import langdetect
 # from extract_elements import elementExtractor
 from split_elements_in_types import elementTyping
 
@@ -78,7 +77,7 @@ class elementExtractorMen:
                 if ratio < 0.9:
                     raise AssertionError ("items are not similar enough:", ratio)
             else:                
-                self.groups[apparatus][int(number)] = text.lower()
+                self.groups[apparatus][int(number)] = cleanText(text)
     
         return nr
 
@@ -97,7 +96,7 @@ class elementExtractorMen:
             else:
                 text_description = re.split(r"\|(?=[A-Z|\s|\d])", r[1])
                 if len(text_description) < 3:
-                    print("warning, could not process", text_description)
+                    # print("warning, could not process", text_description)
                     continue
                 if self.language == "en":
                     text = text_description[1]
@@ -111,7 +110,7 @@ class elementExtractorMen:
             try:
                 if text != text.upper():
                         # print(r[0], group_nr, text)
-                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":text}
+                        self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":cleanText(text)}
 
                         
             except IndexError:
@@ -219,7 +218,7 @@ class elementExtractorMen:
 
 
 def main():
-    extractor = elementExtractorMen("source/pages_config_men.yaml", language="fr")
+    extractor = elementExtractorMen("source/pages_config_men.yaml", language="nl")
     # extractor.addApparatus([ "floor"])
     extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
     extractor.processApparatuses()
