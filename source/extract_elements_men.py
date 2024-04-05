@@ -133,7 +133,7 @@ class elementExtractorMen:
             for page in pages:
                 text = page.extract_text().replace("\n", "")
                 group_nr = self.getGroup(text, apparatus)
-                self.getElements(page.extract_text().replace("\n", "|"), apparatus, group_nr)
+                self.getElements(page.extract_text().replace("\n", "|").replace("\t", "").replace("||", "|"), apparatus, group_nr)
         
     def writeResult(self):
         # saveJson(self.config["output directory"] + "elements.json", self.elements)
@@ -219,7 +219,7 @@ class elementExtractorMen:
 
 
 def main():
-    extractor = elementExtractorMen("source/pages_config_men.yaml", language="nl")
+    extractor = elementExtractorMen("source/pages_config_men.yaml", language="fr")
     # extractor.addApparatus([ "floor"])
     extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
     extractor.processApparatuses()

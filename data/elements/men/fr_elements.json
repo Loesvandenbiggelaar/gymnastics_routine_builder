@@ -1,160 +1,56 @@
 {
   "floor": [
     {
-      "number": "1.37",
-      "description": "De\tl\u2019\u00e9querre,\t\u00e9c.,\ttour\tarr.\t\u00e0\tla\tstation.",
+      "number": "1.2",
+      "description": "\u00c9querre,jambeslev\u00e9es\u00e0lavertical(2s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "non-acrobatic"
+    },
+    {
+      "number": "1.7",
+      "description": "Delastationjambes\u00e9c.,appuirenv.(2s.).",
       "value": "0.1",
       "difficulty": "A",
       "group": "1",
       "type": "non-acrobatic"
     },
     {
-      "number": "1.26",
-      "description": "Appui\tfacial\thorizontal.\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
+      "number": "1.15",
+      "description": "16.DuManna(2s.),renversement al\u2019appui|renvers\u00e9(2s.).",
+      "value": "0.3",
+      "difficulty": "C",
       "group": "1",
       "type": "non-acrobatic"
     },
     {
       "number": "1.43",
-      "description": "44.\tRoul\u00e9\t\u00e9c\t\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).",
+      "description": "44.Roul\u00e9\u00e9c\u00e0l\u2019appuirenvers\u00e9(2s.).",
       "value": "0.1",
       "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.3825",
-      "description": "Appui\tfacial\thorizontal\tjambes\t\u00e9cart\u00e9es\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.32",
-      "description": "De\tl\u2019appui\tfacial\thorizontal\t ec.\t(2\ts.)\ts\u2019\u00e9lever\t\u00e0\t|l\u2019appui\trenvers\u00e9\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.45",
-      "description": "Roul\u00e9\tcarp\u00e9\t\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).(jambes\t|serr\u00e9es)",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.61",
-      "description": "Toutes\tles\tbalances\t(2\ts.).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.67",
-      "description": "Saut\ten\tarri\u00e8re\t\u00e0\tl\u2019appui\tou\tcouch\u00e9\tfacial.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.68",
-      "description": "Saut\ten\tarri\u00e8re\tavec\tcarp\u00e9\t-\ttendu\tou\tav.\t1/1\t|t.\t\u00e0\tl\u2019appui\tfacial.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.49",
-      "description": "Renversement\tavant.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.55",
-      "description": "Grand\t\u00e9cart\ttransversal\t ou\tlat\u00e9ral\t(avec\tarr\u00eat).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.62",
-      "description": "Toutes\t les\tbalances\t\u00e9c.\t180\u00b0,\tsans\tappui\tdes\t|mains\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.86",
-      "description": "De\tl\u2019appui\trenvers\u00e9\ts\u2019abaisser\t en\tcercles\tdes\t|jambes\t\u00e9cart\u00e9es\tou\tserr\u00e9es.",
-      "value": "0.2",
-      "difficulty": "B",
       "group": "1",
       "type": "non-acrobatic"
     },
     {
       "number": "1.95",
-      "description": "96.82.\tCercles\td.\tjambes\tsaut\tarr.\t\u00e0\tl\u2019ap\trenv.\tavec\t360\u00ba\t|et\ts\u2019abaisser\tcercles\tdes\tjambes\t\u00e9c.\t(2\tsaut).",
+      "description": "96.82.Cerclesd.jambessautarr.\u00e0l\u2019aprenv.avec360\u00ba|ets\u2019abaissercerclesdesjambes\u00e9c.(2saut).",
       "value": "0.5",
       "difficulty": "E",
       "group": "1",
       "type": "non-acrobatic"
     },
     {
-      "number": "1.79",
-      "description": "1\tcercle\tdes\tjambes\tserr\u00e9es\tou\t\u00e9cart\u00e9s.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.80",
-      "description": "Cercles\t des\tjambes\tserr\u00e9es\tou\t\u00e9cart\u00e9es\t \u00e0\t|l\u2019appui\trenvers\u00e9.\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
       "number": "1.81",
-      "description": "Cercles\t d.\tjambes\t\u00e0\tl\u2019appui\trenv.\tet\ts\u2019abaisser\t|en\tcercles\tdes\tjambes\t\u00e9c.\tou\tcercles\td.\tjamb.",
+      "description": "Cercles d.jambes\u00e0l\u2019appuirenv.ets\u2019abaisser|encerclesdesjambes\u00e9c.oucerclesd.jamb.",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
       "type": "non-acrobatic"
     },
     {
-      "number": "1.91",
-      "description": "Cercles\td.\tjambes\t\u00e9cart\u00e9s\tavec\t\u00bd\tpivot.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
       "number": "1.98",
-      "description": "Cercles\t d.\tjambes\t\u00e9cart\u00e9s.\ta\t\u00bd\tpivot\t\u00e0\tl\u2019appui\t|renv.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.104",
-      "description": "Facial\trusse\tavec\t720\u00b0\tou\t900\u00b0.",
+      "description": "Cercles d.jambes\u00e9cart\u00e9s.a\u00bdpivot\u00e0l\u2019appui|renv.",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
@@ -162,87 +58,23 @@
     },
     {
       "number": "1.110",
-      "description": "Rouler\t en\tarri\u00e8re\tavec\t1/1\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\t|renvers\u00e9.\t",
+      "description": "Rouler enarri\u00e8reavec1/1t.saut\u00e9\u00e0l\u2019appui|renvers\u00e9.",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
       "type": "non-acrobatic"
     },
     {
-      "number": "1.100",
-      "description": "Cercles\t d.\tjamb.\t\u00e9c.\ta\t>270\tpivot\t(dans\t2\t|cercles)\tdirect.\t\u00e0\tl\u2019app.\trenv\tet\ts\u2019abais.\ten\tcerc.\t|des\tjamb.\t\u00e9c.\tou\tcercl.\td.\tjamb.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "1.109",
-      "description": "Rouler\ten\tarri\u00e8re\t\u00e0\tl\u2019appui\trenv.\tavec\t\u00bd\tt.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "non-acrobatic"
-    },
-    {
-      "number": "2.7",
-      "description": "Saut\tde\tpoisson.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.1",
-      "description": "Renversement\tavant.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.14",
-      "description": "Salto\tavant\ttendu,\taussi\tavec\t\u00bd\tt.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.4",
-      "description": "Renversement\tsalto\tavant\tgroup\u00e9\t\u00e0\tstation.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.16",
-      "description": "Double\tsalto\tavant\tgroup\u00e9,\taussi\tavec\t\u00bd\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.20224828",
-      "description": "Salto\tav.\ttendu\tavec\t2/1\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.46",
-      "description": "Saut\ten\tav.\t\u00bd\tt.\tet\tdouble\tsalto\tarr.\tgr.\t",
-      "value": "0.4",
-      "difficulty": "D",
+      "number": "2.27",
+      "description": "Saltoav.tenduavec1/1t.,aussiavec3/2g.",
+      "value": "0.3",
+      "difficulty": "C",
       "group": "2",
       "type": "acrobatic"
     },
     {
       "number": "2.43",
-      "description": "47.\t 48.\tDouble\tsalto\tavant\ttendu\tavec\t3/2\tt.",
+      "description": "47. 48.Doublesaltoavanttenduavec3/2t.",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
@@ -250,433 +82,7 @@
     },
     {
       "number": "2.26",
-      "description": "25.\t 30.\tSalto\tav.\ttendu\tavec\t3/1\tt.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.38",
-      "description": "Salto\tav.\tgr.\tou\tca.\t\u00e0\tl\u2019appui\tfacial.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.44",
-      "description": "45.\t|(Goshima)",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.2",
-      "description": "Salto\tarri\u00e8re\ttendu.\tou\ttempo.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.9",
-      "description": "4.\tDouble\tsalto\tarri\u00e8re\tgr.\tou\tcarp\u00e9\tavec\t1/1\tt.\tAussi\t|saut\ten\tarr.\tavec\t\u00bd\tt.\tet\tdbl.\tsalto\tav.\tgr.\tou\tcarp\u00e9\t|avec\t\u00bd\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.12",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9\tavec\t5/2\tt.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.16",
-      "description": "17.\t10.\tSaut\ten\tarr.\tavec\t\u00bd\tt.\tet\tdbl.\tsalto\tav.\tgr.\tou\t|carp\u00e9\tou\tdouble\tsalto\tarr.\tgr.\tou\tcarp\u00e9\tavec\t\u00bd\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.24",
-      "description": "Triple\tsalto\tarri\u00e8re\tcarp\u00e9.",
-      "value": "0.9",
-      "difficulty": "I",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.18",
-      "description": "Triple\tsalto\tarri\u00e8re\tgroup\u00e9.",
-      "value": "0.8",
-      "difficulty": "H",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.8",
-      "description": "Salto\tarri\u00e8re\ttendu\tavec\t\u00bd\tt.\tou\tsalto\tarr.\ttendu\t|avec\t\u00bd\tt.\tou\t1/1\tt.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.38",
-      "description": "29.\tSalto\tarri\u00e8re\ttendu\tavec\t7/2\tt.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.42",
-      "description": "Salto\tarr.\ttendu\tavec\t2/1\tt.\tet\tsalto\tarr.\tcarp\u00e9e.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.46",
-      "description": "Double\tsalto\tarri\u00e8re\ttendu.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.41",
-      "description": "Double\tsalto\t\u00e9cart\u00e9\tavec\t1/1\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.28",
-      "description": "Salto\tarri\u00e8re\ttendu\tavec\t5/2\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.34",
-      "description": "Salto\tarri\u00e8re\ttendu\tavec\t3/1\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.48",
-      "description": "Double\t salto\tarri\u00e8re\tt.\tavec\t3/2\tt.\tou\tsalto\tarr.\t|avec\t\u00bd\tt.\tdouble\tsalto\tav.\tavec\t1/1\tt.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.71",
-      "description": "67.61. 63.57.52.\t 53.\tDouble\t salto\tarri\u00e8re\ttendu\tavec\t1/1\tt.\tou\tsalto\t|arr.\tavec\t\u00bd\tt.\tdouble\tsalto\tav.\tavec\t\u00bd\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.66",
-      "description": "Double\tsalto\tarri\u00e8re\t t.\tavec\t3/1\tt.",
-      "value": "0.8",
-      "difficulty": "H",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.72",
-      "description": "EG III: Parties acrobatiques en arri\u00e8re - Acrobatic elements backward  - Elementos acrob\u00e1ticos atr\u00e1s |(Shirai 3)54.\tDouble\tsalto\tarri\u00e8re\tt.\tavec\t2/1\tt.\t",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    }
-  ],
-  "rings": [
-    {
-      "number": "1.25",
-      "description": "Renversement\tarri\u00e9r\u00e9\tcarp\u00e9\tou\ttendu.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.33",
-      "description": "32.\t\u00c9tablissement\tarr.\ttendu\tpar\tl\u2019app.\trenvs.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.37",
-      "description": "Renversement\tavant\tcarp\u00e9\tou\ttendu.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.38",
-      "description": "\u00c9lancer\t en\tsuspension\t en\tarri\u00e8re,\trenversement \t|avant\t\u00e0\tl\u2019appui.\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.44",
-      "description": "45.\tDouble\tsalto\td\u2019appui\tavant\tgr.\t\u00e0\tla\tsuspension.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.31",
-      "description": "\u00c9tablissement\tarri\u00e8re\t\u00e0\tl\u2019appui.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.43",
-      "description": "De\tla\tsuspension,\trenversement\tavant\tlente -|ment.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.39",
-      "description": "Honma\ttendu.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.49",
-      "description": "Bascule\t\u00e0\tl\u2019appui.\t",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.55",
-      "description": "Bascule\tdorsale\t\u00e0\tl\u2019appui.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.56",
-      "description": "Bascule\tdorsale\t\u00e0\tl\u2019appui.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.61",
-      "description": "\u00c9lan\tav.\t\u00e0\tl\u2019\u00e9lan\tarri\u00e8re\ten\tsuspension.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.62",
-      "description": "\u00c9tablissement\t arri\u00e8re\t\u00e0\tl\u2019\u00e9querre\t\u00e9cart\u00e9e\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.67",
-      "description": "De\tl\u2019appui\tou\tde\tla\tcroix\ttour\td\u2019appui\tarri\u00e8re\t|carp\u00e9\tou\ttendu\t\u00e0\tl\u2019appui.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.63",
-      "description": "De\tl\u2019appui,\tsalto\tav.\tcarp\u00e9\t\u00e0\tl\u2019appui.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.81",
-      "description": "\u00c9tablissement\t arri\u00e8re\tou\tgrand\ttour\t\u00e0\tl\u2019appui\t|renversement\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.87",
-      "description": "Honma\tet\t\u00e9lan\t\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).\t",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.75",
-      "description": "\u00c9tablissement\t en\tavant\ten\ttournant\ten\tarri\u00e8re\t|\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.86",
-      "description": "De\tl\u2019appui\t\u00e9lan\t\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.1",
-      "description": "\u00c9querre\t(2\ts.)\tou\t\u00e9querre\t\u00e9cart\u00e9e\t(2\ts.).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.9",
-      "description": "Appui\tfacial\thorizontal\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.13",
-      "description": "Suspension\tfaciale\thorizontale\t(2\ts.).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.14",
-      "description": "Toutes\tcroix\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.8",
-      "description": "2.\t \u00c9querre,\tjambes\tlev\u00e9es\tvert.\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.15",
-      "description": "\u00c9querre,\tjambes\tlev\u00e9es\tvert.\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.22",
-      "description": "\u00c9querre,\t jambes\tlev\u00e9es\tvert.\t\u00e0\t\u00e9querre,\tjambes\t|lev\u00e9es\tvert.\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.23",
-      "description": "\u00c9tablissement\t en\tforce,\tbras\ttendus\t\u00e9querre,\t|jambes\tlev\u00e9es\tvert.\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.4",
-      "description": "De\tla\tcroix\trenvs.,\ts\u2019\u00e9lev\t\u00e0\tl\u2019appui\trenvs.\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.19",
-      "description": "Appui\tfacial\thorizontal\t\u00e9c.\t(2\ts.).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.25",
-      "description": "S\u2019\u00e9lever\tcorps\tet\tbras\tfl\u00e9chis\t\u00e0\tl\u2019appui\trenvs.\t(2\ts).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.27",
-      "description": "S\u2019\u00e9lev.\t corps\ttendu\tet\tbras\ttendus\tou\tde\t|l\u2019appui\tfac.\thoriz.\t\u00e0\tl\u2019appui\trenvers\u00e9\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.28",
-      "description": "De\tl\u2019hirondelle,\t s\u2019\u00e9lever\tcorps\ttendu\tet\tbras\tt.\t|a\tl\u2019appui\trenvers\u00e9\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.31",
-      "description": "Tour\td\u2019appui\tav.\tlentement\tcarp\u00e9\t\u00e0\tl\u2019appui.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.32",
-      "description": "Tour\td\u2019appui\tav.\tlentement\ttendu\t\u00e0\tl\u2019appui.",
+      "description": "25. 30.Saltoav.tenduavec3/1t.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
@@ -684,191 +90,185 @@
     },
     {
       "number": "2.39",
-      "description": "Tour\td\u2019appui\tav.\ttendu\tlentement,\t \u00e0\tla\tcroix\tou\t|croix\tangle\t(2\ts.).",
+      "description": "40. 41.Doublesaltoavantgroupeavec1/1t.",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.34",
-      "description": "Tour\td\u2019appui\tav.\ttendu\tlentement,\t \u00e0\tla\tcroix\t|renverse.\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.42",
-      "description": "37. 38.\tAbaissement \tarri\u00e9r\u00e9\ten\ttournant\tlentement, \t|corps\ttendus,\u00e0\t\u00e9querre\t\u00e9cart\u00e9\t(2\ts.).",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.52",
-      "description": "Tour\ten\tarri\u00e8re\tlente\tcorps\ttendu\t\u00e0\tla\tcroix\tou\t|croix\tangle\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.58",
-      "description": "De\tou\tpar\tla\tsusp.\tdors.\thoriz.,\t\u00e9tablis.\ten\tforce\t|bras\ttendus\t\u00e0\tla\tcroix\tou\tcroix\tangle\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.50",
-      "description": "\u00c9tablissement\ten\tforce,\tbras\tfl\t\u00e9chis\t\u00e0\tla\tsus-|pension\tdorsal\thorizontal\t(2\ts.).",
+      "number": "2.44",
+      "description": "45.|(Goshima)",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.51",
-      "description": "\u00c9tablissement\ten\tforce,\tbras\ttendus\t\u00e0\tla\tsusp.\t|dorsale\thorizontal\t(2\ts.).",
+      "number": "3.3",
+      "description": "Doublesaltoarri\u00e8regroup\u00e9.",
       "value": "0.3",
       "difficulty": "C",
-      "group": "2",
+      "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "2.56",
-      "description": "De\tla\tcroix\tou\tcroix\tangle,\ttourner\ten\tav.\t\u00e0\tla\t|suspension\tdorsal\thorizontal\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
+      "number": "3.6",
+      "description": "Doublesaltoarri\u00e8regroup\u00e9avec3/1t.",
+      "value": "0.7",
+      "difficulty": "G",
+      "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "2.62",
-      "description": "De\tl\u2019appui\trenverse,\ts\u2019abaisser\thorizontal\t\u00e0\tla\t|suspension\tdorsal\thorizontal\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.57",
-      "description": "\u00c9tablissement\ten\tforce,\tbras\ttendus\t\u00e0\t\u00e9querre\t|\u00e9cart\u00e9\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.68",
-      "description": "De\tl\u2019appui\trenverse,\ts\u2019abaisser\ten\tpassant\tpar\t|la\tcroix\trenverse\t\u00e0\tla\tsuspension\trenvers\u00e9e.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.70",
-      "description": "De\tl\u2019hirondelle,\ts\u2019\u00e9lever\t\u00e0\tl\u2019appui\tfac.\thoriz.\t(2\ts.).",
+      "number": "3.16",
+      "description": "17.10.Sautenarr.avec\u00bdt.etdbl.saltoav.gr.ou|carp\u00e9oudoublesaltoarr.gr.oucarp\u00e9avec\u00bdt.",
       "value": "0.4",
       "difficulty": "D",
-      "group": "2",
+      "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "2.72",
-      "description": "De\tla\tsusp.\tdors.\thoriz.,\ts\u2019\u00e9lever\t\u00e0\tl\u2019hirondelle\t(aussi\t|\u00e0\tl\u2019appui\tfac.\thoriz.)\t (2\ts.).",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
+      "number": "3.7",
+      "description": "Saltoarri\u00e8regroup\u00e9oucarp\u00e9avec\u00bdt.ousalto|arr.gr.oucarp\u00e9avec\u00bdt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "2.71",
-      "description": "De\tHirondelle,\ts\u2019abaisser\thoriz.\tlent.\t\u00e1\tla\tsusp.\t|dors.\thoriz.\tet\ts\u2019\u00e9lever\t\u00e0\tla\tl\u2019hirondelle.\t(2\ts.).",
+      "number": "3.43",
+      "description": "45.31.Sautenarri\u00e8reavec\u00bdt.etsautdepoisson.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "3",
+      "type": "acrobatic"
+    },
+    {
+      "number": "3.71",
+      "description": "67.61. 63.57.52. 53.Double saltoarri\u00e8retenduavec1/1t.ousalto|arr.avec\u00bdt.doublesaltoav.avec\u00bdt.",
       "value": "0.5",
       "difficulty": "E",
-      "group": "2",
+      "group": "3",
+      "type": "acrobatic"
+    }
+  ],
+  "rings": [
+    {
+      "number": "1.1",
+      "description": "\u00c9tablissementavant\u00e0l\u2019appui.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "2.67",
-      "description": "69.59.\tNakayama\t\u00e0\tla\tcroix\tjambes\tlev\u00e9es\ten\tV\t(2\ts.).",
+      "number": "1.33",
+      "description": "32.\u00c9tablissementarr.tenduparl\u2019app.renvs.",
+      "value": "0.3",
+      "difficulty": "C",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.44",
+      "description": "45.Doublesaltod\u2019appuiavantgr.\u00e0lasuspension.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.1",
+      "description": "\u00c9querre(2s.)ou\u00e9querre\u00e9cart\u00e9e(2s.).",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.66",
-      "description": "\u00c9tablissement\ten\tforce,\t\u00e0\thirondel\tinvers\u00e9e\t|(2\ts.)",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.53",
-      "description": "Azarian\t\u00e0\tla\tcroix\tjambes\tlev\u00e9es\ten\tV\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.60",
-      "description": "De\tla\tsusp.\tdorsal\thoriz.\t(aucun\tmaintien\t|requis),\tmonter\tcorps\ttendu\ten\tpassant\tpar\tla\t|croix\t\u00e0\tla\tposition\thirondel\tinvers\u00e9e\t(2\ts.).",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.75",
-      "description": "De\tla\tcroix\tou\tcroix\tangle,\t\u00e9tablis.\tde\tforce\t\u00e0\t|l\u2019\u00e9querre\t(2\ts.).",
+      "number": "2.9",
+      "description": "Appuifacialhorizontal(2s.).",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.82",
-      "description": "De\tl\u2019appui\tfacial\thorizontal,\t s\u2019\u00e9lever\t\u00e0\tla\tcroix\t|renverse\t(2\ts.).",
+      "number": "2.7",
+      "description": "Suspensiondorsalehorizontale(2s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.2",
+      "description": "\u00c9querre,jambeslev\u00e9esvert.(2s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.4",
+      "description": "Delacroixrenvs.,s\u2019\u00e9lev\u00e0l\u2019appuirenvs.(2s.).",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.89",
-      "description": "De\tla\tcroix,\ts\u2019\u00e9lever\t\u00e0\tl\u2019hirondelle\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.87",
-      "description": "88.\tDe\tla\tcroix,\ts\u2019\u00e9lever\tdirect\t\u00e0\tl\u2019appui\tfacial\thori-|zontal\t(2\ts.).",
+      "number": "2.27",
+      "description": "S\u2019\u00e9lev. corpstenduetbrastendusoude|l\u2019appuifac.horiz.\u00e0l\u2019appuirenvers\u00e9(2s.).",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.95",
-      "description": "De\tla\tcroix\trenvs.\ts\u2019abaisser\t \u00e0\tla\tsusp.\trenvs.et\t|etablis.\tlent.\ten\ttourn.\ten\tarr.\t\u00e0\tl\u2019hirondelle.\t (2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
+      "number": "2.28",
+      "description": "Del\u2019hirondelle, s\u2019\u00e9levercorpstenduetbrast.|al\u2019appuirenvers\u00e9(2s.).",
+      "value": "0.4",
+      "difficulty": "D",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.26",
+      "description": "S\u2019\u00e9lev. corpst.etbrasfl.oucorpsfl.etbrast.|oudel\u2019app.fac.horiz.\u00e9c.\u00e0l\u2019app.renv.(2s.).",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.42",
+      "description": "37. 38.Abaissement arri\u00e9r\u00e9entournantlentement, |corpstendus,\u00e0\u00e9querre\u00e9cart\u00e9(2s.).",
+      "value": "0.6",
+      "difficulty": "F",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.67",
+      "description": "69.59.Nakayama\u00e0lacroixjambeslev\u00e9esenV(2s.).",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.87",
+      "description": "88.Delacroix,s\u2019\u00e9leverdirect\u00e0l\u2019appuifacialhori-|zontal(2s.).",
+      "value": "0.3",
+      "difficulty": "C",
       "group": "2",
       "type": "acrobatic"
     },
     {
       "number": "2.96",
-      "description": "93. 94.\tDe\tla\tcroix\trenvs.\ts\u2019abaisser\t \u00e0\tla\tsusp.\trenvs.\tet\t|etablis.\tlent.\ten\ttourn.\ten\tarri\u00e8re\t\u00e0\tla\tcroix.\t(2\ts.).",
+      "description": "93. 94.Delacroixrenvs.s\u2019abaisser \u00e0lasusp.renvs.et|etablis.lent.entourn.enarri\u00e8re\u00e0lacroix.(2s.).",
       "value": "0.6",
       "difficulty": "F",
       "group": "2",
@@ -876,47 +276,15 @@
     },
     {
       "number": "2.106",
-      "description": "107\tTour\ten\tarri\u00e8re.\tlent.\tcorps\ttendus\t\u00e0\tl\u2019hirondelle\t|(2\ts.).",
+      "description": "107Tourenarri\u00e8re.lent.corpstendus\u00e0l\u2019hirondelle|(2s.).",
       "value": "0.4",
       "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.101",
-      "description": "Tour\ten\tarri\u00e8re\tlent.\tcorps\tet\tbras\ttendus\t\u00e0\t|l\u2019appui\tfacial\thorizontal\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.118",
-      "description": "Tour\td\u2019appui\tavant\tlentement,\tpasser\tpar\tla\t|croix\tpour\tterminer\t\u00e0\tl\u2019app.\tfacial\thoriz.\t(2\tsec.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.130",
-      "description": "De\tla\tsusp.\ts\u2019\u00e9lever\tcorps\tet\tbras\ttendus\t\u00e0\tl\u2019ATR\t|en\tpassant\tpar\tl\u2019appui.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.126",
-      "description": "De\tla\tsuspension\tdorsale\t\u00e9tablissement\ten\t|force,\tcorps\ttendus\t\u00e0\tla\tcroix\trenverse.\t(2\ts.).",
-      "value": "0.6",
-      "difficulty": "F",
       "group": "2",
       "type": "acrobatic"
     },
     {
       "number": "2.132",
-      "description": "De la suspension \u00e9tablissement en force \u00e0 la |croix\trenverse.\t(2\ts.).",
+      "description": "De la suspension \u00e9tablissement en force \u00e0 la |croixrenverse.(2s.).",
       "value": "0.6",
       "difficulty": "F",
       "group": "2",
@@ -924,39 +292,15 @@
     },
     {
       "number": "2.141",
-      "description": "142.\t125.\tTour\td\u2019appui\tavant\tlentement,\tcorps\ttendus,\t|passer par la croix pour terminer \u00e0 l\u2019hirondelle |(2\ts.).",
+      "description": "142.125.Tourd\u2019appuiavantlentement,corpstendus,|passer par la croix pour terminer \u00e0 l\u2019hirondelle |(2s.).",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.137",
-      "description": "De\tla\tsusp.\t\u00e9tablis.\ten\tforce,\tpour\tl\u2019hirondelle\t|\u00e0\tla\tplanche\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.3",
-      "description": "\u00c9tablis.\t av.\t\u00e0\tl\u2019\u00e9querre\tjambes\tlev\u00e9es\tvert\t(2\ts.).\t",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.2",
-      "description": "\u00c9tablissement\tavant\t\u00e0\tl\u2019\u00e9querre\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.14",
-      "description": "\u00c9lancer\t en\tsuspension\t en\tarri\u00e8re,\trenverse-|ment\tavant\t\u00e0\tl\u2019\u00e9querre\t(2\ts.).",
+      "description": "\u00c9tablissementavant\u00e0l\u2019\u00e9querre(2s.).",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
@@ -964,7 +308,7 @@
     },
     {
       "number": "3.8",
-      "description": "Bascule\t\u00e0\tl\u2019\u00e9querre\t(2\ts.).",
+      "description": "Bascule\u00e0l\u2019\u00e9querre(2s.).",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
@@ -972,119 +316,15 @@
     },
     {
       "number": "3.9",
-      "description": "Bascule\t\u00e0\tl\u2019\u00e9querre\tjambes\tlev.\tvertical\t(2\ts.).",
+      "description": "Bascule\u00e0l\u2019\u00e9querrejambeslev.vertical(2s.).",
       "value": "0.3",
       "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.17",
-      "description": "Honma\t \u00e0\tla\tcroix\t\u00e9querre\tjambes\tvertical\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.16",
-      "description": "Honma\t\u00e0\tcroix\tou\tcroix\tangle\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.22",
-      "description": "De\tl\u2019appui,\tsalto\tav.\tc.\t\u00e0\tla\tcroix\tou\tcroix\tangle\t|(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.33",
-      "description": "\u00c9tablissement.\t en\tarri\u00e8re\t\u00e0\tla\tcroix\tou\tcroix\t|angle\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.42",
-      "description": "Bascule\t\u00e0\thirondelle\tinvers\u00e9e.\t(2\ts.).",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.45",
-      "description": "Bascule\t dorsale\t\u00e0\tla\tcroix\tou\tcroix\tangle\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.47",
-      "description": "Bascule\tdorsale\t\u00e0\tl\u2019hirondelle\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.35",
-      "description": "34.\t\u00c9tablissement\tarri\u00e8re\t\u00e0\tla\tcroix\tjambes\t|lev\u00e9es\ten\tV\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.57",
-      "description": "\u00c9tablissement\t en\tav.\ten\ttournant\ten\tarri\u00e8re\t\u00e0\t|la\tcroix\tou\tcroix\tangle\t(2\ts.).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.53",
-      "description": "Bascule\tdorsale\t\u00e0\tla\tcroix\trenvers\u00e9.\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.68",
-      "description": "\u00c9tablissement.\t en\tarri\u00e8re\t\u00e0\tl\u2019appui\tfacial\thori-|zontal\t\u00e9cart\u00e9\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.65",
-      "description": "\u00c9tablissement\t en\tavant\ten\ttournant\ten\tarri\u00e8re\t|\u00e0\tla\tcroix\trenvers\u00e9e\t(2\ts.).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.56",
-      "description": "\u00c9tablissement.\t en\tav.\ten\ttournant\ten\tarri\u00e8re\t\u00e0\t\t|l\u2019appui\tfacial\thorizontal\t\u00e9cart\u00e9\t(2\ts.).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.59",
-      "description": "\u00c9tablissement\t en\tav.\ten\ttournant\ten\tarri\u00e8re\t\u00e0\t|l\u2019hirondelle\t(2\ts.).",
+      "description": "34.\u00c9tablissementarri\u00e8re\u00e0lacroixjambes|lev\u00e9esenV(2s.).",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
@@ -1092,23 +332,15 @@
     },
     {
       "number": "3.83",
-      "description": "81.77.\u00c9tablissement\tarri\u00e8re\t\u00e0\tla\tcroix\trenvs.\t(2\ts.).",
+      "description": "81.77.\u00c9tablissementarri\u00e8re\u00e0lacroixrenvs.(2s.).",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.88",
-      "description": "82.\tTour\td\u2019appui\tarri\u00e8re\ttendu\t\u00e0\tl\u2019appui\tfacial\t|horizontal\t(2\ts.).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
       "number": "4.1",
-      "description": "Salto\tavant\tcarp\u00e9\tou\ttendu\taussi\tavec\t\u00bd\tt",
+      "description": "Saltoavantcarp\u00e9outenduaussiavec\u00bdt",
       "value": "0.1",
       "difficulty": "A",
       "group": "4",
@@ -1116,119 +348,47 @@
     },
     {
       "number": "4.2",
-      "description": "Salto\tavant\tcarp\u00e9\tou\ttendu\tavec\t1/1\tt.",
+      "description": "Saltoavantcarp\u00e9outenduavec1/1t.",
       "value": "0.2",
       "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.3",
-      "description": "Salto\tavant\tcarp\u00e9\tou\ttendu\tavec\t3/2\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.9",
-      "description": "Double\tsalto\tav.\tgroup\u00e9\tou\tgroup\u00e9\tavec\t\u00bd\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.10",
-      "description": "Double\t salto\tav.\tgroup\u00e9\tavec\t3/2\tt.\t(aussi\t1/1\tt.).",
-      "value": "0.4",
-      "difficulty": "D",
       "group": "4",
       "type": "acrobatic"
     },
     {
       "number": "4.16",
-      "description": "Double\tsalto\tav.\tcarp\u00e9\tou\tcarp\u00e9\tavec\t\u00bd\tt.",
+      "description": "Doublesaltoav.carp\u00e9oucarp\u00e9avec\u00bdt.",
       "value": "0.4",
       "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.17",
-      "description": "Double\tsalto\tav.\t carp\u00e9\tavec\t3/2\tt.\t (aussi\t1/1\tt.).",
-      "value": "0.5",
-      "difficulty": "E",
       "group": "4",
       "type": "acrobatic"
     },
     {
       "number": "4.23",
-      "description": "22.4.\t Salto\tavant\tcarp\u00e9\tou\ttendu\tavec\t2/1\tt.",
+      "description": "22.4. Saltoavantcarp\u00e9outenduavec2/1t.",
       "value": "0.5",
       "difficulty": "E",
       "group": "4",
       "type": "acrobatic"
     },
     {
-      "number": "4.25",
-      "description": "Salto\tarri\u00e8re\tcarp\u00e9\tou\ttendu\taussi\tavec\t\u00bd\tt.",
-      "value": "0.1",
-      "difficulty": "A",
+      "number": "4.48",
+      "description": "Doublesaltoarri\u00e8regroupeavec5/2t.",
+      "value": "0.6",
+      "difficulty": "F",
       "group": "4",
       "type": "acrobatic"
     },
     {
-      "number": "4.32",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9\tou\tcarp\u00e9.",
-      "value": "0.2",
-      "difficulty": "B",
+      "number": "4.30",
+      "description": "29.Saltoarri\u00e8retenduavec3/1t.",
+      "value": "0.6",
+      "difficulty": "F",
       "group": "4",
       "type": "acrobatic"
     },
     {
-      "number": "4.33",
-      "description": "Double\tsalto\tarri\u00e8re\ttendu.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.45",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9\tavec\t \u00bd  ou 1/1\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.36",
-      "description": "Triple\tsalto\tarri\u00e8re\tgroup\u00e9.",
-      "value": "0.7",
-      "difficulty": "G",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.46",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9\tavec\t3/2\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.47",
-      "description": "Double\tsalto\tarri\u00e8re\tgroupe\tavec\t2/1\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.66",
-      "description": "51.\tSalto\tarri\u00e8re\ttendu\tavec\t1/1\tt.\tet\tsalto\tgroup\u00e9.",
+      "number": "4.54",
+      "description": "Doublesaltoarri\u00e8retenduavec3/2ou2/1t.",
       "value": "0.6",
       "difficulty": "F",
       "group": "4",
@@ -1237,112 +397,56 @@
   ],
   "pommel horse": [
     {
-      "number": "1.20226544",
-      "description": "45.\t\t26.\tCiseau\tarri\u00e8re\tavec\tsaut\tlat.\t(aussi\tavec\t\u00bd\tt.).",
+      "number": "1.1",
+      "description": "Ciseauavant.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.7",
+      "description": "Ciseauavantavec\u00bdt.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "1",
+      "type": "acrobatic"
+    },
+    {
+      "number": "1.22",
+      "description": "23. 24.11. 10.3.Double ciseauavantavectransportlat\u00e9ralpar|l\u2019ATR.",
       "value": "0.4",
       "difficulty": "D",
       "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "1.27",
-      "description": "Ciseau\t arri\u00e8re\tavec\tsaut\tlat\u00e9ral\td\u2019une\textr.\t\u00e0\t|l\u2019autre\t(1-2\ta\t4-5).",
-      "value": "0.3",
-      "difficulty": "C",
+      "number": "1.20226544",
+      "description": "45.26.Ciseauarri\u00e8reavecsautlat.(aussiavec\u00bdt.).",
+      "value": "0.4",
+      "difficulty": "D",
       "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "1.32",
-      "description": "Double\tciseau\tarri\u00e8re\t(\u00bc\tt.\tav.\tet\t\u00bc\tt.\tarr.)",
+      "number": "2.2",
+      "description": "Cercled.jambesenappuilat\u00e9ralsur1ar\u00e7on.",
       "value": "0.2",
       "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.38",
-      "description": "Mouvement \t\u00e9c.\td.\tjamb.\ten\tarr.\tpar\tl\u2019app.\trenvs.\t|et\tretour\t\u00e0\tl\u2019app.\tjamb.\t\u00e9c.\ttransv.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.1",
-      "description": "Tout\tcercle\tdes\tjambes\tou\tcercle\t\u00e9c.\t(Thomas)\t|en\tappui\tlat\u00e9ral.\t",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.8",
-      "description": "Cercle\ten\tappui\tlat\u00e9ral\tavec\tapp.\tsur\tchaque\t|extr\u00e9mit\u00e9\tou\tentre\tles\tar\u00e7ons.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.13",
-      "description": "Cercles\t d.\tjamb.\ten\tappui\tfacial\ttransv.\tsur\tl\u2019extr.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.19",
-      "description": "Cercles\t des\tjambes\ten\tappui\tdorsal\ttransversal\t|sur\tl\u2019extr\u00e9mit\u00e9.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.37",
-      "description": "34.\tTout\t1/1\tpivot\tdans\tmax.\t2\tcercles.",
-      "value": "0.1",
-      "difficulty": "A",
       "group": "2",
       "type": "acrobatic"
     },
     {
       "number": "2.44",
-      "description": "45.\t 46.Cercle\t\u00e9c.\tavec\ttransport\tsaut\u00e9\tarr.\t\u00e0\tl\u2019app.\t|renvs.\tet\tretour\t\u00e0\tcercle\td.\tjambes\tou\tcercle\t\u00e9c.",
+      "description": "45. 46.Cercle\u00e9c.avectransportsaut\u00e9arr.\u00e0l\u2019app.|renvs.etretour\u00e0cercled.jambesoucercle\u00e9c.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.35",
-      "description": "Appui\tfacial\ttransv.,\t1/1\tpivot\tav.\tmains\tentre\tles\t|arc.\tmax.\t2\tcercle.\t",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
       "number": "2.47",
-      "description": "48.30.\tTout\t1/1\tpivot\tav.\tles\tac.\tentre\tles\tmains\t(cercles\t|d.\tjambes\tec.\tou\tcercles\td.\tjambes).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.39",
-      "description": "Cercle\t\u00e9c.\tou\tcercles\t\u00e0\tl\u2019app.\trenvs.\t(avec\tou\t|sans\t\u00bd\tt.)\tet\tretour\tau\tcercle\t\u00e9c.\tou\tcercle.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.41",
-      "description": "1/1\tpivot\tdans\tles\tar\u00e7ons\tdans\tmax.\t2\tcercles\t|de\tjambes\tserr\u00e9es\tou\t\u00e9cart\u00e9es.",
+      "description": "48.30.Tout1/1pivotav.lesac.entrelesmains(cercles|d.jambesec.oucerclesd.jambes).",
       "value": "0.5",
       "difficulty": "E",
       "group": "2",
@@ -1350,7 +454,7 @@
     },
     {
       "number": "2.6849",
-      "description": "51.\t 52.\tSt\u00f6ckli\tdirecte\tA\t(SDA)\t\u00e0\tl\u2019ext\u00e9rieur\tdes\tar\u00e7ons.",
+      "description": "51. 52.St\u00f6cklidirecteA(SDA)\u00e0l\u2019ext\u00e9rieurdesar\u00e7ons.",
       "value": "0.3",
       "difficulty": "C",
       "group": "2",
@@ -1358,7 +462,7 @@
     },
     {
       "number": "2.55",
-      "description": "56.\tSt\u00f6ckli\tdirect\tB\t(SDB).",
+      "description": "56.St\u00f6cklidirectB(SDB).",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
@@ -1366,87 +470,31 @@
     },
     {
       "number": "2.62",
-      "description": "63.\t 65.\tPass\u00e9\tdorsal\tavec\t1/1\tt.\tsur\t1\tar\u00e7on.",
+      "description": "63. 65.Pass\u00e9dorsalavec1/1t.sur1ar\u00e7on.",
       "value": "0.2",
       "difficulty": "B",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.64",
-      "description": "50.\tSt\u00f6ckli\tdirecte\tA\t(SDA)\tsur\tles\tar\u00e7ons\tou\tar\u00e7on\t|entre les mains",
+      "number": "2.20226973",
+      "description": "74.Tramelotedirecte.",
+      "value": "0.1",
+      "difficulty": "A",
+      "group": "2",
+      "type": "acrobatic"
+    },
+    {
+      "number": "2.82",
+      "description": "83.St\u00f6ckliinvers\u00e9avec360\u00b0t.sur1ar\u00e7on.",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.61",
-      "description": "Pass\u00e9\tdorsal\tavant\tavec\t\u00bd\tt.\t(double\tdorsal).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.69",
-      "description": "Pass\u00e9\tdorsal\tavec\t270\u00ba\tt.\tdans\t1\tar\u00e7on\t(tech-|nique\tSohn)\tde\tl\u2019appui\tlat\u00e9ral\ta\ttransversal.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.20226973",
-      "description": "74.\tTramelote\tdirecte.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.79",
-      "description": "Pass\u00e9\tfacial\tavant\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui\tfacial\t|lat.\tsur\tl\u2019extr.,\tde\tl\u2019appui\tlat\u00e9ral,\ten\tutilisant\t1\t|ou\t2\tar\u00e7ons.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
       "number": "2.85",
-      "description": "86.\t 87.\t 88.\tTch\u00e8que\t dorsal,\tappui\tsur\tl\u2019extr\u00e9mit\u00e9\t des\t|ar\u00e7ons.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.92",
-      "description": "Tch\u00e8que dorsal sur les ar\u00e7ons ou ar\u00e7on entre les |mains.\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.91",
-      "description": "Costal\tallemand.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.20227097",
-      "description": "Facial\trusse\tavec\t180\u00b0\tou\t270\u00b0.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.103",
-      "description": "Sur\tle\tcheval\tou,\tfacial\trusse\tavec\t180\u00b0\tou\t",
+      "description": "86. 87. 88.Tch\u00e8que dorsal,appuisurl\u2019extr\u00e9mit\u00e9 des|ar\u00e7ons.",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
@@ -1454,7 +502,7 @@
     },
     {
       "number": "2.109",
-      "description": "110.\tFacial\trusse\tavec\t180\u00b0\tou\t\t270\u00b0\tsur\t1\tar\u00e7on\t|ou\tentre\tles\tar\u00e7ons.",
+      "description": "110.Facialrusseavec180\u00b0ou270\u00b0sur1ar\u00e7on|ouentrelesar\u00e7ons.",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
@@ -1462,47 +510,15 @@
     },
     {
       "number": "3.2022713",
-      "description": "Tout\ttransport\t\u00e0\tl\u2019appui\tlat\u00e9ral\t(3/3),\tmains\tentre\t|les\tar\u00e7ons.",
+      "description": "Touttransport\u00e0l\u2019appuilat\u00e9ral(3/3),mainsentre|lesar\u00e7ons.",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.10",
-      "description": "De\tl\u2019appui\tfacial\tlat\u00e9ral\tsur\tune\textr\u00e9m.,\ttrans-|port lat\u00e9ral saut\u00e9 par-dessus les 2 ar\u00e7ons \u00e0 |l\u2019appui\tdors.\tlat\u00e9ral\tsur\tl\u2019autre\textr\u00e9m.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.2",
-      "description": "Cercles\t des\tjambes\tavec\ttout\ttransport\tavant\t\u00e0\t|l\u2019appui\tlat\u00e9ral\t(3/3).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.8",
-      "description": "Cercles\td.\tjambes\tavec\ttout\ttransport\tsaut\u00e9\ten\tappui\t|lat\u00e9ral.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.17",
-      "description": "De\tl\u2019appui\tlat\u00e9ral\t\u00e0\tc\u00f4t\u00e9\tdes\tar\u00e7ons,\ttransport\tlat.\t|saut\u00e9\tpar-dessus\t l.\t2\tar\u00e7ons\t\u00e0\tl\u2019appui\tfac.\tlat.\t\u00e0\t|c\u00f4t\u00e9\tdes\tar\u00e7ons\tsur\tl\u2019autre\textr\u00e9m.\t(1-1\ta\t5-5).",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.21",
-      "description": "Tout\ttransport\tavec\t\u00bd\tpivot\t\u00e0\tl\u2019appui\ttransversal \t|(\u00bd\tou\t2/3\ttransport).",
+      "number": "3.9",
+      "description": "Cercles d.jambesavectouttransportav.saut\u00e9",
       "value": "0.3",
       "difficulty": "C",
       "group": "3",
@@ -1510,191 +526,71 @@
     },
     {
       "number": "3.43",
-      "description": "44.\t 45.\tDe\tl\u2019appui\ttransv.\tsur\t1\textr.,\ttransp.\tav.\tdans\t2\t|cercles\td.\tjambes\tsur\tle\t1er.\tar\u00e7on,\tsur\tle\t2e.\tar\u00e7on\t|avec\t\u00bc\tt.\tsur\tl\u2019aut.\textr\u00e9m.\t\u00e0\tl\u2019appui\tlat.\t(3/3).",
+      "description": "44. 45.Del\u2019appuitransv.sur1extr.,transp.av.dans2|cerclesd.jambessurle1er.ar\u00e7on,surle2e.ar\u00e7on|avec\u00bct.surl\u2019aut.extr\u00e9m.\u00e0l\u2019appuilat.(3/3).",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.47",
-      "description": "25. 26.\tCercles\tdes\tjambes\tavec\ttransport\tavant\tou\t|arri\u00e8re\tavec\t\u00bc\tpivot\t\u00e0\tl\u2019appui\tlat\u00e9ral.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.29",
-      "description": "Transport\t3/3\tavec\t\u00bd\tpivot\tpar-dessus\tles\tdeux\t|ar\u00e7ons.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.35",
-      "description": "Tout\ttransport.\t3/3\ten\tcercle\t\u00e9c.\tavec\t1/1\tpivot\t|en\t2\tcercles.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.41",
-      "description": "Transport\tav.\t(3/3)\ten\tappui\ttransv.\tsur\tles\t2\t|ar\u00e7ons.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.42",
-      "description": "Transport\tav.\t(3/3)\ten\tappui\ttransv.\tav.\tsaut.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.38",
-      "description": "Transport\tavant\ten\tappui\ttransversal\t(\u00bd\tou\t2/3).",
-      "value": "0.2",
-      "difficulty": "B",
+      "number": "3.25",
+      "description": "26.Cerclesdesjambesavectransportavantou|arri\u00e8reavec\u00bcpivot\u00e0l\u2019appuilat\u00e9ral.",
+      "value": "0.1",
+      "difficulty": "A",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.56",
-      "description": "55.\t51.\tTransport\tarri\u00e8re\tavec\tappui\tsur\tle\tcheval.\tsur\t|chaque\tarc.\tet\tsur\tl\u2019autre\textr.\t(3/3)\t(5-4-2-1).",
+      "description": "55.51.Transportarri\u00e8reavecappuisurlecheval.sur|chaquearc.etsurl\u2019autreextr.(3/3)(5-4-2-1).",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.57",
-      "description": "De\tl\u2019appui\tsur\t1\textr\u00eame,\tdouble\tdors.\tpar-|dessus\tle\t1er\tar\u00e7on\tSt\u00f6ckli\tarr.\tpar-dessus\t|le\t2e\tar\u00e7on\t\u00e0\tl\u2019appui\tlat\u00e9ral,\tar\u00e7on\tentre\tles\t|mains.",
+      "number": "3.63",
+      "description": "65.52.Toutautretransportar.surl\u2019autreextr\u00e9m.(3/3).",
       "value": "0.3",
       "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.53",
-      "description": "Transport\tarr.\ten\tappui\ttransv.\tav.\tsaut\tau\t|dessus\tdes\t2\tar\u00e7ons.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.50",
-      "description": "Transport\tarri\u00e9r\u00e9\ten\tappui\ttransversal\t(\u00bd\tou\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.62",
-      "description": "49.\tCercle\tdes\tjambes\tavec\ttransport\ten\tarri\u00e9r\u00e9\t|en appui transversal d\u2019une partie du cheval ou |ar\u00e7on\t\u00e0\tl\u2019autre\t(\u2153).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.64",
-      "description": "Pass\u00e9\tdorsal\tarri\u00e8re,\tpass\u00e9\tdorsal\tav.,\tpass\u00e9\t|dorsal\tarri\u00e8re.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.58",
-      "description": "Pass\u00e9\tdorsal\tav.,\tSt\u00f6ckli\trenv.,\tpass\u00e9\tdorsal\tav.\t",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.70",
-      "description": "Depuis\tl\u2019appui\t\u00e0\tl\u2019extr.,\ttransport\tfacial\trusse\ten\t|avant jusqu\u2019\u00e0 l\u2019autre extr\u00e9mit\u00e9 sans appui sur ou |autre\tles\tar\u00e7ons\t(lat\u00e9ral.\t\u00e0\tlat.,\ttransv.\t\u00e0\tlat.,\tlat.\t|-\u00e0\ttransv.,\ttransv.\t\u00e0\ttransv.).",
-      "value": "0.4",
-      "difficulty": "D",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.7473",
-      "description": "74.\t 77.\tTout\ttransport\t3/3\tdans\tFacial\trusse\tavec\t720\u00b0\t|ou\tplus\ttours.",
+      "description": "74. 77.Touttransport3/3dansFacialrusseavec720\u00b0|ouplustours.",
       "value": "0.3",
       "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.88",
-      "description": "St\u00f6ckli\tinvers\u00e9\tde\tl\u2019appui\ttransversal\tdans\tune\t|ar\u00e7on\ta\tl\u2019autre.",
-      "value": "0.4",
-      "difficulty": "D",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.91",
-      "description": "92.\t 93.\tStockli\tinverse\tde\tl\u2019app\ttransv.\ttermin\u00e9\tsur\t|l\u2019ar\u00e7on le plus \u00e9loign\u00e9",
+      "description": "92. 93.Stockliinversedel\u2019apptransv.termin\u00e9sur|l\u2019ar\u00e7on le plus \u00e9loign\u00e9",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "4.1",
-      "description": "Facial\tallemand\t(du\tcercle\tou\tcercle\tjambes\t|\u00e9cart\u00e9es).",
+      "number": "4.2",
+      "description": "Chaguiniansuividefacialallemand.",
+      "value": "0.2",
+      "difficulty": "B",
+      "group": "4",
+      "type": "acrobatic"
+    },
+    {
+      "number": "4.7",
+      "description": "10.Surl\u2019extr.,doublefacialrusseavec1080\u00b0ouplus.",
       "value": "0.1",
       "difficulty": "A",
       "group": "4",
       "type": "acrobatic"
     },
     {
-      "number": "4.9",
-      "description": "Sur\tl\u2019extr.,\tdouble\tfac.\trusse\tavec\t720\u00b0ou\t900\u00b0.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.14",
-      "description": "De\tl\u2019appui\tfacial\tlat\u00e9ral,\tpass\u00e9\tfacial\tav.\tavec\t\u00bd\t|t.\t\u00e0\tl\u2019appui\tfacial\tlat\u00e9ral\tet\tfacial\tallemand.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.20",
-      "description": "Cercle\td.\tjambes\tou\tcercle\t\u00e9c.\tpar\tl\u2019appui\trenvs.\t|(aussi\tavec\t\u00be\tt.\tavec\tou\tsans\ttransport).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.16",
-      "description": "SDA\tou\tSt\u00f6ckli\tinv.\tavec\tsaut\tarr.\tpar\tl\u2019app.\t|renvs.\tsur\tl\u2019autre\textr.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
       "number": "4.3",
-      "description": "5.\tSDA\ta\tl\u2019appui\trenvers\u00e9\t3/3\tavec\t450\u00ba\tou\tplus.",
+      "description": "5.SDAal\u2019appuirenvers\u00e93/3avec450\u00baouplus.",
       "value": "0.3",
       "difficulty": "C",
       "group": "4",
@@ -1702,25 +598,57 @@
     },
     {
       "number": "4.24",
-      "description": "19.15.\tSt\u00f6ckli\tinv.\tou\tSDA\to\tcercle\tdans\tune\tar\u00e7on\tpar\t|l\u2019app.\trenverse.",
+      "description": "19.15.St\u00f6ckliinv.ouSDAocercledansunear\u00e7onpar|l\u2019app.renverse.",
       "value": "0.6",
       "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.22",
-      "description": "Russe\t180\u00b0\td\u2019une\textr\u00e9mit\u00e9\t\u00e0\tl\u2019autre\t\u00e0\tla\tsortie\t|en\tapp.\ttendu\trenvers\u00e9",
-      "value": "0.4",
-      "difficulty": "D",
       "group": "4",
       "type": "acrobatic"
     }
   ],
   "vault": [
     {
+      "number": "1.101",
+      "description": "Renvs. av.etsaltoav.gr.avec1/1t.(Cuervo|gr.a.\u00bdt.).",
+      "value": 3.2,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.107",
+      "description": "Renvs. av.etsaltoav.ca.avec1/1t.(Cuervo|carp\u00e9a.\u00bdt.).",
+      "value": 3.6,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.113",
+      "description": "Renversement av.etsaltoav.tenduavec1/1|t.(Cuervotendu\u00bdt.).",
+      "value": 4.4,
+      "difficulty": "E",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.117",
+      "description": "Renvs.av.etsaltoav.tenduav.3/1t.",
+      "value": 6.0,
+      "difficulty": "C",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
+      "number": "1.120",
+      "description": "Tsukaharagroup\u00e9avec2/1t.",
+      "value": 3.6,
+      "difficulty": "F",
+      "group": "1",
+      "type": "gymnastic"
+    },
+    {
       "number": "1.131",
-      "description": "Kasamatsu\ttendu\tavec\t3/2\tt.\t",
+      "description": "Kasamatsutenduavec3/2t.",
       "value": 5.2,
       "difficulty": "E",
       "group": "1",
@@ -1728,7 +656,7 @@
     },
     {
       "number": "1.125",
-      "description": "Kasamatsu\t tendu\tavec\t\u00bd\tt.\tou\tTsukahara \t|tendu\tavec\t3/2\tt.",
+      "description": "Kasamatsu tenduavec\u00bdt.ouTsukahara |tenduavec3/2t.",
       "value": 4.4,
       "difficulty": "E",
       "group": "1",
@@ -1736,7 +664,7 @@
     },
     {
       "number": "1.126",
-      "description": "Kasamatsu\t t.\tavec\t1/1\tt.\tou\tTsukahara\t t.\tavec\t2/1\tt.",
+      "description": "Kasamatsu t.avec1/1t.ouTsukahara t.avec2/1t.",
       "value": 4.8,
       "difficulty": "F",
       "group": "1",
@@ -1744,7 +672,7 @@
     },
     {
       "number": "1.132",
-      "description": "Kasamatsu\ttendu\tavec\t2/1\tt.",
+      "description": "Kasamatsutenduavec2/1t.",
       "value": 5.6,
       "difficulty": "F",
       "group": "1",
@@ -1752,7 +680,7 @@
     },
     {
       "number": "1.133",
-      "description": "Kasamatsu\t tendu\tavec\t5/2\tt.\tou\tTsukahara \t|tendu\tavec\t7/2\tt.",
+      "description": "Kasamatsu tenduavec5/2t.ouTsukahara |tenduavec7/2t.",
       "value": 6.0,
       "difficulty": "A",
       "group": "1",
@@ -1760,7 +688,7 @@
     },
     {
       "number": "2.219",
-      "description": "Renversement\tavant\tet\tsalto\tav.\ttendu.",
+      "description": "Renversementavantetsaltoav.tendu.",
       "value": 3.6,
       "difficulty": "C",
       "group": "2",
@@ -1768,7 +696,7 @@
     },
     {
       "number": "2.220",
-      "description": "Renversement \tav.\tet\tsalto\tavant\ttendu\tavec\t\u00bd\t|t.\t(Cuervo\ttendu).",
+      "description": "Renversement av.etsaltoavanttenduavec\u00bd|t.(Cuervotendu).",
       "value": 4.0,
       "difficulty": "D",
       "group": "2",
@@ -1776,7 +704,7 @@
     },
     {
       "number": "2.207",
-      "description": "Renversement\tav.\tet\tsalto\tav.\tgr.",
+      "description": "Renversementav.etsaltoav.gr.",
       "value": 2.4,
       "difficulty": "C",
       "group": "2",
@@ -1784,7 +712,7 @@
     },
     {
       "number": "2.208",
-      "description": "Renvs.\tav.\tet\tsalto\tav.\tgr.\tavec\t\u00bd\tt.\t(ou\tCuervo\tgr.).",
+      "description": "Renvs.av.etsaltoav.gr.avec\u00bdt.(ouCuervogr.).",
       "value": 2.8,
       "difficulty": "D",
       "group": "2",
@@ -1792,7 +720,7 @@
     },
     {
       "number": "2.213",
-      "description": "Renversement\tav.\tet\tsalto\tav.\tca.",
+      "description": "Renversementav.etsaltoav.ca.",
       "value": 2.8,
       "difficulty": "C",
       "group": "2",
@@ -1800,7 +728,7 @@
     },
     {
       "number": "2.214",
-      "description": "Renvs.\tav.\tet\tsalto\tav.\tca.\tavec\t\u00bd\tt.\t(Cuervo\tca.).",
+      "description": "Renvs.av.etsaltoav.ca.avec\u00bdt.(Cuervoca.).",
       "value": 3.2,
       "difficulty": "D",
       "group": "2",
@@ -1808,7 +736,7 @@
     },
     {
       "number": "2.201",
-      "description": "Renversement\tavant.",
+      "description": "Renversementavant.",
       "value": 1.6,
       "difficulty": "C",
       "group": "2",
@@ -1816,7 +744,7 @@
     },
     {
       "number": "2.204",
-      "description": "Renversement\tavant\tavec\t3/2\tt.",
+      "description": "Renversementavantavec3/2t.",
       "value": 2.2,
       "difficulty": "F",
       "group": "2",
@@ -1824,7 +752,7 @@
     },
     {
       "number": "2.205",
-      "description": "Renversement\tavant\tavec\t2/1\tt.",
+      "description": "Renversementavantavec2/1t.",
       "value": 2.4,
       "difficulty": "A",
       "group": "2",
@@ -1832,7 +760,7 @@
     },
     {
       "number": "2.206",
-      "description": "Renversement\tavant\tavec\t5/2\tt.",
+      "description": "Renversementavantavec5/2t.",
       "value": 2.6,
       "difficulty": "B",
       "group": "2",
@@ -1840,7 +768,7 @@
     },
     {
       "number": "2.225",
-      "description": "Renversement\t avant\tet\tdouble\tsalto\tavant\tgr.",
+      "description": "Renversement avantetdoublesaltoavantgr.",
       "value": 5.2,
       "difficulty": "C",
       "group": "2",
@@ -1848,7 +776,7 @@
     },
     {
       "number": "2.228",
-      "description": "Renv.\tav.\tet\tsalto\tav.\tgr.\tavec\t\u00bd\tt.\tet\tsalto\tarr.\tgr.",
+      "description": "Renv.av.etsaltoav.gr.avec\u00bdt.etsaltoarr.gr.",
       "value": 5.6,
       "difficulty": "F",
       "group": "2",
@@ -1856,7 +784,7 @@
     },
     {
       "number": "2.231",
-      "description": "Renversement\tav.\tet\tdouble\tsalto\tav.\tcarp\u00e9.",
+      "description": "Renversementav.etdoublesaltoav.carp\u00e9.",
       "value": 5.6,
       "difficulty": "C",
       "group": "2",
@@ -1864,23 +792,23 @@
     },
     {
       "number": "3.309",
-      "description": "Tsukahara\tgr.\tavec\t\u00bd\tt.",
+      "description": "Tsukaharagr.avec\u00bdt.",
       "value": 2.4,
       "difficulty": "C",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.308",
-      "description": "Tsukahara\tcarp\u00e9.",
-      "value": 2.4,
-      "difficulty": "B",
+      "number": "3.310",
+      "description": "Renversement lat\u00e9ralavec\u00bct.etsaltoav.gr.|avec\u00bdt.ou Tsukaharaavec1/1t.",
+      "value": 2.8,
+      "difficulty": "D",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.307",
-      "description": "Renversement\tlat.\tavec\t\u00bc\tt.\tet\tsalto\tarr.\tgr.",
+      "description": "Renversementlat.avec\u00bct.etsaltoarr.gr.",
       "value": 2.2,
       "difficulty": "A",
       "group": "3",
@@ -1888,7 +816,7 @@
     },
     {
       "number": "3.313",
-      "description": "Tsukahara\ttendu.",
+      "description": "Tsukaharatendu.",
       "value": 3.2,
       "difficulty": "A",
       "group": "3",
@@ -1896,7 +824,7 @@
     },
     {
       "number": "3.314",
-      "description": "Tsukahara\ttendu\tavec\t\u00bd\tt.",
+      "description": "Tsukaharatenduavec\u00bdt.",
       "value": 3.6,
       "difficulty": "B",
       "group": "3",
@@ -1904,7 +832,7 @@
     },
     {
       "number": "3.315",
-      "description": "Tsukahara\ttendu\ta.\t1/1\tt.\tou\tKasamatsu\tt.",
+      "description": "Tsukaharatendua.1/1t.ouKasamatsut.",
       "value": 4.0,
       "difficulty": "C",
       "group": "3",
@@ -1912,7 +840,7 @@
     },
     {
       "number": "3.321",
-      "description": "Tsukahara\tdouble\tsalto\tarri\u00e8re\tgr.\tavec\t1/1\tt.",
+      "description": "Tsukaharadoublesaltoarri\u00e8regr.avec1/1t.",
       "value": 6.0,
       "difficulty": "C",
       "group": "3",
@@ -1920,7 +848,7 @@
     },
     {
       "number": "3.320",
-      "description": "Tsukahara\tavec\tsalto\tarri\u00e8re\tcarpe.",
+      "description": "Tsukaharaavecsaltoarri\u00e8recarpe.",
       "value": 5.6,
       "difficulty": "B",
       "group": "3",
@@ -1928,7 +856,7 @@
     },
     {
       "number": "3.301",
-      "description": "Renversement\tlat\u00e9ral\tavec\t\u00bc\tt.",
+      "description": "Renversementlat\u00e9ralavec\u00bct.",
       "value": 1.6,
       "difficulty": "A",
       "group": "3",
@@ -1936,7 +864,7 @@
     },
     {
       "number": "3.302",
-      "description": "Renversement\tlat\u00e9ral\tavec\t3/4\tt.",
+      "description": "Renversementlat\u00e9ralavec3/4t.",
       "value": 1.8,
       "difficulty": "B",
       "group": "3",
@@ -1944,7 +872,7 @@
     },
     {
       "number": "3.303",
-      "description": "Renversement\tlat\u00e9ral\tavec\t5/4\tt.",
+      "description": "Renversementlat\u00e9ralavec5/4t.",
       "value": 2.0,
       "difficulty": "C",
       "group": "3",
@@ -1952,7 +880,7 @@
     },
     {
       "number": "4.401",
-      "description": "Rondade,\trenversement\tarri\u00e8re.",
+      "description": "Rondade,renversementarri\u00e8re.",
       "value": 1.6,
       "difficulty": "E",
       "group": "4",
@@ -1960,7 +888,7 @@
     },
     {
       "number": "4.410",
-      "description": "Yurchenko\tgroup\u00e9\tavec\t3/2\tt.",
+      "description": "Yurchenkogroup\u00e9avec3/2t.",
       "value": 3.2,
       "difficulty": "B",
       "group": "4",
@@ -1968,7 +896,7 @@
     },
     {
       "number": "4.413",
-      "description": "Yurchenko\tcarp\u00e9.",
+      "description": "Yurchenkocarp\u00e9.",
       "value": 2.4,
       "difficulty": "E",
       "group": "4",
@@ -1976,7 +904,7 @@
     },
     {
       "number": "4.407",
-      "description": "Rondade,\trenversement\tarri\u00e8re\tet\tsalto\tarr.\tgr.",
+      "description": "Rondade,renversementarri\u00e8reetsaltoarr.gr.",
       "value": 2.2,
       "difficulty": "E",
       "group": "4",
@@ -1984,7 +912,7 @@
     },
     {
       "number": "4.414",
-      "description": "Yurchen ko\ttendu.",
+      "description": "Yurchen kotendu.",
       "value": 3.2,
       "difficulty": "F",
       "group": "4",
@@ -1992,7 +920,7 @@
     },
     {
       "number": "4.415",
-      "description": "Yurchenko\ttendu\tavec\t\u00bd\tt.",
+      "description": "Yurchenkotenduavec\u00bdt.",
       "value": 3.6,
       "difficulty": "A",
       "group": "4",
@@ -2000,7 +928,7 @@
     },
     {
       "number": "4.416",
-      "description": "Yurchenko\ttendu\tavec\t1/1\tt.",
+      "description": "Yurchenkotenduavec1/1t.",
       "value": 4.0,
       "difficulty": "B",
       "group": "4",
@@ -2008,7 +936,7 @@
     },
     {
       "number": "4.417",
-      "description": "Yurchenko\ttendu\tavec\t3/2\tt.",
+      "description": "Yurchenkotenduavec3/2t.",
       "value": 4.4,
       "difficulty": "C",
       "group": "4",
@@ -2016,7 +944,7 @@
     },
     {
       "number": "4.418",
-      "description": "Yurchenko\ttendu\tavec\t2/1\tt.",
+      "description": "Yurchenkotenduavec2/1t.",
       "value": 4.8,
       "difficulty": "D",
       "group": "4",
@@ -2024,7 +952,7 @@
     },
     {
       "number": "4.419",
-      "description": "Yurchenko\ttendu\tavec\t5/2\tt.",
+      "description": "Yurchenkotenduavec5/2t.",
       "value": 5.2,
       "difficulty": "E",
       "group": "4",
@@ -2032,7 +960,7 @@
     },
     {
       "number": "4.420",
-      "description": "Yurchenko\ttendu\tavec\t3/1\tt.",
+      "description": "Yurchenkotenduavec3/1t.",
       "value": 5.6,
       "difficulty": "F",
       "group": "4",
@@ -2040,7 +968,7 @@
     },
     {
       "number": "4.421",
-      "description": "Yurchenko\ttendu\tavec\t7/2\tt.",
+      "description": "Yurchenkotenduavec7/2t.",
       "value": 6.0,
       "difficulty": "A",
       "group": "4",
@@ -2048,7 +976,7 @@
     },
     {
       "number": "4.437",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|avant\tcarp\u00e8.",
+      "description": "Rondade, \u00bdt.etrenversement avantetsalto|avantcarp\u00e8.",
       "value": 3.0,
       "difficulty": "E",
       "group": "4",
@@ -2056,7 +984,7 @@
     },
     {
       "number": "4.439",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|avant\ttendu.",
+      "description": "Rondade, \u00bdt.etrenversement avantetsalto|avanttendu.",
       "value": 3.8,
       "difficulty": "A",
       "group": "4",
@@ -2064,7 +992,7 @@
     },
     {
       "number": "4.440",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|avant\ttendu\ta.\t\u00bd\tt.",
+      "description": "Rondade, \u00bdt.etrenversement avantetsalto|avanttendua.\u00bdt.",
       "value": 4.2,
       "difficulty": "B",
       "group": "4",
@@ -2072,7 +1000,7 @@
     },
     {
       "number": "4.438",
-      "description": "Rondade,\t\u00bd\tt.\tet\trenvs.\tav.\tet\tsalto\tav.\tca.\tavec\t\u00bd\tt.",
+      "description": "Rondade,\u00bdt.etrenvs.av.etsaltoav.ca.avec\u00bdt.",
       "value": 3.4,
       "difficulty": "F",
       "group": "4",
@@ -2080,7 +1008,7 @@
     },
     {
       "number": "4.444",
-      "description": "Rondade,\t\u00bd\tt.\tet\trenversement\tavant\tet\tsalto\t|avant\ttendu\tavec\t5/2\tt.",
+      "description": "Rondade,\u00bdt.etrenversementavantetsalto|avanttenduavec5/2t.",
       "value": 5.8,
       "difficulty": "F",
       "group": "4",
@@ -2088,7 +1016,7 @@
     },
     {
       "number": "4.443",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|avant\ttendu\ta.\t2/1\tt.",
+      "description": "Rondade, \u00bdt.etrenversement avantetsalto|avanttendua.2/1t.",
       "value": 5.4,
       "difficulty": "E",
       "group": "4",
@@ -2096,7 +1024,7 @@
     },
     {
       "number": "4.442",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|avant\ttendu\ta.\t3/2\tt.",
+      "description": "Rondade, \u00bdt.etrenversement avantetsalto|avanttendua.3/2t.",
       "value": 5.0,
       "difficulty": "D",
       "group": "4",
@@ -2104,7 +1032,7 @@
     },
     {
       "number": "4.431",
-      "description": "Rondade,\t\u00bd\tt.\tet\trenversement\tavant.",
+      "description": "Rondade,\u00bdt.etrenversementavant.",
       "value": 1.8,
       "difficulty": "E",
       "group": "4",
@@ -2112,7 +1040,7 @@
     },
     {
       "number": "4.432",
-      "description": "Rondade,\t\u00bd\tt.\tet\trenversement\tav.\tavec\t\u00bd\tt.",
+      "description": "Rondade,\u00bdt.etrenversementav.avec\u00bdt.",
       "value": 2.0,
       "difficulty": "F",
       "group": "4",
@@ -2120,7 +1048,7 @@
     },
     {
       "number": "4.434",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t av.\tet\tsalto\t|avant\tgroup\u00e9.",
+      "description": "Rondade, \u00bdt.etrenversement av.etsalto|avantgroup\u00e9.",
       "value": 2.6,
       "difficulty": "B",
       "group": "4",
@@ -2128,7 +1056,7 @@
     },
     {
       "number": "4.433",
-      "description": "Rondade,\t\u00bd\tt.\tet\trenv.\tav.\tavec\t1/1\tt.",
+      "description": "Rondade,\u00bdt.etrenv.av.avec1/1t.",
       "value": 2.2,
       "difficulty": "A",
       "group": "4",
@@ -2136,7 +1064,7 @@
     },
     {
       "number": "4.435",
-      "description": "Rondade,\t \u00bd\tt.\tet\trenversement\t avant\tet\tsalto\t|av.\tgroup\u00e9\tavec\t\u00bd\tt.",
+      "description": "Rondade, \u00bdt.etrenversement avantetsalto|av.group\u00e9avec\u00bdt.",
       "value": 3.0,
       "difficulty": "C",
       "group": "4",
@@ -2144,7 +1072,7 @@
     },
     {
       "number": "4.425",
-      "description": "Yurchenko\tet\tsalto\tarr.\tgr.",
+      "description": "Yurchenkoetsaltoarr.gr.",
       "value": 5.2,
       "difficulty": "E",
       "group": "4",
@@ -2152,217 +1080,57 @@
     },
     {
       "number": "4.426",
-      "description": "Melissanidis\tcarp\u00e9.",
+      "description": "Melissanidiscarp\u00e9.",
       "value": 5.6,
       "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.467",
-      "description": "Rondade,",
-      "value": 3.8,
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.468",
-      "description": "Scherbo",
-      "value": 4.2,
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.470",
-      "description": "Scherbo \tavec\t3/2\tt.",
-      "value": 5.0,
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.469",
-      "description": "Scherbo \tavec\t1/1\tt.",
-      "value": 4.6,
-      "difficulty": "A",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.472",
-      "description": "Scherbo \tavec\t5/2\tt.",
-      "value": 5.8,
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.471",
-      "description": "Scherbo \tavec\t2/1\tt.",
-      "value": 5.4,
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.461",
-      "description": "Rondade,",
-      "value": 3.4,
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.462",
-      "description": "Rondade, \tsaut \tarri\u00e8re \tavec \t1/1 \tt. \tet \trenverse -|ment",
-      "value": 3.8,
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.457",
-      "description": "Rondade, \tsaut \tarri\u00e8re \tavec \t1/1 \tt. \tet \trenverse -|ment",
-      "value": 2.6,
-      "difficulty": "A",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.460",
-      "description": "Rondade, \tsaut \tarri\u00e8re \tavec \t1/1 \tt. \tet \trenverse -|ment",
-      "value": 3.0,
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.459",
-      "description": "Rondade, \tsaut \tarri\u00e8re \tavec \t1/1 \tt. \tet \trenverse -|ment",
-      "value": 3.0,
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.455",
-      "description": "Rondade, \tsaut \tarri\u00e8re \tavec \t1/1 \tt. \tet \trenverse -|ment",
-      "value": 2.2,
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.456",
-      "description": "Rondade, \tsaut \tarri\u00e8re \tavec \t1/1 \tt. \tet \trenverse -|ment",
-      "value": 2.4,
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.449",
-      "description": "Rondade, \t\u00bd\tt.\tet\trenversement \tav.\tet\tdouble\t|salto",
-      "value": 5.4,
-      "difficulty": "E",
       "group": "4",
       "type": "acrobatic"
     }
   ],
   "parallel bars": [
     {
-      "number": "1.27",
-      "description": "Makuts\t\u00e0\tl\u2019appui\tbrachial\tou\t\u00be Diamidov \u00bc ",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.33",
-      "description": "Salto\tarr.\t\u00e0\tl\u2019appui\trenvers\u00e9.\tAussi\tarriv\u00e9e\tsur\t",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.32",
-      "description": "\u00c9lan\ten\tav.\t\u00e0\tl\u2019appui\trenvers\u00e9\tet\tsaut\t\u00e0\tl\u2019appui.",
+      "number": "1.8",
+      "description": "\u00c9lanenavantavec1/1t.\u00e0l\u2019appuibrachial.",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
       "type": "gymnastic"
     },
     {
-      "number": "1.34",
-      "description": "Salto\tarri\u00e8re\tavec\tpasser\tles\tjambes\t\u00e9cart\u00e9es.\t|en\tavant\t\u00e0\tl\u2019appui.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.26",
-      "description": "S\u2019\u00e9lever\tcorps\tt.,\tbras\tfl\t.\tou\tcorps\tfl\t.,\tbras\tt.\t\u00e0\tl\u2019appui\t|renvers\u00e9,\tsur\t1\tou\t2\tbarres\t(2\ts.)\taussi\tj.\t\u00e9cart\u00e9es.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.43",
-      "description": "48.\tDouble\tsalto\tarri\u00e8re\tgr.\tavec\t1\u20442\tt.\t\u00e0\tl\u2019appui\tbrachial.",
+      "number": "1.1",
+      "description": "Toutappuia\u00e9lanrenvers\u00e9sur1ou2b.(2s.).",
       "value": "0.1",
       "difficulty": "A",
       "group": "1",
       "type": "gymnastic"
     },
     {
-      "number": "1.28",
-      "description": "Demi-tour\ten\tavant\tavec\t5/4\ttour\ta\tl\u2019a.t.r.\tsur\t|un\tbras,\tet\tHealy\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.4",
-      "difficulty": "D",
+      "number": "1.24",
+      "description": "19.Passerjambes\u00e9cart\u00e9esenarri\u00e8re\u00e0l\u2019appui.",
+      "value": "0.6",
+      "difficulty": "F",
       "group": "1",
       "type": "gymnastic"
     },
     {
-      "number": "1.40",
-      "description": "Salto\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9\tsur\t1\tb.\tsusp.\t|(encha\u00een\u00e9\tavec\tdes\t\u00e9l\u00e9ments\tde\ttype\tHealy ) ",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.45",
-      "description": "Salto\tarri\u00e8re\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.\tbrachial.",
+      "number": "1.27",
+      "description": "Makuts\u00e0l\u2019appuibrachialou\u00be Diamidov \u00bc ",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
       "type": "gymnastic"
     },
     {
-      "number": "1.47",
-      "description": "Double\tsalto\tarri\u00e8re\tcarp\u00e9\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.52",
-      "description": "3/2\tsalto\tarri\u00e8re\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.4",
-      "difficulty": "D",
+      "number": "1.43",
+      "description": "48.Doublesaltoarri\u00e8regr.avec1\u20442t.\u00e0l\u2019appuibrachial.",
+      "value": "0.1",
+      "difficulty": "A",
       "group": "1",
       "type": "gymnastic"
     },
     {
       "number": "1.62",
-      "description": "Demi-tour\ten\tarri\u00e8re\t\u00e0\tl\u2019appui.",
+      "description": "Demi-tourenarri\u00e8re\u00e0l\u2019appui.",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
@@ -2370,7 +1138,7 @@
     },
     {
       "number": "1.63",
-      "description": "Demi-tour\ten\tarri\u00e8re\tpar\tl\u2019appui\trenverse\t\u00e0\t|l\u2019appui.",
+      "description": "Demi-tourenarri\u00e8reparl\u2019appuirenverse\u00e0|l\u2019appui.",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
@@ -2378,63 +1146,15 @@
     },
     {
       "number": "1.68",
-      "description": "Healy\t\u00e0\tl\u2019appui\tbrachial\t(aussi\tde\tl\u2019appui\tren-|verse\tsur\t1\tbarre).",
+      "description": "Healy\u00e0l\u2019appuibrachial(aussidel\u2019appuiren-|versesur1barre).",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
       "type": "gymnastic"
     },
     {
-      "number": "1.69",
-      "description": "Depuis\tune\t\u00e9l\u00e9ment\td\u2019\u00e9lan\t(min.\tB)  l\u2019appui |renverse\tsur\t1\tb.,\tHealy\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.57",
-      "description": "Demi-tour\ten\tarri\u00e8re\ten\tpass.\tles\tjambes\t\u00e9car-|t\u00e9es\ten\tarri\u00e8re\t\u00e0\tl\u2019appui.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.71",
-      "description": "Depuis\tune\t\u00e9l\u00e9ment\td\u2019\u00e9lan\t(min.\tB)\t\u00e0\tl\u2019appui\t|renv.\tsur\t1\tbarre,\tHealy\t(360\u00b0\tou\tplus)\t\u00e0\tl\u2019appui.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
       "number": "1.83",
-      "description": "84. 82.74.\t \u00c9lanc\u00e9\ten\tarri\u00e8re\tavec\t\u00bd\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\t|renvers\u00e9.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.79",
-      "description": "Tout\tappui\trenvers\u00e9\tavec\t\u00bd\tt.\t\t(aussi\tavec\t2\ts.).",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.93",
-      "description": "De\tl\u2019appui\trenvers\u00e9,\tsalto\tav.\t\u00e0\tl\u2019appui\tou\tde\t|l\u2019appui\trenvs.\tprises\ttourn.,disloquer\t\u00e0\tl\u2019appui.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.95",
-      "description": "5/4\tsalto\tav.\t\u00e9cart\u00e9\tdirectement\t\u00e0\tla\tsuspension.",
+      "description": "84. 82.74. \u00c9lanc\u00e9enarri\u00e8reavec\u00bdt.saut\u00e9\u00e0l\u2019appui|renvers\u00e9.",
       "value": "0.5",
       "difficulty": "E",
       "group": "1",
@@ -2442,7 +1162,7 @@
     },
     {
       "number": "1.99",
-      "description": "Salto\tavant\t\u00e0\tl\u2019appui.",
+      "description": "Saltoavant\u00e0l\u2019appui.",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
@@ -2450,23 +1170,7 @@
     },
     {
       "number": "1.98",
-      "description": "5/4\tsalto\tav.\tgroup\u00e9\tou\tcarp\u00e9\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.100",
-      "description": "5/4\tsalto\tavant\t\u00e9cart\u00e9\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.104",
-      "description": "Salto\tavant\tgroup\u00e9\tou\tcarp\u00e9\tavec\t\u00bc\tt.\t\u00e0\tla\t|suspension\tlat\u00e9rale\tsur\t1\tbarre.",
+      "description": "5/4saltoav.group\u00e9oucarp\u00e9\u00e0l\u2019appuibrachial.",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
@@ -2474,647 +1178,111 @@
     },
     {
       "number": "1.105",
-      "description": "Salto avant group\u00e9 ou\tcarp\u00e9\t\u00e0\tla\tsuspension.",
+      "description": "Salto avant group\u00e9 oucarp\u00e9\u00e0lasuspension.",
       "value": "0.3",
       "difficulty": "C",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.106",
-      "description": "Double\tsalto\tgroup\u00e9\tavant\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "1",
-      "type": "gymnastic"
-    },
-    {
-      "number": "1.107",
-      "description": "Double\tsalto\tcarp\u00e9\tavant\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.5",
-      "difficulty": "E",
       "group": "1",
       "type": "gymnastic"
     },
     {
       "number": "2.7",
-      "description": "\u00c9tablissement\ten\tavant\tavec\t\u00bc\tt.\t\u00e0\tla\tsuspen-|sion lat\u00e9rale sur une barre",
+      "description": "\u00c9tablissementenavantavec\u00bct.\u00e0lasuspen-|sion lat\u00e9rale sur une barre",
       "value": "0.1",
       "difficulty": "A",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.8",
-      "description": "Rouler\tarri\u00e8re\tavec\t\u00bd\tt.\tde\tl\u2019appui\tbrachial\tou\t|\u00e9tablis\ten\tavant\tet\tKato\tsaut\u00e9\t\u00e0\tl\u2019appui.\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.14",
-      "description": "Rouler\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9\tavec\tbras\t|tendus.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.20",
-      "description": "Salto\tarri\u00e8re\tet\tpass.\tles\tjambes\tavant\t\u00e0\t l\u2019appui |brachial.",
-      "value": "0.2",
-      "difficulty": "B",
       "group": "2",
       "type": "gymnastic"
     },
     {
       "number": "2.1",
-      "description": "\u00c9tablissement\ten\tavant\t\u00e0\tl\u2019appui.",
+      "description": "\u00c9tablissementenavant\u00e0l\u2019appui.",
       "value": "0.1",
       "difficulty": "A",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.23",
-      "description": "Rouler\tarri\u00e8re\tet\tsalto\tarri\u00e8re\tgroup\u00e9\t\u00e0\tl\u2019appui\t|brachial.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.18",
-      "description": "\u00c9tablissement.\ten\tav.\tavec\t3/2\tt.\t\u00e0\tl\u2019appui\trenvs.",
-      "value": "0.6",
-      "difficulty": "F",
       "group": "2",
       "type": "gymnastic"
     },
     {
       "number": "2.19",
-      "description": "22.\t12.\t\u00c9tablissement.\ten\tav.\tavec\tMakuts\t\u00e0\tl\u2019appui.",
+      "description": "22.12.\u00c9tablissement.enav.avecMakuts\u00e0l\u2019appui.",
       "value": "0.1",
       "difficulty": "A",
       "group": "2",
       "type": "gymnastic"
     },
     {
-      "number": "2.17",
-      "description": "\u00c9tablissement\ten\tavant\tavec\t1/1\tt.\t\u00e0\tl\u2019appui\t|renvers\u00e9.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.5",
-      "description": "\u00c9tablissement\ten\tavant\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui\t|renvers\u00e9.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.3",
-      "description": "\u00c9tablissement en avant et passer les jambes en |arri\u00e8re\t\u00e0\tla\tsuspension.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.15",
-      "description": "Rouler\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9\tavec\t1\u20444\tt.\tsur\t|une\tbarre.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.43",
-      "description": "29.\tRouler\tarri\u00e8re\tavec\t\u00bd\tt.\tgr.\t\u00e0\tla\tsusp.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.44",
-      "description": "\u00c9tablissement .\tarri\u00e8re\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.46",
-      "description": "\u00c9tablissement \tarri\u00e8re\tet\tsalto\tav.\tcarp\u00e9\tou\ttendu\t|\u00e0\tl\u2019appui.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.38",
-      "description": "\u00c9tablissement \tarri\u00e8re\tavec\t\u00bd\tt.\tet\tpasser\tles\t|jambes\ten\tarri\u00e8re\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.39",
-      "description": "\u00c9tablissement \tarri\u00e8re\tavec\t\u00bd\tt.\tet\tpasser\tles\t|jambes\ten\tarri\u00e8re\t\u00e0\tl\u2019appui.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.32",
-      "description": "\u00c9tablissement\tarri\u00e8re\t\u00e0\tl\u2019appui\trenversement\t|(aussi\tavant\t\u00bd\tt).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.34",
-      "description": "\u00c9tablissement\tarri\u00e8re\tavec\t\u00be\tt.\tsaut\u00e9\t\u00e0\tl\u2019appui\t|renvers\u00e9\tsur\t1\tbarre.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.28",
-      "description": "Rouler\tarri\u00e8re\tavec\t\u00bd\tt.\tgr.\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "2.54",
-      "description": "\u00c9tablissement \tarri\u00e8re\tet\t5/4\tsalto\tav.\t\u00e9cart\u00e9\t\u00e0\t|la\tsuspension.",
+      "number": "2.6",
+      "description": "\u00c9tabl.avantavec3/4t.ou1/4t.\u00e0l\u2019appuirenv.",
       "value": "0.6",
       "difficulty": "F",
       "group": "2",
       "type": "gymnastic"
     },
     {
-      "number": "2.56",
-      "description": "\u00c9tablissement  arri\u00e8re et passer les jambes |\u00e9cart\u00e9es\ten\tav.\t\u00e0\tl\u2019appui\tbras\ttendus.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "gymnastic"
-    },
-    {
-      "number": "3.15",
-      "description": "Moy\t\u00e0\tl\u2019appui\tavec\tles\tjambes\ttendues\t(aussi\t|sans\tl\u00e2cher\tprises).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.3",
-      "description": "\u00c9lan\tav.\tpasser\tjambes\t\u00e9cart\u00e9es\ten\tarri\u00e8re\treprise\t|a l\u2019appui brachial corps tendu a l\u2019horizontal ou bras |fl\u00e9chis.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.9",
-      "description": "Moy\tcarp\u00e9\tavec\t1/1\tt.\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.21",
-      "description": "Grand\t tour\tarr.\t\u00e0\tl\u2019appui\trenv.\tou\tavec\tdisloca -|tion\tavant\t(aussi\tav.\t\u00bc\tt\tou\t\u00bd\tt.\tet\tsur\t1\tbarre).",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.10",
-      "description": "Moy\tet\tsalto\tav.\tgroup\u00e9,\tcarp\u00e9\tou\t\u00e9cart\u00e9\ta\tl\u2019appui |brachial.",
+      "number": "3.4",
+      "description": "Moycarp\u00e9avecpasserjambes\u00e9cart\u00e9esen|arri\u00e8re \u00e0 l\u2019appui renvers\u00e9",
       "value": "0.4",
       "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.22",
-      "description": "Grand\ttour\tarri\u00e8re\t\u00e0\tl\u2019a.t.r.\tsur\tune\tbarre\t (encha\u00een\u00e9\t|avec un \u00e9l\u00e9ment de type Healy ).",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.8",
-      "description": "Moy\tcarp\u00e9\ten\tpassant\tles\tjambes\tec.\ten\tarri\u00e8re\t|avec\t\u00bd\tt.\ta\tl\u2019appui\tbrachial\t(aussi\tjambes\tserr\u00e9es).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.14",
-      "description": "Moy\t\u00e0\tl\u2019appui\tjambes\tfl\u00e9chies\t(aussi\tsans\tl\u00e2cher\t|prises).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.38",
-      "description": "S\u2019abaisser avec salto arri\u00e8re tendu \u00e0 la suspen-|sion.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.30",
-      "description": "Grand\t tour\tDiamidov\tavec\t \u00bc or \u00bd \u00e0\tl\u2019app.\trenv.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.46",
-      "description": "Grand\t tour\tarri\u00e8re\tavec\tMakuts\t\u00e0\tl\u2019appui\tbra-|chial.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.48",
-      "description": "Grand\ttour\tarri\u00e8re\tavec\tMakuts.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.39",
-      "description": "Grand\t tour\tarri\u00e8re\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.51",
-      "description": "|(Chartrand)52.\tGrand\ttour\tarri\u00e8re\tavec\tpass.\ti.\tjambes\t\u00e9cart\u00e9es\t|\u00e0\tl\u2019appui\tou\tbras\tfl\t\u00e9chis.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.53",
-      "description": "Grand\ttour\tarri\u00e8re\tavec\t\u00bd\tpass.\tjambes\t|\u00e9cart\u00e9es\ta\tl\u2019appui\tbrachial.",
-      "value": "0.5",
-      "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.68",
-      "description": "69.\t 70.\t60.\tBelle\tavec\t1/1\ttour.",
+      "description": "69. 70.60.Belleavec1/1tour.",
       "value": "0.2",
       "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.66",
-      "description": "Grand\ttour\tarri\u00e8re\tavec\t\u00bd\tt.\tet\t3/2\tsalto\tavant\t\u00e0\t|l\u2019appui\tbrachial.",
-      "value": "0.6",
-      "difficulty": "F",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.67",
-      "description": "72.\t 71.\tGrand\ttour\t arri\u00e8re  et salto group\u00e9 ou carp\u00e9 |avec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
+      "description": "72. 71.Grandtour arri\u00e8re  et salto group\u00e9 ou carp\u00e9 |avec\u00bdt.\u00e0l\u2019appui.",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.63",
-      "description": "Grand\ttour\tarri\u00e8re\tet\tsalto\tcarp\u00e9\tavec\t\u00bd\tt.\t\u00e0\tla\t|suspension\tsur\tl\u2019extr\u00e9mit\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.75",
-      "description": "Bascule\td\u2019\u00e9lan\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.86",
-      "description": "Bascule\td\u2019\u00e9lan\tsur\t1\tbarre\tpar\tl\u2019\u00e9querre\tjambes\t|\u00e9cart\u00e9es\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.92",
-      "description": "Bascule\td\u2019\u00e9lan\tpar\tl\u2019\u00e9querre\tjambes\tlev.\tvert.\tet\t|saut\tavec\t\u00bd\tt.\t\u00e0\tla\tsuspension\tsur\tl\u2019autre\tbarre.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.73",
-      "description": "Bascule\td\u2019\u00e9lan.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.98",
-      "description": "Bascule\tallemande\t\u00e0\tl\u2019appui.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.97",
-      "description": "Bascule\tallemande\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.99",
-      "description": "\u00c9tablissement .\tavant\ten\ttournant\ten\tarri\u00e8re\tavec\t|\u00bd\tt.\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.100",
-      "description": "\u00c9tablissement\t avant\ten\ttournant\ten\tarri\u00e8re\t|avec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
+      "number": "3.106",
+      "description": "\u00c9tablissement av.entournantenarr.\u00e0l\u2019appui|renv.,aussisur1barreo\u00bct.",
       "value": "0.4",
       "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.104",
-      "description": "Bascule\t allemande\t avec\t\u00bd\tt.\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.116",
-      "description": "\u00c9tablissement\tavant\ten\ttourn.\t\u00e0\tla\tappui.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.117",
-      "description": "Tour\t d\u2019appui\ten\tpass.\tles\tjambes\t\u00e9cart\u00e9es\t|vers\tl\u2019avant\t\u00e0\tl\u2019appui.",
-      "value": "0.3",
-      "difficulty": "C",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.113",
-      "description": "114.\t\u00c9tablissement  avant en tournant en arri\u00e8re |avec\t5/4\tt.\t\u00e0\tl\u2019appui\trenvers\u00e9.",
+      "description": "114.\u00c9tablissement  avant en tournant en arri\u00e8re |avec5/4t.\u00e0l\u2019appuirenvers\u00e9.",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.120",
-      "description": "\u00c9tab.\tav.\ten\ttournant\ten\tarr.\t\u00e0\tl\u2019appui\trenv.\t|a\tMakuts.",
-      "value": "0.7",
-      "difficulty": "G",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.128",
-      "description": "Tour\td\u2019appui\tavant\tavec\t\u00bd\tt.\t\u00e0\tl\u2019appui.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.123",
-      "description": "Etablissement\tav.\ten\ttournant\ten\tarri\u00e8re\tavec\t|salto\tgroup\u00e9\tet\t1\u20442\ttour\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.130",
-      "description": "\u00c9tablissement \tavant\ten\ttourn.\ten\tarri\u00e8re\tavec\t|\u00bc\tt.\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.4",
-      "difficulty": "D",
+      "number": "3.131",
+      "description": "\u00c9tablissement avantentourn.enarri\u00e8reavec|\u00bd ou 3/4t.\u00e0l\u2019appuirenvers\u00e9.",
+      "value": "0.5",
+      "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
       "number": "3.125",
-      "description": "\u00c9tablissement \tavant\ten\ttourn.\ten\tarri\u00e8re\tavec\t|salto\tarri\u00e8re\tgroupe\t\u00e0\tl\u2019appui\tbrachial.",
+      "description": "\u00c9tablissement avantentourn.enarri\u00e8reavec|saltoarri\u00e8regroupe\u00e0l\u2019appuibrachial.",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.134",
-      "description": "127.\tTour\td\u2019appui\tavant\t\u00e0\tl\u2019appui.",
+      "number": "3.2126",
+      "description": "\u00c9tablissement avantentourn.enarri\u00e8reavec|saltoarri\u00e8recarpe\u00e0l\u2019appuibrachial.",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.124",
-      "description": "Etablissement\tav.\ten\ttournant\ten\tarri\u00e8re\tavec\t|salto\ttendue\tet\t1\u20442\ttour\t\u00e0\tl\u2019appui\tbrachial.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.137",
-      "description": "\u00c9tablissement\tavant\ten\ttourn.\ten\tarri\u00e8re\tet\t|\u00bc\tt.\t\u00e0\tl\u2019appui .",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.1",
-      "description": "Salto\tavant\tcarp\u00e9\tou\ttendu,\taussi\tavec\t\u00bd\tt.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.9",
-      "description": "Double\t salto\tavant\tgroup\u00e9\tde\tl\u2019extr\u00e9mit\u00e9\t des\t|barres.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.5",
-      "description": "Double\tsalto\tavant\tgroupe.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.16",
-      "description": "4.\tSalto\tavant\tcarp\u00e9\tou\ttendu\tavec\t2/1\tou\t5/2\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
       "type": "acrobatic"
     },
     {
       "number": "4.17",
-      "description": "18.\tDouble\tsalto\tavant\tcarp\u00e9\tavec\t\u00bd\tt.\t",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.6",
-      "description": "Double\tsalto\tavant\tcarp\u00e9.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.19",
-      "description": "Salto\tarri\u00e8re\tcarp\u00e9\tou\ttendu,\taussi\tavec\t\u00bd\tt.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.20",
-      "description": ". 21.\tSalto\tarri\u00e8re\tcarp\u00e9\tou\ttendu\tavec\t1/1\tou\t3/2\tt.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.22",
-      "description": "Salto\tarri\u00e8re\ttendu\tavec\t2/1\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.41",
-      "description": "42. 39.\t 40.\tDouble\t salto\tarri\u00e8re\tgroup\u00e9\tavec\t\u00bd\tt.\tou\tsalto\t|arri\u00e9r\u00e9\t\u00bd\tt.\tet\tsalto\tavant\tgroup\u00e9.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.45",
-      "description": "De\tla\tsuspension\t sur\tl\u2019extr\u00e9mit\u00e9,\t double\tsalto\t|arri\u00e8re\tgroup\u00e9.\t",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.32",
-      "description": "Double\t salto\tarri\u00e8re\tgroup\u00e9\tde\tl\u2019extr\u00e9mit\u00e9\t des\t|barres.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.33",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.34",
-      "description": "Double\tsalto\tarri\u00e8re\tcarp\u00e9.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.28",
-      "description": "Facial\tet\tsalto\tarri\u00e8re\tgroup\u00e9\tou\tcarp\u00e9.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.48",
-      "description": "De\tla\tsuspension\tsur\tl\u2019extr\u00e9mit\u00e9,\tdouble\tsalto\t|arri\u00e8re\tgroup\u00e9\tavec\t2/1\tt.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.47",
-      "description": "De\tla\tsuspension\tsur\tl\u2019extr\u00e9mit\u00e9,\tdouble\tsalto\t|arri\u00e8re group\u00e9 avec 1/1 ou \u00bd t.",
+      "description": "18.Doublesaltoavantcarp\u00e9avec\u00bdt.",
       "value": "0.5",
       "difficulty": "E",
       "group": "4",
@@ -3123,72 +1291,24 @@
   ],
   "high bar": [
     {
-      "number": "1.26",
-      "description": "Grand\ttour\tavant\td\u2019un\tbras\tprise\tpalmaire\t(360\u00b0).",
+      "number": "1.8",
+      "description": "\u00c9lanc\u00e9 enarri\u00e8reetpirouette\u00e0lasuspension.",
       "value": "0.2",
       "difficulty": "B",
       "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "1.44",
-      "description": "Grand\ttour\t arri\u00e8re\tsaut\u00e9.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.43",
-      "description": "Grand\ttour\tarri\u00e8re\tsaut\u00e9\tprise\tpalmaire.",
+      "number": "1.1",
+      "description": "\u00c9tablissementarri\u00e8re\u00e0l\u2019appuirenvers\u00e9.",
       "value": "0.1",
       "difficulty": "A",
       "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "1.32",
-      "description": "Grand\ttour\tarri\u00e8re\td\u2019un\tbras\t(360 \u00b0).",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.202214156",
-      "description": "Grand\ttour\t arri\u00e8re avec\t\u00bd\tt.\ten\tprise\tcubitale.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.50",
-      "description": "Grand\ttour\t arri\u00e8re\tsaut\u00e9\tavec\t\u00bd\tt.\ten\tpr.\tcub.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.62",
-      "description": "\u00c9lan\ten\tavant\tsaut\u00e9\ten\tprise\tcubitale.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.68",
-      "description": "Grant\ttour\ten\tprise\tcubitale.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
-      "number": "1.69",
-      "description": "Grand\ttour\tdorsal\tavant\t(grand\ttour\trusse).",
+      "number": "1.9",
+      "description": "\u00c9lanc\u00e9en arri\u00e8reetpirouette\u00e0l\u2019appui.",
       "value": "0.3",
       "difficulty": "C",
       "group": "1",
@@ -3196,239 +1316,31 @@
     },
     {
       "number": "1.70",
-      "description": "Grand\t tour\tdorsal\tarri\u00e8re\t(grand\ttour\ttch\u00e8que).",
+      "description": "Grand tourdorsalarri\u00e8re(grandtourtch\u00e8que).",
       "value": "0.4",
       "difficulty": "D",
       "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "1.75",
-      "description": "Grand\ttour\tcub.\tavec\t1/1\tt.\tpar\tl\u2019app.\trenvs.\tpr.\tmx.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "1",
-      "type": "acrobatic"
-    },
-    {
       "number": "1.73",
-      "description": "Grand\t tour\tarri\u00e8re\tavec\tdislocation\t av.\ten\t|montant\tet\tarri\u00e8re\tpar\tl\u2019appui\trenvers\u00e9.",
+      "description": "Grand tourarri\u00e8reavecdislocation av.en|montantetarri\u00e8reparl\u2019appuirenvers\u00e9.",
       "value": "0.1",
       "difficulty": "A",
       "group": "1",
       "type": "acrobatic"
     },
     {
-      "number": "2.2",
-      "description": "\u00c9tablissement\tarri\u00e8re\ten\tpass.\tles\tjambes\t\u00e9car-|t\u00e9es en avant \u00e0 la suspension dorsale",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.9",
-      "description": "Markelov\ttendu\tavec\tjambes\tserr\u00e9es,\taussi\tavec\t \u00bd t.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.6",
-      "description": "\u00c9tablissement\t arri\u00e8re  et poisson tendu avec 3/2 |t.\t\u00e0\tla\tsuspension.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.23",
-      "description": "Tkatchev\t\u00e9cart\u00e9\tavec\t\u00bd\tt.\taux\tprise\tcubitale.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.21",
-      "description": "Elan\ten\tav.\tet\tsaut\u00e9\tdorsal\tjamb.\tc.\t\u00e0\tla\tsusp.\taussi\tavec\t|\u00bd t.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.16",
-      "description": "Tkatchev\ttendu,\taussi\tavec\t\u00bd\tt.\t\u00e0\tprise\tpal.-|cub.\t\u00e9lan\tarri\u00e8re\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.14432",
-      "description": "\u00c9tablissement\t arri\u00e8re et\tsaut\u00e9\tdorsal\tavec\t\u00bc\tt.\t|\u00e0\tla\tsuspension.\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.36",
-      "description": "Piatti\ttendu\tavec\t1/1\ttour.",
-      "value": "0.7",
-      "difficulty": "G",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.39",
-      "description": "\u00c9lanc\u00e9\ten\tarri\u00e8re\tet\tsalto\tav.\tgr.,\tca.,\tou\t\u00e9c.\t\u00e0\tla\t|suspension,\taussi\tde\tla\tprise\tcubitale.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.40",
-      "description": "Salto\tavant\ttendu,\taussi\tde\tla\tprise\tcubitale.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
       "number": "2.35",
-      "description": "34.Piatti\tcarp\u00e9,\taussi\tavec\t \u00bd\tt.",
+      "description": "34.Piatticarp\u00e9,aussiavec \u00bdt.",
       "value": "0.5",
       "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.42",
-      "description": "Salto\tavant\ttendu\tavec\t1/1\tt.,\taussi\tprise\tcubi-|tale.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.48",
-      "description": "Salto\tav.\ttendu\tavec\t2/1\tt.,\taussi\tprise\tcubitale.",
-      "value": "0.7",
-      "difficulty": "G",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.46",
-      "description": "\u00c9lanc\u00e9\ten\tav.\tet\tcontre-salto\tav.\t\u00e9c.\t\u00e0\tla\tsusp.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.45",
-      "description": "Grand\ttour\ttch\u00e8que\tet\tsaut\tdorsal\tjambes\t|\u00e9cart\u00e9es \u00e0 la suspension",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.26",
-      "description": "\u00c9tablissement\t arri\u00e8re  et saut\u00e9 en position carp\u00e9e|avec\t\u00bd\tt.\t\u00e0\tla\tsuspension.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.28",
-      "description": "\u00c9lan\tcirculaire\tlibre\ten\tarri\u00e8re\tca.\tou\t\u00e9c.\tou\ttour\t|d\u2019appui\tavec\tTkatchev\t\u00e9cart\u00e9.\taussi\tavec\t\u00bd\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.57",
-      "description": "\u00c9lanc\u00e9\ten\tav.\tet\tsalto\tarr.\tca.\tavec\t\u00bd\tt.\t\u00e0\tla\tsusp.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.66",
-      "description": "Gaylord\twith\t\u00bd\tt.",
-      "value": "0.6",
-      "difficulty": "F",
       "group": "2",
       "type": "acrobatic"
     },
     {
       "number": "2.71",
-      "description": "72.\tGaylord\twith\t1/1\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.60",
-      "description": "\u00c9lanc\u00e9\ten\tav.\tet\tsalto\tarr.\tavec\t3/2\tt.\t\u00e0\tla\tsusp.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.64",
-      "description": "Salto\tav.\tpar-dessus\tla\tbarre\tgr.\tou\t\u00e9cart\u00e9,\taussi\t|de\tla\tprise\tcubitale.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.51",
-      "description": "\u00c9lan\ten\tav.\tet\tsalto\tarri\u00e8re\t\u00e9cart\u00e9\tavec\t\u00bd\tt.\t\u00e0\t|la\tsuspension.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.202214682",
-      "description": "Salto\t arri\u00e8re\t\u00bd\tt.\tgroupe\tpar-dessus\tla\t barre.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.89",
-      "description": "Kovacs\tavec\t1/1\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.95",
-      "description": "Kovacs\tcarpe\tou\ttendu.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.83",
-      "description": "Salto\tarri\u00e8re\t\u00bd\tt.\tcarpe\tpar-dessus\tla\tbarre.",
+      "description": "72.Gaylordwith1/1t.",
       "value": "0.5",
       "difficulty": "E",
       "group": "2",
@@ -3436,87 +1348,23 @@
     },
     {
       "number": "2.94",
-      "description": "96.\tKovacs\ttendu\tou\tcarpe\tavec\t1/1\ttour.",
+      "description": "96.Kovacstenduoucarpeavec1/1tour.",
       "value": "0.4",
       "difficulty": "D",
       "group": "2",
       "type": "acrobatic"
     },
     {
-      "number": "2.90",
-      "description": "Kovacs\tavec\t2/1\tt.",
-      "value": "0.8",
-      "difficulty": "H",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.108",
-      "description": "Kovacs\tavec\t3/2\tt.\t\u00e0\tprise\tmixte.",
-      "value": "0.7",
-      "difficulty": "G",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "2.102",
-      "description": "Kovacs\ttendu\tavec\t2/1\ttour.",
-      "value": "0.9",
-      "difficulty": "I",
-      "group": "2",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.2",
-      "description": "|(Weiler)1.\tBascule\td\u2019\u00e9lan\t\u00e0\tl\u2019appui\trenvers\u00e9\tou\tde\tla\tprise\t|mixte\tbascule\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
       "number": "3.13",
-      "description": "De\tla\tsuspension\tou\tde\tl\u2019appui,\t\u00e9lan\tpar-des-|sus\t\u00e0\tl\u2019appui\trenvers\u00e9.",
+      "description": "Delasuspensionoudel\u2019appui,\u00e9lanpar-des-|sus\u00e0l\u2019appuirenvers\u00e9.",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.8",
-      "description": "De\tl\u2019appui\trenvers\u00e9,\ttour\td\u2019appui\tav.\tpar\tl\u2019appui\t|renvers\u00e9.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.33",
-      "description": "\u00c9lan\tcirculaire\tcarp\u00e9\tcarp\u00e9\tlibre\ten\tav.\tpar\t|l\u2019appui\trenvers\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.38",
-      "description": "\u00c9lan\tcirculaire\tcarp\u00e9\t\u00e9cart\u00e9\tarri\u00e8re\tpar\tl\u2019appui\t|renvers\u00e9.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.45",
-      "description": "\u00c9lan\tcirculaire\tcarp\u00e9\tlibre\tarri\u00e8re\tpar\tl\u2019appui\t|renvers\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
       "number": "3.42",
-      "description": "41.\tStalder\tavec\t3/2\ttour\tsaute\tpar\tl\u2019appui\trenvers\u00e9\t|prise\tcub.",
+      "description": "41.Stalderavec3/2toursauteparl\u2019appuirenvers\u00e9|prisecub.",
       "value": "0.6",
       "difficulty": "F",
       "group": "3",
@@ -3524,47 +1372,15 @@
     },
     {
       "number": "3.44",
-      "description": "47.39.\t32.\t\u00c9lan\tcirculaire\tcarp\u00e9\t\u00e9c.\ten\tav.\tpar\tl\u2019appui\t|renvers\u00e9.",
+      "description": "47.39.32.\u00c9lancirculairecarp\u00e9\u00e9c.enav.parl\u2019appui|renvers\u00e9.",
       "value": "0.2",
       "difficulty": "B",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.25",
-      "description": "De\tla\tsuspension\tou\tde\tl\u2019appui,\td\u2019\u00e9lan\tpar-|dessus\tsaut\u00e9\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.48",
-      "description": "40.\tStalder\tavec\t3/2\ttour\tsaute\tpar\tl\u2019appui\trenvers\u00e9\t|prise\tmixte\tcubital.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.70",
-      "description": "\u00c9lan\tcirculaire\tAdler\tavec\tsaut\u00e9\tpar\tl\u2019appui\t|renvers\u00e9 prise palmaire ou prise dorsal ou prise |mixte.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.57",
-      "description": "Stalder\tsaut\u00e9\tpar\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
       "number": "3.59",
-      "description": "58.\t|(Fuentes)63.\t\u00c9lan\tcirculaire\tAdler\tpar\tl\u2019appui\trenvers\u00e9.",
+      "description": "58.|(Fuentes)63.\u00c9lancirculaireAdlerparl\u2019appuirenvers\u00e9.",
       "value": "0.5",
       "difficulty": "E",
       "group": "3",
@@ -3572,295 +1388,39 @@
     },
     {
       "number": "3.79",
-      "description": "\u00c9lan.\ten\tarri\u00e8re\t\u00e0\tla\tsuspension\tdorsale.",
+      "description": "\u00c9lan.enarri\u00e8re\u00e0lasuspensiondorsale.",
       "value": "0.1",
       "difficulty": "A",
       "group": "3",
       "type": "acrobatic"
     },
     {
-      "number": "3.80",
-      "description": "De\tla\tsuspension\t dorsale,\t\u00e9tablissement\t av.\t\u00e0\t|l\u2019appui\tdorsal.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.87",
-      "description": "\u00c9tablissement \tSteineman\t avec\tpass\u00e9\tcarp\u00e9\t|entre\tles\tprises\t\u00e0\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.92",
-      "description": "\u00c9tablissement \tSteineman\t avec\tpass\u00e9\tcostal\t|arri\u00e8re\t\u00e0\tl\u2019appui\tou\t\u00e0\tla\tsuspension.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.152103",
-      "description": "\u00c9lan\tcirculaire\tcarp\u00e9\ten\tavant\tet\tpass.\t\u00e9c.\ten\t|arri\u00e8re  \u00e0 la suspension ou \u00e0 l\u2019appui",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.110",
-      "description": "104.\t\u00c9lan\tcirc.\tcarp\u00e9\ten\tav.\tet\tpass.\t\u00e9c.\tpar\tl\u2019appui\t|renv.\t",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.111",
-      "description": "106.\tCarballo\tavec\t\u00bd\tt.\taux\tprise\tpalmaire\t-cubitale.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.107",
-      "description": "Quintero\ten\tprise\tcubitale.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.100",
-      "description": "Endo\tcarpe\tprise\tcubitale",
+      "number": "3.76",
+      "description": "\u00c9lan circulaire Adleravec1/1t.parl\u2019appui|renvers\u00e9avecprisemixteaussiavecsaut.",
       "value": "0.4",
       "difficulty": "D",
       "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "3.99",
-      "description": "Endo\tprise\tcubitale\tpar\tl\u2019appui\trenvers\u00e9.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "3",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.20221531",
-      "description": "Salto\tavant\tcarp\u00e9\tou\ttendu,\taussi\tavec\t\u00bd\tt.",
-      "value": "0.1",
-      "difficulty": "A",
-      "group": "4",
       "type": "acrobatic"
     },
     {
       "number": "4.9",
-      "description": "Double\t salto\tav.\tgroupe\tou\tcarp\u00e9\tou\tavec\t\u00bd\t|tour.",
+      "description": "Double saltoav.groupeoucarp\u00e9ouavec\u00bd|tour.",
       "value": "0.3",
       "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.10",
-      "description": "Double\t salto\tav.\tgr.\tou\tcarp\u00e9\tavec\t1/1\tou\t3/2\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.21",
-      "description": "Double\t salto\tav.\tgr.\tou\tcarp\u00e9\tou\tavec\t\u00bd\ttour\t|par-dessus\tla\tbarre.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.3",
-      "description": "Salto\tavant\ttendu\tavec\t2/1\tou\t5/2\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.16",
-      "description": "Double\tsalto\tav.\ttendu\tou\tavec\t\u00bd\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.11",
-      "description": "Double\t salto\tav.\tgr.\tou\tcarp\u00e9\tavec\t2/1\tou\t5/2\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.17",
-      "description": "Double\tsalto\tav.\ttendu\tavec\t1/1\tou\t3/2\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.6",
-      "description": "Triple\tsalto\tav.\tgr.\tou\tavec\t\u00bd\tt.",
-      "value": "0.7",
-      "difficulty": "G",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.22",
-      "description": "Double\tsalto\tav.\tgroup\u00e9\tou\tcarpe\tavec\t1/1\tou\t",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.202215425",
-      "description": "Salto\tarr.\t carp\u00e9\tou\ttendu\taussi\tavec\t\u00bd\tou\t1/1\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.32",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9\tou\tcarpe.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.33",
-      "description": "Double\tsalto\tarri\u00e8re\tgroup\u00e9\tavec\t1/1\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.39",
-      "description": "Double\tsalto\tarri\u00e8re\ttendu.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.27",
-      "description": "Salto\tarri\u00e8re\ttendu\tavec\t5/2\tou\t3/1\tt.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.34",
-      "description": "Double\tsalto\tarri\u00e8re\tgr.\tavec\t2/1\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.41",
-      "description": "Double\tsalto\tarri\u00e8re\ttendu\tavec\t2/1\tt.",
-      "value": "0.5",
-      "difficulty": "E",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.42",
-      "description": "Double\tsalto\tarri\u00e8re\ttendu\tavec\t3/1\tt.",
-      "value": "0.6",
-      "difficulty": "F",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.202215550",
-      "description": "Double\t salto\tarri\u00e8re\tgr.\tpar-dessus \tde\tla\tbarre.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.51",
-      "description": "Double\t salto\tarri\u00e8re\tgr.\tou\tcarp\u00e9\tavec\t1/1\tt.\t|par-\tdessus\tla\tbarre.",
-      "value": "0.3",
-      "difficulty": "C",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.58",
-      "description": "Double\t salto\tarri\u00e8re\ttendu\tavec\t1/1\tt.\tpar-dessus \t|la\tbarre.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.52",
-      "description": "Double\t salto\tarri\u00e8re\tgr.\tavec\t2/1\tt.\tpar-\tdessus\t|la\tbarre.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.60",
-      "description": "Triple\tsalto\tarri\u00e8re\tgr.\tavec\t1/1\tt.",
-      "value": "0.7",
-      "difficulty": "G",
       "group": "4",
       "type": "acrobatic"
     },
     {
       "number": "4.61",
-      "description": "Poisson\t \u00e9c.,\tou\tpoisson\tou\tpoisson\tavec\t\u00bd\tt.",
+      "description": "Poisson \u00e9c.,oupoissonoupoissonavec\u00bdt.",
       "value": "0.1",
       "difficulty": "A",
       "group": "4",
       "type": "acrobatic"
     },
     {
-      "number": "4.62",
-      "description": "Poisson\tavec\t1/1\tou\t3/2\tt.",
-      "value": "0.2",
-      "difficulty": "B",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
-      "number": "4.64",
-      "description": "Poisson\tavec\t2/1\tt.",
-      "value": "0.4",
-      "difficulty": "D",
-      "group": "4",
-      "type": "acrobatic"
-    },
-    {
       "number": "4.70",
-      "description": "69. 68. 67.56. 55. 59.54.\tTriple\tsalto\tarri\u00e8re\tcarp\u00e9.",
+      "description": "69. 68. 67.56. 55. 59.54.Triplesaltoarri\u00e8recarp\u00e9.",
       "value": "0.4",
       "difficulty": "D",
       "group": "4",

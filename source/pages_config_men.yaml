@@ -4,9 +4,9 @@ apparatuses:
   floor:
     start page:
       nl: 39
-      en: 43
-      fr: 43
-      es: 43
+      en: 42
+      fr: 42
+      es: 42
     end page:
       nl: 50
       en: 53
@@ -30,9 +30,9 @@ apparatuses:
   pommel horse:
     start page:
       nl: 63
-      en: 66
-      fr: 66
-      es: 66
+      en: 65
+      fr: 65
+      es: 65
     end page:
       nl: 76
       en: 77
@@ -57,9 +57,9 @@ apparatuses:
   rings:
     start page:
       nl: 83
-      en: 85
-      fr: 85
-      es: 85
+      en: 84
+      fr: 84
+      es: 84
     end page:
       nl: 102
       en: 101
@@ -84,14 +84,14 @@ apparatuses:
   vault:
     start page:
       nl: 109
-      en: 108
-      fr: 108
-      es: 108
+      en: 107
+      fr: 107
+      es: 107
     end page:
       nl: 116
-      en: 115
-      fr: 115
-      es: 115
+      en: 114
+      fr: 114
+      es: 114
     group types:
       1: gymnastic
       2: gymnastic
@@ -113,14 +113,14 @@ apparatuses:
   parallel bars:
     start page:
       nl: 123
-      en: 122
-      fr: 122
-      es: 122
+      en: 121
+      fr: 121
+      es: 121
     end page:
       nl: 140
-      en: 137
-      fr: 137
-      es: 137
+      en: 136
+      fr: 136
+      es: 136
     group types:
       1: gymnastic
       2: gymnastic
@@ -142,9 +142,9 @@ apparatuses:
   high bar:
     start page:
       nl: 147
-      en: 145
-      fr: 145
-      es: 145
+      en: 144
+      fr: 144
+      es: 144
     end page:
       nl: 165
       en: 161
