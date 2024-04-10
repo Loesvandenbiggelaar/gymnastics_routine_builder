@@ -4,3 +4,10 @@ This file sums up my train of thoughts and what could/should be improved.
 - track which elements are often done, to give more specific feedback.
 - people give stars how difficult they find the element
 - if onclick an element, a picture of the element needs to appear.
+
+- Add 'inspiration' route
+  Show example videos of routines (yt) and link to the routine from routine builder like so: ".com/routine_builder/?c=ab-cd-ef-01"
+
+- add RANDOM to routine builder that puts random elements in it
+
+- add "+"  button to elements table to add a specific element to the routine builder (page)
