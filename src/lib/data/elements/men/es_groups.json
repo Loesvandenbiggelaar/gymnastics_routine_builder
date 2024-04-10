@@ -1,0 +1,37 @@
+{
+	"floor": {
+		"1": "Elementos no acrob\u00e1ticos",
+		"2": "Elementos acrob\u00e1ticos adelante",
+		"3": "Elementos acrob\u00e1ticos atr\u00e1s (Shirai 3)"
+	},
+	"rings": {
+		"1": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
+		"2": "Elementos de fuerza y mantenimiento (2 seg.)",
+		"3": "Impulso a elementos de mantenimiento a fuerza (2 seg.)",
+		"4": "Salidas"
+	},
+	"pommel horse": {
+		"1": "Impulsos de una pierna y tijeras",
+		"2": "Molinos, molinos p. abiertas, con o sin giros y apoyo invertido, Keres, Rusas, flops y elementos combinados",
+		"3": "Desplazamientos, incluyen-do Krolls, Tong Fei, wu Guonian, Roth desplazamientos con giro.",
+		"4": "Salidas"
+	},
+	"vault": {
+		"1": "Saltos con giros complejos",
+		"2": "Palomas con o sin giros y dobles mortales ad.",
+		"3": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
+		"4": "Saltos con entrada de rondada"
+	},
+	"parallel bars": {
+		"1": "Elementos en o por el apoyo sobre dos bandas",
+		"2": "Elementos desde apoyo braquial",
+		"3": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
+		"4": "Salidas"
+	},
+	"high bar": {
+		"1": "Grandes vuelos en suspensi\u00f3n y rotaciones",
+		"2": "Sueltas",
+		"3": "Elementos cerca de la barra y elementos Adler",
+		"4": "Salidas"
+	}
+}

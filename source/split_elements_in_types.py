@@ -3,11 +3,12 @@ import re
 from functions import loadConfig, saveJson, loadJson
 
 class elementTyping:
-    def __init__(self, config, groupConfig, file, apparatus) -> None:
+    def __init__(self, config, groupConfig, file, apparatus, gender) -> None:
         self.apparatus = apparatus
         self.config = loadConfig(config)
         # self.loadElements(file)[apparatus]
         # loadJson(groupConfig)
+        self.gender = gender
 
     
     def loadElements(self, file):
@@ -29,13 +30,16 @@ class elementTyping:
         For the given element, find the correct type of element, as specified in the config file.
         """
         foundType = None
-        for typ in self.config["apparatuses"][self.apparatus]["type"][language]:
+        for typ in self.config["apparatuses"][self.gender][self.apparatus]["type"][language]:
+            # print("\t", element.split(" ")[0].lower().replace(",", ""), typ)
             if element.split(" ")[0].lower().replace(",", "") in typ:
                 foundType = typ
                 break
             
         if not foundType:
-            raise ValueError ("no type found for " + element)
+            print("no type for", element)
+            # raise ValueError ("no type found for " + element)
+            return ""
         else:
             return foundType
         
@@ -96,7 +100,6 @@ class elementTyping:
         """
         for element in elements.values():
             e = element["description"]
-            t = None
             breakdown = {}
             typ = self.findType(e, language)
             breakdown["type"] = typ
@@ -116,7 +119,7 @@ class elementTyping:
         for element in elements.values():
             # print("i", element["group"])
             # print("e", self.config["apparatuses"][self.apparatus])
-            cl = self.config["apparatuses"][self.apparatus][int(element["group"])]
+            cl = self.config["apparatuses"][self.gender][self.apparatus][int(element["group"])]
             classifications = {key:value for key, value in self.config["classifications"].items() if key in cl}
             # print("cl", cl)
             res = self.getClassifications(classifications, element["description"])
@@ -139,9 +142,10 @@ class elementTyping:
     def process(self, language):
         # for elements in self.elements.values():
         #     print(elements)
+        print(self.apparatus)
         if self.apparatus == "vault":
             self.processVault(self.elements, language)
-        elif self.apparatus in ["uneven bars", "beam", "floor"]:
+        elif self.apparatus in ["floor","pommel horse", "rings", "parallel bars", "high bar"]:
             self.processOther(self.elements)
         else:
             raise ValueError ("please provide a valid apparatus")

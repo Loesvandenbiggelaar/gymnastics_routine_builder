@@ -45,3 +45,6 @@ def adjustString(s, adjustments):
     for adj in adjustments:
         s = s.replace(adj[0], adj[1])
     return s
+
+def cleanText(string):
+    return string.replace("|", " ").replace("\t", " ").replace("\n", "").replace("  ", " ").strip()
