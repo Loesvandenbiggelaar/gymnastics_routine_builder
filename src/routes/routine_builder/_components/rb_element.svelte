@@ -1,8 +1,20 @@
 <script>
+	//Dispatcher for passing the functions through events
+	import { createEventDispatcher } from 'svelte';
+	const dispatch = createEventDispatcher();
+
+	function message(msg) {
+		dispatch('message', {
+			function: msg,
+			location: location
+		});
+	}
+
 	// Iconify for cool icons!
 	import Icon from '@iconify/svelte';
 
 	export let element = {};
+	export let location;
 </script>
 
 <div class="wrapper">
@@ -11,9 +23,15 @@
 	<div id="name">{element.description}</div>
 	<div id="breakdown"></div>
 	<div id="buttons">
-		<button id="moveleft"><Icon icon="mdi:chevron-left" /></button>
-		<button id="moveright"><Icon icon="mdi:chevron-right" /></button>
-		<button id="delete"><Icon icon="line-md:close-small" /></button>
+		<button id="moveleft" on:click={() => message('moveleft')}
+			><Icon icon="mdi:chevron-left" /></button
+		>
+		<button id="moveright" on:click={() => message('moveright')}
+			><Icon icon="mdi:chevron-right" /></button
+		>
+		<button id="delete" on:click={() => message('delete')}
+			><Icon icon="line-md:close-small" /></button
+		>
 	</div>
 </div>
 

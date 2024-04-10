@@ -58,6 +58,21 @@
 		// combo.splice(element_location, 0, element); //Insert the element
 	}
 
+	//Functions for the buttons on the elements
+	function testFunction(event) {
+		let func = event.detail.function;
+		let combo_location = event.detail.location[0];
+		let element_location = event.detail.location[1];
+		if (func == 'delete') {
+			builder_config[combo_location] = [
+				...builder_config[combo_location].slice(0, element_location)
+			];
+			return;
+		}
+	}
+
+	//Update array to delete empty ones
+
 	//initialise
 	onMount(async () => {
 		addElement();
@@ -70,7 +85,11 @@
 		<!--bc_ce = builder_config combo element -->
 		<div class="bc_combo_wrapper">
 			{#each bc_ce as bc_e, number_index}
-				<ElementCard element={bc_e} />
+				<ElementCard
+					element={bc_e}
+					location={[combo_index, number_index]}
+					on:message={testFunction}
+				/>
 			{/each}
 			<button class="bc_add_element" on:click={() => addElement('random', combo_index)}>+</button>
 		</div>
