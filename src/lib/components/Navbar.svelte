@@ -31,6 +31,9 @@
 		{ name: m.page_rules_title(), path: '/rules', icon: 'material-symbols:book-4' }
 	];
 
+	// get parameter (for combo) from url
+	$: urlParam = 'c=123';
+
 	// Import to check routing URL
 	import { page } from '$app/stores';
 
@@ -57,7 +60,7 @@
 		{#each routes as route}
 			<a
 				class="page_nav underline_animation"
-				href={route.path}
+				href={route.path + '?' + urlParam}
 				class:active={current_path == route.path}
 			>
 				<Icon icon={route.icon} />
