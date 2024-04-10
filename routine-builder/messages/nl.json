@@ -1,0 +1,16 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"lang": "nl",
+	"lang_full": "Nederlands",
+	"lang_icon": "circle-flags:nl",
+	"header_title": "routine maker",
+	"header_elements": "Elementen",
+	"page_elements_title": "Elementen",
+	"title_shorthand": "Turnen",
+	"page_rules_title": "Regels",
+	"page_routinebuilder_title": "Routine Maker",
+	"apparatus_vault": "sprong",
+	"apparatus_beam": "balk",
+	"apparatus_uneven_bars": "ongelijke liggers",
+	"apparatus_floor": "vloer"
+}
