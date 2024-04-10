@@ -15,6 +15,7 @@ class elementExtractorMen:
         self.apparatuses = []
         self.elements = {}
         self.groups = {}
+        self.counter = 0
 
         return
     
@@ -83,8 +84,13 @@ class elementExtractorMen:
 
     def getElements(self, page, apparatus, group_nr):
         regex = self.config["apparatuses"][apparatus]["regex"]["element"][self.language]
+        # print(regex)
+        print(page)
+        # quit()
         res = re.findall(regex, page)
+        # print(res)
         for r in res:
+            print(r)
             if r[1] in ["|", ""]:
                 continue
             if r[1].replace(" ", "").replace(".", "").isdigit():
@@ -94,9 +100,9 @@ class elementExtractorMen:
             if self.language == "nl":
                 text = r[1]
             else:
-                text_description = re.split(r"\|(?=[A-Z|\s|\d])", r[1])
+                text_description = re.split(r"\|(?=[A-Z|\s|\d|_])", r[1])
                 if len(text_description) < 3:
-                    # print("warning, could not process", text_description)
+                    print("warning, could not process", text_description)
                     continue
                 if self.language == "en":
                     text = text_description[1]
@@ -109,7 +115,9 @@ class elementExtractorMen:
             
             try:
                 if text != text.upper():
-                        # print(r[0], group_nr, text)
+                        self.counter += 1
+                        if group_nr+"."+r[0] in self.elements[apparatus]:
+                            raise ValueError (apparatus, group_nr +"."+ r[0], "already exists")
                         self.elements[apparatus][group_nr+"."+r[0]] = {"number":group_nr+"."+r[0], "description":cleanText(text)}
 
                         
@@ -132,7 +140,7 @@ class elementExtractorMen:
             for page in pages:
                 text = page.extract_text().replace("\n", "")
                 group_nr = self.getGroup(text, apparatus)
-                self.getElements(page.extract_text().replace("\n", "|").replace("\t", "").replace("||", "|"), apparatus, group_nr)
+                self.getElements(page.extract_text().replace("\t", "_").replace("\n", "|").replace("||", "|").replace("Code MAG July 2022155", ""), apparatus, group_nr)
         
     def writeResult(self):
         # saveJson(self.config["output directory"] + "elements.json", self.elements)
@@ -218,11 +226,12 @@ class elementExtractorMen:
 
 
 def main():
-    extractor = elementExtractorMen("source/pages_config_men.yaml", language="nl")
-    # extractor.addApparatus([ "floor"])
-    extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
+    extractor = elementExtractorMen("source/pages_config_men.yaml", language="en")
+    extractor.addApparatus([ "vault"])
+    # extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
     extractor.processApparatuses()
     extractor.expandElements()
     extractor.writeResult()
+    print("found", extractor.counter)
 if __name__ == main():
     main()
