@@ -23,9 +23,9 @@ apparatuses:
         es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
         nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
       element:
-        en: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        fr: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        es: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   pommel horse:
     start page:
@@ -50,9 +50,9 @@ apparatuses:
         es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
         nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
       element:
-        en: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        fr: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        es: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   rings:
     start page:
@@ -77,9 +77,9 @@ apparatuses:
         es: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
         nl: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
       element:
-        en: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        fr: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        es: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   vault:
     start page:
@@ -109,10 +109,10 @@ apparatuses:
         en: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
         fr: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
         es: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
-        nl: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   parallel bars:
     start page:
-      nl: 123
+      nl: 124
       en: 121
       fr: 121
       es: 121
@@ -135,10 +135,10 @@ apparatuses:
         es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
         nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
       element:
-        en: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        fr: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        es: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        nl: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   high bar:
     start page:
       nl: 147
@@ -162,9 +162,9 @@ apparatuses:
         es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
         nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
       element:
-        en: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        fr: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
-        es: (\d+)\.\s*_?\s?([^\d|\_|\s].+?)(?=\d+\.|$)
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
 file:
   en: source/files/Men/en_ 2022-2024 MAG CoP.pdf
@@ -173,21 +173,25 @@ file:
   nl: source/files/Men/Reglement-Bovenbouw-versie-1.1.pdf
 exception_file: source/files/Men/elements_men_G_H.yaml
 vault_values_file: source/files/Men/vault_values.yaml
-output directory: data/elements/men/
+output directory: src/lib/data/elements/men/
 string adjustments:
-  - ["  ", " "]
-  - ["    ", " "]
-  - ["   ", " "]
-  - [" ’", "’"]
+  - ['  ', ' ']
+  - ['    ', ' ']
+  - ['   ', ' ']
+  - [' ’', '’']
   - [" '", "'"]
-  - ["ME T", "MET"]
-  - ["MET /", "MET/"]
-  - ["MET/ ", "MET/"]
-  - ["FLIK -FLAK", "FLIK-FLAK"]
-  - ["LA -DRAAI", "LA-DRAAI"]
-  - ["YurchenkoStraight", "Yurchenko Straight"]
-  - ["L ENGTE AS-DRAAI", "LA-DRAAI"]
-  - ["VOO ROVER", "VOOROVER"]
-  - ["MO8N7S", "MOUNTS"]
-  - ["ʊ", "-"]
-  - ["G,A17 C,5C/E6", "GIANT CIRCLES"]
+  - ['ME T', 'MET']
+  - ['MET /', 'MET/']
+  - ['MET/ ', 'MET/']
+  - ['FLIK -FLAK', 'FLIK-FLAK']
+  - ['LA -DRAAI', 'LA-DRAAI']
+  - ['YurchenkoStraight', 'Yurchenko Straight']
+  - ['L ENGTE AS-DRAAI', 'LA-DRAAI']
+  - ['VOO ROVER', 'VOOROVER']
+  - ['MO8N7S', 'MOUNTS']
+  - ['ʊ', '-']
+  - ['G,A17 C,5C/E6', 'GIANT CIRCLES']
+  - ['124. 123.', '124.']
+  - ['126. 125', '126. ']
+  - ['117.101.', '117.|101.']
+  - ['107_Tour', '|107._Tour']

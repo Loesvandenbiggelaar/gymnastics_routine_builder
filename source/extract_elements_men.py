@@ -84,13 +84,8 @@ class elementExtractorMen:
 
     def getElements(self, page, apparatus, group_nr):
         regex = self.config["apparatuses"][apparatus]["regex"]["element"][self.language]
-        # print(regex)
-        print(page)
-        # quit()
-        res = re.findall(regex, page)
-        # print(res)
+        res = re.findall(regex, adjustString(page, self.config["string adjustments"]))
         for r in res:
-            print(r)
             if r[1] in ["|", ""]:
                 continue
             if r[1].replace(" ", "").replace(".", "").isdigit():
@@ -226,9 +221,9 @@ class elementExtractorMen:
 
 
 def main():
-    extractor = elementExtractorMen("source/pages_config_men.yaml", language="en")
-    extractor.addApparatus([ "vault"])
-    # extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
+    extractor = elementExtractorMen("source/pages_config_men.yaml", language="nl")
+    # extractor.addApparatus([ "parallel bars"])
+    extractor.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
     extractor.processApparatuses()
     extractor.expandElements()
     extractor.writeResult()
