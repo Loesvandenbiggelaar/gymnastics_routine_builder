@@ -2,7 +2,7 @@ import re
 import PyPDF2
 import yaml
 from difflib import SequenceMatcher
-from functions import loadConfig, saveJson
+from functions import *
 from split_elements_in_types import elementTyping
 
 
@@ -59,7 +59,7 @@ class elementExtractor:
         regex = self.config["apparatuses"][apparatus]["regex"]["group"][self.language]
         for res in re.findall(regex, page):
             number = int(float(res[0]))
-            name =self.adjustString(res[1])
+            name =adjustString(res[1], self.config["string adjustments"])
             if number in self.groups[apparatus].keys():
                 ratio = SequenceMatcher(None, name.lower(), self.groups[apparatus][number]).ratio()
                 if ratio < 0.9:
@@ -90,14 +90,8 @@ class elementExtractor:
         load the pages from the reader for the apparatus. The pages are defined in the config file. 
         """
         pages_conf =  self.config["apparatuses"][apparatus]
-        return self.reader.pages[pages_conf["start page"] : pages_conf["end page"]]
+        return self.reader.pages[pages_conf["start page"][self.language] : pages_conf["end page"][self.language]]
 
-    def adjustString(self, s):
-        """Do string replacements listed in the config file."""
-
-        for adj in self.config["string adjustments"]:
-            s = s.replace(adj[0], adj[1])
-        return s
     
     def processApparatuses(self):
         for apparatus in self.apparatuses:
@@ -109,8 +103,8 @@ class elementExtractor:
         
     def writeResult(self):
         # saveJson(self.config["output directory"] + "elements.json", self.elements)
-        saveJson(self.config["output directory"] + "elements.json", {key:list(value.values()) for key, value in self.elements.items()})
-        saveJson(self.config["output directory"] + "groups.json", self.groups)
+        saveJson(self.config["output directory"] +self.language+ "elements.json", {key:list(value.values()) for key, value in self.elements.items()})
+        saveJson(self.config["output directory"] +self.language+ "groups.json", self.groups)
         return
 
 
@@ -126,7 +120,7 @@ class elementExtractor:
                 raise ValueError("No valid number:", element)
         
         def getValue(element):
-            difficulty = element["difficulty"]
+            difficulty = getDifficulty(element)
             value = None
             if difficulty in ["TA", "A"]:
                 value= 0.1
@@ -162,9 +156,9 @@ class elementExtractor:
             for element, values in elements.items():
                 number = values["number"]
                 grNumber = int(number.split(".")[0].replace("T", ""))
-                values["difficulty"] = getDifficulty(values)               
                 if apparatus != "vault":
                     values["value"] = getValue(values)
+                values["difficulty"] = getDifficulty(values)               
                 values["group"] = str(grNumber)
                 values["type"]=getTypeOfElement(values, apparatus)
             elements = self.doElementTyping(elements, apparatus)
@@ -177,11 +171,11 @@ class elementExtractor:
         et = elementTyping(configFile, groupConfig, dataFile, apparatus)
         et.addElements(self.elements[apparatus])
         et.addGroups(self.groups)
-        return et.process()
+        return et.process(self.language)
 
 
 def main():
-    extractor = elementExtractor("source/pages_config.yaml", language="nl")
+    extractor = elementExtractor("source/pages_config.yaml", language="en")
     extractor.addApparatus(["vault","uneven bars", "beam", "floor"])
     extractor.processApparatuses()
     extractor.expandElements()

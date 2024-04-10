@@ -24,13 +24,13 @@ class elementTyping:
         self.groups = json
         return
 
-    def findType(self, element):
+    def findType(self, element, language):
         """
         For the given element, find the correct type of element, as specified in the config file.
         """
         foundType = None
-        for typ in self.config["apparatuses"][self.apparatus]["type"]:
-            if element.split(" ")[0].lower() in typ:
+        for typ in self.config["apparatuses"][self.apparatus]["type"][language]:
+            if element.split(" ")[0].lower().replace(",", "") in typ:
                 foundType = typ
                 break
             
@@ -90,7 +90,7 @@ class elementTyping:
         return res
 
     
-    def processVault(self, elements):
+    def processVault(self, elements, language):
         """
         This is vault specific. 
         """
@@ -98,7 +98,7 @@ class elementTyping:
             e = element["description"]
             t = None
             breakdown = {}
-            typ = self.findType(e)
+            typ = self.findType(e, language)
             breakdown["type"] = typ
             eerste = self.processVluchtfase(e, "eerste")
             tweede = self.processVluchtfase(e, "tweede")
@@ -136,11 +136,11 @@ class elementTyping:
             # print(element)
             element["breakdown"]["group"] = self.groups[self.apparatus][int(element["group"])]
 
-    def process(self):
+    def process(self, language):
         # for elements in self.elements.values():
         #     print(elements)
         if self.apparatus == "vault":
-            self.processVault(self.elements)
+            self.processVault(self.elements, language)
         elif self.apparatus in ["uneven bars", "beam", "floor"]:
             self.processOther(self.elements)
         else:

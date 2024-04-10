@@ -5,14 +5,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="scripts/routine_builder.js"></script>
 
     <script src="scripts/load_header.js"></script>
+
     <link rel="stylesheet" href="styles/main_style.css" />
     <link rel="stylesheet" href="styles/routine_builder_styles.css" />
+    <link rel="stylesheet" href="styles/element_searcher_styles.css" />
+
 </head>
 
 <body>
+    <div id="apparatus_picker" class="radio-container">
+        <!-- <p id="apparatus_picker_label">Choose the apparatus</p> -->
+
+        <input type="radio" id="radio1" name="options" value="vault" onclick="showApparatus(this)" />
+        <label for="radio1"><svg-icon src="images/icons/vault.svg"></svg-icon>Vault</label>
+
+        <input type="radio" id="radio2" name="options" value="uneven bars" onclick="showApparatus(this)" />
+        <label for="radio2"><svg-icon src="images/icons/uneven_bars.svg"></svg-icon>Uneven Bars</label>
+
+        <input type="radio" id="radio3" name="options" value="beam" onclick="showApparatus(this)" />
+        <label for="radio3"><svg-icon src="images/icons/beam.svg"></svg-icon>Beam</label>
+
+        <input type="radio" id="radio4" name="options" value="floor" onclick="showApparatus(this)" />
+        <label for="radio4"><svg-icon src="images/icons/floor.svg"></svg-icon>Floor</label>
+    </div>
+
+    <div id="routine_placeholder"></div>
+
+    <a>Aantal elementen: </a><a id="nr_elements">0</a><br><br>
+
+    <div>
+        <a>moeilijkheidswaarde: </a><a id="mw_value">0</a><br>
+        <a>verbinding: </a><a id="verbinding_value">0</a><br>
+        <a>eisen: </a><a id="eisen_value">0</a><br>
+        <a>totale D-Score: </a><a id="d_score_value">0</a>
+    </div>
 </body>
 
 </html>
