@@ -1,0 +1,37 @@
+{
+	"floor": {
+		"1": "Elements non-acrobatiques",
+		"2": "Parties acrobatiques en avant",
+		"3": "Parties acrobatiques en arri\u00e8re"
+	},
+	"rings": {
+		"1": "Bascules et \u00e9l\u00e9ments d\u2019\u00e9lan, \u00e9lans pour ou \u00e0 l\u2019appui renvers\u00e9 (2 s.).",
+		"2": "\u00c9l\u00e9ments de force et maintien (2 s.)",
+		"3": "\u00c9lans menant \u00e0 un \u00e9l\u00e9ment de maintien en force (2 s.)",
+		"4": "Sorties"
+	},
+	"pommel horse": {
+		"1": "\u00c9lans d\u2019une jambe et ciseaux",
+		"2": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
+		"3": "Transports incluant Krolls, Tong Fei, Wu Guoniang, Roth et transport avec pivots.",
+		"4": "Sorties"
+	},
+	"vault": {
+		"1": "Sauts avec salto simple et tours complexes",
+		"2": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+		"3": "Renversements lat\u00e9raux et Tsukahara avec ou sans tours simples et tout double salto arri\u00e8re.",
+		"4": "Sauts \u00e0 partir de rondade"
+	},
+	"parallel bars": {
+		"1": "\u00c9l\u00e9ments en appui ou par l\u2019appui sur les 2 barres",
+		"2": "\u00c9l\u00e9ments qui commencent \u00e0 l\u2019appui brachial",
+		"3": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re.",
+		"4": "Sorties"
+	},
+	"high bar": {
+		"1": "Longs \u00e9lans en suspension et rotations",
+		"2": "\u00c9l\u00e9ments volants",
+		"3": "\u00c9l\u00e9ments pr\u00e8s de la barre et \u00e9l\u00e9ments Adler",
+		"4": "Sorties"
+	}
+}

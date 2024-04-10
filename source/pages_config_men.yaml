@@ -1,0 +1,197 @@
+#define which apparatuses are on which page
+
+apparatuses:
+  floor:
+    start page:
+      nl: 39
+      en: 42
+      fr: 42
+      es: 42
+    end page:
+      nl: 50
+      en: 53
+      fr: 53
+      es: 53
+    group types:
+      1: non-acrobatic
+      2: acrobatic
+      3: acrobatic
+    regex:
+      group:
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  pommel horse:
+    start page:
+      nl: 63
+      en: 65
+      fr: 65
+      es: 65
+    end page:
+      nl: 76
+      en: 77
+      fr: 77
+      es: 77
+    group types:
+      1: acrobatic
+      2: acrobatic
+      3: acrobatic
+      4: acrobatic
+    regex:
+      group:
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  rings:
+    start page:
+      nl: 83
+      en: 84
+      fr: 84
+      es: 84
+    end page:
+      nl: 102
+      en: 101
+      fr: 101
+      es: 101
+    group types:
+      1: acrobatic
+      2: acrobatic
+      3: acrobatic
+      4: acrobatic
+    regex:
+      group:
+        en: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  vault:
+    start page:
+      nl: 109
+      en: 107
+      fr: 107
+      es: 107
+    end page:
+      nl: 116
+      en: 114
+      fr: 114
+      es: 114
+    group types:
+      1: gymnastic
+      2: gymnastic
+      3: acrobatic
+      4: acrobatic
+      5: acrobatic
+      6: gymnastic
+    regex:
+      group:
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
+        fr: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
+        es: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  parallel bars:
+    start page:
+      nl: 124
+      en: 121
+      fr: 121
+      es: 121
+    end page:
+      nl: 140
+      en: 136
+      fr: 136
+      es: 136
+    group types:
+      1: gymnastic
+      2: gymnastic
+      3: acrobatic
+      4: acrobatic
+      5: acrobatic
+      6: gymnastic
+    regex:
+      group:
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+  high bar:
+    start page:
+      nl: 147
+      en: 144
+      fr: 144
+      es: 144
+    end page:
+      nl: 165
+      en: 161
+      fr: 161
+      es: 161
+    group types:
+      1: acrobatic
+      2: acrobatic
+      3: acrobatic
+      4: acrobatic
+    regex:
+      group:
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+      element:
+        en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
+        nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
+file:
+  en: source/files/Men/en_ 2022-2024 MAG CoP.pdf
+  fr: source/files/Men/en_ 2022-2024 MAG CoP.pdf
+  es: source/files/Men/en_ 2022-2024 MAG CoP.pdf
+  nl: source/files/Men/Reglement-Bovenbouw-versie-1.1.pdf
+exception_file: source/files/Men/elements_men_G_H.yaml
+vault_values_file: source/files/Men/vault_values.yaml
+output directory: src/lib/data/elements/men/
+string adjustments:
+  - ['  ', ' ']
+  - ['    ', ' ']
+  - ['   ', ' ']
+  - [' ’', '’']
+  - [" '", "'"]
+  - ['ME T', 'MET']
+  - ['MET /', 'MET/']
+  - ['MET/ ', 'MET/']
+  - ['FLIK -FLAK', 'FLIK-FLAK']
+  - ['LA -DRAAI', 'LA-DRAAI']
+  - ['YurchenkoStraight', 'Yurchenko Straight']
+  - ['L ENGTE AS-DRAAI', 'LA-DRAAI']
+  - ['VOO ROVER', 'VOOROVER']
+  - ['MO8N7S', 'MOUNTS']
+  - ['ʊ', '-']
+  - ['G,A17 C,5C/E6', 'GIANT CIRCLES']
+  - ['124. 123.', '124.']
+  - ['126. 125', '126. ']
+  - ['117.101.', '117.|101.']
+  - ['107_Tour', '|107._Tour']
