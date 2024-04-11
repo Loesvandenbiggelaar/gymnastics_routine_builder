@@ -7,23 +7,35 @@
 
 	$: builder_config = [];
 	let elements = {};
-	let testElement = {
-		number: '5.008',
-		description: 'Ophurken (met liggerwissel)',
-		difficulty: 'TA',
-		value: '0.1',
-		group: '5',
-		type: 'acrobatic',
-		breakdown: {
-			draai: null,
-			salto: { aantal: 'enkel', vorm: 'hurk', richting: null },
-			group: 'gehoekte draaien'
+	let testElement = [
+		{
+			number: '5.008',
+			description: 'Ophurken (met liggerwissel)',
+			difficulty: 'TA',
+			value: '0.1',
+			group: '5',
+			type: 'acrobatic',
+			breakdown: {
+				draai: null,
+				salto: { aantal: 'enkel', vorm: 'hurk', richting: null },
+				group: 'gehoekte draaien'
+			}
+		},
+		{
+			number: '3.206',
+			description: 'short placeholder',
+			difficulty: 'B',
+			value: '0.2',
+			group: '3',
+			type: 'acrobatic',
+			breakdown: { draai: 180, group: 'reuzendraaien' }
 		}
-	};
+	];
 
 	function pickElement(input) {
 		// TEMPORARY
-		return testElement;
+		let rand = Math.floor(Math.random() * testElement.length);
+		return testElement[rand];
 		return Math.floor(Math.random() * 10);
 		// TEMPORARY SOLUTION
 		let keys = Object.keys(elements);
@@ -60,6 +72,7 @@
 
 	//Functions for the buttons on the elements
 	function testFunction(event) {
+		//## RENAME ME
 		let func = event.detail.function;
 		let combo_location = event.detail.location[0];
 		let element_location = event.detail.location[1];
@@ -95,18 +108,25 @@
 	encodingConfig.protocol = 32;
 
 	function decodeURLString(encodedString) {
-		const comboStrings = encodedString.split(encodingConfig.combo_split);
-		return comboStrings;
+		return encodedString.split(encodingConfig.combo_split).map((comboString) => {
+			return comboString.split(encodingConfig.element_split).map(decodeElementNum);
+		});
+
+		// My stuff
+		const bc_numbers = encodedString.split(encodingConfig.combo_split).map((combo) => {
+			return combo.split(encodingConfig.element_split);
+		});
+		return bc_numbers;
 	}
 
 	// only the id's
 	$: bc_ids = builder_config.map((combo) => {
-		return combo.map((element) => encodeElementNum(element.number));
+		return combo.map((element) => element.number);
 	});
 	// encoded bc_ids
 	$: bc_id_encoded = bc_ids
-		.flatMap((combo) => combo.map((id) => encodeElementNum(id)).join(encodingConfig.combo_split))
-		.join(encodingConfig.element_split);
+		.flatMap((combo) => combo.map((id) => encodeElementNum(id)).join(encodingConfig.element_split))
+		.join(encodingConfig.combo_split);
 
 	//initialise
 	onMount(async () => {
@@ -115,8 +135,9 @@
 </script>
 
 <h1>{m.page_routinebuilder_title()}</h1>
-{bc_id_encoded}
-{decodeURLString(bc_id_encoded)}
+Encoded String: {bc_id_encoded}
+<br />
+Decoded string: {decodeURLString(bc_id_encoded)}
 <br />
 <div class="bc_wrapper">
 	{#each builder_config as bc_ce, combo_index}
