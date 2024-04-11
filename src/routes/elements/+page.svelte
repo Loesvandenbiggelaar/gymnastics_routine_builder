@@ -15,7 +15,7 @@
 		{ name: m.element_table_header_difficulty(), id: 'difficulty' }
 	];
 	// Importing the json from local file
-	import json from '$lib/data/elements.json';
+	import json from '$lib/data/elements/women/elements_women.json';
 	import IconSvg from '../../lib/components/IconSVG.svelte';
 	let selected_apparatus = 'vault'; // Default set to "vault"
 	$: data = json[selected_apparatus] || json['vault']; // "Vault" as fallback
