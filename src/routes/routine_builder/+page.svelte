@@ -65,13 +65,48 @@
 		let element_location = event.detail.location[1];
 		if (func == 'delete') {
 			builder_config[combo_location] = [
-				...builder_config[combo_location].slice(0, element_location)
+				...builder_config[combo_location].slice(0, element_location), //Pick everything before the element to be deleted..
+				...builder_config[combo_location].slice(element_location + 1) //..as well as after
 			];
 			return;
 		}
 	}
 
 	//Update array to delete empty ones
+	function removeEmptyCombos() {
+		builder_config = builder_config.filter((item) => item.length > 0);
+	}
+	$: builder_config, removeEmptyCombos(); //trigger when builder_config changes
+
+	//Create a dynamic array of the identifiers
+	function encodeElementNum(number) {
+		let integer = parseInt(parseFloat(number) * 1000);
+		return integer.toString(encodingConfig.protocol);
+	}
+
+	function decodeElementNum(code) {
+		let number = parseInt(code, encodingConfig.protocol);
+		return parseFloat(number / 1000).toString();
+	}
+
+	var encodingConfig = {};
+	encodingConfig.combo_split = '.';
+	encodingConfig.element_split = '-';
+	encodingConfig.protocol = 32;
+
+	function decodeURLString(encodedString) {
+		const comboStrings = encodedString.split(encodingConfig.combo_split);
+		return comboStrings;
+	}
+
+	// only the id's
+	$: bc_ids = builder_config.map((combo) => {
+		return combo.map((element) => encodeElementNum(element.number));
+	});
+	// encoded bc_ids
+	$: bc_id_encoded = bc_ids
+		.flatMap((combo) => combo.map((id) => encodeElementNum(id)).join(encodingConfig.combo_split))
+		.join(encodingConfig.element_split);
 
 	//initialise
 	onMount(async () => {
@@ -80,6 +115,9 @@
 </script>
 
 <h1>{m.page_routinebuilder_title()}</h1>
+{bc_id_encoded}
+{decodeURLString(bc_id_encoded)}
+<br />
 <div class="bc_wrapper">
 	{#each builder_config as bc_ce, combo_index}
 		<!--bc_ce = builder_config combo element -->
