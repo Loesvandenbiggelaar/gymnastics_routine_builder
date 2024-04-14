@@ -16,12 +16,13 @@
 	];
 	// Importing the json from local file
 	import json from '$lib/data/elements/women/elements_women.json';
-	import IconSvg from '../../lib/components/IconSVG.svelte';
+	import IconSvg from '$lib/components/IconSVG.svelte';
 	let selected_apparatus = 'vault'; // Default set to "vault"
 	$: data = json[selected_apparatus] || json['vault']; // "Vault" as fallback
 
 	let selected_gender = 'female';
 
+	//Dict of apparatuses
 	export let apparatus = [];
 	apparatus.male = [
 		{ name: m.apparatus_vault(), icon: 'vault.svg', id: 'vault' },
@@ -39,8 +40,6 @@
 	];
 
 	$: apparatus_loader = apparatus[selected_gender];
-
-	console.log(apparatus[selected_gender]);
 </script>
 
 <!-- Header Component -->

@@ -20,9 +20,10 @@
 <div class="wrapper">
 	<div id="number">{element.number}</div>
 	<icon id="icon" />
-	<div id="name">{element.description}</div>
+	<input id="name" bind:value={element.description} />
 	<div id="breakdown"></div>
 	<div id="buttons">
+		<div id="drag_handle"><Icon icon="material-symbols:drag-indicator" /></div>
 		<button id="moveleft" on:click={() => message('moveleft')}
 			><Icon icon="mdi:chevron-left" /></button
 		>
@@ -95,6 +96,13 @@
 		display: flex;
 	}
 
+	#drag_handle {
+		cursor: grab;
+	}
+
+	#drag_handle:active {
+		cursor: grabbing;
+	}
 	#buttons button {
 		box-shadow: none;
 		border: none;
