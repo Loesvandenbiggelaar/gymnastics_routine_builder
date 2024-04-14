@@ -5,7 +5,14 @@
 	// COMPONENTS
 	import ElementCard from './_components/rb_element.svelte';
 
-	//builder_config is the array that stores the elements as objects, which are read by the cards etc.
+	// builder_config is the array that stores the elements as objects, which are read by the cards etc.
+	// This is how it works:
+	// The builder_config (bc) is an array that holds the entire routine
+	// Within this array, there are multiple combo's (also an array)
+	// These combo's hold the elements. A combo can hold 1 OR multiple elements
+	// The elements are the full objetcs as retrieved from the correct .json file
+	// Eventually it looks something like this:
+	// [ [{element1}, {element2}], [{element3}] ]
 	$: builder_config = [];
 
 	let elements = {};
