@@ -104,94 +104,18 @@
 	$: builder_config, removeEmptyCombos(); //trigger when builder_config changes
 
 	// ------------------- THIS NEEDS TO BE MOVED INTO A SCRIPT OR COMPONENT!!! ----------------------
-	//Create a dynamic array of the identifiers
-	import { page } from '$app/stores'; //Load the page store to read url and url parameteres
-	import { goto } from '$app/navigation'; // goto to trigger a page navigation with the script
-	import { browser } from '$app/environment'; //used to check if the browser page has loaded
-	$: urlParam = new URLSearchParams($page.url.searchParams); //the url parameters
-	$: bc_urlParam = urlParam.get(encodingConfig.urlKey); //
+	import {setConfigToUrl, setUrlParams} from '$lib/functions/UrlParamFunctions.js';
 
-	function setConfigToUrl() {
-		//a function that sets the config based on the url
-		if (!bc_urlParam) return;
-		// read the current url parameter for the builder_config and decode it into the array of numbers
-		const decodedUrlString = decodeURLString(bc_urlParam);
-		//take the decoded string and transform the numbers into the correct elements
-		return (builder_config = convertNumbersToObjects(decodedUrlString, testElement));
-	}
-
-	//Convert the numbers to a string with the objects
-	function convertNumbersToObjects(numbersArray, database) {
-		// **1. Iterate through the outer array (list of combos), creating new inner arrays (the individual combo's) with objects:**
-		return numbersArray.map((innerArray) => {
-			//return the array of convertedInnerArray's
-			let convertedInnerArray = []; //set as empty array
-
-			innerArray.forEach((number) => {
-				//go through the combo for each element within
-				const matchingObject = database.find((el) => el.number === number); //find the element associated with the number
-				convertedInnerArray.push(matchingObject || {}); //add to the list
-			});
-			return convertedInnerArray; //return this
-		});
-	}
-
-	function setUrlParams(key, value) {
-		if (!browser || !key) return; //Don't execute until initialised (to prevent 500 error), or when no key is provided
-		const urlParams = new URLSearchParams($page.url.searchParams); // get url parameters
-		if (value) {
-			//if a value is specified...
-			urlParams.set(key, value); //Set the parameter
-		} else {
-			//..otherwise delete the key
-			urlParams.delete(key); //delete parameters when no elements are in the config
-		}
-		const urlString = `?${urlParams.toString()}`; //convert to string with '?'' in front
-		goto(urlString); //update URL with a navigate action
-	}
-
-	function encodeElementNum(number) {
-		//simple code to encode an element number formatted like #.### into a shorter string (usuallyy 3 characters)
-		let integer = parseInt(parseFloat(number) * 1000); //convert the #.### to an integer number
-		return integer.toString(encodingConfig.protocol); //encode with the specified encoding protocol (from dict)
-	}
-
-	function decodeElementNum(code) {
-		//simple code to decode a code back to an element number
-		let number = parseInt(code, encodingConfig.protocol); //decode to integer
-		return parseFloat(number / 1000).toString(); //back to string
-	}
-
-	// configuration of the encoding protocol
-	var encodingConfig = {};
-	encodingConfig.combo_split = '-'; //character that splits between combos
-	encodingConfig.element_split = '_'; // character that splits elements within combos
-	encodingConfig.protocol = 32; //protocol to use (don't ask how...)
-	encodingConfig.urlKey = 'bc'; //'key' to use in url parameter
-
-	function decodeURLString(encodedString) {
-		//function to decode the string version of the builder_config into an array of element numbers
-		return encodedString.split(encodingConfig.combo_split).map((comboString) => {
-			return comboString.split(encodingConfig.element_split).map(decodeElementNum);
-		});
-	}
-
-	// only the id's (numbers) of the builder_config
-	$: bc_ids = builder_config.map((combo) => {
-		return combo.map((element) => element.number);
-	});
-	// encoded array of the builder_config in numbers
-	$: bc_id_encoded = bc_ids
-		.flatMap((combo) => combo.map((id) => encodeElementNum(id)).join(encodingConfig.element_split))
-		.join(encodingConfig.combo_split);
-	// If the encoded string is changed, set the parameters
-	$: builder_config, setUrlParams(encodingConfig.urlKey, bc_id_encoded);
+	$: builder_config, setUrlParams(builder_config);
 
 	//initialise,
 	onMount(async () => {
+
 		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
-		setConfigToUrl();
+		builder_config = await setConfigToUrl(testElement);
+
 	});
+
 </script>
 
 <!-- ------------------ HTML ------------------ -->
