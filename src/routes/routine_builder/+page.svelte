@@ -45,7 +45,7 @@
 
 	//Function that helps to pick an element
 	//This is selected randomly from the list for now...
-	import { placeholderElement } from '$lib/data/elements/placeholderElement.js';
+	import { placeholderElement } from '$lib/data/elements/elementConfig.js';
 	const pickElement = (input, database = []) => {
 		if (!input) return placeholderElement;
 
