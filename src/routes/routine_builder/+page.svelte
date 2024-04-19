@@ -59,17 +59,17 @@
 
 	//Add a new element in the builder_config
 	function addElement(input, combo_location, element_location) {
-		let element = pickElement(input);
+		let _element = pickElement(input);
 		if (combo_location >= builder_config.length || combo_location == undefined) {
 			//if the combo location is undefined or behind the array, append
-			builder_config = [...builder_config, [element]];
+			builder_config = [...builder_config, [_element]];
 			return;
 		} else if (
 			element_location >= builder_config[combo_location].length ||
 			element_location == undefined
 		) {
 			// if the element location given is behind the number or undefined (by default), append the 'sub-array'
-			builder_config[combo_location] = [...builder_config[combo_location], element];
+			builder_config[combo_location] = [...builder_config[combo_location], _element];
 			return;
 		} else {
 			console.log('still needs to be programmed!!');
@@ -83,14 +83,23 @@
 	}
 
 	//Functions for the buttons on the elements
-	function testFunction(event) {
-		//## RENAME ME
+
+	/**
+	 * Function for handling events from the ElementCard.
+	 * This function checks what function is called and applies it to the builder_config.
+	 *
+	 * @param {CustomEvent} event - The event from the ElementCard
+	 */
+	function cardAction(event) {
+		// Get the function and location from the event
 		let func = event.detail.function;
 		let combo_location = event.detail.location[0];
 		let element_location = event.detail.location[1];
+
+		// If the function is to delete an element, remove it from the builder_config
 		if (func == 'delete') {
 			builder_config[combo_location] = [
-				...builder_config[combo_location].slice(0, element_location), //Pick everything before the element to be deleted..
+				...builder_config[combo_location].slice(0, element_location), // Pick everything before the element to be deleted..
 				...builder_config[combo_location].slice(element_location + 1) //..as well as after
 			];
 			return;
@@ -110,7 +119,7 @@
 		setUrlParamsToBC
 	} from '$lib/functions/UrlParamFunctions.js';
 
-	$: builder_config, setUrlParamsToBC(builder_config);
+	$: setUrlParamsToBC(builder_config);
 
 	//initialise,
 	onMount(async () => {
@@ -129,7 +138,7 @@
 				<ElementCard
 					element={bc_e}
 					location={[combo_index, number_index]}
-					on:message={testFunction}
+					on:message={cardAction}
 				/>
 			{/each}
 			<button class="bc_add_element" on:click={() => addElement('random', combo_index)}>+</button>
