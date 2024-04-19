@@ -35,40 +35,22 @@ export const apparatusConfig = {
 };
 
 let apparatusURLkey = 'a';
+let urlKeySplit = '_';
 let defaultMW = 'womens';
 let defaultApparatus = 0;
 
 export function apparatusUpdateURLParam(selectedMW, apparatus) {
 	const _params = new URLSearchParams(get(page).url.searchParams);
-	_params.set(apparatusURLkey, selectedMW.charAt(0) + '_' + apparatus.abb);
+	_params.set(apparatusURLkey, selectedMW.charAt(0) + urlKeySplit + apparatus.abb);
 	return goto(`?${_params.toString()}`); //update URL with a navigate action
 }
 
-export function apparatusGetFromURLParam() {
-	const _mw = defaultMW;
-	const _ap = defaultApparatus;
-	return { _mw, _ap };
-	const _urlParam = new URLSearchParams(get(page).url.searchParams);
-	const code = _urlParam.get(apparatusURLkey); //get the url parameter
-
-	if (!code) {
-		return { _mw, _ap };
-	}
-
-	_mw = { m: 'mens', w: 'womens' }[code.charAt(0)] || defaultMW;
-	const apparatusList = apparatusConfig[selectedMW];
-
-	if (!apparatusList) {
-		return { _mw, _ap };
-	}
-
-	_ap = apparatusList.find((a) => a.abb === code.slice(2)) || defaultApparatus; // use '===' for strict equality comparison
-
-	if (!_ap) {
-		return { _mw, _ap };
-	}
-
-	console.log(_ap);
-
+export function getApparatusInfoFromURLParam() {
+	const _params = new URLSearchParams(get(page).url.searchParams);
+	const _mwChar = _params.get(apparatusURLkey).split(urlKeySplit)[0];
+	const _apCode = _params.get(apparatusURLkey).split(urlKeySplit)[1];
+	const _mw = Object.keys(apparatusConfig).find((key) => key.charAt(0) == _mwChar) || defaultMW; //Return mens or womens, if unidentified use default
+	const _ap =
+		apparatusConfig[_mw].find((ap) => ap.abb == _apCode) || apparatusConfig[_mw][defaultApparatus];
 	return { _mw, _ap };
 }

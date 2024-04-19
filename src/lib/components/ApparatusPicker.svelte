@@ -10,7 +10,7 @@
 	import {
 		apparatusConfig,
 		apparatusUpdateURLParam,
-		apparatusGetFromURLParam
+		getApparatusInfoFromURLParam
 	} from '$lib/data/elements/elementCOnfig.js'; //Get from global file
 	export let selectedMW = 'womens';
 
@@ -31,10 +31,9 @@
 	//initialise,
 	onMount(async () => {
 		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
-		let _urlParams = await apparatusGetFromURLParam();
-		console.log(_urlParams);
-		selectedMW = _urlParams?._mw || 'womens';
-		selectedApparatus = apparatusConfig[selectedMW][_urlParams?._ap];
+		let _paramInfo = await getApparatusInfoFromURLParam();
+		selectedMW = _paramInfo._mw;
+		selectedApparatus = _paramInfo._ap;
 		await updateApparatus();
 	});
 </script>
