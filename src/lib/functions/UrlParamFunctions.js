@@ -29,7 +29,7 @@ async function getUrlSearchParams() {
 
 export async function setUrlParamsToBC(bc) {
 	const _encodedString = await convert_builder_config_to_encoded_string(bc);
-	console.log(_encodedString);
+	console.debug('Encoded config: ', _encodedString); // mini description for debug logging
 	await setUrlParams(encodingConfig.urlKey, _encodedString);
 }
 

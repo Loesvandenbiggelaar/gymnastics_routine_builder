@@ -102,10 +102,14 @@
 	}
 
 	//Update array to delete empty ones
-	function removeEmptyCombos() {
-		builder_config = builder_config.filter((item) => item.length > 0);
+	function cleanBuilderConfig() {
+		builder_config = builder_config.map((combo) =>
+			//Remove elements with an undefined number
+			combo.filter((item) => item.number !== undefined)
+		);
+		builder_config = builder_config.filter((combo) => combo.length > 0); //Filter out empty combos
 	}
-	$: builder_config, removeEmptyCombos(); //trigger when builder_config changes
+	$: builder_config, cleanBuilderConfig(); //trigger when builder_config changes
 
 	// ------------------- THIS NEEDS TO BE MOVED INTO A SCRIPT OR COMPONENT!!! ----------------------
 	import {
