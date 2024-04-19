@@ -18,7 +18,7 @@
 	let elements = {};
 
 	//Test dictionary with two random elements
-	let testElement = [
+	let elementDatabase_Test = [
 		{
 			number: '5.008',
 			description: 'Ophurken (met liggerwissel)',
@@ -45,17 +45,12 @@
 
 	//Function that helps to pick an element
 	//This is selected randomly from the list for now...
-	function pickElement(input) {
-		// TEMPORARY
-		let rand = Math.floor(Math.random() * testElement.length);
-		return testElement[rand];
-		// TEMPORARY SOLUTION
-		let keys = Object.keys(elements);
-		let element =
-			elements[keys.includes(input) ? input : keys[Math.floor(Math.random() * keys.length)]]; // if the input is in the list, use that
-		// console.log(keys.includes(input));
-		return element;
-	}
+	import { placeholderElement } from '$lib/data/elements/placeholderElement.js';
+	const pickElement = (input, database = []) => {
+		if (!input) return placeholderElement;
+
+		return database.find((element) => element.number === input) || placeholderElement;
+	};
 
 	//Add a new element in the builder_config
 	function addElement(input, combo_location, element_location) {
@@ -124,7 +119,7 @@
 	//initialise,
 	onMount(async () => {
 		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
-		builder_config = await setConfigToUrl(testElement);
+		builder_config = await setConfigToUrl(elementDatabase_Test);
 	});
 </script>
 

@@ -10,11 +10,18 @@
 		});
 	}
 
+	const placeholderElement = {
+		number: '#.###',
+		description: 'Placeholder',
+		value: '#',
+		difficulty: 'X'
+	};
+
 	// Iconify for cool icons!
 	import Icon from '@iconify/svelte';
 
-	export let element = {};
-	export let location;
+	export let element = {}; //If no element if given, use the placeholder
+	export let location; //Location of the element in the builder_config using [combo][element]
 </script>
 
 <div class="wrapper">
