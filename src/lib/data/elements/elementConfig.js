@@ -47,10 +47,18 @@ export function apparatusUpdateURLParam(selectedMW, apparatus) {
 
 export function getApparatusInfoFromURLParam() {
 	const _params = new URLSearchParams(get(page).url.searchParams);
+	let _mw = defaultMW;
+	let _ap = apparatusConfig[_mw][defaultApparatus];
+	if (!_params.has(apparatusURLkey)) {
+		//Check if URL has the key, if not return default
+		return { _mw, _ap };
+	}
+
+	const _apParams = _params.get(apparatusURLkey);
 	const _mwChar = _params.get(apparatusURLkey).split(urlKeySplit)[0];
 	const _apCode = _params.get(apparatusURLkey).split(urlKeySplit)[1];
-	const _mw = Object.keys(apparatusConfig).find((key) => key.charAt(0) == _mwChar) || defaultMW; //Return mens or womens, if unidentified use default
-	const _ap =
+	_mw = Object.keys(apparatusConfig).find((key) => key.charAt(0) == _mwChar) || defaultMW; //Return mens or womens, if unidentified use default
+	_ap =
 		apparatusConfig[_mw].find((ap) => ap.abb == _apCode) || apparatusConfig[_mw][defaultApparatus];
 	return { _mw, _ap };
 }

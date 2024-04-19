@@ -21,11 +21,12 @@
 		selectedApparatus =
 			apparatusConfig[selectedMW].find((ap) => ap.name == _apname) || //Check to see if the selected apparatus is in the newly selected MF category
 			apparatusConfig[selectedMW][0]; //otherwise select the first in the list
+
+		updateApparatus();
 	}
 	function updateApparatus() {
 		// const _encodedURLstring = encodeapparatus(selectedMF, selectedApparatus.id);
 		apparatusUpdateURLParam(selectedMW, selectedApparatus);
-		console.log(`Selected apparatus: ${selectedApparatus.name}`);
 	}
 
 	//initialise,
