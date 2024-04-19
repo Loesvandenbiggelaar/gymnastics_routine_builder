@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 
 	// COMPONENTS
+	import ApparatusPicker from '$lib/components/apparatusPicker.svelte';
 	import ElementCard from './_components/rb_element.svelte';
 
 	// builder_config is the array that stores the elements as objects, which are read by the cards etc.
@@ -46,8 +47,12 @@
 	//Function that helps to pick an element
 	//This is selected randomly from the list for now...
 	import { placeholderElement } from '$lib/data/elements/elementConfig.js';
+
+	//Pick element based on element number
 	const pickElement = (input, database = []) => {
-		if (!input) return placeholderElement;
+		if (!input) {
+			return placeholderElement;
+		}
 
 		return database.find((element) => element.number === input) || placeholderElement;
 	};
@@ -103,6 +108,7 @@
 
 	//Update array to delete empty ones
 	function cleanBuilderConfig() {
+		if (typeof builder_config != Array) builder_config = [];
 		builder_config = builder_config.map((combo) =>
 			//Remove elements with an undefined number
 			combo.filter((item) => item.number !== undefined)
@@ -112,11 +118,7 @@
 	$: builder_config, cleanBuilderConfig(); //trigger when builder_config changes
 
 	// ------------------- THIS NEEDS TO BE MOVED INTO A SCRIPT OR COMPONENT!!! ----------------------
-	import {
-		setConfigToUrl,
-		setUrlParams,
-		setUrlParamsToBC
-	} from '$lib/functions/UrlParamFunctions.js';
+	import { setConfigToUrl, setUrlParamsToBC } from '$lib/functions/UrlParamFunctions.js';
 
 	$: setUrlParamsToBC(builder_config);
 
@@ -129,6 +131,7 @@
 
 <!-- ------------------ HTML ------------------ -->
 <h1>{m.page_routinebuilder_title()}</h1>
+<ApparatusPicker />
 <div class="bc_wrapper">
 	{#each builder_config as bc_ce, combo_index}
 		<!--bc_ce = builder_config combo element -->
@@ -140,10 +143,10 @@
 					on:message={cardAction}
 				/>
 			{/each}
-			<button class="bc_add_element" on:click={() => addElement('random', combo_index)}>+</button>
+			<button class="bc_add_element" on:click={() => addElement(null, combo_index)}>+</button>
 		</div>
 	{/each}
-	<button class="bc_add_element" on:click={() => addElement('random')}>+</button>
+	<button class="bc_add_element" on:click={() => addElement()}>+</button>
 </div>
 
 <style>
