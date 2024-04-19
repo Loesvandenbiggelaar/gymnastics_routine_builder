@@ -5,6 +5,9 @@
 	// Custom local svg component
 	import IconSVG from '$lib/components/IconSVG.svelte';
 
+	// Import apparatus picker
+	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
+
 	// GridJS and elements data
 	import Grid from 'gridjs-svelte';
 	const c_num = '#';
@@ -16,72 +19,15 @@
 	];
 	// Importing the json from local file
 	import json from '$lib/data/elements/women/elements_women.json';
-	import IconSvg from '$lib/components/IconSVG.svelte';
+
 	let selected_apparatus = 'vault'; // Default set to "vault"
+
 	$: data = json[selected_apparatus] || json['vault']; // "Vault" as fallback
-
-	let selected_gender = 'female';
-
-	//Dict of apparatuses
-	export let apparatus = [];
-	apparatus.male = [
-		{ name: m.apparatus_vault(), icon: 'vault.svg', id: 'vault' },
-		{ name: 'rings', icon: 'rings.svg', id: 'rings' },
-		{ name: 'pommel horse', icon: 'pommel_horse.svg', id: 'pommel horse' },
-		{ name: 'high bar', icon: 'high_bar.svg', id: 'high bar' },
-		{ name: 'parallel bars', icon: 'parallel_bars.svg', id: 'parallel bars' },
-		{ name: m.apparatus_floor(), icon: 'floor.svg', id: 'floor' }
-	];
-	apparatus.female = [
-		{ name: m.apparatus_vault(), icon: 'vault.svg', id: 'vault' },
-		{ name: m.apparatus_beam(), icon: 'beam.svg', id: 'beam' },
-		{ name: m.apparatus_uneven_bars(), icon: 'uneven_bars.svg', id: 'uneven bars' },
-		{ name: m.apparatus_floor(), icon: 'floor.svg', id: 'floor' }
-	];
-
-	$: apparatus_loader = apparatus[selected_gender];
 </script>
 
 <!-- Header Component -->
 <h1>{m.page_elements_title()}</h1>
-<div id="apparatus_wrapper">
-	<div id="male_female_picker">
-		<input
-			type="radio"
-			name="male_female"
-			id="female"
-			value="female"
-			bind:group={selected_gender}
-			on:change={console.log(selected_gender)}
-		/>
-		<label for="female"><Icon icon="tabler:gender-female" /></label>
-		<input
-			type="radio"
-			name="male_female"
-			id="male"
-			value="male"
-			bind:group={selected_gender}
-			on:change={console.log(selected_gender)}
-		/>
-		<label for="male"><Icon icon="tabler:gender-male" /></label>
-	</div>
-	<div class="apparatus_picker">
-		{#each apparatus_loader as ap}
-			<input
-				type="radio"
-				bind:group={selected_apparatus}
-				id={ap.id}
-				name="apparatus"
-				value={ap.id}
-				on:change={console.log(selected_apparatus)}
-			/>
-			<label for={ap.id}>
-				<IconSvg src={ap.icon} />
-				<p>{ap.name}</p></label
-			>
-		{/each}
-	</div>
-</div>
+<ApparatusPicker />
 <Grid {data} {columns} search sort pagination />
 <p>
 	{m.lorem_ipsum()}

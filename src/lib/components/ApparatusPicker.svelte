@@ -1,61 +1,75 @@
 <script>
+	//Paraglide lang support
+	import * as m from '$paraglide/messages.js';
 	// Iconify for cool icons!
 	import Icon from '@iconify/svelte';
 	import IconSvg from '$lib/components/IconSVG.svelte';
 	//
+	import { onMount } from 'svelte';
 
-	let selected_gender = 'female';
+	import {
+		apparatusConfig,
+		apparatusUpdateURLParam,
+		apparatusGetFromURLParam
+	} from '$lib/data/elements/elementCOnfig.js'; //Get from global file
+	export let selectedMW = 'womens';
 
-	export let apparatus = [];
-	export let selected_apparatus;
-	apparatus.male = [
-		{ name: m.apparatus_vault(), icon: 'vault.svg', id: 'vault' },
-		{ name: 'rings', icon: 'rings.svg', id: 'rings' },
-		{ name: 'pommel horse', icon: 'pommel_horse.svg', id: 'pommel horse' },
-		{ name: 'high bar', icon: 'high_bar.svg', id: 'high bar' },
-		{ name: 'parallel bars', icon: 'parallel_bars.svg', id: 'parallel bars' },
-		{ name: m.apparatus_floor(), icon: 'floor.svg', id: 'floor' }
-	];
-	apparatus.female = [
-		{ name: m.apparatus_vault(), icon: 'vault.svg', id: 'vault' },
-		{ name: m.apparatus_beam(), icon: 'beam.svg', id: 'beam' },
-		{ name: m.apparatus_uneven_bars(), icon: 'uneven_bars.svg', id: 'uneven bars' },
-		{ name: m.apparatus_floor(), icon: 'floor.svg', id: 'floor' }
-	];
+	let selectedApparatus = apparatusConfig[selectedMW][0];
 
-	$: apparatus_loader = apparatus[selected_gender];
+	function updateMensWomens() {
+		const _apname = selectedApparatus.name;
+		selectedApparatus =
+			apparatusConfig[selectedMW].find((ap) => ap.name == _apname) || //Check to see if the selected apparatus is in the newly selected MF category
+			apparatusConfig[selectedMW][0]; //otherwise select the first in the list
+	}
+	function updateApparatus() {
+		// const _encodedURLstring = encodeapparatus(selectedMF, selectedApparatus.id);
+		apparatusUpdateURLParam(selectedMW, selectedApparatus);
+		console.log(`Selected apparatus: ${selectedApparatus.name}`);
+	}
+
+	//initialise,
+	onMount(async () => {
+		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
+		let _urlParams = await apparatusGetFromURLParam();
+		console.log(_urlParams);
+		selectedMW = _urlParams?._mw || 'womens';
+		selectedApparatus = apparatusConfig[selectedMW][_urlParams?._ap];
+		await updateApparatus();
+	});
 </script>
 
 <div id="apparatus_wrapper">
-	<div id="male_female_picker">
+	<div id="mens_womens_picker">
 		<input
 			type="radio"
-			name="male_female"
-			id="female"
-			value="female"
-			bind:group={selected_gender}
-			on:change={console.log(selected_gender)}
+			name="mens_womens"
+			id="womens"
+			value="womens"
+			bind:group={selectedMW}
+			on:change={updateMensWomens}
 		/>
-		<label for="female"><Icon icon="tabler:gender-female" /></label>
+		<label for="womens"><Icon icon="tabler:gender-female" /></label>
 		<input
 			type="radio"
-			name="male_female"
-			id="male"
-			value="male"
-			bind:group={selected_gender}
-			on:change={console.log(selected_gender)}
+			name="mens_womens"
+			id="mens"
+			value="mens"
+			bind:group={selectedMW}
+			on:change={updateMensWomens}
 		/>
-		<label for="male"><Icon icon="tabler:gender-male" /></label>
+		<label for="mens"><Icon icon="tabler:gender-male" /></label>
 	</div>
 	<div class="apparatus_picker">
-		{#each apparatus_loader as ap}
+		{#each apparatusConfig[selectedMW] as ap}
+			<!-- Go over each apparatus in the selected gender category -->
 			<input
 				type="radio"
-				bind:group={selected_apparatus}
+				bind:group={selectedApparatus}
 				id={ap.id}
 				name="apparatus"
-				value={ap.id}
-				on:change={console.log(selected_apparatus)}
+				value={ap}
+				on:change={updateApparatus}
 			/>
 			<label for={ap.id}>
 				<IconSvg src={ap.icon} />
@@ -72,7 +86,7 @@
 		grid-template-columns: min-content 1fr;
 	}
 
-	#male_female_picker {
+	#mens_womens_picker {
 		background-color: var(--color-base-secondary);
 		display: flex;
 		flex-direction: column;
@@ -81,25 +95,25 @@
 		border-radius: var(--border-radius);
 	}
 
-	#male_female_picker input {
+	#mens_womens_picker input {
 		display: none;
 	}
-	#male_female_picker label {
+	#mens_womens_picker label {
 		font-size: 1.5em;
 		padding: 0.1em;
 	}
-	#male_female_picker input:checked + label {
+	#mens_womens_picker input:checked + label {
 		background-color: var(--color-secondary);
 	}
 
-	#male_female_picker input:checked + label[for='male'] {
+	#mens_womens_picker input:checked + label[for='mens'] {
 		background-color: var(--color-accent);
 	}
 
-	#male_female_picker label:first-of-type {
+	#mens_womens_picker label:first-of-type {
 		border-radius: var(--border-radius) var(--border-radius) 0px 0px;
 	}
-	#male_female_picker label:last-of-type {
+	#mens_womens_picker label:last-of-type {
 		border-radius: 0px 0px var(--border-radius) var(--border-radius);
 	}
 
