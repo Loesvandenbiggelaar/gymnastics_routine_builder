@@ -1,8 +1,8 @@
 // configuration of the encoding protocol
 import { goto } from '$app/navigation'; // goto to trigger a page navigation with the script
 import { browser } from '$app/environment'; //used to check if the browser page has loaded
-import {page} from '$app/stores'; //used to get the current page
-import {get} from 'svelte/store'; //used to get the value of a store
+import { page } from '$app/stores'; //used to get the current page
+import { get } from 'svelte/store'; //used to get the value of a store
 
 // console.log(page)
 // import bc_urlParam from "$lib/functions/urlParams.svelte"
@@ -12,7 +12,6 @@ encodingConfig.combo_split = '-'; //character that splits between combos
 encodingConfig.element_split = '_'; // character that splits elements within combos
 encodingConfig.protocol = 32; //protocol to use (don't ask how...)
 encodingConfig.urlKey = 'bc'; //'key' to use in url parameter
-
 
 export function convert_builder_config_to_encoded_string(config) {
 	return config
@@ -28,32 +27,34 @@ async function getUrlSearchParams() {
 	return new URLSearchParams(get(page).url.searchParams); //the url parameters
 }
 
-export async function setUrlParams(b) {
-	const value = await convert_builder_config_to_encoded_string(b);
-	if (!browser || !encodingConfig.urlKey) return; //Don't execute until initialised (to prevent 500 error), or when no key is provided
+export async function setUrlParamsToBC(bc) {
+	const _encodedString = await convert_builder_config_to_encoded_string(bc);
+	console.log(_encodedString);
+	await setUrlParams(encodingConfig.urlKey, _encodedString);
+}
+
+export async function setUrlParams(key, value) {
+	if (!browser || !key) return; //Don't execute until initialised (to prevent 500 error), or when no key is provided
 	const urlParams = await getUrlSearchParams(get(page)); // get url parameters
 	if (value) {
-		//if a value is specified...
-		urlParams.set(encodingConfig.urlKey, value); //Set the parameter
+		urlParams.set(key, value); //Set the parameter
 	} else {
-		//..otherwise delete the key
-		urlParams.delete(encodingConfig.urlKey); //delete parameters when no elements are in the config
+		urlParams.delete(key); //delete parameters when no elements are in the config
 	}
 	const urlString = `?${urlParams.toString()}`; //convert to string with '?'' in front
-	return goto(urlString); //update URL with a navigate action
+	return goto(`${urlString}`); //update URL with a navigate action
 }
 
 export async function setConfigToUrl(element) {
 	//a function that sets the config based on the url
-	var urlParam = await getUrlSearchParams(get(page))
+	var urlParam = await getUrlSearchParams(get(page));
 	var bc_urlParam = urlParam.get(encodingConfig.urlKey); //get the url parameter
 	if (!bc_urlParam) return;
 	// console.log(bc_urlParam)
 	// read the current url parameter for the builder_config and decode it into the array of numbers
 	const decodedUrlString = decodeURLString(bc_urlParam);
 	//take the decoded string and transform the numbers into the correct elements
-	return  convertNumbersToObjects(decodedUrlString, element)
-	
+	return convertNumbersToObjects(decodedUrlString, element);
 }
 
 //Convert the numbers to a string with the objects

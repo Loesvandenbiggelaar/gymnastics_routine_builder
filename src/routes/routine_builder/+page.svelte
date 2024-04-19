@@ -104,18 +104,19 @@
 	$: builder_config, removeEmptyCombos(); //trigger when builder_config changes
 
 	// ------------------- THIS NEEDS TO BE MOVED INTO A SCRIPT OR COMPONENT!!! ----------------------
-	import {setConfigToUrl, setUrlParams} from '$lib/functions/UrlParamFunctions.js';
+	import {
+		setConfigToUrl,
+		setUrlParams,
+		setUrlParamsToBC
+	} from '$lib/functions/UrlParamFunctions.js';
 
-	$: builder_config, setUrlParams(builder_config);
+	$: builder_config, setUrlParamsToBC(builder_config);
 
 	//initialise,
 	onMount(async () => {
-
 		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
 		builder_config = await setConfigToUrl(testElement);
-
 	});
-
 </script>
 
 <!-- ------------------ HTML ------------------ -->
