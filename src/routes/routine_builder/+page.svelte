@@ -19,7 +19,7 @@
 	let elements = {};
 
 	//Test dictionary with two random elements
-	let elementDatabase_Test = [
+	let element_database_test = [
 		{
 			number: '5.008',
 			description: 'Ophurken (met liggerwissel)',
@@ -95,7 +95,7 @@
 		let func = event.detail.function;
 		let combo_location = event.detail.location[0];
 		let element_location = event.detail.location[1];
-
+		
 		// If the function is to delete an element, remove it from the builder_config
 		if (func == 'delete') {
 			builder_config[combo_location] = [
@@ -108,12 +108,7 @@
 
 	//Update array to delete empty ones
 	function cleanBuilderConfig() {
-		if (typeof builder_config != Array) builder_config = [];
-		builder_config = builder_config.map((combo) =>
-			//Remove elements with an undefined number
-			combo.filter((item) => item.number !== undefined)
-		);
-		builder_config = builder_config.filter((combo) => combo.length > 0); //Filter out empty combos
+		builder_config = builder_config.filter((item) => item.length > 0);
 	}
 	$: builder_config, cleanBuilderConfig(); //trigger when builder_config changes
 
@@ -125,7 +120,8 @@
 	//initialise,
 	onMount(async () => {
 		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
-		builder_config = await setConfigToUrl(elementDatabase_Test);
+		builder_config =  await setConfigToUrl(element_database_test);
+
 	});
 </script>
 

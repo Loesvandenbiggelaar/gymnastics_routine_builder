@@ -49,7 +49,7 @@ export async function setConfigToUrl(element) {
 	//a function that sets the config based on the url
 	var urlParam = await getUrlSearchParams(get(page));
 	var bc_urlParam = urlParam.get(encodingConfig.urlKey); //get the url parameter
-	if (!bc_urlParam) return;
+	if (!bc_urlParam) return [];
 	// console.log(bc_urlParam)
 	// read the current url parameter for the builder_config and decode it into the array of numbers
 	const decodedUrlString = decodeURLString(bc_urlParam);
