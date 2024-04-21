@@ -60,8 +60,12 @@ const dummy_routine = [
 ];
 
 // Depending on the type of competition you want either the highest score of the two, or the average of the two
+// this should be an option to choose in the interface
 const vault_configuration_type = 'average'; // or "highest"
 
+
+// The main function to calculate the D-score of a vault routine.
+// Based on the configuration type, it will calculate the average or highest score.
 function calculate_d_score(routine) {
 	// combos in vault are not valid, so just flatten the routine to skip all combos, if there are any.
 	const flat_routine = flatten_routine(routine);
@@ -76,9 +80,11 @@ function calculate_d_score(routine) {
 	}
 }
 
-console.log(calculate_d_score(dummy_routine));
+// this should be given back in the interface 
+const d_score = calculate_d_score(dummy_routine);
+console.log(d_score)
 
-// The functions below are used by the calculate_d_score() function.
+// <----------------------- Helper functions ----------------------->
 
 // based on the elements in the routine, calculate the average D-score.
 // The code can handle anly length of routines. however, on vault, you usually have only 2 elements.
@@ -102,6 +108,9 @@ function calculate_highest(routine) {
 	return roundValue(highest_score);
 }
 
+
+// <----------------------- Optional Function ----------------------->
+
 // Maybe not relevant for now, but somewhere (not NSTB) there is a rule that the jumps need to be from different groups
 function elements_different_group(routine) {
 	var groups = [];
@@ -109,16 +118,19 @@ function elements_different_group(routine) {
 	const flat_routine = flatten_routine(routine);
 	flat_routine.forEach((element) => {
 		if (groups.includes(element['group'])) {
-			console.warn('Elements are from the same group! Please choose another element');
+			// console.warn('Elements are from the same group! Please choose another element');
 			check_okay = false;
 		} else {
 			groups.push(element['group']);
 		}
 	});
-	if (check_okay) {
-		console.log('hurray, elements are from different groups');
-	}
+	// if (check_okay) {
+	// 	console.log('hurray, elements are from different groups');
+	// }
 	return check_okay;
 }
 
-elements_different_group(dummy_routine);
+const different_groups = elements_different_group(dummy_routine);
+if (different_groups) {
+	console.log("elements are from different groups")} 
+else {console.log("elements are not from different groups")}
