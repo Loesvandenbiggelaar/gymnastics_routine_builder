@@ -11,7 +11,7 @@
 		apparatusConfig,
 		apparatusUpdateURLParam,
 		getApparatusInfoFromURLParam
-	} from '$lib/data/elements/elementCOnfig.js'; //Get from global file
+	} from '$lib/data/elements/elementConfig.js'; //Get from global file
 	export let selectedMW = 'womens';
 
 	let selectedApparatus = apparatusConfig[selectedMW][0];
