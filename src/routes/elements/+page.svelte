@@ -10,6 +10,7 @@
 
 	// Import Modal
 	import Modal from './_components/Modal.svelte';
+
 	let showModal = false;
 	let modalElement = {};
 
@@ -35,14 +36,13 @@
 	import { Row } from 'gridjs';
 
 	let selected_apparatus = 'vault'; // Default set to "vault"
+	let selectedMW = 'womens';
 
-	$: data = json[selected_apparatus] || json['vault']; // "Vault" as fallback
+	$: data = json[selected_apparatus?.name] || json['vault']; // "Vault" as fallback
 </script>
 
 <!-- Modal for Elements -->
-<Modal bind:showModal>
-	<h3>{modalElement.description}</h3>
-</Modal>
+<Modal bind:showModal bind:modalElement bind:selectedMW bind:selected_apparatus />
 
 <!-- Header Component -->
 <h1>{m.page_elements_title()}</h1>
