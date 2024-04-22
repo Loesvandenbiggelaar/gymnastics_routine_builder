@@ -8,6 +8,19 @@
 	// Import apparatus picker
 	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
 
+	// Import Modal
+	import Modal from './_components/Modal.svelte';
+	let showModal = false;
+	let modalElement = {};
+
+	function showElementInModal(e) {
+		const elementID = e.detail[1]._cells[0].data;
+		const element = data.find((el) => el.number == elementID);
+		modalElement = element;
+		showModal = true;
+		return;
+	}
+
 	// GridJS and elements data
 	import Grid from 'gridjs-svelte';
 	const c_num = '#';
@@ -19,16 +32,22 @@
 	];
 	// Importing the json from local file
 	import json from '$lib/data/elements/women/elements_women.json';
+	import { Row } from 'gridjs';
 
 	let selected_apparatus = 'vault'; // Default set to "vault"
 
 	$: data = json[selected_apparatus] || json['vault']; // "Vault" as fallback
 </script>
 
+<!-- Modal for Elements -->
+<Modal bind:showModal>
+	<h3>{modalElement.description}</h3>
+</Modal>
+
 <!-- Header Component -->
 <h1>{m.page_elements_title()}</h1>
 <ApparatusPicker />
-<Grid {data} {columns} search sort pagination />
+<Grid {data} {columns} search sort pagination on:rowClick={showElementInModal} />
 <p>
 	{m.lorem_ipsum()}
 </p>
