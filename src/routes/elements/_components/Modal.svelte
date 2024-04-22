@@ -15,6 +15,9 @@
 	export let selected_apparatus;
 	export let selectedMW;
 
+	let placeholderImage = 'https://loremflickr.com/300/200';
+	let placeholderSymbols = 'https://loremflickr.com/300/100';
+
 	let dialog; // HTMLDialogElement
 
 	$: if (dialog && showModal) dialog.showModal();
@@ -61,9 +64,13 @@
 			</div>
 		</div>
 		<div class="modal media">
-			<div class="image">placeholder image</div>
-			<div class="symbols">placeholder symbols</div>
-			<div class="video">placeholder video</div>
+			<div class="image">
+				<img src={modalElement.imagePath || placeholderImage} alt="Element in steps" />
+			</div>
+			<div class="symbols">
+				<img src={modalElement.imagePath || placeholderSymbols} alt="Symbols for jury notation" />
+			</div>
+			<div class="video"></div>
 		</div>
 	</div>
 	<!-- END OF MODAL CONTENT -->
@@ -77,7 +84,7 @@
 		padding: 0;
 	}
 	dialog::backdrop {
-		background: rgba(0, 0, 0, 0.3);
+		background: rgba(0, 0, 0, 0.6);
 	}
 	dialog > div {
 		padding: 1em;
@@ -123,6 +130,8 @@
 		grid-area: buttons;
 		display: flex;
 		justify-content: end;
+		border: solid var(--color-text) thin;
+		border-radius: 10px;
 	}
 
 	button {
@@ -201,7 +210,7 @@
 		font-size: 0.8em;
 
 		/* Box settings */
-		background-color: lightblue;
+		background-color: var(--color-base-secondary);
 		padding: 0.4em;
 		border-radius: 1em;
 		width: 100%;
@@ -212,5 +221,17 @@
 		grid-template-areas:
 			'image video'
 			'symbols video';
+	}
+
+	.media .image {
+		grid-area: image;
+	}
+
+	.media .symbols {
+		grid-area: symbols;
+	}
+
+	.media .video {
+		grid-area: video;
 	}
 </style>

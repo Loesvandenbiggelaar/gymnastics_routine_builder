@@ -263,7 +263,13 @@ th.gridjs-th:last-child {
 }
 .gridjs-tr {
 	border: none;
+	cursor: pointer;
 }
+
+.gridjs-tr:hover td {
+	background-color: var(--color-base-secondary);
+}
+
 .gridjs-tr-selected td {
 	background-color: var(--selected-row-bg);
 }
