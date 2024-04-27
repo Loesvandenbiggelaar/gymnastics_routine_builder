@@ -5,7 +5,7 @@
 //      count m gymnastic elements (if applicable),
 //      and add other elements to top it.
 // - if no dismount is done, we are not allowed to count another acrobatic element either.
-import { roundValue, flatten_routine } from './helper_functions.js';
+import { roundValue, flatten_routine, dismount_done } from './helper_functions.js';
 
 // These constants are based on the level of the gymnast. 
 const nr_elements = 8;
@@ -162,19 +162,6 @@ function get_difficulty(routine) {
 }
 let all_elements_difficulty = get_difficulty(dummy_routine_flattened);
 
-// The first step is to check whether the last element performed is a dismount. Dismounts on beam are elements from group 6.
-// if the last element is a dismount, we can continue with the difficulty count.
-// otherwise, the last acrobatic element from the routine should be discarded.
-function dismount_done(routine) {
-	const length_routine = routine.length;
-	let last_element = routine[length_routine - 1];
-	if (last_element['group'] == '6') {
-		return true;
-	} else {
-		messages.push("The last element should be a dismount.")
-		return false;
-	}
-}
 
 // The second step is to ignore all the repeated elements in the routine.
 function remove_repeated_elements(routine) {
@@ -208,6 +195,7 @@ function count_acrobatic_elements(routine) {
 	});
 
 	if (!dismount_done(dummy_routine_flattened)) {
+		messages.push("dismount is not done, so we can't count another acrobatic element");
 		acrobatic_elements.pop();
 	}
 

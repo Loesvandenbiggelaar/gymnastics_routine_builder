@@ -3,15 +3,15 @@
 apparatuses:
   floor:
     start page:
-      nl: 39
-      en: 42
-      fr: 42
-      es: 42
+      nl: 41
+      en: 43
+      fr: 43
+      es: 43
     end page:
-      nl: 50
-      en: 53
-      fr: 53
-      es: 53
+      nl: 51
+      en: 54
+      fr: 54
+      es: 54
     group types:
       1: non-acrobatic
       2: acrobatic
@@ -29,15 +29,15 @@ apparatuses:
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   pommel horse:
     start page:
-      nl: 63
-      en: 65
-      fr: 65
-      es: 65
+      nl: 65
+      en: 66
+      fr: 66
+      es: 66
     end page:
-      nl: 76
-      en: 77
-      fr: 77
-      es: 77
+      nl: 77
+      en: 78
+      fr: 78
+      es: 78
     group types:
       1: acrobatic
       2: acrobatic
@@ -56,15 +56,15 @@ apparatuses:
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   rings:
     start page:
-      nl: 83
-      en: 84
-      fr: 84
-      es: 84
+      nl: 84
+      en: 85
+      fr: 85
+      es: 85
     end page:
-      nl: 102
-      en: 101
-      fr: 101
-      es: 101
+      nl: 103
+      en: 102
+      fr: 102
+      es: 102
     group types:
       1: acrobatic
       2: acrobatic
@@ -83,15 +83,15 @@ apparatuses:
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   vault:
     start page:
-      nl: 109
-      en: 107
-      fr: 107
-      es: 107
+      nl: 110
+      en: 108
+      fr: 108
+      es: 108
     end page:
-      nl: 116
-      en: 114
-      fr: 114
-      es: 114
+      nl: 117
+      en: 116
+      fr: 116
+      es: 116
     group types:
       1: gymnastic
       2: gymnastic
@@ -112,15 +112,15 @@ apparatuses:
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   parallel bars:
     start page:
-      nl: 124
-      en: 121
-      fr: 121
-      es: 121
+      nl: 125
+      en: 122
+      fr: 122
+      es: 122
     end page:
-      nl: 140
-      en: 136
-      fr: 136
-      es: 136
+      nl: 141
+      en: 138
+      fr: 138
+      es: 138
     group types:
       1: gymnastic
       2: gymnastic
@@ -141,15 +141,15 @@ apparatuses:
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
   high bar:
     start page:
-      nl: 147
-      en: 144
-      fr: 144
-      es: 144
+      nl: 148
+      en: 145
+      fr: 145
+      es: 145
     end page:
-      nl: 165
-      en: 161
-      fr: 161
-      es: 161
+      nl: 166
+      en: 162
+      fr: 162
+      es: 162
     group types:
       1: acrobatic
       2: acrobatic
@@ -171,8 +171,14 @@ file:
   fr: source/files/Men/en_ 2022-2024 MAG CoP.pdf
   es: source/files/Men/en_ 2022-2024 MAG CoP.pdf
   nl: source/files/Men/Reglement-Bovenbouw-versie-1.1.pdf
+language_description_index:
+  nl: 0
+  en: 1
+  fr: 0
+  es: 2
 exception_file: source/files/Men/elements_men_G_H.yaml
 vault_values_file: source/files/Men/vault_values.yaml
+element_grouping_file: source/element_grouping.yaml
 output directory: src/lib/data/elements/men/
 string adjustments:
   - ['  ', ' ']
@@ -195,3 +201,8 @@ string adjustments:
   - ['126. 125', '126. ']
   - ['117.101.', '117.|101.']
   - ['107_Tour', '|107._Tour']
+  - ['(Manna)', '']
+  - ['(Kolyvanov)', '']
+  - ['(Colak)', '']
+  - ['(Tsukahara 3)', '']
+  - ['(Shirai 3)', '']

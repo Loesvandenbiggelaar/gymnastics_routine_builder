@@ -4,7 +4,7 @@ import os
 import shutil
 import re
 import pandas as pd
-from functions import loadConfig, saveJson
+from source.extract_elements import loadConfig, saveJson
 
 def writeImage(page, image_metadata):
     clip = fitz.Rect(image_metadata["bbox"]["x0"],image_metadata["bbox"]["y0"],image_metadata["bbox"]["x1"],image_metadata["bbox"]["y1"],)

@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from functions import loadConfig, saveJson, loadJson
+from source.extract_elements import loadConfig, saveJson, loadJson
 
 class elementTyping:
     def __init__(self, config, groupConfig, file, apparatus, gender) -> None:

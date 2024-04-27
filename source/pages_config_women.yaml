@@ -8,7 +8,7 @@ apparatuses:
     end page:
       nl: 13
       en: 70
-    group types:
+    group:
       1: acrobatic
       2: acrobatic
       3: acrobatic
@@ -17,8 +17,8 @@ apparatuses:
       0: acrobatic
     regex:
       group:
-        en: GROUP\s+(\d).*?([A-Z].*?)\s*?\n
-        nl: GROEP\s+(\d)\s+.\s+(.*?)\s+T?\d\.\d{2}
+        en: GROUP\s+(\d).*?([A-Z].*?)\sVT
+        nl: GROEP\s+(\d).*?([A-Z].*?)\d\.\d{2}
       element:
         en: (T?\d\.\d+?)\s+(?!TOEGEVOEGD?)(?!T\d\.\d+)([^\d \ ].+?)\s*(\d\.\d*)\s*P
         nl: (T?\d\.\d+?)\s+(?!TOEGEVOEGD?)(?!T\d\.\d+)([^\d \ ].+?)\s*(\d\.\d*)\s*P
@@ -38,8 +38,8 @@ apparatuses:
       6: acrobatic
     regex:
       group:
-        en: (\d\.000)\s?\W?\s?(([A-Z\W\.\s\d\n])*?)\s\n
-        nl: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
+        en: (\d\.000).*?([A-Z]+.*)\sUB
+        nl: (\d\.000).*?([A-Z]+.*)\sA\sB\sC
       element:
         en: (\d+\.\d+)\s+(?!(?:UB|\d\.\d{3,}s|-|–|ʊ|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
         nl: (\d+\.\d+)\s+(?!(?:Brug|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
@@ -59,8 +59,8 @@ apparatuses:
       6: acrobatic
     regex:
       group:
-        en: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
-        nl: (\d\.000)\s+.\s+(([A-Z\W\.\s]+(?:[A-Z]{2,}|\.)))
+        en: (\d\.000).*?([A-Z]+.*)\sBB
+        nl: (\d\.000).*?([A-Z]+.*)\sA\sB\sC
       element:
         en: (\d+\.\d+)\s+(?!(?:BB|\d\.\d{3,}|\s|-|–|ʊ|\.|\/|\[A-Z]{5,}))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
         nl: (\d+\.\d+)\s+(?!(?:Balk|\d\.\d{3,}|\s|-|–|\.|\/|\[A-Z]{5,}))(.*?)(?=\s+\d+\.\d+|$|\s{8,})
@@ -80,15 +80,19 @@ apparatuses:
       6: gymnastic
     regex:
       group:
-        en: (\d\.000)\s+.\s+(([A-Z\W\`\'\.\s]+(?:[A-Z]{2,}|\.)))
-        nl: (\d\.000)\s+.\s+(([A-Z\W\`\'\.\s]+(?:[A-Z]{2,}|\.)))
+        en: (\d\.000).*?([A-Z]+.*)\sFX
+        nl: (\d\.000).*?([A-Z]+.*)\sA\sB\sC
       element:
         en: (\d+\.\d+)\s+(?!(?:FX|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
         nl: (\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
 file:
-  en: source/en_2022-2024 WAG COP.pdf
-  nl: source/NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
-output directory: data/
+  en: source/files/women/en_2022-2024 WAG COP.pdf
+  nl: source/files/women/NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
+language_description_index:
+  en: 0
+  nl: 0
+element_grouping_file: source/element_grouping.yaml
+output directory: src/lib/data/elements/women/
 string adjustments:
   - ["  ", " "]
   - ["    ", " "]
@@ -105,3 +109,4 @@ string adjustments:
   - ["MO8N7S", "MOUNTS"]
   - ["ʊ", "-"]
   - ["G,A17 C,5C/E6", "GIANT CIRCLES"]
+  - [")/,*+7", "5.000 - ACROBATIC FLIGHT"]

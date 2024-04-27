@@ -1,4 +1,4 @@
-from functions import loadJson, loadConfig
+from source.extract_elements import loadJson, loadConfig
 
 element_counts = loadConfig("source/nr_elements_check.yaml")
 
