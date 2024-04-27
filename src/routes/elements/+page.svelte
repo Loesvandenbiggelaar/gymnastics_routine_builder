@@ -32,7 +32,7 @@
 		{ name: m.element_table_header_difficulty(), id: 'difficulty' }
 	];
 	// Importing the json from local file
-	import json from '$lib/data/elements/women/elements_women.json';
+	import json from '$lib/data/elements/women/nl_elements.json';
 	import { Row } from 'gridjs';
 
 	let selected_apparatus = 'vault'; // Default set to "vault"
