@@ -12,10 +12,53 @@
 		apparatusURLkey,
 		defaultApparatus
 	} from '$lib/data/elements/elementConfig.js'; //Get from global file
+	import Icon from '@iconify/svelte';
+	import { t } from 'svelte-i18n';
 
+	//Filter options (and classes)
+	export let filterOpen = false;
+	let sexFilterOpen = false;
+
+	$: selectedSexMens = false;
+	$: selectedSexWomens = false;
+
+	let filteredApparatusConfig = apparatusConfig;
+	let selectedSexIcon = 'material-symbols:filter-alt';
+	function handleSexFilter(event) {
+		// Switch to target only when both are made active
+		if (selectedSexMens && selectedSexWomens) {
+			if (event.target.id == 'womens') {
+				selectedSexMens = false;
+			} else if (event.target.id == 'mens') {
+				selectedSexWomens = false;
+			}
+		}
+
+		//Set vars basd on state
+		if (selectedSexMens && !selectedSexWomens) {
+			//Mens only
+			selectedSexIcon = 'mdi:gender-male';
+			filteredApparatusConfig = Object.fromEntries(
+				Object.entries(apparatusConfig).filter((ap) => ap[1].sex_id === 'm') //Filter by sex
+			);
+		} else if (selectedSexWomens && !selectedSexMens) {
+			//Womens only
+			selectedSexIcon = 'mdi:gender-female';
+			filteredApparatusConfig = Object.fromEntries(
+				Object.entries(apparatusConfig).filter((ap) => ap[1].sex_id === 'w') //Filter by sex
+			);
+		} else {
+			//Both, or none
+			filteredApparatusConfig = apparatusConfig;
+			selectedSexIcon = 'material-symbols:filter-alt';
+		}
+	}
+	// Export props
 	export let selectedApparatus = defaultApparatus;
+	let selectedApparatusId = selectedApparatus.id;
 
 	function updateApparatus() {
+		selectedApparatusId = selectedApparatus.id;
 		setUrlParams(apparatusURLkey, selectedApparatus.id);
 		console.debug(`Selected apparatus: ${selectedApparatus?.name} (${selectedApparatus?.sex})`);
 	}
@@ -30,113 +73,179 @@
 	});
 </script>
 
-<div id="apparatus_wrapper">
-	<div class="apparatus_picker">
-		{#each Object.values(apparatusConfig) as ap}
-			<!-- Go over each apparatus in the selected gender category -->
-			<input
-				type="radio"
-				bind:group={selectedApparatus}
-				id={ap.id}
-				name="apparatus"
-				value={ap}
-				on:change={updateApparatus}
-			/>
-			<label for={ap.id}>
+<div id="apparatusSelector">
+	<button id="apparatus_filter" class:open={filterOpen} on:click={() => (filterOpen = !filterOpen)}>
+		<IconSvg src={selectedApparatus.icon} />
+		<div>{selectedApparatus.name}</div>
+		<button
+			id="sexFilter"
+			on:click|stopPropagation={() => ((sexFilterOpen = !sexFilterOpen), (filterOpen = true))}
+		>
+			<Icon icon={selectedSexIcon} />
+		</button>
+	</button>
+	<div id="dropdown" class:show={filterOpen}>
+		{#if sexFilterOpen}
+			<div id="sexSelector">
+				<label class="sexOption" class:active={selectedSexWomens}
+					><input
+						type="checkbox"
+						bind:checked={selectedSexWomens}
+						on:change={handleSexFilter}
+						id="womens"
+					/>{m.sex_womens()}</label
+				>
+				<label class="sexOption" class:active={selectedSexMens}
+					><input
+						type="checkbox"
+						bind:checked={selectedSexMens}
+						on:change={handleSexFilter}
+						id="mens"
+					/>{m.sex_mens()}</label
+				>
+			</div>
+		{/if}
+		{#each Object.values(filteredApparatusConfig) as ap}
+			<!-- Go over each apparatus -->
+			<label class="apparatusOption" class:active={ap.id === selectedApparatusId}>
+				<input
+					type="radio"
+					name="apparatus"
+					id={ap.id}
+					value={ap.id}
+					on:change={() => {
+						selectedApparatus = apparatusConfig[ap.id];
+						updateApparatus();
+					}}
+				/>
 				<IconSvg src={ap.icon} />
-				<p>{ap.name}</p></label
-			>
+				<div>{ap.name}</div>
+			</label>
 		{/each}
 	</div>
 </div>
 
 <style>
-	#apparatus_wrapper {
-		display: grid;
-		column-gap: 1.5em;
-		grid-template-columns: min-content 1fr;
-	}
-
-	#mens_womens_picker {
-		background-color: var(--color-base-secondary);
-		display: flex;
-		flex-direction: column;
+	#apparatusSelector {
 		/* Styling */
-		--border-radius: 100px;
-		border-radius: var(--border-radius);
+		width: fit-content;
+		/* Border */
+		border: solid 1px var(--color-text);
+		border-radius: 1em;
+		overflow: hidden;
 	}
 
-	#mens_womens_picker input {
-		display: none;
-	}
-	#mens_womens_picker label {
-		font-size: 1.5em;
-		padding: 0.1em;
-	}
-	#mens_womens_picker input:checked + label {
-		background-color: var(--color-secondary);
-	}
-
-	#mens_womens_picker input:checked + label[for='mens'] {
-		background-color: var(--color-accent);
-	}
-
-	#mens_womens_picker label:first-of-type {
-		border-radius: var(--border-radius) var(--border-radius) 0px 0px;
-	}
-	#mens_womens_picker label:last-of-type {
-		border-radius: 0px 0px var(--border-radius) var(--border-radius);
-	}
-
-	.apparatus_picker {
+	#apparatus_filter {
+		/* Button Styling */
 		display: flex;
-		text-align: center;
-	}
-
-	.apparatus_picker input {
-		display: none;
-	}
-
-	.apparatus_picker label {
-		/* Keep all entries same width */
-		flex: 1 1 0px;
-		/* Icon and text layout */
-		display: flex;
-		flex-direction: column;
 		align-items: center;
-		gap: 0.2em;
-		padding: 0.2em;
-		/* Box Styling */
-		--border-radius: 1em;
-		--border: solid var(--color-text-secondary) 0.5px;
-		border: var(--border);
-		border-left: none;
-		height: 3.5em;
 		/* Sizing */
-		font-size: 1.2rem;
+		width: 10em;
+		height: 1.5em;
+		font-size: 2em;
+		padding: 0.2em;
+		/* Colors */
+		border: none;
+		background-color: transparent;
 	}
 
-	.apparatus_picker label:first-of-type {
-		border-left: var(--border);
-		border-radius: var(--border-radius) 0px 0px var(--border-radius);
+	#apparatus_filter:hover {
+		/* Highlight when hovered */
+		background: var(--color-base-secondary);
 	}
 
-	.apparatus_picker label:last-of-type {
-		border-radius: 0px var(--border-radius) var(--border-radius) 0px;
+	#apparatus_filter.open {
+		/* Highlight when open */
+		background: var(--color-base-secondary);
+		border-bottom: solid 0.5px var(--color-text);
 	}
 
-	.apparatus_picker label:hover {
-		background-color: var(--color-base-secondary);
+	#selectedApparatus {
+		all: unset;
+		display: flex;
+		align-items: center;
+		flex-grow: 1;
 	}
 
-	.apparatus_picker label p {
-		flex: 1em 0 1;
-		font-size: 1rem;
-		margin: 0;
+	#sexFilter {
+		/* Kill Button Styling */
+		all: unset;
+		/* Style */
+		margin-left: auto;
+		font-size: 0.6em;
 	}
 
-	.apparatus_picker input:checked + label {
-		font-weight: bold;
-		background-color: var(--color-accent);
+	#sexFilter:hover {
+		/* Highlight when hovered */
+		color: var(--color-accent);
+	}
+
+	/*  */
+
+	#dropdown {
+		/* Dropdown Styling */
+		display: none;
+	}
+
+	#dropdown.show {
+		/* Show dropdown when open */
+		display: block;
+	}
+
+	/* Sex Selector */
+	#sexSelector {
+		/* Layout */
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between; /* Center children */
+		width: 100%; /* Enable grow */
+		margin-bottom: 0.5em;
+	}
+
+	.sexOption {
+		/* Layout */
+		flex: 1 1 0px;
+		text-align: center;
+		padding: 0.5em;
+	}
+
+	.sexOption:hover {
+		/* Highlight when hovered */
+		background: var(--color-base-secondary);
+	}
+
+	.sexOption.active {
+		/* Highlight selected option */
+		background: var(--color-accent);
+	}
+
+	.sexOption input {
+		/* Hide Radio Button */
+		display: none;
+	}
+
+	/* Option List */
+
+	.apparatusOption {
+		/* Layout */
+		display: flex;
+		height: 2em;
+		padding: 0.3em;
+		gap: 0.5em;
+	}
+
+	.apparatusOption:hover {
+		/* Highlight when hovered */
+		background: var(--color-base-secondary);
+	}
+
+	.apparatusOption.active {
+		/* Highlight selected option */
+		background: var(--color-accent);
+	}
+
+	.apparatusOption input {
+		/* Hide Radio Button */
+		display: none;
 	}
 </style>
