@@ -24,13 +24,15 @@
 </script>
 
 <!-- Your SVG icon component -->
-{@html svgContent}
+<div class="iconsvg">
+	{@html svgContent}
+</div>
 
 <style>
 	/* Optional styling for the SVG */
-	svg {
-		width: 100px; /* Adjust width as needed */
-		height: auto;
+	.iconsvg {
+		width: 1.5em;
+		height: 1.5em;
 		fill: red; /* This allows you to edit the colors using CSS */
 	}
 </style>
