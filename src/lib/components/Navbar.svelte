@@ -28,7 +28,8 @@
 			path: '/routine_builder',
 			icon: 'material-symbols:sports-gymnastics'
 		},
-		{ name: m.page_rules_title(), path: '/rules', icon: 'material-symbols:book-4' }
+		{ name: m.page_rules_title(), path: '/rules', icon: 'material-symbols:book-4' },
+		{ name: 'Testpage', path: '/testpage', icon: 'fa-regular:lemon' }
 	];
 
 	// Import to check routing URL
