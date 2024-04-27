@@ -3,4 +3,4 @@
 	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
 </script>
 
-TEST
+<ApparatusPicker />

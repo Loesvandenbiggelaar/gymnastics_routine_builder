@@ -20,5 +20,7 @@
 	"element_table_header_number": "Number",
 	"element_table_header_description": "Description",
 	"element_table_header_value": "Value",
-	"element_table_header_difficulty": "Difficulty"
+	"element_table_header_difficulty": "Difficulty",
+	"sex_mens": "mens",
+	"sex_womens": "womens"
 }

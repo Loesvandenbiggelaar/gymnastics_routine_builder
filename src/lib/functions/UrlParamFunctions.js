@@ -45,6 +45,12 @@ export async function setUrlParams(key, value) {
 	return goto(`${urlString}`); //update URL with a navigate action
 }
 
+export function getUrlParams(key) {
+	if (!browser || !key) return; //Don't execute until initialised (to prevent 500 error), or when no key is provided
+	const urlParams = new URLSearchParams(get(page).url.searchParams); // get url parameters
+	return urlParams.get(key);
+}
+
 export async function setConfigToUrl(element) {
 	//a function that sets the config based on the url
 	var urlParam = await getUrlSearchParams(get(page));

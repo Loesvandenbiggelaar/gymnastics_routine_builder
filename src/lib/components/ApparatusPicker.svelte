@@ -2,66 +2,37 @@
 	//Paraglide lang support
 	import * as m from '$paraglide/messages.js';
 	// Iconify for cool icons!
-	import Icon from '@iconify/svelte';
 	import IconSvg from '$lib/components/IconSVG.svelte';
 	//
 	import { onMount } from 'svelte';
+	import { setUrlParams, getUrlParams } from '$lib/functions/UrlParamFunctions.js'; // Import functions to get and set URL parameters (for sharing)
 
 	import {
 		apparatusConfig,
-		apparatusUpdateURLParam,
-		getApparatusInfoFromURLParam
+		apparatusURLkey,
+		defaultApparatus
 	} from '$lib/data/elements/elementConfig.js'; //Get from global file
-	export let selectedMW = 'womens';
 
-	let selectedApparatus = apparatusConfig[selectedMW][0];
+	export let selectedApparatus = defaultApparatus;
 
-	function updateMensWomens() {
-		const _apname = selectedApparatus.name;
-		selectedApparatus =
-			apparatusConfig[selectedMW].find((ap) => ap.name == _apname) || //Check to see if the selected apparatus is in the newly selected MF category
-			apparatusConfig[selectedMW][0]; //otherwise select the first in the list
-
-		updateApparatus();
-	}
 	function updateApparatus() {
-		// const _encodedURLstring = encodeapparatus(selectedMF, selectedApparatus.id);
-		apparatusUpdateURLParam(selectedMW, selectedApparatus);
+		setUrlParams(apparatusURLkey, selectedApparatus.id);
+		console.debug(`Selected apparatus: ${selectedApparatus?.name} (${selectedApparatus?.sex})`);
 	}
 
 	//initialise,
 	onMount(async () => {
-		//makes sure to look at the carried over url parameters first, then sets the builder_config to what this means
-		let _paramInfo = await getApparatusInfoFromURLParam();
-		selectedMW = _paramInfo._mw;
-		selectedApparatus = _paramInfo._ap;
-		await updateApparatus();
+		/** Sets selected apparatus based on URL params, or defaults. */
+		selectedApparatus =
+			Object.values(apparatusConfig).find((ap) => ap.id === getUrlParams(apparatusURLkey)) ||
+			defaultApparatus;
+		await updateApparatus(); //sets URL
 	});
 </script>
 
 <div id="apparatus_wrapper">
-	<div id="mens_womens_picker">
-		<input
-			type="radio"
-			name="mens_womens"
-			id="womens"
-			value="womens"
-			bind:group={selectedMW}
-			on:change={updateMensWomens}
-		/>
-		<label for="womens"><Icon icon="tabler:gender-female" /></label>
-		<input
-			type="radio"
-			name="mens_womens"
-			id="mens"
-			value="mens"
-			bind:group={selectedMW}
-			on:change={updateMensWomens}
-		/>
-		<label for="mens"><Icon icon="tabler:gender-male" /></label>
-	</div>
 	<div class="apparatus_picker">
-		{#each apparatusConfig[selectedMW] as ap}
+		{#each Object.values(apparatusConfig) as ap}
 			<!-- Go over each apparatus in the selected gender category -->
 			<input
 				type="radio"

@@ -38,7 +38,7 @@
 	let selected_apparatus = 'vault'; // Default set to "vault"
 	let selectedMW = 'womens';
 
-	$: data = json[selected_apparatus?.name] || json['vault']; // "Vault" as fallback
+	$: data = json['vault']; // "Vault" as fallback
 </script>
 
 <!-- Modal for Elements -->
