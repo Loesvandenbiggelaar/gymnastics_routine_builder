@@ -77,7 +77,7 @@ export const apparatusConfig = {
 	},
 	hb: {
 		name: 'high bar',
-		icon: 'high_bar.svg',
+		icon: 'high bar.svg',
 		id: 'hb',
 		data_name: 'high bar',
 		sex: m.sex_mens(),
