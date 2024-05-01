@@ -10,6 +10,7 @@
 	import {
 		apparatusConfig,
 		apparatusURLkey,
+		apparatusFilterURLkey,
 		defaultApparatus
 	} from '$lib/data/elements/elementConfig.js'; //Get from global file
 	import Icon from '@iconify/svelte';
@@ -41,16 +42,19 @@
 			filteredApparatusConfig = Object.fromEntries(
 				Object.entries(apparatusConfig).filter((ap) => ap[1].sex_id === 'm') //Filter by sex
 			);
+			setUrlParams(apparatusFilterURLkey, 'm');
 		} else if (selectedSexWomens && !selectedSexMens) {
 			//Womens only
 			selectedSexIcon = 'mdi:gender-female';
 			filteredApparatusConfig = Object.fromEntries(
 				Object.entries(apparatusConfig).filter((ap) => ap[1].sex_id === 'w') //Filter by sex
 			);
+			setUrlParams(apparatusFilterURLkey, 'w');
 		} else {
 			//Both, or none
 			filteredApparatusConfig = apparatusConfig;
 			selectedSexIcon = 'material-symbols:filter-alt';
+			setUrlParams(apparatusFilterURLkey);
 		}
 	}
 	// Export props

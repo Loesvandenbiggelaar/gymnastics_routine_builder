@@ -2,6 +2,7 @@
 import * as m from '$paraglide/messages.js';
 
 export const apparatusURLkey = 'a';
+export const apparatusFilterURLkey = 'af';
 
 // Placeholder element (unused)
 export const placeholderElement = {
