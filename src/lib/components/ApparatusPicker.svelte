@@ -13,8 +13,7 @@
 		apparatusFilterURLkey,
 		defaultApparatus
 	} from '$lib/data/elements/elementConfig.js'; //Get from global file
-	import Icon from '@iconify/svelte';
-	import { t } from 'svelte-i18n';
+	import Icon from '@iconify/s`velte';
 
 	//Filter options (and classes)
 	export let filterOpen = false;
@@ -35,7 +34,7 @@
 			}
 		}
 
-		//Set vars basd on state
+		//Set vars based on state
 		if (selectedSexMens && !selectedSexWomens) {
 			//Mens only
 			selectedSexIcon = 'mdi:gender-male';
