@@ -13,7 +13,7 @@
 		apparatusFilterURLkey,
 		defaultApparatus
 	} from '$lib/data/elements/elementConfig.js'; //Get from global file
-	import Icon from '@iconify/s`velte';
+	import Icon from '@iconify/svelte';
 
 	//Filter options (and classes)
 	export let filterOpen = false;
