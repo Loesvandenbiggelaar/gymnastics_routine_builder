@@ -39,7 +39,7 @@ export const apparatusConfig = {
 		name: m.apparatus_uneven_bars(),
 		icon: 'uneven_bars.svg',
 		id: 'ub',
-		data_name: 'uneven_bars',
+		data_name: 'uneven bars',
 		sex: m.sex_womens(),
 		sex_id: 'w'
 	},
@@ -71,7 +71,7 @@ export const apparatusConfig = {
 		name: 'pommel horse',
 		icon: 'pommel_horse.svg',
 		id: 'ph',
-		data_name: 'pommel_horse',
+		data_name: 'pommel horse',
 		sex: m.sex_mens(),
 		sex_id: 'm'
 	},
@@ -79,7 +79,7 @@ export const apparatusConfig = {
 		name: 'high bar',
 		icon: 'high_bar.svg',
 		id: 'hb',
-		data_name: 'high_bar',
+		data_name: 'high bar',
 		sex: m.sex_mens(),
 		sex_id: 'm'
 	},
@@ -87,7 +87,7 @@ export const apparatusConfig = {
 		name: 'parallel bars',
 		icon: 'parallel_bars.svg',
 		id: 'pb',
-		data_name: 'parallel_bars',
+		data_name: 'parallel bars',
 		sex: m.sex_mens(),
 		sex_id: 'm'
 	},
