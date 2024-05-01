@@ -7,6 +7,10 @@
 	export let showModal; // boolean
 
 	export let modalElement = {};
+	export let selectedApparatus = {
+		sex: 'womens',
+		name: 'vault'
+	};
 
 	let placeholderImage = 'https://loremflickr.com/300/200';
 	let placeholderSymbols = 'https://loremflickr.com/300/100';
@@ -33,7 +37,7 @@
 			>
 		</div>
 		<p class="modal topbar number">{modalElement.id}</p>
-		<p class="modal topbar apparatus">__Cheesecake__</p>
+		<p class="modal topbar apparatus">{selectedApparatus.name} - {selectedApparatus.sex}</p>
 		<div class="modal icon">
 			<IconSvg src="vault.svg" />
 			<!-- REPLACE THIS FUCKER -->

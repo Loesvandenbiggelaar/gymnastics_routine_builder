@@ -21,8 +21,8 @@
 	let modalElement = {};
 
 	function showElementInModal(e) {
-		const elementID = e.detail[1]._cells[0].filteredData;
-		const element = filteredData.find((el) => el.number == elementID);
+		const elementID = e.detail[1]._cells[0].data;
+		const element = filteredData.find((el) => el.id == elementID);
 		modalElement = element;
 		showModal = true;
 		return;
