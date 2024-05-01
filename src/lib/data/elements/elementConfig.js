@@ -23,14 +23,23 @@ export const apparatusConfig = {
 		name: m.apparatus_vault(),
 		icon: 'vault.svg',
 		id: 'v_w',
+		data_name: 'vault',
 		sex: m.sex_womens(),
 		sex_id: 'w'
 	},
-	b: { name: m.apparatus_beam(), icon: 'beam.svg', id: 'b', sex: m.sex_womens(), sex_id: 'w' },
+	b: {
+		name: m.apparatus_beam(),
+		icon: 'beam.svg',
+		id: 'b',
+		data_name: 'beam',
+		sex: m.sex_womens(),
+		sex_id: 'w'
+	},
 	ub: {
 		name: m.apparatus_uneven_bars(),
 		icon: 'uneven_bars.svg',
 		id: 'ub',
+		data_name: 'uneven_bars',
 		sex: m.sex_womens(),
 		sex_id: 'w'
 	},
@@ -38,27 +47,58 @@ export const apparatusConfig = {
 		name: m.apparatus_floor(),
 		icon: 'floor.svg',
 		id: 'f_w',
+		data_name: 'floor',
 		sex: m.sex_womens(),
 		sex_id: 'w'
 	},
-	v_m: { name: m.apparatus_vault(), icon: 'vault.svg', id: 'v_m', sex: m.sex_mens(), sex_id: 'm' },
-	r: { name: 'rings', icon: 'rings.svg', id: 'r', sex: m.sex_mens(), sex_id: 'm' },
+	v_m: {
+		name: m.apparatus_vault(),
+		icon: 'vault.svg',
+		id: 'v_m',
+		data_name: 'vault',
+		sex: m.sex_mens(),
+		sex_id: 'm'
+	},
+	r: {
+		name: 'rings',
+		icon: 'rings.svg',
+		id: 'r',
+		data_name: 'rings',
+		sex: m.sex_mens(),
+		sex_id: 'm'
+	},
 	ph: {
 		name: 'pommel horse',
 		icon: 'pommel_horse.svg',
 		id: 'ph',
+		data_name: 'pommel_horse',
 		sex: m.sex_mens(),
 		sex_id: 'm'
 	},
-	hb: { name: 'high bar', icon: 'high_bar.svg', id: 'hb', sex: m.sex_mens(), sex_id: 'm' },
+	hb: {
+		name: 'high bar',
+		icon: 'high_bar.svg',
+		id: 'hb',
+		data_name: 'high_bar',
+		sex: m.sex_mens(),
+		sex_id: 'm'
+	},
 	pb: {
 		name: 'parallel bars',
 		icon: 'parallel_bars.svg',
 		id: 'pb',
+		data_name: 'parallel_bars',
 		sex: m.sex_mens(),
 		sex_id: 'm'
 	},
-	f_m: { name: m.apparatus_floor(), icon: 'floor.svg', id: 'f_m', sex: m.sex_mens(), sex_id: 'm' }
+	f_m: {
+		name: m.apparatus_floor(),
+		icon: 'floor.svg',
+		id: 'f_m',
+		data_name: 'floor',
+		sex: m.sex_mens(),
+		sex_id: 'm'
+	}
 };
 
 export const defaultApparatus = apparatusConfig.v_w;

@@ -1,4 +1,7 @@
 <script>
+	import { onMount } from 'svelte';
+	let _mounted = false;
+	//
 	import * as m from '$paraglide/messages.js';
 	// Iconify for cool icons!
 	import Icon from '@iconify/svelte';
@@ -8,6 +11,9 @@
 	// Import apparatus picker
 	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
 
+	import { setUrlParams, getUrlParams } from '$lib/functions/UrlParamFunctions.js'; // Import functions to get and set URL parameters (for sharing)
+	import { apparatusConfig, apparatusURLkey } from '$lib/data/elements/elementConfig.js';
+
 	// Import Modal
 	import Modal from './_components/Modal.svelte';
 
@@ -15,8 +21,8 @@
 	let modalElement = {};
 
 	function showElementInModal(e) {
-		const elementID = e.detail[1]._cells[0].data;
-		const element = data.find((el) => el.number == elementID);
+		const elementID = e.detail[1]._cells[0].filteredData;
+		const element = filteredData.find((el) => el.number == elementID);
 		modalElement = element;
 		showModal = true;
 		return;
@@ -26,28 +32,52 @@
 	import Grid from 'gridjs-svelte';
 	const c_num = '#';
 	const columns = [
-		{ name: c_num, id: 'number' },
+		{ name: c_num, id: 'id' },
 		{ name: m.element_table_header_description(), id: 'description' },
 		{ name: m.element_table_header_value(), id: 'value' },
 		{ name: m.element_table_header_difficulty(), id: 'difficulty' }
 	];
 	// Importing the json from local file
 	import json from '$lib/data/elements/women/nl_elements.json';
-	import { Row } from 'gridjs';
+	$: filteredData = [{}];
 
-	let selected_apparatus = 'vault'; // Default set to "vault"
-	let selectedMW = 'womens';
+	function getApparatus() {
+		const selectedApparatusID = getUrlParams(apparatusURLkey);
+		const selectedApparatusEntry = Object.entries(apparatusConfig).find(
+			([_, config]) => config.id === selectedApparatusID
+		);
+		const _selectedApparartus = selectedApparatusEntry
+			? selectedApparatusEntry[1].data_name
+			: 'vault'; // Get selected apparatus from URL, else default to vault
+		console.debug(`Selected apparatus: ${_selectedApparartus}`);
+		return _selectedApparartus;
+	}
 
-	$: data = json['vault']; // "Vault" as fallback
+	$: selectedApparatus = {};
+	$: selectedApparatus.data_name = selectedApparatus?.data_name || 'vault';
+	$: selectedApparatus, filterDataByApparatus();
+	function filterDataByApparatus() {
+		const selectedAppData = json[selectedApparatus.data_name];
+		if (selectedAppData) {
+			filteredData = Object.values(selectedAppData);
+		} else {
+			console.error('No data found for selected apparatus:', selectedApparatus.data_name);
+		}
+	}
+
+	onMount(async () => {
+		_mounted = true;
+		filteredData = Object.values(json[selectedApparatus.data_name]);
+	});
 </script>
 
 <!-- Modal for Elements -->
-<Modal bind:showModal bind:modalElement bind:selectedMW bind:selected_apparatus />
+<Modal bind:showModal bind:modalElement bind:selectedApparatus />
 
 <!-- Header Component -->
 <h1>{m.page_elements_title()}</h1>
-<ApparatusPicker />
-<Grid {data} {columns} search sort pagination on:rowClick={showElementInModal} />
+<ApparatusPicker bind:selectedApparatus on:change={filterDataByApparatus} />
+<Grid data={filteredData} {columns} search sort pagination on:rowClick={showElementInModal} />
 <p>
 	{m.lorem_ipsum()}
 </p>
@@ -55,93 +85,4 @@
 <style>
 	/* Import Grid Styles */
 	@import '$lib/styles/gridJS_style.css';
-
-	#apparatus_wrapper {
-		display: grid;
-		column-gap: 1.5em;
-		grid-template-columns: min-content 1fr;
-	}
-
-	#male_female_picker {
-		background-color: var(--color-base-secondary);
-		display: flex;
-		flex-direction: column;
-		/* Styling */
-		--border-radius: 100px;
-		border-radius: var(--border-radius);
-	}
-
-	#male_female_picker input {
-		display: none;
-	}
-	#male_female_picker label {
-		font-size: 1.5em;
-		padding: 0.1em;
-	}
-	#male_female_picker input:checked + label {
-		background-color: var(--color-secondary);
-	}
-
-	#male_female_picker input:checked + label[for='male'] {
-		background-color: var(--color-accent);
-	}
-
-	#male_female_picker label:first-of-type {
-		border-radius: var(--border-radius) var(--border-radius) 0px 0px;
-	}
-	#male_female_picker label:last-of-type {
-		border-radius: 0px 0px var(--border-radius) var(--border-radius);
-	}
-
-	.apparatus_picker {
-		display: flex;
-		text-align: center;
-	}
-
-	.apparatus_picker input {
-		display: none;
-	}
-
-	.apparatus_picker label {
-		/* Keep all entries same width */
-		flex: 1 1 0px;
-		/* Icon and text layout */
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 0.2em;
-		padding: 0.2em;
-		/* Box Styling */
-		--border-radius: 1em;
-		--border: solid var(--color-text-secondary) 0.5px;
-		border: var(--border);
-		border-left: none;
-		height: 3.5em;
-		/* Sizing */
-		font-size: 1.2rem;
-	}
-
-	.apparatus_picker label:first-of-type {
-		border-left: var(--border);
-		border-radius: var(--border-radius) 0px 0px var(--border-radius);
-	}
-
-	.apparatus_picker label:last-of-type {
-		border-radius: 0px var(--border-radius) var(--border-radius) 0px;
-	}
-
-	.apparatus_picker label:hover {
-		background-color: var(--color-base-secondary);
-	}
-
-	.apparatus_picker label p {
-		flex: 1em 0 1;
-		font-size: 1rem;
-		margin: 0;
-	}
-
-	.apparatus_picker input:checked + label {
-		font-weight: bold;
-		background-color: var(--color-accent);
-	}
 </style>

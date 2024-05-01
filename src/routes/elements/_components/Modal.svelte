@@ -4,16 +4,9 @@
 	import IconSvg from '$lib/components/IconSVG.svelte';
 	import Icon from '@iconify/svelte';
 
-	import {
-		apparatusConfig,
-		getApparatusInfoFromURLParam
-	} from '$lib/data/elements/elementConfig.js'; //Get from global file
-
 	export let showModal; // boolean
 
 	export let modalElement = {};
-	export let selected_apparatus;
-	export let selectedMW;
 
 	let placeholderImage = 'https://loremflickr.com/300/200';
 	let placeholderSymbols = 'https://loremflickr.com/300/100';
@@ -39,10 +32,11 @@
 				><Icon icon="line-md:close-small" /></button
 			>
 		</div>
-		<p class="modal topbar number">{modalElement.number}</p>
-		<p class="modal topbar apparatus">{selectedMW} - {selected_apparatus}</p>
+		<p class="modal topbar number">{modalElement.id}</p>
+		<p class="modal topbar apparatus">__Cheesecake__</p>
 		<div class="modal icon">
-			<IconSvg src={apparatusConfig[selectedMW].find((ap) => ap.name == selected_apparatus).icon} />
+			<IconSvg src="vault.svg" />
+			<!-- REPLACE THIS FUCKER -->
 		</div>
 		<h3 class="modal description">{modalElement.description}</h3>
 		<div class="modal info">
