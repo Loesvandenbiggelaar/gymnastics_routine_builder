@@ -64,6 +64,20 @@
 		selectedApparatusId = selectedApparatus.id;
 		setUrlParams(apparatusURLkey, selectedApparatus.id);
 		console.debug(`Selected apparatus: ${selectedApparatus?.name} (${selectedApparatus?.sex})`);
+		closeFilter();
+	}
+
+	let apparatusSelector;
+	function handleClick(event) {
+		if (!apparatusSelector.contains(event.target)) {
+			closeFilter();
+		}
+	}
+
+	//Close filter when clicked outside of it
+	function closeFilter() {
+		filterOpen = false;
+		sexFilterOpen = false;
 	}
 
 	//initialise,
@@ -76,7 +90,8 @@
 	});
 </script>
 
-<div id="apparatusSelector">
+<svelte:window on:click={handleClick} />
+<div id="apparatusSelector" bind:this={apparatusSelector}>
 	<button id="apparatus_filter" class:open={filterOpen} on:click={() => (filterOpen = !filterOpen)}>
 		<IconSvg src={selectedApparatus.icon} />
 		<div>{selectedApparatus.name}</div>
@@ -130,18 +145,23 @@
 
 <style>
 	#apparatusSelector {
+		/* Positioning */
+		position: relative;
 		/* Styling */
 		width: fit-content;
 		/* Border */
 		border: solid 1px var(--color-text);
 		border-radius: 1em;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 
 	#apparatus_filter {
+		/* Positioning */
+		position: relative;
 		/* Button Styling */
 		display: flex;
 		align-items: center;
+		border-radius: inherit;
 		/* Sizing */
 		width: 10em;
 		height: 1.5em;
@@ -188,6 +208,9 @@
 	#dropdown {
 		/* Dropdown Styling */
 		display: none;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
 	}
 
 	#dropdown.show {
@@ -235,6 +258,7 @@
 		height: 2em;
 		padding: 0.3em;
 		gap: 0.5em;
+		background-color: var(--color-base);
 	}
 
 	.apparatusOption:hover {
