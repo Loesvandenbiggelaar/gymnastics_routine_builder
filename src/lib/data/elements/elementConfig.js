@@ -52,7 +52,7 @@ export const apparatusConfig = {
 		sex_id: 'w'
 	},
 	v_m: {
-		name: m.apparatus_vault(),
+		name: m.apparatus_vault_mens(),
 		icon: 'vault.svg',
 		id: 'v_m',
 		data_name: 'vault',
@@ -92,7 +92,7 @@ export const apparatusConfig = {
 		sex_id: 'm'
 	},
 	f_m: {
-		name: m.apparatus_floor(),
+		name: m.apparatus_floor_mens(),
 		icon: 'floor.svg',
 		id: 'f_m',
 		data_name: 'floor',

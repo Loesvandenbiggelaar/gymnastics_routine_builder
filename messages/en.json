@@ -22,5 +22,7 @@
 	"element_table_header_value": "Value",
 	"element_table_header_difficulty": "Difficulty",
 	"sex_mens": "mens",
-	"sex_womens": "womens"
+	"sex_womens": "womens",
+	"apparatus_vault_mens": "vault (mens)",
+	"apparatus_floor_mens": "floor (mens)"
 }
