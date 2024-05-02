@@ -1,5 +1,6 @@
 <!-- SCRIPT -->
 <script>
+	import '../app.pcss';
 	// Animation
 	import { fly } from 'svelte/transition';
 	// Import Global Styles
@@ -67,8 +68,8 @@
 
 <!-- HEADER COMPONENT -->
 <ParaglideJS {i18n}>
-	<Navbar />
-	<Svrollbar />
+	<Navbar></Navbar>
+	<Svrollbar></Svrollbar>
 	<main>
 		<slot />
 	</main>
