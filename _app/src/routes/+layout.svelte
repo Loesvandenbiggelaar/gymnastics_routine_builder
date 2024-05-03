@@ -35,4 +35,6 @@
 <Drawer>
 	<DrawerNav />
 </Drawer>
-<slot />
+<main>
+	<slot />
+</main>
