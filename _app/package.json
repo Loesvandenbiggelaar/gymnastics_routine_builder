@@ -47,7 +47,6 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.6.4",
-    "@vincjo/datatables": "^1.14.5",
     "highlight.js": "11.9.0"
   }
 }
