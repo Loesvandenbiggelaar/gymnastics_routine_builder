@@ -28,6 +28,7 @@
 	// Import components
 	import Navigation from '$lib/components/navigation.svelte';
 	import DrawerNav from '$lib/components/drawer_nav.svelte';
+	import Icon from '@iconify/svelte';
 </script>
 
 <Navigation />
