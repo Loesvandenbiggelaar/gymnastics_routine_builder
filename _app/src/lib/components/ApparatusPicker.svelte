@@ -28,22 +28,27 @@
 </script>
 
 <button
-	class="btn w-48 variant-outline-primary flex items-center justify-center gap-2"
+	class="btn w-48 variant-outline-primary flex items-center justify-between gap-2"
 	use:popup={popupSettings}
 >
-	<Icon icon="mdi:weight-lifter" class="w-6 h-6" />
-
-	{$selectedApparatus.full_name}
+	<span class="flex flex-row gap-2">
+		<Icon icon="mdi:weight-lifter" class="w-6 h-6" />
+		{$selectedApparatus.full_name}
+	</span>
+	<span>
+		<Icon icon="mdi:chevron-down" />
+	</span>
 </button>
 
-<div class="card w-48 shadow-xl py-2" data-popup="popupDropdown">
-	<RadioGroup class="w-full flex-1">
+<div class="card w-48 shadow-xl" data-popup="popupDropdown">
+	<RadioGroup class="w-full flex-1 variant-outline-secondary">
 		{#each ['m', 'both', 'w'] as sex}
 			<RadioItem
 				bind:group={$dataFilters.sex}
 				name="justify"
 				value={sex}
 				class="flex justify-center items-center"
+				active="variant-filled-secondary"
 			>
 				<Icon
 					icon={sex === 'm'
@@ -55,7 +60,7 @@
 			</RadioItem>
 		{/each}
 	</RadioGroup>
-	<ListBox rounded="rounded-none">
+	<ListBox rounded="rounded-none" class="w-full max-h-[18em] overflow-y-auto ">
 		{#each apparatusConfig_filtered as apparatus}
 			<ListBoxItem bind:group={dropdownValue} name="medium" value={apparatus.id}>
 				<span class="flex items-center justify-start gap-2">
@@ -65,5 +70,4 @@
 			</ListBoxItem>
 		{/each}
 	</ListBox>
-	<div class="arrow bg-surface-100-800-token" />
 </div>
