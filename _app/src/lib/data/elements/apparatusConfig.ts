@@ -6,6 +6,7 @@
 // (for easier manipulation when needed)
 export type ApparatusConfigEntry = {
 	name: string;
+	full_name?: string;
 	icon: string;
 	id: string;
 	data_name: string;
@@ -13,7 +14,7 @@ export type ApparatusConfigEntry = {
 	sex_id: 'm' | 'w';
 };
 
-export const apparatusConfig: ApparatusConfigEntry[] = [
+export let apparatusConfig: ApparatusConfigEntry[] = [
 	{
 		name: 'Vault',
 		icon: 'vault.svg',
@@ -95,3 +96,25 @@ export const apparatusConfig: ApparatusConfigEntry[] = [
 		sex_id: 'm'
 	}
 ];
+
+// Set full_name property to name, unless there are more objects with the same name.
+// Then, set full_name to name + (sex)
+for (let apparatusConfigEntry of apparatusConfig) {
+	let sameNameCount = apparatusConfig.filter(
+		(entry) => entry.name === apparatusConfigEntry.name
+	).length;
+	if (sameNameCount > 1) {
+		apparatusConfigEntry.full_name =
+			apparatusConfigEntry.name + ` ` + (apparatusConfigEntry.sex === 'Mens' ? '♂' : '♀');
+	} else {
+		apparatusConfigEntry.full_name = apparatusConfigEntry.name;
+	}
+}
+
+// If the icon is not found in Iconidy with iconExists(), return the default icon
+import { iconExists } from '@iconify/svelte';
+apparatusConfig.forEach((apparatusConfigEntry) => {
+	if (!iconExists(apparatusConfigEntry.icon)) {
+		apparatusConfigEntry.icon = 'mdi:weight-lifter';
+	}
+});
