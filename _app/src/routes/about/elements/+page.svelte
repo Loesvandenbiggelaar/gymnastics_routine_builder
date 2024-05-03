@@ -1,7 +1,6 @@
 <script lang="ts">
 	// Import Components
 	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
-	import ElementTable from '$lib/components/ElementTable.svelte';
 </script>
 
-<ElementTable />
+<ApparatusPicker />
