@@ -15,7 +15,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+<AppBar slotDefault="place-self-center" slotTrail="place-content-end">
 	<svelte:fragment slot="lead">
 		<button on:click={openNavDrawer} class="btn variant-filled-primary aspect-square p-3">
 			<Icon icon="mdi:menu" class="cursor-pointer" />
