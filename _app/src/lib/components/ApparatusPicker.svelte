@@ -41,7 +41,7 @@
 	</span>
 </button>
 
-<div class="card w-48 shadow-xl" data-popup="popupDropdown">
+<div class="card w-48 shadow-xl z-50" data-popup="popupDropdown">
 	<RadioGroup class="w-full flex-1 variant-outline-secondary">
 		{#each ['m', 'both', 'w'] as sex}
 			<RadioItem
