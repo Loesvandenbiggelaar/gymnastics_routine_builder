@@ -2,24 +2,37 @@
 	// @ts-nocheck
 	// Import Iconify
 	import Icon from '@iconify/svelte';
-	// Importing the json from local file
-	import json from '$lib/data/elements/women/nl_elements.json';
-	``;
-	let data: Array<Object> = Object.values(json['vault']);
-	let filteredData: Array<Object> = data;
 
+	// Import filter data
+	import { filterValues, data } from '$lib/stores/datastore';
+
+	// Importing the json from local file
+	import { selectedApparatus } from '$lib/stores/datastore';
+	import rawData from '$lib/data/elements/women/nl_elements.json';
+
+	let DEPRECATED_data: Array<Object> = Object.values(rawData[$selectedApparatus.data_name]);
+	let DEPRECATED_filteredData: Array<Object> = DEPRECATED_data;
+	$data.setApparatus('vault');
+
+	function updateDataByApparatus(input) {
+		const _apparatus = Object.keys(rawData).includes(input.data_name)
+			? input.data_name
+			: Object.keys(rawData)[0];
+		DEPRECATED_filteredData = DEPRECATED_data = Object.values(rawData[_apparatus]);
+	}
+
+	$: updateDataByApparatus($selectedApparatus);
 	// Modal
 	function showElementInModal(e: any) {
 		if (!e.detail || !e.detail.row) {
 			throw new Error('No row found in event detail');
 		}
-		const elementID = e.detail.row;
-		console.log(elementID);
+		const element = e.detail.row;
+		console.log(element);
 	}
 
 	// Svelte Table (https://www.npmjs.com/package/svelte-table)
 	import SvelteTable from 'svelte-table';
-	const rows: Array<Object> = filteredData || [{}];
 
 	// Get property from row object
 	function getProp(row: any, prop: string) {
@@ -57,22 +70,23 @@
 			renderValue: (v: { difficulty: string }) => getProp(v, 'difficulty').toUpperCase(),
 			sortable: true,
 			headerClass: 'text-left'
-		},
-		{
-			key: 'button',
-			title: 'add',
-			value: () => 'Add to routine',
-			renderComponent: {
-				component: Icon,
-				props: { icon: 'mdi:plus' }
-			},
-			sortable: false
 		}
+		// ,
+		// {
+		// 	key: 'button',
+		// 	title: 'add',
+		// 	value: () => 'Add to routine',
+		// 	renderComponent: {
+		// 		component: Icon,
+		// 		props: { icon: 'mdi:plus' }
+		// 	},
+		// 	sortable: false
+		// }
 	];
 </script>
 
 <SvelteTable
-	{rows}
+	rows={$data.filteredData}
 	{columns}
 	on:clickRow={showElementInModal}
 	classNameTable="lx-table alternating"

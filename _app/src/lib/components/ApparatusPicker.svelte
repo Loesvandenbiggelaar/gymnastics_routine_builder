@@ -9,7 +9,7 @@
 	import Filter from '$lib/components/core/Filter.svelte';
 
 	// Import filters
-	import { dataFilters } from '$lib/stores/datastore';
+	import { filterValues } from '$lib/stores/datastore';
 
 	let dropdownValue: string;
 
@@ -22,10 +22,10 @@
 	$: updateSelectedApparatus(dropdownValue);
 
 	$: apparatusConfig_filtered = apparatusConfig.filter(
-		(apparatus) => $dataFilters.sex === 'both' || apparatus.sex_id == $dataFilters.sex
+		(apparatus) => $filterValues.sex === 'both' || apparatus.sex_id == $filterValues.sex
 	);
 
-	$: console.debug(`Apparatus filter: ${$dataFilters.sex}`, `List: ${apparatusConfig_filtered}`);
+	$: console.debug(`Apparatus filter: ${$filterValues.sex}`, `List: ${apparatusConfig_filtered}`);
 </script>
 
 <button
@@ -45,7 +45,7 @@
 	<RadioGroup class="w-full flex-1 variant-outline-secondary">
 		{#each ['m', 'both', 'w'] as sex}
 			<RadioItem
-				bind:group={$dataFilters.sex}
+				bind:group={$filterValues.sex}
 				name="justify"
 				value={sex}
 				class="flex justify-center items-center"
