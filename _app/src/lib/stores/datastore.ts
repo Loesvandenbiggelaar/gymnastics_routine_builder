@@ -3,15 +3,24 @@ import { apparatusConfig } from '$lib/data/elements/apparatusConfig';
 
 export let selectedApparatus = writable(apparatusConfig[0]);
 // Create a function to update the selected apparatus and ensure it is a valid type
+/**
+ * Update the selected apparatus.
+ * If newApparatus is an object from apparatusConfig, set it as selected.
+ * If newApparatus is a string, find the apparatus in apparatusConfig with the same id as newApparatus and set it as selected.
+ * @param {(typeof apparatusConfig)[0] | string} newApparatus - The new apparatus to set as selected.
+ */
 export const updateSelectedApparatus = (newApparatus: (typeof apparatusConfig)[0] | string) => {
 	if (typeof newApparatus === 'object' && apparatusConfig.includes(newApparatus)) {
-		selectedApparatus.set(newApparatus);
+		// Check if newApparatus is an object from apparatusConfig
+		selectedApparatus.set(newApparatus); // Set newApparatus as selected
 	} else if (typeof newApparatus === 'string') {
-		const apparatusWithIdMatch = apparatusConfig.find((apparatus) => apparatus.id === newApparatus);
+		// Check if newApparatus is a string
+		const apparatusWithIdMatch = apparatusConfig.find((apparatus) => apparatus.id === newApparatus); // Find the apparatus in apparatusConfig with the same id as newApparatus
 		if (apparatusWithIdMatch) {
-			selectedApparatus.set(apparatusWithIdMatch);
+			// Check if apparatusWithIdMatch exists
+			selectedApparatus.set(apparatusWithIdMatch); // Set apparatusWithIdMatch as selected
 			console.debug(
-				`Selected apparatus: ${apparatusWithIdMatch?.name} (${apparatusWithIdMatch?.sex})`
+				`Selected apparatus: ${apparatusWithIdMatch?.name} (${apparatusWithIdMatch?.sex})` // Log the selected apparatus
 			);
 		}
 	}
@@ -29,16 +38,24 @@ export let filterValues = writable<FilterValuesType>({
 	search: ''
 });
 
-export class ElementFilter {
+export class ElementData {
 	rawData: Object;
 	data: Object[];
 	apparatus: keyof typeof this.rawData;
 	filteredData: Object[];
+	// A list of all the filters
+	filterList: {
+		search?: string;
+		searchProperties?: string[];
+	};
 	constructor(rawData: Object, apparatus?: string) {
 		this.rawData = rawData as Object;
 		this.apparatus = (apparatus ? apparatus : Object.keys(rawData)[0]) as keyof typeof this.rawData;
 		this.data = Object.values(rawData[this.apparatus]);
 		this.filteredData = this.data;
+		this.filterList = {};
+		this.filterList.search = '';
+		this.filterList.searchProperties = ['id', 'description', 'value'];
 	}
 	public logData() {
 		console.log(this.data);
@@ -57,28 +74,52 @@ export class ElementFilter {
 		// Set apparatus and update data
 		let _apparatus = input as keyof typeof this.rawData;
 		this.data = Object.values(this.rawData[_apparatus]);
+		//
+		data.update(() => this);
 	}
 
-	public search(searchInput: string, searchProps?: string[] | string) {
-		let _searchProps = typeof searchProps === 'string' ? [searchProps] : searchProps;
+	public search(searchInput: string) {
+		this.filterList.search = searchInput;
+		// let _searchProps = typeof searchProps === 'string' ? [searchProps] : searchProps;
+		let _searchProps = this.filterList.searchProperties;
+
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
 		this.filteredData = this.data.filter((element) => {
 			// search each element in the array
-			return Object.values(element).some((value) => {
+			return Object.entries(element).some(([key, value]) => {
 				// check if the value matches the search input
 				return (
 					// check if the value matches the search props (fields)
-					(_searchProps?.includes(value.toString()) || _searchProps === undefined) &&
+					(_searchProps?.includes(key.toString()) ||
+						_searchProps === undefined ||
+						_searchProps.length === 0) &&
 					// check if the value matches the search input
 					value.toString().toLowerCase().includes(searchInput.toLowerCase())
 				);
 			});
 		});
+		// update the filtered data and notify the store
+		console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
+
+		data.update(() => this);
+	}
+
+	public setSearchProperties(searchProps: string[] | string) {
+		// put search props in an array (if not already)
+		// If undefined, leave it as undefined
+		this.filterList.searchProperties =
+			typeof searchProps === 'string' ? [searchProps] : searchProps;
+		// update the filtered data and notify the store
+		console.log(this.filterList.searchProperties);
+
+		// Update and refresh search
+		data.update(() => this);
+		this.search(this.filterList.search);
 	}
 }
 
 // Import dataset from json
 import rawData from '$lib/data/elements/women/nl_elements.json';
 // Instantiate data store
-export let data = writable(new ElementFilter(rawData, Object.keys(rawData)[0]));
+export let data = writable(new ElementData(rawData, Object.keys(rawData)[0]));

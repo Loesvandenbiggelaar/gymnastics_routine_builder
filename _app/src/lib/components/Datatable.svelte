@@ -83,10 +83,13 @@
 		// 	sortable: false
 		// }
 	];
+
+	//RENDER DATA!!
+	$: renderedData = $data.filteredData;
 </script>
 
 <SvelteTable
-	rows={$data.filteredData}
+	rows={renderedData}
 	{columns}
 	on:clickRow={showElementInModal}
 	classNameTable="lx-table alternating"

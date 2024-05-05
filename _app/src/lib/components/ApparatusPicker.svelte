@@ -9,7 +9,7 @@
 	import Filter from '$lib/components/core/Filter.svelte';
 
 	// Import filters
-	import { filterValues } from '$lib/stores/datastore';
+	import { filterValues, data } from '$lib/stores/datastore';
 
 	let dropdownValue: string;
 
@@ -20,6 +20,7 @@
 		closeQuery: '.listbox-item'
 	};
 	$: updateSelectedApparatus(dropdownValue);
+	$: $selectedApparatus, $data.setApparatus($selectedApparatus.data_name);
 
 	$: apparatusConfig_filtered = apparatusConfig.filter(
 		(apparatus) => $filterValues.sex === 'both' || apparatus.sex_id == $filterValues.sex
