@@ -1,4 +1,7 @@
 <script lang="ts">
+	// @ts-nocheck
+	// Import Iconify
+	import Icon from '@iconify/svelte';
 	// Importing the json from local file
 	import json from '$lib/data/elements/women/nl_elements.json';
 	``;
@@ -7,13 +10,16 @@
 
 	// Modal
 	function showElementInModal(e: any) {
-		const elementID = e.detail[1]._cells[0].data;
-		alert(elementID);
+		if (!e.detail || !e.detail.row) {
+			throw new Error('No row found in event detail');
+		}
+		const elementID = e.detail.row;
+		console.log(elementID);
 	}
 
 	// Svelte Table (https://www.npmjs.com/package/svelte-table)
 	import SvelteTable from 'svelte-table';
-	const rows: Array<Object> = filteredData || [];
+	const rows: Array<Object> = filteredData || [{}];
 
 	// Get property from row object
 	function getProp(row: any, prop: string) {
@@ -51,8 +57,24 @@
 			renderValue: (v: { difficulty: string }) => getProp(v, 'difficulty').toUpperCase(),
 			sortable: true,
 			headerClass: 'text-left'
+		},
+		{
+			key: 'button',
+			title: 'add',
+			value: () => 'Add to routine',
+			renderComponent: {
+				component: Icon,
+				props: { icon: 'mdi:plus' }
+			},
+			sortable: false
 		}
 	];
 </script>
 
-<SvelteTable {rows} {columns} classNameTable="table" />
+<SvelteTable
+	{rows}
+	{columns}
+	on:clickRow={showElementInModal}
+	classNameTable="lx-table alternating"
+	rowKey="id"
+></SvelteTable>
