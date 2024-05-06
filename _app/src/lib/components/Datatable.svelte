@@ -75,6 +75,9 @@
 			key: 'description',
 			title: 'Description',
 			value: (v: { description: string }) => getProp(v, 'description'),
+			renderValue: (v: { description: string }) =>
+				`<div class="lx-table-row">${getProp(v, 'description')}</div>`,
+			parseHTML: true,
 			sortable: true,
 			headerClass: 'text-left'
 		},

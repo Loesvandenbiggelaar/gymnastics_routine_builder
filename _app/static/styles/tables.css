@@ -10,12 +10,24 @@
 	padding: 0.5em 1em;
 }
 
-.lx-table thead tr th:first-child {
+.lx-table thead th:first-child {
 	border-radius: var(--radius) 0 0 var(--radius);
 }
 
-.lx-table thead tr th:last-child {
+.lx-table thead th:last-child {
 	border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Set max height and ellipsis */
+.lx-table-row {
+	position: relative;
+	height: 1.5em;
+	overflow: hidden;
+	white-space: normal;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	/* Sick fade out effect for overflowing text */
+	-webkit-mask-image: linear-gradient(to right, #000 85%, transparent);
 }
 
 .lx-table tr td {

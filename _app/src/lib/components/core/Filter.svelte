@@ -36,6 +36,6 @@
 	</span>
 </button>
 
-<div class="card p-2 {css_class}" data-popup={popupSettings.target}>
+<div class="card p-2 z-10 {css_class}" data-popup={popupSettings.target}>
 	<slot name="popup" />
 </div>
