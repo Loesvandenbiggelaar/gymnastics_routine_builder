@@ -209,7 +209,7 @@
 		/* Dropdown Styling */
 		display: none;
 		position: absolute;
-		z-index: 1;
+		z-index: 11;
 		width: 100%;
 	}
 

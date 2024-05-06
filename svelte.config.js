@@ -1,3 +1,4 @@
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -12,7 +13,9 @@ const config = {
 			//Add alias for paraglide (language translations)
 			$paraglide: './src/paraglide'
 		}
-	}
+	},
+
+	preprocess: [vitePreprocess({})]
 };
 
 export default config;
