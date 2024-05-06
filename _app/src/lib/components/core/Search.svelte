@@ -42,7 +42,7 @@
 	<input
 		type="text"
 		bind:value
-		on:input={() => $data.search(value, searchProperties)}
+		on:input={() => $data.search(value)}
 		{placeholder}
 		class="input input-bordered w-full"
 	/>

@@ -17,7 +17,7 @@ export type ApparatusConfigEntry = {
 export let apparatusConfig: ApparatusConfigEntry[] = [
 	{
 		name: 'Vault',
-		icon: 'vault.svg',
+		icon: 'apparatus:vault',
 		id: 'v_w',
 		data_name: 'vault',
 		sex: 'Womens',
@@ -25,7 +25,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Beam',
-		icon: 'beam.svg',
+		icon: 'apparatus:beam',
 		id: 'b',
 		data_name: 'beam',
 		sex: 'Womens',
@@ -33,7 +33,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Uneven Bars',
-		icon: 'uneven_bars.svg',
+		icon: 'apparatus:uneven_bars',
 		id: 'ub',
 		data_name: 'uneven bars',
 		sex: 'Womens',
@@ -41,7 +41,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Floor',
-		icon: 'floor.svg',
+		icon: 'apparatus:floor',
 		id: 'f_w',
 		data_name: 'floor',
 		sex: 'Womens',
@@ -49,7 +49,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Vault',
-		icon: 'vault.svg',
+		icon: 'apparatus:vault',
 		id: 'v_m',
 		data_name: 'vault',
 		sex: 'Mens',
@@ -57,7 +57,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Rings',
-		icon: 'rings.svg',
+		icon: 'apparatus:rings',
 		id: 'r',
 		data_name: 'rings',
 		sex: 'Mens',
@@ -65,7 +65,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Pommel Horse',
-		icon: 'pommel_horse.svg',
+		icon: 'apparatus:pommel_horse',
 		id: 'ph',
 		data_name: 'pommel horse',
 		sex: 'Mens',
@@ -73,7 +73,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'High Bar',
-		icon: 'high_bar.svg',
+		icon: 'apparatus:high_bar',
 		id: 'hb',
 		data_name: 'high bar',
 		sex: 'Mens',
@@ -81,7 +81,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Parallel Bars',
-		icon: 'parallel_bars.svg',
+		icon: 'apparatus:parallel_bars',
 		id: 'pb',
 		data_name: 'parallel bars',
 		sex: 'Mens',
@@ -89,7 +89,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 	},
 	{
 		name: 'Floor',
-		icon: 'floor.svg',
+		icon: 'apparatus:floor',
 		id: 'f_m',
 		data_name: 'floor',
 		sex: 'Mens',
