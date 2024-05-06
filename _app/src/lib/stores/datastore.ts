@@ -1,7 +1,12 @@
 import { writable } from 'svelte/store';
-import { apparatusConfig } from '$lib/data/elements/apparatusConfig';
+import { apparatusConfig, type ApparatusConfigEntry } from '$lib/data/elements/apparatusConfig';
 
 export let selectedApparatus = writable(apparatusConfig[0]);
+// Create a writable store for the selected apparatus
+export let modalElement = writable();
+// Create a writable store for the modal element
+// TODO set type for elements
+
 // Create a function to update the selected apparatus and ensure it is a valid type
 /**
  * Update the selected apparatus.

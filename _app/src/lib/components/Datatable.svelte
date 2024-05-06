@@ -3,27 +3,26 @@
 	import { getModalStore, type ModalComponent, type ModalSettings } from '@skeletonlabs/skeleton';
 	import ElementModal from '$lib/components/ElementModal.svelte';
 
-	let modalElement = {};
-	//Modal Settings
-	let modalComponent: ModalComponent = {
-		ref: ElementModal,
-		props: { element: modalElement }
-	};
-	const elementModal: ModalSettings = {
-		type: 'component',
-		component: modalComponent
-	};
-	const modalStore = getModalStore();
-
 	// Import Iconify
 	import Icon from '@iconify/svelte';
 
 	// Import filter data
-	import { filterValues, data } from '$lib/stores/datastore';
+	import { filterValues, data, modalElement } from '$lib/stores/datastore';
 
 	// Importing the json from local file
 	import { selectedApparatus } from '$lib/stores/datastore';
 	import rawData from '$lib/data/elements/women/nl_elements.json';
+
+	///
+	//Modal Settings
+	const modalComponent: ModalComponent = {
+		ref: ElementModal
+	};
+	const datatableModal: ModalSettings = {
+		type: 'component',
+		component: modalComponent
+	};
+	const modalStore = getModalStore();
 
 	let DEPRECATED_data: Array<Object> = Object.values(rawData[$selectedApparatus.data_name]);
 	let DEPRECATED_filteredData: Array<Object> = DEPRECATED_data;
@@ -35,19 +34,22 @@
 			: Object.keys(rawData)[0];
 		DEPRECATED_filteredData = DEPRECATED_data = Object.values(rawData[_apparatus]);
 	}
-
+	// Update data based on selected apparatus
 	$: updateDataByApparatus($selectedApparatus);
+
 	// Modal
+	// Show element in modal
 	function showElementInModal(e: any) {
 		if (!e.detail || !e.detail.row) {
 			throw new Error('No row found in event detail');
 		}
 		// Set element from event
-		modalElement = e.detail.row;
-		// Set modalComponent settings
-		modalComponent = { ...modalComponent, props: { element: modalElement || {} } };
+		const modalElement = e.detail.row;
+		// Set modal data in store
+		$modalElement = modalElement;
+
 		// Show modal
-		modalStore.trigger(elementModal);
+		modalStore.trigger(datatableModal);
 
 		console.debug('Showing element in modal:', modalElement);
 	}
