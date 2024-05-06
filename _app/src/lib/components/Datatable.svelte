@@ -1,5 +1,20 @@
 <script lang="ts">
-	// @ts-nocheck
+	// Modals
+	import { getModalStore, type ModalComponent, type ModalSettings } from '@skeletonlabs/skeleton';
+	import ElementModal from '$lib/components/ElementModal.svelte';
+
+	let modalElement = {};
+	//Modal Settings
+	let modalComponent: ModalComponent = {
+		ref: ElementModal,
+		props: { element: modalElement }
+	};
+	const elementModal: ModalSettings = {
+		type: 'component',
+		component: modalComponent
+	};
+	const modalStore = getModalStore();
+
 	// Import Iconify
 	import Icon from '@iconify/svelte';
 
@@ -27,8 +42,14 @@
 		if (!e.detail || !e.detail.row) {
 			throw new Error('No row found in event detail');
 		}
-		const element = e.detail.row;
-		console.debug('Showing element in modal:', element);
+		// Set element from event
+		modalElement = e.detail.row;
+		// Set modalComponent settings
+		modalComponent = { ...modalComponent, props: { element: modalElement || {} } };
+		// Show modal
+		modalStore.trigger(elementModal);
+
+		console.debug('Showing element in modal:', modalElement);
 	}
 
 	// Svelte Table (https://www.npmjs.com/package/svelte-table)
