@@ -107,8 +107,8 @@ export class ElementData {
 			});
 		});
 		// update the filtered data and notify the store
-		if (this.filterList.search && this.filterList.search !== '')
-			console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
+
+		console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
 
 		data.update(() => this);
 	}

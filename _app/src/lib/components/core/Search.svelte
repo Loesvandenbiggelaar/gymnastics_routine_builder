@@ -29,7 +29,7 @@
 	);
 
 	// Searchbox settings
-	$data.filterList.search = value;
+	$: value, ($data.filterList.search = value);
 	$: propsList, setSearchProperties();
 
 	function setSearchProperties() {
@@ -38,16 +38,13 @@
 		);
 		$data.setSearchProperties(trueKeys);
 	}
+
+	// Call $data.search when value is changed
+	// But only AFTER $data is loaded
 </script>
 
 <div id="search" class="w-fit relative">
-	<input
-		type="text"
-		bind:value
-		on:input={() => $data.search(value)}
-		{placeholder}
-		class="input input-bordered w-full"
-	/>
+	<input type="text" bind:value {placeholder} class="input input-bordered w-full" />
 	<div
 		id="filter-icons"
 		class="btn hover:variant-filled-surface"
@@ -58,10 +55,16 @@
 	</div>
 </div>
 
-<div id="searchPopup" class="card p-2" data-popup={popupSettings.target}>
+<div id="searchPopup" class="card p-2 z-10" data-popup={popupSettings.target}>
 	{#each Object.keys(propsList) as key (key)}
 		<label for={key}>
-			<input type="checkbox" name={key} bind:checked={propsList[key]} id={key} />
+			<input
+				type="checkbox"
+				class="checkbox checkbox-primary mr-1"
+				name={key}
+				bind:checked={propsList[key]}
+				id={key}
+			/>
 			<span>{key}</span>
 		</label>
 	{/each}
