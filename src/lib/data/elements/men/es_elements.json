@@ -7,7 +7,11 @@
 			"group_name": "Elementos no acrob\u00e1ticos",
 			"difficulty": "A",
 			"type": "non-acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/floor/element\\page43_element_1.1_Im27.png"],
+				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page43_element_1.1_Im10.png"]
+			}
 		},
 		"1.37": {
 			"id": "1.37",
@@ -16,7 +20,11 @@
 			"group_name": "Elementos no acrob\u00e1ticos",
 			"difficulty": "A",
 			"type": "non-acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/floor/element\\page44_element_1.37_Im0.png"],
+				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page44_element_1.37_Im19.png"]
+			}
 		},
 		"1.67": {
 			"id": "1.67",
@@ -25,7 +33,14 @@
 			"group_name": "Elementos no acrob\u00e1ticos",
 			"difficulty": "A",
 			"type": "non-acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/floor/element\\page45_element_1.67_Im10.png",
+					"src/lib/data/elements/men//images/floor/element\\page45_element_1.67_Im11.png"
+				],
+				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page45_element_1.67_Im12.png"]
+			}
 		},
 		"1.86": {
 			"id": "1.86",
@@ -34,7 +49,11 @@
 			"group_name": "Elementos no acrob\u00e1ticos",
 			"difficulty": "B",
 			"type": "non-acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/floor/element\\page46_element_1.86_Im15.png"],
+				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page46_element_1.86_Im16.png"]
+			}
 		},
 		"1.98": {
 			"id": "1.98",
@@ -43,7 +62,11 @@
 			"group_name": "Elementos no acrob\u00e1ticos",
 			"difficulty": "B",
 			"type": "non-acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/floor/element\\page47_element_1.98_Im0.png"],
+				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page47_element_1.98_Im2.png"]
+			}
 		},
 		"3.2": {
 			"id": "3.2",
@@ -52,7 +75,18 @@
 			"group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im16.png",
+					"src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im22.png",
+					"src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im5.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/floor/symbol\\page51_element_3.2_Im10.png",
+					"src/lib/data/elements/men//images/floor/symbol\\page51_element_3.2_Im31.png"
+				]
+			}
 		},
 		"3.29": {
 			"id": "3.29",
@@ -61,7 +95,15 @@
 			"group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
 			"difficulty": "E",
 			"type": "acrobatic",
-			"value": 0.5
+			"value": 0.5,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/floor/element\\page52_element_3.29_Im17.png"],
+				"symbol": [
+					"src/lib/data/elements/men//images/floor/symbol\\page52_element_3.29_Im18.png",
+					"src/lib/data/elements/men//images/floor/symbol\\page52_element_3.29_Im19.png",
+					"src/lib/data/elements/men//images/floor/symbol\\page52_element_3.29_Im24.png"
+				]
+			}
 		},
 		"3.60": {
 			"id": "3.60",
@@ -70,7 +112,11 @@
 			"group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
 			"difficulty": "F",
 			"type": "acrobatic",
-			"value": 0.6
+			"value": 0.6,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/floor/element\\page53_element_3.60_Im4.png"],
+				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page53_element_3.60_Im6.png"]
+			}
 		}
 	},
 	"rings": {
@@ -81,7 +127,18 @@
 			"group_name": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/rings/element\\page85_element_1.1_Im1.png",
+					"src/lib/data/elements/men//images/rings/element\\page85_element_1.1_Im15.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/rings/symbol\\page85_element_1.1_Im18.png",
+					"src/lib/data/elements/men//images/rings/symbol\\page85_element_1.1_Im2.png",
+					"src/lib/data/elements/men//images/rings/symbol\\page85_element_1.1_Im4.png"
+				]
+			}
 		},
 		"1.49": {
 			"id": "1.49",
@@ -90,7 +147,11 @@
 			"group_name": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page87_element_1.49_Im0.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page87_element_1.49_Im3.png"]
+			}
 		},
 		"1.81": {
 			"id": "1.81",
@@ -99,7 +160,11 @@
 			"group_name": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page88_element_1.81_Im5.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page88_element_1.81_Im6.png"]
+			}
 		},
 		"2.1": {
 			"id": "2.1",
@@ -108,7 +173,15 @@
 			"group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page89_element_2.1_Im0.png"],
+				"symbol": [
+					"src/lib/data/elements/men//images/rings/symbol\\page89_element_2.1_Im11.png",
+					"src/lib/data/elements/men//images/rings/symbol\\page89_element_2.1_Im19.png",
+					"src/lib/data/elements/men//images/rings/symbol\\page89_element_2.1_Im5.png"
+				]
+			}
 		},
 		"2.27": {
 			"id": "2.27",
@@ -117,7 +190,11 @@
 			"group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page90_element_2.27_Im2.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page90_element_2.27_Im12.png"]
+			}
 		},
 		"2.82": {
 			"id": "2.82",
@@ -126,7 +203,11 @@
 			"group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page92_element_2.82_Im3.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page92_element_2.82_Im10.png"]
+			}
 		},
 		"2.113": {
 			"id": "2.113",
@@ -135,7 +216,8 @@
 			"group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
 			"difficulty": "E",
 			"type": "acrobatic",
-			"value": 0.5
+			"value": 0.5,
+			"images": { "figure": [], "symbol": [] }
 		},
 		"3.3": {
 			"id": "3.3",
@@ -144,7 +226,11 @@
 			"group_name": "Impulso a elementos de mantenimiento a fuerza (2 seg.)",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page95_element_3.3_Im0.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page95_element_3.3_Im1.png"]
+			}
 		},
 		"3.40": {
 			"id": "3.40",
@@ -153,7 +239,8 @@
 			"group_name": "Impulso a elementos de mantenimiento a fuerza (2 seg.)",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": { "figure": [], "symbol": [] }
 		},
 		"3.71": {
 			"id": "3.71",
@@ -162,7 +249,8 @@
 			"group_name": "Impulso a elementos de mantenimiento a fuerza (2 seg.)",
 			"difficulty": "E",
 			"type": "acrobatic",
-			"value": 0.5
+			"value": 0.5,
+			"images": { "figure": [], "symbol": [] }
 		},
 		"3.59": {
 			"id": "3.59",
@@ -171,7 +259,17 @@
 			"group_name": "Impulso a elementos de mantenimiento a fuerza (2 seg.)",
 			"difficulty": "E",
 			"type": "acrobatic",
-			"value": 0.5
+			"value": 0.5,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/rings/element\\page97_element_3.59_Im10.png",
+					"src/lib/data/elements/men//images/rings/element\\page97_element_3.59_Im14.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/rings/symbol\\page97_element_3.59_Im11.png",
+					"src/lib/data/elements/men//images/rings/symbol\\page97_element_3.59_Im15.png"
+				]
+			}
 		},
 		"4.1": {
 			"id": "4.1",
@@ -180,7 +278,14 @@
 			"group_name": "Salidas",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/rings/element\\page99_element_4.1_Im0.png",
+					"src/lib/data/elements/men//images/rings/element\\page99_element_4.1_Im1.png"
+				],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page99_element_4.1_Im7.png"]
+			}
 		},
 		"4.32": {
 			"id": "4.32",
@@ -189,7 +294,11 @@
 			"group_name": "Salidas",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page100_element_4.32_Im1.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page100_element_4.32_Im12.png"]
+			}
 		},
 		"4.52": {
 			"id": "4.52",
@@ -198,7 +307,11 @@
 			"group_name": "Salidas",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": {
+				"figure": ["src/lib/data/elements/men//images/rings/element\\page101_element_4.52_Im0.png"],
+				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page101_element_4.52_Im3.png"]
+			}
 		}
 	},
 	"pommel horse": {
@@ -209,7 +322,19 @@
 			"group_name": "Impulsos de una pierna y tijeras",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page66_element_1.1_Im23.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page66_element_1.1_Im26.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page66_element_1.1_Im3.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page66_element_1.1_Im20.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page66_element_1.1_Im27.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page66_element_1.1_Im9.png"
+				]
+			}
 		},
 		"2.1": {
 			"id": "2.1",
@@ -218,7 +343,15 @@
 			"group_name": "Swings, russian w., flops and combined elements ",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page68_element_2.1_Im4.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page68_element_2.1_Im5.png"
+				]
+			}
 		},
 		"2.34": {
 			"id": "2.34",
@@ -227,7 +360,15 @@
 			"group_name": "Swings, russian w., flops and combined elements ",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page69_element_2.34_Im20.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page69_element_2.34_Im15.png"
+				]
+			}
 		},
 		"2.52": {
 			"id": "2.52",
@@ -236,7 +377,19 @@
 			"group_name": "Swings, russian w., flops and combined elements ",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page70_element_2.52_Im13.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page70_element_2.52_Im14.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page70_element_2.52_Im16.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page70_element_2.52_Im17.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page70_element_2.52_Im18.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page70_element_2.52_Im19.png"
+				]
+			}
 		},
 		"2.79": {
 			"id": "2.79",
@@ -245,7 +398,15 @@
 			"group_name": "Swings, russian w., flops and combined elements ",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page71_element_2.79_Im5.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page71_element_2.79_Im6.png"
+				]
+			}
 		},
 		"2.97": {
 			"id": "2.97",
@@ -254,7 +415,15 @@
 			"group_name": "Swings, russian w., flops and combined elements ",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page72_element_2.97_Im3.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page72_element_2.97_Im4.png"
+				]
+			}
 		},
 		"3.3": {
 			"id": "3.3",
@@ -263,7 +432,21 @@
 			"group_name": "Desplazamientos, incluyen",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page73_element_3.3_Im0.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page73_element_3.3_Im16.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page76_element_3.3_Im4.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page76_element_3.3_Im6.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page73_element_3.3_Im10.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page73_element_3.3_Im21.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page76_element_3.3_Im5.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page76_element_3.3_Im8.png"
+				]
+			}
 		},
 		"3.45": {
 			"id": "3.45",
@@ -272,7 +455,15 @@
 			"group_name": "Desplazamientos, incluyen",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page74_element_3.45_Im15.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page74_element_3.45_Im16.png"
+				]
+			}
 		},
 		"3.77": {
 			"id": "3.77",
@@ -281,7 +472,15 @@
 			"group_name": "Desplazamientos, incluyen",
 			"difficulty": "E",
 			"type": "acrobatic",
-			"value": 0.5
+			"value": 0.5,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page76_element_3.77_Im7.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page76_element_3.77_Im9.png"
+				]
+			}
 		},
 		"4.1": {
 			"id": "4.1",
@@ -290,7 +489,17 @@
 			"group_name": "Salidas",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/pommel horse/element\\page77_element_4.1_Im0.png",
+					"src/lib/data/elements/men//images/pommel horse/element\\page77_element_4.1_Im8.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page77_element_4.1_Im12.png",
+					"src/lib/data/elements/men//images/pommel horse/symbol\\page77_element_4.1_Im23.png"
+				]
+			}
 		}
 	},
 	"vault": {
@@ -301,7 +510,13 @@
 			"group_name": "Saltos con giros complejos",
 			"difficulty": "A",
 			"value": 4.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page108_element_1.103_Im2.png"
+				],
+				"symbol": []
+			}
 		},
 		"1.115": {
 			"id": "1.115",
@@ -310,7 +525,13 @@
 			"group_name": "Saltos con giros complejos",
 			"difficulty": "A",
 			"value": 5.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page108_element_1.115_Im7.png"
+				],
+				"symbol": []
+			}
 		},
 		"1.117": {
 			"id": "1.117",
@@ -319,7 +540,13 @@
 			"group_name": "Saltos con giros complejos",
 			"difficulty": "C",
 			"value": 6.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page108_element_1.117_Im9.png"
+				],
+				"symbol": []
+			}
 		},
 		"1.120": {
 			"id": "1.120",
@@ -328,7 +555,13 @@
 			"group_name": "Saltos con giros complejos",
 			"difficulty": "F",
 			"value": 3.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page108_element_1.120_Im11.png"
+				],
+				"symbol": []
+			}
 		},
 		"1.119": {
 			"id": "1.119",
@@ -337,7 +570,13 @@
 			"group_name": "Saltos con giros complejos",
 			"difficulty": "E",
 			"value": 3.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page108_element_1.119_Im10.png"
+				],
+				"symbol": []
+			}
 		},
 		"1.125": {
 			"id": "1.125",
@@ -346,7 +585,13 @@
 			"group_name": "Saltos con giros complejos",
 			"difficulty": "E",
 			"value": 4.4,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page109_element_1.125_Im0.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.201": {
 			"id": "2.201",
@@ -355,7 +600,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "C",
 			"value": 1.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page110_element_2.201_Im9.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.202": {
 			"id": "2.202",
@@ -364,7 +615,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "D",
 			"value": 1.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page110_element_2.202_Im6.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.203": {
 			"id": "2.203",
@@ -373,7 +630,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "E",
 			"value": 2.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page110_element_2.203_Im7.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.204": {
 			"id": "2.204",
@@ -382,7 +645,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "F",
 			"value": 2.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page110_element_2.204_Im8.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.205": {
 			"id": "2.205",
@@ -391,7 +660,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "A",
 			"value": 2.4,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page110_element_2.205_Im10.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.228": {
 			"id": "2.228",
@@ -400,7 +675,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "F",
 			"value": 5.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page111_element_2.228_Im2.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.231": {
 			"id": "2.231",
@@ -409,7 +690,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "C",
 			"value": 5.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page111_element_2.231_Im3.png"
+				],
+				"symbol": []
+			}
 		},
 		"2.232": {
 			"id": "2.232",
@@ -418,7 +705,13 @@
 			"group_name": "Palomas con o sin giros y dobles mortales ad.",
 			"difficulty": "D",
 			"value": 6.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page111_element_2.232_Im4.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.310": {
 			"id": "3.310",
@@ -427,7 +720,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "D",
 			"value": 2.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.310_Im1.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.308": {
 			"id": "3.308",
@@ -436,7 +735,14 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "B",
 			"value": 2.4,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.308_Im0.png",
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.308_Im2.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.307": {
 			"id": "3.307",
@@ -445,7 +751,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "A",
 			"value": 2.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.307_Im3.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.313": {
 			"id": "3.313",
@@ -454,7 +766,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "A",
 			"value": 3.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.313_Im4.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.314": {
 			"id": "3.314",
@@ -463,7 +781,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "B",
 			"value": 3.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.314_Im5.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.320": {
 			"id": "3.320",
@@ -472,7 +796,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "B",
 			"value": 5.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.320_Im8.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.301": {
 			"id": "3.301",
@@ -481,7 +811,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "A",
 			"value": 1.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.301_Im10.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.302": {
 			"id": "3.302",
@@ -490,7 +826,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "B",
 			"value": 1.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.302_Im11.png"
+				],
+				"symbol": []
+			}
 		},
 		"3.303": {
 			"id": "3.303",
@@ -499,7 +841,13 @@
 			"group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
 			"difficulty": "C",
 			"value": 2.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page112_element_3.303_Im12.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.439": {
 			"id": "4.439",
@@ -508,7 +856,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "A",
 			"value": 3.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.439_Im1.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.441": {
 			"id": "4.441",
@@ -517,7 +871,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "C",
 			"value": 4.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.441_Im3.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.444": {
 			"id": "4.444",
@@ -526,7 +886,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "F",
 			"value": 5.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.444_Im5.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.431": {
 			"id": "4.431",
@@ -535,7 +901,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "E",
 			"value": 1.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.431_Im8.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.433": {
 			"id": "4.433",
@@ -544,7 +916,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "A",
 			"value": 2.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.433_Im11.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.435": {
 			"id": "4.435",
@@ -553,7 +931,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "C",
 			"value": 3.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.435_Im12.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.426": {
 			"id": "4.426",
@@ -562,7 +946,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "F",
 			"value": 5.6,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page114_element_4.426_Im14.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.468": {
 			"id": "4.468",
@@ -571,7 +961,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "F",
 			"value": 4.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.468_Im1.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.470": {
 			"id": "4.470",
@@ -580,7 +976,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "B",
 			"value": 5.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.470_Im2.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.472": {
 			"id": "4.472",
@@ -589,7 +991,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "D",
 			"value": 5.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.472_Im4.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.460": {
 			"id": "4.460",
@@ -598,7 +1006,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "D",
 			"value": 3.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.460_Im9.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.459": {
 			"id": "4.459",
@@ -607,7 +1021,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "C",
 			"value": 3.0,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.459_Im10.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.458": {
 			"id": "4.458",
@@ -616,7 +1036,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "B",
 			"value": 2.8,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.458_Im11.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.455": {
 			"id": "4.455",
@@ -625,7 +1051,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "E",
 			"value": 2.2,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.455_Im12.png"
+				],
+				"symbol": []
+			}
 		},
 		"4.449": {
 			"id": "4.449",
@@ -634,7 +1066,13 @@
 			"group_name": "Saltos con entrada de rondada",
 			"difficulty": "E",
 			"value": 5.4,
-			"type": "acrobatic"
+			"type": "acrobatic",
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/vault/element\\page115_element_4.449_Im14.png"
+				],
+				"symbol": []
+			}
 		}
 	},
 	"parallel bars": {
@@ -645,7 +1083,17 @@
 			"group_name": "Elementos en o por el apoyo sobre dos bandas",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page122_element_1.3_Im0.png",
+					"src/lib/data/elements/men//images/parallel bars/element\\page122_element_1.3_Im10.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page122_element_1.3_Im14.png",
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page122_element_1.3_Im18.png"
+				]
+			}
 		},
 		"1.27": {
 			"id": "1.27",
@@ -654,7 +1102,16 @@
 			"group_name": "Elementos en o por el apoyo sobre dos bandas",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page123_element_1.27_Im0.png",
+					"src/lib/data/elements/men//images/parallel bars/element\\page123_element_1.27_Im5.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page123_element_1.27_Im10.png"
+				]
+			}
 		},
 		"3.3": {
 			"id": "3.3",
@@ -663,7 +1120,15 @@
 			"group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page130_element_3.3_Im16.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page130_element_3.3_Im8.png"
+				]
+			}
 		},
 		"3.30": {
 			"id": "3.30",
@@ -672,7 +1137,15 @@
 			"group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
 			"difficulty": "F",
 			"type": "acrobatic",
-			"value": 0.6
+			"value": 0.6,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page131_element_3.30_Im2.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page131_element_3.30_Im10.png"
+				]
+			}
 		},
 		"3.98": {
 			"id": "3.98",
@@ -681,7 +1154,15 @@
 			"group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page134_element_3.98_Im0.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page134_element_3.98_Im12.png"
+				]
+			}
 		},
 		"3.128": {
 			"id": "3.128",
@@ -690,7 +1171,15 @@
 			"group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page135_element_3.128_Im1.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page135_element_3.128_Im5.png"
+				]
+			}
 		},
 		"4.1": {
 			"id": "4.1",
@@ -699,7 +1188,21 @@
 			"group_name": "Salidas",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page136_element_4.1_Im0.png",
+					"src/lib/data/elements/men//images/parallel bars/element\\page136_element_4.1_Im1.png",
+					"src/lib/data/elements/men//images/parallel bars/element\\page136_element_4.1_Im17.png",
+					"src/lib/data/elements/men//images/parallel bars/element\\page136_element_4.1_Im5.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page136_element_4.1_Im15.png",
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page136_element_4.1_Im23.png",
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page136_element_4.1_Im8.png",
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page136_element_4.1_Im9.png"
+				]
+			}
 		},
 		"4.45": {
 			"id": "4.45",
@@ -708,7 +1211,15 @@
 			"group_name": "Salidas",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/parallel bars/element\\page137_element_4.45_Im1.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/parallel bars/symbol\\page137_element_4.45_Im9.png"
+				]
+			}
 		}
 	},
 	"high bar": {
@@ -719,7 +1230,15 @@
 			"group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page145_element_1.8_Im1.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page145_element_1.8_Im13.png"
+				]
+			}
 		},
 		"1.26": {
 			"id": "1.26",
@@ -728,7 +1247,15 @@
 			"group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page146_element_1.26_Im0.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page146_element_1.26_Im6.png"
+				]
+			}
 		},
 		"1.50": {
 			"id": "1.50",
@@ -737,7 +1264,15 @@
 			"group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page147_element_1.50_Im1.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page147_element_1.50_Im6.png"
+				]
+			}
 		},
 		"1.75": {
 			"id": "1.75",
@@ -746,7 +1281,15 @@
 			"group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page148_element_1.75_Im0.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page148_element_1.75_Im1.png"
+				]
+			}
 		},
 		"2.36": {
 			"id": "2.36",
@@ -755,7 +1298,15 @@
 			"group_name": "Sueltas",
 			"difficulty": "F",
 			"type": "acrobatic",
-			"value": 0.6
+			"value": 0.6,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page150_element_2.36_Im26.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page150_element_2.36_Im5.png"
+				]
+			}
 		},
 		"2.57": {
 			"id": "2.57",
@@ -764,7 +1315,17 @@
 			"group_name": "Sueltas",
 			"difficulty": "C",
 			"type": "acrobatic",
-			"value": 0.3
+			"value": 0.3,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page151_element_2.57_Im5.png",
+					"src/lib/data/elements/men//images/high bar/element\\page151_element_2.57_Im6.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page151_element_2.57_Im14.png",
+					"src/lib/data/elements/men//images/high bar/symbol\\page151_element_2.57_Im7.png"
+				]
+			}
 		},
 		"2.82": {
 			"id": "2.82",
@@ -773,7 +1334,15 @@
 			"group_name": "Sueltas",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page152_element_2.82_Im5.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page152_element_2.82_Im6.png"
+				]
+			}
 		},
 		"3.1": {
 			"id": "3.1",
@@ -782,7 +1351,13 @@
 			"group_name": "Elementos cerca de la barra y elementos adler",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page154_element_3.1_Im5.png"
+				],
+				"symbol": ["src/lib/data/elements/men//images/high bar/symbol\\page154_element_3.1_Im2.png"]
+			}
 		},
 		"3.41": {
 			"id": "3.41",
@@ -791,7 +1366,15 @@
 			"group_name": "Elementos cerca de la barra y elementos adler",
 			"difficulty": "E",
 			"type": "acrobatic",
-			"value": 0.5
+			"value": 0.5,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page155_element_3.41_Im10.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page155_element_3.41_Im4.png"
+				]
+			}
 		},
 		"3.70": {
 			"id": "3.70",
@@ -800,7 +1383,15 @@
 			"group_name": "Elementos cerca de la barra y elementos adler",
 			"difficulty": "D",
 			"type": "acrobatic",
-			"value": 0.4
+			"value": 0.4,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page156_element_3.70_Im1.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page156_element_3.70_Im2.png"
+				]
+			}
 		},
 		"3.79": {
 			"id": "3.79",
@@ -809,7 +1400,15 @@
 			"group_name": "Elementos cerca de la barra y elementos adler",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page157_element_3.79_Im7.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page157_element_3.79_Im2.png"
+				]
+			}
 		},
 		"3.104": {
 			"id": "3.104",
@@ -818,7 +1417,15 @@
 			"group_name": "Elementos cerca de la barra y elementos adler",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page158_element_3.104_Im2.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page158_element_3.104_Im7.png"
+				]
+			}
 		},
 		"4.1": {
 			"id": "4.1",
@@ -827,7 +1434,19 @@
 			"group_name": "Salidas",
 			"difficulty": "A",
 			"type": "acrobatic",
-			"value": 0.1
+			"value": 0.1,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page159_element_4.1_Im19.png",
+					"src/lib/data/elements/men//images/high bar/element\\page159_element_4.1_Im2.png",
+					"src/lib/data/elements/men//images/high bar/element\\page159_element_4.1_Im5.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page159_element_4.1_Im14.png",
+					"src/lib/data/elements/men//images/high bar/symbol\\page159_element_4.1_Im17.png",
+					"src/lib/data/elements/men//images/high bar/symbol\\page159_element_4.1_Im8.png"
+				]
+			}
 		},
 		"4.26": {
 			"id": "4.26",
@@ -836,7 +1455,15 @@
 			"group_name": "Salidas",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page160_element_4.26_Im24.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page160_element_4.26_Im13.png"
+				]
+			}
 		},
 		"4.50": {
 			"id": "4.50",
@@ -845,7 +1472,15 @@
 			"group_name": "Salidas",
 			"difficulty": "B",
 			"type": "acrobatic",
-			"value": 0.2
+			"value": 0.2,
+			"images": {
+				"figure": [
+					"src/lib/data/elements/men//images/high bar/element\\page161_element_4.50_Im0.png"
+				],
+				"symbol": [
+					"src/lib/data/elements/men//images/high bar/symbol\\page161_element_4.50_Im9.png"
+				]
+			}
 		}
 	}
 }

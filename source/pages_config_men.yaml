@@ -18,10 +18,10 @@ apparatuses:
       3: acrobatic
     regex:
       group:
-        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
       element:
         en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
@@ -45,10 +45,10 @@ apparatuses:
       4: acrobatic
     regex:
       group:
-        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
       element:
         en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
@@ -72,10 +72,10 @@ apparatuses:
       4: acrobatic
     regex:
       group:
-        en: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        fr: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        es: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        nl: EG\s*([IV]*):?\s*(.*?)\s*(?=\d+\.|\Z|\n)
       element:
         en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
@@ -101,10 +101,10 @@ apparatuses:
       6: gymnastic
     regex:
       group:
-        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
       element:
         en: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
         fr: (\d{3})\.([^\d]\s?[A-Z].+?)\s?(?=\d{3}\.|\Z)
@@ -130,10 +130,10 @@ apparatuses:
       6: gymnastic
     regex:
       group:
-        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
       element:
         en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
@@ -157,10 +157,10 @@ apparatuses:
       4: acrobatic
     regex:
       group:
-        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
-        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z)
+        en: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        fr: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        es: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
+        nl: EG\s*([IV]*):\s*(.*?)\s*(?=\d+\.|\Z|\n)
       element:
         en: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         fr: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)

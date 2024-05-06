@@ -4,14 +4,52 @@ import os
 import shutil
 import re
 import pandas as pd
-from source.extract_elements import loadConfig, saveJson
+from extract_elements import loadConfig, saveJson, loadJson, ProcessElements
+
+class PageClass:
+    def __init__(self, page):
+        self.page = page
+        # self.metadata = metadata
+        self.layout = self.getLayout()
+        self.text = self.page.get_text()
+    
+    def extractGroup(self, regex_pattern):
+        """
+        Extract the group of the page. 
+        """
+        dict_translate_nr = {"I":"1", "II":"2", "III":"3", "IV": "4"}
+        number = None
+        # define the regex to extract the group nr and group description from each page
+
+        # print(self.text)
+        # print(regex_pattern)
+        for res in re.findall(regex_pattern, self.text):
+            # print(res)
+            number = dict_translate_nr.get(res[0], res[0].split(".")[0])
+        # assert number
+        if not number:
+            print(self.text)
+            print(regex_pattern)
+
+        # print("number", number)
+        return number
+    
+    def getLayout(self):
+        """
+        Based on the length of the x and y we can define whether the pages is in landscape or portrait mode.
+        """ 
+        bbox = self.page.bleedbox
+        if bbox.x1-bbox.y1 < 0:
+            return "portrait"
+        else:
+            return "landscape"
+
 
 def writeImage(page, image_metadata):
     clip = fitz.Rect(image_metadata["bbox"]["x0"],image_metadata["bbox"]["y0"],image_metadata["bbox"]["x1"],image_metadata["bbox"]["y1"],)
     pix =  page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip)
     pix.save(image_metadata["filename"])
     return
-
 def getImageName(image_path, count=1):
     if count == 1:
         image_path = image_path.replace(".png", f"_{count}.png")
@@ -21,18 +59,6 @@ def getImageName(image_path, count=1):
         return getImageName(image_path, count+1)
     else:
         return image_path
-
-
-def getPageLayout(page):
-    """
-    Based on the length of the x and y we can define whether the pages is in landscape or portrait mode.
-    """ 
-    bbox = page.bleedbox
-    if bbox.x1-bbox.y1 < 0:
-        return "portrait"
-    else:
-        return "landscape"
-
 
 def findText(page, image, found_text, page_layout):
     found = []
@@ -71,7 +97,6 @@ def findText(page, image, found_text, page_layout):
         if bbox_image.x0 - 35 < text_x1 < bbox_image.x1 + 25:
             found.append(option)
             # print(found)
-            pass
     distance = 800
     for option, text_x1 in optionA:
         # print(option, bbox_image.x1 - text_x1 , distance)
@@ -86,9 +111,9 @@ def findText(page, image, found_text, page_layout):
 
     return "".join(found)
 
-
 def combineImages(page, metadata):
     newImages = []
+    print(page)
     for x in pd.DataFrame(metadata).groupby("element").agg(list).iterrows():
         if len(x[1]["img_id"]) == 1:
             continue
@@ -101,7 +126,7 @@ def combineImages(page, metadata):
             continue
 
         img_info = {}
-        assert len(set(x[1]["page"])) == 1
+        # assert len(set(x[1]["page"])) == 1
         newBbox = {"x0": 0, "y0":0, "x1":0, "y1":0}
         for bbox in x[1]["bbox"]:
             # print("bbox", bbox)
@@ -118,18 +143,16 @@ def combineImages(page, metadata):
                         if newBbox[axis] < value:
                             newBbox[axis] = value
         
-        # print(x[0], newBbox)
         img_info["element"] = x[0]
         img_info["bbox"] = newBbox
-        img_info["page"] = x[1]["page"][0]
-        img_info["filename"] =x[1]["filename"][0].split("page")[0]+ f"page{img_info['page']}_element_{x[0]}_{''.join(x[1]["img_id"])}.png"
+        img_info["filename"] =x[1]["filename"][0].split("element")[0]+ f"element_{x[0]}_{''.join(x[1]["img_id"])}.png"
         newImages.append(img_info)
         for file in x[1]["filename"]:
             os.remove(file)
         writeImage(page,img_info)
     return newImages
 
-def extract_text_and_images(pdf_path, output_folder, target_page):
+def extract_text_and_images(pdf_path, output_folder, target_page, group_regex_pattern, do_group_extraction):
     metadata = []
     
     # Create output folder if it doesn't exist
@@ -147,24 +170,24 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
             return
         pages = [target_page]
     elif isinstance(target_page, list):
-        pages = range(target_page[0], target_page[1]+1)
+        pages = range(target_page[0], target_page[1])
     else:
         raise ValueError ("target_page not valid")
     
     # Loop over every target page in pages.
     # Each target page is loaded and processed.
     for target in pages:
-        # pdf starts counting from 1, python starts counting from 0
-        page = pdf_document.load_page(target - 1)
-        page_layout = getPageLayout(page)
-
+        _page = PageClass(pdf_document.load_page(target - 1))
+        page_layout = _page.layout
+        group = None
+        if do_group_extraction:
+            group = _page.extractGroup(group_regex_pattern)
         # Extract text from the page
-        page_text = page.get_text()
-        regex_pattern = re.compile(r"(\d+\.\d+)\s+\n?(?!P\.)")
-        found_text = re.findall(regex_pattern, page_text)
+        regex_pattern = re.compile(r"(\d+\.\d*)\s+\n?(?!P\.)")
+        found_text = re.findall(regex_pattern,  _page.text)
         
         # Extract images and their positions
-        images = page.get_images(full=True)
+        images = _page.page.get_images(full=True)
         
         # Loop through images on the page
         for img_info in images:
@@ -172,7 +195,7 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
             metadata_img["img_id"] = img_info[7]
             metadata_img["page"] = target
             # Get the text closest and above the image
-            bbox_image = page.get_image_bbox(img_info[7])
+            bbox_image = _page.page.get_image_bbox(img_info[7])
             metadata_img["bbox"] = {"x0": bbox_image.x0, "y0":bbox_image.y0, "x1":bbox_image.x1, "y1":bbox_image.y1}
             # all the judges symbols are also images.
             # These have a smaller format. a size of < 75 will be assumed to be such a symbol.
@@ -181,22 +204,24 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
             else:
                 metadata_img["type"] = "element"
 
-
-
             found = ""
-            found = findText(page, img_info, found_text, page_layout)
+            found = findText(_page.page, img_info, found_text, page_layout)
             if found == "":
-                found = findText(page, img_info, found_text, "other")
+                found = findText(_page.page, img_info, found_text, "other")
 
             if found != "":
-                metadata_img["element"] = found
+                if do_group_extraction:
+                    metadata_img["element"] = group+"."+found.strip(".")
+                else:
+                    metadata_img["element"] = found
+
                 image_path = os.path.join(output_folder, metadata_img['type'])
                 if not os.path.exists(image_path):
                     os.mkdir(image_path)
                 image_path = os.path.join(image_path, f"page{metadata_img['page']}_element_{metadata_img['element']}_{metadata_img['img_id']}.png")
                 
                 metadata_img["filename"] = image_path
-                writeImage(page, metadata_img)
+                writeImage(_page.page, metadata_img)
             else:
                 # The images which could not be processed are saved here. 
                 # Saving the images is good for debugging/optimization purposes
@@ -207,34 +232,89 @@ def extract_text_and_images(pdf_path, output_folder, target_page):
                 image_path = unprocessed_path + f"page{target}_{img_info[7]}.png"
                 
                 metadata_img["filename"]= getImageName(image_path)
-                writeImage(page, metadata_img)
+                writeImage(_page.page, metadata_img)
                 
                 print("Could not process",metadata_img["img_id"],"and saved to", image_path)
             metadata.append(metadata_img)
         
-        combineImages(page, [m for m in metadata if m["page"]==metadata_img["page"]])
+        combineImages(_page.page, [m for m in metadata if m["page"]==metadata_img["page"]])
 
         
     pdf_document.close()
     return metadata
 
+
+
+# add en empty dict to every element in the elements_data:
+def add_empty_dict(elements_data):
+    for apparatus, data in elements_data.items():
+        for element, info in data.items():
+            info["images"] = {"figure":[], "symbol":[]}
+    return elements_data
+
+
+# load the elements data and load the image metadata, then add the path to the image as a key-object to every element of the element data.
+def addImagePath(elements_data, metadata):
+    elements_data = add_empty_dict(elements_data)
+
+    copy = elements_data
+    for apparatus, data in metadata.items():
+        for item in data:
+            try:
+                element = item["element"]
+            except KeyError:
+                continue
+            _type = item["type"]
+
+            try:
+                if _type == "symbol":
+                    copy[apparatus][element]["images"]["symbol"].append(item["filename"])
+                else:
+                    copy[apparatus][element]["images"]["figure"].append(item["filename"])
+            except KeyError:
+                pass
+    return copy
+
+def do_extraction(output_folder, apparatus, language, config, do_group_extraction):
+    output_sub_folder = output_folder + apparatus + "/"
+    # If the output folder already exists, delete it and its content.
+    if os.path.exists(output_sub_folder):
+        shutil.rmtree(output_sub_folder)
+    target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
+    return extract_text_and_images(config["file"][language], output_sub_folder, target_pages, config["apparatuses"][apparatus]["regex"]["group"][language], do_group_extraction)
+
+
 def main():
-    config = loadConfig("source/pages_config.yaml")
-    output_folder = "data/images/"
+    config = loadConfig("source/pages_config_women.yaml")
+    output_folder = config["output directory"] + "/images/"
     language = "en"
     json = {}
     for apparatus in ["vault", "beam", "uneven bars", "floor"]:
-        # apparatus = "vault"
-        output_sub_folder = output_folder + apparatus + "/"
-        # If the output folder already exists, delete it and its content.
-        if os.path.exists(output_sub_folder):
-            shutil.rmtree(output_sub_folder)
-        target_pages = [config["apparatuses"][apparatus]["start page"][language], config["apparatuses"][apparatus]["end page"][language]]  # Specify the page number you want to extract text and images from
-        json[apparatus] = extract_text_and_images(config["file"][language], output_sub_folder, target_pages)
-        
+        json[apparatus] = do_extraction(output_folder, apparatus, language, config, False)
     saveJson(output_folder + "metadata.json", json)
+   
+    metadata = loadJson(output_folder + "metadata.json")
+    for language in ["en", "nl"]:
+        elements_data = loadJson(config["output directory"] + language + "_elements.json")
+        elements_data = addImagePath(elements_data, metadata)
+        saveJson(config["output directory"] + language + "_elements.json", elements_data)
+
+    config = loadConfig("source/pages_config_men.yaml")
+    output_folder = config["output directory"] + "/images/"
+    language = "en"
+    json = {}
+    for apparatus in ["floor", "pommel horse", "rings", "vault", "parallel bars", "high bar"]:
+        json[apparatus] = do_extraction(output_folder, apparatus, language, config, True)
+    saveJson(output_folder + "metadata.json", json)
+   
+    metadata = loadJson(output_folder + "metadata.json")
+    for language in ["en", "nl", "es", "fr"]:
+        elements_data = loadJson(config["output directory"] + language + "_elements.json")
+        elements_data = addImagePath(elements_data, metadata)
+        saveJson(config["output directory"] + language + "_elements.json", elements_data)
 
 
-if __name__ == main():
+
+if __name__ == "__main__":
     main()
    
