@@ -18,12 +18,14 @@
 	$: icon = searchProperties_defaulted ? 'mdi:filter-outline' : 'mdi:filter';
 
 	// Props list
-	let propsList: Record<keyof (typeof $data.data)[0], boolean> = Object.keys($data.data[0]).reduce(
+	let propsList: Record<keyof (typeof $data.elementData)[0], boolean> = Object.keys(
+		$data.elementData[0]
+	).reduce(
 		(acc, key) => {
-			acc[key as keyof (typeof $data.data)[0]] = searchProperties.includes(key);
+			acc[key as keyof (typeof $data.elementData)[0]] = searchProperties.includes(key);
 			return acc;
 		},
-		{} as Record<keyof (typeof $data.data)[0], boolean>
+		{} as Record<keyof (typeof $data.elementData)[0], boolean>
 	);
 
 	// Searchbox settings
@@ -32,7 +34,7 @@
 
 	function setSearchProperties() {
 		const trueKeys = Object.keys(propsList).filter(
-			(key) => propsList[key as keyof (typeof $data.data)[0]]
+			(key) => propsList[key as keyof (typeof $data.elementData)[0]]
 		);
 		$data.setSearchProperties(trueKeys);
 	}

@@ -40,7 +40,7 @@ export let filterValues = writable<FilterValuesType>({
 
 export class ElementData {
 	rawData: Object;
-	data: Object[];
+	elementData: Object[];
 	apparatus: keyof typeof this.rawData;
 	filteredData: Object[];
 	// A list of all the filters
@@ -51,14 +51,14 @@ export class ElementData {
 	constructor(rawData: Object, apparatus?: string) {
 		this.rawData = rawData as Object;
 		this.apparatus = (apparatus ? apparatus : Object.keys(rawData)[0]) as keyof typeof this.rawData;
-		this.data = Object.values(rawData[this.apparatus]);
-		this.filteredData = this.data;
+		this.elementData = Object.values(rawData[this.apparatus]);
+		this.filteredData = this.elementData;
 		this.filterList = {};
-		this.filterList.search = '';
+		this.filterList.search = '' as string;
 		this.filterList.searchProperties = ['id', 'description', 'value'];
 	}
 	public logData() {
-		console.log(this.data);
+		console.log(this.elementData);
 		let i = 0;
 		console.log(i in Object.keys(this.rawData));
 	}
@@ -70,22 +70,24 @@ export class ElementData {
 	public setApparatus(input: string) {
 		// Check if input is a valid key in rawData
 		if (!Object.keys(this.rawData).includes(input))
-			return console.error(`Invalid apparatus: ${input}`);
+			return console.error(`Invalid apparatus: ${input}`, Object.keys(this.rawData));
 		// Set apparatus and update data
 		let _apparatus = input as keyof typeof this.rawData;
-		this.data = Object.values(this.rawData[_apparatus]);
-		//
+		this.elementData = Object.values(this.rawData[_apparatus]);
+		// update
+		this.search();
 		data.update(() => this);
 	}
 
-	public search(searchInput: string) {
-		this.filterList.search = searchInput;
+	public search(searchInput?: string) {
+		if (searchInput) this.filterList.search = searchInput;
+		let _searchInput = this.filterList.search || ''; //private searchInput to be matched
 		// let _searchProps = typeof searchProps === 'string' ? [searchProps] : searchProps;
 		let _searchProps = this.filterList.searchProperties;
 
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
-		this.filteredData = this.data.filter((element) => {
+		this.filteredData = this.elementData.filter((element) => {
 			// search each element in the array
 			return Object.entries(element).some(([key, value]) => {
 				// check if the value matches the search input
@@ -95,7 +97,7 @@ export class ElementData {
 						_searchProps === undefined ||
 						_searchProps.length === 0) &&
 					// check if the value matches the search input
-					value.toString().toLowerCase().includes(searchInput.toLowerCase())
+					value.toString().toLowerCase().includes(_searchInput.toLowerCase())
 				);
 			});
 		});
@@ -115,7 +117,7 @@ export class ElementData {
 
 		// Update and refresh search
 		data.update(() => this);
-		this.search(this.filterList.search);
+		this.search();
 	}
 }
 
