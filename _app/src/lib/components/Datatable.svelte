@@ -119,5 +119,6 @@
 	{columns}
 	on:clickRow={showElementInModal}
 	classNameTable="lx-table alternating"
+	classNameThead="sticky-header"
 	rowKey="id"
 ></SvelteTable>
