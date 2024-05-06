@@ -28,7 +28,7 @@
 			throw new Error('No row found in event detail');
 		}
 		const element = e.detail.row;
-		console.log(element);
+		console.debug('Showing element in modal:', element);
 	}
 
 	// Svelte Table (https://www.npmjs.com/package/svelte-table)

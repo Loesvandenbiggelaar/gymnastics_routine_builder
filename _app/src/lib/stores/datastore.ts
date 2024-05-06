@@ -102,7 +102,8 @@ export class ElementData {
 			});
 		});
 		// update the filtered data and notify the store
-		console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
+		if (this.filterList.search && this.filterList.search !== '')
+			console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
 
 		data.update(() => this);
 	}
@@ -113,7 +114,7 @@ export class ElementData {
 		this.filterList.searchProperties =
 			typeof searchProps === 'string' ? [searchProps] : searchProps;
 		// update the filtered data and notify the store
-		console.log(this.filterList.searchProperties);
+		console.debug('selected search properties', this.filterList.searchProperties);
 
 		// Update and refresh search
 		data.update(() => this);
