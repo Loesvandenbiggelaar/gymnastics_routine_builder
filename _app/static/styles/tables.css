@@ -1,0 +1,39 @@
+.lx-table {
+	--radius: 9999px;
+}
+
+.lx-table thead {
+	@apply variant-filled-surface;
+}
+
+.lx-table thead tr th {
+	padding: 0.5em 1em;
+}
+
+.lx-table thead tr th:first-child {
+	border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.lx-table thead tr th:last-child {
+	border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.lx-table tr td {
+	padding: 0.5em 1em;
+}
+
+.lx-table tr td:first-child {
+	border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.lx-table tr td:last-child {
+	border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.lx-table tr:hover td {
+	@apply variant-filled-primary;
+}
+
+.lx-table.alternating tr:nth-child(even) {
+	@apply bg-surface-100-800-token;
+}
