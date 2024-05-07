@@ -22,11 +22,15 @@
 	$: updateSelectedApparatus(dropdownValue);
 	$: $selectedApparatus, $data.setApparatus($selectedApparatus.data_name);
 
+	//TODO fix sex filter, set in datastore.ts
 	$: apparatusConfig_filtered = apparatusConfig.filter(
 		(apparatus) => $filterValues.sex === 'both' || apparatus.sex_id == $filterValues.sex
 	);
 
-	$: console.debug(`Apparatus filter: ${$filterValues.sex}`, `List: ${apparatusConfig_filtered}`);
+	$: console.debug(
+		`Apparatus filter: ${$filterValues.sex}`,
+		`List: ${Object.values(apparatusConfig_filtered)}`
+	);
 </script>
 
 <button

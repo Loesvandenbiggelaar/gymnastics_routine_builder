@@ -1,7 +1,12 @@
 import { writable } from 'svelte/store';
-import { apparatusConfig } from '$lib/data/elements/apparatusConfig';
+import { apparatusConfig, type ApparatusConfigEntry } from '$lib/data/elements/apparatusConfig';
 
 export let selectedApparatus = writable(apparatusConfig[0]);
+// Create a writable store for the selected apparatus
+export let modalElement = writable();
+// Create a writable store for the modal element
+// TODO set type for elements
+
 // Create a function to update the selected apparatus and ensure it is a valid type
 /**
  * Update the selected apparatus.
@@ -102,6 +107,7 @@ export class ElementData {
 			});
 		});
 		// update the filtered data and notify the store
+
 		console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
 
 		data.update(() => this);
@@ -113,7 +119,7 @@ export class ElementData {
 		this.filterList.searchProperties =
 			typeof searchProps === 'string' ? [searchProps] : searchProps;
 		// update the filtered data and notify the store
-		console.log(this.filterList.searchProperties);
+		console.debug('selected search properties', this.filterList.searchProperties);
 
 		// Update and refresh search
 		data.update(() => this);

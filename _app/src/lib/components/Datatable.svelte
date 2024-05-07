@@ -1,14 +1,28 @@
 <script lang="ts">
-	// @ts-nocheck
+	// Modals
+	import { getModalStore, type ModalComponent, type ModalSettings } from '@skeletonlabs/skeleton';
+	import ElementModal from '$lib/components/ElementModal.svelte';
+
 	// Import Iconify
 	import Icon from '@iconify/svelte';
 
 	// Import filter data
-	import { filterValues, data } from '$lib/stores/datastore';
+	import { filterValues, data, modalElement } from '$lib/stores/datastore';
 
 	// Importing the json from local file
 	import { selectedApparatus } from '$lib/stores/datastore';
 	import rawData from '$lib/data/elements/women/nl_elements.json';
+
+	///
+	//Modal Settings
+	const modalComponent: ModalComponent = {
+		ref: ElementModal
+	};
+	const datatableModal: ModalSettings = {
+		type: 'component',
+		component: modalComponent
+	};
+	const modalStore = getModalStore();
 
 	let DEPRECATED_data: Array<Object> = Object.values(rawData[$selectedApparatus.data_name]);
 	let DEPRECATED_filteredData: Array<Object> = DEPRECATED_data;
@@ -20,15 +34,24 @@
 			: Object.keys(rawData)[0];
 		DEPRECATED_filteredData = DEPRECATED_data = Object.values(rawData[_apparatus]);
 	}
-
+	// Update data based on selected apparatus
 	$: updateDataByApparatus($selectedApparatus);
+
 	// Modal
+	// Show element in modal
 	function showElementInModal(e: any) {
 		if (!e.detail || !e.detail.row) {
 			throw new Error('No row found in event detail');
 		}
-		const element = e.detail.row;
-		console.log(element);
+		// Set element from event
+		const modalElement = e.detail.row;
+		// Set modal data in store
+		$modalElement = modalElement;
+
+		// Show modal
+		modalStore.trigger(datatableModal);
+
+		console.debug('Showing element in modal:', modalElement);
 	}
 
 	// Svelte Table (https://www.npmjs.com/package/svelte-table)
@@ -52,6 +75,9 @@
 			key: 'description',
 			title: 'Description',
 			value: (v: { description: string }) => getProp(v, 'description'),
+			renderValue: (v: { description: string }) =>
+				`<div class="lx-table-row">${getProp(v, 'description')}</div>`,
+			parseHTML: true,
 			sortable: true,
 			headerClass: 'text-left'
 		},
@@ -93,5 +119,6 @@
 	{columns}
 	on:clickRow={showElementInModal}
 	classNameTable="lx-table alternating"
+	classNameThead="sticky-header"
 	rowKey="id"
 ></SvelteTable>

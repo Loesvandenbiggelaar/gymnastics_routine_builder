@@ -2,7 +2,7 @@
 	import '../app.postcss';
 
 	// Initialise Skeleton Utilities (singletons)
-	import { initializeStores, Drawer } from '@skeletonlabs/skeleton';
+	import { initializeStores, Drawer, Modal } from '@skeletonlabs/skeleton';
 	initializeStores();
 
 	// Highlight JS
@@ -30,6 +30,9 @@
 	import DrawerNav from '$lib/components/drawer_nav.svelte';
 	import Icon from '@iconify/svelte';
 </script>
+
+<!-- Init Modals -->
+<Modal />
 
 <Navigation />
 <Drawer>
