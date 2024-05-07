@@ -41,7 +41,7 @@ def get_files(directory):
     json_files = [file for file in all_files if file.endswith('.json')]
     return json_files
 
-directory = "src/lib/data/elements/"
+directory = "_app/src/lib/data/elements/"
 concatenated_json = {}
 # load data for men and women
 for sex in ["men", "women"]:
@@ -78,7 +78,7 @@ for sex in ["men", "women"]:
 # start with the type of the element and the type and structure of the data
 # we need to define which field is a string, or a int for example
 # e.g. type elementType = {id:string, description:string} etc
-with open("src/lib/data/elements/all_elements.ts", "w") as file:
+with open("_app/src/lib/data/elements/all_elements.ts", "w") as file:
     # the types in the elementType should be gereated dynamically
     # we can loop over the first element in the concatenated_json and get the keys
     # then we can loop over the keys and get the type of the value

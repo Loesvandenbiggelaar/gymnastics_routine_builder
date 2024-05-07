@@ -10,14 +10,14 @@
 			"value": 0.1,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/floor/element\\page48_element_2.7_Im14.png",
-					"src/lib/data/elements/men//images/floor/element\\page48_element_2.7_Im5.png",
-					"src/lib/data/elements/men//images/floor/element\\page48_element_2.7_Im9.png"
+					"_app/src/lib/data/elements/men//images/floor/element\\page48_element_2.7_Im14.png",
+					"_app/src/lib/data/elements/men//images/floor/element\\page48_element_2.7_Im5.png",
+					"_app/src/lib/data/elements/men//images/floor/element\\page48_element_2.7_Im9.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/floor/symbol\\page48_element_2.7_Im12.png",
-					"src/lib/data/elements/men//images/floor/symbol\\page48_element_2.7_Im15.png",
-					"src/lib/data/elements/men//images/floor/symbol\\page48_element_2.7_Im6.png"
+					"_app/src/lib/data/elements/men//images/floor/symbol\\page48_element_2.7_Im12.png",
+					"_app/src/lib/data/elements/men//images/floor/symbol\\page48_element_2.7_Im15.png",
+					"_app/src/lib/data/elements/men//images/floor/symbol\\page48_element_2.7_Im6.png"
 				]
 			}
 		},
@@ -30,8 +30,12 @@
 			"type": "acrobatic",
 			"value": 0.4,
 			"images": {
-				"figure": ["src/lib/data/elements/men//images/floor/element\\page49_element_2.28_Im1.png"],
-				"symbol": ["src/lib/data/elements/men//images/floor/symbol\\page49_element_2.28_Im5.png"]
+				"figure": [
+					"_app/src/lib/data/elements/men//images/floor/element\\page49_element_2.28_Im1.png"
+				],
+				"symbol": [
+					"_app/src/lib/data/elements/men//images/floor/symbol\\page49_element_2.28_Im5.png"
+				]
 			}
 		},
 		"3.2": {
@@ -44,13 +48,13 @@
 			"value": 0.2,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im16.png",
-					"src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im22.png",
-					"src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im5.png"
+					"_app/src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im16.png",
+					"_app/src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im22.png",
+					"_app/src/lib/data/elements/men//images/floor/element\\page51_element_3.2_Im5.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/floor/symbol\\page51_element_3.2_Im10.png",
-					"src/lib/data/elements/men//images/floor/symbol\\page51_element_3.2_Im31.png"
+					"_app/src/lib/data/elements/men//images/floor/symbol\\page51_element_3.2_Im10.png",
+					"_app/src/lib/data/elements/men//images/floor/symbol\\page51_element_3.2_Im31.png"
 				]
 			}
 		}
@@ -65,8 +69,12 @@
 			"type": "acrobatic",
 			"value": 0.4,
 			"images": {
-				"figure": ["src/lib/data/elements/men//images/rings/element\\page91_element_2.58_Im1.png"],
-				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page91_element_2.58_Im19.png"]
+				"figure": [
+					"_app/src/lib/data/elements/men//images/rings/element\\page91_element_2.58_Im1.png"
+				],
+				"symbol": [
+					"_app/src/lib/data/elements/men//images/rings/symbol\\page91_element_2.58_Im19.png"
+				]
 			}
 		},
 		"2.113": {
@@ -88,8 +96,12 @@
 			"type": "acrobatic",
 			"value": 0.6,
 			"images": {
-				"figure": ["src/lib/data/elements/men//images/rings/element\\page94_element_2.132_Im0.png"],
-				"symbol": ["src/lib/data/elements/men//images/rings/symbol\\page94_element_2.132_Im3.png"]
+				"figure": [
+					"_app/src/lib/data/elements/men//images/rings/element\\page94_element_2.132_Im0.png"
+				],
+				"symbol": [
+					"_app/src/lib/data/elements/men//images/rings/symbol\\page94_element_2.132_Im3.png"
+				]
 			}
 		},
 		"3.77": {
@@ -114,10 +126,10 @@
 			"value": 0.3,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/pommel horse/element\\page74_element_3.45_Im15.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/element\\page74_element_3.45_Im15.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/pommel horse/symbol\\page74_element_3.45_Im16.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/symbol\\page74_element_3.45_Im16.png"
 				]
 			}
 		},
@@ -131,10 +143,10 @@
 			"value": 0.3,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/pommel horse/element\\page75_element_3.51_Im1.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/element\\page75_element_3.51_Im1.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/pommel horse/symbol\\page75_element_3.51_Im6.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/symbol\\page75_element_3.51_Im6.png"
 				]
 			}
 		},
@@ -148,10 +160,10 @@
 			"value": 0.5,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/pommel horse/element\\page76_element_3.77_Im7.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/element\\page76_element_3.77_Im7.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/pommel horse/symbol\\page76_element_3.77_Im9.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/symbol\\page76_element_3.77_Im9.png"
 				]
 			}
 		},
@@ -165,12 +177,12 @@
 			"value": 0.1,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/pommel horse/element\\page77_element_4.1_Im0.png",
-					"src/lib/data/elements/men//images/pommel horse/element\\page77_element_4.1_Im8.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/element\\page77_element_4.1_Im0.png",
+					"_app/src/lib/data/elements/men//images/pommel horse/element\\page77_element_4.1_Im8.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/pommel horse/symbol\\page77_element_4.1_Im12.png",
-					"src/lib/data/elements/men//images/pommel horse/symbol\\page77_element_4.1_Im23.png"
+					"_app/src/lib/data/elements/men//images/pommel horse/symbol\\page77_element_4.1_Im12.png",
+					"_app/src/lib/data/elements/men//images/pommel horse/symbol\\page77_element_4.1_Im23.png"
 				]
 			}
 		}
@@ -186,7 +198,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page113_element_4.401_Im0.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page113_element_4.401_Im0.png"
 				],
 				"symbol": []
 			}
@@ -201,7 +213,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page113_element_4.411_Im7.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page113_element_4.411_Im7.png"
 				],
 				"symbol": []
 			}
@@ -216,7 +228,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page113_element_4.408_Im4.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page113_element_4.408_Im4.png"
 				],
 				"symbol": []
 			}
@@ -241,7 +253,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page113_element_4.419_Im14.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page113_element_4.419_Im14.png"
 				],
 				"symbol": []
 			}
@@ -256,7 +268,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.468_Im1.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.468_Im1.png"
 				],
 				"symbol": []
 			}
@@ -271,7 +283,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.470_Im2.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.470_Im2.png"
 				],
 				"symbol": []
 			}
@@ -286,7 +298,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.472_Im4.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.472_Im4.png"
 				],
 				"symbol": []
 			}
@@ -301,7 +313,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.460_Im9.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.460_Im9.png"
 				],
 				"symbol": []
 			}
@@ -316,7 +328,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.459_Im10.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.459_Im10.png"
 				],
 				"symbol": []
 			}
@@ -331,7 +343,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.458_Im11.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.458_Im11.png"
 				],
 				"symbol": []
 			}
@@ -346,7 +358,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.455_Im12.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.455_Im12.png"
 				],
 				"symbol": []
 			}
@@ -361,7 +373,7 @@
 			"type": "acrobatic",
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/vault/element\\page115_element_4.449_Im14.png"
+					"_app/src/lib/data/elements/men//images/vault/element\\page115_element_4.449_Im14.png"
 				],
 				"symbol": []
 			}
@@ -378,11 +390,11 @@
 			"value": 0.3,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page123_element_1.27_Im0.png",
-					"src/lib/data/elements/men//images/parallel bars/element\\page123_element_1.27_Im5.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page123_element_1.27_Im0.png",
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page123_element_1.27_Im5.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page123_element_1.27_Im10.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page123_element_1.27_Im10.png"
 				]
 			}
 		},
@@ -396,10 +408,10 @@
 			"value": 0.2,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page124_element_1.62_Im6.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page124_element_1.62_Im6.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page124_element_1.62_Im11.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page124_element_1.62_Im11.png"
 				]
 			}
 		},
@@ -413,10 +425,10 @@
 			"value": 0.2,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page125_element_1.74_Im0.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page125_element_1.74_Im0.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page125_element_1.74_Im4.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page125_element_1.74_Im4.png"
 				]
 			}
 		},
@@ -430,10 +442,10 @@
 			"value": 0.3,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page126_element_1.99_Im0.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page126_element_1.99_Im0.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page126_element_1.99_Im5.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page126_element_1.99_Im5.png"
 				]
 			}
 		},
@@ -447,12 +459,12 @@
 			"value": 0.1,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page127_element_2.7_Im2.png",
-					"src/lib/data/elements/men//images/parallel bars/element\\page127_element_2.7_Im25.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page127_element_2.7_Im2.png",
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page127_element_2.7_Im25.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page127_element_2.7_Im15.png",
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page127_element_2.7_Im26.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page127_element_2.7_Im15.png",
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page127_element_2.7_Im26.png"
 				]
 			}
 		},
@@ -466,10 +478,10 @@
 			"value": 0.5,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page128_element_2.29_Im1.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page128_element_2.29_Im1.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page128_element_2.29_Im20.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page128_element_2.29_Im20.png"
 				]
 			}
 		},
@@ -483,11 +495,11 @@
 			"value": 0.6,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page129_element_2.54_Im6.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page129_element_2.54_Im6.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page129_element_2.54_Im7.png",
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page129_element_2.54_Im8.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page129_element_2.54_Im7.png",
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page129_element_2.54_Im8.png"
 				]
 			}
 		},
@@ -501,7 +513,7 @@
 			"value": 0.5,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page132_element_3.53_Im18.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page132_element_3.53_Im18.png"
 				],
 				"symbol": []
 			}
@@ -516,10 +528,10 @@
 			"value": 0.3,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/parallel bars/element\\page133_element_3.75_Im16.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/element\\page133_element_3.75_Im16.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/parallel bars/symbol\\page133_element_3.75_Im13.png"
+					"_app/src/lib/data/elements/men//images/parallel bars/symbol\\page133_element_3.75_Im13.png"
 				]
 			}
 		}
@@ -535,11 +547,11 @@
 			"value": 0.2,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/high bar/element\\page149_element_2.2_Im4.png"
+					"_app/src/lib/data/elements/men//images/high bar/element\\page149_element_2.2_Im4.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/high bar/symbol\\page149_element_2.2_Im5.png",
-					"src/lib/data/elements/men//images/high bar/symbol\\page149_element_2.2_Im7.png"
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page149_element_2.2_Im5.png",
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page149_element_2.2_Im7.png"
 				]
 			}
 		},
@@ -553,12 +565,12 @@
 			"value": 0.3,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/high bar/element\\page151_element_2.57_Im5.png",
-					"src/lib/data/elements/men//images/high bar/element\\page151_element_2.57_Im6.png"
+					"_app/src/lib/data/elements/men//images/high bar/element\\page151_element_2.57_Im5.png",
+					"_app/src/lib/data/elements/men//images/high bar/element\\page151_element_2.57_Im6.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/high bar/symbol\\page151_element_2.57_Im14.png",
-					"src/lib/data/elements/men//images/high bar/symbol\\page151_element_2.57_Im7.png"
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page151_element_2.57_Im14.png",
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page151_element_2.57_Im7.png"
 				]
 			}
 		},
@@ -572,9 +584,11 @@
 			"value": 0.1,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/high bar/element\\page154_element_3.1_Im5.png"
+					"_app/src/lib/data/elements/men//images/high bar/element\\page154_element_3.1_Im5.png"
 				],
-				"symbol": ["src/lib/data/elements/men//images/high bar/symbol\\page154_element_3.1_Im2.png"]
+				"symbol": [
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page154_element_3.1_Im2.png"
+				]
 			}
 		},
 		"3.41": {
@@ -587,10 +601,10 @@
 			"value": 0.5,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/high bar/element\\page155_element_3.41_Im10.png"
+					"_app/src/lib/data/elements/men//images/high bar/element\\page155_element_3.41_Im10.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/high bar/symbol\\page155_element_3.41_Im4.png"
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page155_element_3.41_Im4.png"
 				]
 			}
 		},
@@ -604,10 +618,10 @@
 			"value": 0.4,
 			"images": {
 				"figure": [
-					"src/lib/data/elements/men//images/high bar/element\\page156_element_3.70_Im1.png"
+					"_app/src/lib/data/elements/men//images/high bar/element\\page156_element_3.70_Im1.png"
 				],
 				"symbol": [
-					"src/lib/data/elements/men//images/high bar/symbol\\page156_element_3.70_Im2.png"
+					"_app/src/lib/data/elements/men//images/high bar/symbol\\page156_element_3.70_Im2.png"
 				]
 			}
 		}

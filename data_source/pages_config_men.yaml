@@ -167,19 +167,19 @@ apparatuses:
         es: (\d+)\.\s*_?\s?(?!EG)([^\_|\s].+?)(?=\d+\._[^a-z]|$)
         nl: (\d+)\.\s+(.*?)\s*(?=\d+\.|\Z)
 file:
-  en: source/files/Men/en_ 2022-2024 MAG CoP.pdf
-  fr: source/files/Men/en_ 2022-2024 MAG CoP.pdf
-  es: source/files/Men/en_ 2022-2024 MAG CoP.pdf
-  nl: source/files/Men/Reglement-Bovenbouw-versie-1.1.pdf
+  en: data_source/files/Men/en_ 2022-2024 MAG CoP.pdf
+  fr: data_source/files/Men/en_ 2022-2024 MAG CoP.pdf
+  es: data_source/files/Men/en_ 2022-2024 MAG CoP.pdf
+  nl: data_source/files/Men/Reglement-Bovenbouw-versie-1.1.pdf
 language_description_index:
   nl: 0
   en: 1
   fr: 0
   es: 2
-exception_file: source/files/Men/elements_men_G_H.yaml
-vault_values_file: source/files/Men/vault_values.yaml
-element_grouping_file: source/element_grouping.yaml
-output directory: src/lib/data/elements/men/
+exception_file: data_source/files/Men/elements_men_G_H.yaml
+vault_values_file: data_source/files/Men/vault_values.yaml
+element_grouping_file: data_source/element_grouping.yaml
+output directory: _app/src/lib/data/elements/men/
 string adjustments:
   - ['  ', ' ']
   - ['    ', ' ']

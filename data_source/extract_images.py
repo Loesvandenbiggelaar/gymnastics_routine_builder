@@ -285,7 +285,7 @@ def do_extraction(output_folder, apparatus, language, config, do_group_extractio
 
 
 def main():
-    config = loadConfig("source/pages_config_women.yaml")
+    config = loadConfig("data_source/pages_config_women.yaml")
     output_folder = config["output directory"] + "/images/"
     language = "en"
     json = {}
@@ -299,7 +299,7 @@ def main():
         elements_data = addImagePath(elements_data, metadata)
         saveJson(config["output directory"] + language + "_elements.json", elements_data)
 
-    config = loadConfig("source/pages_config_men.yaml")
+    config = loadConfig("data_source/pages_config_men.yaml")
     output_folder = config["output directory"] + "/images/"
     language = "en"
     json = {}

@@ -86,13 +86,13 @@ apparatuses:
         en: (\d+\.\d+)\s+(?!(?:FX|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
         nl: (\d+\.\d+)\s+(?!(?:Vloer|\d\.\d{3,}|\s|\.|\/))(.*?)(?=\s+\d+\.\d+|$|\s{4,})
 file:
-  en: source/files/women/en_2022-2024 WAG COP.pdf
-  nl: source/files/women/NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
+  en: data_source/files/women/en_2022-2024 WAG COP.pdf
+  nl: data_source/files/women/NTS-Elemententabel-2022-2024-deel-4-versie-01-07-22.pdf
 language_description_index:
   en: 0
   nl: 0
-element_grouping_file: source/element_grouping.yaml
-output directory: src/lib/data/elements/women/
+element_grouping_file: data_source/element_grouping.yaml
+output directory: _app/src/lib/data/elements/women/
 string adjustments:
   - ["  ", " "]
   - ["    ", " "]

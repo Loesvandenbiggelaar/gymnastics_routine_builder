@@ -342,7 +342,7 @@ def main():
         print("processing language:", language)
 
         try:
-            extractor_women = ProcessElements("source/pages_config_women.yaml", language, "womens")
+            extractor_women = ProcessElements("data_source/pages_config_women.yaml", language, "womens")
             extractor_women.addApparatus(["vault","uneven bars", "beam", "floor"])
             extractor_women.process()
             extractor_women.writeResult()
@@ -351,7 +351,7 @@ def main():
 
 
         try:
-            extractor_men = ProcessElements("source/pages_config_men.yaml",language, "mens")
+            extractor_men = ProcessElements("data_source/pages_config_men.yaml",language, "mens")
             extractor_men.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
             extractor_men.process()
             extractor_men.writeResult()
