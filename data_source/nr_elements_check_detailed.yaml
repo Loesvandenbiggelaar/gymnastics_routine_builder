@@ -1,0 +1,38 @@
+men:
+  floor: 96
+  pommel horse: 114
+  rings: 148
+  vault: 94
+  parallel bars: 177
+  high bar: 132
+women:
+  vault:
+    1: 24
+    2: 15
+    3: 12
+    4: 19
+    5: 12
+    total: 82
+  uneven bars:
+    1: 26
+    2: 21
+    3: 28
+    4: 29
+    5: 31
+    6: 39
+    total: 174
+  beam: 
+    1: 51
+    2: 37
+    3: 21
+    4: 21
+    5: 36
+    6: 31
+    total: 197
+  floor:
+    1: 42
+    2: 18
+    3: 11
+    4: 16
+    5: 17
+    total: 104

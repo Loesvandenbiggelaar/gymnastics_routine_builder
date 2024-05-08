@@ -1,3 +1,4 @@
+import os
 import re
 import yaml
 import json
@@ -5,6 +6,7 @@ import json
 import fitz
 from difflib import SequenceMatcher
 
+test = False
 
 def loadConfig(file):
     """
@@ -141,12 +143,13 @@ class ProcessElements:
         if self.language == "nl":
             description = res[1]
         else:
-            text_description = re.split(r"\|(?=[A-Z|\s|\d|_])", res[1])
-            if len(text_description) < 3:
-                print("[WARNING], could not process", text_description)
-                return
-            description = text_description[self.config["language_description_index"][self.language]]
+            if test:
+                print(res)
 
+            if len(res) < 4:
+                print("[WARNING], could not process", res)
+                return
+            description = res[self.config["language_description_index"][self.language]+1]
         try:
             if description != description.upper():
                 if group_number+"."+res[0] in self.elements[apparatus]:
@@ -162,14 +165,15 @@ class ProcessElements:
         This function extracts the elements from the text. 
         """
         regex = self.config["apparatuses"][apparatus]["regex"]["element"][self.language]
+        if test:
+            print(text)
+            print(regex)
         for res in re.findall(regex, text):
-            # print(res)
             if self.mens_womens == "womens":
                 self.processRegexResultWomens(res, apparatus)
             else:
                 assert self.mens_womens == "mens"
                 self.processRegexResultMens(res,apparatus, group_number)
-            
         pass
 
     def assertGroupNameOkay(self, string, group_number, apparatus):
@@ -216,15 +220,17 @@ class ProcessElements:
             adjustments = [["\n",""]]
         elif self.mens_womens == "mens":
             adjustments = [["\t", "_"], ["\n", "|"], ["||", "|"], ["Code MAG July 2022155", ""]]
+            # adjustments = [["\n", "|"]]
         else:
             raise ValueError (f"{self.mens_womens} is not valid, must be either 'mens' or 'womens'")
         
         text = adjustString(adjustString(page.get_text(),adjustments), self.config["string adjustments"])
-
+        
         # get the elements which are on the page
         group_number = self.extractGroup(text, apparatus)
+        if test:
+            print("group number", group_number)
         self.extractElementsFromPage(text, apparatus, group_number)
-
         pass
 
     def processApparatus(self, apparatus):
@@ -237,7 +243,7 @@ class ProcessElements:
         pages = self.loadPages(apparatus)
         for page in pages:
             self.processPage(page, apparatus)
-
+        
         self.addInfoToElements(apparatus)
         pass
 
@@ -254,7 +260,6 @@ class ProcessElements:
                 if apparatus == "vault":
                     self.elements[apparatus][_id]["value"] = self.vaultValues[element["id"]]
                     
-                
             self.elements[apparatus][_id]["type"] = self.addTypeOfElement(element, apparatus)
             
             if apparatus != "vault":
@@ -294,7 +299,7 @@ class ProcessElements:
                 else:
                     return i/10
             
-        print(element["difficulty"])
+        # print(element["difficulty"])
         raise ValueError("no valid difficulty found!")
         
 
@@ -337,12 +342,13 @@ class ProcessElements:
         return
 def main():
     languages = ["nl", "en", "fr", "es"]
-    
+    # languages = ["nl"]
     for language in languages:
         print("processing language:", language)
 
         try:
             extractor_women = ProcessElements("data_source/pages_config_women.yaml", language, "womens")
+            # extractor_women.addApparatus(["floor"])
             extractor_women.addApparatus(["vault","uneven bars", "beam", "floor"])
             extractor_women.process()
             extractor_women.writeResult()
@@ -352,11 +358,15 @@ def main():
 
         try:
             extractor_men = ProcessElements("data_source/pages_config_men.yaml",language, "mens")
+            # extractor_men.addApparatus(app=["parallel bars"])
             extractor_men.addApparatus(["floor", "rings","pommel horse", "vault", "parallel bars", "high bar"])
             extractor_men.process()
             extractor_men.writeResult()
         except KeyError:
             print(language, "not supported for men!")
+
+    # run the quality check python script
+    os.system("python data_source/check_quality.py")
 
 
 if __name__ == "__main__":
