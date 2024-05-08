@@ -24,6 +24,7 @@
 
 <style>
 	#elements_table {
+		padding: 0.3em;
 		height: calc(100dvh - 6rem);
 		padding-bottom: 3rem;
 		/* Sick fade out effect for overflowing text */
@@ -35,6 +36,7 @@
 	}
 	.filterbar {
 		margin: 0.5rem 0;
+		padding: 0.5rem;
 		display: flex;
 		gap: 0.5rem;
 	}
