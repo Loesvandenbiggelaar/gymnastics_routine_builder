@@ -13,11 +13,8 @@
 	import Icon, { iconExists } from '@iconify/svelte';
 
 	// List for the links and their names
-	const links = [
-		{ name: 'Home', href: '/', icon: 'mdi:home' },
-		{ name: 'About', href: '/about', icon: 'mdi:information-outline' },
-		{ name: 'Builder', href: '/builder', icon: 'mdi:clipboard-list-outline' }
-	];
+	import { routes } from '$lib/modules/routesConfig';
+	const navRoutes = routes.filter((route) => route.display);
 	// Background for active links
 	$: classesActive = (href: string) =>
 		href === $page.url.pathname ? '!variant-filled-primary' : '';
@@ -32,7 +29,7 @@
 	</div>
 	<hr class="divider" />
 	<nav class="list-nav">
-		{#each links as link}
+		{#each navRoutes as link}
 			<a href={link.href} class="flex justify-between {classesActive(link.href)}">
 				<span>{link.name}</span>
 				<Icon icon={link.icon} />
