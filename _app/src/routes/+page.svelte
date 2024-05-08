@@ -4,13 +4,14 @@
 	import Datatable from '$lib/components/Datatable.svelte';
 	import Filter from '$lib/components/core/Filter.svelte';
 	import Search from '$lib/components/core/Search.svelte';
+	import '$lib/themes/vars.css';
 </script>
 
 <svelte:head>
 	<title>Gymnastics Companion</title>
 </svelte:head>
 
-HELLO
+<div class="mesh" />
 
 <style>
 	.filterbar {
