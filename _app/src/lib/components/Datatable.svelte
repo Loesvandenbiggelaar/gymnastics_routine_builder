@@ -13,6 +13,9 @@
 	import { selectedApparatus } from '$lib/stores/datastore';
 	import rawData from '$lib/data/elements/women/nl_elements.json';
 
+	//CSS Settings
+	let cssClasses: string = '';
+	export { cssClasses as class };
 	///
 	//Modal Settings
 	const modalComponent: ModalComponent = {
@@ -101,11 +104,28 @@
 	$: renderedData = $data.filteredData as any[];
 </script>
 
-<SvelteTable
-	rows={renderedData}
-	{columns}
-	on:clickRow={showElementInModal}
-	classNameTable="lx-table alternating"
-	classNameThead="sticky-header"
-	rowKey="id"
-></SvelteTable>
+<div id="table_wrapper" class={cssClasses}>
+	<SvelteTable
+		rows={renderedData}
+		{columns}
+		on:clickRow={showElementInModal}
+		classNameTable="lx-table alternating"
+		classNameThead="sticky-header"
+		rowKey="id"
+	></SvelteTable>
+	<hr class="divider" />
+</div>
+
+<style>
+	#table_wrapper {
+		overflow-x: auto;
+		overflow-y: auto;
+		height: 100%;
+	}
+
+	.divider {
+		margin: 0.5rem 10dvw;
+		opacity: 0.5;
+		padding-bottom: 10px;
+	}
+</style>

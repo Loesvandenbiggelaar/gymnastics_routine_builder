@@ -10,17 +10,29 @@
 	<title>Elements Table</title>
 </svelte:head>
 
-<div class="filterbar">
-	<ApparatusPicker />
-	<Search />
-	<Filter icon>
-		<svelte:fragment slot="name">Filter</svelte:fragment>
-		<svelte:fragment slot="popup">popup...</svelte:fragment>
-	</Filter>
-</div>
-<Datatable />
+<section id="elements_table">
+	<div class="filterbar">
+		<ApparatusPicker />
+		<Search />
+		<Filter icon>
+			<svelte:fragment slot="name">Filter</svelte:fragment>
+			<svelte:fragment slot="popup">popup...</svelte:fragment>
+		</Filter>
+	</div>
+	<Datatable class="pb-10" />
+</section>
 
 <style>
+	#elements_table {
+		height: calc(100dvh - 6rem);
+		padding-bottom: 3rem;
+		/* Sick fade out effect for overflowing text */
+		--fadeout-gradient-mask: linear-gradient(to bottom, #000 90%, transparent);
+		mask-image: var(--fadeout-gradient-mask);
+		-moz-mask-image: var(--fadeout-gradient-mask);
+		-webkit-mask-image: var(--fadeout-gradient-mask);
+		-o-mask-image: var(--fadeout-gradient-mask);
+	}
 	.filterbar {
 		margin: 0.5rem 0;
 		display: flex;

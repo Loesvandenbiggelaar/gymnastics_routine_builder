@@ -9,7 +9,7 @@
 }
 
 .lx-table thead {
-	@apply variant-filled-surface;
+	@apply bg-primary-400-500-token;
 }
 
 .lx-table thead tr th {
@@ -56,7 +56,7 @@
 }
 
 .lx-table tr:hover td {
-	@apply variant-filled-primary;
+	@apply bg-primary-100-800-token;
 }
 
 .lx-table.alternating tr:nth-child(even) {
