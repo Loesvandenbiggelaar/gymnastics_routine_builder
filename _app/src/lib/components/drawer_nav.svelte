@@ -22,7 +22,7 @@
 
 <div class="wrapper p-2 h-full flex flex-col">
 	<div class="topbar flex justify-between items-center">
-		<button class="btn variant-filled-primary aspect-square p-3" on:click={closeNavDrawer}>
+		<button class="btn variant-filled-secondary aspect-square p-2" on:click={closeNavDrawer}>
 			<Icon icon="mdi:menu-open" />
 		</button>
 		<h1 class="display-text">Gymnastics Companion</h1>
@@ -30,7 +30,11 @@
 	<hr class="divider" />
 	<nav class="list-nav">
 		{#each navRoutes as link}
-			<a href={link.href} class="flex justify-between {classesActive(link.href)}">
+			<a
+				href={link.href}
+				class="flex justify-between {classesActive(link.href)}"
+				on:click={closeNavDrawer}
+			>
 				<span>{link.name}</span>
 				<Icon icon={link.icon} />
 			</a>
