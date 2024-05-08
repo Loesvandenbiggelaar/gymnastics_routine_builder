@@ -15,7 +15,9 @@
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
-	const searchTagList = ['foo', 'bar', 'baz', 'chipmunk', 'quux'];
+	const searchTagList = ['salto', 'yamashita', 'flikflak', 'arabier', 'tsukahara'];
+	$: searchTagList_filtered = searchTagList.filter((tag) => tag.includes(value));
+	$: enableSearchDropdown = value.length > 0 && searchTagList_filtered.length > 0;
 
 	//
 	//
@@ -55,16 +57,21 @@
 			return clearSearch();
 		}
 		if (e.key === 'Enter') {
-			$data.filterList.searchList = [...$data.filterList.searchList, value] as string[];
-			clearSearch();
-			return;
+			return addToFilterList(value);
 		}
+	}
+
+	function addToFilterList(input: String) {
+		$data.filterList.searchList = [...$data.filterList.searchList, input] as string[];
+		clearSearch();
+		return;
 	}
 
 	// Call $data.search when value is changed
 	// But only AFTER $data is loaded
 </script>
 
+<!-- SEARCH BAR -->
 <div id="search" class="w-fit relative">
 	<div id="searchBar">
 		<input
@@ -86,7 +93,19 @@
 				</button>
 			{/if}
 		</div>
+		<!-- SEARCH OPTIONS DROPDOWN -->
+		<div id="searchOptionsDropdown" class="card" class:active={enableSearchDropdown}>
+			<!-- TODO add recent searches option -->
+			{#each searchTagList_filtered as tag}
+				<button class="btn variant-soft searchTag" on:click={() => addToFilterList(tag)}>
+					<Icon icon="mdi:label-outline" />
+					{tag}
+				</button>
+			{/each}
+		</div>
 	</div>
+
+	<!-- SEARCH FILTER -->
 	<button
 		id="searchFilter"
 		class="btn"
@@ -96,6 +115,8 @@
 		<Icon {icon} />
 	</button>
 </div>
+
+<!-- SEARCH FILTER POPUP -->
 
 <div id="searchPopup" class="card p-2 z-10" data-popup={popupSettings.target}>
 	{#each Object.keys(propsList) as key}
@@ -119,6 +140,8 @@
 
 	#searchBar {
 		position: relative;
+		/* Place in front of dropdown */
+		z-index: 3;
 	}
 
 	#searchBarButtons {
@@ -130,8 +153,47 @@
 		font-size: 1em;
 	}
 
+	#searchOptionsDropdown {
+		/* Positioning */
+		position: absolute;
+		z-index: 2;
+		top: 100%;
+		left: 0;
+		right: 0;
+
+		/* Active */
+		opacity: 1;
+		transition: all 0.2s ease-in-out;
+		transform: scaleY(1);
+
+		/* Box styling */
+		padding: 0.3em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#searchOptionsDropdown:not(.active) {
+		opacity: 0;
+		visibility: hidden;
+		/* Collapse */
+		overflow: hidden;
+		top: 0;
+		transform: scaleY(0.4);
+	}
+
+	#searchOptionsDropdown button {
+		padding: 0.3em;
+	}
+
 	#searchBarButtons button {
 		padding: 0.3em;
+	}
+
+	.searchTag {
+		display: flex;
+		justify-content: flex-start;
+		gap: 0.5em;
+		margin-top: 0.3em;
 	}
 
 	.inactive:not(:hover) {
