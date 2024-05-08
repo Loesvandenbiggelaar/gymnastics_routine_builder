@@ -13,11 +13,8 @@
 	import Icon, { iconExists } from '@iconify/svelte';
 
 	// List for the links and their names
-	const links = [
-		{ name: 'Home', href: '/', icon: 'mdi:home' },
-		{ name: 'About', href: '/about', icon: 'mdi:information-outline' },
-		{ name: 'Builder', href: '/builder', icon: 'mdi:clipboard-list-outline' }
-	];
+	import { routes } from '$lib/modules/routesConfig';
+	const navRoutes = routes.filter((route) => route.display);
 	// Background for active links
 	$: classesActive = (href: string) =>
 		href === $page.url.pathname ? '!variant-filled-primary' : '';
@@ -25,15 +22,19 @@
 
 <div class="wrapper p-2 h-full flex flex-col">
 	<div class="topbar flex justify-between items-center">
-		<button class="btn variant-filled-primary aspect-square p-3" on:click={closeNavDrawer}>
+		<button class="btn variant-filled-secondary aspect-square p-2" on:click={closeNavDrawer}>
 			<Icon icon="mdi:menu-open" />
 		</button>
 		<h1 class="display-text">Gymnastics Companion</h1>
 	</div>
 	<hr class="divider" />
 	<nav class="list-nav">
-		{#each links as link}
-			<a href={link.href} class="flex justify-between {classesActive(link.href)}">
+		{#each navRoutes as link}
+			<a
+				href={link.href}
+				class="flex justify-between {classesActive(link.href)}"
+				on:click={closeNavDrawer}
+			>
 				<span>{link.name}</span>
 				<Icon icon={link.icon} />
 			</a>

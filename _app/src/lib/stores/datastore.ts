@@ -54,6 +54,7 @@ export class ElementData {
 		searchProperties?: string[];
 	};
 	constructor(rawData: Object, apparatus?: string) {
+		// Initialize data
 		this.rawData = rawData as Object;
 		this.apparatus = (apparatus ? apparatus : Object.keys(rawData)[0]) as keyof typeof this.rawData;
 		this.elementData = Object.values(rawData[this.apparatus]);

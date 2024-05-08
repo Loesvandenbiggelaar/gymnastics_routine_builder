@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { filterValues, data } from '$lib/stores/datastore';
-	export let placeholder = 'Search...';
+	export let placeholder = 'Search Elements...';
 	import { type PopupSettings, popup } from '@skeletonlabs/skeleton';
 	export let popupSettings: PopupSettings = {
 		event: 'click',
