@@ -34,7 +34,7 @@
 </AppBar> -->
 
 <div id="appbar" class="appbar sticky">
-	<div id="actions">
+	<div id="menu">
 		<button on:click={openNavDrawer} class="btn aspect-square p-1 menu-icon">
 			<Icon icon="jam:menu" class="cursor-pointer menu-icon" />
 		</button>
@@ -48,10 +48,12 @@
 		</small>
 	</div>
 
-	<div id="avatar" class="user-avatar">
-		<Avatar class="w-[1.5em]">
-			<Icon icon="mdi:account" class="cursor-pointer menu-icon" />
-		</Avatar>
+	<div id="actions">
+		<button id="avatar" class="user-avatar">
+			<Avatar class="w-[1.5em]">
+				<Icon icon="mdi:account" class="cursor-pointer" />
+			</Avatar>
+		</button>
 	</div>
 </div>
 
@@ -73,14 +75,20 @@
 		top: 0;
 
 		/* Box Styling */
-		padding: 1em;
+		padding: 0.8em;
 		background-color: rgb(var(--bg-color));
 
 		/* Item positioning */
 		display: flex;
 		gap: 1em;
 		align-items: center;
-		background: linear-gradient(to bottom, rgb(var(--bg-color)) 80%, transparent);
+		background: rgb(var(--bg-color));
+		/* Sick fade out effect for overflowing text */
+		--fadeout-gradient-mask: linear-gradient(to bottom, #000 85%, transparent);
+		mask-image: var(--fadeout-gradient-mask);
+		-moz-mask-image: var(--fadeout-gradient-mask);
+		-webkit-mask-image: var(--fadeout-gradient-mask);
+		-o-mask-image: var(--fadeout-gradient-mask);
 
 		/* Item Styling */
 		font-size: 1.5em;
@@ -117,11 +125,14 @@
 		font-size: inherit;
 	}
 
-	.user-avatar {
+	#actions {
 		/* Sizing */
 		margin-left: auto;
 		font-size: 1em;
+		padding: 0.2em;
+	}
 
+	.user-avatar {
 		transition: all 0.2s ease-in-out;
 		/* Item Styling */
 		border-radius: 9999px;
