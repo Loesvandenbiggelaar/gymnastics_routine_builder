@@ -1,9 +1,7 @@
 <script lang="ts">
 	// Import Components
-	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
-	import Datatable from '$lib/components/Datatable.svelte';
-	import Filter from '$lib/components/core/Filter.svelte';
-	import Search from '$lib/components/core/Search.svelte';
+	import Card from '$lib/components/core/Card.svelte';
+	import { cardItems } from '$lib/modules/cardItems';
 	import '$lib/themes/vars.css';
 </script>
 
@@ -11,12 +9,25 @@
 	<title>Gymnastics Companion</title>
 </svelte:head>
 
-<div class="mesh" />
+<!-- Cool mesh background -->
+<!-- <div class="mesh" /> -->
+
+<!-- Cards -->
+<section id="cards">
+	<div class="card-wrapper">
+		{#each cardItems as item}
+			<Card {item} />
+		{/each}
+	</div>
+</section>
 
 <style>
-	.filterbar {
-		margin: 0.5rem 0;
+	#cards {
+		margin-left: auto;
+	}
+	.card-wrapper {
 		display: flex;
-		gap: 0.5rem;
+		flex-wrap: wrap;
+		gap: 1.5rem;
 	}
 </style>
