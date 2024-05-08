@@ -16,8 +16,8 @@
 		<ApparatusPicker />
 		<Search />
 		<SearchTags />
-		<Filter icon>
-			<svelte:fragment slot="name">Filter</svelte:fragment>
+		<Filter icon="mdi:tune-vertical-variant">
+			<svelte:fragment slot="name">More Filters</svelte:fragment>
 			<svelte:fragment slot="popup">popup...</svelte:fragment>
 		</Filter>
 	</div>
