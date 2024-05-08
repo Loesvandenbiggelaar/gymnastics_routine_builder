@@ -24,19 +24,6 @@
 	};
 	const modalStore = getModalStore();
 
-	let DEPRECATED_data: Array<Object> = Object.values(rawData[$selectedApparatus.data_name]);
-	let DEPRECATED_filteredData: Array<Object> = DEPRECATED_data;
-	$data.setApparatus('vault');
-
-	function updateDataByApparatus(input) {
-		const _apparatus = Object.keys(rawData).includes(input.data_name)
-			? input.data_name
-			: Object.keys(rawData)[0];
-		DEPRECATED_filteredData = DEPRECATED_data = Object.values(rawData[_apparatus]);
-	}
-	// Update data based on selected apparatus
-	$: updateDataByApparatus($selectedApparatus);
-
 	// Modal
 	// Show element in modal
 	function showElementInModal(e: any) {
@@ -108,10 +95,10 @@
 		// 	},
 		// 	sortable: false
 		// }
-	];
+	] as any;
 
 	//RENDER DATA!!
-	$: renderedData = $data.filteredData;
+	$: renderedData = $data.filteredData as any[];
 </script>
 
 <SvelteTable
