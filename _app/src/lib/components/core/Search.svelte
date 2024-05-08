@@ -1,4 +1,7 @@
 <script lang="ts">
+	// Get css vars
+	import '$lib/themes/vars.css';
+	// Action and popups for filter
 	import { filterValues, data } from '$lib/stores/datastore';
 	export let placeholder = 'Search Elements...';
 	import { type PopupSettings, popup } from '@skeletonlabs/skeleton';
@@ -52,6 +55,9 @@
 		value = '';
 	}
 
+	// Check if search yields valid results
+	$: validSearch = Array.isArray($data.filteredData) && $data.filteredData.length > 0;
+
 	function searchKeydown(e: KeyboardEvent) {
 		if (e.key === 'Delete') {
 			return clearSearch();
@@ -81,7 +87,7 @@
 			type="text"
 			bind:value
 			{placeholder}
-			class="input input-bordered w-full"
+			class="input w-full {validSearch ? 'validInput' : 'invalidInput'}"
 			on:keydown={searchKeydown}
 		/>
 		<div id="searchBarButtons">
@@ -144,6 +150,11 @@
 		position: relative;
 		/* Place in front of dropdown */
 		z-index: 3;
+	}
+
+	.invalidInput {
+		box-shadow: 0 0 2px 0.5px rgb(var(--color-error-500)) !important;
+		border: 1px solid rgb(var(--color-error-500)) !important;
 	}
 
 	#searchBarButtons {
