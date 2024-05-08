@@ -7,10 +7,18 @@
 </script>
 
 <svelte:head>
-	<title>Gymnastics Companion</title>
+	<title>Elements Table</title>
 </svelte:head>
 
-HELLO
+<div class="filterbar">
+	<ApparatusPicker />
+	<Search />
+	<Filter icon>
+		<svelte:fragment slot="name">Filter</svelte:fragment>
+		<svelte:fragment slot="popup">popup...</svelte:fragment>
+	</Filter>
+</div>
+<Datatable />
 
 <style>
 	.filterbar {
