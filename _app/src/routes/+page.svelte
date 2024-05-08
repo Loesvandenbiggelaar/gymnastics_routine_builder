@@ -6,6 +6,10 @@
 	import Search from '$lib/components/core/Search.svelte';
 </script>
 
+<svelte:head>
+	<title>Gymnastics Companion</title>
+</svelte:head>
+
 <div class="filterbar">
 	<ApparatusPicker />
 	<Search />
