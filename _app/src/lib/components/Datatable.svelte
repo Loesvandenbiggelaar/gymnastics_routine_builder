@@ -82,7 +82,8 @@
 			key: 'difficulty',
 			title: 'Difficulty',
 			// Replace the string 'TA' with the Unicode character '\u0000'. The Unicode character '\u0000' is a zero-width space, so when rendering the difficulty value, 'TA' will not be visible.
-			value: (v: { difficulty: string }) => getProp(v, 'difficulty').replace('TA', '0'),
+			value: (v: { difficulty: string }) =>
+				getProp(v, 'difficulty').replace('TA', '1A').replace('SA', '0A'),
 			renderValue: (v: { difficulty: string }) => getProp(v, 'difficulty').toUpperCase(),
 			sortable: true,
 			headerClass: 'text-left'
