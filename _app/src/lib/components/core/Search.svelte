@@ -15,7 +15,7 @@
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
-	const searchTagList = ['salto', 'yamashita', 'flikflak', 'arabier', 'tsukahara'];
+	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara'];
 	$: searchTagList_filtered = searchTagList.filter((tag) => tag.includes(value));
 	$: enableSearchDropdown = value.length > 0 && searchTagList_filtered.length > 0;
 
@@ -57,6 +57,7 @@
 			return clearSearch();
 		}
 		if (e.key === 'Enter') {
+			if (value.length <= 0) return;
 			return addToFilterList(value);
 		}
 	}
