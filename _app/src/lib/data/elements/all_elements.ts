@@ -13083,42 +13083,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.201",
-                "description": " 1.301 ",
+                "id": "1.102",
+                "description": " Jump with \u00bd turn (180\u00b0) kip to support on LB Jump with \u00bd turn (180\u00b0) stoop through to rear support on LB (back kip) ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.401",
-                "description": " 1.501 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.601",
-                "description": " 1.102 Jump with \u00bd turn (180\u00b0) kip to support on LB Jump with \u00bd turn (180\u00b0) stoop through to rear support on LB (back kip) ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page73_element_1.102_Im369.png",
+                        "/data/elements/women//images/uneven bars/element\\page73_element_1.102_Im370.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page73_element_1.102_Im371.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page73_element_1.102_Im374.png"
+                    ]
                 }
             },
             {
@@ -13136,19 +13116,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page73_element_1.202_Im373.png"
                     ]
-                }
-            },
-            {
-                "id": "1.302",
-                "description": " 1.402 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -13186,32 +13153,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/uneven bars/symbol\\page74_element_1.203_Im378.png",
                         "/data/elements/women//images/uneven bars/symbol\\page74_element_1.203_Im377.png"
                     ]
-                }
-            },
-            {
-                "id": "1.303",
-                "description": " 1.403 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.503",
-                "description": " 1.603 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -13269,19 +13210,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.404",
-                "description": " 1.504 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.105",
                 "description": " Facing HB \u2013 jump with 1/1 turn (360\u00b0) to hang on HB  ",
                 "group_number": "1",
@@ -13298,42 +13226,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.205",
-                "description": " 1.305  ",
+                "id": "1.106",
+                "description": " Straddle vault with hand repulsion over LB to catch HB  ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.405",
-                "description": " 1.505 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.605",
-                "description": " 1.106 Straddle vault with hand repulsion over LB to catch HB  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page75_element_1.106_Im395.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page75_element_1.106_Im396.png"
+                    ]
                 }
             },
             {
@@ -13390,16 +13296,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.107",
-                "description": " 1.207 Salto fwd tucked, piked or straddled over LB into L hang on LB  ",
+                "id": "1.207",
+                "description": " Salto fwd tucked, piked or straddled over LB into L hang on LB  ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page76_element_1.207_Im403.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page76_element_1.207_Im404.png"
+                    ]
                 }
             },
             {
@@ -13439,29 +13349,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.507",
-                "description": " 1.607 ",
+                "id": "1.208",
+                "description": " Round-off in front of LB \u2013 flight bwd (straddled) through clear straddle support on LB  ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.108",
-                "description": " 1.208 Round-off in front of LB \u2013 flight bwd (straddled) through clear straddle support on LB  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page76_element_1.208_Im409.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page76_element_1.208_Im410.png"
+                    ]
                 }
             },
             {
@@ -13499,29 +13400,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.109",
-                "description": " 1.209 ",
+                "id": "1.409",
+                "description": " Round-off in front of LB \u2013 tucked salto bwd over LB to hang on LB (Jentsch) Round-off in front of LB, flic-flac through hstd phase on LB  (Gonz\u00e1lez)  ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.309",
-                "description": " 1.409 Round-off in front of LB \u2013 tucked salto bwd over LB to hang on LB (Jentsch) Round-off in front of LB, flic-flac through hstd phase on LB  (Gonz\u00e1lez)  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page77_element_1.409_Im417.png",
+                        "/data/elements/women//images/uneven bars/element\\page77_element_1.409_Im419.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page77_element_1.409_Im420.png"
+                    ]
                 }
             },
             {
@@ -13559,16 +13452,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.110",
-                "description": " 1.210 Jump to hstd on LB with hips bent, then extended, also with \u00bd turn (180\u00b0) in hstd phase, legs together or straddle ",
+                "id": "1.210",
+                "description": " Jump to hstd on LB with hips bent, then extended, also with \u00bd turn (180\u00b0) in hstd phase, legs together or straddle ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.210_Im432.png",
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.210_Im431.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.210_Im441.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.210_Im433.png"
+                    ]
                 }
             },
             {
@@ -13608,42 +13507,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.510",
-                "description": " 1.610 ",
+                "id": "1.411",
+                "description": " Jump to clear support on HB \u2013 clear hip circle to hstd on HB, also with \u00bd turn (180\u00b0) in hstd phase on HB  (McNamara) 1. 511 ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "E",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.111",
-                "description": " 1.211 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.311",
-                "description": " 1.411 Jump to clear support on HB \u2013 clear hip circle to hstd on HB, also with \u00bd turn (180\u00b0) in hstd phase on HB  (McNamara) 1. 511 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.411_Im427.png",
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.411_Im429.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.411_Im430.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.411_Im428.png"
+                    ]
                 }
             },
             {
@@ -13744,29 +13623,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.501",
-                "description": " 2.601 ",
+                "id": "2.202",
+                "description": " Front support on HB \u2013 stoop with flight or free straddle fwd over HB and \u00bd turn (180\u00b0) to hang on HB ",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.102",
-                "description": " 2.202 Front support on HB \u2013 stoop with flight or free straddle fwd over HB and \u00bd turn (180\u00b0) to hang on HB ",
-                "group_number": "2",
-                "group_name": "Casts and clear hip circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page79_element_2.202_Im489.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page79_element_2.202_Im488.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page79_element_2.202_Im490.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page79_element_2.202_Im487.png"
+                    ]
                 }
             },
             {
@@ -13787,19 +13659,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/uneven bars/symbol\\page79_element_2.302_Im444.png",
                         "/data/elements/women//images/uneven bars/symbol\\page79_element_2.302_Im442.png"
                     ]
-                }
-            },
-            {
-                "id": "2.402",
-                "description": " 2.502 ",
-                "group_number": "2",
-                "group_name": "Casts and clear hip circles",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -13867,29 +13726,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.603",
-                "description": " 2.104 Hip circle fwd (hips touching bar)  ",
+                "id": "2.104",
+                "description": " Hip circle fwd (hips touching bar)  ",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.204",
-                "description": " 2.304 ",
-                "group_number": "2",
-                "group_name": "Casts and clear hip circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page80_element_2.104_Im500.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page80_element_2.104_Im499.png"
+                    ]
                 }
             },
             {
@@ -13934,16 +13784,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.205",
-                "description": " 2.305 Clear hip circle to hstd, also with hop-grip change in hstd phase, or with \u00bd turn (180\u00b0) to hstd ",
+                "id": "2.305",
+                "description": " Clear hip circle to hstd, also with hop-grip change in hstd phase, or with \u00bd turn (180\u00b0) to hstd ",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page81_element_2.305_Im515.png",
+                        "/data/elements/women//images/uneven bars/element\\page81_element_2.305_Im516.png",
+                        "/data/elements/women//images/uneven bars/element\\page81_element_2.305_Im512.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page81_element_2.305_Im514.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page81_element_2.305_Im517.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page81_element_2.305_Im513.png"
+                    ]
                 }
             },
             {
@@ -13981,29 +13839,37 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.106",
-                "description": " 2.206 Clear underswing on LB, release and counter movement fwd in flight to hang on HB.  ",
+                "id": "2.206",
+                "description": " Clear underswing on LB, release and counter movement fwd in flight to hang on HB.  ",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page82_element_2.206_Im533.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page82_element_2.206_Im532.png"
+                    ]
                 }
             },
             {
-                "id": "2.306",
-                "description": "  2.406 Inner front support on LB \u2013 clear hip circle through hstd with flight to hang on HB (Shaposhnikova)  ",
+                "id": "2.406",
+                "description": " Inner front support on LB \u2013 clear hip circle through hstd with flight to hang on HB (Shaposhnikova)  ",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page82_element_2.406_Im520.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page82_element_2.406_Im534.png"
+                    ]
                 }
             },
             {
@@ -14044,19 +13910,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.107",
-                "description": " 2.207 ",
-                "group_number": "2",
-                "group_name": "Casts and clear hip circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.307",
                 "description": " Outer front support \u2013 clear hip circle bwd on LB with hecht to hang on HB  (Yarotska) ",
                 "group_number": "2",
@@ -14091,16 +13944,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.101",
-                "description": "  3.201 Giant circle bwd in regular grip, or on one arm (Liu), also with \u00bd turn (180\u00b0) to hstd ",
+                "id": "3.201",
+                "description": " Giant circle bwd in regular grip, or on one arm (Liu), also with \u00bd turn (180\u00b0) to hstd ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page83_element_3.201_Im549.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im548.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im550.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im546.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im547.png"
+                    ]
                 }
             },
             {
@@ -14141,42 +14001,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.501",
-                "description": "  3.601 ",
+                "id": "3.402",
+                "description": " Hang on HB \u00b1 Swing fwd with \u00bd turn (180\u00b0) and flight to hstd ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "E",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.102",
-                "description": " 3.202 ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.302",
-                "description": "  3.402 Hang on HB \u00b1 Swing fwd with \u00bd turn (180\u00b0) and flight to hstd ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page83_element_3.402_Im535.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.402_Im536.png"
+                    ]
                 }
             },
             {
@@ -14197,29 +14035,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.103",
-                "description": " 3.203 ",
+                "id": "3.403",
+                "description": " Long swing fwd, counter straddle-reverse hecht over HB to hang (Tkatchev) (Davydova)  Swing fwd with \u00bd turn (180\u00b0), pike vault over HB to hang  (Monckton)  ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.303",
-                "description": "  3.403 Long swing fwd, counter straddle-reverse hecht over HB to hang (Tkatchev) (Davydova)  Swing fwd with \u00bd turn (180\u00b0), pike vault over HB to hang  (Monckton)  ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page84_element_3.403_Im558.png",
+                        "/data/elements/women//images/uneven bars/element\\page84_element_3.403_Im552.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page84_element_3.403_Im560.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page84_element_3.403_Im559.png"
+                    ]
                 }
             },
             {
@@ -14244,29 +14075,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.603",
-                "description": "  3.104 ",
+                "id": "3.304",
+                "description": " Hang on HB, facing LB \u00b1 swing fwd and roll bwd (legs straddled) to clear support on LB ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.204",
-                "description": "  3.304 Hang on HB, facing LB \u00b1 swing fwd and roll bwd (legs straddled) to clear support on LB ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page84_element_3.304_Im556.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page84_element_3.304_Im557.png"
+                    ]
                 }
             },
             {
@@ -14304,29 +14126,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.105",
-                "description": " 3.205 ",
+                "id": "3.405",
+                "description": " Swing fwd with \u00bd turn (180\u00b0) and salto fwd straddled (Deltchev Salto), or swing fwd and salto bwd with \u00bd turn (180\u00b0) piked (Gienger Salto) \u00b1 to hang on HB  ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.305",
-                "description": " 3.405 Swing fwd with \u00bd turn (180\u00b0) and salto fwd straddled (Deltchev Salto), or swing fwd and salto bwd with \u00bd turn (180\u00b0) piked (Gienger Salto) \u00b1 to hang on HB  ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page85_element_3.405_Im576.png",
+                        "/data/elements/women//images/uneven bars/element\\page85_element_3.405_Im573.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page85_element_3.405_Im574.png"
+                    ]
                 }
             },
             {
@@ -14347,16 +14161,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.106",
-                "description": " 3.206 Giant circle fwd in reverse, regular or mix grip, also with legs straddled or hips bent in upswing phase; also with \u00bd turn (180\u00b0) to hstd ",
+                "id": "3.206",
+                "description": " Giant circle fwd in reverse, regular or mix grip, also with legs straddled or hips bent in upswing phase; also with \u00bd turn (180\u00b0) to hstd ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im590.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im587.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im591.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im593.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im592.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im589.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im588.png"
+                    ]
                 }
             },
             {
@@ -14377,42 +14199,40 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.406",
-                "description": " 3.506 Giant circle fwd in reverse grip to hstd with initiation of 1/1 turn (360\u00b0) on one arm before hstd phase, or giant circle fwd in reverse grip with 1\u00bd turn (540\u00b0) to hstd  ",
+                "id": "3.506",
+                "description": " Giant circle fwd in reverse grip to hstd with initiation of 1/1 turn (360\u00b0) on one arm before hstd phase, or giant circle fwd in reverse grip with 1\u00bd turn (540\u00b0) to hstd  ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page86_element_3.506_Im580.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im583.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im581.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im582.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im584.png"
+                    ]
                 }
             },
             {
-                "id": "3.606",
-                "description": " 3.107 ",
+                "id": "3.307",
+                "description": " Swing bwd \u00b1 straddle flight bwd over LB to hstd on LB ",
                 "group_number": "3",
                 "group_name": "Giant circles",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.207",
-                "description": " 3.307 Swing bwd \u00b1 straddle flight bwd over LB to hstd on LB ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page86_element_3.307_Im594.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.307_Im579.png"
+                    ]
                 }
             },
             {
@@ -14430,19 +14250,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page86_element_3.407_Im578.png"
                     ]
-                }
-            },
-            {
-                "id": "3.108",
-                "description": "  3.208  ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -14515,19 +14322,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.109",
-                "description": " 3.209 ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.309",
                 "description": " Swing bwd with free stoop or straddle vault and \u00bd turn (180\u00b0) over HB to hang  (Zhang / Volpi) ",
                 "group_number": "3",
@@ -14560,32 +14354,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page88_element_3.409_Im617.png"
                     ]
-                }
-            },
-            {
-                "id": "3.509",
-                "description": " 3.609 ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.110",
-                "description": "  3.210  ",
-                "group_number": "3",
-                "group_name": "Giant circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -14707,32 +14475,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.501",
-                "description": "  4.601  ",
-                "group_number": "4",
-                "group_name": "Stalder circles",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.102",
-                "description": " 4.202 ",
-                "group_number": "4",
-                "group_name": "Stalder circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.302",
                 "description": " Clear straddle circle bwd on HB with flight to clear support on LB ",
                 "group_number": "4",
@@ -14799,19 +14541,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.203",
-                "description": "  4.303 ",
-                "group_number": "4",
-                "group_name": "Stalder circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.403",
                 "description": " Stalder fwd in L grip to hstd, also with \u00bd turn (180\u00b0) to hstd  (White) ",
                 "group_number": "4",
@@ -14845,29 +14574,40 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.603",
-                "description": "  4.104 Clear straddle circle bwd to clear support  ",
+                "id": "4.104",
+                "description": " Clear straddle circle bwd to clear support  ",
                 "group_number": "4",
                 "group_name": "Stalder circles",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page90_element_4.104_Im647.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page90_element_4.104_Im648.png"
+                    ]
                 }
             },
             {
-                "id": "4.204",
-                "description": " 4.304 Stalder bwd to hstd, also with hop-grip change in hstd phase or with \u00bd turn (180\u00b0) to hstd ",
+                "id": "4.304",
+                "description": " Stalder bwd to hstd, also with hop-grip change in hstd phase or with \u00bd turn (180\u00b0) to hstd ",
                 "group_number": "4",
                 "group_name": "Stalder circles",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page90_element_4.304_Im642.png",
+                        "/data/elements/women//images/uneven bars/element\\page90_element_4.304_Im646.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page90_element_4.304_Im645.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page90_element_4.304_Im644.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page90_element_4.304_Im643.png"
+                    ]
                 }
             },
             {
@@ -14905,16 +14645,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.105",
-                "description": " 4.205 Facing inward \u2013 Stalder bwd with release and counter movement fwd in flight to hang on HB ",
+                "id": "4.205",
+                "description": " Facing inward \u2013 Stalder bwd with release and counter movement fwd in flight to hang on HB ",
                 "group_number": "4",
                 "group_name": "Stalder circles",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page91_element_4.205_Im654.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page91_element_4.205_Im655.png"
+                    ]
                 }
             },
             {
@@ -14969,29 +14713,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.605",
-                "description": " 4.106 Rear support \u2013 seat (pike) circle fwd to rear support  ",
+                "id": "4.106",
+                "description": " Rear support \u2013 seat (pike) circle fwd to rear support  ",
                 "group_number": "4",
                 "group_name": "Stalder circles",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.206",
-                "description": " 4.306  ",
-                "group_number": "4",
-                "group_name": "Stalder circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page91_element_4.106_Im665.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page91_element_4.106_Im664.png"
+                    ]
                 }
             },
             {
@@ -15046,19 +14781,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.207",
-                "description": " 4.307 ",
-                "group_number": "4",
-                "group_name": "Stalder circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.407",
                 "description": " Clear pike circle bwd to hstd, also with \u00bd turn (180\u00b0) to hstd  ",
                 "group_number": "4",
@@ -15091,19 +14813,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page92_element_4.507_Im677.png"
                     ]
-                }
-            },
-            {
-                "id": "4.607",
-                "description": " 4.108  ",
-                "group_number": "4",
-                "group_name": "Stalder circles",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -15141,16 +14850,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.408",
-                "description": "  4.508 Clear pike circle bwd through hstd with flight to hang on HB, also with \u00bd turn (180\u00b0)  (Komova) Clear pike circle bwd with counter straddle (open hip before flight) \u2013 reverse Hecht over HB to hang (Galante)  ",
+                "id": "4.508",
+                "description": " Clear pike circle bwd through hstd with flight to hang on HB, also with \u00bd turn (180\u00b0)  (Komova) Clear pike circle bwd with counter straddle (open hip before flight) \u2013 reverse Hecht over HB to hang (Galante)  ",
                 "group_number": "4",
                 "group_name": "Stalder circles",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page92_element_4.508_Im684.png",
+                        "/data/elements/women//images/uneven bars/element\\page92_element_4.508_Im682.png",
+                        "/data/elements/women//images/uneven bars/element\\page92_element_4.508_Im669.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page92_element_4.508_Im685.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page92_element_4.508_Im683.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page92_element_4.508_Im681.png"
+                    ]
                 }
             },
             {
@@ -15171,42 +14888,42 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.201",
-                "description": " 5.301 Outer rear support on HB \u2013 fall bwd to inverted pike swing or seat (pike) circle fwd \u2013 straddle cut bwd with flight over LB to hang Rear support on LB - seat (pike) circle fwd with straddle cut bwd and grip change to hang on HB.  ",
+                "id": "5.301",
+                "description": " Outer rear support on HB \u2013 fall bwd to inverted pike swing or seat (pike) circle fwd \u2013 straddle cut bwd with flight over LB to hang Rear support on LB - seat (pike) circle fwd with straddle cut bwd and grip change to hang on HB.  ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.301_Im688.png",
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.301_Im690.png",
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.301_Im691.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.301_Im693.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.301_Im692.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.301_Im689.png"
+                    ]
                 }
             },
             {
-                "id": "5.401",
-                "description": " 5.501 Stoop in to Adler-seat (pike) circle fwd through clear extended support to finish in L grip (deviation up to 30\u00b0 allowed), also with \u00bd turn (180\u00b0)  (Luo) ",
+                "id": "5.501",
+                "description": " Stoop in to Adler-seat (pike) circle fwd through clear extended support to finish in L grip (deviation up to 30\u00b0 allowed), also with \u00bd turn (180\u00b0)  (Luo) ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.103",
-                "description": "  5.203 ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.501_Im694.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.501_Im696.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.501_Im695.png"
+                    ]
                 }
             },
             {
@@ -15244,29 +14961,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.503",
-                "description": "  5.603 ",
+                "id": "5.202",
+                "description": " Rear support on HB \u2013 seat circle bwd with release to hang on LB  ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.102",
-                "description": " 5.202 Rear support on HB \u2013 seat circle bwd with release to hang on LB  ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page94_element_5.202_Im703.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page94_element_5.202_Im704.png"
+                    ]
                 }
             },
             {
@@ -15342,19 +15050,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.204",
-                "description": "   ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.304",
                 "description": " Schleudern to near hstd with hop-change to regular grip on HB  Stoop trough on HB, dislocate and release with half (180\u00b0) turn in flight between the bars to catch LB in hang  (Alt)  ",
                 "group_number": "5",
@@ -15410,16 +15105,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.205",
-                "description": " 5.305 Pike sole circle fwd in reverse grip to hstd, also with \u00bd turn (180\u00b0) to hstd ",
+                "id": "5.305",
+                "description": " Pike sole circle fwd in reverse grip to hstd, also with \u00bd turn (180\u00b0) to hstd ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page96_element_5.305_Im727.png",
+                        "/data/elements/women//images/uneven bars/element\\page96_element_5.305_Im735.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.305_Im728.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.305_Im737.png"
+                    ]
                 }
             },
             {
@@ -15440,19 +15141,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.505",
-                "description": " 5.605 ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.106",
                 "description": " Sole circle forward in L- grip (piked or straddle)  ",
                 "group_number": "5",
@@ -15468,16 +15156,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.206",
-                "description": "  5.306 Pike sole circle fwd in L grip to hstd, also with \u00bd turn (180\u00b0)  ",
+                "id": "5.306",
+                "description": " Pike sole circle fwd in L grip to hstd, also with \u00bd turn (180\u00b0)  ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page96_element_5.306_Im730.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.306_Im732.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.306_Im731.png"
+                    ]
                 }
             },
             {
@@ -15498,16 +15191,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.107",
-                "description": "  5.207 Underswing on LB (support of feet) with counter movement fwd in flight to hang on HB  ",
+                "id": "5.207",
+                "description": " Underswing on LB (support of feet) with counter movement fwd in flight to hang on HB  ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page97_element_5.207_Im754.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.207_Im755.png"
+                    ]
                 }
             },
             {
@@ -15525,19 +15222,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page97_element_5.307_Im739.png"
                     ]
-                }
-            },
-            {
-                "id": "5.407",
-                "description": "  5.507 ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -15574,16 +15258,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.208",
-                "description": " 5.308 Pike sole circle bwd to hstd, also with hop-grip change to reverse grip in hstd phase, also with \u00bd turn (180\u00b0) ",
+                "id": "5.308",
+                "description": " Pike sole circle bwd to hstd, also with hop-grip change to reverse grip in hstd phase, also with \u00bd turn (180\u00b0) ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page97_element_5.308_Im746.png",
+                        "/data/elements/women//images/uneven bars/element\\page97_element_5.308_Im745.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im751.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im753.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im752.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im744.png"
+                    ]
                 }
             },
             {
@@ -15621,29 +15313,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.109",
-                "description": "  5.209 ",
+                "id": "5.409",
+                "description": " Inner front support on LB \u2013 pike sole circle bwd through hstd with flight to hang on HB (Maloney) ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.309",
-                "description": "  5.409 Inner front support on LB \u2013 pike sole circle bwd through hstd with flight to hang on HB (Maloney) ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page98_element_5.409_Im771.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page98_element_5.409_Im756.png"
+                    ]
                 }
             },
             {
@@ -15666,29 +15349,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.110",
-                "description": " 5.210 ",
+                "id": "5.410",
+                "description": " Pike sole circle bwd counter straddle-reverse hecht over HB to hang  (Ray) ",
                 "group_number": "5",
                 "group_name": "Pike circles",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.310",
-                "description": " 5.410 Pike sole circle bwd counter straddle-reverse hecht over HB to hang  (Ray) ",
-                "group_number": "5",
-                "group_name": "Pike circles",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page98_element_5.410_Im761.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page98_element_5.410_Im762.png"
+                    ]
                 }
             },
             {
@@ -15797,19 +15471,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.501",
-                "description": "  6.601 ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "6.102",
                 "description": " From HB \u2013 clear underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand  ",
                 "group_number": "6",
@@ -15828,16 +15489,26 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.202",
-                "description": "  6.302 From HB \u2013 clear underswing with salto fwd tucked or piked also with \u00bd turn (180\u00b0) Clear straddle circle with salto fwd tucked  (Plichta) also with \u00bd (180\u00b0) turn  (Alt) ",
+                "id": "6.302",
+                "description": " From HB \u2013 clear underswing with salto fwd tucked or piked also with \u00bd turn (180\u00b0) Clear straddle circle with salto fwd tucked  (Plichta) also with \u00bd (180\u00b0) turn  (Alt) ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page99_element_6.302_Im790.png",
+                        "/data/elements/women//images/uneven bars/element\\page99_element_6.302_Im798.png",
+                        "/data/elements/women//images/uneven bars/element\\page99_element_6.302_Im787.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im795.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im789.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im788.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im797.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im791.png"
+                    ]
                 }
             },
             {
@@ -15872,19 +15543,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page99_element_6.502_Im780.png"
                     ]
-                }
-            },
-            {
-                "id": "6.103",
-                "description": "  6.203 ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -16017,16 +15675,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.105",
-                "description": " 6.205 Swing fwd to double salto bwd tucked  ",
+                "id": "6.205",
+                "description": " Swing fwd to double salto bwd tucked  ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page102_element_6.205_Im838.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page102_element_6.205_Im839.png"
+                    ]
                 }
             },
             {
@@ -16100,28 +15762,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.106",
-                "description": " 6.206 ",
+                "id": "6.406",
+                "description": " Swing fwd to double salto bwd stretched ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.306",
-                "description": " 6.406 Swing fwd to double salto bwd stretched ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page102_element_6.406_Im829.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -16141,29 +15792,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.107",
-                "description": " 6.207 ",
+                "id": "6.407",
+                "description": " Swing fwd to salto bwd tucked with \u00bd turn (180\u00b0) \u2013 into salto fwd tucked (Fontaine)  Swing fwd with \u00bd turn (180\u00b0) to double salto fwd tucked  ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.307",
-                "description": " 6.407 Swing fwd to salto bwd tucked with \u00bd turn (180\u00b0) \u2013 into salto fwd tucked (Fontaine)  Swing fwd with \u00bd turn (180\u00b0) to double salto fwd tucked  ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page103_element_6.407_Im848.png",
+                        "/data/elements/women//images/uneven bars/element\\page103_element_6.407_Im849.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page103_element_6.407_Im850.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page103_element_6.407_Im847.png"
+                    ]
                 }
             },
             {
@@ -16315,29 +15959,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.301",
-                "description": " 1.401 (D) Leap fwd with leg change (free leg swing to 45\u00b0) to cross split ",
+                "id": "1.401",
+                "description": " (D) Leap fwd with leg change (free leg swing to 45\u00b0) to cross split ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.501",
-                "description": " 1.601 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page108_element_1.401_Im907.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page108_element_1.401_Im908.png"
+                    ]
                 }
             },
             {
@@ -16392,19 +16027,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.502",
-                "description": " 1.602 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.103",
                 "description": " Flank to rear support also with \u00bd turn (180\u00b0)  Jump with hand support, \u00be turn (270\u00db) iQ VXSSRUW WR cURVV ViW RQ thigh ",
                 "group_number": "1",
@@ -16426,29 +16048,62 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.203",
-                "description": "  1.303 Two flying flairs  ",
+                "id": "1.303",
+                "description": " Two flying flairs  ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page108_element_1.303_Im911.png",
+                        "/data/elements/women//images/beam/element\\page108_element_1.303_Im910.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page108_element_1.303_Im912.png"
+                    ]
                 }
             },
             {
-                "id": "1.104",
-                "description": " 1.204 (D) Jump with \u00bd turn (180\u00b0) to clear straddle support, or jump bwd through straddle position over the beam to front support, or to side split \u00b1 90\u00b0 approach to beam  ",
+                "id": "1.403",
+                "description": " 3 flying flairs (Homma) ` Two flank circles followed by leg \u00b3FlaiU\u00b4  (Baitova) ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "A",
+                "difficulty": "D",
+                "type": "acrobatic",
+                "value": 0.4,
+                "images": {
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page108_element_1.403_Im917.png",
+                        "/data/elements/women//images/beam/element\\page108_element_1.403_Im913.png",
+                        "/data/elements/women//images/beam/element\\page108_element_1.403_Im916.png",
+                        "/data/elements/women//images/beam/element\\page108_element_1.403_Im915.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page108_element_1.403_Im924.png",
+                        "/data/elements/women//images/beam/symbol\\page108_element_1.403_Im914.png"
+                    ]
+                }
+            },
+            {
+                "id": "1.204",
+                "description": " (D) Jump with \u00bd turn (180\u00b0) to clear straddle support, or jump bwd through straddle position over the beam to front support, or to side split \u00b1 90\u00b0 approach to beam  ",
+                "group_number": "1",
+                "group_name": "Mounts",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im931.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im930.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im928.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im945.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im944.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im929.png"
+                    ]
                 }
             },
             {
@@ -16469,42 +16124,41 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.404",
-                "description": " 1.504 ",
+                "id": "1.105",
+                "description": " (D) Jump with hand support to side split sit or straddle position (must show split without hands touching the beam as final position; in straddle position the trunk must touch the beam) take-off two feet  Take off two feet or leap to cross split sit from one foot take-off \u00b1 diagonal approach to beam (with hand support) ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
+                "difficulty": "A",
+                "type": "dance",
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page109_element_1.105_Im937.png",
+                        "/data/elements/women//images/beam/element\\page109_element_1.105_Im934.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.105_Im938.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.105_Im936.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.105_Im935.png"
+                    ]
                 }
             },
             {
-                "id": "1.604",
-                "description": " 1.105 (D) Jump with hand support to side split sit or straddle position (must show split without hands touching the beam as final position; in straddle position the trunk must touch the beam) take-off two feet  Take off two feet or leap to cross split sit from one foot take-off \u00b1 diagonal approach to beam (with hand support) ",
+                "id": "1.305",
+                "description": " (D) Free jump to cross split sit take-off from both legs \u00b1 diagonal approach to beam Change leg leap to free cross split sit \u00b1 diagonal approach to beam  (Dick) ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.205",
-                "description": " 1.305 (D) Free jump to cross split sit take-off from both legs \u00b1 diagonal approach to beam Change leg leap to free cross split sit \u00b1 diagonal approach to beam  (Dick) ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "B",
-                "type": "dance",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page109_element_1.305_Im939.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.305_Im940.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.305_Im943.png"
+                    ]
                 }
             },
             {
@@ -16543,45 +16197,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.206",
-                "description": "  1.306 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.406",
-                "description": " 1.506 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.606",
-                "description": " 1.107 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.207",
                 "description": " Jump to roll fwd at end or middle of beam  Jump to clear straddle support on end of beam \u00b1 swing bwd to roll fwd  ",
                 "group_number": "1",
@@ -16598,32 +16213,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page110_element_1.207_Im957.png",
                         "/data/elements/women//images/beam/symbol\\page110_element_1.207_Im959.png"
                     ]
-                }
-            },
-            {
-                "id": "1.307",
-                "description": " 1.407  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.507",
-                "description": "  1.607 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -16680,32 +16269,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.408",
-                "description": " 1.508 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.109",
-                "description": " 1.209 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.309",
                 "description": " From cross stand facing end of beam \u00b1 head kip From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to front walkover From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to handspring fwd with step-out or land on 2 feet ",
                 "group_number": "1",
@@ -16727,29 +16290,25 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.409",
-                "description": " 1.509 ",
+                "id": "1.210",
+                "description": " Jump, press, or swing to hstd (2 sec.) \u00b1 lower to end position touching beam; also with \u00bd turn (180\u00b0) in hstd. ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "D",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.110",
-                "description": "  1.210 Jump, press, or swing to hstd (2 sec.) \u00b1 lower to end position touching beam; also with \u00bd turn (180\u00b0) in hstd. ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page112_element_1.210_Im971.png",
+                        "/data/elements/women//images/beam/element\\page112_element_1.210_Im969.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im974.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im973.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im972.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im970.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im975.png"
+                    ]
                 }
             },
             {
@@ -16771,19 +16330,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page112_element_1.310_Im978.png",
                         "/data/elements/women//images/beam/symbol\\page112_element_1.310_Im981.png"
                     ]
-                }
-            },
-            {
-                "id": "1.410",
-                "description": " 1.510  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -16877,19 +16423,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.112",
-                "description": " 1.212  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.312",
                 "description": " Hstd in cross position with large arch span, also piked with one leg vertical, other leg bent (2 sec.) - lower to optional end position Hstd with horizontal leg hold (2 sec.) \u00b1 reverse planche in different variations - lower to optional end position  ",
                 "group_number": "1",
@@ -16929,29 +16462,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.512",
-                "description": "  1.612 ",
+                "id": "1.213",
+                "description": " Press to side hstd, with bending - stretching of legs \u00b1 hop with \u00bc turn (90\u00b0) to cross hstd - lower to optional end position  ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.113",
-                "description": " 1.213 Press to side hstd, with bending - stretching of legs \u00b1 hop with \u00bc turn (90\u00b0) to cross hstd - lower to optional end position  ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page114_element_1.213_Im1021.png",
+                        "/data/elements/women//images/beam/symbol\\page114_element_1.213_Im1020.png"
+                    ]
                 }
             },
             {
@@ -17084,16 +16607,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.115",
-                "description": " 1.215 Handspring fwd with hand repulsion from springboard to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh \u00b1 90\u00b0 approach to beam Cartwheel, grasping the beam, to front support \u00b1 90\u00b0 approach to beam ",
+                "id": "1.215",
+                "description": " Handspring fwd with hand repulsion from springboard to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh \u00b1 90\u00b0 approach to beam Cartwheel, grasping the beam, to front support \u00b1 90\u00b0 approach to beam ",
                 "group_number": "1",
                 "group_name": "Mounts",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page116_element_1.215_Im1056.png",
+                        "/data/elements/women//images/beam/element\\page116_element_1.215_Im1053.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page116_element_1.215_Im1050.png",
+                        "/data/elements/women//images/beam/symbol\\page116_element_1.215_Im1055.png",
+                        "/data/elements/women//images/beam/symbol\\page116_element_1.215_Im1054.png"
+                    ]
                 }
             },
             {
@@ -17115,41 +16645,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.415",
-                "description": "  1.515  ",
+                "id": "1.416",
+                "description": " Salto fwd tucked to cross or side stand \u00b1 approach at end of beam ",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.116",
-                "description": " 1.216 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.316",
-                "description": "  1.416 Salto fwd tucked to cross or side stand \u00b1 approach at end of beam ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page117_element_1.416_Im1060.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -17202,19 +16708,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page117_element_1.716_Im1061.png",
                         "/data/elements/women//images/beam/symbol\\page117_element_1.716_Im1072.png"
                     ]
-                }
-            },
-            {
-                "id": "1.117",
-                "description": " 1.217 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -17272,32 +16765,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.118",
-                "description": " 1.218 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.318",
-                "description": "  1.418 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.518",
                 "description": " Round-off at end of beam \u00b1 salto bwd tucked, piked or stretched with step-out to cross or side stand on beam ",
                 "group_number": "1",
@@ -17337,32 +16804,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.119",
-                "description": " 1.219 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.319",
-                "description": "  1.419 ",
-                "group_number": "1",
-                "group_name": "Mounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.101",
                 "description": " Split leap fwd (leg separation 180\u00b0)  ",
                 "group_number": "2",
@@ -17381,42 +16822,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.201",
-                "description": "  2.301 Split leap fwd with \u00bd turn (180\u00b0).  ",
+                "id": "2.301",
+                "description": " Split leap fwd with \u00bd turn (180\u00b0).  ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.401",
-                "description": " 2.501 ",
-                "group_number": "2",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.601",
-                "description": " 2.102 ",
-                "group_number": "2",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page120_element_2.301_Im1094.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page120_element_2.301_Im1100.png"
+                    ]
                 }
             },
             {
@@ -17469,16 +16888,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.103",
-                "description": "  2.203 (*) Straddle pike jump (both legs above horizontal), or side split jump from cross position ",
+                "id": "2.203",
+                "description": " (*) Straddle pike jump (both legs above horizontal), or side split jump from cross position ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page121_element_2.203_Im1101.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page121_element_2.203_Im1105.png",
+                        "/data/elements/women//images/beam/symbol\\page121_element_2.203_Im1103.png",
+                        "/data/elements/women//images/beam/symbol\\page121_element_2.203_Im1107.png"
+                    ]
                 }
             },
             {
@@ -17516,16 +16941,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.104",
-                "description": " 2.204 Fouett\u00e9 hop with \u00bd turn (180\u00b0) to land in arabesque (free leg above horizontal) ",
+                "id": "2.204",
+                "description": " Fouett\u00e9 hop with \u00bd turn (180\u00b0) to land in arabesque (free leg above horizontal) ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.204_Im1125.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.204_Im1124.png"
+                    ]
                 }
             },
             {
@@ -17563,29 +16992,37 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.604",
-                "description": " 2.105 Stride leap fwd with change of legs to wolf position (hip angle at 45\u00b0)  ",
+                "id": "2.105",
+                "description": " Stride leap fwd with change of legs to wolf position (hip angle at 45\u00b0)  ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.105_Im1118.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.105_Im1119.png"
+                    ]
                 }
             },
             {
-                "id": "2.205",
-                "description": " 2.305 Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)  ",
+                "id": "2.305",
+                "description": " Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)  ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.305_Im1120.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.305_Im1121.png"
+                    ]
                 }
             },
             {
@@ -17623,19 +17060,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.605",
-                "description": " 2.106 ",
-                "group_number": "2",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.206",
                 "description": " Leap with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal), to land on one or both feet ",
                 "group_number": "2",
@@ -17670,16 +17094,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.406",
-                "description": " 2.506 Johnson with additional \u00bd turn (180\u00b0) ",
+                "id": "2.506",
+                "description": " Johnson with additional \u00bd turn (180\u00b0) ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.506_Im1116.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.506_Im1117.png"
+                    ]
                 }
             },
             {
@@ -17715,29 +17143,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.307",
-                "description": " 2.407 Pike jump from cross position with 1/1 turn (360\u00b0) ",
+                "id": "2.407",
+                "description": " Pike jump from cross position with 1/1 turn (360\u00b0) ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.507",
-                "description": "  2.607 ",
-                "group_number": "2",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page123_element_2.407_Im1132.png",
+                        "/data/elements/women//images/beam/symbol\\page123_element_2.407_Im1131.png"
+                    ]
                 }
             },
             {
@@ -17814,29 +17232,39 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.109",
-                "description": " 2.209 (*) Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout Stretched jump/hop with 1/1turn (360\u00b0) from cross position  ",
+                "id": "2.209",
+                "description": " (*) Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout Stretched jump/hop with 1/1turn (360\u00b0) from cross position  ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page124_element_2.209_Im1153.png",
+                        "/data/elements/women//images/beam/element\\page124_element_2.209_Im1150.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page124_element_2.209_Im1149.png",
+                        "/data/elements/women//images/beam/symbol\\page124_element_2.209_Im1148.png"
+                    ]
                 }
             },
             {
-                "id": "2.309",
-                "description": " 2.409 Stretched jump/hop with 1\u00bd turn (540\u00b0) from cross position ",
+                "id": "2.409",
+                "description": " Stretched jump/hop with 1\u00bd turn (540\u00b0) from cross position ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page124_element_2.409_Im1151.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page124_element_2.409_Im1152.png"
+                    ]
                 }
             },
             {
@@ -17893,29 +17321,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.410",
-                "description": "  2.510 ",
+                "id": "2.211",
+                "description": " Tuck hop or jump with \u00bd turn (180\u00b0) from cross position (hip & knee angle at 45\u00b0) ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.111",
-                "description": "  2.211 Tuck hop or jump with \u00bd turn (180\u00b0) from cross position (hip & knee angle at 45\u00b0) ",
-                "group_number": "2",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page126_element_2.211_Im1168.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page126_element_2.211_Im1169.png"
+                    ]
                 }
             },
             {
@@ -17950,19 +17369,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/beam/symbol\\page126_element_2.411_Im1162.png"
                     ]
-                }
-            },
-            {
-                "id": "2.511",
-                "description": " 2.611 ",
-                "group_number": "2",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -18001,16 +17407,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.312",
-                "description": " 2.412 Wolf hop or jump with 1/1 turn (360\u00b0) from cross position ",
+                "id": "2.412",
+                "description": " Wolf hop or jump with 1/1 turn (360\u00b0) from cross position ",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page126_element_2.412_Im1173.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page126_element_2.412_Im1174.png"
+                    ]
                 }
             },
             {
@@ -18065,16 +17475,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.301",
-                "description": "  3.401 2/1 turn (720\u00b0) on one leg \u2013 free leg optional below horizontal  ",
+                "id": "3.401",
+                "description": " 2/1 turn (720\u00b0) on one leg \u2013 free leg optional below horizontal  ",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page127_element_3.401_Im1184.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page127_element_3.401_Im1185.png"
+                    ]
                 }
             },
             {
@@ -18095,29 +17509,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.601",
-                "description": " 3.102  ",
+                "id": "3.302",
+                "description": " 1/1 turn (360\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn  ",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.202",
-                "description": " 3.302 1/1 turn (360\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn  ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "B",
-                "type": "dance",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page127_element_3.302_Im1179.png",
+                        "/data/elements/women//images/beam/symbol\\page127_element_3.302_Im1178.png"
+                    ]
                 }
             },
             {
@@ -18138,55 +17542,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.103",
-                "description": " 3.203 ",
+                "id": "3.403",
+                "description": " 1/1 turn (360\u00b0) pirouette with free leg held bwd with both hands (Preziosa)  ",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.303",
-                "description": " 3.403 1/1 turn (360\u00b0) pirouette with free leg held bwd with both hands (Preziosa)  ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.503",
-                "description": " 3.603 ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.104",
-                "description": " 3.204 ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page128_element_3.403_Im1190.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page128_element_3.403_Im1191.png"
+                    ]
                 }
             },
             {
@@ -18241,19 +17610,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.105",
-                "description": " 3.205 ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.305",
                 "description": " 1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn ",
                 "group_number": "3",
@@ -18267,6 +17623,23 @@ export const allElements: LanguageType = {
                     ],
                     "symbol": [
                         "/data/elements/women//images/beam/symbol\\page129_element_3.305_Im1206.png"
+                    ]
+                }
+            },
+            {
+                "id": "3.405",
+                "description": " 1 \u00bd turn (540\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Galante) ",
+                "group_number": "3",
+                "group_name": "Gymnastic turns",
+                "difficulty": "D",
+                "type": "dance",
+                "value": 0.4,
+                "images": {
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page129_element_3.405_Im1207.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page129_element_3.405_Im1198.png"
                     ]
                 }
             },
@@ -18288,19 +17661,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.605",
-                "description": " 3.106  ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.206",
                 "description": " \u00bd illusion turn (180\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand  ",
                 "group_number": "3",
@@ -18317,29 +17677,36 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.306",
-                "description": " 3.406 1/1 illusion turn (360\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand ",
+                "id": "3.406",
+                "description": " 1/1 illusion turn (360\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand ",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page129_element_3.406_Im1203.png",
+                        "/data/elements/women//images/beam/symbol\\page129_element_3.406_Im1204.png"
+                    ]
                 }
             },
             {
-                "id": "3.107",
-                "description": " 3.207 1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn ",
+                "id": "3.207",
+                "description": " 1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn ",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page130_element_3.207_Im1209.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page130_element_3.207_Im1210.png"
+                    ]
                 }
             },
             {
@@ -18396,19 +17763,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.607",
-                "description": " 3.108 ",
-                "group_number": "3",
-                "group_name": "Gymnastic turns",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.208",
                 "description": " (*) 1/1 turn to 1\u00bd turn (360\u00b0- 540\u00b0) in prone position \u2013 alternate support of hands permitted  ",
                 "group_number": "3",
@@ -18428,16 +17782,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.308",
-                "description": " 3.408 1\u00bc (450\u00b0) turn on back in kip position (hip-leg angle closed) (Li Li) ",
+                "id": "3.408",
+                "description": " 1\u00bc (450\u00b0) turn on back in kip position (hip-leg angle closed) (Li Li) ",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page130_element_3.408_Im1217.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page130_element_3.408_Im1218.png"
+                    ]
                 }
             },
             {
@@ -18458,42 +17816,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.201",
-                "description": "  4.301 ",
+                "id": "4.102",
+                "description": " (D) (*) Standing split fwd with hand support in front of support leg (leg separation 180\u00b0) \u2013 Needle scale (2 sec.) or Stand on one leg with foot of free leg in fwd hold above head (2 sec.)  Scale fwd, support leg extended (leg separation 180\u00b0) - 2 sec. ",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.401",
-                "description": " 4.501 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.601",
-                "description": " 4.102 (D) (*) Standing split fwd with hand support in front of support leg (leg separation 180\u00b0) \u2013 Needle scale (2 sec.) or Stand on one leg with foot of free leg in fwd hold above head (2 sec.)  Scale fwd, support leg extended (leg separation 180\u00b0) - 2 sec. ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1236.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1229.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1230.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1234.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1233.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1232.png"
+                    ]
                 }
             },
             {
@@ -18510,32 +17849,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page131_element_4.202_Im1228.png",
                         "/data/elements/women//images/beam/symbol\\page131_element_4.202_Im1231.png"
                     ]
-                }
-            },
-            {
-                "id": "4.302",
-                "description": " 4.402 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.502",
-                "description": " 4.602 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -18571,29 +17884,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.303",
-                "description": " 4.403 ",
+                "id": "4.204",
+                "description": " Roll fwd without hand support to sit position or to tuck stand  From cross sit, swing bwd to shoulder roll fwd with hip extension to sit position or to tuck stand ",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "C",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.3,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.104",
-                "description": " 4.204 Roll fwd without hand support to sit position or to tuck stand  From cross sit, swing bwd to shoulder roll fwd with hip extension to sit position or to tuck stand ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page132_element_4.204_Im1238.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.204_Im1245.png",
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.204_Im1239.png"
+                    ]
                 }
             },
             {
@@ -18614,67 +17919,33 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.404",
-                "description": " 4.504 ",
+                "id": "4.105",
+                "description": " Roll bwd with hand support on top of the beam \u2013 landing on one or both feet ",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.105_Im1242.png",
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.105_Im1241.png"
+                    ]
                 }
             },
             {
-                "id": "4.604",
-                "description": " 4.105 Roll bwd with hand support on top of the beam \u2013 landing on one or both feet ",
+                "id": "4.305",
+                "description": " Roll bwd to hstd - lower to end position touching beam  ",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.205",
-                "description": "  4.305 Roll bwd to hstd - lower to end position touching beam  ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.405",
-                "description": " 4.505 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.605",
-                "description": " 4.106  ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page132_element_4.305_Im1243.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -18715,19 +17986,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.406",
-                "description": " 4.506 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.107",
                 "description": " Cartwheel, also with support on one arm, or Cartwheel with flight phase before or after hand support  ",
                 "group_number": "4",
@@ -18747,42 +18005,40 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.207",
-                "description": "  4.307 From cross sit or side split \u2013 roll swd stretched, legs separated \u2013 end position optional  ",
+                "id": "4.307",
+                "description": " From cross sit or side split \u2013 roll swd stretched, legs separated \u2013 end position optional  ",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page133_element_4.307_Im1251.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page133_element_4.307_Im1262.png"
+                    ]
                 }
             },
             {
-                "id": "4.407",
-                "description": "  4.507 ",
+                "id": "4.108",
+                "description": " Walkover fwd, with/without alternate hand support (Tinsica) Walkover fwd, bwd (Tic-Toc)  ",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.607",
-                "description": " 4.108 Walkover fwd, with/without alternate hand support (Tinsica) Walkover fwd, bwd (Tic-Toc)  ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page133_element_4.108_Im1265.png",
+                        "/data/elements/women//images/beam/element\\page133_element_4.108_Im1252.png",
+                        "/data/elements/women//images/beam/element\\page133_element_4.108_Im1260.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page133_element_4.108_Im1261.png",
+                        "/data/elements/women//images/beam/symbol\\page133_element_4.108_Im1266.png"
+                    ]
                 }
             },
             {
@@ -18819,19 +18075,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page133_element_4.308_Im1256.png",
                         "/data/elements/women//images/beam/symbol\\page133_element_4.308_Im1255.png"
                     ]
-                }
-            },
-            {
-                "id": "4.408",
-                "description": " 4.508 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -18894,32 +18137,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.409",
-                "description": " 4.509 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.609",
-                "description": " 4.110 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.210",
                 "description": " From extended tuck sit \u2013 walkover bwd (Valdez)  ",
                 "group_number": "4",
@@ -18956,29 +18173,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.410",
-                "description": "  4.510 ",
-                "group_number": "4",
-                "group_name": "Holds and acrobatic non-flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.101",
-                "description": " 5.201 Handspring fwd with flight to land on one or both legs (same element), also with support on one arm ",
+                "id": "5.201",
+                "description": " Handspring fwd with flight to land on one or both legs (same element), also with support on one arm ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page135_element_5.201_Im1289.png",
+                        "/data/elements/women//images/beam/element\\page135_element_5.201_Im1305.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page135_element_5.201_Im1306.png",
+                        "/data/elements/women//images/beam/symbol\\page135_element_5.201_Im1304.png"
+                    ]
                 }
             },
             {
@@ -19036,19 +18246,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.601",
-                "description": " 5.102 ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.202",
                 "description": " Flic-flac to land on both feet ",
                 "group_number": "5",
@@ -19100,19 +18297,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.103",
-                "description": " 5.203 ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.303",
                 "description": " Flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position  ",
                 "group_number": "5",
@@ -19147,29 +18331,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.503",
-                "description": " 5.603 ",
+                "id": "5.204",
+                "description": " Flic-flac with step-out, also with support on one arm ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.104",
-                "description": " 5.204 Flic-flac with step-out, also with support on one arm ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page136_element_5.204_Im1314.png",
+                        "/data/elements/women//images/beam/element\\page136_element_5.204_Im1313.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page136_element_5.204_Im1319.png",
+                        "/data/elements/women//images/beam/symbol\\page136_element_5.204_Im1315.png"
+                    ]
                 }
             },
             {
@@ -19207,29 +18384,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.105",
-                "description": "  5.205  ",
+                "id": "5.405",
+                "description": " Flic-flac with step-out from side position  (Tousek)  Flic-flac from side position to front support or with hip circle bwd  ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.305",
-                "description": "  5.405 Flic-flac with step-out from side position  (Tousek)  Flic-flac from side position to front support or with hip circle bwd  ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page137_element_5.405_Im1322.png",
+                        "/data/elements/women//images/beam/element\\page137_element_5.405_Im1325.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page137_element_5.405_Im1323.png",
+                        "/data/elements/women//images/beam/symbol\\page137_element_5.405_Im1326.png",
+                        "/data/elements/women//images/beam/symbol\\page137_element_5.405_Im1324.png"
+                    ]
                 }
             },
             {
@@ -19247,19 +18418,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/beam/symbol\\page137_element_5.505_Im1328.png"
                     ]
-                }
-            },
-            {
-                "id": "5.605",
-                "description": " 5.106 ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -19316,16 +18474,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.107",
-                "description": " 5.207 Flic-flac or Gainer flic-flac \u2013 with high flight phase, and swing down to cross straddle sit  ",
+                "id": "5.207",
+                "description": " Flic-flac or Gainer flic-flac \u2013 with high flight phase, and swing down to cross straddle sit  ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page138_element_5.207_Im1358.png",
+                        "/data/elements/women//images/beam/element\\page138_element_5.207_Im1341.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.207_Im1352.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.207_Im1342.png"
+                    ]
                 }
             },
             {
@@ -19365,32 +18529,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.507",
-                "description": "   ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.607",
-                "description": " 5.108 ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.208",
                 "description": " Round-off ",
                 "group_number": "5",
@@ -19408,16 +18546,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.308",
-                "description": "  5.408 Free (aerial) cartwheel \u2013 landing on one or both feet, in cross or side position, also with leg change  ",
+                "id": "5.408",
+                "description": " Free (aerial) cartwheel \u2013 landing on one or both feet, in cross or side position, also with leg change  ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page138_element_5.408_Im1335.png",
+                        "/data/elements/women//images/beam/element\\page138_element_5.408_Im1339.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1337.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1340.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1338.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1336.png"
+                    ]
                 }
             },
             {
@@ -19442,55 +18588,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.109",
-                "description": " 5.209  ",
+                "id": "5.409",
+                "description": " Free (aerial) walkover fwd, landing on one or both feet  ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.309",
-                "description": " 5.409 Free (aerial) walkover fwd, landing on one or both feet  ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.509",
-                "description": "  5.609  ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.110",
-                "description": " 5.210 ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page139_element_5.409_Im1360.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page139_element_5.409_Im1362.png",
+                        "/data/elements/women//images/beam/symbol\\page139_element_5.409_Im1361.png"
+                    ]
                 }
             },
             {
@@ -19545,29 +18657,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.111",
-                "description": " 5.211 ",
+                "id": "5.411",
+                "description": " Salto swd tucked take off from one leg to side stand ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.311",
-                "description": "  5.411 Salto swd tucked take off from one leg to side stand ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page140_element_5.411_Im1368.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page140_element_5.411_Im1369.png"
+                    ]
                 }
             },
             {
@@ -19605,19 +18708,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.112",
-                "description": " 5.212 ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.312",
                 "description": " Salto bwd tucked, piked or stretched (step out)  ",
                 "group_number": "5",
@@ -19637,16 +18727,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.412",
-                "description": "  5.512 Salto bwd stretched with legs together ",
+                "id": "5.512",
+                "description": " Salto bwd stretched with legs together ",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page140_element_5.512_Im1373.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page140_element_5.512_Im1374.png"
+                    ]
                 }
             },
             {
@@ -19667,19 +18761,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.113",
-                "description": " 5.213  ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.313",
                 "description": " Gainer salto bwd tucked, piked or stretched-step out   ",
                 "group_number": "5",
@@ -19697,19 +18778,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page141_element_5.313_Im1387.png",
                         "/data/elements/women//images/beam/symbol\\page141_element_5.313_Im1389.png"
                     ]
-                }
-            },
-            {
-                "id": "5.413",
-                "description": " 5.513  ",
-                "group_number": "5",
-                "group_name": "Acrobatic flight",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -19766,29 +18834,41 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.401",
-                "description": "  6.501 Free (aerial) cartwheel into salto bwd tucked (Kim) ",
+                "id": "6.501",
+                "description": " Free (aerial) cartwheel into salto bwd tucked (Kim) ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page142_element_6.501_Im1397.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.501_Im1398.png"
+                    ]
                 }
             },
             {
-                "id": "6.601",
-                "description": " 6.102 Salto fwd tucked or piked, also with \u00bd twist (180\u00b0)   ",
+                "id": "6.102",
+                "description": " Salto fwd tucked or piked, also with \u00bd twist (180\u00b0)   ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page142_element_6.102_Im1420.png",
+                        "/data/elements/women//images/beam/element\\page142_element_6.102_Im1401.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1400.png",
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1402.png",
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1403.png",
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1399.png"
+                    ]
                 }
             },
             {
@@ -19848,15 +18928,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.103",
-                "description": "  6.203 Jump bwd, with \u00bd twist (180\u00b0), salto fwd tucked or piked (Arabian salto) ",
+                "id": "6.203",
+                "description": " Jump bwd, with \u00bd twist (180\u00b0), salto fwd tucked or piked (Arabian salto) ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page143_element_6.203_Im1425.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -19887,19 +18969,6 @@ export const allElements: LanguageType = {
                     "figure": [
                         "/data/elements/women//images/beam/element\\page143_element_6.403_Im1428.png"
                     ],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.503",
-                "description": " 6.603 ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
                     "symbol": []
                 }
             },
@@ -19998,28 +19067,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.105",
-                "description": " 6.205 ",
+                "id": "6.405",
+                "description": " Double salto bwd tucked ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.305",
-                "description": " 6.405 Double salto bwd tucked ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page144_element_6.405_Im1448.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -20039,16 +19097,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.605",
-                "description": " 6.705  Double salto bwd tucked or piked with 1/1 twist (360\u00b0) ",
+                "id": "6.705",
+                "description": "  Double salto bwd tucked or piked with 1/1 twist (360\u00b0) ",
                 "group_number": "6",
                 "group_name": "Dismounts",
-                "difficulty": "F",
+                "difficulty": "G",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.7,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page144_element_6.705_Im1453.png",
+                        "/data/elements/women//images/beam/element\\page144_element_6.705_Im1452.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page144_element_6.705_Im1449.png",
+                        "/data/elements/women//images/beam/symbol\\page144_element_6.705_Im1454.png",
+                        "/data/elements/women//images/beam/symbol\\page144_element_6.705_Im1451.png"
+                    ]
                 }
             },
             {
@@ -20127,19 +19192,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page145_element_6.406_Im1469.png"
                     ]
                 }
-            },
-            {
-                "id": "6.506",
-                "description": "   ",
-                "group_number": "6",
-                "group_name": "Dismounts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
             }
         ],
         "f_w": [
@@ -20196,29 +19248,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.401",
-                "description": " 1.501  ",
+                "id": "1.202",
+                "description": " (*) Fouette Hop with leg change to cross split (leg separation 180\u00b0) also to ring position (tour jet\u00e9)  ",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.102",
-                "description": " 1.202 (*) Fouette Hop with leg change to cross split (leg separation 180\u00b0) also to ring position (tour jet\u00e9)  ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page149_element_1.202_Im1500.png",
+                        "/data/elements/women//images/floor/element\\page149_element_1.202_Im1498.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page149_element_1.202_Im1501.png",
+                        "/data/elements/women//images/floor/symbol\\page149_element_1.202_Im1499.png"
+                    ]
                 }
             },
             {
@@ -20296,19 +19341,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.303",
-                "description": " 1.403 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.104",
                 "description": " (*) Leap fwd with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal) or side split to land on one or both feet ",
                 "group_number": "1",
@@ -20380,19 +19412,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page151_element_1.404_Im1520.png",
                         "/data/elements/women//images/floor/symbol\\page151_element_1.404_Im1522.png"
                     ]
-                }
-            },
-            {
-                "id": "1.504",
-                "description": " 1.604 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -20542,29 +19561,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.406",
-                "description": " 1.506 ",
+                "id": "1.107",
+                "description": " (*) Straddle pike jump (both legs above horizontal), or side split jump (leg separation 180\u02da) ",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.606",
-                "description": " 1.107 (*) Straddle pike jump (both legs above horizontal), or side split jump (leg separation 180\u02da) ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1588.png",
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1589.png",
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1590.png",
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1587.png"
+                    ]
                 }
             },
             {
@@ -20665,19 +19676,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page153_element_1.208_Im1600.png",
                         "/data/elements/women//images/floor/symbol\\page153_element_1.208_Im1602.png"
                     ]
-                }
-            },
-            {
-                "id": "1.308",
-                "description": " 1.408 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -20783,42 +19781,36 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.210",
-                "description": " 1.310 Stretched hop or jump with 2/1 turn (720\u00b0) ",
+                "id": "1.310",
+                "description": " Stretched hop or jump with 2/1 turn (720\u00b0) ",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page155_element_1.310_Im1631.png",
+                        "/data/elements/women//images/floor/symbol\\page155_element_1.310_Im1630.png"
+                    ]
                 }
             },
             {
-                "id": "1.410",
-                "description": " 1.510 ",
+                "id": "1.111",
+                "description": " Leap with alternate leg change (knees above horizontal) (Cat leap) ",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.610",
-                "description": " 1.111 Leap with alternate leg change (knees above horizontal) (Cat leap) ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page155_element_1.111_Im1632.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page155_element_1.111_Im1633.png"
+                    ]
                 }
             },
             {
@@ -20853,19 +19845,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/floor/symbol\\page155_element_1.311_Im1637.png"
                     ]
-                }
-            },
-            {
-                "id": "1.411",
-                "description": " 1.511 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -20920,32 +19899,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.412",
-                "description": " 1.512 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.612",
-                "description": " 1.113 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.213",
                 "description": " Tuck hop or jump with 1/1 turn (360\u00ba)  ",
                 "group_number": "1",
@@ -20982,19 +19935,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.413",
-                "description": "  1.513 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.114",
                 "description": " Hop or Jump with one leg bent and the other \u2013 extended straight, fwd above horizontal with knees together (Wolf hop or jump)  ",
                 "group_number": "1",
@@ -21028,19 +19968,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page157_element_1.214_Im1655.png",
                         "/data/elements/women//images/floor/symbol\\page157_element_1.214_Im1651.png"
                     ]
-                }
-            },
-            {
-                "id": "1.314",
-                "description": "  1.414 ",
-                "group_number": "1",
-                "group_name": "Gymnastic leaps, jumps and hops",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -21113,29 +20040,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.401",
-                "description": "  2.501 4/1 turn (1440\u00b0) on one leg \u2013 free leg optional below horizontal  (Gomez)  ",
+                "id": "2.501",
+                "description": " 4/1 turn (1440\u00b0) on one leg \u2013 free leg optional below horizontal  (Gomez)  ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.601",
-                "description": " 2.102 ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page158_element_2.501_Im1669.png",
+                        "/data/elements/women//images/floor/symbol\\page158_element_2.501_Im1670.png"
+                    ]
                 }
             },
             {
@@ -21156,42 +20073,54 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.302",
-                "description": " 2.402 2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent) ",
+                "id": "2.402",
+                "description": " 2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent) ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page158_element_2.402_Im1659.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page158_element_2.402_Im1664.png"
+                    ]
                 }
             },
             {
-                "id": "2.103",
-                "description": "  2.203 1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn ",
+                "id": "2.203",
+                "description": " 1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.203_Im1672.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.203_Im1673.png"
+                    ]
                 }
             },
             {
-                "id": "2.303",
-                "description": "  2.403 2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Memmel)  ",
+                "id": "2.403",
+                "description": " 2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Memmel)  ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.403_Im1674.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.403_Im1675.png"
+                    ]
                 }
             },
             {
@@ -21212,19 +20141,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.603",
-                "description": " 2.104  ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.204",
                 "description": " 1/1 turn (360\u00b0) in back attitude (knee of free leg at horizontal throughout turn) ",
                 "group_number": "2",
@@ -21242,107 +20158,73 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.304",
-                "description": " 2.404 (*) 2/1 turn (720\u00b0) in back attitude (knee of free leg at horizontal throughout turn)  (Semenova) 2/1 turn (720\u00b0) with free leg held with both hands bwd/upward throughout turn (Berar)  ",
+                "id": "2.404",
+                "description": " (*) 2/1 turn (720\u00b0) in back attitude (knee of free leg at horizontal throughout turn)  (Semenova) 2/1 turn (720\u00b0) with free leg held with both hands bwd/upward throughout turn (Berar)  ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.404_Im1680.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.404_Im1683.png",
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.404_Im1682.png",
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.404_Im1684.png"
+                    ]
                 }
             },
             {
-                "id": "2.504",
-                "description": "  2.604 ",
+                "id": "2.205",
+                "description": " 1/1 turn (360\u00b0) in scale fwd with free leg above horizontal throughout turn ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.205_Im1671.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.205_Im1681.png"
+                    ]
                 }
             },
             {
-                "id": "2.105",
-                "description": "  2.205 1/1 turn (360\u00b0) in scale fwd with free leg above horizontal throughout turn ",
+                "id": "2.206",
+                "description": " 1/1 illusion turn (360\u00b0) through standing split without touching floor with hand ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page160_element_2.206_Im1686.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page160_element_2.206_Im1687.png"
+                    ]
                 }
             },
             {
-                "id": "2.305",
-                "description": "  2.405 ",
+                "id": "2.207",
+                "description": " 1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn  ",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
-                "difficulty": "C",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.106",
-                "description": " 2.206 1/1 illusion turn (360\u00b0) through standing split without touching floor with hand ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.306",
-                "description": " 2.406 ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.506",
-                "description": " 2.606 ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.107",
-                "description": " 2.207 1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn  ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page160_element_2.207_Im1688.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page160_element_2.207_Im1689.png"
+                    ]
                 }
             },
             {
@@ -21397,19 +20279,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.607",
-                "description": " 2.108 ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.208",
                 "description": " 2/1 spin (720\u00b0) or more on back in kip position (hip-leg < closed) ",
                 "group_number": "2",
@@ -21424,19 +20293,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/floor/symbol\\page160_element_2.208_Im1694.png"
                     ]
-                }
-            },
-            {
-                "id": "2.308",
-                "description": "  2.408 ",
-                "group_number": "2",
-                "group_name": "Gymnastic turns",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -21480,19 +20336,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.301",
-                "description": " 3.401 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.102",
                 "description": " Hecht roll ",
                 "group_number": "3",
@@ -21510,42 +20353,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.202",
-                "description": " 3.302 ",
+                "id": "3.103",
+                "description": " Roll bwd to hstd with \u00bd or 1/1 turn (180\u00b0 - 360\u00b0) in hstd ",
                 "group_number": "3",
                 "group_name": "Hand support elements",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.402",
-                "description": " 3.502 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.602",
-                "description": " 3.103 Roll bwd to hstd with \u00bd or 1/1 turn (180\u00b0 - 360\u00b0) in hstd ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page162_element_3.103_Im1709.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page162_element_3.103_Im1710.png"
+                    ]
                 }
             },
             {
@@ -21567,32 +20388,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.303",
-                "description": " 3.403 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.503",
-                "description": " 3.603 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.104",
                 "description": " Walkover bwd from stand or extended tuck-sit to hstd with 1/1 turn (360\u00b0) in hstd \u2013 return movement optional  ",
                 "group_number": "3",
@@ -21608,32 +20403,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page162_element_3.104_Im1716.png",
                         "/data/elements/women//images/floor/symbol\\page162_element_3.104_Im1715.png"
                     ]
-                }
-            },
-            {
-                "id": "3.204",
-                "description": " 3.304 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.404",
-                "description": " 3.504 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -21677,55 +20446,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.405",
-                "description": " 3.505 ",
+                "id": "3.106",
+                "description": " Round-off ",
                 "group_number": "3",
                 "group_name": "Hand support elements",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.605",
-                "description": " 3.106 Round-off ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.206",
-                "description": " 3.306 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.406",
-                "description": " 3.506 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page163_element_3.106_Im1725.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page163_element_3.106_Im1726.png"
+                    ]
                 }
             },
             {
@@ -21769,19 +20503,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.307",
-                "description": " 3.407 ",
-                "group_number": "3",
-                "group_name": "Hand support elements",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.101",
                 "description": " Salto fwd tucked or piked ",
                 "group_number": "4",
@@ -21821,19 +20542,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.301",
-                "description": "  4.401 ",
-                "group_number": "4",
-                "group_name": "Saltos forward & sideward",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.501",
                 "description": " Double salto fwd tucked  (Podkopayeva)  ",
                 "group_number": "4",
@@ -21869,16 +20577,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.102",
-                "description": " 4.202 Salto fwd stretched, also with \u00bd twist (180\u00b0)  ",
+                "id": "4.202",
+                "description": " Salto fwd stretched, also with \u00bd twist (180\u00b0)  ",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page165_element_4.202_Im1752.png",
+                        "/data/elements/women//images/floor/element\\page165_element_4.202_Im1753.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1754.png",
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1766.png",
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1768.png",
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1767.png"
+                    ]
                 }
             },
             {
@@ -21952,68 +20668,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.203",
-                "description": " 4.303 ",
+                "id": "4.104",
+                "description": " Free (aerial) cartwheel or free (aerial) round-off ",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.403",
-                "description": " 4.503 ",
-                "group_number": "4",
-                "group_name": "Saltos forward & sideward",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.603",
-                "description": " 4.104 Free (aerial) cartwheel or free (aerial) round-off ",
-                "group_number": "4",
-                "group_name": "Saltos forward & sideward",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.304",
-                "description": " 4.404 ",
-                "group_number": "4",
-                "group_name": "Saltos forward & sideward",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.504",
-                "description": "  4.604 ",
-                "group_number": "4",
-                "group_name": "Saltos forward & sideward",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page166_element_4.104_Im1787.png",
+                        "/data/elements/women//images/floor/element\\page166_element_4.104_Im1788.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page166_element_4.104_Im1790.png",
+                        "/data/elements/women//images/floor/symbol\\page166_element_4.104_Im1789.png"
+                    ]
                 }
             },
             {
@@ -22050,19 +20720,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page166_element_4.205_Im1784.png",
                         "/data/elements/women//images/floor/symbol\\page166_element_4.205_Im1785.png"
                     ]
-                }
-            },
-            {
-                "id": "4.305",
-                "description": "  4.405  ",
-                "group_number": "4",
-                "group_name": "Saltos forward & sideward",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -22208,28 +20865,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.102",
-                "description": " 5.202 ",
+                "id": "5.402",
+                "description": " Double salto bwd tucked  (Kim)  Double salto bwd pike ",
                 "group_number": "5",
                 "group_name": "Saltos backward",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.302",
-                "description": "  5.402 Double salto bwd tucked  (Kim)  Double salto bwd pike ",
-                "group_number": "5",
-                "group_name": "Saltos backward",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page167_element_5.402_Im1805.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -22260,16 +20906,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.702",
-                "description": "  5.802 Double salto bwd tucked with 2/1 twist (720\u00b0)  (Silivas)  ",
+                "id": "5.802",
+                "description": " Double salto bwd tucked with 2/1 twist (720\u00b0)  (Silivas)  ",
                 "group_number": "5",
                 "group_name": "Saltos backward",
-                "difficulty": "G",
+                "difficulty": "H",
                 "type": "acrobatic",
-                "value": 0.7,
+                "value": 0.8,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page167_element_5.802_Im1809.png",
+                        "/data/elements/women//images/floor/element\\page167_element_5.802_Im1813.png",
+                        "/data/elements/women//images/floor/element\\page167_element_5.802_Im1807.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page167_element_5.802_Im1806.png",
+                        "/data/elements/women//images/floor/symbol\\page167_element_5.802_Im1815.png",
+                        "/data/elements/women//images/floor/symbol\\page167_element_5.802_Im1814.png"
+                    ]
                 }
             }
         ]
@@ -59352,42 +58006,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.201",
-                "description": " 1.301 ",
+                "id": "1.102",
+                "description": " Sprong met \u00bd draai (180\u00b0), zweefkip tot steun op de LL Sprong met \u00bd draai (180\u00ba), aanzweef met doorhoeken tot ruglingse streksteun  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.401",
-                "description": " 1.501 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.601",
-                "description": " 1.102 Sprong met \u00bd draai (180\u00b0), zweefkip tot steun op de LL Sprong met \u00bd draai (180\u00ba), aanzweef met doorhoeken tot ruglingse streksteun  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page73_element_1.102_Im369.png",
+                        "/data/elements/women//images/uneven bars/element\\page73_element_1.102_Im370.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page73_element_1.102_Im371.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page73_element_1.102_Im374.png"
+                    ]
                 }
             },
             {
@@ -59405,19 +58039,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page73_element_1.202_Im373.png"
                     ]
-                }
-            },
-            {
-                "id": "1.302",
-                "description": " 1.402 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -59455,32 +58076,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/uneven bars/symbol\\page74_element_1.203_Im378.png",
                         "/data/elements/women//images/uneven bars/symbol\\page74_element_1.203_Im377.png"
                     ]
-                }
-            },
-            {
-                "id": "1.303",
-                "description": " 1.403  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.503",
-                "description": " 1.603 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -59538,19 +58133,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.404",
-                "description": " 1.504 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.105",
                 "description": " Vanuit parallelstand voor de HL - sprong met 1/1 draai (360\u00b0) tot strekhang aan de HL  ",
                 "group_number": "1",
@@ -59567,42 +58149,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.205",
-                "description": " 1.305 ",
+                "id": "1.106",
+                "description": "  Spreiden over de LL met afstoot van de handen tot strekhang aan de HL  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.405",
-                "description": " 1.505 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.605",
-                "description": " 1.106  Spreiden over de LL met afstoot van de handen tot strekhang aan de HL  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page75_element_1.106_Im395.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page75_element_1.106_Im396.png"
+                    ]
                 }
             },
             {
@@ -59659,16 +58219,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.107",
-                "description": " 1.207 Salto v.o. gehurkt, gespreid of gehoekt over de LL tot ellehang aan de LL ",
+                "id": "1.207",
+                "description": " Salto v.o. gehurkt, gespreid of gehoekt over de LL tot ellehang aan de LL ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page76_element_1.207_Im403.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page76_element_1.207_Im404.png"
+                    ]
                 }
             },
             {
@@ -59708,29 +58272,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.507",
-                "description": "  1.607 ",
+                "id": "1.208",
+                "description": " Arabier voor de LL - vlucht achterwaarts (gespreid) tot vluchtige vrije spreidhoek-steun op de LL ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.108",
-                "description": " 1.208 Arabier voor de LL - vlucht achterwaarts (gespreid) tot vluchtige vrije spreidhoek-steun op de LL ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page76_element_1.208_Im409.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page76_element_1.208_Im410.png"
+                    ]
                 }
             },
             {
@@ -59768,29 +58323,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.109",
-                "description": "  1.209 ",
+                "id": "1.409",
+                "description": " Arabier voor de LL - salto a.o. gehurkt over de LL tot zweefhang aan de LL Arabier voor de LL - flik-flak tot handstand op de LL ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.309",
-                "description": " 1.409 Arabier voor de LL - salto a.o. gehurkt over de LL tot zweefhang aan de LL Arabier voor de LL - flik-flak tot handstand op de LL ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page77_element_1.409_Im417.png",
+                        "/data/elements/women//images/uneven bars/element\\page77_element_1.409_Im419.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page77_element_1.409_Im420.png"
+                    ]
                 }
             },
             {
@@ -59828,16 +58375,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.110",
-                "description": " 1.210 Sprong tot in handstand op de LL (benen gesloten of gespreid) met gebogen heupen en daarna gestrekt , ook met \u00bd draai (180\u00b0) in de handstandfase ",
+                "id": "1.210",
+                "description": " Sprong tot in handstand op de LL (benen gesloten of gespreid) met gebogen heupen en daarna gestrekt , ook met \u00bd draai (180\u00b0) in de handstandfase ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.210_Im432.png",
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.210_Im431.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.210_Im441.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.210_Im433.png"
+                    ]
                 }
             },
             {
@@ -59877,42 +58430,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.510",
-                "description": " 1.610 ",
+                "id": "1.411",
+                "description": " Sprong tot vrije steun op de HL - losom tot in handstand op de HL, ook met \u00bd draai (180\u00ba) in handstandfase op de HL  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "E",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.111",
-                "description": " 1.211 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.311",
-                "description": "  1.411 Sprong tot vrije steun op de HL - losom tot in handstand op de HL, ook met \u00bd draai (180\u00ba) in handstandfase op de HL  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.411_Im427.png",
+                        "/data/elements/women//images/uneven bars/element\\page78_element_1.411_Im429.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.411_Im430.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page78_element_1.411_Im428.png"
+                    ]
                 }
             },
             {
@@ -60013,29 +58546,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.501",
-                "description": " 2.601 ",
+                "id": "2.202",
+                "description": " Streksteun borstlings op de HL - over-hoeken met vluchtfase of vrij overspreiden voorwaarts over de HL met \u00bd draai (180\u00b0) tot strekhang aan de HL ",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.102",
-                "description": " 2.202 Streksteun borstlings op de HL - over-hoeken met vluchtfase of vrij overspreiden voorwaarts over de HL met \u00bd draai (180\u00b0) tot strekhang aan de HL ",
-                "group_number": "2",
-                "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page79_element_2.202_Im489.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page79_element_2.202_Im488.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page79_element_2.202_Im490.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page79_element_2.202_Im487.png"
+                    ]
                 }
             },
             {
@@ -60056,32 +58582,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/uneven bars/symbol\\page79_element_2.302_Im444.png",
                         "/data/elements/women//images/uneven bars/symbol\\page79_element_2.302_Im442.png"
                     ]
-                }
-            },
-            {
-                "id": "2.402",
-                "description": " 2.502 ",
-                "group_number": "2",
-                "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.103",
-                "description": " 2.203 ",
-                "group_number": "2",
-                "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -60136,29 +58636,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.603",
-                "description": " 2.104 Heupdraai v.o. (heupen tegen de ligger) ",
+                "id": "2.104",
+                "description": " Heupdraai v.o. (heupen tegen de ligger) ",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.204",
-                "description": " 2.304 ",
-                "group_number": "2",
-                "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page80_element_2.104_Im500.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page80_element_2.104_Im499.png"
+                    ]
                 }
             },
             {
@@ -60203,16 +58694,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.205",
-                "description": " 2.305 Losom tot handstand, ook met omspringen tot in andere greep in de handstandfase, of met \u00bd draai (180\u00ba) tot handstand ",
+                "id": "2.305",
+                "description": " Losom tot handstand, ook met omspringen tot in andere greep in de handstandfase, of met \u00bd draai (180\u00ba) tot handstand ",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page81_element_2.305_Im515.png",
+                        "/data/elements/women//images/uneven bars/element\\page81_element_2.305_Im516.png",
+                        "/data/elements/women//images/uneven bars/element\\page81_element_2.305_Im512.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page81_element_2.305_Im514.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page81_element_2.305_Im517.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page81_element_2.305_Im513.png"
+                    ]
                 }
             },
             {
@@ -60250,16 +58749,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.106",
-                "description": " 2.206 Vrije onderzwaai met loslaten en contrabeweging v.o. in de vluchtfase tot strekhang aan de HL ",
+                "id": "2.206",
+                "description": " Vrije onderzwaai met loslaten en contrabeweging v.o. in de vluchtfase tot strekhang aan de HL ",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page82_element_2.206_Im533.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page82_element_2.206_Im532.png"
+                    ]
                 }
             },
             {
@@ -60330,19 +58833,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.107",
-                "description": "  2.207 ",
-                "group_number": "2",
-                "group_name": "Achteropzwaaien en vrije heupdraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.307",
                 "description": " Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hechten tot strekhang aan de HL (benen gesloten of gespreid) ",
                 "group_number": "2",
@@ -60377,16 +58867,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.101",
-                "description": " 3.201 Reuzendraai a.o. tot handstand in bovengreep, ook aan \u00e9\u00e9n arm  Reuzendraai a.o. met \u00bd draai (180\u00b0) of met \u00bd draai - \u00bd draai (180\u00b0/180\u00b0) tot handstand ",
+                "id": "3.201",
+                "description": " Reuzendraai a.o. tot handstand in bovengreep, ook aan \u00e9\u00e9n arm  Reuzendraai a.o. met \u00bd draai (180\u00b0) of met \u00bd draai - \u00bd draai (180\u00b0/180\u00b0) tot handstand ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page83_element_3.201_Im549.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im548.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im550.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im546.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.201_Im547.png"
+                    ]
                 }
             },
             {
@@ -60427,42 +58924,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.501",
-                "description": " 3.601 ",
+                "id": "3.402",
+                "description": " Strekhang aan de HL \u2013 voorzwaai met \u00bd draai (180\u00b0) en vluchtfase tot handstand op de LL ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "E",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.102",
-                "description": " 3.202  ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.302",
-                "description": " 3.402 Strekhang aan de HL \u2013 voorzwaai met \u00bd draai (180\u00b0) en vluchtfase tot handstand op de LL ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page83_element_3.402_Im535.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page83_element_3.402_Im536.png"
+                    ]
                 }
             },
             {
@@ -60483,29 +58958,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.103",
-                "description": " 3.203 ",
+                "id": "3.403",
+                "description": " Strekhangzwaai voorwaarts, contraspreiden - ruglingse hecht (Tkatchev) over de HL tot strekhang Strekhangzwaai voorwaarts met \u00bd draai (180\u00b0), gehoekt overspringen over de HL tot strekhang ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.303",
-                "description": " 3.403 Strekhangzwaai voorwaarts, contraspreiden - ruglingse hecht (Tkatchev) over de HL tot strekhang Strekhangzwaai voorwaarts met \u00bd draai (180\u00b0), gehoekt overspringen over de HL tot strekhang ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page84_element_3.403_Im558.png",
+                        "/data/elements/women//images/uneven bars/element\\page84_element_3.403_Im552.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page84_element_3.403_Im560.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page84_element_3.403_Im559.png"
+                    ]
                 }
             },
             {
@@ -60530,29 +58998,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.603",
-                "description": " 3.104 ",
+                "id": "3.304",
+                "description": " Strekhang aan de HL, gezicht naar de LL - voorzwaai en saltorol a.o. gehurkt of gespreid tot zweefhang aan of vrije spreidhoeksteun op de LL ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.204",
-                "description": " 3.304 Strekhang aan de HL, gezicht naar de LL - voorzwaai en saltorol a.o. gehurkt of gespreid tot zweefhang aan of vrije spreidhoeksteun op de LL ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page84_element_3.304_Im556.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page84_element_3.304_Im557.png"
+                    ]
                 }
             },
             {
@@ -60590,29 +59049,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.105",
-                "description": " 3.205 ",
+                "id": "3.405",
+                "description": " Voorzwaai met \u00bd draai (180\u00ba) en salto v.o. gespreid (Deltchev Salto), of voorzwaai en salto a.o. met \u00bd draai (180\u00ba) gehoekt (Gienger Salto) tot strekhang aan de HL  ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.305",
-                "description": " 3.405 Voorzwaai met \u00bd draai (180\u00ba) en salto v.o. gespreid (Deltchev Salto), of voorzwaai en salto a.o. met \u00bd draai (180\u00ba) gehoekt (Gienger Salto) tot strekhang aan de HL  ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page85_element_3.405_Im576.png",
+                        "/data/elements/women//images/uneven bars/element\\page85_element_3.405_Im573.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page85_element_3.405_Im574.png"
+                    ]
                 }
             },
             {
@@ -60633,29 +59084,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.605",
-                "description": "   ",
+                "id": "3.206",
+                "description": " Reuzendraai v.o. in onder-, boven- of mixgreep tot handstand, ook met gespreide benen of gebogen heupen in de opzwaai, ook met \u00bd draai (180\u00b0) tot handstand  ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "F",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.2,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.106",
-                "description": " 3.206 Reuzendraai v.o. in onder-, boven- of mixgreep tot handstand, ook met gespreide benen of gebogen heupen in de opzwaai, ook met \u00bd draai (180\u00b0) tot handstand  ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im590.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im587.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im591.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im593.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im592.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im589.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.206_Im588.png"
+                    ]
                 }
             },
             {
@@ -60676,42 +59122,40 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.406",
-                "description": " 3.506 Reuzendraai v.o. in ondergreep tot handstand met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase tot in ellegreep of reuzendraai v.o. in ondergreep met 1\u00bd (540\uf0b0) draai tot handstand  ",
+                "id": "3.506",
+                "description": " Reuzendraai v.o. in ondergreep tot handstand met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase tot in ellegreep of reuzendraai v.o. in ondergreep met 1\u00bd (540\uf0b0) draai tot handstand  ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page86_element_3.506_Im580.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im583.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im581.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im582.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.506_Im584.png"
+                    ]
                 }
             },
             {
-                "id": "3.606",
-                "description": " 3.107 ",
+                "id": "3.307",
+                "description": " Achterzwaai (rug naar de LL) in boven- of ondergreep met gespreide benen vlucht achterwaarts over de LL tot handstand op de LL  ",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.207",
-                "description": " 3.307 Achterzwaai (rug naar de LL) in boven- of ondergreep met gespreide benen vlucht achterwaarts over de LL tot handstand op de LL  ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page86_element_3.307_Im594.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page86_element_3.307_Im579.png"
+                    ]
                 }
             },
             {
@@ -60729,19 +59173,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page86_element_3.407_Im578.png"
                     ]
-                }
-            },
-            {
-                "id": "3.108",
-                "description": " 3.208 ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -60814,19 +59245,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.109",
-                "description": " 3.209 ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.309",
                 "description": " Achterzwaai in ondergreep met vrij hoekwenden of spreidsprong en \u00bd draai (180\u00b0) over de HL tot strekhang aan de HL  ",
                 "group_number": "3",
@@ -60859,32 +59277,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page88_element_3.409_Im617.png"
                     ]
-                }
-            },
-            {
-                "id": "3.509",
-                "description": " 3.609 ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.110",
-                "description": " 3.210 ",
-                "group_number": "3",
-                "group_name": "Reuzendraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -61006,32 +59398,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.501",
-                "description": " 4.601 ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.102",
-                "description": " 4.202 ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.302",
                 "description": " Vrije spreiddraai a.o. aan de HL met vlucht tot zweefhang aan de LL ",
                 "group_number": "4",
@@ -61098,19 +59464,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.203",
-                "description": "  4.303 ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.403",
                 "description": " Stalder v.o. in ellegreep tot handstand, ook met \u00bd draai (180\u00b0) tot handstand ",
                 "group_number": "4",
@@ -61144,29 +59497,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.603",
-                "description": " 4.104 Vrije spreiddraai a.o. aan de tot vrije steun ",
+                "id": "4.104",
+                "description": " Vrije spreiddraai a.o. aan de tot vrije steun ",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.204",
-                "description": "   ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page90_element_4.104_Im647.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page90_element_4.104_Im648.png"
+                    ]
                 }
             },
             {
@@ -61224,16 +59568,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.105",
-                "description": " 4.205 Met gezicht naar binnen - stalder a.o. met vlucht en contrabeweging tot hang aan de HL  ",
+                "id": "4.205",
+                "description": " Met gezicht naar binnen - stalder a.o. met vlucht en contrabeweging tot hang aan de HL  ",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page91_element_4.205_Im654.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page91_element_4.205_Im655.png"
+                    ]
                 }
             },
             {
@@ -61288,29 +59636,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.605",
-                "description": " 4.106 Ruglingse streksteun - gehoekte zitdraai v.o. tot ruglingse streksteun ",
+                "id": "4.106",
+                "description": " Ruglingse streksteun - gehoekte zitdraai v.o. tot ruglingse streksteun ",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.206",
-                "description": " 4.306 ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page91_element_4.106_Im665.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page91_element_4.106_Im664.png"
+                    ]
                 }
             },
             {
@@ -61365,19 +59704,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.207",
-                "description": "  4.307 ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.407",
                 "description": " Vrije hoekdraai a.o. tot handstand, ook met \u00bd draai (180\u00ba) tot handstand  ",
                 "group_number": "4",
@@ -61410,19 +59736,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page92_element_4.507_Im677.png"
                     ]
-                }
-            },
-            {
-                "id": "4.607",
-                "description": " 4.108  ",
-                "group_number": "4",
-                "group_name": "Stalderdraaien",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -61460,16 +59773,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.408",
-                "description": " 4.508 Vrije hoekdraai a.o. tot handstand met vlucht tot strekhang aan de HL, ook met \u00bd draai (180\u00b0)  Vrije hoekdraai a.o. met gespreide contravlucht (open heupen voor de vlucht) over de HL tot strekhang ",
+                "id": "4.508",
+                "description": " Vrije hoekdraai a.o. tot handstand met vlucht tot strekhang aan de HL, ook met \u00bd draai (180\u00b0)  Vrije hoekdraai a.o. met gespreide contravlucht (open heupen voor de vlucht) over de HL tot strekhang ",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page92_element_4.508_Im684.png",
+                        "/data/elements/women//images/uneven bars/element\\page92_element_4.508_Im682.png",
+                        "/data/elements/women//images/uneven bars/element\\page92_element_4.508_Im669.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page92_element_4.508_Im685.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page92_element_4.508_Im683.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page92_element_4.508_Im681.png"
+                    ]
                 }
             },
             {
@@ -61490,42 +59811,59 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.201",
-                "description": " 5.301 Streksteun ruglings op de HL aan de buitenzijde - draai a.o. tot vouwhangzwaai of gehoekte zitdraai v.o. - uitspreiden met vluchtfase over de LL tot zweefhang  Idem streksteun ruglings op de LL aan de buitenzijde \u2013 gehoekte zitdraai v.o. met uitspreiden en greepwissel tot strekhang aan de HL  ",
+                "id": "5.301",
+                "description": " Streksteun ruglings op de HL aan de buitenzijde - draai a.o. tot vouwhangzwaai of gehoekte zitdraai v.o. - uitspreiden met vluchtfase over de LL tot zweefhang  Idem streksteun ruglings op de LL aan de buitenzijde \u2013 gehoekte zitdraai v.o. met uitspreiden en greepwissel tot strekhang aan de HL  ",
+                "group_number": "5",
+                "group_name": "Gehoekte draaien",
+                "difficulty": "C",
+                "type": "acrobatic",
+                "value": 0.3,
+                "images": {
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.301_Im688.png",
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.301_Im690.png",
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.301_Im691.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.301_Im693.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.301_Im692.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.301_Im689.png"
+                    ]
+                }
+            },
+            {
+                "id": "5.501",
+                "description": " Ruglingse streksteun op de HL - gehoekte zitdraai v.o. door vrije uitgestrekte steun (in ellegreep) in de handstandfase (Adler), ook met \u00bd draai (180\u00b0)  ",
+                "group_number": "5",
+                "group_name": "Gehoekte draaien",
+                "difficulty": "E",
+                "type": "acrobatic",
+                "value": 0.5,
+                "images": {
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page93_element_5.501_Im694.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.501_Im696.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page93_element_5.501_Im695.png"
+                    ]
+                }
+            },
+            {
+                "id": "5.202",
+                "description": " Ruglingse streksteun op de HL aan de binnenzijde - gehoekte zitdraai a.o. met greepwissel tot zweef-hang aan de LL ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.401",
-                "description": " 5.501 Ruglingse streksteun op de HL - gehoekte zitdraai v.o. door vrije uitgestrekte steun (in ellegreep) in de handstandfase (Adler), ook met \u00bd draai (180\u00b0)  ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.102",
-                "description": " 5.202 Ruglingse streksteun op de HL aan de binnenzijde - gehoekte zitdraai a.o. met greepwissel tot zweef-hang aan de LL ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page94_element_5.202_Im703.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page94_element_5.202_Im704.png"
+                    ]
                 }
             },
             {
@@ -61584,29 +59922,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.602",
-                "description": " 5.103 ",
+                "id": "5.303",
+                "description": " Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met terughoeken achterwaarts tot strekhang aan de HL  ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.203",
-                "description": " 5.303 Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met terughoeken achterwaarts tot strekhang aan de HL  ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page94_element_5.303_Im713.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page94_element_5.303_Im698.png"
+                    ]
                 }
             },
             {
@@ -61644,16 +59973,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.204",
-                "description": " 5.304 Schleudern tot bijna handstand met omspringen tot in bovengreep aan de HL Doorsteken op HL, disloqueren en vlucht met \u00bd draai tussen de liggers tot hang aan LL ",
+                "id": "5.304",
+                "description": " Schleudern tot bijna handstand met omspringen tot in bovengreep aan de HL Doorsteken op HL, disloqueren en vlucht met \u00bd draai tussen de liggers tot hang aan LL ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page95_element_5.304_Im716.png",
+                        "/data/elements/women//images/uneven bars/element\\page95_element_5.304_Im714.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page95_element_5.304_Im717.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page95_element_5.304_Im715.png"
+                    ]
                 }
             },
             {
@@ -61693,16 +60028,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.205",
-                "description": " 5.305 Gehoekte zolendraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) tot handstand ",
+                "id": "5.305",
+                "description": " Gehoekte zolendraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) tot handstand ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page96_element_5.305_Im727.png",
+                        "/data/elements/women//images/uneven bars/element\\page96_element_5.305_Im735.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.305_Im728.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.305_Im737.png"
+                    ]
                 }
             },
             {
@@ -61723,19 +60064,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.505",
-                "description": " 5.605 ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.106",
                 "description": " Zolendraai v.o. in ellegreep (gehoekt of gespreid) ",
                 "group_number": "5",
@@ -61751,16 +60079,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.206",
-                "description": "  5.306 Gehoekte zolendraai v.o. tot handstand in ellegreep, ook met \u00bd draai (180\uf0b0)  ",
+                "id": "5.306",
+                "description": " Gehoekte zolendraai v.o. tot handstand in ellegreep, ook met \u00bd draai (180\uf0b0)  ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page96_element_5.306_Im730.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.306_Im732.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page96_element_5.306_Im731.png"
+                    ]
                 }
             },
             {
@@ -61781,16 +60114,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.107",
-                "description": " 5.207 Onderzwaai aan de LL (met steun van de voeten) met contravlucht voorwaarts tot strekhang aan de HL  ",
+                "id": "5.207",
+                "description": " Onderzwaai aan de LL (met steun van de voeten) met contravlucht voorwaarts tot strekhang aan de HL  ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page97_element_5.207_Im754.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.207_Im755.png"
+                    ]
                 }
             },
             {
@@ -61808,19 +60145,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page97_element_5.307_Im739.png"
                     ]
-                }
-            },
-            {
-                "id": "5.407",
-                "description": " 5.507 ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -61857,16 +60181,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.208",
-                "description": " 5.308 Gehoekte zolendraai a.o. tot handstand, ook met greepwissel tot ondergreep, ook met \u00bd draai (180\uf0b0) ",
+                "id": "5.308",
+                "description": " Gehoekte zolendraai a.o. tot handstand, ook met greepwissel tot ondergreep, ook met \u00bd draai (180\uf0b0) ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page97_element_5.308_Im746.png",
+                        "/data/elements/women//images/uneven bars/element\\page97_element_5.308_Im745.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im751.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im753.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im752.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page97_element_5.308_Im744.png"
+                    ]
                 }
             },
             {
@@ -61904,29 +60236,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.109",
-                "description": " 5.209 ",
+                "id": "5.409",
+                "description": " Streksteun voorlings aan de binnenzijde van de LL - gehoekte zolendraai a.o. door handstand met vlucht tot strekhang aan de HL  ",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.309",
-                "description": " 5.409 Streksteun voorlings aan de binnenzijde van de LL - gehoekte zolendraai a.o. door handstand met vlucht tot strekhang aan de HL  ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page98_element_5.409_Im771.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page98_element_5.409_Im756.png"
+                    ]
                 }
             },
             {
@@ -61946,32 +60269,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/uneven bars/symbol\\page98_element_5.509_Im760.png",
                         "/data/elements/women//images/uneven bars/symbol\\page98_element_5.509_Im758.png"
                     ]
-                }
-            },
-            {
-                "id": "5.609",
-                "description": " 5.110 ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.210",
-                "description": " 5.310 ",
-                "group_number": "5",
-                "group_name": "Gehoekte draaien",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -62097,19 +60394,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.501",
-                "description": " 6.601  ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "6.102",
                 "description": " Vanaf HL \u2013 vrije onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0) ",
                 "group_number": "6",
@@ -62128,16 +60412,26 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.202",
-                "description": " 6.302 Vanaf HL - vrije onderzwaai met salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)  Vrije spreiddraai v.o. met salto v.o. gehurkt, ook met \u00bd draai (180\u00b0) ",
+                "id": "6.302",
+                "description": " Vanaf HL - vrije onderzwaai met salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)  Vrije spreiddraai v.o. met salto v.o. gehurkt, ook met \u00bd draai (180\u00b0) ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page99_element_6.302_Im790.png",
+                        "/data/elements/women//images/uneven bars/element\\page99_element_6.302_Im798.png",
+                        "/data/elements/women//images/uneven bars/element\\page99_element_6.302_Im787.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im795.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im789.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im788.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im797.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page99_element_6.302_Im791.png"
+                    ]
                 }
             },
             {
@@ -62172,19 +60466,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/uneven bars/symbol\\page99_element_6.502_Im780.png"
                     ]
-                }
-            },
-            {
-                "id": "6.103",
-                "description": " 6.203 ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -62317,16 +60598,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.105",
-                "description": "  6.205 Voorzwaai - dubbele salto a.o. gehurkt  ",
+                "id": "6.205",
+                "description": " Voorzwaai - dubbele salto a.o. gehurkt  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page102_element_6.205_Im838.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page102_element_6.205_Im839.png"
+                    ]
                 }
             },
             {
@@ -62400,28 +60685,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.106",
-                "description": "  6.206  ",
+                "id": "6.406",
+                "description": " Voorzwaai dubbele salto a.o. gestrekt  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.306",
-                "description": " 6.406 Voorzwaai dubbele salto a.o. gestrekt  ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page102_element_6.406_Im829.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -62441,29 +60715,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.107",
-                "description": "  6.207  ",
+                "id": "6.407",
+                "description": " Voorzwaai - salto a.o. gehurkt met \u00bd draai (180\u00b0) doorgaand in salto v.o. gehurkt Voorzwaai met \u00bd draai (180\u00b0) \u2013 dubbele salto v.o. gehurkt.  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.307",
-                "description": "  6.407 Voorzwaai - salto a.o. gehurkt met \u00bd draai (180\u00b0) doorgaand in salto v.o. gehurkt Voorzwaai met \u00bd draai (180\u00b0) \u2013 dubbele salto v.o. gehurkt.  ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/uneven bars/element\\page103_element_6.407_Im848.png",
+                        "/data/elements/women//images/uneven bars/element\\page103_element_6.407_Im849.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/uneven bars/symbol\\page103_element_6.407_Im850.png",
+                        "/data/elements/women//images/uneven bars/symbol\\page103_element_6.407_Im847.png"
+                    ]
                 }
             },
             {
@@ -62483,19 +60750,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/uneven bars/symbol\\page103_element_6.507_Im842.png",
                         "/data/elements/women//images/uneven bars/symbol\\page103_element_6.507_Im846.png"
                     ]
-                }
-            },
-            {
-                "id": "6.606",
-                "description": "   ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -62592,13 +60846,13 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.109",
-                "description": "  6.209 Heupdraai a.o. aan de LL of HL \u2013 afhechten, ook vanuit vrije heupdraai a.o.  ",
+                "id": "6.209",
+                "description": " Heupdraai a.o. aan de LL of HL \u2013 afhechten, ook vanuit vrije heupdraai a.o.  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
                     "figure": [],
                     "symbol": []
@@ -62657,13 +60911,13 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.110",
-                "description": " 6.210 Streksteun borstlings op de HL - achterzwaai - salto v.o. gehurkt  ",
+                "id": "6.210",
+                "description": " Streksteun borstlings op de HL - achterzwaai - salto v.o. gehurkt  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
                     "figure": [],
                     "symbol": []
@@ -62677,19 +60931,6 @@ export const allElements: LanguageType = {
                 "difficulty": "C",
                 "type": "acrobatic",
                 "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.410",
-                "description": " 6.510 ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
                 "images": {
                     "figure": [],
                     "symbol": []
@@ -62849,29 +61090,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.301",
-                "description": " 1.401 (D) Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat ",
+                "id": "1.401",
+                "description": " (D) Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.501",
-                "description": "  1.601 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page108_element_1.401_Im907.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page108_element_1.401_Im908.png"
+                    ]
                 }
             },
             {
@@ -62926,19 +61158,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.502",
-                "description": " 1.602 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.103",
                 "description": " Flanken tot parallelsteun ruglings, ook met \u00bd draai (180\u00ba) Opspringen met handensteun, \u00be draai (270\u00b0) in steun tot spreidzit op de dij  ",
                 "group_number": "1",
@@ -62960,16 +61179,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.203",
-                "description": " 1.303 Twee vliegende scharen  ",
+                "id": "1.303",
+                "description": " Twee vliegende scharen  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page108_element_1.303_Im911.png",
+                        "/data/elements/women//images/beam/element\\page108_element_1.303_Im910.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page108_element_1.303_Im912.png"
+                    ]
                 }
             },
             {
@@ -62994,16 +61218,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.104",
-                "description": " 1.204 (D)  Sprong met \u00bd draai (180\u00b0) tot vrije spreidhoeksteun of sprong achterwaarts door spreidhouding over de balk tot steun voorlings of tot parallelspagaat - aanloop 90\u00b0 t.o.v. de balk  ",
+                "id": "1.204",
+                "description": " (D)  Sprong met \u00bd draai (180\u00b0) tot vrije spreidhoeksteun of sprong achterwaarts door spreidhouding over de balk tot steun voorlings of tot parallelspagaat - aanloop 90\u00b0 t.o.v. de balk  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im931.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im930.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im928.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im945.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im944.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.204_Im929.png"
+                    ]
                 }
             },
             {
@@ -63024,42 +61255,41 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.404",
-                "description": " 1.504 ",
+                "id": "1.105",
+                "description": " (D)  Sprong (met handensteun) tot parallelspagaat of spreidhoekzit met afzet van 2 benen. Spagaatpositie moet getoond worden als eindpositie zonder steun van de handen. In spreidhoekzit moet de romp de balk raken.  Sprong tot dwarsspagaat met afzet van 1 been of 2 benen \u2013 aanloop schuin t.o.v. de balk (met handensteun) ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
+                "difficulty": "A",
+                "type": "dance",
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page109_element_1.105_Im937.png",
+                        "/data/elements/women//images/beam/element\\page109_element_1.105_Im934.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.105_Im938.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.105_Im936.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.105_Im935.png"
+                    ]
                 }
             },
             {
-                "id": "1.604",
-                "description": " 1.105 (D)  Sprong (met handensteun) tot parallelspagaat of spreidhoekzit met afzet van 2 benen. Spagaatpositie moet getoond worden als eindpositie zonder steun van de handen. In spreidhoekzit moet de romp de balk raken.  Sprong tot dwarsspagaat met afzet van 1 been of 2 benen \u2013 aanloop schuin t.o.v. de balk (met handensteun) ",
+                "id": "1.305",
+                "description": " (D) Vrij opspringen tot dwarsspagaat, afzet van 2 benen - aanloop schuin t.o.v. balk Vrij opspringen met beenwissel tot dwarsspagaat - aanloop schuin t.o.v. balk  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.205",
-                "description": " 1.305 (D) Vrij opspringen tot dwarsspagaat, afzet van 2 benen - aanloop schuin t.o.v. balk Vrij opspringen met beenwissel tot dwarsspagaat - aanloop schuin t.o.v. balk  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "B",
-                "type": "dance",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page109_element_1.305_Im939.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.305_Im940.png",
+                        "/data/elements/women//images/beam/symbol\\page109_element_1.305_Im943.png"
+                    ]
                 }
             },
             {
@@ -63098,45 +61328,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.206",
-                "description": " 1.306 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.406",
-                "description": " 1.506 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.606",
-                "description": " 1.107  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.207",
                 "description": " Sprong tot rol voorwaarts aan de punt of in het midden van de balk  Opsprong tot vrije spreidhoeksteun aan de punt van de balk - achteropzwaai tot rol voorwaarts  ",
                 "group_number": "1",
@@ -63153,32 +61344,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page110_element_1.207_Im957.png",
                         "/data/elements/women//images/beam/symbol\\page110_element_1.207_Im959.png"
                     ]
-                }
-            },
-            {
-                "id": "1.307",
-                "description": "  1.407 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.507",
-                "description": " 1.607 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -63235,32 +61400,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.408",
-                "description": " 1.508 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.109",
-                "description": " 1.209 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.309",
                 "description": " Vanuit dwarsstand, gezicht naar de punt van de balk - kopkip  Vanuit parallelstand: Sprong met gebogen heupen tot handstand (hoek) tot langzame overslag v.o. Vanuit parallelstand: Sprong met gebogen heupen tot handstand (hoek) tot handstandoverslag v.o. met landen tot uitvalstand of op 2 voeten  ",
                 "group_number": "1",
@@ -63282,29 +61421,25 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.409",
-                "description": "  1.509  ",
+                "id": "1.210",
+                "description": "  Springen, heffen of zwaaien tot parallel- of dwarshandstand (2 sec.) - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun ook met \u00bd draai (180\u00b0) in handstand  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "D",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.110",
-                "description": "  1.210  Springen, heffen of zwaaien tot parallel- of dwarshandstand (2 sec.) - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun ook met \u00bd draai (180\u00b0) in handstand  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page112_element_1.210_Im971.png",
+                        "/data/elements/women//images/beam/element\\page112_element_1.210_Im969.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im974.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im973.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im972.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im970.png",
+                        "/data/elements/women//images/beam/symbol\\page112_element_1.210_Im975.png"
+                    ]
                 }
             },
             {
@@ -63326,19 +61461,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page112_element_1.310_Im978.png",
                         "/data/elements/women//images/beam/symbol\\page112_element_1.310_Im981.png"
                     ]
-                }
-            },
-            {
-                "id": "1.410",
-                "description": " 1.510 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -63432,19 +61554,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.112",
-                "description": " 1.212 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.312",
                 "description": " Handstand met grote overstrekking van de romp (2 sec.), idem gehoekt met 1 been verticaal, het andere been gebogen (2 sec.) \u2013 terugkomen tot eindpositie naar keuze Handstand dwars- of parallel met benen horizontaal \u2013 omgekeerde bovenbalans in verschillende varianten (2 sec.) \u2013 terugkomen tot eindpositie naar keuze ",
                 "group_number": "1",
@@ -63484,29 +61593,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.512",
-                "description": " 1.612 ",
+                "id": "1.213",
+                "description": "  Heffen tot parallelhandstand, door buigen en strekken van de benen - sprongetje met \u00bc draai (90\u00b0) tot dwarsstand \u2013 terugkomen tot eindpositie naar keuze ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.113",
-                "description": "  1.213  Heffen tot parallelhandstand, door buigen en strekken van de benen - sprongetje met \u00bc draai (90\u00b0) tot dwarsstand \u2013 terugkomen tot eindpositie naar keuze ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page114_element_1.213_Im1021.png",
+                        "/data/elements/women//images/beam/symbol\\page114_element_1.213_Im1020.png"
+                    ]
                 }
             },
             {
@@ -63639,16 +61738,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.115",
-                "description": "  1.215  Overslag v.o. met kaatsen van de handen op de plank tot steun ruglings \u2013 of met \u00bc draai (90\u00b0) tot buitendwarszit op het rechter- of linkerdijbeen \u2013 aanloop 90\u00b0 ten opzichte van de balk Vrije radslag tot voorlingse steun - aanloop 90\u00b0 ten opzichte van de balk  ",
+                "id": "1.215",
+                "description": "  Overslag v.o. met kaatsen van de handen op de plank tot steun ruglings \u2013 of met \u00bc draai (90\u00b0) tot buitendwarszit op het rechter- of linkerdijbeen \u2013 aanloop 90\u00b0 ten opzichte van de balk Vrije radslag tot voorlingse steun - aanloop 90\u00b0 ten opzichte van de balk  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page116_element_1.215_Im1056.png",
+                        "/data/elements/women//images/beam/element\\page116_element_1.215_Im1053.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page116_element_1.215_Im1050.png",
+                        "/data/elements/women//images/beam/symbol\\page116_element_1.215_Im1055.png",
+                        "/data/elements/women//images/beam/symbol\\page116_element_1.215_Im1054.png"
+                    ]
                 }
             },
             {
@@ -63670,41 +61776,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.415",
-                "description": "  1.515  ",
+                "id": "1.416",
+                "description": " Salto v.o. gehurkt tot dwars- of parallelstand - aanloop aan uiteinde van de balk ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.116",
-                "description": "  1.216 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.316",
-                "description": "  1.416 Salto v.o. gehurkt tot dwars- of parallelstand - aanloop aan uiteinde van de balk ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page117_element_1.416_Im1060.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -63760,29 +61842,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.117",
-                "description": "   ",
+                "id": "1.317",
+                "description": " Arabier voor de balk (aan de punt) - flik-flak door handstand tot rijzit  ",
                 "group_number": "1",
                 "group_name": "Opsprongen",
-                "difficulty": "A",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.217",
-                "description": " 1.317 Arabier voor de balk (aan de punt) - flik-flak door handstand tot rijzit  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page117_element_1.317_Im1064.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page117_element_1.317_Im1065.png"
+                    ]
                 }
             },
             {
@@ -63820,32 +61893,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/beam/symbol\\page117_element_1.517_Im1071.png"
                     ]
-                }
-            },
-            {
-                "id": "1.118",
-                "description": "  1.218  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.318",
-                "description": " 1.418  ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -63888,32 +61935,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.119",
-                "description": "  1.219 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.319",
-                "description": " 1.419 ",
-                "group_number": "1",
-                "group_name": "Opsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.101",
                 "description": "  Loopspagaatsprong voorwaarts met afzet van 1 been (180\u00b0 beenspreiding)  ",
                 "group_number": "2",
@@ -63932,42 +61953,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.201",
-                "description": " 2.301  Spagaatsprong voorwaarts met \u00bd draai (180\u00b0), met afzet van 1 been ",
+                "id": "2.301",
+                "description": "  Spagaatsprong voorwaarts met \u00bd draai (180\u00b0), met afzet van 1 been ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.401",
-                "description": " 2.501 ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.601",
-                "description": "  2.102 ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page120_element_2.301_Im1094.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page120_element_2.301_Im1100.png"
+                    ]
                 }
             },
             {
@@ -64020,16 +62019,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.103",
-                "description": " 2.203 (*) Spreidhoeksprong (beide benen boven horizontaal) of zijwaartse spagaatsprong met afzet van 2 benen in dwarsstand ",
+                "id": "2.203",
+                "description": " (*) Spreidhoeksprong (beide benen boven horizontaal) of zijwaartse spagaatsprong met afzet van 2 benen in dwarsstand ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page121_element_2.203_Im1101.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page121_element_2.203_Im1105.png",
+                        "/data/elements/women//images/beam/symbol\\page121_element_2.203_Im1103.png",
+                        "/data/elements/women//images/beam/symbol\\page121_element_2.203_Im1107.png"
+                    ]
                 }
             },
             {
@@ -64067,29 +62072,37 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.104",
-                "description": " 2.204 Fouett\u00e9 sprong met \u00bd draai (180\u00b0), landen tot arabesque (vrije been boven horizontaal)  ",
+                "id": "2.204",
+                "description": " Fouett\u00e9 sprong met \u00bd draai (180\u00b0), landen tot arabesque (vrije been boven horizontaal)  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.204_Im1125.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.204_Im1124.png"
+                    ]
                 }
             },
             {
-                "id": "2.304",
-                "description": " 2.404 Fouett\u00e9 sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) \u2013 (tour jet\u00e9)  ",
+                "id": "2.404",
+                "description": " Fouett\u00e9 sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) \u2013 (tour jet\u00e9)  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.404_Im1109.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.404_Im1110.png"
+                    ]
                 }
             },
             {
@@ -64127,16 +62140,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.205",
-                "description": " 2.305  Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat (180\u00b0 na beenwissel) ",
+                "id": "2.305",
+                "description": "  Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat (180\u00b0 na beenwissel) ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.305_Im1120.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.305_Im1121.png"
+                    ]
                 }
             },
             {
@@ -64174,19 +62191,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.605",
-                "description": "  2.106 ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.206",
                 "description": " Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal) \u2013 landing op \u00e9\u00e9n of beide benen ",
                 "group_number": "2",
@@ -64221,16 +62225,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.406",
-                "description": " 2.506 Johnson met toegevoegde \u00bd draai (180\u00ba)  ",
+                "id": "2.506",
+                "description": " Johnson met toegevoegde \u00bd draai (180\u00ba)  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page122_element_2.506_Im1116.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page122_element_2.506_Im1117.png"
+                    ]
                 }
             },
             {
@@ -64266,29 +62274,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.307",
-                "description": " 2.407 Hoeksprong in dwarsstand met 1/1 draai (360\u00b0)  ",
+                "id": "2.407",
+                "description": " Hoeksprong in dwarsstand met 1/1 draai (360\u00b0)  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.507",
-                "description": " 2.607 ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page123_element_2.407_Im1132.png",
+                        "/data/elements/women//images/beam/symbol\\page123_element_2.407_Im1131.png"
+                    ]
                 }
             },
             {
@@ -64365,42 +62363,39 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.109",
-                "description": " 2.209 (*) Sprong met \u00bd draai (180\u00b0) - het vrije been boven horizontaal, afzet van 1 been Streksprong met 1/1 (360\u00b0) vanuit dwarsstand  ",
+                "id": "2.209",
+                "description": " (*) Sprong met \u00bd draai (180\u00b0) - het vrije been boven horizontaal, afzet van 1 been Streksprong met 1/1 (360\u00b0) vanuit dwarsstand  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page124_element_2.209_Im1153.png",
+                        "/data/elements/women//images/beam/element\\page124_element_2.209_Im1150.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page124_element_2.209_Im1149.png",
+                        "/data/elements/women//images/beam/symbol\\page124_element_2.209_Im1148.png"
+                    ]
                 }
             },
             {
-                "id": "2.309",
-                "description": " 2.409  Streksprong met 1\u00bd draai (540\u00b0) vanuit dwarsstand ",
+                "id": "2.409",
+                "description": "  Streksprong met 1\u00bd draai (540\u00b0) vanuit dwarsstand ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.509",
-                "description": " 2.609 ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page124_element_2.409_Im1151.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page124_element_2.409_Im1152.png"
+                    ]
                 }
             },
             {
@@ -64457,29 +62452,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.410",
-                "description": " 2.510  ",
+                "id": "2.211",
+                "description": "  Hurksprong met \u00bd draai (180\u00ba) vanuit dwarsstand (heup- en knie-hoek 45\u00ba) - afzet van een of beide benen  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.111",
-                "description": "  2.211  Hurksprong met \u00bd draai (180\u00ba) vanuit dwarsstand (heup- en knie-hoek 45\u00ba) - afzet van een of beide benen  ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page126_element_2.211_Im1168.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page126_element_2.211_Im1169.png"
+                    ]
                 }
             },
             {
@@ -64514,19 +62500,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/beam/symbol\\page126_element_2.411_Im1162.png"
                     ]
-                }
-            },
-            {
-                "id": "2.511",
-                "description": " 2.611 ",
-                "group_number": "2",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -64565,16 +62538,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.312",
-                "description": " 2.412 Hurkhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand - afzet van een of beide benen  ",
+                "id": "2.412",
+                "description": " Hurkhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand - afzet van een of beide benen  ",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page126_element_2.412_Im1173.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page126_element_2.412_Im1174.png"
+                    ]
                 }
             },
             {
@@ -64629,16 +62606,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.301",
-                "description": " 3.401  2/1 draai (720\u00b0) op 1 been - vrije been naar keuze onder de horizontaal  ",
+                "id": "3.401",
+                "description": "  2/1 draai (720\u00b0) op 1 been - vrije been naar keuze onder de horizontaal  ",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page127_element_3.401_Im1184.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page127_element_3.401_Im1185.png"
+                    ]
                 }
             },
             {
@@ -64659,29 +62640,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.601",
-                "description": " 3.102  ",
+                "id": "3.302",
+                "description": "  1/1 draai (360\u00b0) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai ",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "F",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.3,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.202",
-                "description": " 3.302  1/1 draai (360\u00b0) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "B",
-                "type": "dance",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page127_element_3.302_Im1179.png",
+                        "/data/elements/women//images/beam/symbol\\page127_element_3.302_Im1178.png"
+                    ]
                 }
             },
             {
@@ -64702,55 +62673,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.103",
-                "description": " 3.203 ",
+                "id": "3.403",
+                "description": "  1/1 draai (360\u00b0) met het vrije been achterwaarts met beide handen vastgehouden ",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.303",
-                "description": "  3.403  1/1 draai (360\u00b0) met het vrije been achterwaarts met beide handen vastgehouden ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.503",
-                "description": "  3.603  ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.104",
-                "description": "  3.204 ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page128_element_3.403_Im1190.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page128_element_3.403_Im1191.png"
+                    ]
                 }
             },
             {
@@ -64805,19 +62741,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.105",
-                "description": "  3.205 ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.305",
                 "description": " 1/1 draai (360\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba- spagaat van begin tot einde van de draai  ",
                 "group_number": "3",
@@ -64869,19 +62792,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.605",
-                "description": " 3.106 ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.206",
                 "description": " \u00bd duikdraai (180\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand  ",
                 "group_number": "3",
@@ -64898,29 +62808,36 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.306",
-                "description": " 3.406  1/1 duikdraai (360\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand  ",
+                "id": "3.406",
+                "description": "  1/1 duikdraai (360\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand  ",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page129_element_3.406_Im1203.png",
+                        "/data/elements/women//images/beam/symbol\\page129_element_3.406_Im1204.png"
+                    ]
                 }
             },
             {
-                "id": "3.107",
-                "description": " 3.207  1/1 draai (360\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze  ",
+                "id": "3.207",
+                "description": "  1/1 draai (360\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze  ",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page130_element_3.207_Im1209.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page130_element_3.207_Im1210.png"
+                    ]
                 }
             },
             {
@@ -64977,19 +62894,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.607",
-                "description": " 3.108  ",
-                "group_number": "3",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.208",
                 "description": " (*) 1/1 tot 1\u00bd draai (360\u00b0- 540\u00b0) in buiklig - steunen van de handen na elkaar is toegestaan ",
                 "group_number": "3",
@@ -65009,16 +62913,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.308",
-                "description": " 3.408 1\u00bc draai (450\u00b0) in vouwlig - beenromphoek gesloten  ",
+                "id": "3.408",
+                "description": " 1\u00bc draai (450\u00b0) in vouwlig - beenromphoek gesloten  ",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page130_element_3.408_Im1217.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page130_element_3.408_Im1218.png"
+                    ]
                 }
             },
             {
@@ -65039,42 +62947,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.201",
-                "description": " 4.301 ",
+                "id": "4.102",
+                "description": " (D) (*) Standspagaat voorlings met steun van de handen voor standbeen (beenspreiding 180\u00b0 - 2 sec.) of stand op 1 been met de voet van het vrije been in voorwaartse positie boven hoofdhoogte (2 sec.) Zweefstand voorlings met gestrekt standbeen (beenspreiding 180\uf0b0 - 2 sec.) ",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.401",
-                "description": " 4.501 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.601",
-                "description": " 4.102 (D) (*) Standspagaat voorlings met steun van de handen voor standbeen (beenspreiding 180\u00b0 - 2 sec.) of stand op 1 been met de voet van het vrije been in voorwaartse positie boven hoofdhoogte (2 sec.) Zweefstand voorlings met gestrekt standbeen (beenspreiding 180\uf0b0 - 2 sec.) ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1236.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1229.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1230.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1234.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1233.png",
+                        "/data/elements/women//images/beam/symbol\\page131_element_4.102_Im1232.png"
+                    ]
                 }
             },
             {
@@ -65091,32 +62980,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page131_element_4.202_Im1228.png",
                         "/data/elements/women//images/beam/symbol\\page131_element_4.202_Im1231.png"
                     ]
-                }
-            },
-            {
-                "id": "4.302",
-                "description": "  4.402  ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.502",
-                "description": " 4.602 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -65152,29 +63015,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.303",
-                "description": " 4.403 ",
+                "id": "4.204",
+                "description": " Rol v.o. zonder steun van de handen tot zit of tot hurkzit  Vanuit rijzit, zwaai a.w. tot schouder rol v.o. met heup strekking tot zit positie in hurkstand  ",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "C",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.3,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.104",
-                "description": " 4.204 Rol v.o. zonder steun van de handen tot zit of tot hurkzit  Vanuit rijzit, zwaai a.w. tot schouder rol v.o. met heup strekking tot zit positie in hurkstand  ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page132_element_4.204_Im1238.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.204_Im1245.png",
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.204_Im1239.png"
+                    ]
                 }
             },
             {
@@ -65195,42 +63050,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.404",
-                "description": " 4.504 ",
+                "id": "4.105",
+                "description": " Rol a.o. met handensteun op de balk \u2013 landen op 1 of beide voeten ",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.604",
-                "description": " 4.105 Rol a.o. met handensteun op de balk \u2013 landen op 1 of beide voeten ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.205",
-                "description": "   ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.105_Im1242.png",
+                        "/data/elements/women//images/beam/symbol\\page132_element_4.105_Im1241.png"
+                    ]
                 }
             },
             {
@@ -65245,32 +63077,6 @@ export const allElements: LanguageType = {
                     "figure": [
                         "/data/elements/women//images/beam/element\\page132_element_4.305_Im1243.png"
                     ],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.405",
-                "description": "  4.505 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.605",
-                "description": " 4.106 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
                     "symbol": []
                 }
             },
@@ -65311,19 +63117,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.406",
-                "description": " 4.506 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.107",
                 "description": " Radslag, ook met steun op 1 hand of radslag met vluchtfase voor of na de handensteun  ",
                 "group_number": "4",
@@ -65343,42 +63136,40 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.207",
-                "description": " 4.307  Vanuit spreidzit of spreidspagaat - rol zijwaarts gestrekt, benen gespreid \u2013 eindpositie naar keuze ",
+                "id": "4.307",
+                "description": "  Vanuit spreidzit of spreidspagaat - rol zijwaarts gestrekt, benen gespreid \u2013 eindpositie naar keuze ",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page133_element_4.307_Im1251.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page133_element_4.307_Im1262.png"
+                    ]
                 }
             },
             {
-                "id": "4.407",
-                "description": " 4.507 ",
+                "id": "4.108",
+                "description": " Langzame overslag v.o., met/zonder ongelijke handplaatsing Langzame overslag v.o., a.o. (Tik-Tak)  ",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.607",
-                "description": " 4.108 Langzame overslag v.o., met/zonder ongelijke handplaatsing Langzame overslag v.o., a.o. (Tik-Tak)  ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page133_element_4.108_Im1265.png",
+                        "/data/elements/women//images/beam/element\\page133_element_4.108_Im1252.png",
+                        "/data/elements/women//images/beam/element\\page133_element_4.108_Im1260.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page133_element_4.108_Im1261.png",
+                        "/data/elements/women//images/beam/symbol\\page133_element_4.108_Im1266.png"
+                    ]
                 }
             },
             {
@@ -65415,19 +63206,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page133_element_4.308_Im1256.png",
                         "/data/elements/women//images/beam/symbol\\page133_element_4.308_Im1255.png"
                     ]
-                }
-            },
-            {
-                "id": "4.408",
-                "description": " 4.508 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -65490,32 +63268,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.409",
-                "description": " 4.509 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.609",
-                "description": " 4.110 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.210",
                 "description": " Vanuit hurkspreidzit - langzame overslag a.o. (Valdez/zitbruggetje) ",
                 "group_number": "4",
@@ -65552,29 +63304,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.410",
-                "description": " 4.510 ",
-                "group_number": "4",
-                "group_name": "Houdingen en acrobatische elementen zonder vlucht",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.101",
-                "description": " 5.201  Handstandoverslag v.o. met vluchtfase, landing op \u00e9\u00e9n of beide benen (zelfde element); ook met steun van \u00e9\u00e9n arm  ",
+                "id": "5.201",
+                "description": "  Handstandoverslag v.o. met vluchtfase, landing op \u00e9\u00e9n of beide benen (zelfde element); ook met steun van \u00e9\u00e9n arm  ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page135_element_5.201_Im1289.png",
+                        "/data/elements/women//images/beam/element\\page135_element_5.201_Im1305.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page135_element_5.201_Im1306.png",
+                        "/data/elements/women//images/beam/symbol\\page135_element_5.201_Im1304.png"
+                    ]
                 }
             },
             {
@@ -65632,19 +63377,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.601",
-                "description": " 5.102  ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.202",
                 "description": " Flik-flak tot landing op 2 voeten ",
                 "group_number": "5",
@@ -65696,19 +63428,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.103",
-                "description": "  5.203 ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.303",
                 "description": " Flik-flak met \u00bc (90\u00ba) tot handstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze  ",
                 "group_number": "5",
@@ -65743,29 +63462,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.503",
-                "description": " 5.603 ",
+                "id": "5.204",
+                "description": " Flik-flak met uitstappen, ook met steun op \u00e9\u00e9n arm ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.104",
-                "description": " 5.204 Flik-flak met uitstappen, ook met steun op \u00e9\u00e9n arm ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page136_element_5.204_Im1314.png",
+                        "/data/elements/women//images/beam/element\\page136_element_5.204_Im1313.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page136_element_5.204_Im1319.png",
+                        "/data/elements/women//images/beam/symbol\\page136_element_5.204_Im1315.png"
+                    ]
                 }
             },
             {
@@ -65803,29 +63515,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.105",
-                "description": " 5.205 ",
+                "id": "5.405",
+                "description": "  Flik-flak met uitstappen vanuit parallelpositie  Flik-flak vanuit parallelpositie tot steun voorlings of met heupdraai a.o.   ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.305",
-                "description": " 5.405  Flik-flak met uitstappen vanuit parallelpositie  Flik-flak vanuit parallelpositie tot steun voorlings of met heupdraai a.o.   ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page137_element_5.405_Im1322.png",
+                        "/data/elements/women//images/beam/element\\page137_element_5.405_Im1325.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page137_element_5.405_Im1323.png",
+                        "/data/elements/women//images/beam/symbol\\page137_element_5.405_Im1326.png",
+                        "/data/elements/women//images/beam/symbol\\page137_element_5.405_Im1324.png"
+                    ]
                 }
             },
             {
@@ -65843,19 +63549,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/beam/symbol\\page137_element_5.505_Im1328.png"
                     ]
-                }
-            },
-            {
-                "id": "5.605",
-                "description": " 5.106 ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -65912,16 +63605,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.107",
-                "description": " 5.207  Flik-flak of auerbach flik-flak, met hoge vluchtfase tot rijzit ",
+                "id": "5.207",
+                "description": "  Flik-flak of auerbach flik-flak, met hoge vluchtfase tot rijzit ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page138_element_5.207_Im1358.png",
+                        "/data/elements/women//images/beam/element\\page138_element_5.207_Im1341.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.207_Im1352.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.207_Im1342.png"
+                    ]
                 }
             },
             {
@@ -65961,42 +63660,41 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.507",
-                "description": " 5.607 ",
+                "id": "5.208",
+                "description": " Arabier ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page138_element_5.208_Im1345.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.208_Im1346.png"
+                    ]
                 }
             },
             {
-                "id": "5.108",
-                "description": " 5.208 Arabier ",
+                "id": "5.408",
+                "description": " Vrije (aerial) radslag \u2013 landing op \u00e9\u00e9n of twee voeten in dwars- of parallelstand, ook met beenwissel  ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.308",
-                "description": " 5.408 Vrije (aerial) radslag \u2013 landing op \u00e9\u00e9n of twee voeten in dwars- of parallelstand, ook met beenwissel  ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page138_element_5.408_Im1335.png",
+                        "/data/elements/women//images/beam/element\\page138_element_5.408_Im1339.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1337.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1340.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1338.png",
+                        "/data/elements/women//images/beam/symbol\\page138_element_5.408_Im1336.png"
+                    ]
                 }
             },
             {
@@ -66021,55 +63719,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.109",
-                "description": " 5.209 ",
+                "id": "5.409",
+                "description": " Vrije (aerial) overslag v.o., landing op \u00e9\u00e9n of beide voeten  ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.309",
-                "description": " 5.409 Vrije (aerial) overslag v.o., landing op \u00e9\u00e9n of beide voeten  ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.509",
-                "description": " 5.609 ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.110",
-                "description": " 5.210 ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page139_element_5.409_Im1360.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page139_element_5.409_Im1362.png",
+                        "/data/elements/women//images/beam/symbol\\page139_element_5.409_Im1361.png"
+                    ]
                 }
             },
             {
@@ -66124,29 +63788,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.111",
-                "description": "  5.211 ",
+                "id": "5.411",
+                "description": "  Salto zijwaarts gehurkt, afzet vanaf \u00e9\u00e9n been tot parallelstand ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.311",
-                "description": " 5.411  Salto zijwaarts gehurkt, afzet vanaf \u00e9\u00e9n been tot parallelstand ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page140_element_5.411_Im1368.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page140_element_5.411_Im1369.png"
+                    ]
                 }
             },
             {
@@ -66184,19 +63839,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.112",
-                "description": "  5.212  ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.312",
                 "description": "  Salto a.o. gehurkt, gehoekt of gestrekt (met uitstappen)  ",
                 "group_number": "5",
@@ -66216,16 +63858,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.412",
-                "description": " 5.512 Salto a.o. gestrekt met gesloten benen  ",
+                "id": "5.512",
+                "description": " Salto a.o. gestrekt met gesloten benen  ",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page140_element_5.512_Im1373.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page140_element_5.512_Im1374.png"
+                    ]
                 }
             },
             {
@@ -66246,19 +63892,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.113",
-                "description": "  5.213 ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "A",
-                "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "5.313",
                 "description": " Auerbach salto a.o. gehurkt, gehoekt of gestrekt met uitstappen ",
                 "group_number": "5",
@@ -66276,19 +63909,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/beam/symbol\\page141_element_5.313_Im1387.png",
                         "/data/elements/women//images/beam/symbol\\page141_element_5.313_Im1389.png"
                     ]
-                }
-            },
-            {
-                "id": "5.413",
-                "description": "  5.513 ",
-                "group_number": "5",
-                "group_name": "Acrobatische vluchtelementen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -66345,29 +63965,41 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.401",
-                "description": "  6.501 Vrije (aerial) radslag met gehurkte salto achterwaarts ",
+                "id": "6.501",
+                "description": " Vrije (aerial) radslag met gehurkte salto achterwaarts ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page142_element_6.501_Im1397.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.501_Im1398.png"
+                    ]
                 }
             },
             {
-                "id": "6.601",
-                "description": " 6.102 Salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)  ",
+                "id": "6.102",
+                "description": " Salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "F",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page142_element_6.102_Im1420.png",
+                        "/data/elements/women//images/beam/element\\page142_element_6.102_Im1401.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1400.png",
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1402.png",
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1403.png",
+                        "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1399.png"
+                    ]
                 }
             },
             {
@@ -66427,15 +64059,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.103",
-                "description": " 6.203  Twistsalto gehurkt, gehoekt (sprong achterwaarts met \u00bd draai (180\u00b0) - salto v.o.)  ",
+                "id": "6.203",
+                "description": "  Twistsalto gehurkt, gehoekt (sprong achterwaarts met \u00bd draai (180\u00b0) - salto v.o.)  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page143_element_6.203_Im1425.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -66466,19 +64100,6 @@ export const allElements: LanguageType = {
                     "figure": [
                         "/data/elements/women//images/beam/element\\page143_element_6.403_Im1428.png"
                     ],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.503",
-                "description": " 6.603  ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
                     "symbol": []
                 }
             },
@@ -66577,28 +64198,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.105",
-                "description": " 6.205 ",
+                "id": "6.405",
+                "description": "  Dubbele salto a.o. gehurkt  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "6.305",
-                "description": " 6.405  Dubbele salto a.o. gehurkt  ",
-                "group_number": "6",
-                "group_name": "Afsprongen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page144_element_6.405_Im1448.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -66618,16 +64228,23 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "6.605",
-                "description": "  6.705 Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto  ",
+                "id": "6.705",
+                "description": " Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto  ",
                 "group_number": "6",
                 "group_name": "Afsprongen",
-                "difficulty": "F",
+                "difficulty": "G",
                 "type": "acrobatic",
-                "value": 0.6,
+                "value": 0.7,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/beam/element\\page144_element_6.705_Im1453.png",
+                        "/data/elements/women//images/beam/element\\page144_element_6.705_Im1452.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/beam/symbol\\page144_element_6.705_Im1449.png",
+                        "/data/elements/women//images/beam/symbol\\page144_element_6.705_Im1454.png",
+                        "/data/elements/women//images/beam/symbol\\page144_element_6.705_Im1451.png"
+                    ]
                 }
             },
             {
@@ -66762,29 +64379,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.401",
-                "description": " 1.501 ",
+                "id": "1.202",
+                "description": " (*) Fouett\u00e9sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) (tour jet\u00e9)  Tour jete tot ringhouding (achterste voet op hoofdhoogte, romp achterover en hoofd achterover) ",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.102",
-                "description": "  1.202 (*) Fouett\u00e9sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) (tour jet\u00e9)  Tour jete tot ringhouding (achterste voet op hoofdhoogte, romp achterover en hoofd achterover) ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page149_element_1.202_Im1500.png",
+                        "/data/elements/women//images/floor/element\\page149_element_1.202_Im1498.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page149_element_1.202_Im1501.png",
+                        "/data/elements/women//images/floor/symbol\\page149_element_1.202_Im1499.png"
+                    ]
                 }
             },
             {
@@ -66826,19 +64436,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.502",
-                "description": " 1.602 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.103",
                 "description": " Hurksprong met spreiden van de benen tot dwars- spagaat (180\u00ba) tijdens de vluchtfase  ",
                 "group_number": "1",
@@ -66872,19 +64469,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page150_element_1.203_Im1511.png",
                         "/data/elements/women//images/floor/symbol\\page150_element_1.203_Im1513.png"
                     ]
-                }
-            },
-            {
-                "id": "1.303",
-                "description": " 1.403 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -66959,19 +64543,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page151_element_1.404_Im1520.png",
                         "/data/elements/women//images/floor/symbol\\page151_element_1.404_Im1522.png"
                     ]
-                }
-            },
-            {
-                "id": "1.504",
-                "description": " 1.604 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -67121,29 +64692,21 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.406",
-                "description": " 1.506 ",
+                "id": "1.107",
+                "description": " (*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel (180\u00ba beenspreiding)  ",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.606",
-                "description": " 1.107 (*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel (180\u00ba beenspreiding)  ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1588.png",
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1589.png",
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1590.png",
+                        "/data/elements/women//images/floor/symbol\\page152_element_1.107_Im1587.png"
+                    ]
                 }
             },
             {
@@ -67244,19 +64807,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page153_element_1.208_Im1600.png",
                         "/data/elements/women//images/floor/symbol\\page153_element_1.208_Im1602.png"
                     ]
-                }
-            },
-            {
-                "id": "1.308",
-                "description": " 1.408 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -67362,42 +64912,36 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.210",
-                "description": " 1.310 Streksprong met 2/1 draai (720\u00ba)  ",
+                "id": "1.310",
+                "description": " Streksprong met 2/1 draai (720\u00ba)  ",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "dance",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
                     "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page155_element_1.310_Im1631.png",
+                        "/data/elements/women//images/floor/symbol\\page155_element_1.310_Im1630.png"
+                    ]
                 }
             },
             {
-                "id": "1.410",
-                "description": " 1.510 ",
+                "id": "1.111",
+                "description": " Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal ) ",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.610",
-                "description": " 1.111 Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal ) ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page155_element_1.111_Im1632.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page155_element_1.111_Im1633.png"
+                    ]
                 }
             },
             {
@@ -67432,19 +64976,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/floor/symbol\\page155_element_1.311_Im1637.png"
                     ]
-                }
-            },
-            {
-                "id": "1.411",
-                "description": " 1.511 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -67499,32 +65030,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.412",
-                "description": " 1.512 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "1.612",
-                "description": " 1.113  ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.213",
                 "description": " Hurksprong met 1/1 draai (360\u00ba)  ",
                 "group_number": "1",
@@ -67561,19 +65066,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "1.413",
-                "description": " 1.513 ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "D",
-                "type": "dance",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "1.114",
                 "description": " Hurkhoeksprong (\u00e9\u00e9n been gebogen en het andere been voorwaarts gestrekt, boven horizontaal met gesloten knie\u00ebn) ",
                 "group_number": "1",
@@ -67607,19 +65099,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page157_element_1.214_Im1655.png",
                         "/data/elements/women//images/floor/symbol\\page157_element_1.214_Im1651.png"
                     ]
-                }
-            },
-            {
-                "id": "1.314",
-                "description": "  1.414  ",
-                "group_number": "1",
-                "group_name": "Gymnastische sprongen",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -67692,29 +65171,19 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.401",
-                "description": "  2.501 4/1 draai (1440\u00ba) op \u00e9\u00e9n been \u2013 vrije been onder de horizontaal naar keuze ",
+                "id": "2.501",
+                "description": " 4/1 draai (1440\u00ba) op \u00e9\u00e9n been \u2013 vrije been onder de horizontaal naar keuze ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "D",
+                "difficulty": "E",
                 "type": "dance",
-                "value": 0.4,
+                "value": 0.5,
                 "images": {
                     "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.601",
-                "description": " 2.102  ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page158_element_2.501_Im1669.png",
+                        "/data/elements/women//images/floor/symbol\\page158_element_2.501_Im1670.png"
+                    ]
                 }
             },
             {
@@ -67735,42 +65204,54 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.302",
-                "description": " 2.402 2/1 draai (720\u00ba) met het vrije been van het begin tot het einde van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)   ",
+                "id": "2.402",
+                "description": " 2/1 draai (720\u00ba) met het vrije been van het begin tot het einde van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)   ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page158_element_2.402_Im1659.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page158_element_2.402_Im1664.png"
+                    ]
                 }
             },
             {
-                "id": "2.103",
-                "description": " 2.203 1/1 draai (360\u00ba) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai  ",
+                "id": "2.203",
+                "description": " 1/1 draai (360\u00ba) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai  ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.203_Im1672.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.203_Im1673.png"
+                    ]
                 }
             },
             {
-                "id": "2.303",
-                "description": " 2.403 2/1 draai (720\u00b0) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai ",
+                "id": "2.403",
+                "description": " 2/1 draai (720\u00b0) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.403_Im1674.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.403_Im1675.png"
+                    ]
                 }
             },
             {
@@ -67791,19 +65272,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.603",
-                "description": " 2.104 ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.204",
                 "description": " 1/1 draai (360\uf0b0) op 1 been in \u201cback attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai) ",
                 "group_number": "2",
@@ -67821,107 +65289,73 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.304",
-                "description": " 2.404 (*) 2/1 draai (720\uf0b0) op 1 been \u201cin back attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai) 2/1 draai (720\uf0b0) op 1 been met het vrije been achterwaarts vastgehouden met beiden handen gedurende de draai ",
+                "id": "2.404",
+                "description": " (*) 2/1 draai (720\uf0b0) op 1 been \u201cin back attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai) 2/1 draai (720\uf0b0) op 1 been met het vrije been achterwaarts vastgehouden met beiden handen gedurende de draai ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "D",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.404_Im1680.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.404_Im1683.png",
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.404_Im1682.png",
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.404_Im1684.png"
+                    ]
                 }
             },
             {
-                "id": "2.504",
-                "description": " 2.604 ",
+                "id": "2.205",
+                "description": " 1/1 draai (360\uf0b0) in zweefstand met vrije been boven horizontaal gedurende de gehele draai  ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "E",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.5,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page159_element_2.205_Im1671.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page159_element_2.205_Im1681.png"
+                    ]
                 }
             },
             {
-                "id": "2.105",
-                "description": " 2.205 1/1 draai (360\uf0b0) in zweefstand met vrije been boven horizontaal gedurende de gehele draai  ",
+                "id": "2.206",
+                "description": " 1/1 duikdraai (360\u00ba) door standspagaat zonder aanraken van de vloer met de handen  ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page160_element_2.206_Im1686.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page160_element_2.206_Im1687.png"
+                    ]
                 }
             },
             {
-                "id": "2.305",
-                "description": "  2.405 ",
+                "id": "2.207",
+                "description": " 1/1 draai (360\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai  ",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
-                "difficulty": "C",
+                "difficulty": "B",
                 "type": "dance",
-                "value": 0.3,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.106",
-                "description": "  2.206 1/1 duikdraai (360\u00ba) door standspagaat zonder aanraken van de vloer met de handen  ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.306",
-                "description": " 2.406 ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.506",
-                "description": " 2.606 ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "E",
-                "type": "dance",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "2.107",
-                "description": " 2.207 1/1 draai (360\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai  ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "A",
-                "type": "dance",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page160_element_2.207_Im1688.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page160_element_2.207_Im1689.png"
+                    ]
                 }
             },
             {
@@ -67976,19 +65410,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "2.607",
-                "description": " 2.108 ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "F",
-                "type": "dance",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "2.208",
                 "description": " 2/1 draai (720\u00ba) of meer op de rug in kiphouding (been - romphoek gesloten) ",
                 "group_number": "2",
@@ -68003,19 +65424,6 @@ export const allElements: LanguageType = {
                     "symbol": [
                         "/data/elements/women//images/floor/symbol\\page160_element_2.208_Im1694.png"
                     ]
-                }
-            },
-            {
-                "id": "2.308",
-                "description": " 2.309 ",
-                "group_number": "2",
-                "group_name": "Gymnastische draaien",
-                "difficulty": "C",
-                "type": "dance",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -68059,19 +65467,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.301",
-                "description": " 3.401 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.102",
                 "description": " Hechtrol  ",
                 "group_number": "3",
@@ -68089,42 +65484,20 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.202",
-                "description": "  3.302 ",
+                "id": "3.103",
+                "description": " Rol achterover tot handstand met \u00bd of 1/1 draai (180\u00ba-360\u00ba) in handstand  ",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.402",
-                "description": " 3.502 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.602",
-                "description": " 3.103 Rol achterover tot handstand met \u00bd of 1/1 draai (180\u00ba-360\u00ba) in handstand  ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page162_element_3.103_Im1709.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page162_element_3.103_Im1710.png"
+                    ]
                 }
             },
             {
@@ -68146,32 +65519,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.303",
-                "description": " 3.403 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.503",
-                "description": " 3.603 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "3.104",
                 "description": " Langzame overslag achterover vanuit stand of hurkspreidzit tot handstand met 1/1 draai (360\u00ba) in handstand - beweging erna naar keuze  ",
                 "group_number": "3",
@@ -68187,32 +65534,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page162_element_3.104_Im1716.png",
                         "/data/elements/women//images/floor/symbol\\page162_element_3.104_Im1715.png"
                     ]
-                }
-            },
-            {
-                "id": "3.204",
-                "description": " 3.304 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.404",
-                "description": " 3.504 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -68237,68 +65558,39 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.205",
-                "description": "  3.305 Overslag v.o. met 1/1 draai (360\u00ba) na de steun van de handen of voor de steun  ",
+                "id": "3.305",
+                "description": " Overslag v.o. met 1/1 draai (360\u00ba) na de steun van de handen of voor de steun  ",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
-                "difficulty": "B",
+                "difficulty": "C",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.3,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page163_element_3.305_Im1723.png",
+                        "/data/elements/women//images/floor/element\\page163_element_3.305_Im1721.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page163_element_3.305_Im1722.png",
+                        "/data/elements/women//images/floor/symbol\\page163_element_3.305_Im1724.png"
+                    ]
                 }
             },
             {
-                "id": "3.405",
-                "description": " 3.505 ",
+                "id": "3.106",
+                "description": " Arabier  ",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
-                "difficulty": "D",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.4,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.605",
-                "description": " 3.106 Arabier  ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.206",
-                "description": " 3.306 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "B",
-                "type": "acrobatic",
-                "value": 0.2,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "3.406",
-                "description": " 3.506 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page163_element_3.106_Im1725.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page163_element_3.106_Im1726.png"
+                    ]
                 }
             },
             {
@@ -68342,19 +65634,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "3.307",
-                "description": " 3.407 ",
-                "group_number": "3",
-                "group_name": "Elementen met steun van de handen",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.101",
                 "description": " Salto v.o. gehurkt of gehoekt ",
                 "group_number": "4",
@@ -68394,19 +65673,6 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.301",
-                "description": " 4.401  ",
-                "group_number": "4",
-                "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
                 "id": "4.501",
                 "description": " Dubbele salto v.o. gehurkt  ",
                 "group_number": "4",
@@ -68442,16 +65708,24 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.102",
-                "description": " 4.202 Salto v.o. gestrekt; ook met \u00bd draai (180\u00ba) ",
+                "id": "4.202",
+                "description": " Salto v.o. gestrekt; ook met \u00bd draai (180\u00ba) ",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "A",
+                "difficulty": "B",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.2,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page165_element_4.202_Im1752.png",
+                        "/data/elements/women//images/floor/element\\page165_element_4.202_Im1753.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1754.png",
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1766.png",
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1768.png",
+                        "/data/elements/women//images/floor/symbol\\page165_element_4.202_Im1767.png"
+                    ]
                 }
             },
             {
@@ -68525,68 +65799,22 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "4.203",
-                "description": " 4.303 ",
+                "id": "4.104",
+                "description": " Vrije (aerial) radslag of vrije (aerial) arabier  ",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "B",
+                "difficulty": "A",
                 "type": "acrobatic",
-                "value": 0.2,
+                "value": 0.1,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.403",
-                "description": " 4.503  ",
-                "group_number": "4",
-                "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.603",
-                "description": " 4.104 Vrije (aerial) radslag of vrije (aerial) arabier  ",
-                "group_number": "4",
-                "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "F",
-                "type": "acrobatic",
-                "value": 0.6,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.304",
-                "description": " 4.404 ",
-                "group_number": "4",
-                "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "4.504",
-                "description": " 4.604  ",
-                "group_number": "4",
-                "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
-                "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page166_element_4.104_Im1787.png",
+                        "/data/elements/women//images/floor/element\\page166_element_4.104_Im1788.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page166_element_4.104_Im1790.png",
+                        "/data/elements/women//images/floor/symbol\\page166_element_4.104_Im1789.png"
+                    ]
                 }
             },
             {
@@ -68623,19 +65851,6 @@ export const allElements: LanguageType = {
                         "/data/elements/women//images/floor/symbol\\page166_element_4.205_Im1784.png",
                         "/data/elements/women//images/floor/symbol\\page166_element_4.205_Im1785.png"
                     ]
-                }
-            },
-            {
-                "id": "4.305",
-                "description": "  4.405 ",
-                "group_number": "4",
-                "group_name": "Salto\u2019s v.o. en zijwaarts",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
                 }
             },
             {
@@ -68781,28 +65996,17 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.102",
-                "description": "  5.202 ",
+                "id": "5.402",
+                "description": " Dubbele salto a.o. gehurkt of gehoekt  Dubbele salto a.o. gehoekt  ",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
-                "difficulty": "A",
+                "difficulty": "D",
                 "type": "acrobatic",
-                "value": 0.1,
+                "value": 0.4,
                 "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.302",
-                "description": " 5.402 Dubbele salto a.o. gehurkt of gehoekt  Dubbele salto a.o. gehoekt  ",
-                "group_number": "5",
-                "group_name": "Salto\u2019s a.o.",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page167_element_5.402_Im1805.png"
+                    ],
                     "symbol": []
                 }
             },
@@ -68833,52 +66037,34 @@ export const allElements: LanguageType = {
                 }
             },
             {
-                "id": "5.702",
-                "description": "  5.802 Dubbele salto a.o. gehurkt met 2/1 draai (720\u00ba)  ",
+                "id": "5.802",
+                "description": " Dubbele salto a.o. gehurkt met 2/1 draai (720\u00ba)  ",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
-                "difficulty": "G",
+                "difficulty": "H",
                 "type": "acrobatic",
-                "value": 0.7,
+                "value": 0.8,
                 "images": {
-                    "figure": [],
-                    "symbol": []
+                    "figure": [
+                        "/data/elements/women//images/floor/element\\page167_element_5.802_Im1809.png",
+                        "/data/elements/women//images/floor/element\\page167_element_5.802_Im1813.png",
+                        "/data/elements/women//images/floor/element\\page167_element_5.802_Im1807.png"
+                    ],
+                    "symbol": [
+                        "/data/elements/women//images/floor/symbol\\page167_element_5.802_Im1806.png",
+                        "/data/elements/women//images/floor/symbol\\page167_element_5.802_Im1815.png",
+                        "/data/elements/women//images/floor/symbol\\page167_element_5.802_Im1814.png"
+                    ]
                 }
             },
             {
-                "id": "5.103",
-                "description": " 5.203 ",
+                "id": "5.603",
+                "description": " Dubbele salto a.o. gestrekt  ",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
-                "difficulty": "A",
+                "difficulty": "F",
                 "type": "acrobatic",
-                "value": 0.1,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.303",
-                "description": " 5.403 ",
-                "group_number": "5",
-                "group_name": "Salto\u2019s a.o.",
-                "difficulty": "C",
-                "type": "acrobatic",
-                "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.503",
-                "description": " 5.603 Dubbele salto a.o. gestrekt  ",
-                "group_number": "5",
-                "group_name": "Salto\u2019s a.o.",
-                "difficulty": "E",
-                "type": "acrobatic",
-                "value": 0.5,
+                "value": 0.6,
                 "images": {
                     "figure": [],
                     "symbol": []
@@ -68957,19 +66143,6 @@ export const allElements: LanguageType = {
                 "difficulty": "C",
                 "type": "acrobatic",
                 "value": 0.3,
-                "images": {
-                    "figure": [],
-                    "symbol": []
-                }
-            },
-            {
-                "id": "5.404",
-                "description": "  5.504/",
-                "group_number": "5",
-                "group_name": "Salto\u2019s a.o.",
-                "difficulty": "D",
-                "type": "acrobatic",
-                "value": 0.4,
                 "images": {
                     "figure": [],
                     "symbol": []
