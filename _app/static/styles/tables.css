@@ -33,7 +33,12 @@
 	word-break: break-all;
 	text-overflow: ellipsis;
 	/* Sick fade out effect for overflowing text */
+	-moz-mask-image: linear-gradient(to right, #000 85%, transparent);
 	-webkit-mask-image: linear-gradient(to right, #000 85%, transparent);
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85)';
+	-o-mask-image: linear-gradient(to right, #000 85%, transparent);
+	/* To support older browsers */
+	filter: progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85);
 }
 
 .lx-table tr td {
