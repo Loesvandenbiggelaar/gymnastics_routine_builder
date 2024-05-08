@@ -88,15 +88,49 @@ export class ElementData {
 		data.update(() => this);
 	}
 
+	// a public function that sets the search properties and updates the filtered data ($data.filteredData)
+	public searchMultiple(searchList?: string[] | string, database?: Object[]) {
+		//
+		let searches: string[]; // put the list in a more readable variable
+		if (Array.isArray(searchList) && searchList) searches = searchList;
+		else searches = this.filterList.searchList;
+
+		const _database = database || this.elementData;
+		// use private function to return filtered list and set filteredData
+		var multiFilterList = _database;
+		for (const searchValue of searches) {
+			multiFilterList = this.returnFilterBySearch(searchValue, multiFilterList);
+		}
+
+		// Combine lists in filteredDataLists and store in combinedList
+		return this.returnFilterBySearch(this.filterList.search, multiFilterList);
+	}
+
+	// a public function that sets the search input and updates the filtered data ($data.filteredData)
 	public search(searchInput?: string) {
+		//
 		if (searchInput) this.filterList.search = searchInput;
 		let _searchInput = this.filterList.search || ''; //private searchInput to be matched
-		// let _searchProps = typeof searchProps === 'string' ? [searchProps] : searchProps;
-		let _searchProps = this.filterList.searchProperties;
+		let _database;
 
+		// If multiple search filters, prefilter the database
+		if (this.filterList.searchList.length > 0) _database = this.searchMultiple(_searchInput);
+		//use private function to return filtered list and set filteredData
+		this.filteredData = this.returnFilterBySearch(_searchInput, _database);
+
+		console.debug('Data... Search:', this.filterList.search, this.filterList.searchProperties);
+
+		data.update(() => this);
+	}
+
+	// a private function that returns a list of filtered elements using a search input (as string)
+	// Optionally pick a database, useful for filtering the filtered list further! (default is $data.elementData)
+	private returnFilterBySearch(searchValue: string, database?: Object[]) {
+		if (!database) database = this.elementData;
+		let _searchProps = this.filterList.searchProperties;
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
-		this.filteredData = this.elementData.filter((element) => {
+		const filteredList = database.filter((element) => {
 			// search each element in the array
 			return Object.entries(element).some(([key, value]) => {
 				// check if the value matches the search input
@@ -106,15 +140,12 @@ export class ElementData {
 						_searchProps === undefined ||
 						_searchProps.length === 0) &&
 					// check if the value matches the search input
-					value.toString().toLowerCase().includes(_searchInput.toLowerCase())
+					value.toString().toLowerCase().includes(searchValue.toLowerCase())
 				);
 			});
 		});
-		// update the filtered data and notify the store
-
-		console.debug('Data...Searching:', this.filterList.search, this.filterList.searchProperties);
-
-		data.update(() => this);
+		// return the filtered list
+		return filteredList;
 	}
 
 	public setSearchProperties(searchProps: string[] | string) {
