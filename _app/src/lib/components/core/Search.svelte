@@ -64,6 +64,7 @@
 	function addToFilterList(input: String) {
 		$data.filterList.searchList = [...$data.filterList.searchList, input] as string[];
 		clearSearch();
+		$data.searchMultiple();
 		return;
 	}
 
