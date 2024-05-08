@@ -18,16 +18,11 @@
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
-	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara'];
+	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara', 'overslag'];
 	$: searchTagList_filtered = searchTagList.filter((tag) => tag.includes(value));
 	$: enableSearchDropdown = value.length > 0 && searchTagList_filtered.length > 0;
 
 	//
-	//
-
-	// Icon and default settings
-	let searchProperties_defaulted = (searchProperties = ['id', 'description', 'value']);
-	$: icon = searchProperties_defaulted ? 'mdi:tune-vertical-variant' : 'mdi:filter';
 
 	// Props list
 	let propsList: Record<keyof (typeof $data.elementData)[0] | string, boolean> = Object.keys(
@@ -114,19 +109,16 @@
 	</div>
 
 	<!-- SEARCH FILTER -->
-	<button
-		id="searchFilter"
-		class="btn"
-		class:inactive={searchProperties_defaulted}
-		use:popup={popupSettings}
-	>
-		<Icon {icon} />
+	<button id="searchFilter" class="btn" use:popup={popupSettings}>
+		<Icon icon="mdi:tune-vertical-variant" />
 	</button>
 </div>
 
 <!-- SEARCH FILTER POPUP -->
 
 <div id="searchPopup" class="card p-2 z-10" data-popup={popupSettings.target}>
+	<div class="card-title display-text">Search properties</div>
+	<hr class="divider opacity-50" />
 	{#each Object.keys(propsList) as key}
 		<label for={key}>
 			<input
@@ -136,7 +128,12 @@
 				bind:checked={propsList[key]}
 				id={key}
 			/>
-			<span>{key}</span>
+			<span
+				>{key
+					.split('_') // Split on underscores
+					.map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize first letter each word
+					.join(' ')}
+			</span>
 		</label>
 	{/each}
 </div>
