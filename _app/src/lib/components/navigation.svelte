@@ -96,6 +96,7 @@
 
 	.menu-icon {
 		font-size: inherit;
+		padding: 0.3em;
 	}
 
 	.menu-icon:hover {
