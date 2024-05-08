@@ -13,6 +13,9 @@
 	import { selectedApparatus } from '$lib/stores/datastore';
 	import rawData from '$lib/data/elements/women/nl_elements.json';
 
+	//CSS Settings
+	let cssClasses: string = '';
+	export { cssClasses as class };
 	///
 	//Modal Settings
 	const modalComponent: ModalComponent = {
@@ -23,19 +26,6 @@
 		component: modalComponent
 	};
 	const modalStore = getModalStore();
-
-	let DEPRECATED_data: Array<Object> = Object.values(rawData[$selectedApparatus.data_name]);
-	let DEPRECATED_filteredData: Array<Object> = DEPRECATED_data;
-	$data.setApparatus('vault');
-
-	function updateDataByApparatus(input) {
-		const _apparatus = Object.keys(rawData).includes(input.data_name)
-			? input.data_name
-			: Object.keys(rawData)[0];
-		DEPRECATED_filteredData = DEPRECATED_data = Object.values(rawData[_apparatus]);
-	}
-	// Update data based on selected apparatus
-	$: updateDataByApparatus($selectedApparatus);
 
 	// Modal
 	// Show element in modal
@@ -92,7 +82,8 @@
 			key: 'difficulty',
 			title: 'Difficulty',
 			// Replace the string 'TA' with the Unicode character '\u0000'. The Unicode character '\u0000' is a zero-width space, so when rendering the difficulty value, 'TA' will not be visible.
-			value: (v: { difficulty: string }) => getProp(v, 'difficulty').replace('TA', '0'),
+			value: (v: { difficulty: string }) =>
+				getProp(v, 'difficulty').replace('TA', '1A').replace('SA', '0A'),
 			renderValue: (v: { difficulty: string }) => getProp(v, 'difficulty').toUpperCase(),
 			sortable: true,
 			headerClass: 'text-left'
@@ -108,17 +99,34 @@
 		// 	},
 		// 	sortable: false
 		// }
-	];
+	] as any;
 
 	//RENDER DATA!!
-	$: renderedData = $data.filteredData;
+	$: renderedData = $data.filteredData as any[];
 </script>
 
-<SvelteTable
-	rows={renderedData}
-	{columns}
-	on:clickRow={showElementInModal}
-	classNameTable="lx-table alternating"
-	classNameThead="sticky-header"
-	rowKey="id"
-></SvelteTable>
+<div id="table_wrapper" class={cssClasses}>
+	<SvelteTable
+		rows={renderedData}
+		{columns}
+		on:clickRow={showElementInModal}
+		classNameTable="lx-table alternating"
+		classNameThead="sticky-header"
+		rowKey="id"
+	></SvelteTable>
+	<hr class="divider" />
+</div>
+
+<style>
+	#table_wrapper {
+		overflow-x: auto;
+		overflow-y: auto;
+		height: 100%;
+	}
+
+	.divider {
+		margin: 0.5rem 10dvw;
+		opacity: 0.5;
+		padding-bottom: 10px;
+	}
+</style>

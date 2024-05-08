@@ -50,8 +50,9 @@ export class ElementData {
 	filteredData: Object[];
 	// A list of all the filters
 	filterList: {
-		search?: string;
-		searchProperties?: string[];
+		search: string;
+		searchList: string[];
+		searchProperties: string[];
 	};
 	constructor(rawData: Object, apparatus?: string) {
 		// Initialize data
@@ -59,9 +60,11 @@ export class ElementData {
 		this.apparatus = (apparatus ? apparatus : Object.keys(rawData)[0]) as keyof typeof this.rawData;
 		this.elementData = Object.values(rawData[this.apparatus]);
 		this.filteredData = this.elementData;
-		this.filterList = {};
-		this.filterList.search = '' as string;
-		this.filterList.searchProperties = ['id', 'description', 'value'];
+		this.filterList = {
+			search: '' as string,
+			searchList: [],
+			searchProperties: ['id', 'description', 'value']
+		};
 	}
 	public logData() {
 		console.log(this.elementData);
