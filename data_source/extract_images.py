@@ -4,7 +4,7 @@ import os
 import shutil
 import re
 import pandas as pd
-from extract_elements import loadConfig, saveJson, loadJson, ProcessElements
+from extract_elements import loadConfig, saveJson, loadJson
 
 class PageClass:
     def __init__(self, page):
@@ -20,18 +20,9 @@ class PageClass:
         dict_translate_nr = {"I":"1", "II":"2", "III":"3", "IV": "4"}
         number = None
         # define the regex to extract the group nr and group description from each page
-
-        # print(self.text)
-        # print(regex_pattern)
         for res in re.findall(regex_pattern, self.text):
-            # print(res)
             number = dict_translate_nr.get(res[0], res[0].split(".")[0])
-        # assert number
-        if not number:
-            print(self.text)
-            print(regex_pattern)
 
-        # print("number", number)
         return number
     
     def getLayout(self):

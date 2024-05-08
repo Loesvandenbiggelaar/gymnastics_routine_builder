@@ -62,10 +62,12 @@ for sex in ["men", "women"]:
         for apparatus, elements in data.items():
             # tranlate the appartus name to a code
             apparatus_code = apparatus_codes[sex][apparatus.lower()]
-            # if apparatus_code not in concatenated_json[language]:
-            #     concatenated_json[language][apparatus_code] = {}
+            # in the ts file, we want the image paths to be from /data, so _app/src/lib/ should be removed from all the image paths
+            for element in elements.values():
+                for image_type, files in element["images"].items():
+                    element["images"][image_type] = [file.replace("_app/src/lib", "") for file in files]
 
-            
+
             concatenated_json[language][apparatus_code] = list(elements.values())
 
 # for language, apparatuses in concatenated_json.items():
