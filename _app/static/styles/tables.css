@@ -33,11 +33,13 @@
 	word-break: break-all;
 	text-overflow: ellipsis;
 	/* Sick fade out effect for overflowing text */
-	-moz-mask-image: linear-gradient(to right, #000 85%, transparent);
-	-webkit-mask-image: linear-gradient(to right, #000 85%, transparent);
-	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85)';
-	-o-mask-image: linear-gradient(to right, #000 85%, transparent);
+	--fadeout-gradient-mask: linear-gradient(to right, #000 85%, transparent);
+	mask-image: var(--fadeout-gradient-mask);
+	-moz-mask-image: var(--fadeout-gradient-mask);
+	-webkit-mask-image: var(--fadeout-gradient-mask);
+	-o-mask-image: var(--fadeout-gradient-mask);
 	/* To support older browsers */
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85)';
 	filter: progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85);
 }
 
