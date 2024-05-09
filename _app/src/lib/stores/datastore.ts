@@ -20,6 +20,7 @@ export let modalElement = writable();
  */
 
 import { availableApparatuses, availableLanguages } from '$lib/data/elements/all_elements';
+import { search_tags } from '$lib/data/elements/search_tags';
 
 export class ElementData {
 	rawData: Record<string, Record<string, any>>;
@@ -39,6 +40,7 @@ export class ElementData {
 	filterOptions: {
 		search: string;
 		searchList: Array<string>;
+		availableSearchTags: Array<string>;
 		searchProperties: Array<string>;
 		sex: 'm' | 'w' | 'both';
 	};
@@ -72,6 +74,7 @@ export class ElementData {
 		this.filterOptions = {
 			search: '' as string,
 			searchList: [],
+			availableSearchTags: search_tags?.[this.selectedLanguage]?.[this.selectedApparatus] || [],
 			searchProperties: ['id', 'description', 'value'] as const,
 			sex: 'both'
 		};
@@ -183,7 +186,7 @@ export class ElementData {
 import rawData from '$lib/data/elements/women/nl_elements.json';
 import { allElements } from '$lib/data/elements/all_elements';
 const defaultUserSettings = {
-	lang: 'nl',
+	lang: 'nlx',
 	apparatus: 'v_w'
 };
 // Instantiate data store
