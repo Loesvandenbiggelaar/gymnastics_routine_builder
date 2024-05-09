@@ -98,11 +98,6 @@ export class ElementData {
 		this.selectedApparatus = this.availableApparatuses.includes(this.userSettings.apparatus)
 			? this.userSettings.apparatus
 			: this.availableApparatuses[0];
-<<<<<<< HEAD
-=======
-		// LOG FOR DEBUGGINF
-		console.error(`Selected apparatus: ${this.selectedApparatus}`);
->>>>>>> 0db39ea78feddb2d83f5514821b1359e7f25b50e
 
 		// Narrow down dataset to selected apparatus and language
 		this.apparatusData = this.rawData[this.selectedLanguage];
@@ -222,11 +217,7 @@ import rawData from '$lib/data/elements/women/nl_elements.json';
 import { allElements } from '$lib/data/elements/all_elements';
 const defaultUserSettings = {
 	lang: 'nl',
-<<<<<<< HEAD
 	apparatus: 'v_w'
-=======
-	apparatus: 'b'
->>>>>>> 0db39ea78feddb2d83f5514821b1359e7f25b50e
 };
 // Instantiate data store
 export let data = writable(new ElementData(allElements, defaultUserSettings));
