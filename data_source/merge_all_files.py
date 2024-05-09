@@ -125,7 +125,7 @@ with open("_app/src/lib/data/elements/all_elements.ts", "w") as file:
     # write the available apparatus types  to the file
     # the types are the values of the apparatus_codes dictionary
     list_of_apparatuses = [key for value in apparatus_codes.values() for key in value.values()]
-    file.write(f"export const AvailableApparatuses = {list_of_apparatuses}\n")
+    file.write(f"export const availableApparatuses = {list_of_apparatuses}\n")
 
     # print the languages supported
-    file.write(f"export const AvailableLanguages = {list(languages)}\n")
+    file.write(f"export const availableLanguages = {list(languages)}\n")
