@@ -77,6 +77,7 @@ export class ElementData {
 		search: string;
 		searchList: Array<string>;
 		searchProperties: Array<string>;
+		sex: 'm' | 'w' | 'both';
 	};
 
 	constructor(
@@ -108,7 +109,8 @@ export class ElementData {
 		this.filterOptions = {
 			search: '' as string,
 			searchList: [],
-			searchProperties: ['id', 'description', 'value'] as const
+			searchProperties: ['id', 'description', 'value'] as const,
+			sex: 'both'
 		};
 	}
 	public logData() {
@@ -119,15 +121,17 @@ export class ElementData {
 
 	/**
 	 * Sets the apparatus of the filter. If input is not a valid key in rawData, console error is logged.
-	 * @param input - Key of apparatus in rawData
+	 * @param _input - Key of apparatus in rawData
 	 */
-	public setApparatus(input: string) {
+	public setApparatus(_input?: string) {
+		_input = _input || this.selectedApparatus;
 		const _database = this.apparatusData;
 		// Check if input is a valid key in rawData
-		if (!Object.keys(_database).includes(input))
-			return console.error(`Invalid apparatus: ${input}`, Object.keys(_database));
+		if (!Object.keys(_database).includes(_input)) {
+			return console.error(`Invalid apparatus: ${_input}`, Object.keys(_database));
+		}
 		// Set apparatus and update data
-		let _apparatus = input as keyof typeof _database;
+		let _apparatus = _input as keyof typeof _database;
 		this.elementData = Object.values(_database[_apparatus]);
 		// update
 		this.search();
