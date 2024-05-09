@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import { languageDetails, userSettings } from '$lib/stores/userSettings';
 
 	// Configure Drawer
 	import { getDrawerStore } from '@skeletonlabs/skeleton';
@@ -14,10 +15,16 @@
 
 	// List for the links and their names
 	import { routes } from '$lib/modules/routesConfig';
+	import Filter from './core/Filter.svelte';
+	import { availableLanguages } from '$lib/data/elements/all_elements';
 	const navRoutes = routes.filter((route) => route.display);
 	// Background for active links
 	$: classesActive = (href: string) =>
 		href === $page.url.pathname ? '!variant-filled-primary' : '';
+
+	function setLang(lang?: string) {
+		$userSettings.setLanguage(lang);
+	}
 </script>
 
 <div class="wrapper p-2 h-full flex flex-col">
@@ -40,10 +47,28 @@
 			</a>
 		{/each}
 	</nav>
+	<!-- FOOTER -->
 	<div class="mt-auto" id="footer">
 		<hr class="divider" />
 		<div class="flex items-center">
 			<LightSwitch />
+			<Filter popup={{ placement: 'top' }}>
+				<svelte:fragment slot="name">
+					<Icon icon="mdi:language" />
+					Language: {$userSettings.language}
+				</svelte:fragment>
+				<svelte:fragment slot="popup">
+					<div class="flex flex-col w-full">
+						{#each availableLanguages as lang}
+							<button
+								on:click={() => setLang(lang)}
+								class=" w-full rounded p-1 flex justify-start hover:variant-filled-primary"
+								>{languageDetails[lang].localName}</button
+							>
+						{/each}
+					</div>
+				</svelte:fragment>
+			</Filter>
 		</div>
 		<div class="flex item-center gap-2 mt-2">
 			<a
