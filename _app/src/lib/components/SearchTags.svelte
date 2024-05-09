@@ -4,13 +4,13 @@
 	import Icon from '@iconify/svelte';
 
 	function clearAll() {
-		$data.filterList.searchList = [];
+		$data.filterOptions.searchList = [];
 	}
 
-	$: tagList = $data.filterList.searchList;
+	$: tagList = $data.filterOptions.searchList;
 </script>
 
-{#if $data.filterList.searchList.length > 0}
+{#if $data.filterOptions.searchList.length > 0}
 	<div id="tagBox">
 		<button
 			class="btn btn-icon variant-outline-secondary"
