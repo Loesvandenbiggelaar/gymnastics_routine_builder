@@ -43,6 +43,7 @@ def get_files(directory):
 
 directory = "_app/src/lib/data/elements/"
 concatenated_json = {}
+languages = set()
 # load data for men and women
 for sex in ["men", "women"]:
     # get all the JSON files in the directory
@@ -52,7 +53,7 @@ for sex in ["men", "women"]:
     for file in json_files:
         # get the language
         language = file.split('_')[0]
-
+        languages.add(language)
         # load the json file
         data = loadJson(directory + sex + "/" + file)
 
@@ -119,4 +120,12 @@ with open("_app/src/lib/data/elements/all_elements.ts", "w") as file:
     file.write("export type LanguageType = Record<string, ApparatusType>;\n")
     file.write("export const allElements: LanguageType = ")
     file.write(json.dumps(concatenated_json, indent=4))
-    file.write(";")
+    file.write(";\n\n")
+
+    # write the available apparatus types  to the file
+    # the types are the values of the apparatus_codes dictionary
+    list_of_apparatuses = [key for value in apparatus_codes.values() for key in value.values()]
+    file.write(f"export const AvailableApparatuses = {list_of_apparatuses}\n")
+
+    # print the languages supported
+    file.write(f"export const AvailableLanguages = {list(languages)}\n")

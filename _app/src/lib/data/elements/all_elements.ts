@@ -66307,3 +66307,6 @@ export const allElements: LanguageType = {
         ]
     }
 };
+
+export const AvailableApparatuses = ['f_m', 'ph', 'r', 'v_m', 'pb', 'hb', 'v_w', 'ub', 'b', 'f_w']
+export const AvailableLanguages = ['en', 'es', 'fr', 'nl']
