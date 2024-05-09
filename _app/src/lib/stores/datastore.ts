@@ -180,6 +180,17 @@ export class ElementData {
 		data.update(() => this);
 		this.search();
 	}
+
+	public updateLanguage(lang?: string) {
+		this.userSettings.lang = lang || this.userSettings.lang;
+		data.update(() => this);
+		// Set selected apparatus and language to narrow down dataset
+		this.selectedLanguage = Object.keys(this.rawData).includes(this.userSettings.lang)
+			? this.userSettings.lang
+			: this.availableLanguages[0];
+		// Narrow down dataset to selected apparatus and language
+		this.apparatusData = this.rawData[this.selectedLanguage];
+	}
 }
 
 // Import dataset from json
