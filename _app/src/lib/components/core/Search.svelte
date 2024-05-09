@@ -14,7 +14,7 @@
 	import Icon from '@iconify/svelte';
 
 	let value = '';
-	let searchProperties = $data.filterList.searchProperties || ['id', 'description', 'value'];
+	let searchProperties = $data.filterOptions.searchProperties || ['id', 'description', 'value'];
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
@@ -51,7 +51,7 @@
 	);
 
 	// Searchbox settings
-	$: value, ($data.filterList.search = value);
+	$: value, ($data.filterOptions.search = value);
 	$: propsList, setSearchProperties();
 
 	function setSearchProperties() {
@@ -79,7 +79,7 @@
 	}
 
 	function addToFilterList(input: String) {
-		$data.filterList.searchList = [...$data.filterList.searchList, input] as string[];
+		$data.filterOptions.searchList = [...$data.filterOptions.searchList, input] as string[];
 		clearSearch();
 		$data.searchMultiple();
 		return;

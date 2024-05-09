@@ -19,7 +19,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Vault',
 		icon: 'apparatus:vault',
 		id: 'v_w',
-		data_name: 'vault',
+		data_name: 'v_w',
 		sex: 'Womens',
 		sex_id: 'w'
 	},
@@ -27,7 +27,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Beam',
 		icon: 'apparatus:beam',
 		id: 'b',
-		data_name: 'beam',
+		data_name: 'b',
 		sex: 'Womens',
 		sex_id: 'w'
 	},
@@ -35,7 +35,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Uneven Bars',
 		icon: 'apparatus:uneven_bars',
 		id: 'ub',
-		data_name: 'uneven bars',
+		data_name: 'ub',
 		sex: 'Womens',
 		sex_id: 'w'
 	},
@@ -43,7 +43,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Floor',
 		icon: 'apparatus:floor',
 		id: 'f_w',
-		data_name: 'floor',
+		data_name: 'f_w',
 		sex: 'Womens',
 		sex_id: 'w'
 	},
@@ -51,7 +51,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Vault',
 		icon: 'apparatus:vault',
 		id: 'v_m',
-		data_name: 'vault',
+		data_name: 'v_m',
 		sex: 'Mens',
 		sex_id: 'm'
 	},
@@ -59,7 +59,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Rings',
 		icon: 'apparatus:rings',
 		id: 'r',
-		data_name: 'rings',
+		data_name: 'r',
 		sex: 'Mens',
 		sex_id: 'm'
 	},
@@ -67,7 +67,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Pommel Horse',
 		icon: 'apparatus:pommel_horse',
 		id: 'ph',
-		data_name: 'pommel horse',
+		data_name: 'ph',
 		sex: 'Mens',
 		sex_id: 'm'
 	},
@@ -75,7 +75,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'High Bar',
 		icon: 'apparatus:high_bar',
 		id: 'hb',
-		data_name: 'high bar',
+		data_name: 'hb',
 		sex: 'Mens',
 		sex_id: 'm'
 	},
@@ -83,7 +83,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Parallel Bars',
 		icon: 'apparatus:parallel_bars',
 		id: 'pb',
-		data_name: 'parallel bars',
+		data_name: 'pb',
 		sex: 'Mens',
 		sex_id: 'm'
 	},
@@ -91,7 +91,7 @@ export let apparatusConfig: ApparatusConfigEntry[] = [
 		name: 'Floor',
 		icon: 'apparatus:floor',
 		id: 'f_m',
-		data_name: 'floor',
+		data_name: 'f_m',
 		sex: 'Mens',
 		sex_id: 'm'
 	}
