@@ -16,8 +16,8 @@
 		<ApparatusPicker />
 		<Search />
 		<SearchTags />
-		<Filter icon>
-			<svelte:fragment slot="name">Filter</svelte:fragment>
+		<Filter icon="mdi:tune-vertical-variant">
+			<svelte:fragment slot="name">More Filters</svelte:fragment>
 			<svelte:fragment slot="popup">popup...</svelte:fragment>
 		</Filter>
 	</div>
@@ -40,6 +40,8 @@
 		margin: 0.5rem 0;
 		padding: 0.5rem;
 		display: flex;
+		align-items: center;
 		gap: 0.5rem;
+		height: 4rem;
 	}
 </style>

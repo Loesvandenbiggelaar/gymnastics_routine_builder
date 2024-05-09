@@ -18,16 +18,26 @@
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
-	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara'];
-	$: searchTagList_filtered = searchTagList.filter((tag) => tag.includes(value));
-	$: enableSearchDropdown = value.length > 0 && searchTagList_filtered.length > 0;
+	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara', 'overslag'];
+	let searchTagDict: Array<{ value: string; friendly: string; amount: number }>; //Define type
+	//Update Dict
+	$: searchTagDict = searchTagList.map((value) => {
+		return {
+			value: value,
+			friendly: value,
+			amount: $data.returnFilterBySearch(value, $data.filteredData).length
+		};
+	});
+
+	// Filter list to enable/disable dropdown
+	$: searchTagList_filtered = searchTagDict.filter((tag) =>
+		tag.value.toLowerCase().includes(value.toLowerCase())
+	);
+	$: enableSearchDropdown = value.length > 0 && Object.values(searchTagList_filtered).length > 0;
+
+	$: searchTagDict_sorted = searchTagList_filtered.sort((a, b) => b.amount - a.amount);
 
 	//
-	//
-
-	// Icon and default settings
-	let searchProperties_defaulted = (searchProperties = ['id', 'description', 'value']);
-	$: icon = searchProperties_defaulted ? 'mdi:tune-vertical-variant' : 'mdi:filter';
 
 	// Props list
 	let propsList: Record<keyof (typeof $data.elementData)[0] | string, boolean> = Object.keys(
@@ -104,29 +114,31 @@
 		<!-- SEARCH OPTIONS DROPDOWN -->
 		<div id="searchOptionsDropdown" class="card" class:active={enableSearchDropdown}>
 			<!-- TODO add recent searches option -->
-			{#each searchTagList_filtered as tag}
-				<button class="btn variant-soft searchTag" on:click={() => addToFilterList(tag)}>
+			{#each Object.values(searchTagDict_sorted) as tag}
+				<button
+					class="btn variant-soft searchTag"
+					class:inactive={tag.amount === 0}
+					on:click={() => addToFilterList(tag.value)}
+				>
 					<Icon icon="mdi:label-outline" />
-					{tag}
+					{tag.friendly}
+					<small class="tagSearchAmount text-muted"> ({tag.amount}) </small>
 				</button>
 			{/each}
 		</div>
 	</div>
 
 	<!-- SEARCH FILTER -->
-	<button
-		id="searchFilter"
-		class="btn"
-		class:inactive={searchProperties_defaulted}
-		use:popup={popupSettings}
-	>
-		<Icon {icon} />
+	<button id="searchFilter" class="btn" use:popup={popupSettings}>
+		<Icon icon="mdi:tune-vertical-variant" />
 	</button>
 </div>
 
 <!-- SEARCH FILTER POPUP -->
 
 <div id="searchPopup" class="card p-2 z-10" data-popup={popupSettings.target}>
+	<div class="card-title display-text">Search properties</div>
+	<hr class="divider opacity-50" />
 	{#each Object.keys(propsList) as key}
 		<label for={key}>
 			<input
@@ -136,7 +148,12 @@
 				bind:checked={propsList[key]}
 				id={key}
 			/>
-			<span>{key}</span>
+			<span
+				>{key
+					.split('_') // Split on underscores
+					.map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize first letter each word
+					.join(' ')}
+			</span>
 		</label>
 	{/each}
 </div>
@@ -155,6 +172,10 @@
 	.invalidInput {
 		box-shadow: 0 0 2px 0.5px rgb(var(--color-error-500)) !important;
 		border: 1px solid rgb(var(--color-error-500)) !important;
+	}
+
+	.tagSearchAmount {
+		margin-left: auto;
 	}
 
 	#searchBarButtons {
@@ -207,6 +228,10 @@
 		justify-content: flex-start;
 		gap: 0.5em;
 		margin-top: 0.3em;
+	}
+
+	.searchTag.inactive {
+		opacity: 0.3;
 	}
 
 	.inactive:not(:hover) {
