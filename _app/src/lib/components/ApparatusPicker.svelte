@@ -7,7 +7,7 @@
 	import Icon from '@iconify/svelte';
 
 	// Import $data store from datastore.ts
-	import { data, selectedApparatus } from '$lib/stores/datastore';
+	import { data } from '$lib/stores/datastore';
 
 	const popupSettings: PopupSettings = {
 		event: 'click',

@@ -5,43 +5,6 @@ export let selectedApparatus = writable(apparatusConfig[0]);
 // Create a writable store for the selected apparatus
 export let modalElement = writable();
 // Create a writable store for the modal element
-// TODO set type for elements
-
-// Create a function to update the selected apparatus and ensure it is a valid type
-/**
- * Update the selected apparatus.
- * If newApparatus is an object from apparatusConfig, set it as selected.
- * If newApparatus is a string, find the apparatus in apparatusConfig with the same id as newApparatus and set it as selected.
- * @param {(typeof apparatusConfig)[0] | string} newApparatus - The new apparatus to set as selected.
- */
-export const updateSelectedApparatus = (newApparatus: (typeof apparatusConfig)[0] | string) => {
-	if (typeof newApparatus === 'object' && apparatusConfig.includes(newApparatus)) {
-		// Check if newApparatus is an object from apparatusConfig
-		selectedApparatus.set(newApparatus); // Set newApparatus as selected
-	} else if (typeof newApparatus === 'string') {
-		// Check if newApparatus is a string
-		const apparatusWithIdMatch = apparatusConfig.find((apparatus) => apparatus.id === newApparatus); // Find the apparatus in apparatusConfig with the same id as newApparatus
-		if (apparatusWithIdMatch) {
-			// Check if apparatusWithIdMatch exists
-			selectedApparatus.set(apparatusWithIdMatch); // Set apparatusWithIdMatch as selected
-			console.debug(
-				`Selected apparatus: ${apparatusWithIdMatch?.name} (${apparatusWithIdMatch?.sex})` // Log the selected apparatus
-			);
-		}
-	}
-};
-
-type FilterValuesType = {
-	sex?: 'm' | 'w' | 'both';
-	apparatus?: string;
-	search: string;
-};
-export let filterValues = writable<FilterValuesType>({
-	// default values
-	sex: 'both',
-	apparatus: 'vault',
-	search: ''
-});
 
 /**
  * Class containing the data for a specific apparatus

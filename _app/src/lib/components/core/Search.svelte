@@ -2,7 +2,7 @@
 	// Get css vars
 	import '$lib/themes/vars.css';
 	// Action and popups for filter
-	import { filterValues, data } from '$lib/stores/datastore';
+	import { data } from '$lib/stores/datastore';
 	export let placeholder = 'Search Elements...';
 	import { type PopupSettings, popup } from '@skeletonlabs/skeleton';
 	export let popupSettings: PopupSettings = {
