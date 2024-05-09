@@ -19,8 +19,23 @@
 	// MULTIPLE SEARCH PROPERTIES
 	//
 	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara', 'overslag'];
-	$: searchTagList_filtered = searchTagList.filter((tag) => tag.includes(value));
-	$: enableSearchDropdown = value.length > 0 && searchTagList_filtered.length > 0;
+	let searchTagDict: Array<{ value: string; friendly: string; amount: number }>; //Define type
+	//Update Dict
+	$: searchTagDict = searchTagList.map((value) => {
+		return {
+			value: value,
+			friendly: value,
+			amount: $data.returnFilterBySearch(value, $data.filteredData).length
+		};
+	});
+
+	// Filter list to enable/disable dropdown
+	$: searchTagList_filtered = searchTagDict.filter((tag) =>
+		tag.value.toLowerCase().includes(value.toLowerCase())
+	);
+	$: enableSearchDropdown = value.length > 0 && Object.values(searchTagList_filtered).length > 0;
+
+	$: searchTagDict_sorted = searchTagList_filtered.sort((a, b) => b.amount - a.amount);
 
 	//
 
@@ -99,10 +114,15 @@
 		<!-- SEARCH OPTIONS DROPDOWN -->
 		<div id="searchOptionsDropdown" class="card" class:active={enableSearchDropdown}>
 			<!-- TODO add recent searches option -->
-			{#each searchTagList_filtered as tag}
-				<button class="btn variant-soft searchTag" on:click={() => addToFilterList(tag)}>
+			{#each Object.values(searchTagDict_sorted) as tag}
+				<button
+					class="btn variant-soft searchTag"
+					class:inactive={tag.amount === 0}
+					on:click={() => addToFilterList(tag.value)}
+				>
 					<Icon icon="mdi:label-outline" />
-					{tag}
+					{tag.friendly}
+					<small class="tagSearchAmount text-muted"> ({tag.amount}) </small>
 				</button>
 			{/each}
 		</div>
@@ -152,6 +172,10 @@
 	.invalidInput {
 		box-shadow: 0 0 2px 0.5px rgb(var(--color-error-500)) !important;
 		border: 1px solid rgb(var(--color-error-500)) !important;
+	}
+
+	.tagSearchAmount {
+		margin-left: auto;
 	}
 
 	#searchBarButtons {
@@ -204,6 +228,10 @@
 		justify-content: flex-start;
 		gap: 0.5em;
 		margin-top: 0.3em;
+	}
+
+	.searchTag.inactive {
+		opacity: 0.3;
 	}
 
 	.inactive:not(:hover) {

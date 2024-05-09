@@ -125,7 +125,7 @@ export class ElementData {
 
 	// a private function that returns a list of filtered elements using a search input (as string)
 	// Optionally pick a database, useful for filtering the filtered list further! (default is $data.elementData)
-	private returnFilterBySearch(searchValue: string, database?: Object[]) {
+	public returnFilterBySearch(searchValue: string, database?: Object[]) {
 		if (!database) database = this.elementData;
 		let _searchProps = this.filterList.searchProperties;
 		// put search props in an array (if not already)

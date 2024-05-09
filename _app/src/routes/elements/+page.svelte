@@ -40,6 +40,8 @@
 		margin: 0.5rem 0;
 		padding: 0.5rem;
 		display: flex;
+		align-items: center;
 		gap: 0.5rem;
+		height: 4rem;
 	}
 </style>
