@@ -18,7 +18,7 @@
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
-	const searchTagList = $data.filterOptions.availableSearchTags;
+	$: searchTagList = $data.filterOptions.availableSearchTags;
 	let searchTagDict: Array<{ value: string; friendly: string; amount: number }>; //Define type
 	//Update Dict
 	$: searchTagDict = searchTagList.map((value) => {

@@ -183,13 +183,18 @@ export class ElementData {
 
 	public updateLanguage(lang?: string) {
 		this.userSettings.lang = lang || this.userSettings.lang;
-		data.update(() => this);
 		// Set selected apparatus and language to narrow down dataset
 		this.selectedLanguage = Object.keys(this.rawData).includes(this.userSettings.lang)
 			? this.userSettings.lang
 			: this.availableLanguages[0];
 		// Narrow down dataset to selected apparatus and language
 		this.apparatusData = this.rawData[this.selectedLanguage];
+		// Update search tag list
+		this.filterOptions.availableSearchTags =
+			search_tags?.[this.selectedLanguage]?.[this.selectedApparatus] || [];
+
+		//Update and refresh data
+		data.update(() => this);
 	}
 }
 
