@@ -9,7 +9,7 @@
 	<button
 		class="btn hover:opacity-50 text-xs"
 		on:click={() =>
-			($data.filterList.searchList = $data.filterList.searchList.filter((t) => t !== tag))}
+			($data.filterOptions.searchList = $data.filterOptions.searchList.filter((t) => t !== tag))}
 	>
 		<Icon icon="mdi:close" />
 	</button>
