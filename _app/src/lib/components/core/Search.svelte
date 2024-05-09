@@ -30,8 +30,10 @@
 	});
 
 	// Filter list to enable/disable dropdown
-	$: searchTagList_filtered = searchTagDict.filter((tag) =>
-		tag.value.toLowerCase().includes(value.toLowerCase())
+	$: searchTagList_filtered = searchTagDict.filter(
+		(tag) =>
+			tag.value.toLowerCase().includes(value.toLowerCase()) &&
+			!$data.filterOptions.searchList.includes(tag.value)
 	);
 	$: enableSearchDropdown = value.length > 0 && Object.values(searchTagList_filtered).length > 0;
 
@@ -78,7 +80,8 @@
 		}
 	}
 
-	function addToFilterList(input: String) {
+	function addToFilterList(input: string) {
+		if ($data.filterOptions.searchList.includes(input)) return clearSearch();
 		$data.filterOptions.searchList = [...$data.filterOptions.searchList, input] as string[];
 		clearSearch();
 		$data.searchMultiple();
