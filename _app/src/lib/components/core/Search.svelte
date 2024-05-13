@@ -2,7 +2,7 @@
 	// Get css vars
 	import '$lib/themes/vars.css';
 	// Action and popups for filter
-	import { filterValues, data } from '$lib/stores/datastore';
+	import { data } from '$lib/stores/datastore';
 	export let placeholder = 'Search Elements...';
 	import { type PopupSettings, popup } from '@skeletonlabs/skeleton';
 	export let popupSettings: PopupSettings = {
@@ -18,7 +18,7 @@
 
 	// MULTIPLE SEARCH PROPERTIES
 	//
-	const searchTagList = ['salto', 'yamashita', 'flik-flak', 'arabier', 'tsukahara', 'overslag'];
+	$: searchTagList = $data.filterOptions.availableSearchTags;
 	let searchTagDict: Array<{ value: string; friendly: string; amount: number }>; //Define type
 	//Update Dict
 	$: searchTagDict = searchTagList.map((value) => {
@@ -30,8 +30,10 @@
 	});
 
 	// Filter list to enable/disable dropdown
-	$: searchTagList_filtered = searchTagDict.filter((tag) =>
-		tag.value.toLowerCase().includes(value.toLowerCase())
+	$: searchTagList_filtered = searchTagDict.filter(
+		(tag) =>
+			tag.value.toLowerCase().includes(value.toLowerCase()) &&
+			!$data.filterOptions.searchList.includes(tag.value)
 	);
 	$: enableSearchDropdown = value.length > 0 && Object.values(searchTagList_filtered).length > 0;
 
@@ -78,7 +80,8 @@
 		}
 	}
 
-	function addToFilterList(input: String) {
+	function addToFilterList(input: string) {
+		if ($data.filterOptions.searchList.includes(input)) return clearSearch();
 		$data.filterOptions.searchList = [...$data.filterOptions.searchList, input] as string[];
 		clearSearch();
 		$data.searchMultiple();

@@ -5,43 +5,6 @@ export let selectedApparatus = writable(apparatusConfig[0]);
 // Create a writable store for the selected apparatus
 export let modalElement = writable();
 // Create a writable store for the modal element
-// TODO set type for elements
-
-// Create a function to update the selected apparatus and ensure it is a valid type
-/**
- * Update the selected apparatus.
- * If newApparatus is an object from apparatusConfig, set it as selected.
- * If newApparatus is a string, find the apparatus in apparatusConfig with the same id as newApparatus and set it as selected.
- * @param {(typeof apparatusConfig)[0] | string} newApparatus - The new apparatus to set as selected.
- */
-export const updateSelectedApparatus = (newApparatus: (typeof apparatusConfig)[0] | string) => {
-	if (typeof newApparatus === 'object' && apparatusConfig.includes(newApparatus)) {
-		// Check if newApparatus is an object from apparatusConfig
-		selectedApparatus.set(newApparatus); // Set newApparatus as selected
-	} else if (typeof newApparatus === 'string') {
-		// Check if newApparatus is a string
-		const apparatusWithIdMatch = apparatusConfig.find((apparatus) => apparatus.id === newApparatus); // Find the apparatus in apparatusConfig with the same id as newApparatus
-		if (apparatusWithIdMatch) {
-			// Check if apparatusWithIdMatch exists
-			selectedApparatus.set(apparatusWithIdMatch); // Set apparatusWithIdMatch as selected
-			console.debug(
-				`Selected apparatus: ${apparatusWithIdMatch?.name} (${apparatusWithIdMatch?.sex})` // Log the selected apparatus
-			);
-		}
-	}
-};
-
-type FilterValuesType = {
-	sex?: 'm' | 'w' | 'both';
-	apparatus?: string;
-	search: string;
-};
-export let filterValues = writable<FilterValuesType>({
-	// default values
-	sex: 'both',
-	apparatus: 'vault',
-	search: ''
-});
 
 /**
  * Class containing the data for a specific apparatus
@@ -57,6 +20,7 @@ export let filterValues = writable<FilterValuesType>({
  */
 
 import { availableApparatuses, availableLanguages } from '$lib/data/elements/all_elements';
+import { search_tags } from '$lib/data/elements/search_tags';
 
 export class ElementData {
 	rawData: Record<string, Record<string, any>>;
@@ -76,7 +40,9 @@ export class ElementData {
 	filterOptions: {
 		search: string;
 		searchList: Array<string>;
+		availableSearchTags: Array<string>;
 		searchProperties: Array<string>;
+		sex: 'm' | 'w' | 'both';
 	};
 
 	constructor(
@@ -108,7 +74,9 @@ export class ElementData {
 		this.filterOptions = {
 			search: '' as string,
 			searchList: [],
-			searchProperties: ['id', 'description', 'value'] as const
+			availableSearchTags: search_tags?.[this.selectedLanguage]?.[this.selectedApparatus] || [],
+			searchProperties: ['id', 'description', 'value'] as const,
+			sex: 'both'
 		};
 	}
 	public logData() {
@@ -119,15 +87,17 @@ export class ElementData {
 
 	/**
 	 * Sets the apparatus of the filter. If input is not a valid key in rawData, console error is logged.
-	 * @param input - Key of apparatus in rawData
+	 * @param _input - Key of apparatus in rawData
 	 */
-	public setApparatus(input: string) {
+	public setApparatus(_input?: string) {
+		_input = _input || this.selectedApparatus;
 		const _database = this.apparatusData;
 		// Check if input is a valid key in rawData
-		if (!Object.keys(_database).includes(input))
-			return console.error(`Invalid apparatus: ${input}`, Object.keys(_database));
+		if (!Object.keys(_database).includes(_input)) {
+			return console.error(`Invalid apparatus: ${_input}`, Object.keys(_database));
+		}
 		// Set apparatus and update data
-		let _apparatus = input as keyof typeof _database;
+		let _apparatus = _input as keyof typeof _database;
 		this.elementData = Object.values(_database[_apparatus]);
 		// update
 		this.search();
@@ -210,13 +180,29 @@ export class ElementData {
 		data.update(() => this);
 		this.search();
 	}
+
+	public updateLanguage(lang?: string) {
+		this.userSettings.lang = lang || this.userSettings.lang;
+		// Set selected apparatus and language to narrow down dataset
+		this.selectedLanguage = Object.keys(this.rawData).includes(this.userSettings.lang)
+			? this.userSettings.lang
+			: this.availableLanguages[0];
+		// Narrow down dataset to selected apparatus and language
+		this.apparatusData = this.rawData[this.selectedLanguage];
+		// Update search tag list
+		this.filterOptions.availableSearchTags =
+			search_tags?.[this.selectedLanguage]?.[this.selectedApparatus] || [];
+
+		//Update and refresh data
+		data.update(() => this);
+	}
 }
 
 // Import dataset from json
 import rawData from '$lib/data/elements/women/nl_elements.json';
 import { allElements } from '$lib/data/elements/all_elements';
 const defaultUserSettings = {
-	lang: 'nl',
+	lang: 'nlx',
 	apparatus: 'v_w'
 };
 // Instantiate data store

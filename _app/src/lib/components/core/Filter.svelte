@@ -2,14 +2,26 @@
 	// Action and popups for filter
 	import { type PopupSettings, popup } from '@skeletonlabs/skeleton';
 	export let onclick = () => {};
-	let popupSettings: PopupSettings | boolean | undefined = undefined;
-	export { popupSettings as popup };
+	let popupSettings: PopupSettings;
+	let _customPopupSettings: Object | PopupSettings | boolean | undefined = undefined;
+	export { _customPopupSettings as popup };
 
-	if (typeof popupSettings === 'boolean' && popupSettings === true) {
+	const defaultPopupSettings: PopupSettings = {
+		event: 'click',
+		target: 'filter-popup',
+		placement: 'bottom'
+	};
+
+	if (typeof _customPopupSettings === 'boolean' && _customPopupSettings === true) {
+		popupSettings = defaultPopupSettings;
+	}
+
+	if (typeof _customPopupSettings === 'object') {
+		// _customPopupSettings is a PopupSettings object
+		// override values of popupSettings with the passed values of _customPopupSettings
 		popupSettings = {
-			event: 'click',
-			target: 'filter-popup',
-			placement: 'bottom'
+			...defaultPopupSettings,
+			..._customPopupSettings
 		};
 	}
 

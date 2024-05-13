@@ -7,11 +7,9 @@
 	import Icon from '@iconify/svelte';
 
 	// Import filter data
-	import { filterValues, data, modalElement } from '$lib/stores/datastore';
+	import { data, modalElement } from '$lib/stores/datastore';
 
 	// Importing the json from local file
-	import { selectedApparatus } from '$lib/stores/datastore';
-	import rawData from '$lib/data/elements/women/nl_elements.json';
 
 	//CSS Settings
 	let cssClasses: string = '';
