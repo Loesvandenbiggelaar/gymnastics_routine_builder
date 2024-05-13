@@ -734,7 +734,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.110",
-                "description": "_ Roll bwd. with hop 1/1 t. through hdst.  Rodar atr\u00e1s con 1/1 g. saltado al ap. invertido. 116. (Fedorchenko) 112. 115.  117. 100. Cercles d. jamb. \u00e9c. a >270 pivot (dans 2 cercles) direct. \u00e0 l\u2019app. renv et s\u2019abais. en cerc. des jamb. \u00e9c. ou cercl. d. jamb",
+                "description": "_ Roll bwd. with hop 1/1 t. through hdst. Rodar atr\u00e1s con 1/1 g. saltado al ap. invertido. 116. (Fedorchenko) 112. 115. 117. 100. Cercles d. jamb. \u00e9c. a >270 pivot (dans 2 cercles) direct. \u00e0 l\u2019app. renv et s\u2019abais. en cerc. des jamb. \u00e9c. ou cercl. d. jamb",
                 "group_number": "1",
                 "group_name": "Non-acrobatic elements ",
                 "difficulty": "B",
@@ -1118,7 +1118,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.5",
-                "description": "_ Double salto bwd. tucked with 2/1 t.  Doble mortal atr\u00e1s agrupado con 2/1 g",
+                "description": "_ Double salto bwd. tucked with 2/1 t. Doble mortal atr\u00e1s agrupado con 2/1 g",
                 "group_number": "3",
                 "group_name": "Acrobatic elements backward ",
                 "difficulty": "E",
@@ -1192,7 +1192,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.11",
-                "description": "_ Double salto bwd. t. with 3/2 t. or Salto bwd. str. 3/2 to fwd. salto tucked  Doble mortal atr\u00e1s agr. con 3/2 g. o mortal atr\u00e1s ext. con 3/2 g. mortal ad. agrupado G H (Tsukahara) 24. Triple salto arri\u00e8re carp\u00e9",
+                "description": "_ Double salto bwd. t. with 3/2 t. or Salto bwd. str. 3/2 to fwd. salto tucked Doble mortal atr\u00e1s agr. con 3/2 g. o mortal atr\u00e1s ext. con 3/2 g. mortal ad. agrupado G H (Tsukahara) 24. Triple salto arri\u00e8re carp\u00e9",
                 "group_number": "3",
                 "group_name": "Acrobatic elements backward ",
                 "difficulty": "E",
@@ -1506,7 +1506,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.60",
-                "description": "_ Double salto bwd. str. with 5/2 t.  Doble mortal atr\u00e1s ext. con 5/2 t",
+                "description": "_ Double salto bwd. str. with 5/2 t. Doble mortal atr\u00e1s ext. con 5/2 t",
                 "group_number": "3",
                 "group_name": "Acrobatic elements backward ",
                 "difficulty": "F",
@@ -1523,7 +1523,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.54",
-                "description": "_ Double salto bwd. str. with 2/1 t.  Doble mortal atr\u00e1s extendido con 2/1 g",
+                "description": "_ Double salto bwd. str. with 2/1 t. Doble mortal atr\u00e1s extendido con 2/1 g",
                 "group_number": "3",
                 "group_name": "Acrobatic elements backward ",
                 "difficulty": "F",
@@ -1562,7 +1562,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.8",
-                "description": "_ #1 and counter salto fwd. to bwd swing in hang.  #1 y contra salto ad. a impulso atr\u00e1s por la susp",
+                "description": "_ #1 and counter salto fwd. to bwd swing in hang. #1 y contra salto ad. a impulso atr\u00e1s por la susp",
                 "group_number": "1",
                 "group_name": "Kip and swing elements & swings through or to handstand ",
                 "difficulty": "B",
@@ -1613,7 +1613,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.21",
-                "description": "_ Tucked double felge bwd. to hang.  Doble giro de apoyo atr\u00e1s ag. a la suspensi\u00f3n",
+                "description": "_ Tucked double felge bwd. to hang. Doble giro de apoyo atr\u00e1s ag. a la suspensi\u00f3n",
                 "group_number": "1",
                 "group_name": "Kip and swing elements & swings through or to handstand ",
                 "difficulty": "C",
@@ -1626,7 +1626,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.23",
-                "description": "_ Straight double felge bwd. to hang.  Doble giro de apoyo atr\u00e1s extendido a la susp. 19. \u00c9tablissement en avant en tournant en arri\u00e8re \u00e0 l\u2019appui",
+                "description": "_ Straight double felge bwd. to hang. Doble giro de apoyo atr\u00e1s extendido a la susp. 19. \u00c9tablissement en avant en tournant en arri\u00e8re \u00e0 l\u2019appui",
                 "group_number": "1",
                 "group_name": "Kip and swing elements & swings through or to handstand ",
                 "difficulty": "E",
@@ -1810,7 +1810,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.49",
-                "description": "_ Kip to support.  Kippe al apoyo. 51. 55. Bascule dorsale \u00e0 l\u2019appui",
+                "description": "_ Kip to support. Kippe al apoyo. 51. 55. Bascule dorsale \u00e0 l\u2019appui",
                 "group_number": "1",
                 "group_name": "Kip and swing elements & swings through or to handstand ",
                 "difficulty": "A",
@@ -2702,7 +2702,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.60",
-                "description": "Through hanging scale rearways (no hold re- quired) pull with str. body through cross to inv. swallow (2 s.)..  Desde plancha dorsal (no se requiere parada) subir cuerpo ext. a trav\u00e9s de cristo a hirondelle invertida (2 s.).",
+                "description": "Through hanging scale rearways (no hold re- quired) pull with str. body through cross to inv. swallow (2 s.).. Desde plancha dorsal (no se requiere parada) subir cuerpo ext. a trav\u00e9s de cristo a hirondelle invertida (2 s.).",
                 "group_number": "2",
                 "group_name": "Strength elements and hold elements (2 sec.) ",
                 "difficulty": "F",
@@ -3451,7 +3451,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.54",
-                "description": "\u00c9tablissement. en av. en tournant en arri\u00e8re \u00e0  l\u2019appui facial horizontal \u00e9cart\u00e9 (2 s.).",
+                "description": "\u00c9tablissement. en av. en tournant en arri\u00e8re \u00e0 l\u2019appui facial horizontal \u00e9cart\u00e9 (2 s.).",
                 "group_number": "3",
                 "group_name": "Swing to strength hold elements (2 sec.) ",
                 "difficulty": "F",
@@ -4316,7 +4316,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.25",
-                "description": "Any \u00bc spindle on the end.  Cualquier \u00bc p\u00edvot al fi nal",
+                "description": "Any \u00bc spindle on the end. Cualquier \u00bc p\u00edvot al fi nal",
                 "group_number": "2",
                 "group_name": "Circle and flairs, with and/or without spindles and handstands, kehr",
                 "difficulty": "A",
@@ -4334,7 +4334,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.27",
-                "description": "Side support, \u00bd spindle with both pommels between the hands (fl air or circle).  Apoyo lateral, \u00bd pivot adelante arcos entre las manos (fl air o molino)",
+                "description": "Side support, \u00bd spindle with both pommels between the hands (fl air or circle). Apoyo lateral, \u00bd pivot adelante arcos entre las manos (fl air o molino)",
                 "group_number": "2",
                 "group_name": "Circle and flairs, with and/or without spindles and handstands, kehr",
                 "difficulty": "C",
@@ -4347,7 +4347,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.35",
-                "description": "Cross support, 1/1 spindle with hands between the pommels max. 2 circles.  Apoyo facial transv., 1/1 p\u00edvot ad. manos entre los arcos (m\u00e1x. 2 molinos).",
+                "description": "Cross support, 1/1 spindle with hands between the pommels max. 2 circles. Apoyo facial transv., 1/1 p\u00edvot ad. manos entre los arcos (m\u00e1x. 2 molinos).",
                 "group_number": "2",
                 "group_name": "Circle and flairs, with and/or without spindles and handstands, kehr",
                 "difficulty": "E",
@@ -4364,7 +4364,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.30",
-                "description": "Any 1/1 spindle with both pommels between the hands (fl air or circle).  Cualquier 1/1 pivot adelante arcos entre las manos (fl air o molinos)",
+                "description": "Any 1/1 spindle with both pommels between the hands (fl air or circle). Cualquier 1/1 pivot adelante arcos entre las manos (fl air o molinos)",
                 "group_number": "2",
                 "group_name": "Circle and flairs, with and/or without spindles and handstands, kehr",
                 "difficulty": "F",
@@ -4723,7 +4723,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.104",
-                "description": "_ On the leather , Russian wendeswing with 360\u00b0 or 540\u00b0.  Sobre el caballo, rusa facial con 360\u00b0 o 540\u00b0",
+                "description": "_ On the leather , Russian wendeswing with 360\u00b0 or 540\u00b0. Sobre el caballo, rusa facial con 360\u00b0 o 540\u00b0",
                 "group_number": "2",
                 "group_name": "Circle and flairs, with and/or without spindles and handstands, kehr",
                 "difficulty": "B",
@@ -5025,7 +5025,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.27",
-                "description": "All travels with \u00bd spindle in side support.  Todo, desplazamiento con \u00bd p\u00edvot en apoyo lateral",
+                "description": "All travels with \u00bd spindle in side support. Todo, desplazamiento con \u00bd p\u00edvot en apoyo lateral",
                 "group_number": "3",
                 "group_name": "Travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles ",
                 "difficulty": "C",
@@ -5111,7 +5111,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.42",
-                "description": "3/3 cross support travel fwd. with hop.  Desplazamiento ad. (3/3) en apoyo transversal adelante de salto",
+                "description": "3/3 cross support travel fwd. with hop. Desplazamiento ad. (3/3) en apoyo transversal adelante de salto",
                 "group_number": "3",
                 "group_name": "Travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles ",
                 "difficulty": "F",
@@ -5209,7 +5209,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.53",
-                "description": "Travel backward in cross support over both pommels.  Desplazamiento at. en apoyo transversal sobre los dos arcos",
+                "description": "Travel backward in cross support over both pommels. Desplazamiento at. en apoyo transversal sobre los dos arcos",
                 "group_number": "3",
                 "group_name": "Travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles ",
                 "difficulty": "E",
@@ -5354,7 +5354,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.93",
-                "description": "96. 81. De l\u2019appui lat. avec l\u2019ar\u00e7on entre les mains, facial russe 360\u00ba avec transp. \u00e0 l\u2019autre extr\u00e9m.  From side support pommel between hand, rus- sian wendeswing 360\u00ba with travel to the other end in side support",
+                "description": "96. 81. De l\u2019appui lat. avec l\u2019ar\u00e7on entre les mains, facial russe 360\u00ba avec transp. \u00e0 l\u2019autre extr\u00e9m. From side support pommel between hand, rus- sian wendeswing 360\u00ba with travel to the other end in side support",
                 "group_number": "3",
                 "group_name": "Travel type elements, including krolls, tong fei, wu guonian, roth and traveling spindles ",
                 "difficulty": "C",
@@ -5785,7 +5785,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.119",
-                "description": "_ Tsukahara t. w. 3/2 t.or Kasamatsu t. \u00bd t  Tsukahara agrupado con. 3/2 g. o Kasamatsu agrupado con \u00bd g",
+                "description": "_ Tsukahara t. w. 3/2 t.or Kasamatsu t. \u00bd t Tsukahara agrupado con. 3/2 g. o Kasamatsu agrupado con \u00bd g",
                 "group_number": "1",
                 "group_name": "Single salto vaults with complex twists ",
                 "difficulty": "E",
@@ -6188,7 +6188,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.314",
-                "description": "_ Tsukahara str. with \u00bd t.  Tsukahara extendido con \u00bd g. 315. Tsukahara tendu a. 1/1 t. ou Kasamatsu t",
+                "description": "_ Tsukahara str. with \u00bd t. Tsukahara extendido con \u00bd g. 315. Tsukahara tendu a. 1/1 t. ou Kasamatsu t",
                 "group_number": "3",
                 "group_name": "Handspring with \u00bc or \u00bd turn in the 1st flight phase ",
                 "difficulty": "B",
@@ -7062,7 +7062,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.14",
-                "description": "_ Straddle cut bwd. to hdst.  Pasar las p. abiertas atr\u00e1s al apoyo invertido",
+                "description": "_ Straddle cut bwd. to hdst. Pasar las p. abiertas atr\u00e1s al apoyo invertido",
                 "group_number": "1",
                 "group_name": "Elements in support or through support on 2 bars ",
                 "difficulty": "B",
@@ -7178,7 +7178,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.9",
-                "description": "_ Straddle cut bwd. directly to hang  Pasar las p. ab. atr\u00e1s directamente a la susp",
+                "description": "_ Straddle cut bwd. directly to hang Pasar las p. ab. atr\u00e1s directamente a la susp",
                 "group_number": "1",
                 "group_name": "Elements in support or through support on 2 bars ",
                 "difficulty": "C",
@@ -7602,7 +7602,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.76",
-                "description": "Swing bwd. with 1/1 t. hop to hdst.  Lanzarse atr\u00e1s con 1/1 g. de salto al apoyo invertido",
+                "description": "Swing bwd. with 1/1 t. hop to hdst. Lanzarse atr\u00e1s con 1/1 g. de salto al apoyo invertido",
                 "group_number": "1",
                 "group_name": "Elements in support or through support on 2 bars ",
                 "difficulty": "D",
@@ -7859,7 +7859,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.111",
-                "description": "5/4 salto forward str. to upper arm hang  5/4 mortal adelante extendido al apoyo bra- quial",
+                "description": "5/4 salto forward str. to upper arm hang 5/4 mortal adelante extendido al apoyo bra- quial",
                 "group_number": "1",
                 "group_name": "Elements in support or through support on 2 bars ",
                 "difficulty": "C",
@@ -9130,7 +9130,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.116",
-                "description": "_ Basket to support  Felge al apoyo",
+                "description": "_ Basket to support Felge al apoyo",
                 "group_number": "3",
                 "group_name": "Long swings in hang en 1 or 2 bars and underswings ",
                 "difficulty": "B",
@@ -9211,7 +9211,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.115",
-                "description": "_ Basket with travel to hang  Felge con desplazamiento a la suspensi\u00f3n",
+                "description": "_ Basket with travel to hang Felge con desplazamiento a la suspensi\u00f3n",
                 "group_number": "3",
                 "group_name": "Long swings in hang en 1 or 2 bars and underswings ",
                 "difficulty": "A",
@@ -9569,7 +9569,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.40",
-                "description": "_ Double salto bwd. t. with \u00bd t. or salto bwd. \u00bd t. to salto fwd. tucked.  Doble mortal atr\u00e1s agrupado con \u00bd g. o mortal atr\u00e1s \u00bd g. y mortal adelante agrupado 37. 38. 45. De la suspension sur l\u2019extr\u00e9mit\u00e9, double salto arri\u00e8re group\u00e9. _ From hang on end, double salto bwd. t",
+                "description": "_ Double salto bwd. t. with \u00bd t. or salto bwd. \u00bd t. to salto fwd. tucked. Doble mortal atr\u00e1s agrupado con \u00bd g. o mortal atr\u00e1s \u00bd g. y mortal adelante agrupado 37. 38. 45. De la suspension sur l\u2019extr\u00e9mit\u00e9, double salto arri\u00e8re group\u00e9. _ From hang on end, double salto bwd. t",
                 "group_number": "4",
                 "group_name": "Dismounts ",
                 "difficulty": "D",
@@ -9586,7 +9586,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.46",
-                "description": "_ From hang on end, dbl. salto bwd. piked.  De la suspensi\u00f3n en el extremo, doble mortal atr\u00e1s. en carpa",
+                "description": "_ From hang on end, dbl. salto bwd. piked. De la suspensi\u00f3n en el extremo, doble mortal atr\u00e1s. en carpa",
                 "group_number": "4",
                 "group_name": "Dismounts ",
                 "difficulty": "D",
@@ -9938,7 +9938,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.45",
-                "description": "_ Flying giant swing bwd. with 1/1 t.  Molino atr\u00e1s con salto con 1/1 g. 37. Grand tour arri\u00e8re avec \u00bd tour",
+                "description": "_ Flying giant swing bwd. with 1/1 t. Molino atr\u00e1s con salto con 1/1 g. 37. Grand tour arri\u00e8re avec \u00bd tour",
                 "group_number": "1",
                 "group_name": "Long hang swings and turns ",
                 "difficulty": "C",
@@ -10040,7 +10040,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.62",
-                "description": "_ Long swing fwd. with hop to el-grip.  Impulso adelante salto a presa cubital",
+                "description": "_ Long swing fwd. with hop to el-grip. Impulso adelante salto a presa cubital",
                 "group_number": "1",
                 "group_name": "Long hang swings and turns ",
                 "difficulty": "B",
@@ -10057,7 +10057,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.51",
-                "description": "_ Giant swing bwd. with hop 3/2 t. to undergrip, mixed el-grip.  Molino atr\u00e1s salto con 3/2 g. en presa palmar, presa palmar - cubital",
+                "description": "_ Giant swing bwd. with hop 3/2 t. to undergrip, mixed el-grip. Molino atr\u00e1s salto con 3/2 g. en presa palmar, presa palmar - cubital",
                 "group_number": "1",
                 "group_name": "Long hang swings and turns ",
                 "difficulty": "C",
@@ -11323,7 +11323,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.16",
-                "description": "_ Double salto fwd. str. or with \u00bd t.  Doble mortal extendido o con \u00bd g",
+                "description": "_ Double salto fwd. str. or with \u00bd t. Doble mortal extendido o con \u00bd g",
                 "group_number": "4",
                 "group_name": "Dismounts ",
                 "difficulty": "D",
@@ -11357,7 +11357,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.6",
-                "description": "_ Triple salto fwd. t. or with \u00bd t.  Triple mortal ad. agr. o con \u00bd g",
+                "description": "_ Triple salto fwd. t. or with \u00bd t. Triple mortal ad. agr. o con \u00bd g",
                 "group_number": "4",
                 "group_name": "Dismounts ",
                 "difficulty": "F",
@@ -11604,7 +11604,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.57",
-                "description": "_ Double salto bwd. str over the bar.   Doble mortal ext. por encima de la barra",
+                "description": "_ Double salto bwd. str over the bar.  Doble mortal ext. por encima de la barra",
                 "group_number": "4",
                 "group_name": "Dismounts ",
                 "difficulty": "C",
@@ -11726,7 +11726,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.01",
-                "description": "Handspring fwd on \u2013 \u00bd turn (180\u00b0) off",
+                "description": "Handspring fwd on - \u00bd turn (180\u00b0) off",
                 "value": 2.0,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11743,7 +11743,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.02",
-                "description": "Handspring fwd on \u2013 1/1 turn (360\u00b0) off",
+                "description": "Handspring fwd on - 1/1 turn (360\u00b0) off",
                 "value": 2.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11761,7 +11761,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.03",
-                "description": "Handspring fwd on \u2013 1\u00bd turn (540\u00b0) off  (Kim)",
+                "description": "Handspring fwd on - 1\u00bd turn (540\u00b0) off (Kim)",
                 "value": 3.2,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11779,7 +11779,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.04",
-                "description": "Handspring fwd on \u2013 2/1 turn (720\u00b0) off",
+                "description": "Handspring fwd on - 2/1 turn (720\u00b0) off",
                 "value": 3.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11796,7 +11796,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.05",
-                "description": "Handspring fwd on \u2013 2\u00bd turn (900\u00b0) off",
+                "description": "Handspring fwd on - 2\u00bd turn (900\u00b0) off",
                 "value": 4.0,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11864,7 +11864,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.20",
-                "description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 repulsion off",
+                "description": "Handspring fwd with \u00bd turn (180\u00b0) on - repulsion off",
                 "value": 1.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11881,7 +11881,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.21",
-                "description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 \u00bd turn (180\u00b0) off (in either direction)",
+                "description": "Handspring fwd with \u00bd turn (180\u00b0) on - \u00bd turn (180\u00b0) off (in either direction)",
                 "value": 2.4,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11899,7 +11899,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.22",
-                "description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 1/1 turn (360\u00b0) off",
+                "description": "Handspring fwd with \u00bd turn (180\u00b0) on - 1/1 turn (360\u00b0) off",
                 "value": 2.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11917,7 +11917,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.23",
-                "description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 1\u00bd turn (540\u00b0) off",
+                "description": "Handspring fwd with \u00bd turn (180\u00b0) on - 1\u00bd turn (540\u00b0) off",
                 "value": 3.2,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11935,7 +11935,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.24",
-                "description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 2/1 turn (720\u00b0) off",
+                "description": "Handspring fwd with \u00bd turn (180\u00b0) on - 2/1 turn (720\u00b0) off",
                 "value": 3.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11952,7 +11952,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.30",
-                "description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 Handspring fwd off",
+                "description": "Handspring fwd with 1/1 turn (360\u00b0) on - Handspring fwd off",
                 "value": 3.2,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11970,7 +11970,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.31",
-                "description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 1/1 turn (360\u00b0) off  (Korbut)",
+                "description": "Handspring fwd with 1/1 turn (360\u00b0) on - 1/1 turn (360\u00b0) off (Korbut)",
                 "value": 3.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -11988,7 +11988,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.40",
-                "description": "Round-off, flic-flac on \u2013 repulsion off",
+                "description": "Round-off, flic-flac on - repulsion off",
                 "value": 2.0,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12005,7 +12005,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.50",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 Handspring fwd off",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - Handspring fwd off",
                 "value": 2.2,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12022,7 +12022,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.51",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013\u00bd turn (180\u00b0) off",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on -\u00bd turn (180\u00b0) off",
                 "value": 2.6,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12039,7 +12039,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.52",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 1/1 turn (360\u00b0) off",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - 1/1 turn (360\u00b0) off",
                 "value": 3.0,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12057,7 +12057,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.53",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 1\u00bd turn (540\u00b0) off",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - 1\u00bd turn (540\u00b0) off",
                 "value": 3.4,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12075,7 +12075,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.60",
-                "description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on \u2013 repulsion off",
+                "description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on - repulsion off",
                 "value": 2.4,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12092,7 +12092,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.61",
-                "description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on \u2013 \u00bd turn (180\u00b0) off",
+                "description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on - \u00bd turn (180\u00b0) off",
                 "value": 2.8,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12109,7 +12109,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.62",
-                "description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on \u20131/1 turn (360\u00b0) off",
+                "description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on -1/1 turn (360\u00b0) off",
                 "value": 3.2,
                 "group_number": "1",
                 "group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
@@ -12127,10 +12127,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.10",
-                "description": "Handspring fwd on \u2013 tucked salto fwd off",
+                "description": "Handspring fwd on - tucked salto fwd off",
                 "value": 3.6,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12145,10 +12145,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.11",
-                "description": "Handspring fwd on \u2013 tucked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and tucked salto bwd off",
+                "description": "Handspring fwd on - tucked salto fwd with \u00bd twist (180\u00b0) off, also - \u00bd turn (180\u00b0) and tucked salto bwd off",
                 "value": 3.8,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12166,10 +12166,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.12",
-                "description": "Handspring fwd on \u2013 tucked salto fwd with 1/1 twist (360\u00b0) off",
+                "description": "Handspring fwd on - tucked salto fwd with 1/1 twist (360\u00b0) off",
                 "value": 4.2,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12183,10 +12183,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.13",
-                "description": "Handspring fwd on \u2013 tucked salto fwd with 1\u00bd twist (540\u00b0) off",
+                "description": "Handspring fwd on - tucked salto fwd with 1\u00bd twist (540\u00b0) off",
                 "value": 4.6,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12200,10 +12200,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.20",
-                "description": "Handspring fwd on \u2013 piked salto fwd off",
+                "description": "Handspring fwd on - piked salto fwd off",
                 "value": 3.8,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -12218,10 +12218,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.21",
-                "description": "Handspring fwd on \u2013 piked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and piked salto bwd off",
+                "description": "Handspring fwd on - piked salto fwd with \u00bd twist (180\u00b0) off, also - \u00bd turn (180\u00b0) and piked salto bwd off",
                 "value": 4.0,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -12237,10 +12237,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.22",
-                "description": "Handspring fwd on \u2013 piked salto fwd with 1/1 twist (360\u00b0) off (Chusovitina)",
+                "description": "Handspring fwd on - piked salto fwd with 1/1 twist (360\u00b0) off (Chusovitina)",
                 "value": 4.4,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -12254,10 +12254,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.30",
-                "description": "Handspring fwd on \u2013 stretched salto fwd off (Evdokimova)",
+                "description": "Handspring fwd on - stretched salto fwd off (Evdokimova)",
                 "value": 4.4,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12272,10 +12272,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.31",
-                "description": "Handspring fwd on \u2013 stretched salto fwd with \u00bd twist (180\u00b0) off (Wang)",
+                "description": "Handspring fwd on - stretched salto fwd with \u00bd twist (180\u00b0) off (Wang)",
                 "value": 4.6,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12290,10 +12290,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.32",
-                "description": "Handspring fwd on \u2013 stretched salto fwd with 1/1 twist (360\u00b0) off",
+                "description": "Handspring fwd on - stretched salto fwd with 1/1 twist (360\u00b0) off",
                 "value": 5.0,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12308,10 +12308,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.33",
-                "description": "Handspring fwd on \u2013 stretched salto fwd with 1\u00bd twist (540\u00b0) off (Chusovitina)",
+                "description": "Handspring fwd on - stretched salto fwd with 1\u00bd twist (540\u00b0) off (Chusovitina)",
                 "value": 5.4,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12326,10 +12326,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.34",
-                "description": "Handspring fwd on \u2013 stretched salto fwd with 2/1 twist (720\u00b0) off (Yeo)",
+                "description": "Handspring fwd on - stretched salto fwd with 2/1 twist (720\u00b0) off (Yeo)",
                 "value": 5.8,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12344,10 +12344,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.40",
-                "description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 tucked salto fwd off  (Davydova)",
+                "description": "Handspring fwd with 1/1 turn (360\u00b0) on - tucked salto fwd off (Davydova)",
                 "value": 4.8,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "images": {
@@ -12362,10 +12362,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.41",
-                "description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 piked salto fwd off",
+                "description": "Handspring fwd with 1/1 turn (360\u00b0) on - piked salto fwd off",
                 "value": 5.2,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "images": {
@@ -12380,10 +12380,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.50",
-                "description": "Handspring fwd on \u2013 tucked double salto fwd off  (Produnova)",
+                "description": "Handspring fwd on - tucked double salto fwd off (Produnova)",
                 "value": 6.0,
                 "group_number": "2",
-                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+                "group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase ",
                 "difficulty": "E",
                 "type": "acrobatic",
                 "images": {
@@ -12398,7 +12398,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.10",
-                "description": "Tsukahara tucked  (Tourischeva)",
+                "description": "Tsukahara tucked (Tourischeva)",
                 "value": 3.2,
                 "group_number": "3",
                 "group_name": "Handspring with \u00bc ",
@@ -12530,7 +12530,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.32",
-                "description": "Tsukahara stretched with 1/1 twist (360\u00b0) off  (Kim)",
+                "description": "Tsukahara stretched with 1/1 twist (360\u00b0) off (Kim)",
                 "value": 4.4,
                 "group_number": "3",
                 "group_name": "Handspring with \u00bc ",
@@ -12564,7 +12564,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.34",
-                "description": "Tsukahara stretched with 2/1 twist (720\u00b0) off  (Zamolodchikova)",
+                "description": "Tsukahara stretched with 2/1 twist (720\u00b0) off (Zamolodchikova)",
                 "value": 5.2,
                 "group_number": "3",
                 "group_name": "Handspring with \u00bc ",
@@ -12599,10 +12599,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.10",
-                "description": "Round-off, flic-flac on \u2013 tucked salto bwd off (Yurchenko)",
+                "description": "Round-off, flic-flac on - tucked salto bwd off (Yurchenko)",
                 "value": 3.0,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12617,10 +12617,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.11",
-                "description": "Round-off, flic-flac on \u2013 tucked salto bwd with \u00bd twist (180\u00b0) off",
+                "description": "Round-off, flic-flac on - tucked salto bwd with \u00bd twist (180\u00b0) off",
                 "value": 3.2,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12637,7 +12637,7 @@ export const allElements: LanguageType = {
                 "description": "Round-off, flic-flac on - tucked salto bwd with 1/1 twist (360\u00b0) off",
                 "value": 3.6,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12652,10 +12652,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.13",
-                "description": "Round-off, flic-flac on \u2013 tucked salto bwd with 1\u00bd twist (540\u00b0) off",
+                "description": "Round-off, flic-flac on - tucked salto bwd with 1\u00bd twist (540\u00b0) off",
                 "value": 4.0,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12671,10 +12671,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.14",
-                "description": "Round-off, flic-flac on \u2013 tucked salto bwd with 2/1 twist (720\u00b0) off (Dungelova)",
+                "description": "Round-off, flic-flac on - tucked salto bwd with 2/1 twist (720\u00b0) off (Dungelova)",
                 "value": 4.4,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12688,10 +12688,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.20",
-                "description": "Round-off, flic-flac on \u2013 piked salto bwd off",
+                "description": "Round-off, flic-flac on - piked salto bwd off",
                 "value": 3.2,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -12706,10 +12706,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.30",
-                "description": "Round-off, flic-flac on \u2013 stretched salto bwd off",
+                "description": "Round-off, flic-flac on - stretched salto bwd off",
                 "value": 3.6,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12724,10 +12724,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.31",
-                "description": "Round-off, flic-flac on \u2013 stretched salto bwd with \u00bd twist (180\u00b0) off",
+                "description": "Round-off, flic-flac on - stretched salto bwd with \u00bd twist (180\u00b0) off",
                 "value": 3.8,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12741,10 +12741,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.32",
-                "description": "Round-off, flic-flac on \u2013 stretched salto bwd with 1/1 twist (360\u00b0) off",
+                "description": "Round-off, flic-flac on - stretched salto bwd with 1/1 twist (360\u00b0) off",
                 "value": 4.2,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12759,10 +12759,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.33",
-                "description": "Round-off, flic-flac on \u2013 stretched salto bwd with 1\u00bd twist (540\u00b0) off",
+                "description": "Round-off, flic-flac on - stretched salto bwd with 1\u00bd twist (540\u00b0) off",
                 "value": 4.6,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12777,10 +12777,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.34",
-                "description": "Round-off, flic-flac on \u2013 stretched salto bwd with 2/1 twist (720\u00b0) off (Baitova)",
+                "description": "Round-off, flic-flac on - stretched salto bwd with 2/1 twist (720\u00b0) off (Baitova)",
                 "value": 5.0,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12795,10 +12795,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.35",
-                "description": "Round-off, flic-flac on \u2013stretched salto bwd with 2\u00bd twist (900\u00b0) off  (Amanar)",
+                "description": "Round-off, flic-flac on -stretched salto bwd with 2\u00bd twist (900\u00b0) off (Amanar)",
                 "value": 5.4,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "C",
                 "type": "acrobatic",
                 "images": {
@@ -12812,10 +12812,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.40",
-                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 tucked salto bwd off (Luconi)",
+                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on - tucked salto bwd off (Luconi)",
                 "value": 3.6,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "images": {
@@ -12832,10 +12832,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.41",
-                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 tucked salto bwd with \u00bd twist (180\u00b0) off",
+                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on - tucked salto bwd with \u00bd twist (180\u00b0) off",
                 "value": 4.0,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "images": {
@@ -12851,10 +12851,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.42",
-                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 tucked salto bwd with 1/1 twist (360\u00b0) off",
+                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on - tucked salto bwd with 1/1 twist (360\u00b0) off",
                 "value": 4.2,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "D",
                 "type": "acrobatic",
                 "images": {
@@ -12868,10 +12868,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.50",
-                "description": "Round-off, flic-flac \u00be turn (270\u00b0) on \u2013 piked salto bwd off",
+                "description": "Round-off, flic-flac \u00be turn (270\u00b0) on - piked salto bwd off",
                 "value": 3.8,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "E",
                 "type": "acrobatic",
                 "images": {
@@ -12888,10 +12888,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.51",
-                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 stretched salto bwd off",
+                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on - stretched salto bwd off",
                 "value": 4.2,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "E",
                 "type": "acrobatic",
                 "images": {
@@ -12905,10 +12905,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.52",
-                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 stretched salto bwd with \u00bd twist (180\u00b0) off",
+                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on - stretched salto bwd with \u00bd twist (180\u00b0) off",
                 "value": 4.6,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "E",
                 "type": "acrobatic",
                 "images": {
@@ -12923,10 +12923,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.53",
-                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 stretched salto bwd with 1/1 twist (360\u00b0) off",
+                "description": "Round-off, flic-flac with \u00be turn (270\u00b0) on - stretched salto bwd with 1/1 twist (360\u00b0) off",
                 "value": 5.0,
                 "group_number": "4",
-                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase ",
                 "difficulty": "E",
                 "type": "acrobatic",
                 "images": {
@@ -12940,10 +12940,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.10",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 tucked salto fwd off (Ivantcheva)",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - tucked salto fwd off (Ivantcheva)",
                 "value": 3.8,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12958,10 +12958,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.11",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 tucked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and tucked salto bwd off  (Servente)",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - tucked salto fwd with \u00bd twist (180\u00b0) off, also - \u00bd turn (180\u00b0) and tucked salto bwd off (Servente)",
                 "value": 4.0,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12977,10 +12977,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.12",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 tucked salto fwd with 1/1 twist (360\u00b0) off",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - tucked salto fwd with 1/1 twist (360\u00b0) off",
                 "value": 4.4,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -12997,7 +12997,7 @@ export const allElements: LanguageType = {
                 "description": "Round-off flic-flac with \u00bd turn (180\u00b0) on - tucked salto fwd with 1\u00bd twist (540\u00b0) off (Khorkina)",
                 "value": 4.8,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "A",
                 "type": "acrobatic",
                 "images": {
@@ -13011,10 +13011,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.20",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 piked salto fwd off (Omelianchik)",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - piked salto fwd off (Omelianchik)",
                 "value": 4.0,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -13028,10 +13028,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.21",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 piked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and piked salto bwd off (Podkopayeva)",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - piked salto fwd with \u00bd twist (180\u00b0) off, also - \u00bd turn (180\u00b0) and piked salto bwd off (Podkopayeva)",
                 "value": 4.2,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -13047,10 +13047,10 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.22",
-                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 piked salto fwd with 1/1 twist (360\u00b0) off",
+                "description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on - piked salto fwd with 1/1 twist (360\u00b0) off",
                 "value": 4.6,
                 "group_number": "5",
-                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+                "group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase ",
                 "difficulty": "B",
                 "type": "acrobatic",
                 "images": {
@@ -13066,7 +13066,7 @@ export const allElements: LanguageType = {
         "ub": [
             {
                 "id": "1.101",
-                "description": " Glide Kip to support on LB, or Glide with \u00bd turn (180\u00b0) kip to support on LB  ",
+                "description": "Glide Kip to support on LB, or Glide with \u00bd turn (180\u00b0) kip to support on LB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -13084,7 +13084,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.102",
-                "description": " Jump with \u00bd turn (180\u00b0) kip to support on LB Jump with \u00bd turn (180\u00b0) stoop through to rear support on LB (back kip) ",
+                "description": "Jump with \u00bd turn (180\u00b0) kip to support on LB Jump with \u00bd turn (180\u00b0) stoop through to rear support on LB (back kip)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -13103,7 +13103,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.202",
-                "description": " Jump with 1/1 turn (360\u00b0) and Glide kip to support on LB  ",
+                "description": "Jump with 1/1 turn (360\u00b0) and Glide kip to support on LB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13120,7 +13120,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.103",
-                "description": " Glide on LB (or swing fwd on HB) and stoop through to rear support (back kip); or straddle cut bwd to hang on same bar  ",
+                "description": "Glide on LB (or swing fwd on HB) and stoop through to rear support (back kip); or straddle cut bwd to hang on same bar",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -13138,7 +13138,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.203",
-                "description": " Reverse kip from: \u2013 glide fwd on LB \u2013 swing fwd on HB \u2013 stoop through to kip hang, back kip swing, seat (pike) circle bwd to rear support ",
+                "description": "Reverse kip from: - glide fwd on LB - swing fwd on HB - stoop through to kip hang, back kip swing, seat (pike) circle bwd to rear support",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13157,7 +13157,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.104",
-                "description": " Jump to hang on HB \u2013 also with reverse grip \u2013 kip to support ",
+                "description": "Jump to hang on HB - also with reverse grip - kip to support",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -13175,7 +13175,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.204",
-                "description": " Facing HB \u2013 Jump with \u00bd turn (180\u00b0) \u2013 kip to support on HB  Free jump with \u00bd turn (180\u00b0) over LB to hang on HB ",
+                "description": "Facing HB - Jump with \u00bd turn (180\u00b0) - kip to support on HB Free jump with \u00bd turn (180\u00b0) over LB to hang on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13194,7 +13194,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.304",
-                "description": " Jump with \u00bd turn (180\u00b0) over LB \u2013 kip to support on HB  ",
+                "description": "Jump with \u00bd turn (180\u00b0) over LB - kip to support on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -13211,7 +13211,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.105",
-                "description": " Facing HB \u2013 jump with 1/1 turn (360\u00b0) to hang on HB  ",
+                "description": "Facing HB - jump with 1/1 turn (360\u00b0) to hang on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -13227,7 +13227,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.106",
-                "description": " Straddle vault with hand repulsion over LB to catch HB  ",
+                "description": "Straddle vault with hand repulsion over LB to catch HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -13244,7 +13244,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.206",
-                "description": " Free straddle jump over LB to hang on HB Hecht jump (legs together) with hand repulsion over LB to hang on HB ",
+                "description": "Free straddle jump over LB to hang on HB Hecht jump (legs together) with hand repulsion over LB to hang on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13263,7 +13263,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.306",
-                "description": " Free stretch jump over LB with legs together to hang on HB  (Makhautsova)  ",
+                "description": "Free stretch jump over LB with legs together to hang on HB (Makhautsova)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -13280,7 +13280,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.406",
-                "description": " Hecht jump (legs together) with hand repulsion and 1/1 turn (360\u00b0) over LB to hang on HB  (Gebeshian) ",
+                "description": "Hecht jump (legs together) with hand repulsion and 1/1 turn (360\u00b0) over LB to hang on HB (Gebeshian)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -13297,7 +13297,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.207",
-                "description": " Salto fwd tucked, piked or straddled over LB into L hang on LB  ",
+                "description": "Salto fwd tucked, piked or straddled over LB into L hang on LB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13314,7 +13314,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.307",
-                "description": " Facing HB \u2013 salto fwd to hang on HB Roll fwd piked with hand repulsion over LB with flight to hang on HB ",
+                "description": "Facing HB - salto fwd to hang on HB Roll fwd piked with hand repulsion over LB with flight to hang on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -13333,7 +13333,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.407",
-                "description": " Salto fwd tucked over LB to hang on HB without touching LB  ",
+                "description": "Salto fwd tucked over LB to hang on HB without touching LB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -13350,7 +13350,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.208",
-                "description": " Round-off in front of LB \u2013 flight bwd (straddled) through clear straddle support on LB  ",
+                "description": "Round-off in front of LB - flight bwd (straddled) through clear straddle support on LB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13367,7 +13367,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.308",
-                "description": " Round-off in front of LB \u2013 flight bwd over LB with legs together or straddled to hang on HB  ",
+                "description": "Round-off in front of LB - flight bwd over LB with legs together or straddled to hang on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -13384,7 +13384,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.408",
-                "description": " Round-off in front of LB \u2013 flight bwd over LB with 1/1 turn (360\u00b0) to hang on HB ",
+                "description": "Round-off in front of LB - flight bwd over LB with 1/1 turn (360\u00b0) to hang on HB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -13401,7 +13401,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.409",
-                "description": " Round-off in front of LB \u2013 tucked salto bwd over LB to hang on LB (Jentsch) Round-off in front of LB, flic-flac through hstd phase on LB  (Gonz\u00e1lez)  ",
+                "description": "Round-off in front of LB - tucked salto bwd over LB to hang on LB (Jentsch) Round-off in front of LB, flic-flac through hstd phase on LB (Gonz\u00e1lez)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -13419,7 +13419,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.509",
-                "description": " Round-off in front of LB, flic-flac with 1/1 turn (360\u00b0) to clear support or through hstd phase on LB  (Gurova) ",
+                "description": "Round-off in front of LB, flic-flac with 1/1 turn (360\u00b0) to clear support or through hstd phase on LB (Gurova)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "E",
@@ -13436,7 +13436,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.609",
-                "description": " Round-off in front of LB \u2013 tucked arabian salto over LB to hang on HB without touching the LB  ",
+                "description": "Round-off in front of LB - tucked arabian salto over LB to hang on HB without touching the LB",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "F",
@@ -13453,7 +13453,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.210",
-                "description": " Jump to hstd on LB with hips bent, then extended, also with \u00bd turn (180\u00b0) in hstd phase, legs together or straddle ",
+                "description": "Jump to hstd on LB with hips bent, then extended, also with \u00bd turn (180\u00b0) in hstd phase, legs together or straddle",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -13472,7 +13472,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.310",
-                "description": " Jump to hstd on LB with hips bent, then extended and 1/1 turn (360\u00b0) in hstd phase, legs together or straddle  Jump with extended body to hstd on LB also with \u00bd turn (180\u00b0) ",
+                "description": "Jump to hstd on LB with hips bent, then extended and 1/1 turn (360\u00b0) in hstd phase, legs together or straddle Jump with extended body to hstd on LB also with \u00bd turn (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -13493,7 +13493,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.410",
-                "description": " Jump with extended body to hstd on LB with 1/1 turn (360\u00b0) in hstd phase (Maaranen) ",
+                "description": "Jump with extended body to hstd on LB with 1/1 turn (360\u00b0) in hstd phase (Maaranen)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -13508,7 +13508,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.411",
-                "description": " Jump to clear support on HB \u2013 clear hip circle to hstd on HB, also with \u00bd turn (180\u00b0) in hstd phase on HB  (McNamara) 1. 511 ",
+                "description": "Jump to clear support on HB - clear hip circle to hstd on HB, also with \u00bd turn (180\u00b0) in hstd phase on HB (McNamara) 1. 511",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -13527,7 +13527,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.101",
-                "description": " Cast to hstd with legs straddled or with hips bent; also with hop-grip change ",
+                "description": "Cast to hstd with legs straddled or with hips bent; also with hop-grip change",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "A",
@@ -13545,7 +13545,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.201",
-                "description": " Cast to hstd with legs together and hips extended; also with hop-grip change, also with \u00bd turn (180\u00b0) legs together or straddled ",
+                "description": "Cast to hstd with legs together and hips extended; also with hop-grip change, also with \u00bd turn (180\u00b0) legs together or straddled",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "B",
@@ -13566,7 +13566,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.301",
-                "description": " Cast with 1/1 turn (360\u00b0) to hstd ",
+                "description": "Cast with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "C",
@@ -13606,7 +13606,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.401",
-                "description": " Cast with 1\u00bd turn (540\u00b0) to hstd  (Reeder) ",
+                "description": "Cast with 1\u00bd turn (540\u00b0) to hstd (Reeder)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "D",
@@ -13624,7 +13624,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.202",
-                "description": " Front support on HB \u2013 stoop with flight or free straddle fwd over HB and \u00bd turn (180\u00b0) to hang on HB ",
+                "description": "Front support on HB - stoop with flight or free straddle fwd over HB and \u00bd turn (180\u00b0) to hang on HB",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "B",
@@ -13643,7 +13643,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.302",
-                "description": " Hip circle bwd hecht with flight and \u00bd turn (180\u00b0) passing over bar to hang on same bar \u2013 also from clear hip circle bwd ",
+                "description": "Hip circle bwd hecht with flight and \u00bd turn (180\u00b0) passing over bar to hang on same bar - also from clear hip circle bwd",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "C",
@@ -13663,7 +13663,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.103",
-                "description": " 2. 203 ",
+                "description": "2. 203",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "A",
@@ -13676,7 +13676,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.303",
-                "description": " From front support on HB \u2013 swing bwd with release and 1/1 turn (360\u00b0) to hang on HB (Caslavska) ",
+                "description": "From front support on HB - swing bwd with release and 1/1 turn (360\u00b0) to hang on HB (Caslavska)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "C",
@@ -13693,7 +13693,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.403",
-                "description": " From inner front support on LB \u2013 cast with salto roll fwd to hang on HB (Radochla roll)  (Radochla) ",
+                "description": "From inner front support on LB - cast with salto roll fwd to hang on HB (Radochla roll) (Radochla)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "D",
@@ -13710,7 +13710,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.503",
-                "description": " Front support on HB \u2013 cast with salto fwd straddled to hang on HB (Comaneci salto)  (Comaneci)  ",
+                "description": "Front support on HB - cast with salto fwd straddled to hang on HB (Comaneci salto) (Comaneci)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "E",
@@ -13727,7 +13727,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.104",
-                "description": " Hip circle fwd (hips touching bar)  ",
+                "description": "Hip circle fwd (hips touching bar)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "A",
@@ -13744,7 +13744,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.404",
-                "description": " Clear hip circle fwd to hstd, also with \u00bd turn (180\u00b0) in hstd phase (Weiler-kip)  ",
+                "description": "Clear hip circle fwd to hstd, also with \u00bd turn (180\u00b0) in hstd phase (Weiler-kip)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "D",
@@ -13762,7 +13762,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.105",
-                "description": " Hip circle bwd (hips touching bar)  Clear hip circle bwd or hip circle bwd on LB \u2013 hip repulsion (\u201cfalse-pop\u201d) \u2013 with regrasp on LB ",
+                "description": "Hip circle bwd (hips touching bar) Clear hip circle bwd or hip circle bwd on LB - hip repulsion (\u201cfalse-pop\u201d) - with regrasp on LB",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "A",
@@ -13785,7 +13785,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.305",
-                "description": " Clear hip circle to hstd, also with hop-grip change in hstd phase, or with \u00bd turn (180\u00b0) to hstd ",
+                "description": "Clear hip circle to hstd, also with hop-grip change in hstd phase, or with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "C",
@@ -13806,7 +13806,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.405",
-                "description": " Clear hip circle with 1/1 turn (360\u00b0) to hstd ",
+                "description": "Clear hip circle with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "D",
@@ -13823,7 +13823,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.505",
-                "description": " Clear hip circle with 1\u00bd turn (540\u00b0) to hstd  ",
+                "description": "Clear hip circle with 1\u00bd turn (540\u00b0) to hstd",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "E",
@@ -13840,7 +13840,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.206",
-                "description": " Clear underswing on LB, release and counter movement fwd in flight to hang on HB.  ",
+                "description": "Clear underswing on LB, release and counter movement fwd in flight to hang on HB.",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "B",
@@ -13857,7 +13857,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.406",
-                "description": " Inner front support on LB \u2013 clear hip circle through hstd with flight to hang on HB (Shaposhnikova)  ",
+                "description": "Inner front support on LB - clear hip circle through hstd with flight to hang on HB (Shaposhnikova)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "D",
@@ -13874,7 +13874,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.506",
-                "description": " Clear hip circle on HB, counter straddle over HB to hang on HB  (Hindorff) Clear hip circle through hstd with \u00bd turn (180\u00b0) in flight to hang on HB (Khorkina) ",
+                "description": "Clear hip circle on HB, counter straddle over HB to hang on HB (Hindorff) Clear hip circle through hstd with \u00bd turn (180\u00b0) in flight to hang on HB (Khorkina)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "E",
@@ -13893,7 +13893,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.606",
-                "description": " Clear hip circle on HB, counter pike over HB to hang on HB  (Shang) Clear hip circle on HB with counter straddle over the HB with \u00bd turn (180\u00b0) to hang in mixed L-grip  (Martins)  ",
+                "description": "Clear hip circle on HB, counter pike over HB to hang on HB (Shang) Clear hip circle on HB with counter straddle over the HB with \u00bd turn (180\u00b0) to hang in mixed L-grip (Martins)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "F",
@@ -13911,7 +13911,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.307",
-                "description": " Outer front support \u2013 clear hip circle bwd on LB with hecht to hang on HB  (Yarotska) ",
+                "description": "Outer front support - clear hip circle bwd on LB with hecht to hang on HB (Yarotska)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "C",
@@ -13928,7 +13928,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.407",
-                "description": " Outer front support \u2013 clear hip circle bwd on LB with hecht with \u00bd turn (180\u00b0) to hang on HB (legs together or straddled) ",
+                "description": "Outer front support - clear hip circle bwd on LB with hecht with \u00bd turn (180\u00b0) to hang on HB (legs together or straddled)",
                 "group_number": "2",
                 "group_name": "Casts and clear hip circles",
                 "difficulty": "D",
@@ -13945,7 +13945,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.201",
-                "description": " Giant circle bwd in regular grip, or on one arm (Liu), also with \u00bd turn (180\u00b0) to hstd ",
+                "description": "Giant circle bwd in regular grip, or on one arm (Liu), also with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "B",
@@ -13965,7 +13965,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.301",
-                "description": " Giant circle bwd with 1/1 turn (360\u00b0) to hstd ",
+                "description": "Giant circle bwd with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -13982,7 +13982,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.401",
-                "description": " Giant circle bwd with 1\u00bd or 2/1 turn (540\u00b0 or 720\u00b0) to hstd, also with hop 1/1 turn (360\u00b0) to hstd (Chusovitina)  ",
+                "description": "Giant circle bwd with 1\u00bd or 2/1 turn (540\u00b0 or 720\u00b0) to hstd, also with hop 1/1 turn (360\u00b0) to hstd (Chusovitina)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14002,7 +14002,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.402",
-                "description": " Hang on HB \u00b1 Swing fwd with \u00bd turn (180\u00b0) and flight to hstd ",
+                "description": "Hang on HB \u00b1 Swing fwd with \u00bd turn (180\u00b0) and flight to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14019,7 +14019,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.502",
-                "description": " Hang on HB \u00b1 Swing fwd with 1\u00bd turn (540\u00b0) and flight over LB to hang on LB  (Strong) ",
+                "description": "Hang on HB \u00b1 Swing fwd with 1\u00bd turn (540\u00b0) and flight over LB to hang on LB (Strong)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14036,7 +14036,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.403",
-                "description": " Long swing fwd, counter straddle-reverse hecht over HB to hang (Tkatchev) (Davydova)  Swing fwd with \u00bd turn (180\u00b0), pike vault over HB to hang  (Monckton)  ",
+                "description": "Long swing fwd, counter straddle-reverse hecht over HB to hang (Tkatchev) (Davydova) Swing fwd with \u00bd turn (180\u00b0), pike vault over HB to hang (Monckton)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14055,7 +14055,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.503",
-                "description": " Tkatchev piked  Tkatchev with \u00bd turn (180\u00b0)  (Kononenko) Long swing fwd with \u00bd turn (180\u00b0) - \u00bd turn (180\u00b0) to counter straddle in flight over HB to hang  (Shushunova) ",
+                "description": "Tkatchev piked Tkatchev with \u00bd turn (180\u00b0) (Kononenko) Long swing fwd with \u00bd turn (180\u00b0) - \u00bd turn (180\u00b0) to counter straddle in flight over HB to hang (Shushunova)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14076,7 +14076,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.304",
-                "description": " Hang on HB, facing LB \u00b1 swing fwd and roll bwd (legs straddled) to clear support on LB ",
+                "description": "Hang on HB, facing LB \u00b1 swing fwd and roll bwd (legs straddled) to clear support on LB",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -14093,7 +14093,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.404",
-                "description": " Hang on HB, facing LB \u00b1 swing fwd, salto bwd stretched between bars to clear support on LB (Pak) ",
+                "description": "Hang on HB, facing LB \u00b1 swing fwd, salto bwd stretched between bars to clear support on LB (Pak)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14110,7 +14110,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.504",
-                "description": " Pak Salto with 1/1 turn (360\u00b0) (Bhardwaj)  ",
+                "description": "Pak Salto with 1/1 turn (360\u00b0) (Bhardwaj)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14127,7 +14127,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.405",
-                "description": " Swing fwd with \u00bd turn (180\u00b0) and salto fwd straddled (Deltchev Salto), or swing fwd and salto bwd with \u00bd turn (180\u00b0) piked (Gienger Salto) \u00b1 to hang on HB  ",
+                "description": "Swing fwd with \u00bd turn (180\u00b0) and salto fwd straddled (Deltchev Salto), or swing fwd and salto bwd with \u00bd turn (180\u00b0) piked (Gienger Salto) \u00b1 to hang on HB",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14145,7 +14145,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.505",
-                "description": " Swing fwd and salto bwd with \u00bd turn (180\u00b0) stretched to hang on HB ",
+                "description": "Swing fwd and salto bwd with \u00bd turn (180\u00b0) stretched to hang on HB",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14162,7 +14162,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.206",
-                "description": " Giant circle fwd in reverse, regular or mix grip, also with legs straddled or hips bent in upswing phase; also with \u00bd turn (180\u00b0) to hstd ",
+                "description": "Giant circle fwd in reverse, regular or mix grip, also with legs straddled or hips bent in upswing phase; also with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "B",
@@ -14183,7 +14183,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.306",
-                "description": " Giant circle fwd with 1/1 turn (360\u00b0) to hstd ",
+                "description": "Giant circle fwd with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -14200,7 +14200,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.506",
-                "description": " Giant circle fwd in reverse grip to hstd with initiation of 1/1 turn (360\u00b0) on one arm before hstd phase, or giant circle fwd in reverse grip with 1\u00bd turn (540\u00b0) to hstd  ",
+                "description": "Giant circle fwd in reverse grip to hstd with initiation of 1/1 turn (360\u00b0) on one arm before hstd phase, or giant circle fwd in reverse grip with 1\u00bd turn (540\u00b0) to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14220,7 +14220,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.307",
-                "description": " Swing bwd \u00b1 straddle flight bwd over LB to hstd on LB ",
+                "description": "Swing bwd \u00b1 straddle flight bwd over LB to hstd on LB",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -14237,7 +14237,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.407",
-                "description": " Swing bwd release and \u00bd turn (180\u00b0) in flight between the bars to clear support on LB (Ejova) ",
+                "description": "Swing bwd release and \u00bd turn (180\u00b0) in flight between the bars to clear support on LB (Ejova)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14254,7 +14254,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.308",
-                "description": " Swing bwd salto fwd tucked to hang on HB (Jaeger-Salto)  ",
+                "description": "Swing bwd salto fwd tucked to hang on HB (Jaeger-Salto)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -14271,7 +14271,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.408",
-                "description": " Jaeger Salto straddled to hang on HB  Jaeger Salto piked to hang on HB ",
+                "description": "Jaeger Salto straddled to hang on HB Jaeger Salto piked to hang on HB",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14289,7 +14289,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.508",
-                "description": " Jaeger Salto straddled with \u00bd turn (180\u00b0) to hang on HB (Li Ya) ",
+                "description": "Jaeger Salto straddled with \u00bd turn (180\u00b0) to hang on HB (Li Ya)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14306,7 +14306,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.608",
-                "description": " Jaeger Salto stretched to hang on HB  (Cappuccitti)  ",
+                "description": "Jaeger Salto stretched to hang on HB (Cappuccitti)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "F",
@@ -14323,7 +14323,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.309",
-                "description": " Swing bwd with free stoop or straddle vault and \u00bd turn (180\u00b0) over HB to hang  (Zhang / Volpi) ",
+                "description": "Swing bwd with free stoop or straddle vault and \u00bd turn (180\u00b0) over HB to hang (Zhang / Volpi)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -14341,7 +14341,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.409",
-                "description": " Swing bwd with \u00bd turn (180\u00b0) and straddle flight bwd over HB to catch HB  ",
+                "description": "Swing bwd with \u00bd turn (180\u00b0) and straddle flight bwd over HB to catch HB",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14358,7 +14358,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.310",
-                "description": " Giant circle fwd in L grip with piked or stretched body (L grip giant), also with \u00bd turn (180\u00b0) to hstd  (Zaytseva) ",
+                "description": "Giant circle fwd in L grip with piked or stretched body (L grip giant), also with \u00bd turn (180\u00b0) to hstd (Zaytseva)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "C",
@@ -14377,7 +14377,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.410",
-                "description": " Giant circle fwd in L grip with 1/1 turn (360\u00b0) to hstd  ",
+                "description": "Giant circle fwd in L grip with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "D",
@@ -14394,7 +14394,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.510",
-                "description": " Giant circle fwd in L grip with initiation of 1/1 turn (360\u00b0) on 1 arm before hstd phase, completed to hstd, or Giant circle fwd in L grip with 1\u00bd turn (540\u00db) WR hVWd (any technique accepted) ",
+                "description": "Giant circle fwd in L grip with initiation of 1/1 turn (360\u00b0) on 1 arm before hstd phase, completed to hstd, or Giant circle fwd in L grip with 1\u00bd turn (540\u00db) WR hVWd (any technique accepted)",
                 "group_number": "3",
                 "group_name": "Giant circles",
                 "difficulty": "E",
@@ -14412,7 +14412,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.101",
-                "description": " Clear straddle circle fwd to clear support ",
+                "description": "Clear straddle circle fwd to clear support",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "A",
@@ -14427,7 +14427,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.201",
-                "description": " Kip on HB, passing through clear straddle support \u2013 swing/press to hstd and \u00bd turn (180\u00b0) in hstd phase  ",
+                "description": "Kip on HB, passing through clear straddle support - swing/press to hstd and \u00bd turn (180\u00b0) in hstd phase",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "B",
@@ -14444,7 +14444,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.301",
-                "description": " Stalder fwd to hstd, also with \u00bd turn (180\u00b0) to hstd ",
+                "description": "Stalder fwd to hstd, also with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "C",
@@ -14459,7 +14459,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.401",
-                "description": " Stalder fwd with 1/1 turn (360\u00b0) to hstd  ",
+                "description": "Stalder fwd with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14476,7 +14476,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.302",
-                "description": " Clear straddle circle bwd on HB with flight to clear support on LB ",
+                "description": "Clear straddle circle bwd on HB with flight to clear support on LB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "C",
@@ -14493,7 +14493,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.402",
-                "description": " Clear straddle circle bwd on HB with flight fwd to hstd on LB ",
+                "description": "Clear straddle circle bwd on HB with flight fwd to hstd on LB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14510,7 +14510,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.502",
-                "description": " Stalder bwd on HB with counter straddle - reverse hecht over HB to hang  (Ricna) ",
+                "description": "Stalder bwd on HB with counter straddle - reverse hecht over HB to hang (Ricna)",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14527,7 +14527,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.103",
-                "description": " Clear straddle circle fwd in L grip to clear support  ",
+                "description": "Clear straddle circle fwd in L grip to clear support",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "A",
@@ -14542,7 +14542,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.403",
-                "description": " Stalder fwd in L grip to hstd, also with \u00bd turn (180\u00b0) to hstd  (White) ",
+                "description": "Stalder fwd in L grip to hstd, also with \u00bd turn (180\u00b0) to hstd (White)",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14560,7 +14560,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.503",
-                "description": " Stalder fwd in L grip with 1/1 turn (360\u00b0) to hstd (any technique accepted)  ",
+                "description": "Stalder fwd in L grip with 1/1 turn (360\u00b0) to hstd (any technique accepted)",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14575,7 +14575,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.104",
-                "description": " Clear straddle circle bwd to clear support  ",
+                "description": "Clear straddle circle bwd to clear support",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "A",
@@ -14592,7 +14592,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.304",
-                "description": " Stalder bwd to hstd, also with hop-grip change in hstd phase or with \u00bd turn (180\u00b0) to hstd ",
+                "description": "Stalder bwd to hstd, also with hop-grip change in hstd phase or with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "C",
@@ -14612,7 +14612,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.404",
-                "description": " Stalder bwd with 1/1 turn (360\u00b0) to hstd (Frederick) ",
+                "description": "Stalder bwd with 1/1 turn (360\u00b0) to hstd (Frederick)",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14629,7 +14629,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.504",
-                "description": " Stalder bwd with 1\u00bd turn (540\u00b0) to hstd ",
+                "description": "Stalder bwd with 1\u00bd turn (540\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14646,7 +14646,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.205",
-                "description": " Facing inward \u2013 Stalder bwd with release and counter movement fwd in flight to hang on HB ",
+                "description": "Facing inward - Stalder bwd with release and counter movement fwd in flight to hang on HB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "B",
@@ -14663,7 +14663,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.305",
-                "description": " Facing inward \u2013 Stalder bwd with hecht flight to hang on HB ",
+                "description": "Facing inward - Stalder bwd with hecht flight to hang on HB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "C",
@@ -14680,7 +14680,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.405",
-                "description": " Facing outward \u2013 Stalder bwd through hstd with flight to hang on HB ",
+                "description": "Facing outward - Stalder bwd through hstd with flight to hang on HB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14697,7 +14697,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.505",
-                "description": " Stalder bwd through hstd with flight and \u00bd turn (180\u00b0), to hang on HB ",
+                "description": "Stalder bwd through hstd with flight and \u00bd turn (180\u00b0), to hang on HB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14714,7 +14714,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.106",
-                "description": " Rear support \u2013 seat (pike) circle fwd to rear support  ",
+                "description": "Rear support - seat (pike) circle fwd to rear support",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "A",
@@ -14731,7 +14731,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.406",
-                "description": " Clear pike circle fwd to hstd, also with \u00bd turn (180\u00b0) to hstd   ",
+                "description": "Clear pike circle fwd to hstd, also with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14749,7 +14749,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.506",
-                "description": " Clear pike circle fwd with 1/1 turn (360\u00b0) to hstd ",
+                "description": "Clear pike circle fwd with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14766,7 +14766,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.107",
-                "description": " Rear support \u2013 seat (pike) circle bwd to rear support ",
+                "description": "Rear support - seat (pike) circle bwd to rear support",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "A",
@@ -14782,7 +14782,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.407",
-                "description": " Clear pike circle bwd to hstd, also with \u00bd turn (180\u00b0) to hstd  ",
+                "description": "Clear pike circle bwd to hstd, also with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "D",
@@ -14800,7 +14800,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.507",
-                "description": " Clear pike circle bwd with 1/1 turn (360\u00b0) to hstd  ",
+                "description": "Clear pike circle bwd with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14817,7 +14817,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.208",
-                "description": " Clear pike circle bwd on LB with counter flight to hang on HB  ",
+                "description": "Clear pike circle bwd on LB with counter flight to hang on HB",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "B",
@@ -14834,7 +14834,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.308",
-                "description": " Clear pike circle bwd on LB with hecht flight to hang on HB (Zgoba) ",
+                "description": "Clear pike circle bwd on LB with hecht flight to hang on HB (Zgoba)",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "C",
@@ -14851,7 +14851,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.508",
-                "description": " Clear pike circle bwd through hstd with flight to hang on HB, also with \u00bd turn (180\u00b0)  (Komova) Clear pike circle bwd with counter straddle (open hip before flight) \u2013 reverse Hecht over HB to hang (Galante)  ",
+                "description": "Clear pike circle bwd through hstd with flight to hang on HB, also with \u00bd turn (180\u00b0) (Komova) Clear pike circle bwd with counter straddle (open hip before flight) - reverse Hecht over HB to hang (Galante)",
                 "group_number": "4",
                 "group_name": "Stalder circles",
                 "difficulty": "E",
@@ -14872,7 +14872,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.101",
-                "description": " Rear support on LB or HB \u2013 seat (pike) circle fwd with straddle cut bwd to hang on same bar  ",
+                "description": "Rear support on LB or HB - seat (pike) circle fwd with straddle cut bwd to hang on same bar",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "A",
@@ -14889,7 +14889,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.301",
-                "description": " Outer rear support on HB \u2013 fall bwd to inverted pike swing or seat (pike) circle fwd \u2013 straddle cut bwd with flight over LB to hang Rear support on LB - seat (pike) circle fwd with straddle cut bwd and grip change to hang on HB.  ",
+                "description": "Outer rear support on HB - fall bwd to inverted pike swing or seat (pike) circle fwd - straddle cut bwd with flight over LB to hang Rear support on LB - seat (pike) circle fwd with straddle cut bwd and grip change to hang on HB.",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -14910,7 +14910,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.501",
-                "description": " Stoop in to Adler-seat (pike) circle fwd through clear extended support to finish in L grip (deviation up to 30\u00b0 allowed), also with \u00bd turn (180\u00b0)  (Luo) ",
+                "description": "Stoop in to Adler-seat (pike) circle fwd through clear extended support to finish in L grip (deviation up to 30\u00b0 allowed), also with \u00bd turn (180\u00b0) (Luo)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "E",
@@ -14928,7 +14928,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.303",
-                "description": " Clear rear pike support (legs together) on HB \u2013 full circle swing bwd with stoop out bwd to hang on HB (Li Li)  ",
+                "description": "Clear rear pike support (legs together) on HB - full circle swing bwd with stoop out bwd to hang on HB (Li Li)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -14945,7 +14945,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.403",
-                "description": " Clear rear pike support (legs together) on HB \u2013 full circle swing bwd with counter flight bwd straddled  (Li Li) ",
+                "description": "Clear rear pike support (legs together) on HB - full circle swing bwd with counter flight bwd straddled (Li Li)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -14962,7 +14962,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.202",
-                "description": " Rear support on HB \u2013 seat circle bwd with release to hang on LB  ",
+                "description": "Rear support on HB - seat circle bwd with release to hang on LB",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "B",
@@ -14979,7 +14979,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.302",
-                "description": " Clear rear pike support on HB (legs together) \u2013 full circle swing bwd to finish in clear rear support on HB (Steinemann circle)  ",
+                "description": "Clear rear pike support on HB (legs together) - full circle swing bwd to finish in clear rear support on HB (Steinemann circle)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -14996,7 +14996,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.402",
-                "description": " Clear rear pike support on HB (legs together) \u2013 full circle swing bwd \u2013 continuing through clear rear pike support bwd over HB into hang  (Mirgoradskaja) From hstd clear pike circle bwd to rear inverted pike support  (Krasnyanska) ",
+                "description": "Clear rear pike support on HB (legs together) - full circle swing bwd - continuing through clear rear pike support bwd over HB into hang (Mirgoradskaja) From hstd clear pike circle bwd to rear inverted pike support (Krasnyanska)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15015,7 +15015,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.502",
-                "description": " Clear rear pike support on HB (legs together) \u2013 circle swing bwd and continue to salto bwd stretched between bars to clear support on LB  (Teza) \u2013 circle swing bwd and \u00bd turn (180\u00b0) with flight to hstd on LB  ",
+                "description": "Clear rear pike support on HB (legs together) - circle swing bwd and continue to salto bwd stretched between bars to clear support on LB (Teza) - circle swing bwd and \u00bd turn (180\u00b0) with flight to hstd on LB",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "E",
@@ -15034,7 +15034,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.104",
-                "description": " Underswing bwd (inverted pike swing), dislocate (Schleudern) to hang on HB  ",
+                "description": "Underswing bwd (inverted pike swing), dislocate (Schleudern) to hang on HB",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "A",
@@ -15051,7 +15051,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.304",
-                "description": " Schleudern to near hstd with hop-change to regular grip on HB  Stoop trough on HB, dislocate and release with half (180\u00b0) turn in flight between the bars to catch LB in hang  (Alt)  ",
+                "description": "Schleudern to near hstd with hop-change to regular grip on HB Stoop trough on HB, dislocate and release with half (180\u00b0) turn in flight between the bars to catch LB in hang (Alt)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -15070,7 +15070,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.404",
-                "description": " Underswing bwd (inverted pike swing) on HB \u2013 dislocate with flight to hstd on LB (Zuchold-Schleudern) also from stoop through etc... ",
+                "description": "Underswing bwd (inverted pike swing) on HB - dislocate with flight to hstd on LB (Zuchold-Schleudern) also from stoop through etc...",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15089,7 +15089,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.105",
-                "description": " Sole circle forward (piked or straddle) ",
+                "description": "Sole circle forward (piked or straddle)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "A",
@@ -15106,7 +15106,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.305",
-                "description": " Pike sole circle fwd in reverse grip to hstd, also with \u00bd turn (180\u00b0) to hstd ",
+                "description": "Pike sole circle fwd in reverse grip to hstd, also with \u00bd turn (180\u00b0) to hstd",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -15125,7 +15125,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.405",
-                "description": " Pike sole circle fwd in reverse grip with 1/1 turn (360\u00b0) to hstd (Hoefnagel) ",
+                "description": "Pike sole circle fwd in reverse grip with 1/1 turn (360\u00b0) to hstd (Hoefnagel)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15142,7 +15142,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.106",
-                "description": " Sole circle forward in L- grip (piked or straddle)  ",
+                "description": "Sole circle forward in L- grip (piked or straddle)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "A",
@@ -15157,7 +15157,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.306",
-                "description": " Pike sole circle fwd in L grip to hstd, also with \u00bd turn (180\u00b0)  ",
+                "description": "Pike sole circle fwd in L grip to hstd, also with \u00bd turn (180\u00b0)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -15175,7 +15175,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.406",
-                "description": " Pike sole circle fwd in L grip with 1/1 turn (360\u00b0) to hstd  ",
+                "description": "Pike sole circle fwd in L grip with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15192,7 +15192,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.207",
-                "description": " Underswing on LB (support of feet) with counter movement fwd in flight to hang on HB  ",
+                "description": "Underswing on LB (support of feet) with counter movement fwd in flight to hang on HB",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "B",
@@ -15209,7 +15209,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.307",
-                "description": " Underswing on HB or LB with hand release and 1\u00bd turn (540\u00b0) to hang (Burda) ",
+                "description": "Underswing on HB or LB with hand release and 1\u00bd turn (540\u00b0) to hang (Burda)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -15226,7 +15226,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.607",
-                "description": " Facing outward on HB \u2013 underswing with support of feet-counter salto fwd straddled to catch on HB (Kim) ",
+                "description": "Facing outward on HB - underswing with support of feet-counter salto fwd straddled to catch on HB (Kim)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "F",
@@ -15243,7 +15243,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.108",
-                "description": " Sole circle bwd (piked or straddle) ",
+                "description": "Sole circle bwd (piked or straddle)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "A",
@@ -15259,7 +15259,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.308",
-                "description": " Pike sole circle bwd to hstd, also with hop-grip change to reverse grip in hstd phase, also with \u00bd turn (180\u00b0) ",
+                "description": "Pike sole circle bwd to hstd, also with hop-grip change to reverse grip in hstd phase, also with \u00bd turn (180\u00b0)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "C",
@@ -15280,7 +15280,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.408",
-                "description": " Pike sole circle bwd with 1/1 turn (360\u00b0) to hstd ",
+                "description": "Pike sole circle bwd with 1/1 turn (360\u00b0) to hstd",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15297,7 +15297,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.508",
-                "description": " Pike sole circle bwd with 1\u00bd turn (540\u00b0) to hstd  (Lucke) ",
+                "description": "Pike sole circle bwd with 1\u00bd turn (540\u00b0) to hstd (Lucke)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "E",
@@ -15314,7 +15314,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.409",
-                "description": " Inner front support on LB \u2013 pike sole circle bwd through hstd with flight to hang on HB (Maloney) ",
+                "description": "Inner front support on LB - pike sole circle bwd through hstd with flight to hang on HB (Maloney)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15331,7 +15331,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.509",
-                "description": " Facing outward on LB \u2013 pike sole circle bwd through hstd with flight and \u00bd turn (180\u00b0)  (Van Leeuwen), or 1/1 turn (360\u00b0) to hang on HB  (Seitz)  ",
+                "description": "Facing outward on LB - pike sole circle bwd through hstd with flight and \u00bd turn (180\u00b0) (Van Leeuwen), or 1/1 turn (360\u00b0) to hang on HB (Seitz)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "E",
@@ -15350,7 +15350,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.410",
-                "description": " Pike sole circle bwd counter straddle-reverse hecht over HB to hang  (Ray) ",
+                "description": "Pike sole circle bwd counter straddle-reverse hecht over HB to hang (Ray)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "D",
@@ -15367,7 +15367,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.510",
-                "description": " Pike sole circle bwd counter pike hecht over HB to hang  (Church)  Pike sole circle bwd with counter straddle hecht over HB with \u00bd turn (180\u00b0) to hang in mixed L-grip  (Tweddle)  ",
+                "description": "Pike sole circle bwd counter pike hecht over HB to hang (Church) Pike sole circle bwd with counter straddle hecht over HB with \u00bd turn (180\u00b0) to hang in mixed L-grip (Tweddle)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "E",
@@ -15385,7 +15385,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.610",
-                "description": " Pike sole circle bwd with counter stretched \u2013 reverse hecht in layout position over HB to hang (Nabieva)  ",
+                "description": "Pike sole circle bwd with counter stretched - reverse hecht in layout position over HB to hang (Nabieva)",
                 "group_number": "5",
                 "group_name": "Pike circles",
                 "difficulty": "F",
@@ -15402,7 +15402,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.101",
-                "description": " From HB \u2013 underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand  ",
+                "description": "From HB - underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -15420,7 +15420,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.201",
-                "description": " From HB \u2013 underswing with salto fwd tucked or piked  ",
+                "description": "From HB - underswing with salto fwd tucked or piked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -15438,7 +15438,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.301",
-                "description": " From HB \u2013 underswing with salto fwd tucked or piked with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0)  ",
+                "description": "From HB - underswing with salto fwd tucked or piked with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -15454,7 +15454,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.401",
-                "description": " From HB \u2013 underswing with salto fwd tucked with 1\u00bd turn (540\u00b0)  From HB \u2013 underswing with salto fwd stretched with \u00bd turn (180\u00b0)  (Moors)  ",
+                "description": "From HB - underswing with salto fwd tucked with 1\u00bd turn (540\u00b0) From HB - underswing with salto fwd stretched with \u00bd turn (180\u00b0) (Moors)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15472,7 +15472,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.102",
-                "description": " From HB \u2013 clear underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand  ",
+                "description": "From HB - clear underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -15490,7 +15490,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.302",
-                "description": " From HB \u2013 clear underswing with salto fwd tucked or piked also with \u00bd turn (180\u00b0) Clear straddle circle with salto fwd tucked  (Plichta) also with \u00bd (180\u00b0) turn  (Alt) ",
+                "description": "From HB - clear underswing with salto fwd tucked or piked also with \u00bd turn (180\u00b0) Clear straddle circle with salto fwd tucked (Plichta) also with \u00bd (180\u00b0) turn (Alt)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -15513,7 +15513,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.402",
-                "description": " From HB \u2013 clear underswing with salto fwd tucked with 1/1 turn (360\u00b0)  Clear pike underswing to salto forward stretched with \u00bd turn (180\u00b0)  (Brunner)  From HB \u2013 clear straddle circle with salto fwd tucked with 1/1 twist (360\u00b0)  (Petz) ",
+                "description": "From HB - clear underswing with salto fwd tucked with 1/1 turn (360\u00b0) Clear pike underswing to salto forward stretched with \u00bd turn (180\u00b0) (Brunner) From HB - clear straddle circle with salto fwd tucked with 1/1 twist (360\u00b0) (Petz)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15530,7 +15530,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.502",
-                "description": " From HB \u2013 clear underswing with salto fwd tucked with 1\u00bd turn (540\u00b0)  ",
+                "description": "From HB - clear underswing with salto fwd tucked with 1\u00bd turn (540\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -15547,7 +15547,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.303",
-                "description": " From HB \u2013 underswing with \u00bd or clear underswing with \u00bd turn (180\u00b0) to salto bwd tucked or piked (Comaneci) ",
+                "description": "From HB - underswing with \u00bd or clear underswing with \u00bd turn (180\u00b0) to salto bwd tucked or piked (Comaneci)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -15566,7 +15566,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.403",
-                "description": " From HB \u2013 underswing with \u00bd turn (180\u00b0) to salto bwd stretched From HB \u2013 clear underswing with \u00bd turn (180\u00b0) to salto bwd stretched (Okino)  From HB \u2013 underswing with \u00bd turn (180\u00b0) to salto bwd tucked with 1/1 twist (360\u00b0) (Kraeker)  ",
+                "description": "From HB - underswing with \u00bd turn (180\u00b0) to salto bwd stretched From HB - clear underswing with \u00bd turn (180\u00b0) to salto bwd stretched (Okino) From HB - underswing with \u00bd turn (180\u00b0) to salto bwd tucked with 1/1 twist (360\u00b0) (Kraeker)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15587,7 +15587,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.104",
-                "description": " Swing fwd to salto bwd tucked, piked or stretched (flyaway) ",
+                "description": "Swing fwd to salto bwd tucked, piked or stretched (flyaway)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -15604,7 +15604,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.204",
-                "description": " Swing fwd to salto bwd tucked, or stretched with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) (flyaway) ",
+                "description": "Swing fwd to salto bwd tucked, or stretched with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) (flyaway)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -15623,7 +15623,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.304",
-                "description": " Swing fwd to salto bwd stretched with 1\u00bd turn (540\u00b0) or 2/1 turn (720\u00b0) ",
+                "description": "Swing fwd to salto bwd stretched with 1\u00bd turn (540\u00b0) or 2/1 turn (720\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -15642,7 +15642,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.404",
-                "description": " Swing fwd to salto bwd stretched with 2\u00bd turn (900\u00b0)  (Ji)  ",
+                "description": "Swing fwd to salto bwd stretched with 2\u00bd turn (900\u00b0) (Ji)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15659,7 +15659,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.504",
-                "description": " Swing fwd to salto bwd stretched with 3/1 turn (1080\u00b0) (Bar) ",
+                "description": "Swing fwd to salto bwd stretched with 3/1 turn (1080\u00b0) (Bar)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -15676,7 +15676,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.205",
-                "description": " Swing fwd to double salto bwd tucked  ",
+                "description": "Swing fwd to double salto bwd tucked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -15693,7 +15693,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.305",
-                "description": " Swing fwd to double salto bwd piked ",
+                "description": "Swing fwd to double salto bwd piked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -15710,7 +15710,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.405",
-                "description": " Swing fwd to double salto bwd tucked or piked with 1/1 turn (360\u00b0) in first or second salto (Morio / Chusovitina)  ",
+                "description": "Swing fwd to double salto bwd tucked or piked with 1/1 turn (360\u00b0) in first or second salto (Morio / Chusovitina)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15729,7 +15729,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.505",
-                "description": " Swing fwd to double salto bwd tucked with 1\u00bd turn (540\u00b0)  (Mustafina) ",
+                "description": "Swing fwd to double salto bwd tucked with 1\u00bd turn (540\u00b0) (Mustafina)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -15746,7 +15746,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.605",
-                "description": " Swing fwd to double salto bwd tucked with 2/1 turn (720\u00b0) (Fabrichnova) ",
+                "description": "Swing fwd to double salto bwd tucked with 2/1 turn (720\u00b0) (Fabrichnova)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "F",
@@ -15763,7 +15763,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.406",
-                "description": " Swing fwd to double salto bwd stretched ",
+                "description": "Swing fwd to double salto bwd stretched",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15778,7 +15778,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.506",
-                "description": " Swing fwd to double salto bwd stretched with 1/1 turn (360\u00b0) in first or second salto  ",
+                "description": "Swing fwd to double salto bwd stretched with 1/1 turn (360\u00b0) in first or second salto",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -15793,7 +15793,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.407",
-                "description": " Swing fwd to salto bwd tucked with \u00bd turn (180\u00b0) \u2013 into salto fwd tucked (Fontaine)  Swing fwd with \u00bd turn (180\u00b0) to double salto fwd tucked  ",
+                "description": "Swing fwd to salto bwd tucked with \u00bd turn (180\u00b0) - into salto fwd tucked (Fontaine) Swing fwd with \u00bd turn (180\u00b0) to double salto fwd tucked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15812,7 +15812,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.507",
-                "description": " Swing fwd to salto bwd stretched with \u00bd turn (180\u00b0) \u2013 into salto fwd stretched (Blanco) Swing fwd with \u00bd turn (180\u00b0) to double salto fwd piked  (Giovannini / Li Ya)  ",
+                "description": "Swing fwd to salto bwd stretched with \u00bd turn (180\u00b0) - into salto fwd stretched (Blanco) Swing fwd with \u00bd turn (180\u00b0) to double salto fwd piked (Giovannini / Li Ya)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -15831,7 +15831,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.108",
-                "description": " Swing bwd to salto fwd tucked, piked or stretched or clear straddle circle fwd on HB to salto fwd tucked ",
+                "description": "Swing bwd to salto fwd tucked, piked or stretched or clear straddle circle fwd on HB to salto fwd tucked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -15850,7 +15850,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.208",
-                "description": " Swing bwd to salto fwd tucked or stretched with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) ",
+                "description": "Swing bwd to salto fwd tucked or stretched with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -15869,7 +15869,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.308",
-                "description": " Swing bwd to salto fwd stretched with 1\u00bd turn (540\u00b0) or 2/1 turn (720\u00b0) (Pechstein) From L-grip,swing bwd, \u00bd (180\u00b0) turn, to double salto bwd tucked  (Fan) ",
+                "description": "Swing bwd to salto fwd stretched with 1\u00bd turn (540\u00b0) or 2/1 turn (720\u00b0) (Pechstein) From L-grip,swing bwd, \u00bd (180\u00b0) turn, to double salto bwd tucked (Fan)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -15889,7 +15889,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.408",
-                "description": " Swing bwd to double salto fwd tucked  ",
+                "description": "Swing bwd to double salto fwd tucked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -15906,7 +15906,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.508",
-                "description": " Swing bwd to double salto fwd tucked with \u00bd turn (180\u00b0) also salto fwd with \u00bd turn (180\u00b0) into salto bwd tucked  (Arai)  ",
+                "description": "Swing bwd to double salto fwd tucked with \u00bd turn (180\u00b0) also salto fwd with \u00bd turn (180\u00b0) into salto bwd tucked (Arai)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -15926,7 +15926,7 @@ export const allElements: LanguageType = {
         "b": [
             {
                 "id": "1.101",
-                "description": " (D) Leap - on landing must show arabesque position (leg min. at horizontal)  ",
+                "description": "(D) Leap - on landing must show arabesque position (leg min. at horizontal)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -15943,7 +15943,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.201",
-                "description": " (D) Split leap (180\u00b0) ",
+                "description": "(D) Split leap (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -15960,7 +15960,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.401",
-                "description": " (D) Leap fwd with leg change (free leg swing to 45\u00b0) to cross split ",
+                "description": "(D) Leap fwd with leg change (free leg swing to 45\u00b0) to cross split",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -15977,7 +15977,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.102",
-                "description": " (D) Thief vault \u00b1 take-off from one leg \u00b1 free leap over beam, one leg after another to rear support \u00b1 90\u00b0 approach to beam or Scissor Leap over beam to cross sit on thigh \u00b1 diagonal approach to beam  ",
+                "description": "(D) Thief vault \u00b1 take-off from one leg \u00b1 free leap over beam, one leg after another to rear support \u00b1 90\u00b0 approach to beam or Scissor Leap over beam to cross sit on thigh \u00b1 diagonal approach to beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -15996,7 +15996,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.302",
-                "description": " (D) Straight Jump with \u00bd turn (180\u00b0) in flight phase to stand \u00b1 take-off from both feet ",
+                "description": "(D) Straight Jump with \u00bd turn (180\u00b0) in flight phase to stand \u00b1 take-off from both feet",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16012,7 +16012,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.402",
-                "description": " (D) Jump with 1/1 turn (360\u00b0) in flight phase to stand, take-off from both legs \u00b1 approach at end or diagonal to beam ",
+                "description": "(D) Jump with 1/1 turn (360\u00b0) in flight phase to stand, take-off from both legs \u00b1 approach at end or diagonal to beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16028,7 +16028,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.103",
-                "description": " Flank to rear support also with \u00bd turn (180\u00b0)  Jump with hand support, \u00be turn (270\u00db) iQ VXSSRUW WR cURVV ViW RQ thigh ",
+                "description": "Flank to rear support also with \u00bd turn (180\u00b0) Jump with hand support, \u00be turn (270\u00db) iQ VXSSRUW WR cURVV ViW RQ thigh",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -16049,7 +16049,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.303",
-                "description": " Two flying flairs  ",
+                "description": "Two flying flairs",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16067,7 +16067,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.403",
-                "description": " 3 flying flairs (Homma) ` Two flank circles followed by leg \u00b3FlaiU\u00b4  (Baitova) ",
+                "description": "3 flying flairs (Homma) ` Two flank circles followed by leg \u00b3FlaiU\u00b4 (Baitova)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16088,7 +16088,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.204",
-                "description": " (D) Jump with \u00bd turn (180\u00b0) to clear straddle support, or jump bwd through straddle position over the beam to front support, or to side split \u00b1 90\u00b0 approach to beam  ",
+                "description": "(D) Jump with \u00bd turn (180\u00b0) to clear straddle support, or jump bwd through straddle position over the beam to front support, or to side split \u00b1 90\u00b0 approach to beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16108,7 +16108,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.304",
-                "description": " (D) Straddle pike jump bwd over beam from round-off into immediate hip circle bwd \u00b1 90\u00b0 approach to beam ",
+                "description": "(D) Straddle pike jump bwd over beam from round-off into immediate hip circle bwd \u00b1 90\u00b0 approach to beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16125,7 +16125,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.105",
-                "description": " (D) Jump with hand support to side split sit or straddle position (must show split without hands touching the beam as final position; in straddle position the trunk must touch the beam) take-off two feet  Take off two feet or leap to cross split sit from one foot take-off \u00b1 diagonal approach to beam (with hand support) ",
+                "description": "(D) Jump with hand support to side split sit or straddle position (must show split without hands touching the beam as final position; in straddle position the trunk must touch the beam) take-off two feet Take off two feet or leap to cross split sit from one foot take-off \u00b1 diagonal approach to beam (with hand support)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -16145,7 +16145,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.305",
-                "description": " (D) Free jump to cross split sit take-off from both legs \u00b1 diagonal approach to beam Change leg leap to free cross split sit \u00b1 diagonal approach to beam  (Dick) ",
+                "description": "(D) Free jump to cross split sit take-off from both legs \u00b1 diagonal approach to beam Change leg leap to free cross split sit \u00b1 diagonal approach to beam (Dick)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16163,7 +16163,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.405",
-                "description": " (D) Leap with leg change and \u00bd turn (180\u02da) away from beam to free cross split sit \u00b1 diagonal approach to beam  (Dick) ",
+                "description": "(D) Leap with leg change and \u00bd turn (180\u02da) away from beam to free cross split sit \u00b1 diagonal approach to beam (Dick)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16180,7 +16180,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.106",
-                "description": " From side stand - squat or stoop through to rear support ",
+                "description": "From side stand - squat or stoop through to rear support",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -16198,7 +16198,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.207",
-                "description": " Jump to roll fwd at end or middle of beam  Jump to clear straddle support on end of beam \u00b1 swing bwd to roll fwd  ",
+                "description": "Jump to roll fwd at end or middle of beam Jump to clear straddle support on end of beam \u00b1 swing bwd to roll fwd",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16217,7 +16217,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.108",
-                "description": " Cartwheel with bending of both arms through chest stand to swing down  Stand at side of beam and jump to chest stand with both arms bent  ",
+                "description": "Cartwheel with bending of both arms through chest stand to swing down Stand at side of beam and jump to chest stand with both arms bent",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -16236,7 +16236,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.208",
-                "description": " Jump with \u00bd turn (180\u00b0) over shoulder to neck stand, \u00bd turn (180\u00b0) to chest stand ",
+                "description": "Jump with \u00bd turn (180\u00b0) over shoulder to neck stand, \u00bd turn (180\u00b0) to chest stand",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16253,7 +16253,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.308",
-                "description": " Jump with \u00bd turn (180\u00b0) over shoulder to neck stand, 1/1 or 1\u00bd turn (360\u00b0 - 540\u00db) WR Qeck VWaQd ",
+                "description": "Jump with \u00bd turn (180\u00b0) over shoulder to neck stand, 1/1 or 1\u00bd turn (360\u00b0 - 540\u00db) WR Qeck VWaQd",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16270,7 +16270,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.309",
-                "description": " From cross stand facing end of beam \u00b1 head kip From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to front walkover From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to handspring fwd with step-out or land on 2 feet ",
+                "description": "From cross stand facing end of beam \u00b1 head kip From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to front walkover From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to handspring fwd with step-out or land on 2 feet",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16291,7 +16291,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.210",
-                "description": " Jump, press, or swing to hstd (2 sec.) \u00b1 lower to end position touching beam; also with \u00bd turn (180\u00b0) in hstd. ",
+                "description": "Jump, press, or swing to hstd (2 sec.) \u00b1 lower to end position touching beam; also with \u00bd turn (180\u00b0) in hstd.",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16313,7 +16313,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.310",
-                "description": " Jump, press or swing to cross or side hstd with 1/1 - 1\u00bd turn (360\u00b0- 540\u00b0) \u00b1 lower to end position touching beam  ",
+                "description": "Jump, press or swing to cross or side hstd with 1/1 - 1\u00bd turn (360\u00b0- 540\u00b0) \u00b1 lower to end position touching beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16334,7 +16334,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.111",
-                "description": " Planche with support on one or both bent arms (2 sec.), also legs in cross split position ",
+                "description": "Planche with support on one or both bent arms (2 sec.), also legs in cross split position",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -16354,7 +16354,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.211",
-                "description": " Jump with bent hips to clear front support above horizontal minimum at 45\u00b0 (Planche) (2 sec.) - lower to optional end position  ",
+                "description": "Jump with bent hips to clear front support above horizontal minimum at 45\u00b0 (Planche) (2 sec.) - lower to optional end position",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16371,7 +16371,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.311",
-                "description": " Jump with stretched hips to planche (2 sec.) (Shushunova)  Jump, press, or swing to hstd \u00b1 lower to planche (2 sec.) also with \u00bd turn (180\u00b0) in hstd  Jump, press, or swing to hstd \u00b1 lower to clear pike support (2 sec.) also with \u00bd turn (180\u00b0) in hstd  Jump, press, or swing to hstd (2 sec.) release one hand to land on one foot, or with swing down swd; also with \u00bd turn (180\u00b0) in hstd  (Li Yifang)  ",
+                "description": "Jump with stretched hips to planche (2 sec.) (Shushunova) Jump, press, or swing to hstd \u00b1 lower to planche (2 sec.) also with \u00bd turn (180\u00b0) in hstd Jump, press, or swing to hstd \u00b1 lower to clear pike support (2 sec.) also with \u00bd turn (180\u00b0) in hstd Jump, press, or swing to hstd (2 sec.) release one hand to land on one foot, or with swing down swd; also with \u00bd turn (180\u00b0) in hstd (Li Yifang)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16397,7 +16397,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.411",
-                "description": " Jump, press or swing to hstd \u00b1 1/1 turn (360\u00b0) in hstd \u00b1 lower to planche (2 sec.), or to clear pike support (2 sec.)   Jump, press, or swing to hstd \u00b1 1/1 turn (360\u00b0) in hstd \u00b1 release one hand with swing down swd  ",
+                "description": "Jump, press or swing to hstd \u00b1 1/1 turn (360\u00b0) in hstd \u00b1 lower to planche (2 sec.), or to clear pike support (2 sec.)  Jump, press, or swing to hstd \u00b1 1/1 turn (360\u00b0) in hstd \u00b1 release one hand with swing down swd",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16424,7 +16424,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.312",
-                "description": " Hstd in cross position with large arch span, also piked with one leg vertical, other leg bent (2 sec.) - lower to optional end position Hstd with horizontal leg hold (2 sec.) \u00b1 reverse planche in different variations - lower to optional end position  ",
+                "description": "Hstd in cross position with large arch span, also piked with one leg vertical, other leg bent (2 sec.) - lower to optional end position Hstd with horizontal leg hold (2 sec.) \u00b1 reverse planche in different variations - lower to optional end position",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16445,7 +16445,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.412",
-                "description": " Jump or press to side Hstd \u00b1 walkover fwd to side stand on both legs (Phillips) ",
+                "description": "Jump or press to side Hstd \u00b1 walkover fwd to side stand on both legs (Phillips)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16463,7 +16463,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.213",
-                "description": " Press to side hstd, with bending - stretching of legs \u00b1 hop with \u00bc turn (90\u00b0) to cross hstd - lower to optional end position  ",
+                "description": "Press to side hstd, with bending - stretching of legs \u00b1 hop with \u00bc turn (90\u00b0) to cross hstd - lower to optional end position",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16479,7 +16479,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.313",
-                "description": " Jump, press or swing to hstd shift weight to one arm hstd (2 sec.) \u00b1 lower to optional end position  ",
+                "description": "Jump, press or swing to hstd shift weight to one arm hstd (2 sec.) \u00b1 lower to optional end position",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16498,7 +16498,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.413",
-                "description": " Jump or press on one arm to hstd lower to optional end position, also jump, press or swing to hstd \u00b1 shift weight to side hstd on one arm (2 sec.), lowering to clear straddle support on one arm, also with \u00bc turn (90\u00b0)  (Rankin) ",
+                "description": "Jump or press on one arm to hstd lower to optional end position, also jump, press or swing to hstd \u00b1 shift weight to side hstd on one arm (2 sec.), lowering to clear straddle support on one arm, also with \u00bc turn (90\u00b0) (Rankin)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16518,7 +16518,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.114",
-                "description": " Jump to hstd with bent or straight legs \u00b1 lower to optional end position  ",
+                "description": "Jump to hstd with bent or straight legs \u00b1 lower to optional end position",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "A",
@@ -16535,7 +16535,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.214",
-                "description": " Cartwheel on one or both arms  ",
+                "description": "Cartwheel on one or both arms",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16553,7 +16553,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.314",
-                "description": " 90\u00b0 approach to beam \u00b1 jump with \u00bc turn (90\u00b0) and extended hips through a momentary hstd on one arm with immediate \u00bc turn (90\u00b0) and support on second arm to side hstd - lower to optional end position  From rear stand (back towards beam), flic flac over beam to candle position, ending in front support (Beukes)  From rear stand (back towards beam), flic flac with \u00bd turn (180\u00b0) to candle position, ending in front support (grasping under the beam with both hands)  (Soares) ",
+                "description": "90\u00b0 approach to beam \u00b1 jump with \u00bc turn (90\u00b0) and extended hips through a momentary hstd on one arm with immediate \u00bc turn (90\u00b0) and support on second arm to side hstd - lower to optional end position From rear stand (back towards beam), flic flac over beam to candle position, ending in front support (Beukes) From rear stand (back towards beam), flic flac with \u00bd turn (180\u00b0) to candle position, ending in front support (grasping under the beam with both hands) (Soares)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16574,7 +16574,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.414",
-                "description": " Round-off in front of beam \u00b1 jump with \u00bd twist (180\u00b0) to near side hstd \u00b1 lower to optional position  (Gurova) ",
+                "description": "Round-off in front of beam \u00b1 jump with \u00bd twist (180\u00b0) to near side hstd \u00b1 lower to optional position (Gurova)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16591,7 +16591,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.514",
-                "description": " Round-off in front of beam \u00b1 flic-flac with1/1 twist (360\u00b0) to hip circle bwd (Zamolodchikova)  ",
+                "description": "Round-off in front of beam \u00b1 flic-flac with1/1 twist (360\u00b0) to hip circle bwd (Zamolodchikova)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "E",
@@ -16608,7 +16608,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.215",
-                "description": " Handspring fwd with hand repulsion from springboard to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh \u00b1 90\u00b0 approach to beam Cartwheel, grasping the beam, to front support \u00b1 90\u00b0 approach to beam ",
+                "description": "Handspring fwd with hand repulsion from springboard to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh \u00b1 90\u00b0 approach to beam Cartwheel, grasping the beam, to front support \u00b1 90\u00b0 approach to beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "B",
@@ -16628,7 +16628,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.315",
-                "description": " Free (aerial) walkover fwd to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh    ",
+                "description": "Free (aerial) walkover fwd to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16646,7 +16646,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.416",
-                "description": " Salto fwd tucked to cross or side stand \u00b1 approach at end of beam ",
+                "description": "Salto fwd tucked to cross or side stand \u00b1 approach at end of beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16661,7 +16661,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.516",
-                "description": " Salto fwd piked to stand \u00b1 approach at end of beam ",
+                "description": "Salto fwd piked to stand \u00b1 approach at end of beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "E",
@@ -16676,7 +16676,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.616",
-                "description": " Salto fwd tucked with \u00bd twist (180\u00b0)  (Wong Hiu Ying Angel)  ",
+                "description": "Salto fwd tucked with \u00bd twist (180\u00b0) (Wong Hiu Ying Angel)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "F",
@@ -16693,7 +16693,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.716",
-                "description": "  Round-off at end of beam \u00b1 take off bwd with \u00bd turn (180\u00b0) \u00b1 tucked salto fwd to stand  (Erceg)  ",
+                "description": "Round-off at end of beam \u00b1 take off bwd with \u00bd turn (180\u00b0) \u00b1 tucked salto fwd to stand (Erceg)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "G",
@@ -16712,7 +16712,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.317",
-                "description": " Round-off at end of beam \u00b1 flic-flac through hstd with swing down to cross straddle sit ",
+                "description": "Round-off at end of beam \u00b1 flic-flac through hstd with swing down to cross straddle sit",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "C",
@@ -16729,7 +16729,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.417",
-                "description": " Round-off at end of beam \u00b1 flic-flac through hstd \u00b1 support on one or both arms \u00b1 to cross stand on beam Round-off at end of beam \u00b1 flic-flac with 1/1 twist (360\u00b0) into swing down to cross straddle sit (Tsavdaridou)  ",
+                "description": "Round-off at end of beam \u00b1 flic-flac through hstd \u00b1 support on one or both arms \u00b1 to cross stand on beam Round-off at end of beam \u00b1 flic-flac with 1/1 twist (360\u00b0) into swing down to cross straddle sit (Tsavdaridou)",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "D",
@@ -16749,7 +16749,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.517",
-                "description": " Round-off at end of beam \u00b1 flic-flac with \u00f4 WZiVW (270\u00db) WR cURVV VWaQd RQ beam ",
+                "description": "Round-off at end of beam \u00b1 flic-flac with \u00f4 WZiVW (270\u00db) WR cURVV VWaQd RQ beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "E",
@@ -16766,7 +16766,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.518",
-                "description": " Round-off at end of beam \u00b1 salto bwd tucked, piked or stretched with step-out to cross or side stand on beam ",
+                "description": "Round-off at end of beam \u00b1 salto bwd tucked, piked or stretched with step-out to cross or side stand on beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "E",
@@ -16786,7 +16786,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.618",
-                "description": " Round-off at end of beam \u00b1 salto bwd tucked with 1/1 twist (360\u00b0) to cross stand (Garrison)  Round-off at end of beam \u00b1 salto bwd stretched to cross stand on beam ",
+                "description": "Round-off at end of beam \u00b1 salto bwd tucked with 1/1 twist (360\u00b0) to cross stand (Garrison) Round-off at end of beam \u00b1 salto bwd stretched to cross stand on beam",
                 "group_number": "1",
                 "group_name": "Mounts",
                 "difficulty": "F",
@@ -16805,7 +16805,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.101",
-                "description": " Split leap fwd (leg separation 180\u00b0)  ",
+                "description": "Split leap fwd (leg separation 180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -16823,7 +16823,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.301",
-                "description": " Split leap fwd with \u00bd turn (180\u00b0).  ",
+                "description": "Split leap fwd with \u00bd turn (180\u00b0).",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -16840,7 +16840,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.202",
-                "description": " Split jump (leg separation 180\u00b0) from cross position ",
+                "description": "Split jump (leg separation 180\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -16857,7 +16857,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.302",
-                "description": " Split jump with \u00bd turn (180\u00b0) from cross position ",
+                "description": "Split jump with \u00bd turn (180\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -16874,7 +16874,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.402",
-                "description": " Split jump with 1/1 turn (360\u00b0) from cross position  ",
+                "description": "Split jump with 1/1 turn (360\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -16889,7 +16889,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.203",
-                "description": " (*) Straddle pike jump (both legs above horizontal), or side split jump from cross position ",
+                "description": "(*) Straddle pike jump (both legs above horizontal), or side split jump from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -16908,7 +16908,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.303",
-                "description": " Straddle pike jump with \u00bd turn (180\u00b0) from cross position  ",
+                "description": "Straddle pike jump with \u00bd turn (180\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -16925,7 +16925,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.403",
-                "description": " Straddle pike with 1/1 turn (360\u00b0) from cross position  ",
+                "description": "Straddle pike with 1/1 turn (360\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -16942,7 +16942,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.204",
-                "description": " Fouett\u00e9 hop with \u00bd turn (180\u00b0) to land in arabesque (free leg above horizontal) ",
+                "description": "Fouett\u00e9 hop with \u00bd turn (180\u00b0) to land in arabesque (free leg above horizontal)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -16959,7 +16959,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.404",
-                "description": " Fouette hop with leg change to cross split (leg separation 180\u00b0) (tour jet\u00e9) ",
+                "description": "Fouette hop with leg change to cross split (leg separation 180\u00b0) (tour jet\u00e9)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -16976,7 +16976,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.504",
-                "description": " Tour jet\u00e9 with additional \u00bd turn (180\u00b0)  ",
+                "description": "Tour jet\u00e9 with additional \u00bd turn (180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "E",
@@ -16993,7 +16993,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.105",
-                "description": " Stride leap fwd with change of legs to wolf position (hip angle at 45\u00b0)  ",
+                "description": "Stride leap fwd with change of legs to wolf position (hip angle at 45\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -17010,7 +17010,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.305",
-                "description": " Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)  ",
+                "description": "Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -17027,7 +17027,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.405",
-                "description": " Switch leap with \u00bd turn (180\u00b0) ",
+                "description": "Switch leap with \u00bd turn (180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -17044,7 +17044,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.505",
-                "description": " Switch leap to ring position (leg separation 180\u00b0) ",
+                "description": "Switch leap to ring position (leg separation 180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "E",
@@ -17061,7 +17061,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.206",
-                "description": " Leap with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal), to land on one or both feet ",
+                "description": "Leap with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal), to land on one or both feet",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17078,7 +17078,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.306",
-                "description": " Leap fwd with leg change and \u00bc turn (90\u00b0) to side split (180\u00b0) or straddle pike position  (Johnson)  ",
+                "description": "Leap fwd with leg change and \u00bc turn (90\u00b0) to side split (180\u00b0) or straddle pike position (Johnson)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -17095,7 +17095,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.506",
-                "description": " Johnson with additional \u00bd turn (180\u00b0) ",
+                "description": "Johnson with additional \u00bd turn (180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "E",
@@ -17112,7 +17112,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.107",
-                "description": " Pike jump from cross position (hip <90\u00b0) ",
+                "description": "Pike jump from cross position (hip <90\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -17128,7 +17128,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.207",
-                "description": " Pike jump from cross position with \u00bd turn (180\u00b0) ",
+                "description": "Pike jump from cross position with \u00bd turn (180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17144,7 +17144,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.407",
-                "description": " Pike jump from cross position with 1/1 turn (360\u00b0) ",
+                "description": "Pike jump from cross position with 1/1 turn (360\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -17160,7 +17160,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.108",
-                "description": " Sissone (leg separation 180\u00b0 on the diagonal / 45\u00b0 to the floor) take off from both feet, land on one foot ",
+                "description": "Sissone (leg separation 180\u00b0 on the diagonal / 45\u00b0 to the floor) take off from both feet, land on one foot",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -17177,7 +17177,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.208",
-                "description": " (*) Ring jump (rear foot at head height, body arched and head dropped bwd, leg separation 180\u00b0), or stag-ring jump ",
+                "description": "(*) Ring jump (rear foot at head height, body arched and head dropped bwd, leg separation 180\u00b0), or stag-ring jump",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17195,7 +17195,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.308",
-                "description": " Jump with upper back arch and head release with feet to head height/closed ring (Sheep jump) ",
+                "description": "Jump with upper back arch and head release with feet to head height/closed ring (Sheep jump)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -17212,7 +17212,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.408",
-                "description": " (*) Split jump to ring position (leg separation 180\u00b0)  Split ring leap (leg separation 180\u00b0)  Jump to cross over split with body arched and head dropped bwd (Yang-Bo)  ",
+                "description": "(*) Split jump to ring position (leg separation 180\u00b0) Split ring leap (leg separation 180\u00b0) Jump to cross over split with body arched and head dropped bwd (Yang-Bo)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -17233,7 +17233,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.209",
-                "description": " (*) Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout Stretched jump/hop with 1/1turn (360\u00b0) from cross position  ",
+                "description": "(*) Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout Stretched jump/hop with 1/1turn (360\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17252,7 +17252,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.409",
-                "description": " Stretched jump/hop with 1\u00bd turn (540\u00b0) from cross position ",
+                "description": "Stretched jump/hop with 1\u00bd turn (540\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -17269,7 +17269,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.110",
-                "description": " (*) Cat leap (knees above horizontal alternately)  Scissors leap forward (legs above horizontal) ",
+                "description": "(*) Cat leap (knees above horizontal alternately) Scissors leap forward (legs above horizontal)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -17288,7 +17288,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.210",
-                "description": " Cat leap with \u00bd turn (180\u00b0) ",
+                "description": "Cat leap with \u00bd turn (180\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17305,7 +17305,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.310",
-                "description": " Cat leap with 1/1 turn (360\u00b0) ",
+                "description": "Cat leap with 1/1 turn (360\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -17322,7 +17322,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.211",
-                "description": " Tuck hop or jump with \u00bd turn (180\u00b0) from cross position (hip & knee angle at 45\u00b0) ",
+                "description": "Tuck hop or jump with \u00bd turn (180\u00b0) from cross position (hip & knee angle at 45\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17339,7 +17339,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.311",
-                "description": " Tuck hop or jump with 1/1 turn (360\u00b0) from cross position ",
+                "description": "Tuck hop or jump with 1/1 turn (360\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -17356,7 +17356,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.411",
-                "description": " Tuck hop or jump with 1\u00bd turn (540\u00b0) from cross position ",
+                "description": "Tuck hop or jump with 1\u00bd turn (540\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -17373,7 +17373,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.112",
-                "description": " (*) Wolf hop or jump from cross position (hip angle at 45\u00b0, knees together) ",
+                "description": "(*) Wolf hop or jump from cross position (hip angle at 45\u00b0, knees together)",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -17392,7 +17392,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.212",
-                "description": " Wolf hop or jump with \u00bd turn (180\u00b0) from cross position  ",
+                "description": "Wolf hop or jump with \u00bd turn (180\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -17408,7 +17408,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.412",
-                "description": " Wolf hop or jump with 1/1 turn (360\u00b0) from cross position ",
+                "description": "Wolf hop or jump with 1/1 turn (360\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -17425,7 +17425,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.512",
-                "description": " Wolf hop or jump with 1\u00bd turn (540\u00b0) from cross position  ",
+                "description": "Wolf hop or jump with 1\u00bd turn (540\u00b0) from cross position",
                 "group_number": "2",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "E",
@@ -17442,7 +17442,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.101",
-                "description": " 1/1 turn (360\u00b0) on one leg \u2013 free leg optional below horizontal  ",
+                "description": "1/1 turn (360\u00b0) on one leg - free leg optional below horizontal",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "A",
@@ -17459,7 +17459,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.201",
-                "description": " 1\u00bd turn (540\u00b0) on one leg \u2013 free leg optional below horizontal  ",
+                "description": "1\u00bd turn (540\u00b0) on one leg - free leg optional below horizontal",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -17476,7 +17476,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.401",
-                "description": " 2/1 turn (720\u00b0) on one leg \u2013 free leg optional below horizontal  ",
+                "description": "2/1 turn (720\u00b0) on one leg - free leg optional below horizontal",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17493,7 +17493,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.501",
-                "description": " 3/1 turn (1080\u00b0) on one leg \u2013 free leg optional below horizontal (Okino)  ",
+                "description": "3/1 turn (1080\u00b0) on one leg - free leg optional below horizontal (Okino)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -17510,7 +17510,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.302",
-                "description": " 1/1 turn (360\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn  ",
+                "description": "1/1 turn (360\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "C",
@@ -17526,7 +17526,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.402",
-                "description": " 1\u00bd turn (540\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn  ",
+                "description": "1\u00bd turn (540\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17543,7 +17543,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.403",
-                "description": " 1/1 turn (360\u00b0) pirouette with free leg held bwd with both hands (Preziosa)  ",
+                "description": "1/1 turn (360\u00b0) pirouette with free leg held bwd with both hands (Preziosa)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17560,7 +17560,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.304",
-                "description": " 1/1 turn (360\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent) ",
+                "description": "1/1 turn (360\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "C",
@@ -17577,7 +17577,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.404",
-                "description": " 1\u00bd turn (540\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)  ",
+                "description": "1\u00bd turn (540\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17594,7 +17594,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.504",
-                "description": " 2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)  (Wevers) ",
+                "description": "2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent) (Wevers)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -17611,7 +17611,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.305",
-                "description": " 1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn ",
+                "description": "1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "C",
@@ -17628,7 +17628,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.405",
-                "description": " 1 \u00bd turn (540\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Galante) ",
+                "description": "1 \u00bd turn (540\u00b0) with free leg held upward in 180\u00b0 split position throughout turn (Galante)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17645,7 +17645,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.505",
-                "description": " 2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Sugihara) 720\u00b0  ",
+                "description": "2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn (Sugihara) 720\u00b0",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -17662,7 +17662,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.206",
-                "description": " \u00bd illusion turn (180\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand  ",
+                "description": "\u00bd illusion turn (180\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -17678,7 +17678,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.406",
-                "description": " 1/1 illusion turn (360\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand ",
+                "description": "1/1 illusion turn (360\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17694,7 +17694,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.207",
-                "description": " 1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn ",
+                "description": "1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -17711,7 +17711,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.307",
-                "description": " 1\u00bd turn (540\u00b0) in tuck stand on one leg - free leg straight throughout turn ",
+                "description": "1\u00bd turn (540\u00b0) in tuck stand on one leg - free leg straight throughout turn",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "C",
@@ -17728,7 +17728,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.407",
-                "description": " (*) 2/1 turn (720\u00b0) or 2\u00bd turn (900\u00b0) in tuck stand on one leg - free leg straight throughout turn  (Humphrey) ",
+                "description": "(*) 2/1 turn (720\u00b0) or 2\u00bd turn (900\u00b0) in tuck stand on one leg - free leg straight throughout turn (Humphrey)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17747,7 +17747,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.507",
-                "description": " 3/1 turn (1080\u00b0) in tuck stand on one leg - free leg straight throughout turn (Mitchell) ",
+                "description": "3/1 turn (1080\u00b0) in tuck stand on one leg - free leg straight throughout turn (Mitchell)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -17764,7 +17764,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.208",
-                "description": " (*) 1/1 turn to 1\u00bd turn (360\u00b0- 540\u00b0) in prone position \u2013 alternate support of hands permitted  ",
+                "description": "(*) 1/1 turn to 1\u00bd turn (360\u00b0- 540\u00b0) in prone position - alternate support of hands permitted",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -17783,7 +17783,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.408",
-                "description": " 1\u00bc (450\u00b0) turn on back in kip position (hip-leg angle closed) (Li Li) ",
+                "description": "1\u00bc (450\u00b0) turn on back in kip position (hip-leg angle closed) (Li Li)",
                 "group_number": "3",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -17800,7 +17800,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.101",
-                "description": " (D) From kneeling sit position, rise upward with body wave through toe-balance stand ",
+                "description": "(D) From kneeling sit position, rise upward with body wave through toe-balance stand",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -17817,7 +17817,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.102",
-                "description": " (D) (*) Standing split fwd with hand support in front of support leg (leg separation 180\u00b0) \u2013 Needle scale (2 sec.) or Stand on one leg with foot of free leg in fwd hold above head (2 sec.)  Scale fwd, support leg extended (leg separation 180\u00b0) - 2 sec. ",
+                "description": "(D) (*) Standing split fwd with hand support in front of support leg (leg separation 180\u00b0) - Needle scale (2 sec.) or Stand on one leg with foot of free leg in fwd hold above head (2 sec.) Scale fwd, support leg extended (leg separation 180\u00b0) - 2 sec.",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -17837,7 +17837,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.202",
-                "description": " Clear pike support (2 sec.) ",
+                "description": "Clear pike support (2 sec.)",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -17853,7 +17853,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.103",
-                "description": " Kick to side or cross hstd (2sec), lower to end position touching beam  ",
+                "description": "Kick to side or cross hstd (2sec), lower to end position touching beam",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -17870,7 +17870,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.203",
-                "description": " Kick to cross hstd \u2013 roll fwd with or without hand support to sit position or to tuck stand  ",
+                "description": "Kick to cross hstd - roll fwd with or without hand support to sit position or to tuck stand",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -17885,7 +17885,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.204",
-                "description": " Roll fwd without hand support to sit position or to tuck stand  From cross sit, swing bwd to shoulder roll fwd with hip extension to sit position or to tuck stand ",
+                "description": "Roll fwd without hand support to sit position or to tuck stand From cross sit, swing bwd to shoulder roll fwd with hip extension to sit position or to tuck stand",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -17903,7 +17903,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.304",
-                "description": " Free shoulder roll fwd with hip extension and without hand support to sit position or tuck stand ",
+                "description": "Free shoulder roll fwd with hip extension and without hand support to sit position or tuck stand",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -17920,7 +17920,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.105",
-                "description": " Roll bwd with hand support on top of the beam \u2013 landing on one or both feet ",
+                "description": "Roll bwd with hand support on top of the beam - landing on one or both feet",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -17936,7 +17936,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.305",
-                "description": " Roll bwd to hstd - lower to end position touching beam  ",
+                "description": "Roll bwd to hstd - lower to end position touching beam",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -17951,7 +17951,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.206",
-                "description": " Roll swd, body tucked \u2013 or roll swd stretched or straddle piked through neck stand, also with \u00bd turn (180\u00b0) over shoulder ",
+                "description": "Roll swd, body tucked - or roll swd stretched or straddle piked through neck stand, also with \u00bd turn (180\u00b0) over shoulder",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -17970,7 +17970,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.306",
-                "description": " Roll swd, body stretched  ",
+                "description": "Roll swd, body stretched",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -17987,7 +17987,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.107",
-                "description": " Cartwheel, also with support on one arm, or Cartwheel with flight phase before or after hand support  ",
+                "description": "Cartwheel, also with support on one arm, or Cartwheel with flight phase before or after hand support",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -18006,7 +18006,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.307",
-                "description": " From cross sit or side split \u2013 roll swd stretched, legs separated \u2013 end position optional  ",
+                "description": "From cross sit or side split - roll swd stretched, legs separated - end position optional",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -18023,7 +18023,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.108",
-                "description": " Walkover fwd, with/without alternate hand support (Tinsica) Walkover fwd, bwd (Tic-Toc)  ",
+                "description": "Walkover fwd, with/without alternate hand support (Tinsica) Walkover fwd, bwd (Tic-Toc)",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -18043,7 +18043,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.208",
-                "description": " Walkover fwd, with support of one arm  ",
+                "description": "Walkover fwd, with support of one arm",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -18060,7 +18060,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.308",
-                "description": " Kick to cross hdst with \u00bd turn (180\u00b0) to walkover fwd  Walkover fwd in side position to Side stand ",
+                "description": "Kick to cross hdst with \u00bd turn (180\u00b0) to walkover fwd Walkover fwd in side position to Side stand",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -18079,7 +18079,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.109",
-                "description": " Walkover bwd, with/without alternate hand support, also with swing down to cross sit ",
+                "description": "Walkover bwd, with/without alternate hand support, also with swing down to cross sit",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "A",
@@ -18100,7 +18100,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.209",
-                "description": " Walkover bwd, with support of one arm ",
+                "description": "Walkover bwd, with support of one arm",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -18117,7 +18117,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.309",
-                "description": " Walkover bwd with \u00bd turn (180\u00b0) to walkover fwd  Walkover bwd in side position to side stand  Walkover bwd with stoop through of one leg to cross split sit  ",
+                "description": "Walkover bwd with \u00bd turn (180\u00b0) to walkover fwd Walkover bwd in side position to side stand Walkover bwd with stoop through of one leg to cross split sit",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -18138,7 +18138,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.210",
-                "description": " From extended tuck sit \u2013 walkover bwd (Valdez)  ",
+                "description": "From extended tuck sit - walkover bwd (Valdez)",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "B",
@@ -18155,7 +18155,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.310",
-                "description": " Valdez with 1/1 turn (360\u00b0) lower to end position touching beam    Kick over bwd through horizontal plane with support on one arm (Garrison)  ",
+                "description": "Valdez with 1/1 turn (360\u00b0) lower to end position touching beam  Kick over bwd through horizontal plane with support on one arm (Garrison)",
                 "group_number": "4",
                 "group_name": "Holds and acrobatic non-flight",
                 "difficulty": "C",
@@ -18174,7 +18174,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.201",
-                "description": " Handspring fwd with flight to land on one or both legs (same element), also with support on one arm ",
+                "description": "Handspring fwd with flight to land on one or both legs (same element), also with support on one arm",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "B",
@@ -18193,7 +18193,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.301",
-                "description": " Handspring fwd with leg change in flight phase  ",
+                "description": "Handspring fwd with leg change in flight phase",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18210,7 +18210,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.401",
-                "description": " Jump bwd (flic-flac take-off) with \u00bd twist (180\u00b0) through hstd to walkover fwd  (Onodi) also with support on one arm, or to tic-toc  ",
+                "description": "Jump bwd (flic-flac take-off) with \u00bd twist (180\u00b0) through hstd to walkover fwd (Onodi) also with support on one arm, or to tic-toc",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18230,7 +18230,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.501",
-                "description": " Jump bwd (flic-flac take-off) with \u00bd twist (180\u00b0) to handspring fwd land on 2 feet (Worley) ",
+                "description": "Jump bwd (flic-flac take-off) with \u00bd twist (180\u00b0) to handspring fwd land on 2 feet (Worley)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "E",
@@ -18247,7 +18247,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.202",
-                "description": " Flic-flac to land on both feet ",
+                "description": "Flic-flac to land on both feet",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "B",
@@ -18264,7 +18264,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.302",
-                "description": " Flic-flac with \u00bd twist (180\u00b0) to hstd (2 sec.) - lower to optional end position ",
+                "description": "Flic-flac with \u00bd twist (180\u00b0) to hstd (2 sec.) - lower to optional end position",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18281,7 +18281,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.402",
-                "description": " Flic-flac from side position with \u00bd twist (180\u00b0) to side hstd lower to optional end position  (Kolesnikova) ",
+                "description": "Flic-flac from side position with \u00bd twist (180\u00b0) to side hstd lower to optional end position (Kolesnikova)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18298,7 +18298,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.303",
-                "description": " Flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position  ",
+                "description": "Flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18315,7 +18315,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.403",
-                "description": " Flic-flac with \u00be twist (270\u00b0) to side hstd (2 sec.) - lower to optional end position (Omelianchik)  ",
+                "description": "Flic-flac with \u00be twist (270\u00b0) to side hstd (2 sec.) - lower to optional end position (Omelianchik)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18332,7 +18332,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.204",
-                "description": " Flic-flac with step-out, also with support on one arm ",
+                "description": "Flic-flac with step-out, also with support on one arm",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "B",
@@ -18351,7 +18351,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.304",
-                "description": " Flic-flac with \u00bd twist (180\u00b0) after hand support  ",
+                "description": "Flic-flac with \u00bd twist (180\u00b0) after hand support",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18368,7 +18368,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.404",
-                "description": " Flic-flac with min. \u00be twist (270\u00b0) before hand support (Kochetkova) ",
+                "description": "Flic-flac with min. \u00be twist (270\u00b0) before hand support (Kochetkova)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18385,7 +18385,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.405",
-                "description": " Flic-flac with step-out from side position  (Tousek)  Flic-flac from side position to front support or with hip circle bwd  ",
+                "description": "Flic-flac with step-out from side position (Tousek) Flic-flac from side position to front support or with hip circle bwd",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18405,7 +18405,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.505",
-                "description": " Flic-flac from side position with 1/1 twist (360\u00b0) to hip circle bwd  (Teza)  ",
+                "description": "Flic-flac from side position with 1/1 twist (360\u00b0) to hip circle bwd (Teza)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "E",
@@ -18422,7 +18422,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.206",
-                "description": " Gainer flic-flac also with support on one arm  ",
+                "description": "Gainer flic-flac also with support on one arm",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "B",
@@ -18441,7 +18441,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.306",
-                "description": " Gainer flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position (Kitti) ",
+                "description": "Gainer flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position (Kitti)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18458,7 +18458,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.406",
-                "description": " Gainer flic-flac with min. \u00be twist (270\u00b0) before hand support  (Khorkina) ",
+                "description": "Gainer flic-flac with min. \u00be twist (270\u00b0) before hand support (Khorkina)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18475,7 +18475,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.207",
-                "description": " Flic-flac or Gainer flic-flac \u2013 with high flight phase, and swing down to cross straddle sit  ",
+                "description": "Flic-flac or Gainer flic-flac - with high flight phase, and swing down to cross straddle sit",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "B",
@@ -18494,7 +18494,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.307",
-                "description": " Flic-flac or Gainer flic-flac \u2013 with piking and stretching of hips in flight phase and swing down to cross straddle sit (Rueda) ",
+                "description": "Flic-flac or Gainer flic-flac - with piking and stretching of hips in flight phase and swing down to cross straddle sit (Rueda)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18513,7 +18513,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.407",
-                "description": " Flic-flac with 1/1 twist (360\u00b0) \u2013 swing down to cross straddle sit  (Rulfova)  ",
+                "description": "Flic-flac with 1/1 twist (360\u00b0) - swing down to cross straddle sit (Rulfova)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18530,7 +18530,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.208",
-                "description": " Round-off ",
+                "description": "Round-off",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "B",
@@ -18547,7 +18547,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.408",
-                "description": " Free (aerial) cartwheel \u2013 landing on one or both feet, in cross or side position, also with leg change  ",
+                "description": "Free (aerial) cartwheel - landing on one or both feet, in cross or side position, also with leg change",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18568,7 +18568,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.508",
-                "description": " Free (aerial) round-off tucked or piked \u2013 take off from 2 feet  Free (aerial) cartwheel in side position (Colussi) ",
+                "description": "Free (aerial) round-off tucked or piked - take off from 2 feet Free (aerial) cartwheel in side position (Colussi)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "E",
@@ -18589,7 +18589,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.409",
-                "description": " Free (aerial) walkover fwd, landing on one or both feet  ",
+                "description": "Free (aerial) walkover fwd, landing on one or both feet",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18607,7 +18607,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.310",
-                "description": " Salto fwd tucked, take-off from one leg to stand on one or two feet  (Liukin) ",
+                "description": "Salto fwd tucked, take-off from one leg to stand on one or two feet (Liukin)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18624,7 +18624,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.410",
-                "description": " Salto fwd tucked to cross stand ",
+                "description": "Salto fwd tucked to cross stand",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18641,7 +18641,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.510",
-                "description": " Salto fwd piked to cross stand ",
+                "description": "Salto fwd piked to cross stand",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "E",
@@ -18658,7 +18658,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.411",
-                "description": " Salto swd tucked take off from one leg to side stand ",
+                "description": "Salto swd tucked take off from one leg to side stand",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "D",
@@ -18675,7 +18675,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.511",
-                "description": " Salto swd tucked with \u00bd turn (180\u00b0) take off from one leg to side stand (Schaefer)  ",
+                "description": "Salto swd tucked with \u00bd turn (180\u00b0) take off from one leg to side stand (Schaefer)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "E",
@@ -18692,7 +18692,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.611",
-                "description": " Arabian salto tucked (take-off bwd with \u00bd twist [180\u00b0], salto fwd)  ",
+                "description": "Arabian salto tucked (take-off bwd with \u00bd twist [180\u00b0], salto fwd)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "F",
@@ -18709,7 +18709,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.312",
-                "description": " Salto bwd tucked, piked or stretched (step out)  ",
+                "description": "Salto bwd tucked, piked or stretched (step out)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18728,7 +18728,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.512",
-                "description": " Salto bwd stretched with legs together ",
+                "description": "Salto bwd stretched with legs together",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "E",
@@ -18745,7 +18745,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.612",
-                "description": " Salto bwd tucked with 1/1 twist (360\u00b0) (Shishova)  ",
+                "description": "Salto bwd tucked with 1/1 twist (360\u00b0) (Shishova)",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "F",
@@ -18762,7 +18762,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.313",
-                "description": " Gainer salto bwd tucked, piked or stretched-step out   ",
+                "description": "Gainer salto bwd tucked, piked or stretched-step out",
                 "group_number": "5",
                 "group_name": "Acrobatic flight",
                 "difficulty": "C",
@@ -18782,7 +18782,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.101",
-                "description": " Free (aerial) walkover fwd with \u00bd twist (180\u00b0) ",
+                "description": "Free (aerial) walkover fwd with \u00bd twist (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -18799,7 +18799,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.201",
-                "description": " Free (aerial) walkover fwd with 1/1 twist (360\u00b0)  Free (aerial) cartwheel with \u00bd twist (180\u00b0)  ",
+                "description": "Free (aerial) walkover fwd with 1/1 twist (360\u00b0) Free (aerial) cartwheel with \u00bd twist (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -18818,7 +18818,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.301",
-                "description": " Free (aerial) walkover fwd with 1\u00bd twist (540\u00b0) ",
+                "description": "Free (aerial) walkover fwd with 1\u00bd twist (540\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -18835,7 +18835,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.501",
-                "description": " Free (aerial) cartwheel into salto bwd tucked (Kim) ",
+                "description": "Free (aerial) cartwheel into salto bwd tucked (Kim)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -18852,7 +18852,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.102",
-                "description": " Salto fwd tucked or piked, also with \u00bd twist (180\u00b0)   ",
+                "description": "Salto fwd tucked or piked, also with \u00bd twist (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -18873,7 +18873,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.202",
-                "description": " Salto fwd stretched, also with \u00bd twist (180\u00b0)  Salto fwd tucked with 1/1 twist (360\u00b0)  ",
+                "description": "Salto fwd stretched, also with \u00bd twist (180\u00b0) Salto fwd tucked with 1/1 twist (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -18893,7 +18893,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.302",
-                "description": " Salto fwd stretched with 1/1 twist (360\u00b0) or 1\u00bd twist (540\u00b0) ",
+                "description": "Salto fwd stretched with 1/1 twist (360\u00b0) or 1\u00bd twist (540\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -18912,7 +18912,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.402",
-                "description": " Salto fwd stretched with 2/1 twist (720\u00b0) (Araujo) ",
+                "description": "Salto fwd stretched with 2/1 twist (720\u00b0) (Araujo)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -18929,7 +18929,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.203",
-                "description": " Jump bwd, with \u00bd twist (180\u00b0), salto fwd tucked or piked (Arabian salto) ",
+                "description": "Jump bwd, with \u00bd twist (180\u00b0), salto fwd tucked or piked (Arabian salto)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -18944,7 +18944,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.303",
-                "description": " Stretched jump fwd with 1/1 twist (360\u00b0) and salto fwd tucked or piked, ",
+                "description": "Stretched jump fwd with 1/1 twist (360\u00b0) and salto fwd tucked or piked,",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -18959,7 +18959,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.403",
-                "description": " Stretched jump fwd with 1/1 twist (360\u00b0) and salto fwd stretched  ",
+                "description": "Stretched jump fwd with 1/1 twist (360\u00b0) and salto fwd stretched",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -18974,7 +18974,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.703",
-                "description": " Arabian double salto fwd. tucked  (Patterson)  ",
+                "description": "Arabian double salto fwd. tucked (Patterson)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "G",
@@ -18996,7 +18996,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.104",
-                "description": " Salto bwd tucked, piked, or stretched, also with \u00bd twist (180\u00b0) ",
+                "description": "Salto bwd tucked, piked, or stretched, also with \u00bd twist (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -19015,7 +19015,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.204",
-                "description": " Salto bwd tucked or stretched with 1/1 twist (360\u00b0)  ",
+                "description": "Salto bwd tucked or stretched with 1/1 twist (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -19032,7 +19032,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.304",
-                "description": " Salto bwd tucked or stretched with 1\u00bd twist (540\u00b0)  (Domingues) Salto bwd stretched with 2/1 twist (720\u00b0) ",
+                "description": "Salto bwd tucked or stretched with 1\u00bd twist (540\u00b0) (Domingues) Salto bwd stretched with 2/1 twist (720\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -19051,7 +19051,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.404",
-                "description": " Salto bwd stretched with 2\u00bd twist (900\u00b0) ",
+                "description": "Salto bwd stretched with 2\u00bd twist (900\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -19068,7 +19068,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.405",
-                "description": " Double salto bwd tucked ",
+                "description": "Double salto bwd tucked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -19083,7 +19083,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.505",
-                "description": " Double salto bwd piked ",
+                "description": "Double salto bwd piked",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "E",
@@ -19098,7 +19098,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.705",
-                "description": "  Double salto bwd tucked or piked with 1/1 twist (360\u00b0) ",
+                "description": "Double salto bwd tucked or piked with 1/1 twist (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "G",
@@ -19118,7 +19118,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.106",
-                "description": "  Gainer salto tucked, piked, or stretched to side of beam, also with \u00bd twist (180\u00b0) (tucked, or stretched) ",
+                "description": "Gainer salto tucked, piked, or stretched to side of beam, also with \u00bd twist (180\u00b0) (tucked, or stretched)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "A",
@@ -19139,7 +19139,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.206",
-                "description": " Gainer salto tucked or stretched with 1/1 twist (360\u00b0) to side of beam ",
+                "description": "Gainer salto tucked or stretched with 1/1 twist (360\u00b0) to side of beam",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "B",
@@ -19157,7 +19157,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.306",
-                "description": "  Gainer salto bwd tucked or stretched with 1\u00f2 twist (540\u00db) (Bohmerova) or 2/1 twist (720\u00b0) to side of beam ",
+                "description": "Gainer salto bwd tucked or stretched with 1\u00f2 twist (540\u00db) (Bohmerova) or 2/1 twist (720\u00b0) to side of beam",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "C",
@@ -19178,7 +19178,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.406",
-                "description": "  Gainer salto bwd stretched with 2\u00bd twist (900\u00b0) to side of beam (Khorkina)  ",
+                "description": "Gainer salto bwd stretched with 2\u00bd twist (900\u00b0) to side of beam (Khorkina)",
                 "group_number": "6",
                 "group_name": "Dismounts",
                 "difficulty": "D",
@@ -19197,7 +19197,7 @@ export const allElements: LanguageType = {
         "f_w": [
             {
                 "id": "1.101",
-                "description": " Split leap fwd (leg separation 180\u00b0) ",
+                "description": "Split leap fwd (leg separation 180\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19215,7 +19215,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.201",
-                "description": " Split leap with \u00bd turn (180\u00b0)  ",
+                "description": "Split leap with \u00bd turn (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19232,7 +19232,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.301",
-                "description": " Split leap with 1/1 turn (360\u00b0)  ",
+                "description": "Split leap with 1/1 turn (360\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19249,7 +19249,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.202",
-                "description": " (*) Fouette Hop with leg change to cross split (leg separation 180\u00b0) also to ring position (tour jet\u00e9)  ",
+                "description": "(*) Fouette Hop with leg change to cross split (leg separation 180\u00b0) also to ring position (tour jet\u00e9)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19268,7 +19268,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.302",
-                "description": " (*) Tour jet\u00e9 with additional \u00bd turn (180\u00b0), landing on one or both feet, or in split sit position  (Produnova)  Leap fwd, through tour jet\u00e9 technique, with \u00be turn (270\u00b0) into straddle pike position with additional \u00bc turn (90\u00b0), landing on one or both feet  (Csillag)  \u0003 ",
+                "description": "(*) Tour jet\u00e9 with additional \u00bd turn (180\u00b0), landing on one or both feet, or in split sit position (Produnova) Leap fwd, through tour jet\u00e9 technique, with \u00be turn (270\u00b0) into straddle pike position with additional \u00bc turn (90\u00b0), landing on one or both feet (Csillag) \u0003",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19289,7 +19289,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.402",
-                "description": " Tour jet\u00e9 with additional 1/1 turn (360\u00b0), landing on one or both feet  (Gogean) ",
+                "description": "Tour jet\u00e9 with additional 1/1 turn (360\u00b0), landing on one or both feet (Gogean)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -19306,7 +19306,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.103",
-                "description": " Tuck jump with separation of legs to cross split (180\u00b0) during flight phase  ",
+                "description": "Tuck jump with separation of legs to cross split (180\u00b0) during flight phase",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19323,7 +19323,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.203",
-                "description": " (*) Butterfly fwd torso parallel to floor, slightly arched, legs straddled and feet above hip height during flight Butterfly bwd torso parallel to floor, slightly arched, legs straddled and feet at or slightly below hip height during flight.  ",
+                "description": "(*) Butterfly fwd torso parallel to floor, slightly arched, legs straddled and feet above hip height during flight Butterfly bwd torso parallel to floor, slightly arched, legs straddled and feet at or slightly below hip height during flight.",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19342,7 +19342,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.104",
-                "description": " (*) Leap fwd with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal) or side split to land on one or both feet ",
+                "description": "(*) Leap fwd with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal) or side split to land on one or both feet",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19361,7 +19361,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.204",
-                "description": " Switch leap with \u00bc turn (90\u00b0) to side split or to straddle pike position (both legs above horizontal) (Johnson) ",
+                "description": "Switch leap with \u00bc turn (90\u00b0) to side split or to straddle pike position (both legs above horizontal) (Johnson)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19378,7 +19378,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.304",
-                "description": " (*) Switch leap with \u00bd turn (180\u00b0) in flight phase (Frolova) Johnson with additional \u00bd turn (180\u00b0) ",
+                "description": "(*) Switch leap with \u00bd turn (180\u00b0) in flight phase (Frolova) Johnson with additional \u00bd turn (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19397,7 +19397,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.404",
-                "description": " (*) Switch leap with 1/1 turn (360\u00b0) in flight phase Johnson with additional 1/1 turn (360\u00b0)  (Bulimar) ",
+                "description": "(*) Switch leap with 1/1 turn (360\u00b0) in flight phase Johnson with additional 1/1 turn (360\u00b0) (Bulimar)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -19416,7 +19416,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.105",
-                "description": " Stride leap fwd with change of legs to wolf position ",
+                "description": "Stride leap fwd with change of legs to wolf position",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19433,7 +19433,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.205",
-                "description": " Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap) ",
+                "description": "Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19450,7 +19450,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.305",
-                "description": " Switch leap to ring position (180\u00b0 separation of legs)  ",
+                "description": "Switch leap to ring position (180\u00b0 separation of legs)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19467,7 +19467,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.405",
-                "description": " Switch leap to ring position with \u00bd turn (180\u00b0) (Sankova) ",
+                "description": "Switch leap to ring position with \u00bd turn (180\u00b0) (Sankova)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -19513,7 +19513,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.106",
-                "description": " Pike jump (hip < 90\u00b0)  ",
+                "description": "Pike jump (hip < 90\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19529,7 +19529,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.206",
-                "description": " Jump with upper back arch and head release with feet almost touching head (sheep jump)  ",
+                "description": "Jump with upper back arch and head release with feet almost touching head (sheep jump)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19545,7 +19545,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.306",
-                "description": " Pike jump (hip < 90\u00b0) with 1/1 turn (360\u00b0) ",
+                "description": "Pike jump (hip < 90\u00b0) with 1/1 turn (360\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19562,7 +19562,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.107",
-                "description": " (*) Straddle pike jump (both legs above horizontal), or side split jump (leg separation 180\u02da) ",
+                "description": "(*) Straddle pike jump (both legs above horizontal), or side split jump (leg separation 180\u02da)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19580,7 +19580,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.207",
-                "description": " (*) Straddle pike or side split jump with \u00bd turn (180\u00b0) Split Jump with \u00bd turn (180\u00b0) ",
+                "description": "(*) Straddle pike or side split jump with \u00bd turn (180\u00b0) Split Jump with \u00bd turn (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19600,7 +19600,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.307",
-                "description": " (*) Straddle pike or side split jump with 1/1 turn (360\u00b0) (Popa) Split Jump with 1/1 turn (360\u00b0) ",
+                "description": "(*) Straddle pike or side split jump with 1/1 turn (360\u00b0) (Popa) Split Jump with 1/1 turn (360\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19620,7 +19620,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.407",
-                "description": " (*) Straddle pike or side split jump with 1\u00bd turn (540\u00b0)  Split Jump with 1\u00bd turn (540\u00b0) ",
+                "description": "(*) Straddle pike or side split jump with 1\u00bd turn (540\u00b0) Split Jump with 1\u00bd turn (540\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -19640,7 +19640,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.108",
-                "description": " (*) Straddle pike (both legs above horizontal), or side split jump landing in front lying support (also with \u00bd turn (180\u00b0)  Hop with 1/1 turn (360\u00b0) to straddle and land in front lying support ",
+                "description": "(*) Straddle pike (both legs above horizontal), or side split jump landing in front lying support (also with \u00bd turn (180\u00b0) Hop with 1/1 turn (360\u00b0) to straddle and land in front lying support",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19661,7 +19661,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.208",
-                "description": " (*) Straddle pike (both legs above horizontal), or side split jump with 1/1 turn (360\u00b0) landing in front lying support Hop with 1\u00bd turn (540\u00b0) in horizontal plane to land in front lying support ",
+                "description": "(*) Straddle pike (both legs above horizontal), or side split jump with 1/1 turn (360\u00b0) landing in front lying support Hop with 1\u00bd turn (540\u00b0) in horizontal plane to land in front lying support",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19680,7 +19680,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.109",
-                "description": " (*) Split jump (leg separation 180\u00b0) Stag jump Stag jump with \u00bd turn (180\u00b0) Sissone (leg separation 180\u00b0on the diagonal/45\u00b0to the floor) take off two feet, land on one foot ",
+                "description": "(*) Split jump (leg separation 180\u00b0) Stag jump Stag jump with \u00bd turn (180\u00b0) Sissone (leg separation 180\u00b0on the diagonal/45\u00b0to the floor) take off two feet, land on one foot",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19703,7 +19703,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.209",
-                "description": " (*) Ring jump (rear foot at head height, body arched and head dropped bwd, 180\u00b0 separation of legs)  Stag ring jump (rear foot at head height, body arched and head dropped bwd)  Split jump to ring position (180\u00b0 separation of legs)  Split jump to ring position with \u00bd turn (180\u02da) ",
+                "description": "(*) Ring jump (rear foot at head height, body arched and head dropped bwd, 180\u00b0 separation of legs) Stag ring jump (rear foot at head height, body arched and head dropped bwd) Split jump to ring position (180\u00b0 separation of legs) Split jump to ring position with \u00bd turn (180\u02da)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19726,7 +19726,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.309",
-                "description": " Split ring leap (180\u00b0 separation of legs)  ",
+                "description": "Split ring leap (180\u00b0 separation of legs)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19743,7 +19743,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.409",
-                "description": " (*) Tour jet\u00e9, to ring position with additional \u00bd turn (180\u00b0)  (Ferrari)  Split jump to ring position with 1/1 turn (360\u00b0) (Jurkowska-Kowalska) Split leap to ring position with \u00bd turn (180\u00b0)  (Ting)  ",
+                "description": "(*) Tour jet\u00e9, to ring position with additional \u00bd turn (180\u00b0) (Ferrari) Split jump to ring position with 1/1 turn (360\u00b0) (Jurkowska-Kowalska) Split leap to ring position with \u00bd turn (180\u00b0) (Ting)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "D",
@@ -19765,7 +19765,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.110",
-                "description": " Stretched hop or jump with 1/1 turn (360\u00b0) ",
+                "description": "Stretched hop or jump with 1/1 turn (360\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19782,7 +19782,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.310",
-                "description": " Stretched hop or jump with 2/1 turn (720\u00b0) ",
+                "description": "Stretched hop or jump with 2/1 turn (720\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19798,7 +19798,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.111",
-                "description": " Leap with alternate leg change (knees above horizontal) (Cat leap) ",
+                "description": "Leap with alternate leg change (knees above horizontal) (Cat leap)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19815,7 +19815,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.211",
-                "description": " Cat leap with 1/1 turn (360\u00ba) ",
+                "description": "Cat leap with 1/1 turn (360\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19832,7 +19832,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.311",
-                "description": " Cat leap with 2/1 turn (720\u00b0) ",
+                "description": "Cat leap with 2/1 turn (720\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19849,7 +19849,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.112",
-                "description": " Hop with \u00bd (180\u02da) turn to land in arabesque with free leg above horizontal (Fouett\u00e8-hop) ",
+                "description": "Hop with \u00bd (180\u02da) turn to land in arabesque with free leg above horizontal (Fouett\u00e8-hop)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19866,7 +19866,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.212",
-                "description": " Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout ",
+                "description": "Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19883,7 +19883,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.312",
-                "description": " Hop with 1/1 turn (360\u00b0), free leg extended above horizontal throughout ",
+                "description": "Hop with 1/1 turn (360\u00b0), free leg extended above horizontal throughout",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19900,7 +19900,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.213",
-                "description": " Tuck hop or jump with 1/1 turn (360\u00ba)  ",
+                "description": "Tuck hop or jump with 1/1 turn (360\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19917,7 +19917,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.313",
-                "description": " (*) Tuck hop or jump with 2/1 turn (720\u00b0) also landing in front lying support  ",
+                "description": "(*) Tuck hop or jump with 2/1 turn (720\u00b0) also landing in front lying support",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "C",
@@ -19936,7 +19936,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.114",
-                "description": " Hop or Jump with one leg bent and the other \u2013 extended straight, fwd above horizontal with knees together (Wolf hop or jump)  ",
+                "description": "Hop or Jump with one leg bent and the other - extended straight, fwd above horizontal with knees together (Wolf hop or jump)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "A",
@@ -19953,7 +19953,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.214",
-                "description": " (*) Wolf hop or jump with 1/1 turn (360\u00b0) Wolf hop or jump with 1/1 turn (360\u00b0) landing in front lying support ",
+                "description": "(*) Wolf hop or jump with 1/1 turn (360\u00b0) Wolf hop or jump with 1/1 turn (360\u00b0) landing in front lying support",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "B",
@@ -19972,7 +19972,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.514",
-                "description": " Wolf hop or jump with 2/1 turn (720\u00b0)  ",
+                "description": "Wolf hop or jump with 2/1 turn (720\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastic leaps, jumps and hops",
                 "difficulty": "E",
@@ -19989,7 +19989,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.101",
-                "description": " 1/1 turn (360\u00b0) on one leg \u2013 free leg optional below horizontal ",
+                "description": "1/1 turn (360\u00b0) on one leg - free leg optional below horizontal",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "A",
@@ -20006,7 +20006,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.201",
-                "description": " 2/1 turn (720\u00b0) on one leg \u2013 free leg optional below horizontal ",
+                "description": "2/1 turn (720\u00b0) on one leg - free leg optional below horizontal",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20024,7 +20024,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.301",
-                "description": " 3/1 turn (1080\u00b0) on one leg \u2013 free leg optional below horizontal ",
+                "description": "3/1 turn (1080\u00b0) on one leg - free leg optional below horizontal",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "C",
@@ -20041,7 +20041,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.501",
-                "description": " 4/1 turn (1440\u00b0) on one leg \u2013 free leg optional below horizontal  (Gomez)  ",
+                "description": "4/1 turn (1440\u00b0) on one leg - free leg optional below horizontal (Gomez)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -20057,7 +20057,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.202",
-                "description": " 1/1 turn (360\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent) ",
+                "description": "1/1 turn (360\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20074,7 +20074,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.402",
-                "description": " 2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent) ",
+                "description": "2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -20091,7 +20091,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.203",
-                "description": " 1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn ",
+                "description": "1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20108,7 +20108,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.403",
-                "description": " 2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Memmel)  ",
+                "description": "2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn (Memmel)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -20125,7 +20125,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.503",
-                "description": " 3/1 turn (1080) with free leg held upward in 180\u00b0 split position throughout turn  (Mustafina)  ",
+                "description": "3/1 turn (1080) with free leg held upward in 180\u00b0 split position throughout turn (Mustafina)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -20142,7 +20142,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.204",
-                "description": " 1/1 turn (360\u00b0) in back attitude (knee of free leg at horizontal throughout turn) ",
+                "description": "1/1 turn (360\u00b0) in back attitude (knee of free leg at horizontal throughout turn)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20159,7 +20159,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.404",
-                "description": " (*) 2/1 turn (720\u00b0) in back attitude (knee of free leg at horizontal throughout turn)  (Semenova) 2/1 turn (720\u00b0) with free leg held with both hands bwd/upward throughout turn (Berar)  ",
+                "description": "(*) 2/1 turn (720\u00b0) in back attitude (knee of free leg at horizontal throughout turn) (Semenova) 2/1 turn (720\u00b0) with free leg held with both hands bwd/upward throughout turn (Berar)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -20178,7 +20178,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.205",
-                "description": " 1/1 turn (360\u00b0) in scale fwd with free leg above horizontal throughout turn ",
+                "description": "1/1 turn (360\u00b0) in scale fwd with free leg above horizontal throughout turn",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20195,7 +20195,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.206",
-                "description": " 1/1 illusion turn (360\u00b0) through standing split without touching floor with hand ",
+                "description": "1/1 illusion turn (360\u00b0) through standing split without touching floor with hand",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20212,7 +20212,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.207",
-                "description": " 1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn  ",
+                "description": "1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20229,7 +20229,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.307",
-                "description": " 2/1 (720\u00b0) pirouette starting with free leg at horizontal, lowering to complete the turn in wolf position  (Nguyen) ",
+                "description": "2/1 (720\u00b0) pirouette starting with free leg at horizontal, lowering to complete the turn in wolf position (Nguyen)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "C",
@@ -20246,7 +20246,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.407",
-                "description": " 2/1 turn (720\u00b0) in tuck stand on one leg - free leg straight throughout turn (no turn initiation with a push from hands on floor) ",
+                "description": "2/1 turn (720\u00b0) in tuck stand on one leg - free leg straight throughout turn (no turn initiation with a push from hands on floor)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "D",
@@ -20263,7 +20263,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.507",
-                "description": " 3/1 turn (1080\u00b0) in tuck stand on one leg - free leg straight throughout turn (no turn initiation with a push from hands on floor)  (Mitchell)  ",
+                "description": "3/1 turn (1080\u00b0) in tuck stand on one leg - free leg straight throughout turn (no turn initiation with a push from hands on floor) (Mitchell)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "E",
@@ -20280,7 +20280,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.208",
-                "description": " 2/1 spin (720\u00b0) or more on back in kip position (hip-leg < closed) ",
+                "description": "2/1 spin (720\u00b0) or more on back in kip position (hip-leg < closed)",
                 "group_number": "2",
                 "group_name": "Gymnastic turns",
                 "difficulty": "B",
@@ -20297,7 +20297,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.101",
-                "description": " Jump kick or press to hstd \u2013 return movement optional, also with \u00bd and 1/1 turn (180\u00b0- 360\u00b0) in hstd  ",
+                "description": "Jump kick or press to hstd - return movement optional, also with \u00bd and 1/1 turn (180\u00b0- 360\u00b0) in hstd",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20317,7 +20317,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.201",
-                "description": " Jump kick or press to hstd with 1\u00bd - 2/1 turn (540\u00b0- 720\u00b0) in hstd \u2013 return movement optional  ",
+                "description": "Jump kick or press to hstd with 1\u00bd - 2/1 turn (540\u00b0- 720\u00b0) in hstd - return movement optional",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "B",
@@ -20337,7 +20337,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.102",
-                "description": " Hecht roll ",
+                "description": "Hecht roll",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20354,7 +20354,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.103",
-                "description": " Roll bwd to hstd with \u00bd or 1/1 turn (180\u00b0 - 360\u00b0) in hstd ",
+                "description": "Roll bwd to hstd with \u00bd or 1/1 turn (180\u00b0 - 360\u00b0) in hstd",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20371,7 +20371,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.203",
-                "description": " Roll bwd to hstd with 1\u00bd - 2/1 (540\u00b0 - 720\u00b0) turn in hstd  ",
+                "description": "Roll bwd to hstd with 1\u00bd - 2/1 (540\u00b0 - 720\u00b0) turn in hstd",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "B",
@@ -20389,7 +20389,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.104",
-                "description": " Walkover bwd from stand or extended tuck-sit to hstd with 1/1 turn (360\u00b0) in hstd \u2013 return movement optional  ",
+                "description": "Walkover bwd from stand or extended tuck-sit to hstd with 1/1 turn (360\u00b0) in hstd - return movement optional",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20407,7 +20407,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.105",
-                "description": " Handspring fwd, take-off from one leg or Flyspring fwd, take-off from both legs \u2013 with or without hecht phase before hand support \u2013 landing optional  Jump bwd with \u00bd twist (180\u00b0) to handspring fwd \u2013 landing optional  ",
+                "description": "Handspring fwd, take-off from one leg or Flyspring fwd, take-off from both legs - with or without hecht phase before hand support - landing optional Jump bwd with \u00bd twist (180\u00b0) to handspring fwd - landing optional",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20428,7 +20428,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.305",
-                "description": " Handspring fwd with 1/1 twist (360\u00b0) after hand support or before (Mostepanova) ",
+                "description": "Handspring fwd with 1/1 twist (360\u00b0) after hand support or before (Mostepanova)",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "C",
@@ -20447,7 +20447,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.106",
-                "description": " Round-off ",
+                "description": "Round-off",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20464,7 +20464,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.107",
-                "description": " All flic-flac and gainer flic-flac variations, also with support of one arm Arabian (bwd take-off) with \u00bc twist (90\u00b0) \u2013 free (aerial) cartwheel \u2013 continuing with \u00bc twist (90\u00b0) to front lying support (Tsavdaridou) ",
+                "description": "All flic-flac and gainer flic-flac variations, also with support of one arm Arabian (bwd take-off) with \u00bc twist (90\u00b0) - free (aerial) cartwheel - continuing with \u00bc twist (90\u00b0) to front lying support (Tsavdaridou)",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "A",
@@ -20487,7 +20487,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.207",
-                "description": " Flic-flac with 1/1 twist (360\u00b0) before hand support  ",
+                "description": "Flic-flac with 1/1 twist (360\u00b0) before hand support",
                 "group_number": "3",
                 "group_name": "Hand support elements",
                 "difficulty": "B",
@@ -20504,7 +20504,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.101",
-                "description": " Salto fwd tucked or piked ",
+                "description": "Salto fwd tucked or piked",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "A",
@@ -20523,7 +20523,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.201",
-                "description": " Salto fwd tucked with \u00bd or 1/1 twist (180\u00b0 or 360\u00b0), also Salto fwd piked with \u00bd twist (180\u00b0) ",
+                "description": "Salto fwd tucked with \u00bd or 1/1 twist (180\u00b0 or 360\u00b0), also Salto fwd piked with \u00bd twist (180\u00b0)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "B",
@@ -20543,7 +20543,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.501",
-                "description": " Double salto fwd tucked  (Podkopayeva)  ",
+                "description": "Double salto fwd tucked (Podkopayeva)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "E",
@@ -20560,7 +20560,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.601",
-                "description": " Double salto fwd tucked with \u00bd twist (180\u00b0) (Podkopayeva) Double salto fwd piked (Dowell)  ",
+                "description": "Double salto fwd tucked with \u00bd twist (180\u00b0) (Podkopayeva) Double salto fwd piked (Dowell)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "F",
@@ -20578,7 +20578,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.202",
-                "description": " Salto fwd stretched, also with \u00bd twist (180\u00b0)  ",
+                "description": "Salto fwd stretched, also with \u00bd twist (180\u00b0)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "B",
@@ -20599,7 +20599,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.302",
-                "description": " Salto fwd stretched with 1/1 or 1\u00bd twist (360\u00b0 or 540\u00b0) ",
+                "description": "Salto fwd stretched with 1/1 or 1\u00bd twist (360\u00b0 or 540\u00b0)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "C",
@@ -20618,7 +20618,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.402",
-                "description": " Salto fwd stretched with 2/1 twist (720\u00b0) (Tarasevich) ",
+                "description": "Salto fwd stretched with 2/1 twist (720\u00b0) (Tarasevich)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "D",
@@ -20635,7 +20635,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.502",
-                "description": " Salto fwd stretched with 2\u00bd twist (900\u00b0) (Cojocar) ",
+                "description": "Salto fwd stretched with 2\u00bd twist (900\u00b0) (Cojocar)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "E",
@@ -20652,7 +20652,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.103",
-                "description": " Free (aerial) walkover fwd  ",
+                "description": "Free (aerial) walkover fwd",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "A",
@@ -20669,7 +20669,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.104",
-                "description": " Free (aerial) cartwheel or free (aerial) round-off ",
+                "description": "Free (aerial) cartwheel or free (aerial) round-off",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "A",
@@ -20688,7 +20688,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.105",
-                "description": " From take-off fwd from one or both legs \u2013 salto swd tucked or piked  ",
+                "description": "From take-off fwd from one or both legs - salto swd tucked or piked",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "A",
@@ -20706,7 +20706,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.205",
-                "description": " Arabian salto tucked or piked, (take-off bwd with \u00bd twist [180\u00b0], salto fwd) \u2013 landing optional  ",
+                "description": "Arabian salto tucked or piked, (take-off bwd with \u00bd twist [180\u00b0], salto fwd) - landing optional",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "B",
@@ -20724,7 +20724,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.505",
-                "description": " Arabian double salto tucked  (Andreasen) / (Jentsch) Arabian double salto tucked with \u00bd twist (180\u00b0)  ",
+                "description": "Arabian double salto tucked (Andreasen) / (Jentsch) Arabian double salto tucked with \u00bd twist (180\u00b0)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "E",
@@ -20742,7 +20742,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.605",
-                "description": "  Arabian double salto piked Also with \u00bd twist  (Dos Santos)  (Oliveira)    ",
+                "description": "Arabian double salto piked Also with \u00bd twist (Dos Santos) (Oliveira)",
                 "group_number": "4",
                 "group_name": "Saltos forward & sideward",
                 "difficulty": "F",
@@ -20761,7 +20761,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.101",
-                "description": " Salto bwd tucked, piked, or stretched  ",
+                "description": "Salto bwd tucked, piked, or stretched",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "A",
@@ -20777,7 +20777,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.201",
-                "description": " Salto bwd stretched with \u00bd, or salto bwd tucked or stretched with 1/1 twist (180\u00b0 or 360\u00b0) ",
+                "description": "Salto bwd stretched with \u00bd, or salto bwd tucked or stretched with 1/1 twist (180\u00b0 or 360\u00b0)",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "B",
@@ -20796,7 +20796,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.301",
-                "description": " Salto bwd stretched with 1\u00bd or 2/1 twist (540\u00b0 or 720\u00b0) ",
+                "description": "Salto bwd stretched with 1\u00bd or 2/1 twist (540\u00b0 or 720\u00b0)",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "C",
@@ -20815,7 +20815,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.401",
-                "description": " Salto bwd stretched with 2\u00bd twist (900\u00b0 ",
+                "description": "Salto bwd stretched with 2\u00bd twist (900\u00b0",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "D",
@@ -20832,7 +20832,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.501",
-                "description": " Salto bwd stretched with 3/1 twist (1080\u00b0)  ",
+                "description": "Salto bwd stretched with 3/1 twist (1080\u00b0)",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "E",
@@ -20849,7 +20849,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.601",
-                "description": "  Salto bwd stretched with 3\u00bd twist (1260\u00b0) ",
+                "description": "Salto bwd stretched with 3\u00bd twist (1260\u00b0)",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "F",
@@ -20866,7 +20866,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.402",
-                "description": " Double salto bwd tucked  (Kim)  Double salto bwd pike ",
+                "description": "Double salto bwd tucked (Kim) Double salto bwd pike",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "D",
@@ -20881,7 +20881,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.502",
-                "description": " Double salto bwd tucked or piked with 1/1 twist (360\u00b0) (Mukhina)  ",
+                "description": "Double salto bwd tucked or piked with 1/1 twist (360\u00b0) (Mukhina)",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "E",
@@ -20894,7 +20894,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.602",
-                "description": " / ",
+                "description": "/",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "F",
@@ -20907,7 +20907,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.802",
-                "description": " Double salto bwd tucked with 2/1 twist (720\u00b0)  (Silivas)  ",
+                "description": "Double salto bwd tucked with 2/1 twist (720\u00b0) (Silivas)",
                 "group_number": "5",
                 "group_name": "Saltos backward",
                 "difficulty": "H",
@@ -21625,7 +21625,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.110",
-                "description": "_ Flair with > 270\u00ba spindle (in 2 circles) directly to handstand and continue to circle or flair.  Molinos p. ab. con giro > 270\u00ba (en 2 molinos) direc. al ap. inv. y bajar a molino o molino p. ab.",
+                "description": "_ Flair with > 270\u00ba spindle (in 2 circles) directly to handstand and continue to circle or flair. Molinos p. ab. con giro > 270\u00ba (en 2 molinos) direc. al ap. inv. y bajar a molino o molino p. ab.",
                 "group_number": "1",
                 "group_name": "Elementos no acrob\u00e1ticos",
                 "difficulty": "B",
@@ -21680,7 +21680,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.15",
-                "description": "Forward handspring or fl yspring.  Paloma adelante o fl ic fl ac adelante.",
+                "description": "Forward handspring or fl yspring. Paloma adelante o fl ic fl ac adelante.",
                 "group_number": "2",
                 "group_name": "Elementos acrob\u00e1ticos adelante",
                 "difficulty": "C",
@@ -21869,7 +21869,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.33",
-                "description": "Salto fwd. str. with 3/1 t.  Mortal ad. ext. con 3/1 g.",
+                "description": "Salto fwd. str. with 3/1 t. Mortal ad. ext. con 3/1 g.",
                 "group_number": "2",
                 "group_name": "Elementos acrob\u00e1ticos adelante",
                 "difficulty": "C",
@@ -22009,7 +22009,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.5",
-                "description": "12. Double salto arri\u00e8re group\u00e9 avec 5/2 t. _ Double salto bwd. tucked with 5/2 t.  Doble mortal atr\u00e1s agrupado con 5/2 g.",
+                "description": "12. Double salto arri\u00e8re group\u00e9 avec 5/2 t. _ Double salto bwd. tucked with 5/2 t. Doble mortal atr\u00e1s agrupado con 5/2 g.",
                 "group_number": "3",
                 "group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
                 "difficulty": "E",
@@ -22083,7 +22083,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.11",
-                "description": "_ Triple salto bwd. piked.  Triple mortal en carpa.",
+                "description": "_ Triple salto bwd. piked. Triple mortal en carpa.",
                 "group_number": "3",
                 "group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
                 "difficulty": "E",
@@ -22333,7 +22333,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.30",
-                "description": "_ Salto bwd. str. with 3/1 t.  Mortal atr\u00e1s ext. con 3/1 g.",
+                "description": "_ Salto bwd. str. with 3/1 t. Mortal atr\u00e1s ext. con 3/1 g.",
                 "group_number": "3",
                 "group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
                 "difficulty": "F",
@@ -22363,7 +22363,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.48",
-                "description": "_ Double salto bwd. str. with 3/2 t. or arabian Jump bwd. to dbl. salto fwd. str. with 1/1 t.  Doble mortal atr\u00e1s extendido con 3/2 g. o salto \u00bd g. doble mortal ad. con 1/1 g. Tamayo Aussi/Also/Tambi\u00e9n Hypolito (Gonz\u00e1lez)",
+                "description": "_ Double salto bwd. str. with 3/2 t. or arabian Jump bwd. to dbl. salto fwd. str. with 1/1 t. Doble mortal atr\u00e1s extendido con 3/2 g. o salto \u00bd g. doble mortal ad. con 1/1 g. Tamayo Aussi/Also/Tambi\u00e9n Hypolito (Gonz\u00e1lez)",
                 "group_number": "3",
                 "group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
                 "difficulty": "F",
@@ -22397,7 +22397,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.60",
-                "description": "66. Double salto arri\u00e8re t. avec 3/1 t. _ Double salto bwd. str. with 3/1 t.  Doble mortal atr\u00e1s ext. con 3/1 g. G",
+                "description": "66. Double salto arri\u00e8re t. avec 3/1 t. _ Double salto bwd. str. with 3/1 t. Doble mortal atr\u00e1s ext. con 3/1 g. G",
                 "group_number": "3",
                 "group_name": "Elementos acrob\u00e1ticos atr\u00e1s",
                 "difficulty": "F",
@@ -22470,7 +22470,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.21",
-                "description": "22. Double tour d\u2019appui arri\u00e8re carp\u00e9 \u00e0 la susp. _ Piked double felge bwd. to hang.  Doble giro de apoyo atr\u00e1s en carpa a la susp.",
+                "description": "22. Double tour d\u2019appui arri\u00e8re carp\u00e9 \u00e0 la susp. _ Piked double felge bwd. to hang. Doble giro de apoyo atr\u00e1s en carpa a la susp.",
                 "group_number": "1",
                 "group_name": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
                 "difficulty": "C",
@@ -22483,7 +22483,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.23",
-                "description": "_ From hang, felge upward to support.  Dominaci\u00f3n adelante volteando atr\u00e1s al apoyo.",
+                "description": "_ From hang, felge upward to support. Dominaci\u00f3n adelante volteando atr\u00e1s al apoyo.",
                 "group_number": "1",
                 "group_name": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
                 "difficulty": "E",
@@ -22667,7 +22667,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.49",
-                "description": "_ Back kip with bent arms to support.  B\u00e1scula con brazos doblados dorsal al apoyo.",
+                "description": "_ Back kip with bent arms to support. B\u00e1scula con brazos doblados dorsal al apoyo.",
                 "group_number": "1",
                 "group_name": "B\u00e1sculas y elementos de impulso e impulsos al o por el apoyo invertido.",
                 "difficulty": "A",
@@ -23131,7 +23131,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.28",
-                "description": "_ Press to hdst. with str. body and str. arms from swallow (2 s.)..  Elevarse cuerpo ext. y brazos ext. desde hirondelle al ap. invertido (2 s.)..",
+                "description": "_ Press to hdst. with str. body and str. arms from swallow (2 s.).. Elevarse cuerpo ext. y brazos ext. desde hirondelle al ap. invertido (2 s.)..",
                 "group_number": "2",
                 "group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
                 "difficulty": "D",
@@ -23318,7 +23318,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.51",
-                "description": "Vertical pull up with straight arms to hanging scale rearways (2 s.)..  Dominaci\u00f3n a fuerza, brazos extendidos a la suspensi\u00f3n dorsal horizontal (2 s.)..",
+                "description": "Vertical pull up with straight arms to hanging scale rearways (2 s.).. Dominaci\u00f3n a fuerza, brazos extendidos a la suspensi\u00f3n dorsal horizontal (2 s.)..",
                 "group_number": "2",
                 "group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
                 "difficulty": "C",
@@ -23472,7 +23472,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.65",
-                "description": "From planche, lower horiz. and slowly to hang- ing scale rw. and press to swallow (2 s.). or from swallow same to planche or planche to planche.  De plancha, bajar horizont. lent. a la susp. dors. horiz. y subir a hirondelle (2 s.). o hirondelle a plancha o de plancha a plancha.",
+                "description": "From planche, lower horiz. and slowly to hang- ing scale rw. and press to swallow (2 s.). or from swallow same to planche or planche to planche. De plancha, bajar horizont. lent. a la susp. dors. horiz. y subir a hirondelle (2 s.). o hirondelle a plancha o de plancha a plancha.",
                 "group_number": "2",
                 "group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
                 "difficulty": "E",
@@ -23490,7 +23490,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.71",
-                "description": "From swallow, lower slowly to hanging scale, press to swallow (2 s.)..  Desde Hirondelle, bajar horiz. lentamente a plancha dorsal para subir a Hirondelle (2 s.)..",
+                "description": "From swallow, lower slowly to hanging scale, press to swallow (2 s.).. Desde Hirondelle, bajar horiz. lentamente a plancha dorsal para subir a Hirondelle (2 s.)..",
                 "group_number": "2",
                 "group_name": "Elementos de fuerza y mantenimiento (2 seg.)",
                 "difficulty": "E",
@@ -24370,7 +24370,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.1",
-                "description": "2. Salto avant carp\u00e9 ou tendu avec 1/1 t. _ Salto fwd. piked or straight with 1/1 t.  Mortal ad. en carpa o extendido con 1/1 g.",
+                "description": "2. Salto avant carp\u00e9 ou tendu avec 1/1 t. _ Salto fwd. piked or straight with 1/1 t. Mortal ad. en carpa o extendido con 1/1 g.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "A",
@@ -24881,7 +24881,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.4",
-                "description": "_ Scissor fwd. w. \u00bc t. thr. hstd. on 1 p. (also with \u00bc t. after), lower to sup. w. strad. legs.  Tijera ad. con \u00bc g. por el ap. inv. sobre 1 arco,  (tambi\u00e9n con \u00bc g. despu\u00e9s) bajar al ap. p. ab.",
+                "description": "_ Scissor fwd. w. \u00bc t. thr. hstd. on 1 p. (also with \u00bc t. after), lower to sup. w. strad. legs. Tijera ad. con \u00bc g. por el ap. inv. sobre 1 arco, (tambi\u00e9n con \u00bc g. despu\u00e9s) bajar al ap. p. ab.",
                 "group_number": "1",
                 "group_name": "Impulsos de una pierna y tijeras",
                 "difficulty": "D",
@@ -24900,7 +24900,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.21",
-                "description": "_ Swing bwd. w. \u00bc t. thr. hstd. on 1 p. (also with \u00bc t. after), lower to sup. w. strad. legs.  Impulso at. con \u00bc g. por el ap. inv. sobre 1 arco, (tambi\u00e9n con \u00bc g. desp.) volver al ap.p. ab.",
+                "description": "_ Swing bwd. w. \u00bc t. thr. hstd. on 1 p. (also with \u00bc t. after), lower to sup. w. strad. legs. Impulso at. con \u00bc g. por el ap. inv. sobre 1 arco, (tambi\u00e9n con \u00bc g. desp.) volver al ap.p. ab.",
                 "group_number": "1",
                 "group_name": "Impulsos de una pierna y tijeras",
                 "difficulty": "C",
@@ -24930,7 +24930,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.16",
-                "description": "_ Double scissor forward with hop sideways from one end to the other (3/3).  Tijera doble con salto lat. desde un extremo al otro (3/3).",
+                "description": "_ Double scissor forward with hop sideways from one end to the other (3/3). Tijera doble con salto lat. desde un extremo al otro (3/3).",
                 "group_number": "1",
                 "group_name": "Impulsos de una pierna y tijeras",
                 "difficulty": "D",
@@ -24943,7 +24943,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.45",
-                "description": "_ Scissor bwd.with hop swd.(also with \u00bd t.).  Tijera atr\u00e1s con salto (tambi\u00e9n con \u00bd g.).",
+                "description": "_ Scissor bwd.with hop swd.(also with \u00bd t.). Tijera atr\u00e1s con salto (tambi\u00e9n con \u00bd g.).",
                 "group_number": "1",
                 "group_name": "Impulsos de una pierna y tijeras",
                 "difficulty": "C",
@@ -24973,7 +24973,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.38",
-                "description": "_ Leg cut or undercut bwd. through hdst. and lower to support w. strad. legs.  Movimiento p. abiertas atr\u00e1s por el apoyo inver- tido y volver al ap. p. abiertas transversalmente.",
+                "description": "_ Leg cut or undercut bwd. through hdst. and lower to support w. strad. legs. Movimiento p. abiertas atr\u00e1s por el apoyo inver- tido y volver al ap. p. abiertas transversalmente.",
                 "group_number": "1",
                 "group_name": "Impulsos de una pierna y tijeras",
                 "difficulty": "B",
@@ -25126,7 +25126,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.46",
-                "description": "Flair with hop travel bwd. through hdst. and lower to circles or fl airs.  Flair con desplaz. de salto atr\u00e1s al ap. inv. y volver a molino o fl air.",
+                "description": "Flair with hop travel bwd. through hdst. and lower to circles or fl airs. Flair con desplaz. de salto atr\u00e1s al ap. inv. y volver a molino o fl air.",
                 "group_number": "2",
                 "group_name": "Swings, russian w., flops and combined elements ",
                 "difficulty": "D",
@@ -25156,7 +25156,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.25",
-                "description": "26. Tout 1\u20442 pivot sur l\u2019extr\u00e9mit\u00e9. Any \u00bd spindle on the end.  Cualquier \u00bd p\u00edvot al fi nal.",
+                "description": "26. Tout 1\u20442 pivot sur l\u2019extr\u00e9mit\u00e9. Any \u00bd spindle on the end. Cualquier \u00bd p\u00edvot al fi nal.",
                 "group_number": "2",
                 "group_name": "Swings, russian w., flops and combined elements ",
                 "difficulty": "A",
@@ -25174,7 +25174,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.27",
-                "description": "28. Tout 1/1 pivot en appui lat\u00e9ral dans max. 2 c. des jambes ec., 1 ar\u00e7on entre les mains.  Any side support pommel between hands 1/1 spindle w. legs straddle inside max. 2 circles.  Cualquier ap. lat. arcos entre las manos 1/1 pivot m\u00e1x. en 2 fl air.",
+                "description": "28. Tout 1/1 pivot en appui lat\u00e9ral dans max. 2 c. des jambes ec., 1 ar\u00e7on entre les mains. Any side support pommel between hands 1/1 spindle w. legs straddle inside max. 2 circles. Cualquier ap. lat. arcos entre las manos 1/1 pivot m\u00e1x. en 2 fl air.",
                 "group_number": "2",
                 "group_name": "Swings, russian w., flops and combined elements ",
                 "difficulty": "C",
@@ -25187,7 +25187,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.30",
-                "description": "39. Cercle \u00e9c. ou cercles \u00e0 l\u2019app. renvs. (avec ou sans \u00bd t.) et retour au cercle \u00e9c. ou cercle. Flair or circle through hdst. (with or without \u00bd t.) and lower to fl air or circle.  Molino o fl air al apoyo inv. (con o sin \u00bd g.) y volver a molino o fl air.",
+                "description": "39. Cercle \u00e9c. ou cercles \u00e0 l\u2019app. renvs. (avec ou sans \u00bd t.) et retour au cercle \u00e9c. ou cercle. Flair or circle through hdst. (with or without \u00bd t.) and lower to fl air or circle. Molino o fl air al apoyo inv. (con o sin \u00bd g.) y volver a molino o fl air.",
                 "group_number": "2",
                 "group_name": "Swings, russian w., flops and combined elements ",
                 "difficulty": "F",
@@ -25278,7 +25278,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.50",
-                "description": "61. Pass\u00e9 dorsal avant avec \u00bd t. (double dorsal). Double rear (kehr).  Pase dorsal adelante con \u00bd g. (doble dorsal).",
+                "description": "61. Pass\u00e9 dorsal avant avec \u00bd t. (double dorsal). Double rear (kehr). Pase dorsal adelante con \u00bd g. (doble dorsal).",
                 "group_number": "2",
                 "group_name": "Swings, russian w., flops and combined elements ",
                 "difficulty": "B",
@@ -25529,7 +25529,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.104",
-                "description": "105. Sur le cheval, facial russe avec 720\u00b0 ou 900\u00b0. _ On the leather, Russian wendeswing with 720\u00b0 or 900\u00b0.  Sobre el caballo, rusa facial con 720\u00b0 o 900\u00b0.",
+                "description": "105. Sur le cheval, facial russe avec 720\u00b0 ou 900\u00b0. _ On the leather, Russian wendeswing with 720\u00b0 or 900\u00b0. Sobre el caballo, rusa facial con 720\u00b0 o 900\u00b0.",
                 "group_number": "2",
                 "group_name": "Swings, russian w., flops and combined elements ",
                 "difficulty": "B",
@@ -25631,7 +25631,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.3",
-                "description": "_ Cualquier desplazamiento en apoyo lateral  (3/3), manos entre los arcos.",
+                "description": "_ Cualquier desplazamiento en apoyo lateral (3/3), manos entre los arcos.",
                 "group_number": "3",
                 "group_name": "Desplazamientos, incluyen",
                 "difficulty": "C",
@@ -25758,7 +25758,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.14",
-                "description": "_ From side sup. beside the p., travel hop o. 2 p. to sup. fwd on other end (1-1 to 5-5).  De ap. lat. al lado del arco, desplaz. lat saltado por encima de los 2 arcos al ap. facial lat al lado del arco sobre el otro extremo (1-1 a 5-5).",
+                "description": "_ From side sup. beside the p., travel hop o. 2 p. to sup. fwd on other end (1-1 to 5-5). De ap. lat. al lado del arco, desplaz. lat saltado por encima de los 2 arcos al ap. facial lat al lado del arco sobre el otro extremo (1-1 a 5-5).",
                 "group_number": "3",
                 "group_name": "Desplazamientos, incluyen",
                 "difficulty": "B",
@@ -25900,7 +25900,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.42",
-                "description": "28. Tout transport avant 3/3 avec \u00bd pivot sur un ar\u00e7on par-dessus l\u2019autre ar\u00e7on. Any travel fwd. 3/3 with \u00bd Spindle from one pommel over the other pommel.  Cualquier desplaz. 3/3 con \u00bd pivot desde un arco sobre el otro arco.",
+                "description": "28. Tout transport avant 3/3 avec \u00bd pivot sur un ar\u00e7on par-dessus l\u2019autre ar\u00e7on. Any travel fwd. 3/3 with \u00bd Spindle from one pommel over the other pommel. Cualquier desplaz. 3/3 con \u00bd pivot desde un arco sobre el otro arco.",
                 "group_number": "3",
                 "group_name": "Desplazamientos, incluyen",
                 "difficulty": "F",
@@ -25998,7 +25998,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.53",
-                "description": "50. Transport arri\u00e9r\u00e9 en appui transversal (\u00bd ou 2/3). Travel bwd. in cross support (\u00bd or 2/3).  Desplazamiento atr\u00e1s en apoyo transversal (\u00bd o 2/3).",
+                "description": "50. Transport arri\u00e9r\u00e9 en appui transversal (\u00bd ou 2/3). Travel bwd. in cross support (\u00bd or 2/3). Desplazamiento atr\u00e1s en apoyo transversal (\u00bd o 2/3).",
                 "group_number": "3",
                 "group_name": "Desplazamientos, incluyen",
                 "difficulty": "E",
@@ -26307,7 +26307,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.20",
-                "description": "Circle or fl air through hdst. (also with \u00be t. with or without travel).  Molino o molino p. abierto por el apoyo invertido (tambi\u00e9n con \u00be g. con o sin desplazamiento).",
+                "description": "Circle or fl air through hdst. (also with \u00be t. with or without travel). Molino o molino p. abierto por el apoyo invertido (tambi\u00e9n con \u00be g. con o sin desplazamiento).",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "B",
@@ -26422,7 +26422,7 @@ export const allElements: LanguageType = {
         "v_m": [
             {
                 "id": "1.101",
-                "description": "Paloma mortal ad. agr. con 1/1 g. (Cuervo agr.  con. \u00bd g.).",
+                "description": "Paloma mortal ad. agr. con 1/1 g. (Cuervo agr. con. \u00bd g.).",
                 "group_number": "1",
                 "group_name": "Saltos con giros complejos",
                 "difficulty": "E",
@@ -26602,7 +26602,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.131",
-                "description": "_ Kasamatsu str. with \u00bd t. or Tsukahara str. w. 3/2 t.  Kasamatsu extendido con \u00bd g. o. Tsukahara extendido con 3/2 g. 4.8",
+                "description": "_ Kasamatsu str. with \u00bd t. or Tsukahara str. w. 3/2 t. Kasamatsu extendido con \u00bd g. o. Tsukahara extendido con 3/2 g. 4.8",
                 "group_number": "1",
                 "group_name": "Saltos con giros complejos",
                 "difficulty": "E",
@@ -26990,7 +26990,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.314",
-                "description": "_ Tsukahara str. w. 1/1 t. or Kasamatsu str.  Tsukahara ext. con 1/1 g. o Kasamatsu ext. 4.0",
+                "description": "_ Tsukahara str. w. 1/1 t. or Kasamatsu str. Tsukahara ext. con 1/1 g. o Kasamatsu ext. 4.0",
                 "group_number": "3",
                 "group_name": "Saltos con \u00bc o \u00bd g. en la fase de vuelo",
                 "difficulty": "B",
@@ -27228,7 +27228,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.414",
-                "description": "Yurchenko ext. 3.2 415.Yurchenko tendu avec \u00bd t. Yurchenko straight with \u00bd t.  Yurchenko ext. con \u00bd g. 3.6",
+                "description": "Yurchenko ext. 3.2 415.Yurchenko tendu avec \u00bd t. Yurchenko straight with \u00bd t. Yurchenko ext. con \u00bd g. 3.6",
                 "group_number": "4",
                 "group_name": "Saltos con entrada de rondada",
                 "difficulty": "F",
@@ -27782,7 +27782,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.10",
-                "description": "St\u00fctzkehre ad. o mortal atr\u00e1s al apoyo inv. lat. sobre 1 brazo (tambi\u00e9n con \u00bc o \u00be g. al apoyo inv.). 21. \u00c9lan en av. 1/1 t. avec appui sur 1 bras \u00e0 l\u2019appui renvers\u00e9. _ Swing fwd. w. 1/1 t. on 1 arm to hdst.  Impulso ad. 1/1 g. con apoyo sobre 1 brazo al apoyo invertido.",
+                "description": "St\u00fctzkehre ad. o mortal atr\u00e1s al apoyo inv. lat. sobre 1 brazo (tambi\u00e9n con \u00bc o \u00be g. al apoyo inv.). 21. \u00c9lan en av. 1/1 t. avec appui sur 1 bras \u00e0 l\u2019appui renvers\u00e9. _ Swing fwd. w. 1/1 t. on 1 arm to hdst. Impulso ad. 1/1 g. con apoyo sobre 1 brazo al apoyo invertido.",
                 "group_number": "1",
                 "group_name": "Elementos en o por el apoyo sobre dos bandas",
                 "difficulty": "D",
@@ -27849,7 +27849,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.14",
-                "description": "20. Passer jambes \u00e9cart\u00e9es en arri\u00e8re et salto av. \u00e0 l\u2019appui brachial. _ Strad. cut bwd. and salto fwd. to up. arm hang.  Pasar las piernas abiertas atr\u00e1s y mortal ad. al apoyo braquial.",
+                "description": "20. Passer jambes \u00e9cart\u00e9es en arri\u00e8re et salto av. \u00e0 l\u2019appui brachial. _ Strad. cut bwd. and salto fwd. to up. arm hang. Pasar las piernas abiertas atr\u00e1s y mortal ad. al apoyo braquial.",
                 "group_number": "1",
                 "group_name": "Elementos en o por el apoyo sobre dos bandas",
                 "difficulty": "B",
@@ -28018,7 +28018,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.34",
-                "description": "Salto backward with straddle cut to support.  Mortal atr\u00e1s con pase de piernas abiertas adelante al apoyo.",
+                "description": "Salto backward with straddle cut to support. Mortal atr\u00e1s con pase de piernas abiertas adelante al apoyo.",
                 "group_number": "1",
                 "group_name": "Elementos en o por el apoyo sobre dos bandas",
                 "difficulty": "D",
@@ -28188,7 +28188,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.53",
-                "description": "3/2 salto bwd. with \u00bd t. to up. arm hang.  3/2 mortal atr\u00e1s con \u00bd g. al apoyo braquial.",
+                "description": "3/2 salto bwd. with \u00bd t. to up. arm hang. 3/2 mortal atr\u00e1s con \u00bd g. al apoyo braquial.",
                 "group_number": "1",
                 "group_name": "Elementos en o por el apoyo sobre dos bandas",
                 "difficulty": "E",
@@ -28372,7 +28372,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.76",
-                "description": "75. \u00c9lanc\u00e9 en arri\u00e8re avec \u00be t. saut\u00e9 \u00e0 l\u2019appui renvers\u00e9. Swing bwd. with \u00be t. hop to hdst.  Lanzarse atr\u00e1s con \u00be g. de salto al apoyo invertido.",
+                "description": "75. \u00c9lanc\u00e9 en arri\u00e8re avec \u00be t. saut\u00e9 \u00e0 l\u2019appui renvers\u00e9. Swing bwd. with \u00be t. hop to hdst. Lanzarse atr\u00e1s con \u00be g. de salto al apoyo invertido.",
                 "group_number": "1",
                 "group_name": "Elementos en o por el apoyo sobre dos bandas",
                 "difficulty": "D",
@@ -28389,7 +28389,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.77",
-                "description": "Gatson 1 with \u00bc t to hdst. on 1 rail and \u00bc t. hdst. on 2 rails.  Gatson 1 con \u00bc g. al apoyo invertido sobre 1 b. y \u00bc g. al apoyo invertido sobre 2 bandas. (Gatson 1) (Gatson 2)",
+                "description": "Gatson 1 with \u00bc t to hdst. on 1 rail and \u00bc t. hdst. on 2 rails. Gatson 1 con \u00bc g. al apoyo invertido sobre 1 b. y \u00bc g. al apoyo invertido sobre 2 bandas. (Gatson 1) (Gatson 2)",
                 "group_number": "1",
                 "group_name": "Elementos en o por el apoyo sobre dos bandas",
                 "difficulty": "E",
@@ -28629,7 +28629,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.7",
-                "description": "8. Rouler arri\u00e8re avec \u00bd t. de l\u2019appui brachial ou \u00e9tablis en avant et Kato saut\u00e9 \u00e0 l\u2019appui. Roll bwd. with \u00bd t. from up. arm. hang or Fwd. uprise to Kato hop to sup.  Rodar atr\u00e1s con \u00bd g. desde el apoyo braquial o dominaci\u00f3n ad. y Kato saltado al apoyo.",
+                "description": "8. Rouler arri\u00e8re avec \u00bd t. de l\u2019appui brachial ou \u00e9tablis en avant et Kato saut\u00e9 \u00e0 l\u2019appui. Roll bwd. with \u00bd t. from up. arm. hang or Fwd. uprise to Kato hop to sup. Rodar atr\u00e1s con \u00bd g. desde el apoyo braquial o dominaci\u00f3n ad. y Kato saltado al apoyo.",
                 "group_number": "2",
                 "group_name": "Elementos desde apoyo braquial",
                 "difficulty": "A",
@@ -29408,7 +29408,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.42",
-                "description": "_ Giant swg. bwd. with Diamidov to hdst. one rail (connected to Healy type element).  Molino at. con Diamidov al ap. inv. a una banda (conectado con un elemento del tipo Healy).",
+                "description": "_ Giant swg. bwd. with Diamidov to hdst. one rail (connected to Healy type element). Molino at. con Diamidov al ap. inv. a una banda (conectado con un elemento del tipo Healy).",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "F",
@@ -29425,7 +29425,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.51",
-                "description": "Giant swing bwd. with straddle cut to support or bent arms support.  Molino atr\u00e1s con pase de piernas abiertas al apoyo o brazos fl ex.",
+                "description": "Giant swing bwd. with straddle cut to support or bent arms support. Molino atr\u00e1s con pase de piernas abiertas al apoyo o brazos fl ex.",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "C",
@@ -29470,7 +29470,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.59",
-                "description": "Belle en carpa. 58 Du grand tour arri\u00e8re, double salto groupe \u00e0 l\u2019appui brachial.  Fr. giant. sw. bwd., dbl. salto t. to up. arm hang.  De molino atr\u00e1s doble mortal agrupada al apoyo braquial.",
+                "description": "Belle en carpa. 58 Du grand tour arri\u00e8re, double salto groupe \u00e0 l\u2019appui brachial. Fr. giant. sw. bwd., dbl. salto t. to up. arm hang. De molino atr\u00e1s doble mortal agrupada al apoyo braquial.",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "E",
@@ -29521,7 +29521,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.61",
-                "description": "Giant swing bwd. and salto with \u00bd t. to support.  Molino atr\u00e1s y mortal agrupado o en carpa con \u00bd g. al apoyo.",
+                "description": "Giant swing bwd. and salto with \u00bd t. to support. Molino atr\u00e1s y mortal agrupado o en carpa con \u00bd g. al apoyo.",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "A",
@@ -29534,7 +29534,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.54",
-                "description": "Giant swing bwd. and salto with \u00bd t to hang on the end.  Molino atr\u00e1s y mortal en carpa con \u00bd g. a la suspensi\u00f3n sobre el extreme. 64 Grand tour arri\u00e8re et salto group\u00e9 ou carp\u00e9 avec \u00bd t. \u00e0 l\u2019appui brachial. Giant swing bwd. and salto with \u00bd t. to up. arm hang.  Molino atr\u00e1s y mortal agrupado o en carpa con \u00bd g. al apoyo braquial. So (Korolev) (Sosa)",
+                "description": "Giant swing bwd. and salto with \u00bd t to hang on the end. Molino atr\u00e1s y mortal en carpa con \u00bd g. a la suspensi\u00f3n sobre el extreme. 64 Grand tour arri\u00e8re et salto group\u00e9 ou carp\u00e9 avec \u00bd t. \u00e0 l\u2019appui brachial. Giant swing bwd. and salto with \u00bd t. to up. arm hang. Molino atr\u00e1s y mortal agrupado o en carpa con \u00bd g. al apoyo braquial. So (Korolev) (Sosa)",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "F",
@@ -29628,7 +29628,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.87",
-                "description": "88. Bascule d\u2019\u00e9lan par l\u2019\u00e9querre jambes serr\u00e9es \u00e0 l\u2019appui renvers\u00e9 et saut avec 3/4 t. ou plus.  Glide kip through L-sit p.to hdst. and hop with 3/4 t or more.  B\u00e1scula de imp. por el lat. al apoyo invertido y salto.",
+                "description": "88. Bascule d\u2019\u00e9lan par l\u2019\u00e9querre jambes serr\u00e9es \u00e0 l\u2019appui renvers\u00e9 et saut avec 3/4 t. ou plus. Glide kip through L-sit p.to hdst. and hop with 3/4 t or more. B\u00e1scula de imp. por el lat. al apoyo invertido y salto.",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "C",
@@ -29930,7 +29930,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.119",
-                "description": "_ Basket to one rail hdst. (connected to Healy type element).  Felge al ap. inv. en una banda (conectado a elemento del tipo Healy).",
+                "description": "_ Basket to one rail hdst. (connected to Healy type element). Felge al ap. inv. en una banda (conectado a elemento del tipo Healy).",
                 "group_number": "3",
                 "group_name": "Elementos de impulso por la suspensi\u00f3n sobre 1 o 2 bandas y dominaciones adelante volteando atr\u00e1s.",
                 "difficulty": "E",
@@ -30270,7 +30270,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.20",
-                "description": "_ Salto bwd. piked or str. with 1/1 or 3/2 t.  Mortal atr\u00e1s en carpa o extendido con 1/1 o 3/2 g.",
+                "description": "_ Salto bwd. piked or str. with 1/1 or 3/2 t. Mortal atr\u00e1s en carpa o extendido con 1/1 o 3/2 g.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "B",
@@ -30339,7 +30339,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.46",
-                "description": "43. De la suspension sur l\u2019extr\u00eamit\u00e9, salto arri\u00e8re tendu. _ From hang on end, salto bwd. straight.  De la suspensi\u00f3n en el extremo, mortal atr\u00e1s extendido.",
+                "description": "43. De la suspension sur l\u2019extr\u00eamit\u00e9, salto arri\u00e8re tendu. _ From hang on end, salto bwd. straight. De la suspensi\u00f3n en el extremo, mortal atr\u00e1s extendido.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "D",
@@ -30490,7 +30490,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.20",
-                "description": "21. Grand tour avant avec 1/1 t. saut\u00e9. _ Flying giant swing fwd. with 1/1 t.  Molino adelante con 1/1 g. de salto.",
+                "description": "21. Grand tour avant avec 1/1 t. saut\u00e9. _ Flying giant swing fwd. with 1/1 t. Molino adelante con 1/1 g. de salto.",
                 "group_number": "1",
                 "group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
                 "difficulty": "B",
@@ -30691,7 +30691,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.45",
-                "description": "_ Giant swing bwd. with \u00bd turn.  Molino atr\u00e1s con \u00bd g.",
+                "description": "_ Giant swing bwd. with \u00bd turn. Molino atr\u00e1s con \u00bd g.",
                 "group_number": "1",
                 "group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
                 "difficulty": "C",
@@ -30793,7 +30793,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.62",
-                "description": "52. Grand tour arr. saut\u00e9 avec 3/2 t. en pr. cub. double. _ Giant swing bwd. with hop 3/2 t. to double el- grip.  Molino atr\u00e1s de salto con .3/2 g. en presa cub.",
+                "description": "52. Grand tour arr. saut\u00e9 avec 3/2 t. en pr. cub. double. _ Giant swing bwd. with hop 3/2 t. to double el- grip. Molino atr\u00e1s de salto con .3/2 g. en presa cub.",
                 "group_number": "1",
                 "group_name": "Grandes vuelos en suspensi\u00f3n y rotaciones",
                 "difficulty": "B",
@@ -30929,7 +30929,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.2",
-                "description": "3. \u00c9tabl.arr. et poisson \u00e9cart\u00e9 avec \u00bd t. \u00e0 la susp. aussi avec \u00bd t Back uprise and strad. hecht with \u00bd t. to hang. also w. \u00bd t.  Domi. at.y tigre p. ab. con \u00bd g. a la suspensi\u00f3n. o con \u00bd g m\u00e1s (Markelov)",
+                "description": "3. \u00c9tabl.arr. et poisson \u00e9cart\u00e9 avec \u00bd t. \u00e0 la susp. aussi avec \u00bd t Back uprise and strad. hecht with \u00bd t. to hang. also w. \u00bd t. Domi. at.y tigre p. ab. con \u00bd g. a la suspensi\u00f3n. o con \u00bd g m\u00e1s (Markelov)",
                 "group_number": "2",
                 "group_name": "Sueltas",
                 "difficulty": "B",
@@ -31195,7 +31195,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.45",
-                "description": "26. \u00c9tablissement arri\u00e8re et saut\u00e9 en position carp\u00e9e avec \u00bd t. \u00e0 la suspension. Back uprise and piked vault with \u00bd t. to hang.  Dominaci\u00f3n atr\u00e1s y salto en carpa con \u00bd g. a la suspensi\u00f3n. (Voronin)",
+                "description": "26. \u00c9tablissement arri\u00e8re et saut\u00e9 en position carp\u00e9e avec \u00bd t. \u00e0 la suspension. Back uprise and piked vault with \u00bd t. to hang. Dominaci\u00f3n atr\u00e1s y salto en carpa con \u00bd g. a la suspensi\u00f3n. (Voronin)",
                 "group_number": "2",
                 "group_name": "Sueltas",
                 "difficulty": "C",
@@ -31465,7 +31465,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.84",
-                "description": "_ Pegan Pike.  Pegan en carpa.",
+                "description": "_ Pegan Pike. Pegan en carpa.",
                 "group_number": "2",
                 "group_name": "Sueltas",
                 "difficulty": "F",
@@ -31747,7 +31747,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.59",
-                "description": "Stoop circle rearward fwd. through hdst. (Adler).  Adler por el apoyo invertido.",
+                "description": "Stoop circle rearward fwd. through hdst. (Adler). Adler por el apoyo invertido.",
                 "group_number": "3",
                 "group_name": "Elementos cerca de la barra y elementos adler",
                 "difficulty": "E",
@@ -31941,7 +31941,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.101",
-                "description": "99. Endo prise cubitale par l\u2019appui renvers\u00e9. Endo in el-grip thr. hdst.  Endo presa cubital por el apoyo invertido.",
+                "description": "99. Endo prise cubitale par l\u2019appui renvers\u00e9. Endo in el-grip thr. hdst. Endo presa cubital por el apoyo invertido.",
                 "group_number": "3",
                 "group_name": "Elementos cerca de la barra y elementos adler",
                 "difficulty": "E",
@@ -32058,7 +32058,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.16",
-                "description": "11. Double salto av. gr. ou carp\u00e9 avec 2/1 ou 5/2 t. _ Double salto fwd. t. or p. with 2/1 or 5/2 t.  Doble mortal adelante agrupado, en carpa o con 2/1 o 5/2 g.",
+                "description": "11. Double salto av. gr. ou carp\u00e9 avec 2/1 ou 5/2 t. _ Double salto fwd. t. or p. with 2/1 or 5/2 t. Doble mortal adelante agrupado, en carpa o con 2/1 o 5/2 g.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "D",
@@ -32275,7 +32275,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.30",
-                "description": "42. Double salto arri\u00e8re tendu avec 3/1 t. _ Double salto bwd. str. with 3/1 t.  Doble mortal atr\u00e1s extendido con 3/1 g.",
+                "description": "42. Double salto arri\u00e8re tendu avec 3/1 t. _ Double salto bwd. str. with 3/1 t. Doble mortal atr\u00e1s extendido con 3/1 g.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "F",
@@ -32318,7 +32318,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.51",
-                "description": "_ Doble salto bwd. t. with 1/1 t. over the bar.  Doble mortal atr\u00e1s agr. con 1/1 g. por encima de la barra.",
+                "description": "_ Doble salto bwd. t. with 1/1 t. over the bar. Doble mortal atr\u00e1s agr. con 1/1 g. por encima de la barra.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "C",
@@ -32352,7 +32352,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.57",
-                "description": "52. Double salto arri\u00e8re gr. avec 2/1 t. par- dessus la barre. _ Double salto bwd. t. with 2/1 t. over the bar  Doble mortal atr\u00e1s agr. con 2/1 g. por encima de la barra.",
+                "description": "52. Double salto arri\u00e8re gr. avec 2/1 t. par- dessus la barre. _ Double salto bwd. t. with 2/1 t. over the bar Doble mortal atr\u00e1s agr. con 2/1 g. por encima de la barra.",
                 "group_number": "4",
                 "group_name": "Salidas",
                 "difficulty": "C",
@@ -32829,7 +32829,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.45",
-                "description": "Roul\u00e9 carp\u00e9 \u00e0 l\u2019appui renvers\u00e9 (2 s.)..(jambes serr\u00e9es) _ Endo roll piked to handstand (2 s.).. (legs together)  Rodar en carpa al apoyo invertido (2 s.).",
+                "description": "Roul\u00e9 carp\u00e9 \u00e0 l\u2019appui renvers\u00e9 (2 s.)..(jambes serr\u00e9es) _ Endo roll piked to handstand (2 s.).. (legs together) Rodar en carpa al apoyo invertido (2 s.).",
                 "group_number": "1",
                 "group_name": "Elements non-acrobatiques ",
                 "difficulty": "C",
@@ -37216,7 +37216,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.112",
-                "description": "Facial russe de 720\u00b0 ou. 900\u00b0 sur 1 ar\u00e7on ou  entre les ar\u00e7ons",
+                "description": "Facial russe de 720\u00b0 ou. 900\u00b0 sur 1 ar\u00e7on ou entre les ar\u00e7ons",
                 "group_number": "2",
                 "group_name": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
                 "difficulty": "D",
@@ -38238,7 +38238,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.131",
-                "description": "Kasamatsu tendu avec 3/2 t. _ Kasamatsu str. with 3/2 t.  Kasamatsu extendido con 3/2 g",
+                "description": "Kasamatsu tendu avec 3/2 t. _ Kasamatsu str. with 3/2 t. Kasamatsu extendido con 3/2 g",
                 "group_number": "1",
                 "group_name": "Sauts avec salto simple et tours complexes ",
                 "difficulty": "E",
@@ -42981,7 +42981,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.52",
-                "description": "(Sapronenko) 54.  (Pegan) (Gienger) 60. \u00c9lanc\u00e9 en av. et salto arr. avec 3/2 t. \u00e0 la susp",
+                "description": "(Sapronenko) 54. (Pegan) (Gienger) 60. \u00c9lanc\u00e9 en av. et salto arr. avec 3/2 t. \u00e0 la susp",
                 "group_number": "2",
                 "group_name": "\u00c9l\u00e9ments volants ",
                 "difficulty": "D",
@@ -45252,7 +45252,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.48",
-                "description": "Dubbel salto vw gestrekt met 3/2 draai. (Zapata 2)        H",
+                "description": "Dubbel salto vw gestrekt met 3/2 draai. (Zapata 2)    H",
                 "group_number": "2",
                 "group_name": "Acrobatische elementen voorwaarts",
                 "difficulty": "F",
@@ -47238,7 +47238,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.120",
-                "description": "Azarian tot omgekeerde zwaluw (2 s.).  (Ait Said)",
+                "description": "Azarian tot omgekeerde zwaluw (2 s.). (Ait Said)",
                 "group_number": "2",
                 "group_name": "Kracht en houdingselementen (2 sec.)",
                 "difficulty": "F",
@@ -48127,7 +48127,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.45",
-                "description": "Dubbel salto rw gehurkt met  1/1 draai",
+                "description": "Dubbel salto rw gehurkt met 1/1 draai",
                 "group_number": "4",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -49719,7 +49719,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.52",
-                "description": "Alle transporten achterwaarts in dwarssteun van met steun tussen de beugels (3/3)  (Sivado)",
+                "description": "Alle transporten achterwaarts in dwarssteun van met steun tussen de beugels (3/3) (Sivado)",
                 "group_number": "3",
                 "group_name": "Transporten inclusief krolls, tong fei, wu guonian, roth en transporten met spindels.",
                 "difficulty": "D",
@@ -51838,7 +51838,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.48",
-                "description": "Dubbel salto rugwaarts met \u00bd draai tot bovenarmhang  (Kuavita)",
+                "description": "Dubbel salto rugwaarts met \u00bd draai tot bovenarmhang (Kuavita)",
                 "group_number": "1",
                 "group_name": "Elementen in of door steun op twee leggers.",
                 "difficulty": "F",
@@ -52426,7 +52426,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.6",
-                "description": "Vooropzet met \u00be draai tot handstand.         Element moet gevolgd worden door een kip aan 1 ligger.",
+                "description": "Vooropzet met \u00be draai tot handstand.     Element moet gevolgd worden door een kip aan 1 ligger.",
                 "group_number": "2",
                 "group_name": "Elementen beginnend in bovenarmhang.",
                 "difficulty": "F",
@@ -52611,7 +52611,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.24",
-                "description": "Dimitrenko gehoekt.  (Kovtun)",
+                "description": "Dimitrenko gehoekt. (Kovtun)",
                 "group_number": "2",
                 "group_name": "Elementen beginnend in bovenarmhang.",
                 "difficulty": "F",
@@ -52777,7 +52777,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.46",
-                "description": "Achteropzet en salto vw  gehoekt of gestrekt tot steun.",
+                "description": "Achteropzet en salto vw gehoekt of gestrekt tot steun.",
                 "group_number": "2",
                 "group_name": "Elementen beginnend in bovenarmhang.",
                 "difficulty": "D",
@@ -55966,7 +55966,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.105",
-                "description": "Zitdraai voorwaarts en uitspreiden met \u00bd draai tot  handstand.",
+                "description": "Zitdraai voorwaarts en uitspreiden met \u00bd draai tot handstand.",
                 "group_number": "3",
                 "group_name": "Elementen dicht bij de stok en adler elementen.",
                 "difficulty": "C",
@@ -56722,7 +56722,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.20",
-                "description": "Handstandoverslag voorover met \u00bd draai (180\u00ba) in de eerste vluchtfase \u2013 afstoot af",
+                "description": "Handstandoverslag voorover met \u00bd draai (180\u00ba) in de eerste vluchtfase - afstoot af",
                 "value": 1.6,
                 "group_number": "1",
                 "group_name": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase",
@@ -56846,7 +56846,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.40",
-                "description": "Arabier flik-flak \u2013 afstoot af",
+                "description": "Arabier flik-flak - afstoot af",
                 "value": 2.0,
                 "group_number": "1",
                 "group_name": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase",
@@ -56863,7 +56863,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.50",
-                "description": "Arabier flik-flak met \u00bd draai in de eerste vluchtfase \u2013 overslag af",
+                "description": "Arabier flik-flak met \u00bd draai in de eerste vluchtfase - overslag af",
                 "value": 2.2,
                 "group_number": "1",
                 "group_name": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase",
@@ -56933,7 +56933,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.60",
-                "description": "Arabier flik-flak met 1/1 draai (360\u00ba) in de eerste vluchtfase \u2013 afstoot af",
+                "description": "Arabier flik-flak met 1/1 draai (360\u00ba) in de eerste vluchtfase - afstoot af",
                 "value": 2.4,
                 "group_number": "1",
                 "group_name": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase",
@@ -56950,7 +56950,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.61",
-                "description": "Arabier flik-flak met 1/1 draai (360\u00ba) in de eerste vluchtfase \u2013 in de tweede vluchtfase \u00bd draai (180\u00b0) af",
+                "description": "Arabier flik-flak met 1/1 draai (360\u00ba) in de eerste vluchtfase - in de tweede vluchtfase \u00bd draai (180\u00b0) af",
                 "value": 2.8,
                 "group_number": "1",
                 "group_name": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase",
@@ -56967,7 +56967,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.62",
-                "description": "Arabier flik-flak met 1/1 draai (360\u00ba) in de eerste vluchtfase \u2013 in de tweede vluchtfase 1/1 draai (360\u00ba) af",
+                "description": "Arabier flik-flak met 1/1 draai (360\u00ba) in de eerste vluchtfase - in de tweede vluchtfase 1/1 draai (360\u00ba) af",
                 "value": 3.2,
                 "group_number": "1",
                 "group_name": "Handstandoverslag, yamashita, arabier flik-flak met of zonder la-draai in de 1e en/of 2e vluchtfase",
@@ -57835,7 +57835,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.12",
-                "description": "Arabier flik-flak met \u00bd draai (180\u00ba) in de eerste vluchtfase \u2013 in de tweede vluchtfase salto voorover gehurkt met 1/1 draai (360\u00ba)",
+                "description": "Arabier flik-flak met \u00bd draai (180\u00ba) in de eerste vluchtfase - in de tweede vluchtfase salto voorover gehurkt met 1/1 draai (360\u00ba)",
                 "value": 4.4,
                 "group_number": "5",
                 "group_name": "Arabier flik-flak met 1/2 draai in de 1e vluchtfase ",
@@ -57989,7 +57989,7 @@ export const allElements: LanguageType = {
         "ub": [
             {
                 "id": "1.101",
-                "description": "  Zweefkip aan de lage ligger tot steun op de LL of aanzweven met \u00bd draai kip tot steun op de LL ",
+                "description": "Zweefkip aan de lage ligger tot steun op de LL of aanzweven met \u00bd draai kip tot steun op de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -58007,7 +58007,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.102",
-                "description": " Sprong met \u00bd draai (180\u00b0), zweefkip tot steun op de LL Sprong met \u00bd draai (180\u00ba), aanzweef met doorhoeken tot ruglingse streksteun  ",
+                "description": "Sprong met \u00bd draai (180\u00b0), zweefkip tot steun op de LL Sprong met \u00bd draai (180\u00ba), aanzweef met doorhoeken tot ruglingse streksteun",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -58026,7 +58026,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.202",
-                "description": " Sprong met 1/1 draai (360\u00b0) en zweefkip tot streksteun aan de LL    ",
+                "description": "Sprong met 1/1 draai (360\u00b0) en zweefkip tot streksteun aan de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58043,7 +58043,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.103",
-                "description": "  Zweefhangzwaai aan de LL (of strekhang-zwaai voorwaarts aan de HL) doorhoeken tot ruglingse steun (kipopzwaai ruglings, contact ligger met achterkant van bovenbenen) of met uitspreiden tot zweefhang aan dezelfde ligger ",
+                "description": "Zweefhangzwaai aan de LL (of strekhang-zwaai voorwaarts aan de HL) doorhoeken tot ruglingse steun (kipopzwaai ruglings, contact ligger met achterkant van bovenbenen) of met uitspreiden tot zweefhang aan dezelfde ligger",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -58061,7 +58061,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.203",
-                "description": "  Ruglingse kip vanuit - zweefhangzwaai aan de LL of voorzwaai aan de HL - doorhoeken tot vouwhang, kipopzwaai ruglings a.o. tot steun ruglings  ",
+                "description": "Ruglingse kip vanuit - zweefhangzwaai aan de LL of voorzwaai aan de HL - doorhoeken tot vouwhang, kipopzwaai ruglings a.o. tot steun ruglings",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58080,7 +58080,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.104",
-                "description": " Sprong tot vluchtige hang aan de HL - ook in ondergreep - kip tot streksteun op de HL ",
+                "description": "Sprong tot vluchtige hang aan de HL - ook in ondergreep - kip tot streksteun op de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -58098,7 +58098,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.204",
-                "description": "  Vanuit parallelstand voor de HL - sprong met \u00bd draai (180\u00b0) - kip tot streksteun op de HL  Vrije sprong met \u00bd draai (180\u00ba) over de LL tot strekhang aan de HL ",
+                "description": "Vanuit parallelstand voor de HL - sprong met \u00bd draai (180\u00b0) - kip tot streksteun op de HL Vrije sprong met \u00bd draai (180\u00ba) over de LL tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58117,7 +58117,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.304",
-                "description": " Sprong met \u00bd draai (180\u00b0) over de LL - kip tot streksteun op de HL ",
+                "description": "Sprong met \u00bd draai (180\u00b0) over de LL - kip tot streksteun op de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -58134,7 +58134,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.105",
-                "description": " Vanuit parallelstand voor de HL - sprong met 1/1 draai (360\u00b0) tot strekhang aan de HL  ",
+                "description": "Vanuit parallelstand voor de HL - sprong met 1/1 draai (360\u00b0) tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -58150,7 +58150,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.106",
-                "description": "  Spreiden over de LL met afstoot van de handen tot strekhang aan de HL  ",
+                "description": "Spreiden over de LL met afstoot van de handen tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -58167,7 +58167,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.206",
-                "description": " Vrije spreidsprong over de LL tot strekhang aan de HL  Hechtsprong (benen gesloten) over de LL met afzet van de handen tot strekhang aan de HL ",
+                "description": "Vrije spreidsprong over de LL tot strekhang aan de HL Hechtsprong (benen gesloten) over de LL met afzet van de handen tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58186,7 +58186,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.306",
-                "description": " Vrije gestrekte sprong over de LL tot strekhang aan de HL  ",
+                "description": "Vrije gestrekte sprong over de LL tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -58203,7 +58203,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.406",
-                "description": " Hechtsprong (benen gesloten) over de LL met afzet van de handen en 1/1 (360\u00b0) draai tot strekhang aan de HL ",
+                "description": "Hechtsprong (benen gesloten) over de LL met afzet van de handen en 1/1 (360\u00b0) draai tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -58220,7 +58220,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.207",
-                "description": " Salto v.o. gehurkt, gespreid of gehoekt over de LL tot ellehang aan de LL ",
+                "description": "Salto v.o. gehurkt, gespreid of gehoekt over de LL tot ellehang aan de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58237,7 +58237,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.307",
-                "description": " Vanuit parallelstand voor de HL - salto v.o. tot vluchtige strekhang aan de HL Salto v.o. gehoekt over de LL met handafzet tot strekhang aan de HL ",
+                "description": "Vanuit parallelstand voor de HL - salto v.o. tot vluchtige strekhang aan de HL Salto v.o. gehoekt over de LL met handafzet tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -58256,7 +58256,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.407",
-                "description": " Salto v.o. gehurkt over de LL tot strekhang aan de HL zonder aanraken van de LL ",
+                "description": "Salto v.o. gehurkt over de LL tot strekhang aan de HL zonder aanraken van de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -58273,7 +58273,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.208",
-                "description": " Arabier voor de LL - vlucht achterwaarts (gespreid) tot vluchtige vrije spreidhoek-steun op de LL ",
+                "description": "Arabier voor de LL - vlucht achterwaarts (gespreid) tot vluchtige vrije spreidhoek-steun op de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58290,7 +58290,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.308",
-                "description": " Arabier voor de LL - vlucht achterwaarts over de LL met gesloten benen of gespreid tot strekhang aan de HL  ",
+                "description": "Arabier voor de LL - vlucht achterwaarts over de LL met gesloten benen of gespreid tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -58307,7 +58307,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.408",
-                "description": " Arabier voor de LL - vlucht achterwaarts over de LL met 1/1 draai (360\u00ba) tot strekhang aan de HL  ",
+                "description": "Arabier voor de LL - vlucht achterwaarts over de LL met 1/1 draai (360\u00ba) tot strekhang aan de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -58324,7 +58324,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.409",
-                "description": " Arabier voor de LL - salto a.o. gehurkt over de LL tot zweefhang aan de LL Arabier voor de LL - flik-flak tot handstand op de LL ",
+                "description": "Arabier voor de LL - salto a.o. gehurkt over de LL tot zweefhang aan de LL Arabier voor de LL - flik-flak tot handstand op de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -58342,7 +58342,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.509",
-                "description": " Arabier voor de LL - flik-flak met 1/1 draai (360\u00b0) tot vrije steun of handstand op de LL ",
+                "description": "Arabier voor de LL - flik-flak met 1/1 draai (360\u00b0) tot vrije steun of handstand op de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "E",
@@ -58359,7 +58359,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.609",
-                "description": " Arabier voor de LL \u2013 twistsalto gehurkt over de LL tot strekhang aan de HL zonder aanraken van de LL  ",
+                "description": "Arabier voor de LL - twistsalto gehurkt over de LL tot strekhang aan de HL zonder aanraken van de LL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "F",
@@ -58376,7 +58376,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.210",
-                "description": " Sprong tot in handstand op de LL (benen gesloten of gespreid) met gebogen heupen en daarna gestrekt , ook met \u00bd draai (180\u00b0) in de handstandfase ",
+                "description": "Sprong tot in handstand op de LL (benen gesloten of gespreid) met gebogen heupen en daarna gestrekt , ook met \u00bd draai (180\u00b0) in de handstandfase",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -58395,7 +58395,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.310",
-                "description": " Sprong tot handstand op de LL (benen gesloten of gespreid) met heupen gebogen en daarna gestrekt en 1/1 draai (360\u00ba) in de handstandfase Sprong met gestrekt lichaam tot hand-stand op de LL, ook met \u00bd draai (180\u00b0) ",
+                "description": "Sprong tot handstand op de LL (benen gesloten of gespreid) met heupen gebogen en daarna gestrekt en 1/1 draai (360\u00ba) in de handstandfase Sprong met gestrekt lichaam tot hand-stand op de LL, ook met \u00bd draai (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -58416,7 +58416,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.410",
-                "description": " Sprong met gestrekt lichaam tot handstand op de LL met 1/1 draai (360\u00ba) in handstandfase  ",
+                "description": "Sprong met gestrekt lichaam tot handstand op de LL met 1/1 draai (360\u00ba) in handstandfase",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -58431,7 +58431,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.411",
-                "description": " Sprong tot vrije steun op de HL - losom tot in handstand op de HL, ook met \u00bd draai (180\u00ba) in handstandfase op de HL  ",
+                "description": "Sprong tot vrije steun op de HL - losom tot in handstand op de HL, ook met \u00bd draai (180\u00ba) in handstandfase op de HL",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -58450,7 +58450,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.101",
-                "description": " Achteropzwaai tot handstand met gespreide benen of met gebogen heupen, ook met omspringen ",
+                "description": "Achteropzwaai tot handstand met gespreide benen of met gebogen heupen, ook met omspringen",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "A",
@@ -58468,7 +58468,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.201",
-                "description": " Achteropzwaai tot handstand met gesloten benen en gestrekte heupen; ook met omspringen tot in ellegreep of ondergreep; ook met 1/2 draai (180\u00ba), benen gesloten of gespreid     ",
+                "description": "Achteropzwaai tot handstand met gesloten benen en gestrekte heupen; ook met omspringen tot in ellegreep of ondergreep; ook met 1/2 draai (180\u00ba), benen gesloten of gespreid",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "B",
@@ -58489,7 +58489,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.301",
-                "description": " Achteropzwaai met 1/1 draai (360\u00ba) tot handstand  ",
+                "description": "Achteropzwaai met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "C",
@@ -58529,7 +58529,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.401",
-                "description": " Achteropzwaai met 1\u00bd draai (540\u00b0) tot handstand ",
+                "description": "Achteropzwaai met 1\u00bd draai (540\u00b0) tot handstand",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "D",
@@ -58547,7 +58547,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.202",
-                "description": " Streksteun borstlings op de HL - over-hoeken met vluchtfase of vrij overspreiden voorwaarts over de HL met \u00bd draai (180\u00b0) tot strekhang aan de HL ",
+                "description": "Streksteun borstlings op de HL - over-hoeken met vluchtfase of vrij overspreiden voorwaarts over de HL met \u00bd draai (180\u00b0) tot strekhang aan de HL",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "B",
@@ -58566,7 +58566,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.302",
-                "description": " Vrije heupdraai a.o. aan LL of HL, hecht met vluchtfase en \u00bd draai (180\u00b0) tijdens het passeren van de ligger (hechtkeren) tot hang aan dezelfde ligger - ook vanuit vrije heupdraai a.o. aan de HL (vrij hechtkeren)  ",
+                "description": "Vrije heupdraai a.o. aan LL of HL, hecht met vluchtfase en \u00bd draai (180\u00b0) tijdens het passeren van de ligger (hechtkeren) tot hang aan dezelfde ligger - ook vanuit vrije heupdraai a.o. aan de HL (vrij hechtkeren)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "C",
@@ -58586,7 +58586,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.303",
-                "description": " Vanuit streksteun borstlings op de HL - achteropzwaai met loslaten en 1/1 draai (360\u00b0) tot strekhang aan de HL  ",
+                "description": "Vanuit streksteun borstlings op de HL - achteropzwaai met loslaten en 1/1 draai (360\u00b0) tot strekhang aan de HL",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "C",
@@ -58603,7 +58603,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.403",
-                "description": " Streksteun borstlings op de LL aan de binnenzijde van de LL \u2013 achteropzwaai met saltorol v.o. tot strekhang aan de HL (Radochla-rol) ",
+                "description": "Streksteun borstlings op de LL aan de binnenzijde van de LL - achteropzwaai met saltorol v.o. tot strekhang aan de HL (Radochla-rol)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "D",
@@ -58620,7 +58620,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.503",
-                "description": " Streksteun borstlings op de HL - achteropzwaai met salto v.o. gespreid tot strekhang aan de HL (Comaneci-salto) ",
+                "description": "Streksteun borstlings op de HL - achteropzwaai met salto v.o. gespreid tot strekhang aan de HL (Comaneci-salto)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "E",
@@ -58637,7 +58637,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.104",
-                "description": " Heupdraai v.o. (heupen tegen de ligger) ",
+                "description": "Heupdraai v.o. (heupen tegen de ligger)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "A",
@@ -58654,7 +58654,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.404",
-                "description": " Vrije heupdraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) in handstandfase (Weilerkip)  ",
+                "description": "Vrije heupdraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) in handstandfase (Weilerkip)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "D",
@@ -58672,7 +58672,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.105",
-                "description": " Heupdraai a.o. aan de lage of hoge ligger tot streksteun (met of zonder steun van de handen)  (Vrije) heupdraai a.o. aan de LL \u2013 opstrekken / heupafzet (hechten) \u2013 met herpakken van de LL ",
+                "description": "Heupdraai a.o. aan de lage of hoge ligger tot streksteun (met of zonder steun van de handen) (Vrije) heupdraai a.o. aan de LL - opstrekken / heupafzet (hechten) - met herpakken van de LL",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "A",
@@ -58695,7 +58695,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.305",
-                "description": " Losom tot handstand, ook met omspringen tot in andere greep in de handstandfase, of met \u00bd draai (180\u00ba) tot handstand ",
+                "description": "Losom tot handstand, ook met omspringen tot in andere greep in de handstandfase, of met \u00bd draai (180\u00ba) tot handstand",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "C",
@@ -58716,7 +58716,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.405",
-                "description": " Losom met 1/1 draai (360\u00b0) tot handstand  ",
+                "description": "Losom met 1/1 draai (360\u00b0) tot handstand",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "D",
@@ -58733,7 +58733,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.505",
-                "description": " Losom met 1\u00bd draai (540\u00ba) tot handstand ",
+                "description": "Losom met 1\u00bd draai (540\u00ba) tot handstand",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "E",
@@ -58750,7 +58750,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.206",
-                "description": " Vrije onderzwaai met loslaten en contrabeweging v.o. in de vluchtfase tot strekhang aan de HL ",
+                "description": "Vrije onderzwaai met loslaten en contrabeweging v.o. in de vluchtfase tot strekhang aan de HL",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "B",
@@ -58767,7 +58767,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.306",
-                "description": " .  ",
+                "description": ".",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "C",
@@ -58780,7 +58780,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.406",
-                "description": " Streksteun borstlings op de LL aan binnenzijde - losom door handstand met vluchtfase tot strekhang aan de HL (Schaposchnikova)  ",
+                "description": "Streksteun borstlings op de LL aan binnenzijde - losom door handstand met vluchtfase tot strekhang aan de HL (Schaposchnikova)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "D",
@@ -58797,7 +58797,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.506",
-                "description": " Losom aan de HL, contraspreiden over de HL tot strekhang aan de HL Losom door handstand met \u00bd draai in vlucht tot strekhang aan de HL ",
+                "description": "Losom aan de HL, contraspreiden over de HL tot strekhang aan de HL Losom door handstand met \u00bd draai in vlucht tot strekhang aan de HL",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "E",
@@ -58816,7 +58816,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.606",
-                "description": " Losom aan de HL, contrahoeken over de HL tot strekhang aan de HL  Losom aan de HL met contraspreiden over de HL met \u00bd draai (180\u00b0) tot hang in gemengde ellegreep ",
+                "description": "Losom aan de HL, contrahoeken over de HL tot strekhang aan de HL Losom aan de HL met contraspreiden over de HL met \u00bd draai (180\u00b0) tot hang in gemengde ellegreep",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "F",
@@ -58834,7 +58834,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.307",
-                "description": " Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hechten tot strekhang aan de HL (benen gesloten of gespreid) ",
+                "description": "Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hechten tot strekhang aan de HL (benen gesloten of gespreid)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "C",
@@ -58851,7 +58851,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.407",
-                "description": " Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hechten met \u00bd draai (180\u00b0) tot strekhang aan de HL (benen gesloten of gespreid) ",
+                "description": "Streksteun borstlings aan de buitenzijde van de LL - vrije heupdraai a.o. aan de LL met hechten met \u00bd draai (180\u00b0) tot strekhang aan de HL (benen gesloten of gespreid)",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "D",
@@ -58868,7 +58868,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.201",
-                "description": " Reuzendraai a.o. tot handstand in bovengreep, ook aan \u00e9\u00e9n arm  Reuzendraai a.o. met \u00bd draai (180\u00b0) of met \u00bd draai - \u00bd draai (180\u00b0/180\u00b0) tot handstand ",
+                "description": "Reuzendraai a.o. tot handstand in bovengreep, ook aan \u00e9\u00e9n arm Reuzendraai a.o. met \u00bd draai (180\u00b0) of met \u00bd draai - \u00bd draai (180\u00b0/180\u00b0) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "B",
@@ -58888,7 +58888,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.301",
-                "description": " Reuzendraai a.o. met 1/1 draai (360\u00ba) tot handstand ",
+                "description": "Reuzendraai a.o. met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -58905,7 +58905,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.401",
-                "description": " Reuzendraai a.o. met gesprongen 1/1 draai (360\u00b0) tot handstand Reuzendraai a.o. met 1\u00bd draai - 2/1 draai (540\u00b0 - 720\u00b0) tot handstand ",
+                "description": "Reuzendraai a.o. met gesprongen 1/1 draai (360\u00b0) tot handstand Reuzendraai a.o. met 1\u00bd draai - 2/1 draai (540\u00b0 - 720\u00b0) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -58925,7 +58925,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.402",
-                "description": " Strekhang aan de HL \u2013 voorzwaai met \u00bd draai (180\u00b0) en vluchtfase tot handstand op de LL ",
+                "description": "Strekhang aan de HL - voorzwaai met \u00bd draai (180\u00b0) en vluchtfase tot handstand op de LL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -58942,7 +58942,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.502",
-                "description": " Strekhang aan HL \u2013 voorzwaai met 1\u00bd draai (540\u00b0) en vlucht over de LL tot hang aan de LL ",
+                "description": "Strekhang aan HL - voorzwaai met 1\u00bd draai (540\u00b0) en vlucht over de LL tot hang aan de LL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -58959,7 +58959,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.403",
-                "description": " Strekhangzwaai voorwaarts, contraspreiden - ruglingse hecht (Tkatchev) over de HL tot strekhang Strekhangzwaai voorwaarts met \u00bd draai (180\u00b0), gehoekt overspringen over de HL tot strekhang ",
+                "description": "Strekhangzwaai voorwaarts, contraspreiden - ruglingse hecht (Tkatchev) over de HL tot strekhang Strekhangzwaai voorwaarts met \u00bd draai (180\u00b0), gehoekt overspringen over de HL tot strekhang",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -58978,7 +58978,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.503",
-                "description": " Tkatchev gehoekt Tkatchev met \u00bd draai (180\u00b0) Strekhangzwaai voorwaarts met \u00bd draai (180\u00ba) - \u00bd draai (180\u00ba) en contra spreiden in de vlucht over de HL tot strekhang aan de HL  ",
+                "description": "Tkatchev gehoekt Tkatchev met \u00bd draai (180\u00b0) Strekhangzwaai voorwaarts met \u00bd draai (180\u00ba) - \u00bd draai (180\u00ba) en contra spreiden in de vlucht over de HL tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -58999,7 +58999,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.304",
-                "description": " Strekhang aan de HL, gezicht naar de LL - voorzwaai en saltorol a.o. gehurkt of gespreid tot zweefhang aan of vrije spreidhoeksteun op de LL ",
+                "description": "Strekhang aan de HL, gezicht naar de LL - voorzwaai en saltorol a.o. gehurkt of gespreid tot zweefhang aan of vrije spreidhoeksteun op de LL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -59016,7 +59016,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.404",
-                "description": " Strekhang aan de HL, gezicht naar de LL - voorzwaai, salto a.o. gestrekt tussen de liggers tot vrije streksteun op de LL (Pak Salto) ",
+                "description": "Strekhang aan de HL, gezicht naar de LL - voorzwaai, salto a.o. gestrekt tussen de liggers tot vrije streksteun op de LL (Pak Salto)",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -59033,7 +59033,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.504",
-                "description": " Pak salto met 1/1 draai (360\u00ba)  ",
+                "description": "Pak salto met 1/1 draai (360\u00ba)",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -59050,7 +59050,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.405",
-                "description": " Voorzwaai met \u00bd draai (180\u00ba) en salto v.o. gespreid (Deltchev Salto), of voorzwaai en salto a.o. met \u00bd draai (180\u00ba) gehoekt (Gienger Salto) tot strekhang aan de HL  ",
+                "description": "Voorzwaai met \u00bd draai (180\u00ba) en salto v.o. gespreid (Deltchev Salto), of voorzwaai en salto a.o. met \u00bd draai (180\u00ba) gehoekt (Gienger Salto) tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -59068,7 +59068,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.505",
-                "description": " Voorzwaai en salto achterwaarts met \u00bd draai (180\u00b0) gestrekt tot strekhang aan de HL ",
+                "description": "Voorzwaai en salto achterwaarts met \u00bd draai (180\u00b0) gestrekt tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -59085,7 +59085,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.206",
-                "description": " Reuzendraai v.o. in onder-, boven- of mixgreep tot handstand, ook met gespreide benen of gebogen heupen in de opzwaai, ook met \u00bd draai (180\u00b0) tot handstand  ",
+                "description": "Reuzendraai v.o. in onder-, boven- of mixgreep tot handstand, ook met gespreide benen of gebogen heupen in de opzwaai, ook met \u00bd draai (180\u00b0) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "B",
@@ -59106,7 +59106,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.306",
-                "description": " Reuzendraai v.o. met 1/1 draai (360\u00ba) tot handstand ",
+                "description": "Reuzendraai v.o. met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -59123,7 +59123,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.506",
-                "description": " Reuzendraai v.o. in ondergreep tot handstand met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase tot in ellegreep of reuzendraai v.o. in ondergreep met 1\u00bd (540\uf0b0) draai tot handstand  ",
+                "description": "Reuzendraai v.o. in ondergreep tot handstand met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase tot in ellegreep of reuzendraai v.o. in ondergreep met 1\u00bd (540\uf0b0) draai tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -59143,7 +59143,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.307",
-                "description": " Achterzwaai (rug naar de LL) in boven- of ondergreep met gespreide benen vlucht achterwaarts over de LL tot handstand op de LL  ",
+                "description": "Achterzwaai (rug naar de LL) in boven- of ondergreep met gespreide benen vlucht achterwaarts over de LL tot handstand op de LL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -59160,7 +59160,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.407",
-                "description": " Achterzwaai (rug naar de LL) in onder-greep, met loslaten en \u00bd draai (180\u00ba) in de vlucht tussen de liggers en weer vastpakken van de LL in zweefhang ",
+                "description": "Achterzwaai (rug naar de LL) in onder-greep, met loslaten en \u00bd draai (180\u00ba) in de vlucht tussen de liggers en weer vastpakken van de LL in zweefhang",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -59177,7 +59177,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.308",
-                "description": " Achterzwaai in ondergreep of ellegreep, salto v.o. gehurkt tot strekhang aan de HL (Jaeger Salto) ",
+                "description": "Achterzwaai in ondergreep of ellegreep, salto v.o. gehurkt tot strekhang aan de HL (Jaeger Salto)",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -59194,7 +59194,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.408",
-                "description": " Jaeger salto gespreid tot strekhang aan de HL Jaeger salto gehoekt tot strekhang aan de HL  ",
+                "description": "Jaeger salto gespreid tot strekhang aan de HL Jaeger salto gehoekt tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -59212,7 +59212,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.508",
-                "description": " Jaeger salto gespreid met \u00bd draai (180\u00b0) tot strekhang aan de HL ",
+                "description": "Jaeger salto gespreid met \u00bd draai (180\u00b0) tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -59229,7 +59229,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.608",
-                "description": " Jaeger salto gestrekt tot strekhang aan de HL  ",
+                "description": "Jaeger salto gestrekt tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "F",
@@ -59246,7 +59246,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.309",
-                "description": " Achterzwaai in ondergreep met vrij hoekwenden of spreidsprong en \u00bd draai (180\u00b0) over de HL tot strekhang aan de HL  ",
+                "description": "Achterzwaai in ondergreep met vrij hoekwenden of spreidsprong en \u00bd draai (180\u00b0) over de HL tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -59264,7 +59264,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.409",
-                "description": " Achterzwaai in ondergreep met \u00bd draai (180\u00b0) en met gespreide benen vlucht achterwaarts over de HL tot strekhang aan de HL  ",
+                "description": "Achterzwaai in ondergreep met \u00bd draai (180\u00b0) en met gespreide benen vlucht achterwaarts over de HL tot strekhang aan de HL",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -59281,7 +59281,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.310",
-                "description": " Reuzendraai v.o. in ellegreep (rugwaarts) met gehoekt of gestrekt lichaam (ellegreepreus) tot handstand, ook met \u00bd draai (180\u00ba) tot handstand   ",
+                "description": "Reuzendraai v.o. in ellegreep (rugwaarts) met gehoekt of gestrekt lichaam (ellegreepreus) tot handstand, ook met \u00bd draai (180\u00ba) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "C",
@@ -59300,7 +59300,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.410",
-                "description": " Reuzendraai v.o. in ellegreep met 1/1 draai (360\u00ba) tot handstand ",
+                "description": "Reuzendraai v.o. in ellegreep met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "D",
@@ -59317,7 +59317,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.510",
-                "description": " Reuzendraai v.o. in ellegreep met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase, voltooid in de handstandfase, of Reuzendraai v.o. in ellegreep met 1\u00bd draai (540\u00ba) tot handstand ",
+                "description": "Reuzendraai v.o. in ellegreep met begin van de 1/1 draai (360\u00ba) op \u00e9\u00e9n arm voor de handstandfase, voltooid in de handstandfase, of Reuzendraai v.o. in ellegreep met 1\u00bd draai (540\u00ba) tot handstand",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "E",
@@ -59335,7 +59335,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.101",
-                "description": " Vrije spreiddraai v.o. aan de LL of de HL tot vrije steun ",
+                "description": "Vrije spreiddraai v.o. aan de LL of de HL tot vrije steun",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "A",
@@ -59350,7 +59350,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.201",
-                "description": " Kip aan HL, via vrije spreidsteun - zwaaien /heffen tot handstand en \u00bd draai (180\u00ba) in handstandfase  ",
+                "description": "Kip aan HL, via vrije spreidsteun - zwaaien /heffen tot handstand en \u00bd draai (180\u00ba) in handstandfase",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "B",
@@ -59367,7 +59367,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.301",
-                "description": " Stalder v.o. tot handstand, ook met \u00bd draai (180\u00b0) ",
+                "description": "Stalder v.o. tot handstand, ook met \u00bd draai (180\u00b0)",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "C",
@@ -59382,7 +59382,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.401",
-                "description": " Stalder v.o. met 1/1 draai (360\u00b0) tot handstand  ",
+                "description": "Stalder v.o. met 1/1 draai (360\u00b0) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59399,7 +59399,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.302",
-                "description": " Vrije spreiddraai a.o. aan de HL met vlucht tot zweefhang aan de LL ",
+                "description": "Vrije spreiddraai a.o. aan de HL met vlucht tot zweefhang aan de LL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "C",
@@ -59416,7 +59416,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.402",
-                "description": " Vrije spreiddraai a.o. aan de HL met vlucht tot handstand op de LL  ",
+                "description": "Vrije spreiddraai a.o. aan de HL met vlucht tot handstand op de LL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59433,7 +59433,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.502",
-                "description": " Stalder a.o. aan de HL met contraspreiden achterwaarts over de HL tot strekhang ",
+                "description": "Stalder a.o. aan de HL met contraspreiden achterwaarts over de HL tot strekhang",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59450,7 +59450,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.103",
-                "description": " Vrije spreiddraai v.o. in ellegreep tot vrije steun ",
+                "description": "Vrije spreiddraai v.o. in ellegreep tot vrije steun",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "A",
@@ -59465,7 +59465,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.403",
-                "description": " Stalder v.o. in ellegreep tot handstand, ook met \u00bd draai (180\u00b0) tot handstand ",
+                "description": "Stalder v.o. in ellegreep tot handstand, ook met \u00bd draai (180\u00b0) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59483,7 +59483,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.503",
-                "description": " Stalder v.o. in ellegreep met 1/1 draai (360\u00ba) tot handstand ",
+                "description": "Stalder v.o. in ellegreep met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59498,7 +59498,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.104",
-                "description": " Vrije spreiddraai a.o. aan de tot vrije steun ",
+                "description": "Vrije spreiddraai a.o. aan de tot vrije steun",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "A",
@@ -59515,7 +59515,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.304",
-                "description": " Stalder a.o. tot handstand, ook met gesprongen greepwissel in handstandfase of met \u00bd draai (180\u00ba) tot handstand  ",
+                "description": "Stalder a.o. tot handstand, ook met gesprongen greepwissel in handstandfase of met \u00bd draai (180\u00ba) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "C",
@@ -59535,7 +59535,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.404",
-                "description": " Stalder a.o. met 1/1 draai (360\u00b0) tot handstand  ",
+                "description": "Stalder a.o. met 1/1 draai (360\u00b0) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59552,7 +59552,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.504",
-                "description": " Stalder a.o. met 1\u00bd draai (540\u00b0) tot handstand ",
+                "description": "Stalder a.o. met 1\u00bd draai (540\u00b0) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59569,7 +59569,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.205",
-                "description": " Met gezicht naar binnen - stalder a.o. met vlucht en contrabeweging tot hang aan de HL  ",
+                "description": "Met gezicht naar binnen - stalder a.o. met vlucht en contrabeweging tot hang aan de HL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "B",
@@ -59586,7 +59586,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.305",
-                "description": " Met gezicht naar binnen - stalder a.o. met hecht tot strekhang aan de HL  ",
+                "description": "Met gezicht naar binnen - stalder a.o. met hecht tot strekhang aan de HL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "C",
@@ -59603,7 +59603,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.405",
-                "description": " Met gezicht naar buiten aan de LL - stalder a.o. door handstand met vlucht tot strekhang aan de HL ",
+                "description": "Met gezicht naar buiten aan de LL - stalder a.o. door handstand met vlucht tot strekhang aan de HL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59620,7 +59620,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.505",
-                "description": " Stalder a.o. door handstand met \u00bd draai in vlucht tot strekhang aan de HL  ",
+                "description": "Stalder a.o. door handstand met \u00bd draai in vlucht tot strekhang aan de HL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59637,7 +59637,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.106",
-                "description": " Ruglingse streksteun - gehoekte zitdraai v.o. tot ruglingse streksteun ",
+                "description": "Ruglingse streksteun - gehoekte zitdraai v.o. tot ruglingse streksteun",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "A",
@@ -59654,7 +59654,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.406",
-                "description": " Vrije hoekdraai v.o. tot handstand, ook met \u00bd draai (180\u00ba) tot handstand ",
+                "description": "Vrije hoekdraai v.o. tot handstand, ook met \u00bd draai (180\u00ba) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59672,7 +59672,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.506",
-                "description": " Vrije hoekdraai v.o. met 1/1 draai (360\u00ba) tot handstand  ",
+                "description": "Vrije hoekdraai v.o. met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59689,7 +59689,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.107",
-                "description": " Ruglingse streksteun - gehoekte zitdraai a.o. tot ruglingse streksteun  ",
+                "description": "Ruglingse streksteun - gehoekte zitdraai a.o. tot ruglingse streksteun",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "A",
@@ -59705,7 +59705,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.407",
-                "description": " Vrije hoekdraai a.o. tot handstand, ook met \u00bd draai (180\u00ba) tot handstand  ",
+                "description": "Vrije hoekdraai a.o. tot handstand, ook met \u00bd draai (180\u00ba) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "D",
@@ -59723,7 +59723,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.507",
-                "description": " Vrije hoekdraai a.o. met 1/1 draai (360\u00ba) tot handstand  ",
+                "description": "Vrije hoekdraai a.o. met 1/1 draai (360\u00ba) tot handstand",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59740,7 +59740,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.208",
-                "description": " Vrije hoekdraai a.o. aan de LL met contrabeweging en vlucht tot strekhang aan de HL  ",
+                "description": "Vrije hoekdraai a.o. aan de LL met contrabeweging en vlucht tot strekhang aan de HL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "B",
@@ -59757,7 +59757,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.308",
-                "description": " Vrije hoekdraai a.o. aan de LL met hecht vlucht tot strekhang aan de HL ",
+                "description": "Vrije hoekdraai a.o. aan de LL met hecht vlucht tot strekhang aan de HL",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "C",
@@ -59774,7 +59774,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.508",
-                "description": " Vrije hoekdraai a.o. tot handstand met vlucht tot strekhang aan de HL, ook met \u00bd draai (180\u00b0)  Vrije hoekdraai a.o. met gespreide contravlucht (open heupen voor de vlucht) over de HL tot strekhang ",
+                "description": "Vrije hoekdraai a.o. tot handstand met vlucht tot strekhang aan de HL, ook met \u00bd draai (180\u00b0) Vrije hoekdraai a.o. met gespreide contravlucht (open heupen voor de vlucht) over de HL tot strekhang",
                 "group_number": "4",
                 "group_name": "Stalderdraaien",
                 "difficulty": "E",
@@ -59795,7 +59795,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.101",
-                "description": " Ruglingse streksteun op de lage ligger of hoge ligger - gehoekte zitdraai v.o. met uitspreiden tot hang aan dezelfde ligger ",
+                "description": "Ruglingse streksteun op de lage ligger of hoge ligger - gehoekte zitdraai v.o. met uitspreiden tot hang aan dezelfde ligger",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "A",
@@ -59812,7 +59812,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.301",
-                "description": " Streksteun ruglings op de HL aan de buitenzijde - draai a.o. tot vouwhangzwaai of gehoekte zitdraai v.o. - uitspreiden met vluchtfase over de LL tot zweefhang  Idem streksteun ruglings op de LL aan de buitenzijde \u2013 gehoekte zitdraai v.o. met uitspreiden en greepwissel tot strekhang aan de HL  ",
+                "description": "Streksteun ruglings op de HL aan de buitenzijde - draai a.o. tot vouwhangzwaai of gehoekte zitdraai v.o. - uitspreiden met vluchtfase over de LL tot zweefhang Idem streksteun ruglings op de LL aan de buitenzijde - gehoekte zitdraai v.o. met uitspreiden en greepwissel tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -59833,7 +59833,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.501",
-                "description": " Ruglingse streksteun op de HL - gehoekte zitdraai v.o. door vrije uitgestrekte steun (in ellegreep) in de handstandfase (Adler), ook met \u00bd draai (180\u00b0)  ",
+                "description": "Ruglingse streksteun op de HL - gehoekte zitdraai v.o. door vrije uitgestrekte steun (in ellegreep) in de handstandfase (Adler), ook met \u00bd draai (180\u00b0)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "E",
@@ -59851,7 +59851,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.202",
-                "description": " Ruglingse streksteun op de HL aan de binnenzijde - gehoekte zitdraai a.o. met greepwissel tot zweef-hang aan de LL ",
+                "description": "Ruglingse streksteun op de HL aan de binnenzijde - gehoekte zitdraai a.o. met greepwissel tot zweef-hang aan de LL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "B",
@@ -59868,7 +59868,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.302",
-                "description": " Vrije ruglingse hoeksteun op de HL (benen gesloten) - volledige draai a.o. tot in vrije ruglingse steun op de HL (Steinemann-draai)  ",
+                "description": "Vrije ruglingse hoeksteun op de HL (benen gesloten) - volledige draai a.o. tot in vrije ruglingse steun op de HL (Steinemann-draai)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -59885,7 +59885,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.402",
-                "description": " Vrije ruglingse hoeksteun op de HL (benen gesloten) -volledige draai a.o. aan de HL - doorgaan door vrije ruglingse hoeksteun ao over de HL tot strekhang aan de HL  Vanuit handstand vrije hoekdraai a.o. tot In vrije ruglingse hoeksteun ",
+                "description": "Vrije ruglingse hoeksteun op de HL (benen gesloten) -volledige draai a.o. aan de HL - doorgaan door vrije ruglingse hoeksteun ao over de HL tot strekhang aan de HL Vanuit handstand vrije hoekdraai a.o. tot In vrije ruglingse hoeksteun",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -59904,7 +59904,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.502",
-                "description": " Vrije ruglingse hoeksteun op de HL (benen gesloten) -draai a.o. aan de HL - doorgaan tot salto a.o. gestrekt (of gehoekt) tussen de liggers tot vrije streksteun op de LL -draai a.o. aan de HL - \u00bd draai (180\u00b0) met vluchtfase tot handstand op de LL  ",
+                "description": "Vrije ruglingse hoeksteun op de HL (benen gesloten) -draai a.o. aan de HL - doorgaan tot salto a.o. gestrekt (of gehoekt) tussen de liggers tot vrije streksteun op de LL -draai a.o. aan de HL - \u00bd draai (180\u00b0) met vluchtfase tot handstand op de LL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "E",
@@ -59923,7 +59923,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.303",
-                "description": " Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met terughoeken achterwaarts tot strekhang aan de HL  ",
+                "description": "Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met terughoeken achterwaarts tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -59940,7 +59940,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.403",
-                "description": " Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met contra-vluchtfase achterwaarts gespreid tot strekhang aan de HL  ",
+                "description": "Vrije ruglingse hoeksteun (benen gesloten) op de HL - volledige draai a.o. met contra-vluchtfase achterwaarts gespreid tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -59957,7 +59957,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.104",
-                "description": " Disloqueren (Schleudern) uit vouwhangzwaai a.o. aan de HL tot strekhang aan de HL ",
+                "description": "Disloqueren (Schleudern) uit vouwhangzwaai a.o. aan de HL tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "A",
@@ -59974,7 +59974,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.304",
-                "description": " Schleudern tot bijna handstand met omspringen tot in bovengreep aan de HL Doorsteken op HL, disloqueren en vlucht met \u00bd draai tussen de liggers tot hang aan LL ",
+                "description": "Schleudern tot bijna handstand met omspringen tot in bovengreep aan de HL Doorsteken op HL, disloqueren en vlucht met \u00bd draai tussen de liggers tot hang aan LL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -59993,7 +59993,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.404",
-                "description": " Vouwhangzwaai a.o. aan de HL - disloqueren met vluchtfase tot handstand op de LL, ook vanuit doorsteken  ",
+                "description": "Vouwhangzwaai a.o. aan de HL - disloqueren met vluchtfase tot handstand op de LL, ook vanuit doorsteken",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -60012,7 +60012,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.105",
-                "description": " Zolendraai v.o. (gehoekt of gespreid) ",
+                "description": "Zolendraai v.o. (gehoekt of gespreid)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "A",
@@ -60029,7 +60029,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.305",
-                "description": " Gehoekte zolendraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) tot handstand ",
+                "description": "Gehoekte zolendraai v.o. tot handstand, ook met \u00bd draai (180\u00b0) tot handstand",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -60048,7 +60048,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.405",
-                "description": " Gehoekte zolendraai v.o. met 1/1 draai (360\u00b0) tot handstand  ",
+                "description": "Gehoekte zolendraai v.o. met 1/1 draai (360\u00b0) tot handstand",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -60065,7 +60065,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.106",
-                "description": " Zolendraai v.o. in ellegreep (gehoekt of gespreid) ",
+                "description": "Zolendraai v.o. in ellegreep (gehoekt of gespreid)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "A",
@@ -60080,7 +60080,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.306",
-                "description": " Gehoekte zolendraai v.o. tot handstand in ellegreep, ook met \u00bd draai (180\uf0b0)  ",
+                "description": "Gehoekte zolendraai v.o. tot handstand in ellegreep, ook met \u00bd draai (180\uf0b0)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -60098,7 +60098,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.406",
-                "description": " Gehoekte zolendraai v.o in ellegreep met 1/1 draai (360\uf0b0) tot handstand  ",
+                "description": "Gehoekte zolendraai v.o in ellegreep met 1/1 draai (360\uf0b0) tot handstand",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -60115,7 +60115,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.207",
-                "description": " Onderzwaai aan de LL (met steun van de voeten) met contravlucht voorwaarts tot strekhang aan de HL  ",
+                "description": "Onderzwaai aan de LL (met steun van de voeten) met contravlucht voorwaarts tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "B",
@@ -60132,7 +60132,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.307",
-                "description": " Onderzwaai aan de HL of LL met 1\u00bd draai (540\u00b0) tot strek- of zweefhang  ",
+                "description": "Onderzwaai aan de HL of LL met 1\u00bd draai (540\u00b0) tot strek- of zweefhang",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -60149,7 +60149,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.607",
-                "description": " Met gezicht naar buiten - onderzwaai aan de HL met voeten op de ligger - contra-salto v.o. met gespreide benen tot strekhang aan de HL in ondergreep  ",
+                "description": "Met gezicht naar buiten - onderzwaai aan de HL met voeten op de ligger - contra-salto v.o. met gespreide benen tot strekhang aan de HL in ondergreep",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "F",
@@ -60166,7 +60166,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.108",
-                "description": " Gehoekte zolendraai a.o. (gehoekt of gespreid)  ",
+                "description": "Gehoekte zolendraai a.o. (gehoekt of gespreid)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "A",
@@ -60182,7 +60182,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.308",
-                "description": " Gehoekte zolendraai a.o. tot handstand, ook met greepwissel tot ondergreep, ook met \u00bd draai (180\uf0b0) ",
+                "description": "Gehoekte zolendraai a.o. tot handstand, ook met greepwissel tot ondergreep, ook met \u00bd draai (180\uf0b0)",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "C",
@@ -60203,7 +60203,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.408",
-                "description": " Gehoekte zolendraai a.o. met 1/1 draai (360\u00b0) tot handstand ",
+                "description": "Gehoekte zolendraai a.o. met 1/1 draai (360\u00b0) tot handstand",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -60220,7 +60220,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.508",
-                "description": " Gehoekte zolendraai a.o. met 1\u00bd draai (540\u00b0) tot handstand  ",
+                "description": "Gehoekte zolendraai a.o. met 1\u00bd draai (540\u00b0) tot handstand",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "E",
@@ -60237,7 +60237,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.409",
-                "description": " Streksteun voorlings aan de binnenzijde van de LL - gehoekte zolendraai a.o. door handstand met vlucht tot strekhang aan de HL  ",
+                "description": "Streksteun voorlings aan de binnenzijde van de LL - gehoekte zolendraai a.o. door handstand met vlucht tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -60254,7 +60254,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.509",
-                "description": " Met gezicht naar buiten \u2013 gehoekte zolendraai a.o. aan de LL door handstand met vlucht en \u00bd draai (180\u00ba) of 1/1 draai (360\u00b0) tot hang aan de HL ",
+                "description": "Met gezicht naar buiten - gehoekte zolendraai a.o. aan de LL door handstand met vlucht en \u00bd draai (180\u00ba) of 1/1 draai (360\u00b0) tot hang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "E",
@@ -60273,7 +60273,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.410",
-                "description": " Gehoekte zolendraai a.o. met contraspreiden tot strekhang aan de HL  ",
+                "description": "Gehoekte zolendraai a.o. met contraspreiden tot strekhang aan de HL",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "D",
@@ -60290,7 +60290,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.510",
-                "description": " Gehoekte zolendraai a.o. met gehoekte hecht over de HL tot strekhang aan de HL  Gehoekte zolendraai a.o. met contraspreiden - rugwaarts over de HL met \u00bd draai (180\u00ba) tot strekhang aan de HL in gemengde ellegreep ",
+                "description": "Gehoekte zolendraai a.o. met gehoekte hecht over de HL tot strekhang aan de HL Gehoekte zolendraai a.o. met contraspreiden - rugwaarts over de HL met \u00bd draai (180\u00ba) tot strekhang aan de HL in gemengde ellegreep",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "E",
@@ -60308,7 +60308,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.610",
-                "description": " Gehoekte zolendraai a.o. met gestrekte contravlucht \u2013 rugwaarts in gestrekte positie over de HL tot strekhang  ",
+                "description": "Gehoekte zolendraai a.o. met gestrekte contravlucht - rugwaarts in gestrekte positie over de HL tot strekhang",
                 "group_number": "5",
                 "group_name": "Gehoekte draaien",
                 "difficulty": "F",
@@ -60325,7 +60325,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.101",
-                "description": " Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0) ",
+                "description": "Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -60343,7 +60343,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.201",
-                "description": " Vanaf HL - onderzwaai met salto v.o. gehurkt of gehoekt  ",
+                "description": "Vanaf HL - onderzwaai met salto v.o. gehurkt of gehoekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -60361,7 +60361,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.301",
-                "description": " Vanaf HL - onderzwaai - salto v.o. gehurkt of gehoekt met \u00bd (180\u00ba) of 1/1 draai (360\u00b0)  ",
+                "description": "Vanaf HL - onderzwaai - salto v.o. gehurkt of gehoekt met \u00bd (180\u00ba) of 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60377,7 +60377,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.401",
-                "description": " Vanaf HL - onderzwaai - salto v.o. gehurkt met 1\u00bd draai (540\u00b0)  Onderzwaai \u2013 gestrekte salto v.o. met \u00bd draai (180\u00b0) ",
+                "description": "Vanaf HL - onderzwaai - salto v.o. gehurkt met 1\u00bd draai (540\u00b0) Onderzwaai - gestrekte salto v.o. met \u00bd draai (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60395,7 +60395,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.102",
-                "description": " Vanaf HL \u2013 vrije onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0) ",
+                "description": "Vanaf HL - vrije onderzwaai met \u00bd draai (180\u00b0) of 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -60413,7 +60413,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.302",
-                "description": " Vanaf HL - vrije onderzwaai met salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)  Vrije spreiddraai v.o. met salto v.o. gehurkt, ook met \u00bd draai (180\u00b0) ",
+                "description": "Vanaf HL - vrije onderzwaai met salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0) Vrije spreiddraai v.o. met salto v.o. gehurkt, ook met \u00bd draai (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60436,7 +60436,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.402",
-                "description": " Vanaf HL - vrije onderzwaai met salto v.o. gehurkt met 1/1 draai (360\u00b0)  Vrije gehoekte draai a.o. gevolgd door salto v.o. gestrekt met \u00bd draai (180\u00ba) Vanaf HL - vrije spreiddraai met salto v.o. gehurkt met 1/1 draai (360\u00b0) ",
+                "description": "Vanaf HL - vrije onderzwaai met salto v.o. gehurkt met 1/1 draai (360\u00b0) Vrije gehoekte draai a.o. gevolgd door salto v.o. gestrekt met \u00bd draai (180\u00ba) Vanaf HL - vrije spreiddraai met salto v.o. gehurkt met 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60453,7 +60453,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.502",
-                "description": " Vanaf HL \u2013 vrije onderzwaai met salto v.o. gehurkt met 1\u00bd draai (540\u00b0) ",
+                "description": "Vanaf HL - vrije onderzwaai met salto v.o. gehurkt met 1\u00bd draai (540\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60470,7 +60470,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.303",
-                "description": " Vanaf HL onderzwaai met \u00bd draai (180\u00b0) of vrije onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gehurkt of gehoekt.  ",
+                "description": "Vanaf HL onderzwaai met \u00bd draai (180\u00b0) of vrije onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gehurkt of gehoekt.",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60489,7 +60489,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.403",
-                "description": " Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gestrekt  Vanaf HL - vrije onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gestrekt  Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gehurkt met 1/1 draai (360\u00b0)  ",
+                "description": "Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gestrekt Vanaf HL - vrije onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gestrekt Vanaf HL - onderzwaai met \u00bd draai (180\u00b0) gevolgd door salto a.o. gehurkt met 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60510,7 +60510,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.104",
-                "description": " Voorzwaai - salto a.o. gehurkt, gehoekt of gestrekt  ",
+                "description": "Voorzwaai - salto a.o. gehurkt, gehoekt of gestrekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -60527,7 +60527,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.204",
-                "description": " Voorzwaai - salto a.o. gehurkt of gestrekt met \u00bd draai (180\u00b0) of met 1/1 draai (360\u00b0)  ",
+                "description": "Voorzwaai - salto a.o. gehurkt of gestrekt met \u00bd draai (180\u00b0) of met 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -60546,7 +60546,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.304",
-                "description": " Voorzwaai - salto a.o. gestrekt met 1\u00bd draai (540\u00b0) of 2/1 draai (720\u00b0)  ",
+                "description": "Voorzwaai - salto a.o. gestrekt met 1\u00bd draai (540\u00b0) of 2/1 draai (720\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60565,7 +60565,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.404",
-                "description": " Voorzwaai - salto a.o. gestrekt met 2\u00bd draai (900\u00ba)  ",
+                "description": "Voorzwaai - salto a.o. gestrekt met 2\u00bd draai (900\u00ba)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60582,7 +60582,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.504",
-                "description": " Voorzwaai \u2013 salto a.o. gestrekt met 3/1 draai (1080\u00b0)  ",
+                "description": "Voorzwaai - salto a.o. gestrekt met 3/1 draai (1080\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60599,7 +60599,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.205",
-                "description": " Voorzwaai - dubbele salto a.o. gehurkt  ",
+                "description": "Voorzwaai - dubbele salto a.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -60616,7 +60616,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.305",
-                "description": " Voorzwaai - dubbele salto a.o. gehoekt  ",
+                "description": "Voorzwaai - dubbele salto a.o. gehoekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60633,7 +60633,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.405",
-                "description": " Voorzwaai - dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto of in de tweede salto  ",
+                "description": "Voorzwaai - dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto of in de tweede salto",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60652,7 +60652,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.505",
-                "description": " Voorzwaai \u2013 dubbele salto a.o. gehurkt met 1 \u00bd draai (540\u00b0)  ",
+                "description": "Voorzwaai - dubbele salto a.o. gehurkt met 1 \u00bd draai (540\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60669,7 +60669,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.605",
-                "description": " Voorzwaai \u2013 dubbele salto a.o. gehurkt met 2/1 draai (720\u00b0)  ",
+                "description": "Voorzwaai - dubbele salto a.o. gehurkt met 2/1 draai (720\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "F",
@@ -60686,7 +60686,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.406",
-                "description": " Voorzwaai dubbele salto a.o. gestrekt  ",
+                "description": "Voorzwaai dubbele salto a.o. gestrekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60701,7 +60701,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.506",
-                "description": " Voorzwaai dubbele salto a.o. gestrekt met 1/1 draai (360\u00b0) in de eerste of tweede salto ",
+                "description": "Voorzwaai dubbele salto a.o. gestrekt met 1/1 draai (360\u00b0) in de eerste of tweede salto",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60716,7 +60716,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.407",
-                "description": " Voorzwaai - salto a.o. gehurkt met \u00bd draai (180\u00b0) doorgaand in salto v.o. gehurkt Voorzwaai met \u00bd draai (180\u00b0) \u2013 dubbele salto v.o. gehurkt.  ",
+                "description": "Voorzwaai - salto a.o. gehurkt met \u00bd draai (180\u00b0) doorgaand in salto v.o. gehurkt Voorzwaai met \u00bd draai (180\u00b0) - dubbele salto v.o. gehurkt.",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60735,7 +60735,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.507",
-                "description": " Voorzwaai - salto a.o. gestrekt met \u00bd draai (180\u00ba) doorgaand in salto v.o. gestrekt Voorzwaai met \u00bd draai (180\u00ba) \u2013dubbele salto v.o. gehoekt  ",
+                "description": "Voorzwaai - salto a.o. gestrekt met \u00bd draai (180\u00ba) doorgaand in salto v.o. gestrekt Voorzwaai met \u00bd draai (180\u00ba) -dubbele salto v.o. gehoekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60754,7 +60754,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.108",
-                "description": " Achterzwaai - salto v.o. gehurkt, gehoekt of gestrekt of vrije spreiddraai v.o. gevolgd door salto v.o. gehurkt ",
+                "description": "Achterzwaai - salto v.o. gehurkt, gehoekt of gestrekt of vrije spreiddraai v.o. gevolgd door salto v.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -60773,7 +60773,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.208",
-                "description": " Achterzwaai - salto v.o. gehurkt of gestrekt met \u00bd (180\u00b0) of 1/1 (360\u00b0) draai ",
+                "description": "Achterzwaai - salto v.o. gehurkt of gestrekt met \u00bd (180\u00b0) of 1/1 (360\u00b0) draai",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -60792,7 +60792,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.308",
-                "description": " Achterzwaai - salto v.o. gestrekt met 1\u00bd draai (540\u00b0) of met 2/1 draai (720\u00ba)  Vanuit ellegreep, zwaai a.o. \u00bd draai (180\u00b0) dubbele salto a.o. gehurkt.  ",
+                "description": "Achterzwaai - salto v.o. gestrekt met 1\u00bd draai (540\u00b0) of met 2/1 draai (720\u00ba) Vanuit ellegreep, zwaai a.o. \u00bd draai (180\u00b0) dubbele salto a.o. gehurkt.",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60812,7 +60812,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.408",
-                "description": " Achterzwaai - dubbele salto v.o. gehurkt  ",
+                "description": "Achterzwaai - dubbele salto v.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60829,7 +60829,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.508",
-                "description": " Achterzwaai - dubbele salto v.o. gehurkt met \u00bd draai (180\u00b0) - ook salto v.o. met \u00bd draai (180\u00b0) overgaand in salto a.o. gehurkt. ",
+                "description": "Achterzwaai - dubbele salto v.o. gehurkt met \u00bd draai (180\u00b0) - ook salto v.o. met \u00bd draai (180\u00b0) overgaand in salto a.o. gehurkt.",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60847,7 +60847,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.209",
-                "description": " Heupdraai a.o. aan de LL of HL \u2013 afhechten, ook vanuit vrije heupdraai a.o.  ",
+                "description": "Heupdraai a.o. aan de LL of HL - afhechten, ook vanuit vrije heupdraai a.o.",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -60860,7 +60860,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.309",
-                "description": " Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met 1/1 draai (360\u00ba)  ",
+                "description": "Heupdraai a.o. (ook vrij) aan de LL of HL - afhechten met 1/1 draai (360\u00ba)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60873,7 +60873,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.409",
-                "description": " Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met salto a.o. gehurkt ",
+                "description": "Heupdraai a.o. (ook vrij) aan de LL of HL - afhechten met salto a.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -60886,7 +60886,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.509",
-                "description": " Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met \u00bd draai (180\u00b0) \u2013 salto v.o. ",
+                "description": "Heupdraai a.o. (ook vrij) aan de LL of HL - afhechten met \u00bd draai (180\u00b0) - salto v.o.",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -60899,7 +60899,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.609",
-                "description": " Heupdraai a.o. (ook vrij) aan de LL of HL \u2013 afhechten met salto a.o. met 1/1 draai (360\u00b0)  ",
+                "description": "Heupdraai a.o. (ook vrij) aan de LL of HL - afhechten met salto a.o. met 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "F",
@@ -60912,7 +60912,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.210",
-                "description": " Streksteun borstlings op de HL - achterzwaai - salto v.o. gehurkt  ",
+                "description": "Streksteun borstlings op de HL - achterzwaai - salto v.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -60925,7 +60925,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.310",
-                "description": " Streksteun borstlings op de HL - achterzwaai - salto v.o. gehoekt of salto a.o. gehurkt of gehoekt ",
+                "description": "Streksteun borstlings op de HL - achterzwaai - salto v.o. gehoekt of salto a.o. gehurkt of gehoekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -60938,7 +60938,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.001",
-                "description": " Borstwaartsomtrekken, afzet 1 of 2 benen  ",
+                "description": "Borstwaartsomtrekken, afzet 1 of 2 benen",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "TA",
@@ -60951,7 +60951,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.002",
-                "description": " Opspringen tot steun Geldt alleen voor supplement 6 & 7  ",
+                "description": "Opspringen tot steun Geldt alleen voor supplement 6 & 7",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "TA",
@@ -60964,7 +60964,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.007",
-                "description": " Vanuit aanloop en afzet met 2 benen heupdraai voorover ",
+                "description": "Vanuit aanloop en afzet met 2 benen heupdraai voorover",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "TA",
@@ -60977,7 +60977,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.001",
-                "description": " Achteropzwaai horizontaal - Geldt voor supplement E, F, G, H en supplement 3 t/m 7 als MW - Geldt voor supplement D niet als MW  ",
+                "description": "Achteropzwaai horizontaal - Geldt voor supplement E, F, G, H en supplement 3 t/m 7 als MW - Geldt voor supplement D niet als MW",
                 "group_number": "2",
                 "group_name": "Achteropzwaaien en vrije heupdraaien",
                 "difficulty": "TA",
@@ -60990,7 +60990,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.001",
-                "description": " 1x kurbet; in stille hang overstrekte kurbethouding (hol) (1 sec.) gevolgd door gesloten kurbethouding (bol) (1 sec.) Geldt alleen voor supplement 3 t/m 7 ",
+                "description": "1x kurbet; in stille hang overstrekte kurbethouding (hol) (1 sec.) gevolgd door gesloten kurbethouding (bol) (1 sec.) Geldt alleen voor supplement 3 t/m 7",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "TA",
@@ -61003,7 +61003,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.002",
-                "description": " Strekhangzwaai (voorzwaai achterzwaai) Geldt all\u00e9\u00e9n voor supplement F, G en H en supplement 3 t/m 7 als MW  ",
+                "description": "Strekhangzwaai (voorzwaai achterzwaai) Geldt all\u00e9\u00e9n voor supplement F, G en H en supplement 3 t/m 7 als MW",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "TA",
@@ -61016,7 +61016,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.003",
-                "description": " Neerzwaai tussen de liggers, voorzwaai met \u00bd draai (180\u00b0) op hoge ligger hoogte (horizontaal)  ",
+                "description": "Neerzwaai tussen de liggers, voorzwaai met \u00bd draai (180\u00b0) op hoge ligger hoogte (horizontaal)",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "TA",
@@ -61029,7 +61029,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.004",
-                "description": " Voorzwaai borstwaartsom (driekwartreus)  ",
+                "description": "Voorzwaai borstwaartsom (driekwartreus)",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "TA",
@@ -61042,7 +61042,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.005",
-                "description": " Zweefhangzwaai aan de lage ligger met \u00bd draai (180\u00b0) om de lengte as ",
+                "description": "Zweefhangzwaai aan de lage ligger met \u00bd draai (180\u00b0) om de lengte as",
                 "group_number": "3",
                 "group_name": "Reuzendraaien",
                 "difficulty": "TA",
@@ -61057,7 +61057,7 @@ export const allElements: LanguageType = {
         "b": [
             {
                 "id": "1.101",
-                "description": " (D) Vrij opspringen tot stand op 1 been \u2013 afzet vanaf \u00e9\u00e9n been \u2013 arabesque houding moet aangegeven worden (been minimaal op horizontaal) ",
+                "description": "(D) Vrij opspringen tot stand op 1 been - afzet vanaf \u00e9\u00e9n been - arabesque houding moet aangegeven worden (been minimaal op horizontaal)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61074,7 +61074,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.201",
-                "description": " (D) Spagaatsprong voorwaarts (180\u00b0)  ",
+                "description": "(D) Spagaatsprong voorwaarts (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61091,7 +61091,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.401",
-                "description": " (D) Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat ",
+                "description": "(D) Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61108,7 +61108,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.102",
-                "description": " (D) Dievensprong - afzet van 1 been \u2013 vrije sprong over de balk, het ene been na het andere tot steun ruglings - aanloop 90\u00b0 t.o.v de balk Of Schaarsprong over de balk tot buitendwarszit \u2013 aanloop schuin t.o.v. balk  ",
+                "description": "(D) Dievensprong - afzet van 1 been - vrije sprong over de balk, het ene been na het andere tot steun ruglings - aanloop 90\u00b0 t.o.v de balk Of Schaarsprong over de balk tot buitendwarszit - aanloop schuin t.o.v. balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61127,7 +61127,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.302",
-                "description": " (D) Vrij opspringen met \u00bd draai (180\u00b0) in de vluchtfase tot stand - afzet met 2 benen  ",
+                "description": "(D) Vrij opspringen met \u00bd draai (180\u00b0) in de vluchtfase tot stand - afzet met 2 benen",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61143,7 +61143,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.402",
-                "description": " (D) Vrij opspringen met 1/1 draai (360\u00b0) in de vluchtfase tot stand, afzet van 2 benen - aanloop aan de punt of schuin t.o.v. de balk  ",
+                "description": "(D) Vrij opspringen met 1/1 draai (360\u00b0) in de vluchtfase tot stand, afzet van 2 benen - aanloop aan de punt of schuin t.o.v. de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61159,7 +61159,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.103",
-                "description": " Flanken tot parallelsteun ruglings, ook met \u00bd draai (180\u00ba) Opspringen met handensteun, \u00be draai (270\u00b0) in steun tot spreidzit op de dij  ",
+                "description": "Flanken tot parallelsteun ruglings, ook met \u00bd draai (180\u00ba) Opspringen met handensteun, \u00be draai (270\u00b0) in steun tot spreidzit op de dij",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61180,7 +61180,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.303",
-                "description": " Twee vliegende scharen  ",
+                "description": "Twee vliegende scharen",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61198,7 +61198,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.403",
-                "description": " Drie vliegende scharen  Twee kringflanken gevolgd door kringspreiden ",
+                "description": "Drie vliegende scharen Twee kringflanken gevolgd door kringspreiden",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61219,7 +61219,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.204",
-                "description": " (D)  Sprong met \u00bd draai (180\u00b0) tot vrije spreidhoeksteun of sprong achterwaarts door spreidhouding over de balk tot steun voorlings of tot parallelspagaat - aanloop 90\u00b0 t.o.v. de balk  ",
+                "description": "(D) Sprong met \u00bd draai (180\u00b0) tot vrije spreidhoeksteun of sprong achterwaarts door spreidhouding over de balk tot steun voorlings of tot parallelspagaat - aanloop 90\u00b0 t.o.v. de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61239,7 +61239,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.304",
-                "description": " (D)  Arabier, spreidhoeksprong rugwaarts over de balk - heupdraai a.o. - aanloop 90\u00b0 t.o.v. de balk  ",
+                "description": "(D) Arabier, spreidhoeksprong rugwaarts over de balk - heupdraai a.o. - aanloop 90\u00b0 t.o.v. de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61256,7 +61256,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.105",
-                "description": " (D)  Sprong (met handensteun) tot parallelspagaat of spreidhoekzit met afzet van 2 benen. Spagaatpositie moet getoond worden als eindpositie zonder steun van de handen. In spreidhoekzit moet de romp de balk raken.  Sprong tot dwarsspagaat met afzet van 1 been of 2 benen \u2013 aanloop schuin t.o.v. de balk (met handensteun) ",
+                "description": "(D) Sprong (met handensteun) tot parallelspagaat of spreidhoekzit met afzet van 2 benen. Spagaatpositie moet getoond worden als eindpositie zonder steun van de handen. In spreidhoekzit moet de romp de balk raken. Sprong tot dwarsspagaat met afzet van 1 been of 2 benen - aanloop schuin t.o.v. de balk (met handensteun)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61276,7 +61276,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.305",
-                "description": " (D) Vrij opspringen tot dwarsspagaat, afzet van 2 benen - aanloop schuin t.o.v. balk Vrij opspringen met beenwissel tot dwarsspagaat - aanloop schuin t.o.v. balk  ",
+                "description": "(D) Vrij opspringen tot dwarsspagaat, afzet van 2 benen - aanloop schuin t.o.v. balk Vrij opspringen met beenwissel tot dwarsspagaat - aanloop schuin t.o.v. balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61294,7 +61294,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.405",
-                "description": " (D) Wisselspagaatsprong met \u00bd draai (180\u00b0) tot dwarsspagaat zonder gebruik van de handen \u2013 aanloop schuin t.o.v. balk ",
+                "description": "(D) Wisselspagaatsprong met \u00bd draai (180\u00b0) tot dwarsspagaat zonder gebruik van de handen - aanloop schuin t.o.v. balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61311,7 +61311,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.106",
-                "description": "  Vanuit parallelstand voorlings \u2013 overhurken of overhoeken tot steun ruglings ",
+                "description": "Vanuit parallelstand voorlings - overhurken of overhoeken tot steun ruglings",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61329,7 +61329,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.207",
-                "description": " Sprong tot rol voorwaarts aan de punt of in het midden van de balk  Opsprong tot vrije spreidhoeksteun aan de punt van de balk - achteropzwaai tot rol voorwaarts  ",
+                "description": "Sprong tot rol voorwaarts aan de punt of in het midden van de balk Opsprong tot vrije spreidhoeksteun aan de punt van de balk - achteropzwaai tot rol voorwaarts",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61348,7 +61348,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.108",
-                "description": " Radslag met buiging van beide armen via borststand tot rijzit Vanuit stand aan de zijkant van de balk opspringen tot borststeun met beide armen gebogen ",
+                "description": "Radslag met buiging van beide armen via borststand tot rijzit Vanuit stand aan de zijkant van de balk opspringen tot borststeun met beide armen gebogen",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61367,7 +61367,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.208",
-                "description": "  Sprong met \u00bd draai over de schouder tot nekstand, \u00bd draai (180\u00b0) over de schouder tot borststand  ",
+                "description": "Sprong met \u00bd draai over de schouder tot nekstand, \u00bd draai (180\u00b0) over de schouder tot borststand",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61384,7 +61384,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.308",
-                "description": "  Sprong met \u00bd draai over de schouder tot nekstand - 1/1 draai (360\u00b0) over de schouder tot borststand of met 1 1/2 draai (540\u00b0) ",
+                "description": "Sprong met \u00bd draai over de schouder tot nekstand - 1/1 draai (360\u00b0) over de schouder tot borststand of met 1 1/2 draai (540\u00b0)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61401,7 +61401,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.309",
-                "description": " Vanuit dwarsstand, gezicht naar de punt van de balk - kopkip  Vanuit parallelstand: Sprong met gebogen heupen tot handstand (hoek) tot langzame overslag v.o. Vanuit parallelstand: Sprong met gebogen heupen tot handstand (hoek) tot handstandoverslag v.o. met landen tot uitvalstand of op 2 voeten  ",
+                "description": "Vanuit dwarsstand, gezicht naar de punt van de balk - kopkip Vanuit parallelstand: Sprong met gebogen heupen tot handstand (hoek) tot langzame overslag v.o. Vanuit parallelstand: Sprong met gebogen heupen tot handstand (hoek) tot handstandoverslag v.o. met landen tot uitvalstand of op 2 voeten",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61422,7 +61422,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.210",
-                "description": "  Springen, heffen of zwaaien tot parallel- of dwarshandstand (2 sec.) - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun ook met \u00bd draai (180\u00b0) in handstand  ",
+                "description": "Springen, heffen of zwaaien tot parallel- of dwarshandstand (2 sec.) - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun ook met \u00bd draai (180\u00b0) in handstand",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61444,7 +61444,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.310",
-                "description": "  Springen, heffen of zwaaien tot dwars- of parallelhandstand met 1/1 - 1\u00bd draai (360\u00b0 - 540\u00b0) in de handstand - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun  ",
+                "description": "Springen, heffen of zwaaien tot dwars- of parallelhandstand met 1/1 - 1\u00bd draai (360\u00b0 - 540\u00b0) in de handstand - terugkomen tot een eindpositie, met aanraken van de balk of tot vrije spreidhoeksteun",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61465,7 +61465,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.111",
-                "description": " Vrije steun voorlings met steun op 1 of beide geborgen armen (2 sec.), ook met benen in spagaatpositie  ",
+                "description": "Vrije steun voorlings met steun op 1 of beide geborgen armen (2 sec.), ook met benen in spagaatpositie",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61485,7 +61485,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.211",
-                "description": "  Vanuit parallel- of dwarsstand sprong met gebogen heupen tot vrije steun voorlings boven horizontaal op minimaal 45\u00b0 (bovenbalans) (2 sec.) \u2013 terugkomen tot eindpositie naar keuze  ",
+                "description": "Vanuit parallel- of dwarsstand sprong met gebogen heupen tot vrije steun voorlings boven horizontaal op minimaal 45\u00b0 (bovenbalans) (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61502,7 +61502,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.311",
-                "description": "  Sprong met gestrekte heupen tot bovenbalans (2 sec.)  Springen, heffen of zwaaien tot handstand - terugkomen tot bovenbalans (2 sec.), ook met \u00bd draai (180\u00b0) in handstand  Springen, heffen of zwaaien tot handstand- terugkomen tot hoge hoeksteun (2 sec.), ook met \u00bd draai (180\u00b0) in handstand  Springen, heffen of zwaaien tot handstand (2 sec.) met 1 hand loslaten tot stand op 1 voet, of met zijwaarts naar beneden zwaaien, ook met \u00bd draai (180\u00b0) in handstand  ",
+                "description": "Sprong met gestrekte heupen tot bovenbalans (2 sec.) Springen, heffen of zwaaien tot handstand - terugkomen tot bovenbalans (2 sec.), ook met \u00bd draai (180\u00b0) in handstand Springen, heffen of zwaaien tot handstand- terugkomen tot hoge hoeksteun (2 sec.), ook met \u00bd draai (180\u00b0) in handstand Springen, heffen of zwaaien tot handstand (2 sec.) met 1 hand loslaten tot stand op 1 voet, of met zijwaarts naar beneden zwaaien, ook met \u00bd draai (180\u00b0) in handstand",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61528,7 +61528,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.411",
-                "description": "  Springen, heffen of zwaaien tot dwars- of parallelhandstand - 1/1 draai (360\u00b0) in de handstand - terugkomen tot bovenbalans (2 sec.) of hoge hoeksteun (2 sec.) Springen, heffen of zwaaien tot dwars- of parallelhandstand \u2013 1/1 draai in handstand - 1 hand loslaten en zijwaarts naar beneden zwaaien ",
+                "description": "Springen, heffen of zwaaien tot dwars- of parallelhandstand - 1/1 draai (360\u00b0) in de handstand - terugkomen tot bovenbalans (2 sec.) of hoge hoeksteun (2 sec.) Springen, heffen of zwaaien tot dwars- of parallelhandstand - 1/1 draai in handstand - 1 hand loslaten en zijwaarts naar beneden zwaaien",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61555,7 +61555,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.312",
-                "description": " Handstand met grote overstrekking van de romp (2 sec.), idem gehoekt met 1 been verticaal, het andere been gebogen (2 sec.) \u2013 terugkomen tot eindpositie naar keuze Handstand dwars- of parallel met benen horizontaal \u2013 omgekeerde bovenbalans in verschillende varianten (2 sec.) \u2013 terugkomen tot eindpositie naar keuze ",
+                "description": "Handstand met grote overstrekking van de romp (2 sec.), idem gehoekt met 1 been verticaal, het andere been gebogen (2 sec.) - terugkomen tot eindpositie naar keuze Handstand dwars- of parallel met benen horizontaal - omgekeerde bovenbalans in verschillende varianten (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61576,7 +61576,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.412",
-                "description": " Springen of heffen tot parallelhandstand \u2013 langzame overslag v.o. tot parallelstand op 2 benen  ",
+                "description": "Springen of heffen tot parallelhandstand - langzame overslag v.o. tot parallelstand op 2 benen",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61594,7 +61594,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.213",
-                "description": "  Heffen tot parallelhandstand, door buigen en strekken van de benen - sprongetje met \u00bc draai (90\u00b0) tot dwarsstand \u2013 terugkomen tot eindpositie naar keuze ",
+                "description": "Heffen tot parallelhandstand, door buigen en strekken van de benen - sprongetje met \u00bc draai (90\u00b0) tot dwarsstand - terugkomen tot eindpositie naar keuze",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61610,7 +61610,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.313",
-                "description": "  Springen of heffen tot dwars- of parallelhandstand - komen tot handstand op 1 arm (2 sec.) - terugkomen tot eindpositie naar keuze ",
+                "description": "Springen of heffen tot dwars- of parallelhandstand - komen tot handstand op 1 arm (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61629,7 +61629,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.413",
-                "description": "  Springen of heffen op 1 arm tot handstand met terugkomen tot eindpositie naar keuze, ook springen of heffen tot dwars- of parallelhandstand - komen tot parallelhandstand op 1 arm (2 sec.) - terugkomen tot vrije spreidhoeksteun op 1 arm, ook met \u00bd draai ",
+                "description": "Springen of heffen op 1 arm tot handstand met terugkomen tot eindpositie naar keuze, ook springen of heffen tot dwars- of parallelhandstand - komen tot parallelhandstand op 1 arm (2 sec.) - terugkomen tot vrije spreidhoeksteun op 1 arm, ook met \u00bd draai",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61649,7 +61649,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.114",
-                "description": " Sprong tot handstand met gebogen of gestrekte benen \u2013 terugkomen tot eindpositie naar keuze ",
+                "description": "Sprong tot handstand met gebogen of gestrekte benen - terugkomen tot eindpositie naar keuze",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "A",
@@ -61666,7 +61666,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.214",
-                "description": " Radslag op 1 of beide armen  ",
+                "description": "Radslag op 1 of beide armen",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61684,7 +61684,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.314",
-                "description": "  Aanloop 90\u00b0 ten opzichte van de balk - sprong met 1/4 draai (90\u00b0) en met gestrekte heupen tot vluchtige handstand op 1 arm met direct \u00bc draai (90\u00b0) en steun op tweede arm tot parallelhandstand \u2013 terugkomen tot eindpositie naar keuze Ruglingse parallelstand (rug naar de balk), flik-flak over de balk tot in borstlingse parallelsteun, eindigen in voorwaartse steun Ruglingse parallelstand (rug naar de balk), flik-flak met \u00bd draai (180\u00b0) over de balk tot in borstlingse parallel-steun, eindigen in voorwaartse steun (vasthouden onder de balk met beide handen) ",
+                "description": "Aanloop 90\u00b0 ten opzichte van de balk - sprong met 1/4 draai (90\u00b0) en met gestrekte heupen tot vluchtige handstand op 1 arm met direct \u00bc draai (90\u00b0) en steun op tweede arm tot parallelhandstand - terugkomen tot eindpositie naar keuze Ruglingse parallelstand (rug naar de balk), flik-flak over de balk tot in borstlingse parallelsteun, eindigen in voorwaartse steun Ruglingse parallelstand (rug naar de balk), flik-flak met \u00bd draai (180\u00b0) over de balk tot in borstlingse parallel-steun, eindigen in voorwaartse steun (vasthouden onder de balk met beide handen)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61705,7 +61705,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.414",
-                "description": " Arabier voor de balk - sprong met \u00bd draai (180\u00b0) tot nabij parallel- handstand op balk - terugkomen tot eindpositie naar keuze ",
+                "description": "Arabier voor de balk - sprong met \u00bd draai (180\u00b0) tot nabij parallel- handstand op balk - terugkomen tot eindpositie naar keuze",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61722,7 +61722,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.514",
-                "description": " Arabier voor de balk \u2013 flik-flak met 1/1 draai (360\u00ba) gevolgd door heupdraai a.o. ",
+                "description": "Arabier voor de balk - flik-flak met 1/1 draai (360\u00ba) gevolgd door heupdraai a.o.",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "E",
@@ -61739,7 +61739,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.215",
-                "description": "  Overslag v.o. met kaatsen van de handen op de plank tot steun ruglings \u2013 of met \u00bc draai (90\u00b0) tot buitendwarszit op het rechter- of linkerdijbeen \u2013 aanloop 90\u00b0 ten opzichte van de balk Vrije radslag tot voorlingse steun - aanloop 90\u00b0 ten opzichte van de balk  ",
+                "description": "Overslag v.o. met kaatsen van de handen op de plank tot steun ruglings - of met \u00bc draai (90\u00b0) tot buitendwarszit op het rechter- of linkerdijbeen - aanloop 90\u00b0 ten opzichte van de balk Vrije radslag tot voorlingse steun - aanloop 90\u00b0 ten opzichte van de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "B",
@@ -61759,7 +61759,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.315",
-                "description": " Vrije overslag v.o. tot steun ruglings - of met 1/4 draai (90\u00b0) tot buitendwarszit op de dij, ",
+                "description": "Vrije overslag v.o. tot steun ruglings - of met 1/4 draai (90\u00b0) tot buitendwarszit op de dij,",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61777,7 +61777,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.416",
-                "description": " Salto v.o. gehurkt tot dwars- of parallelstand - aanloop aan uiteinde van de balk ",
+                "description": "Salto v.o. gehurkt tot dwars- of parallelstand - aanloop aan uiteinde van de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61792,7 +61792,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.516",
-                "description": " Salto v.o. gehoekt tot stand - aanloop aan uiteinde van de balk ",
+                "description": "Salto v.o. gehoekt tot stand - aanloop aan uiteinde van de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "E",
@@ -61807,7 +61807,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.616",
-                "description": " Salto v.o. gehurkt \u00bd draai (180\u00b0)  ",
+                "description": "Salto v.o. gehurkt \u00bd draai (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "F",
@@ -61824,7 +61824,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.716",
-                "description": " Arabier voor de balk (aan de punt) \u2013 afzet rugwaarts met \u00bd draai (180\u00ba) \u2013 salto v.o. gehurkt tot stand ",
+                "description": "Arabier voor de balk (aan de punt) - afzet rugwaarts met \u00bd draai (180\u00ba) - salto v.o. gehurkt tot stand",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "G",
@@ -61843,7 +61843,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.317",
-                "description": " Arabier voor de balk (aan de punt) - flik-flak door handstand tot rijzit  ",
+                "description": "Arabier voor de balk (aan de punt) - flik-flak door handstand tot rijzit",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "C",
@@ -61860,7 +61860,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.417",
-                "description": " Arabier voor de balk (aan de punt) - flik-flak door handstand - steun op 1 of 2 armen -tot dwarsstand op de balk  Arabier voor de balk (aan de punt) - flik-flak met 1/1 draai (360\u00b0) tot rijzit ",
+                "description": "Arabier voor de balk (aan de punt) - flik-flak door handstand - steun op 1 of 2 armen -tot dwarsstand op de balk Arabier voor de balk (aan de punt) - flik-flak met 1/1 draai (360\u00b0) tot rijzit",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "D",
@@ -61880,7 +61880,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.517",
-                "description": " Arabier voor de balk (aan de punt) - flik-flak met \u00be draai (270\u00b0) tot dwarsstand op de balk  ",
+                "description": "Arabier voor de balk (aan de punt) - flik-flak met \u00be draai (270\u00b0) tot dwarsstand op de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "E",
@@ -61897,7 +61897,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.518",
-                "description": "  Arabier voor de balk (aan de punt) - salto a.o. gehurkt, gehoekt of gestrekt met uitstappen tot dwars- of parallelstand op de balk  ",
+                "description": "Arabier voor de balk (aan de punt) - salto a.o. gehurkt, gehoekt of gestrekt met uitstappen tot dwars- of parallelstand op de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "E",
@@ -61917,7 +61917,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.618",
-                "description": " Arabier voor de balk (aan de punt) - salto a.o. gehurkt met 1/1 draai (360\u00b0) tot dwarsstand Arabier voor de balk (aan de punt) - salto a.o. gestrekt tot dwarsstand op de balk ",
+                "description": "Arabier voor de balk (aan de punt) - salto a.o. gehurkt met 1/1 draai (360\u00b0) tot dwarsstand Arabier voor de balk (aan de punt) - salto a.o. gestrekt tot dwarsstand op de balk",
                 "group_number": "1",
                 "group_name": "Opsprongen",
                 "difficulty": "F",
@@ -61936,7 +61936,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.101",
-                "description": "  Loopspagaatsprong voorwaarts met afzet van 1 been (180\u00b0 beenspreiding)  ",
+                "description": "Loopspagaatsprong voorwaarts met afzet van 1 been (180\u00b0 beenspreiding)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -61954,7 +61954,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.301",
-                "description": "  Spagaatsprong voorwaarts met \u00bd draai (180\u00b0), met afzet van 1 been ",
+                "description": "Spagaatsprong voorwaarts met \u00bd draai (180\u00b0), met afzet van 1 been",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -61971,7 +61971,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.202",
-                "description": " Spagaatsprong (180\u00ba beenspreiding) met afzet van 2 benen in dwarspositie  ",
+                "description": "Spagaatsprong (180\u00ba beenspreiding) met afzet van 2 benen in dwarspositie",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -61988,7 +61988,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.302",
-                "description": " Spagaatsprong met \u00bd draai (180\u00ba), afzet van 2 benen in dwarspositie ",
+                "description": "Spagaatsprong met \u00bd draai (180\u00ba), afzet van 2 benen in dwarspositie",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62005,7 +62005,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.402",
-                "description": " Spagaatsprong met 1/1 draai (360\u00ba), afzet van 2 benen in dwarspositie  ",
+                "description": "Spagaatsprong met 1/1 draai (360\u00ba), afzet van 2 benen in dwarspositie",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62020,7 +62020,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.203",
-                "description": " (*) Spreidhoeksprong (beide benen boven horizontaal) of zijwaartse spagaatsprong met afzet van 2 benen in dwarsstand ",
+                "description": "(*) Spreidhoeksprong (beide benen boven horizontaal) of zijwaartse spagaatsprong met afzet van 2 benen in dwarsstand",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62039,7 +62039,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.303",
-                "description": "  Spreidhoeksprong met \u00bd draai (180\u00b0) vanuit dwarsstand ",
+                "description": "Spreidhoeksprong met \u00bd draai (180\u00b0) vanuit dwarsstand",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62056,7 +62056,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.403",
-                "description": "  Spreidhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand ",
+                "description": "Spreidhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62073,7 +62073,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.204",
-                "description": " Fouett\u00e9 sprong met \u00bd draai (180\u00b0), landen tot arabesque (vrije been boven horizontaal)  ",
+                "description": "Fouett\u00e9 sprong met \u00bd draai (180\u00b0), landen tot arabesque (vrije been boven horizontaal)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62090,7 +62090,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.404",
-                "description": " Fouett\u00e9 sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) \u2013 (tour jet\u00e9)  ",
+                "description": "Fouett\u00e9 sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) - (tour jet\u00e9)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62107,7 +62107,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.504",
-                "description": "  Spagaatsprong voorwaarts met 1/1 draai (360\u00ba), met afzet van 1 been  ",
+                "description": "Spagaatsprong voorwaarts met 1/1 draai (360\u00ba), met afzet van 1 been",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "E",
@@ -62124,7 +62124,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.105",
-                "description": " Loopsprong voorwaarts met beenwissel tot hurkhoekpositie (heuphoek 45\u00ba)  ",
+                "description": "Loopsprong voorwaarts met beenwissel tot hurkhoekpositie (heuphoek 45\u00ba)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -62141,7 +62141,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.305",
-                "description": "  Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat (180\u00b0 na beenwissel) ",
+                "description": "Spagaatsprong v.w. met beenwissel (beenzwaai vrije been 45\u00ba) tot dwarsspagaat (180\u00b0 na beenwissel)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62158,7 +62158,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.405",
-                "description": " Wisselpagaatsprong voorwaarts met \u00bd draai (180\u00ba) ",
+                "description": "Wisselpagaatsprong voorwaarts met \u00bd draai (180\u00ba)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62175,7 +62175,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.505",
-                "description": "  Spagaatsprong voorw. met beenwissel tot ringhouding (180\u00b0 beenspreiding na beenwissel)  ",
+                "description": "Spagaatsprong voorw. met beenwissel tot ringhouding (180\u00b0 beenspreiding na beenwissel)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "E",
@@ -62192,7 +62192,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.206",
-                "description": " Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal) \u2013 landing op \u00e9\u00e9n of beide benen ",
+                "description": "Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal) - landing op \u00e9\u00e9n of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62209,7 +62209,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.306",
-                "description": "  Spagaatsprong v.w. met beenwissel en \u00bc draai (90\u00ba) tot zijwaartse spagaat (180\u00b0) of spreidhoekpositie (Johnson) ",
+                "description": "Spagaatsprong v.w. met beenwissel en \u00bc draai (90\u00ba) tot zijwaartse spagaat (180\u00b0) of spreidhoekpositie (Johnson)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62226,7 +62226,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.506",
-                "description": " Johnson met toegevoegde \u00bd draai (180\u00ba)  ",
+                "description": "Johnson met toegevoegde \u00bd draai (180\u00ba)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "E",
@@ -62243,7 +62243,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.107",
-                "description": " Hoeksprong in dwarsstand (heuphoek < 90\u00b0) ",
+                "description": "Hoeksprong in dwarsstand (heuphoek < 90\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -62259,7 +62259,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.207",
-                "description": " Hoeksprong in dwarsstand (heuphoek 90\u00b0) met \u00bd draai (180\u00ba) ",
+                "description": "Hoeksprong in dwarsstand (heuphoek 90\u00b0) met \u00bd draai (180\u00ba)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62275,7 +62275,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.407",
-                "description": " Hoeksprong in dwarsstand met 1/1 draai (360\u00b0)  ",
+                "description": "Hoeksprong in dwarsstand met 1/1 draai (360\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62291,7 +62291,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.108",
-                "description": "  Sissone (180\u00ba beenspreiding in de diagonaal/ 45\u00b0 t.o.v. de vloer) met afzet van 2 voeten en landing op 1 voet  ",
+                "description": "Sissone (180\u00ba beenspreiding in de diagonaal/ 45\u00b0 t.o.v. de vloer) met afzet van 2 voeten en landing op 1 voet",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -62308,7 +62308,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.208",
-                "description": " * Ringsprong met achterste voet op hoofdhoogte en lichaam en hoofd a.o. (180\u00ba beenspreiding) of reeringsprong ",
+                "description": "* Ringsprong met achterste voet op hoofdhoogte en lichaam en hoofd a.o. (180\u00ba beenspreiding) of reeringsprong",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62326,7 +62326,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.308",
-                "description": "  Sprong met achterwaartse buiging van het bovenlichaam en hoofd a.o. en de voeten bijna het hoofd rakend (Schaapsprong) ",
+                "description": "Sprong met achterwaartse buiging van het bovenlichaam en hoofd a.o. en de voeten bijna het hoofd rakend (Schaapsprong)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62343,7 +62343,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.408",
-                "description": " *  Loopspagaatringsprong (180\u00ba beenspreiding) met afzet van 2 benen  Loopspagaatringsprong (180\u00ba beenspreiding) met afzet van 1 been Spagaatsprong in dwarsstand met beenspreiding meer dan 180\u00b0 parallel aan de vloer en a.o. buigen van het boven lichaam en hoofd a.o., met afzet van 2 benen (Yang-Bo)  ",
+                "description": "* Loopspagaatringsprong (180\u00ba beenspreiding) met afzet van 2 benen Loopspagaatringsprong (180\u00ba beenspreiding) met afzet van 1 been Spagaatsprong in dwarsstand met beenspreiding meer dan 180\u00b0 parallel aan de vloer en a.o. buigen van het boven lichaam en hoofd a.o., met afzet van 2 benen (Yang-Bo)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62364,7 +62364,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.209",
-                "description": " (*) Sprong met \u00bd draai (180\u00b0) - het vrije been boven horizontaal, afzet van 1 been Streksprong met 1/1 (360\u00b0) vanuit dwarsstand  ",
+                "description": "(*) Sprong met \u00bd draai (180\u00b0) - het vrije been boven horizontaal, afzet van 1 been Streksprong met 1/1 (360\u00b0) vanuit dwarsstand",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62383,7 +62383,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.409",
-                "description": "  Streksprong met 1\u00bd draai (540\u00b0) vanuit dwarsstand ",
+                "description": "Streksprong met 1\u00bd draai (540\u00b0) vanuit dwarsstand",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62400,7 +62400,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.110",
-                "description": " (*)  Kattensprong (knie\u00ebn na elkaar boven horizontaal) Schaarsprong (benen boven horizontaal) ",
+                "description": "(*) Kattensprong (knie\u00ebn na elkaar boven horizontaal) Schaarsprong (benen boven horizontaal)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -62419,7 +62419,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.210",
-                "description": "  Kattensprong met \u00bd draai (180\u00b0) (knie\u00ebn na elkaar boven horizontaal)  ",
+                "description": "Kattensprong met \u00bd draai (180\u00b0) (knie\u00ebn na elkaar boven horizontaal)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62436,7 +62436,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.310",
-                "description": " Kattensprong met 1/1 draai (360\u00b0)  ",
+                "description": "Kattensprong met 1/1 draai (360\u00b0)",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62453,7 +62453,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.211",
-                "description": "  Hurksprong met \u00bd draai (180\u00ba) vanuit dwarsstand (heup- en knie-hoek 45\u00ba) - afzet van een of beide benen  ",
+                "description": "Hurksprong met \u00bd draai (180\u00ba) vanuit dwarsstand (heup- en knie-hoek 45\u00ba) - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62470,7 +62470,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.311",
-                "description": "  Hurksprong met 1/1 draai (360\u00b0) vanuit dwarsstand - afzet van een of beide benen  ",
+                "description": "Hurksprong met 1/1 draai (360\u00b0) vanuit dwarsstand - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -62487,7 +62487,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.411",
-                "description": " Hurksprong met 1 \u00bd draai (540\u00b0) vanuit dwarsstand - afzet van een of beide benen  ",
+                "description": "Hurksprong met 1 \u00bd draai (540\u00b0) vanuit dwarsstand - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62504,7 +62504,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.112",
-                "description": " * Hurkhoeksprong vanuit dwarsstand (heuphoek 45\u00ba en knie\u00ebn bij elkaar) \u2013 afzet van een of beide benen ",
+                "description": "* Hurkhoeksprong vanuit dwarsstand (heuphoek 45\u00ba en knie\u00ebn bij elkaar) - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -62523,7 +62523,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.212",
-                "description": " Hurkhoeksprong met \u00bd draai (180\u00ba) vanuit dwarsstand - afzet van een of beide benen ",
+                "description": "Hurkhoeksprong met \u00bd draai (180\u00ba) vanuit dwarsstand - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -62539,7 +62539,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.412",
-                "description": " Hurkhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand - afzet van een of beide benen  ",
+                "description": "Hurkhoeksprong met 1/1 draai (360\u00ba) vanuit dwarsstand - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -62556,7 +62556,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.512",
-                "description": " Hurkhoeksprong met 1\u00bd draai (540\u00ba) vanuit dwarsstand - afzet van een of beide benen ",
+                "description": "Hurkhoeksprong met 1\u00bd draai (540\u00ba) vanuit dwarsstand - afzet van een of beide benen",
                 "group_number": "2",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "E",
@@ -62573,7 +62573,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.101",
-                "description": "  1/1 draai (360\u00b0) op 1 been - vrije been naar keuze onder de horizontaal ",
+                "description": "1/1 draai (360\u00b0) op 1 been - vrije been naar keuze onder de horizontaal",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "A",
@@ -62590,7 +62590,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.201",
-                "description": "  1\u00bd draai (540\u00b0) op 1 been - vrije been naar keuze onder de horizontaal ",
+                "description": "1\u00bd draai (540\u00b0) op 1 been - vrije been naar keuze onder de horizontaal",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -62607,7 +62607,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.401",
-                "description": "  2/1 draai (720\u00b0) op 1 been - vrije been naar keuze onder de horizontaal  ",
+                "description": "2/1 draai (720\u00b0) op 1 been - vrije been naar keuze onder de horizontaal",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62624,7 +62624,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.501",
-                "description": " 3/1 draai (1080\u00b0) op 1 been - vrije been naar keuze onder de horizontaal ",
+                "description": "3/1 draai (1080\u00b0) op 1 been - vrije been naar keuze onder de horizontaal",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -62641,7 +62641,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.302",
-                "description": "  1/1 draai (360\u00b0) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai ",
+                "description": "1/1 draai (360\u00b0) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "C",
@@ -62657,7 +62657,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.402",
-                "description": "  1\u00bd draai (540\u00b0) op 1 been \u2013 het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai ",
+                "description": "1\u00bd draai (540\u00b0) op 1 been - het bovenbeen van het vrije been op de horizontaal (achter hoog) gedurende de gehele draai",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62674,7 +62674,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.403",
-                "description": "  1/1 draai (360\u00b0) met het vrije been achterwaarts met beide handen vastgehouden ",
+                "description": "1/1 draai (360\u00b0) met het vrije been achterwaarts met beide handen vastgehouden",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62691,7 +62691,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.304",
-                "description": "  1/1 draai (360\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)  ",
+                "description": "1/1 draai (360\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "C",
@@ -62708,7 +62708,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.404",
-                "description": "  1\u00bd draai (540\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)  ",
+                "description": "1\u00bd draai (540\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62725,7 +62725,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.504",
-                "description": " 2/1 draai (720\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)  ",
+                "description": "2/1 draai (720\u00b0) met de hiel van het vrije been voorwaarts gedurende de gehele draai op horizontaal (standbeen en vrije been mag gestrekt of gebogen zijn)",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -62742,7 +62742,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.305",
-                "description": " 1/1 draai (360\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba- spagaat van begin tot einde van de draai  ",
+                "description": "1/1 draai (360\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba- spagaat van begin tot einde van de draai",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "C",
@@ -62759,7 +62759,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.405",
-                "description": "  1\u00bd draai (540\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba - spagaat van begin tot einde van de draai  ",
+                "description": "1\u00bd draai (540\u00ba) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba - spagaat van begin tot einde van de draai",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62776,7 +62776,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.505",
-                "description": " 2/1 draai (720\u00b0) op 1 been \u2013 met vasthouden van het vrije been met de hand in 180\u00ba - spagaat van begin tot einde van de draai ",
+                "description": "2/1 draai (720\u00b0) op 1 been - met vasthouden van het vrije been met de hand in 180\u00ba - spagaat van begin tot einde van de draai",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -62793,7 +62793,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.206",
-                "description": " \u00bd duikdraai (180\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand  ",
+                "description": "\u00bd duikdraai (180\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -62809,7 +62809,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.406",
-                "description": "  1/1 duikdraai (360\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand  ",
+                "description": "1/1 duikdraai (360\u00b0) via standspagaat (180\u00b0 beenspreiding) met/zonder vluchtig aanraken van de balk met 1 hand",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62825,7 +62825,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.207",
-                "description": "  1/1 draai (360\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze  ",
+                "description": "1/1 draai (360\u00b0) in hurkzit op 1 been - houding van het vrije been naar keuze",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -62842,7 +62842,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.307",
-                "description": " 1\u00bd draai (540\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze ",
+                "description": "1\u00bd draai (540\u00b0) in hurkzit op 1 been - houding van het vrije been naar keuze",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "C",
@@ -62859,7 +62859,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.407",
-                "description": " (*) 2/1 draai (720\u00b0) of 2\u00bd draai (960\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze   ",
+                "description": "(*) 2/1 draai (720\u00b0) of 2\u00bd draai (960\u00b0) in hurkzit op 1 been - houding van het vrije been naar keuze",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62878,7 +62878,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.507",
-                "description": " 3/1 draai (1080\u00b0) in hurkzit op 1 been \u2013 houding van het vrije been naar keuze  ",
+                "description": "3/1 draai (1080\u00b0) in hurkzit op 1 been - houding van het vrije been naar keuze",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -62895,7 +62895,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.208",
-                "description": " (*) 1/1 tot 1\u00bd draai (360\u00b0- 540\u00b0) in buiklig - steunen van de handen na elkaar is toegestaan ",
+                "description": "(*) 1/1 tot 1\u00bd draai (360\u00b0- 540\u00b0) in buiklig - steunen van de handen na elkaar is toegestaan",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -62914,7 +62914,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.408",
-                "description": " 1\u00bc draai (450\u00b0) in vouwlig - beenromphoek gesloten  ",
+                "description": "1\u00bc draai (450\u00b0) in vouwlig - beenromphoek gesloten",
                 "group_number": "3",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -62931,7 +62931,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.101",
-                "description": " (D)  Vanuit hielenzit - lichaamswel voorwaarts via tenenstand tot stand  ",
+                "description": "(D) Vanuit hielenzit - lichaamswel voorwaarts via tenenstand tot stand",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -62948,7 +62948,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.102",
-                "description": " (D) (*) Standspagaat voorlings met steun van de handen voor standbeen (beenspreiding 180\u00b0 - 2 sec.) of stand op 1 been met de voet van het vrije been in voorwaartse positie boven hoofdhoogte (2 sec.) Zweefstand voorlings met gestrekt standbeen (beenspreiding 180\uf0b0 - 2 sec.) ",
+                "description": "(D) (*) Standspagaat voorlings met steun van de handen voor standbeen (beenspreiding 180\u00b0 - 2 sec.) of stand op 1 been met de voet van het vrije been in voorwaartse positie boven hoofdhoogte (2 sec.) Zweefstand voorlings met gestrekt standbeen (beenspreiding 180\uf0b0 - 2 sec.)",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -62968,7 +62968,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.202",
-                "description": " Hoge hoeksteun (2 sec.) ",
+                "description": "Hoge hoeksteun (2 sec.)",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -62984,7 +62984,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.103",
-                "description": " Opzwaaien tot dwars- of parallel-handstand (2 sec.) \u2013 terugkomen tot eindpositie die de balk aanraakt  ",
+                "description": "Opzwaaien tot dwars- of parallel-handstand (2 sec.) - terugkomen tot eindpositie die de balk aanraakt",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -63001,7 +63001,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.203",
-                "description": " Opzwaaien tot dwarshandstand - doorrollen v.o. met of zonder steun van de handen tot zit of tot hurkzit ",
+                "description": "Opzwaaien tot dwarshandstand - doorrollen v.o. met of zonder steun van de handen tot zit of tot hurkzit",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -63016,7 +63016,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.204",
-                "description": " Rol v.o. zonder steun van de handen tot zit of tot hurkzit  Vanuit rijzit, zwaai a.w. tot schouder rol v.o. met heup strekking tot zit positie in hurkstand  ",
+                "description": "Rol v.o. zonder steun van de handen tot zit of tot hurkzit Vanuit rijzit, zwaai a.w. tot schouder rol v.o. met heup strekking tot zit positie in hurkstand",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -63034,7 +63034,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.304",
-                "description": " Vrije schouderrol v.o. met strekking van de heupen en zonder steun van de handen tot zit of hurkzit ",
+                "description": "Vrije schouderrol v.o. met strekking van de heupen en zonder steun van de handen tot zit of hurkzit",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63051,7 +63051,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.105",
-                "description": " Rol a.o. met handensteun op de balk \u2013 landen op 1 of beide voeten ",
+                "description": "Rol a.o. met handensteun op de balk - landen op 1 of beide voeten",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -63067,7 +63067,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.305",
-                "description": " Rol a.o. tot handstand ",
+                "description": "Rol a.o. tot handstand",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63082,7 +63082,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.206",
-                "description": " Rol zijwaarts met gehurkt lichaam - of rol zijwaarts gestrekt of spreidhoek door nekstand, ook met \u00bd draai (180\u00b0) over de schouder ",
+                "description": "Rol zijwaarts met gehurkt lichaam - of rol zijwaarts gestrekt of spreidhoek door nekstand, ook met \u00bd draai (180\u00b0) over de schouder",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -63101,7 +63101,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.306",
-                "description": " Rol zijwaarts met gestrekt lichaam  ",
+                "description": "Rol zijwaarts met gestrekt lichaam",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63118,7 +63118,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.107",
-                "description": " Radslag, ook met steun op 1 hand of radslag met vluchtfase voor of na de handensteun  ",
+                "description": "Radslag, ook met steun op 1 hand of radslag met vluchtfase voor of na de handensteun",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -63137,7 +63137,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.307",
-                "description": "  Vanuit spreidzit of spreidspagaat - rol zijwaarts gestrekt, benen gespreid \u2013 eindpositie naar keuze ",
+                "description": "Vanuit spreidzit of spreidspagaat - rol zijwaarts gestrekt, benen gespreid - eindpositie naar keuze",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63154,7 +63154,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.108",
-                "description": " Langzame overslag v.o., met/zonder ongelijke handplaatsing Langzame overslag v.o., a.o. (Tik-Tak)  ",
+                "description": "Langzame overslag v.o., met/zonder ongelijke handplaatsing Langzame overslag v.o., a.o. (Tik-Tak)",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -63174,7 +63174,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.208",
-                "description": " Langzame overslag v.o., met steun op 1 arm ",
+                "description": "Langzame overslag v.o., met steun op 1 arm",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -63191,7 +63191,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.308",
-                "description": " Opzwaai tot handstand in dwarspositie met \u00bd draai (180\u00b0) tot langzame overslag v.o.  Langzame overslag v.o. in parallelpositie tot parallelstand  ",
+                "description": "Opzwaai tot handstand in dwarspositie met \u00bd draai (180\u00b0) tot langzame overslag v.o. Langzame overslag v.o. in parallelpositie tot parallelstand",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63210,7 +63210,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.109",
-                "description": " Langzame overslag a.o., met/zonder ongelijke handplaatsing, ook tot rijzit ",
+                "description": "Langzame overslag a.o., met/zonder ongelijke handplaatsing, ook tot rijzit",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "A",
@@ -63231,7 +63231,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.209",
-                "description": " Langzame overslag a.o., met steun op 1 arm  ",
+                "description": "Langzame overslag a.o., met steun op 1 arm",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -63248,7 +63248,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.309",
-                "description": " Langzame overslag a.o. met \u00bd draai (180\u00b0) doorgaand in langzame overslag v.o.  Langzame overslag a.o. in parallelpositie tot parallelstand  Langzame overslag a.o. met doorhoeken van 1 been tot dwars spagaat ",
+                "description": "Langzame overslag a.o. met \u00bd draai (180\u00b0) doorgaand in langzame overslag v.o. Langzame overslag a.o. in parallelpositie tot parallelstand Langzame overslag a.o. met doorhoeken van 1 been tot dwars spagaat",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63269,7 +63269,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.210",
-                "description": " Vanuit hurkspreidzit - langzame overslag a.o. (Valdez/zitbruggetje) ",
+                "description": "Vanuit hurkspreidzit - langzame overslag a.o. (Valdez/zitbruggetje)",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "B",
@@ -63286,7 +63286,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.310",
-                "description": "  Valdez met 1/1 draai (360\u00b0) , terugkomen tot een eindpositie waarbij de balk wordt aangeraakt Vanuit hurkspreidzit - zwaai a.o. door het horizontale vlak met steun van 1 arm  ",
+                "description": "Valdez met 1/1 draai (360\u00b0) , terugkomen tot een eindpositie waarbij de balk wordt aangeraakt Vanuit hurkspreidzit - zwaai a.o. door het horizontale vlak met steun van 1 arm",
                 "group_number": "4",
                 "group_name": "Houdingen en acrobatische elementen zonder vlucht",
                 "difficulty": "C",
@@ -63305,7 +63305,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.201",
-                "description": "  Handstandoverslag v.o. met vluchtfase, landing op \u00e9\u00e9n of beide benen (zelfde element); ook met steun van \u00e9\u00e9n arm  ",
+                "description": "Handstandoverslag v.o. met vluchtfase, landing op \u00e9\u00e9n of beide benen (zelfde element); ook met steun van \u00e9\u00e9n arm",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "B",
@@ -63324,7 +63324,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.301",
-                "description": "  Handstandoverslag v.o. met beenwissel in de vluchtfase  ",
+                "description": "Handstandoverslag v.o. met beenwissel in de vluchtfase",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63341,7 +63341,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.401",
-                "description": " Sprong achterwaarts (flik-flak afzet) met \u00bd draai (180\u00b0) tot overslag voorwaarts, ook met steun op \u00e9\u00e9n arm, of tot tik-tak  ",
+                "description": "Sprong achterwaarts (flik-flak afzet) met \u00bd draai (180\u00b0) tot overslag voorwaarts, ook met steun op \u00e9\u00e9n arm, of tot tik-tak",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63361,7 +63361,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.501",
-                "description": " Sprong achterwaarts (flik-flak afzet) met \u00bd draai (180\u00b0) tot overslag voorwaarts met landing op 2 voeten ",
+                "description": "Sprong achterwaarts (flik-flak afzet) met \u00bd draai (180\u00b0) tot overslag voorwaarts met landing op 2 voeten",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "E",
@@ -63378,7 +63378,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.202",
-                "description": " Flik-flak tot landing op 2 voeten ",
+                "description": "Flik-flak tot landing op 2 voeten",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "B",
@@ -63395,7 +63395,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.302",
-                "description": " Flik-flak met \u00bd draai (180\uf0b0) tot handstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze ",
+                "description": "Flik-flak met \u00bd draai (180\uf0b0) tot handstand (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63412,7 +63412,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.402",
-                "description": " Flik-flak vanuit parallelpositie met \u00bd draai (180\uf0b0) tot handstand en terugkomen tot eindpositie naar keuze ",
+                "description": "Flik-flak vanuit parallelpositie met \u00bd draai (180\uf0b0) tot handstand en terugkomen tot eindpositie naar keuze",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63429,7 +63429,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.303",
-                "description": " Flik-flak met \u00bc (90\u00ba) tot handstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze  ",
+                "description": "Flik-flak met \u00bc (90\u00ba) tot handstand (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63446,7 +63446,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.403",
-                "description": "  Flik-flak met \u00be draai (270\u00ba) tot parallelhandstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze  ",
+                "description": "Flik-flak met \u00be draai (270\u00ba) tot parallelhandstand (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63463,7 +63463,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.204",
-                "description": " Flik-flak met uitstappen, ook met steun op \u00e9\u00e9n arm ",
+                "description": "Flik-flak met uitstappen, ook met steun op \u00e9\u00e9n arm",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "B",
@@ -63482,7 +63482,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.304",
-                "description": " Flik-flak met \u00bd draai (180\u00ba) na de steun van de handen ",
+                "description": "Flik-flak met \u00bd draai (180\u00ba) na de steun van de handen",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63499,7 +63499,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.404",
-                "description": " Flik-flak met minimaal \u00be draai (270\uf0b0) voor de steun van de handen  ",
+                "description": "Flik-flak met minimaal \u00be draai (270\uf0b0) voor de steun van de handen",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63516,7 +63516,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.405",
-                "description": "  Flik-flak met uitstappen vanuit parallelpositie  Flik-flak vanuit parallelpositie tot steun voorlings of met heupdraai a.o.   ",
+                "description": "Flik-flak met uitstappen vanuit parallelpositie Flik-flak vanuit parallelpositie tot steun voorlings of met heupdraai a.o.",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63536,7 +63536,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.505",
-                "description": " Flik-flak vanuit parallelpositie met 1/1 draai (360\u00b0) tot heupdraai a.o. ",
+                "description": "Flik-flak vanuit parallelpositie met 1/1 draai (360\u00b0) tot heupdraai a.o.",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "E",
@@ -63553,7 +63553,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.206",
-                "description": "  Auerbach flik-flak (Gainer flik-flak), ook met steun op \u00e9\u00e9n arm ",
+                "description": "Auerbach flik-flak (Gainer flik-flak), ook met steun op \u00e9\u00e9n arm",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "B",
@@ -63572,7 +63572,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.306",
-                "description": " Auerbach flik-flak met \u00bc draai (90\u00b0) tot handstand (2 sec.) \u2013 terugkomen tot eindpositie naar keuze ",
+                "description": "Auerbach flik-flak met \u00bc draai (90\u00b0) tot handstand (2 sec.) - terugkomen tot eindpositie naar keuze",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63589,7 +63589,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.406",
-                "description": " Auerbach flik-flak met minimaal \u00be draai (270\u00b0) voor de steun van de handen  ",
+                "description": "Auerbach flik-flak met minimaal \u00be draai (270\u00b0) voor de steun van de handen",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63606,7 +63606,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.207",
-                "description": "  Flik-flak of auerbach flik-flak, met hoge vluchtfase tot rijzit ",
+                "description": "Flik-flak of auerbach flik-flak, met hoge vluchtfase tot rijzit",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "B",
@@ -63625,7 +63625,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.307",
-                "description": " Flik-flak of auerbach flik-flak met hoeken en strekken van de heupen in de vluchtfase tot rijzit ",
+                "description": "Flik-flak of auerbach flik-flak met hoeken en strekken van de heupen in de vluchtfase tot rijzit",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63644,7 +63644,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.407",
-                "description": " Flik-flak met 1/1 draai (360\u00b0) \u2013 tot rijzit   ",
+                "description": "Flik-flak met 1/1 draai (360\u00b0) - tot rijzit",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63661,7 +63661,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.208",
-                "description": " Arabier ",
+                "description": "Arabier",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "B",
@@ -63678,7 +63678,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.408",
-                "description": " Vrije (aerial) radslag \u2013 landing op \u00e9\u00e9n of twee voeten in dwars- of parallelstand, ook met beenwissel  ",
+                "description": "Vrije (aerial) radslag - landing op \u00e9\u00e9n of twee voeten in dwars- of parallelstand, ook met beenwissel",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63699,7 +63699,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.508",
-                "description": " Vrije (aerial) arabier gehurkt of gehoekt \u2013 afzet van twee voeten  Vrije (aerial) radslag in parallelpositie ",
+                "description": "Vrije (aerial) arabier gehurkt of gehoekt - afzet van twee voeten Vrije (aerial) radslag in parallelpositie",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "E",
@@ -63720,7 +63720,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.409",
-                "description": " Vrije (aerial) overslag v.o., landing op \u00e9\u00e9n of beide voeten  ",
+                "description": "Vrije (aerial) overslag v.o., landing op \u00e9\u00e9n of beide voeten",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63738,7 +63738,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.310",
-                "description": "  Salto v.o. gehurkt, afzet van \u00e9\u00e9n been tot stand op \u00e9\u00e9n of beide voeten  ",
+                "description": "Salto v.o. gehurkt, afzet van \u00e9\u00e9n been tot stand op \u00e9\u00e9n of beide voeten",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63755,7 +63755,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.410",
-                "description": "  Salto v.o. gehurkt tot dwarsstand ",
+                "description": "Salto v.o. gehurkt tot dwarsstand",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63772,7 +63772,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.510",
-                "description": " Salto v.o. gehoekt tot dwarsstand  ",
+                "description": "Salto v.o. gehoekt tot dwarsstand",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "E",
@@ -63789,7 +63789,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.411",
-                "description": "  Salto zijwaarts gehurkt, afzet vanaf \u00e9\u00e9n been tot parallelstand ",
+                "description": "Salto zijwaarts gehurkt, afzet vanaf \u00e9\u00e9n been tot parallelstand",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "D",
@@ -63806,7 +63806,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.511",
-                "description": "  Salto zijwaarts gehurkt met \u00bd draai (180\u00b0), afzet vanaf \u00e9\u00e9n been tot parallelstand  ",
+                "description": "Salto zijwaarts gehurkt met \u00bd draai (180\u00b0), afzet vanaf \u00e9\u00e9n been tot parallelstand",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "E",
@@ -63823,7 +63823,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.611",
-                "description": " Twist salto gehurkt (afzet achterwaarts met \u00bd draai (180\u00b0) - salto voorwaarts) ",
+                "description": "Twist salto gehurkt (afzet achterwaarts met \u00bd draai (180\u00b0) - salto voorwaarts)",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "F",
@@ -63840,7 +63840,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.312",
-                "description": "  Salto a.o. gehurkt, gehoekt of gestrekt (met uitstappen)  ",
+                "description": "Salto a.o. gehurkt, gehoekt of gestrekt (met uitstappen)",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63859,7 +63859,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.512",
-                "description": " Salto a.o. gestrekt met gesloten benen  ",
+                "description": "Salto a.o. gestrekt met gesloten benen",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "E",
@@ -63876,7 +63876,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.612",
-                "description": " Salto a.o. gehurkt met 1/1 draai (360\u00b0)  ",
+                "description": "Salto a.o. gehurkt met 1/1 draai (360\u00b0)",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "F",
@@ -63893,7 +63893,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.313",
-                "description": " Auerbach salto a.o. gehurkt, gehoekt of gestrekt met uitstappen ",
+                "description": "Auerbach salto a.o. gehurkt, gehoekt of gestrekt met uitstappen",
                 "group_number": "5",
                 "group_name": "Acrobatische vluchtelementen",
                 "difficulty": "C",
@@ -63913,7 +63913,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.101",
-                "description": "  Vrije overslag v.o. met \u00bd draai (180\u00b0) ",
+                "description": "Vrije overslag v.o. met \u00bd draai (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -63930,7 +63930,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.201",
-                "description": "  Vrije overslag v.o. met 1/1 draai (360\u00b0) Vrije radslag met \u00bd draai (180\u00b0) ",
+                "description": "Vrije overslag v.o. met 1/1 draai (360\u00b0) Vrije radslag met \u00bd draai (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -63949,7 +63949,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.301",
-                "description": "  Vrije overslag v.o. met 1\u00bd draai (540\u00ba)  ",
+                "description": "Vrije overslag v.o. met 1\u00bd draai (540\u00ba)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -63966,7 +63966,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.501",
-                "description": " Vrije (aerial) radslag met gehurkte salto achterwaarts ",
+                "description": "Vrije (aerial) radslag met gehurkte salto achterwaarts",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -63983,7 +63983,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.102",
-                "description": " Salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)  ",
+                "description": "Salto v.o. gehurkt of gehoekt, ook met \u00bd draai (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -64004,7 +64004,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.202",
-                "description": " Salto v.o. gestrekt, ook met \u00bd draai (180\u00b0) Salto v.o. gehurkt met 1/1 draai (360\u00ba)  ",
+                "description": "Salto v.o. gestrekt, ook met \u00bd draai (180\u00b0) Salto v.o. gehurkt met 1/1 draai (360\u00ba)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -64024,7 +64024,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.302",
-                "description": " Salto v.o. gestrekt met 1/1 draai (360\uf0b0) of met 1 \u00bd draai (540\u00ba) ",
+                "description": "Salto v.o. gestrekt met 1/1 draai (360\uf0b0) of met 1 \u00bd draai (540\u00ba)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -64043,7 +64043,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.402",
-                "description": " Salto v.o. gestrekt met 2/1 draai (720\u00ba)  ",
+                "description": "Salto v.o. gestrekt met 2/1 draai (720\u00ba)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -64060,7 +64060,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.203",
-                "description": "  Twistsalto gehurkt, gehoekt (sprong achterwaarts met \u00bd draai (180\u00b0) - salto v.o.)  ",
+                "description": "Twistsalto gehurkt, gehoekt (sprong achterwaarts met \u00bd draai (180\u00b0) - salto v.o.)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -64075,7 +64075,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.303",
-                "description": " Streksprong voorwaarts met 1/1 draai (360\u00b0) en salto v.o. gehurkt, of gehoekt ",
+                "description": "Streksprong voorwaarts met 1/1 draai (360\u00b0) en salto v.o. gehurkt, of gehoekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -64090,7 +64090,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.403",
-                "description": " Streksprong voorwaarts met 1/1 draai (360\u00b0) en salto v.o. gestrekt  ",
+                "description": "Streksprong voorwaarts met 1/1 draai (360\u00b0) en salto v.o. gestrekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -64105,7 +64105,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.703",
-                "description": " Dubbele twistsalto v.o. gehurkt  ",
+                "description": "Dubbele twistsalto v.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "G",
@@ -64127,7 +64127,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.104",
-                "description": " Salto a.o. gehurkt, gehoekt of gestrekt, ook met \u00bd draai (180\u00b0) ",
+                "description": "Salto a.o. gehurkt, gehoekt of gestrekt, ook met \u00bd draai (180\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -64146,7 +64146,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.204",
-                "description": " Salto a.o. gehurkt of gestrekt met 1/1 draai (360\u00b0) ",
+                "description": "Salto a.o. gehurkt of gestrekt met 1/1 draai (360\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -64163,7 +64163,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.304",
-                "description": " Salto a.o. gehurkt of gestrekt met 1\u00bd draai (540\u00b0) Salto a.o. gestrekt met 2/1 draai (720\u00b0) ",
+                "description": "Salto a.o. gehurkt of gestrekt met 1\u00bd draai (540\u00b0) Salto a.o. gestrekt met 2/1 draai (720\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -64182,7 +64182,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.404",
-                "description": " Salto a.o. gestrekt met 2\u00bd draai (900\u00b0)  ",
+                "description": "Salto a.o. gestrekt met 2\u00bd draai (900\u00b0)",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -64199,7 +64199,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.405",
-                "description": "  Dubbele salto a.o. gehurkt  ",
+                "description": "Dubbele salto a.o. gehurkt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -64214,7 +64214,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.505",
-                "description": " Dubbele salto a.o. gehoekt  ",
+                "description": "Dubbele salto a.o. gehoekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "E",
@@ -64229,7 +64229,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.705",
-                "description": " Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto  ",
+                "description": "Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00b0) in de eerste salto",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "G",
@@ -64249,7 +64249,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.106",
-                "description": " Auerbach salto gehurkt, gehoekt of gestrekt aan de zijkant van de balk - ook met \u00bd draai (180\u00b0) gehurkt of gestrekt ",
+                "description": "Auerbach salto gehurkt, gehoekt of gestrekt aan de zijkant van de balk - ook met \u00bd draai (180\u00b0) gehurkt of gestrekt",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "A",
@@ -64270,7 +64270,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.206",
-                "description": "  Auerbach salto gehurkt of gestrekt met 1/1 draai (360\u00ba) aan de zijkant van de balk  ",
+                "description": "Auerbach salto gehurkt of gestrekt met 1/1 draai (360\u00ba) aan de zijkant van de balk",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "B",
@@ -64288,7 +64288,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.306",
-                "description": " Auerbach salto gehurkt of gestrekt met 1\u00bd (540\uf0b0) of 2/1 draai (720\u00ba) aan de zijkant van de balk ",
+                "description": "Auerbach salto gehurkt of gestrekt met 1\u00bd (540\uf0b0) of 2/1 draai (720\u00ba) aan de zijkant van de balk",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "C",
@@ -64309,7 +64309,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "6.406",
-                "description": " Auerbach salto gestrekt met 2\u00bd draai (900\u00ba) aan de zijkant van de balk ",
+                "description": "Auerbach salto gestrekt met 2\u00bd draai (900\u00ba) aan de zijkant van de balk",
                 "group_number": "6",
                 "group_name": "Afsprongen",
                 "difficulty": "D",
@@ -64328,7 +64328,7 @@ export const allElements: LanguageType = {
         "f_w": [
             {
                 "id": "1.101",
-                "description": " Spagaatsprong voorwaarts - afzet van \u00e9\u00e9n been (180\u00b0 beenspreiding)  ",
+                "description": "Spagaatsprong voorwaarts - afzet van \u00e9\u00e9n been (180\u00b0 beenspreiding)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64346,7 +64346,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.201",
-                "description": " Spagaatsprong voorwaarts met \u00bd draai (180\u00b0) \u2013 afzet van \u00e9\u00e9n been  ",
+                "description": "Spagaatsprong voorwaarts met \u00bd draai (180\u00b0) - afzet van \u00e9\u00e9n been",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64363,7 +64363,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.301",
-                "description": " Spagaatsprong voorwaarts met 1/1 draai (360\u00ba) \u2013 afzet van \u00e9\u00e9n been ",
+                "description": "Spagaatsprong voorwaarts met 1/1 draai (360\u00ba) - afzet van \u00e9\u00e9n been",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64380,7 +64380,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.202",
-                "description": " (*) Fouett\u00e9sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) (tour jet\u00e9)  Tour jete tot ringhouding (achterste voet op hoofdhoogte, romp achterover en hoofd achterover) ",
+                "description": "(*) Fouett\u00e9sprong met beenwissel tot dwarsspagaat (beenspreiding 180\u00ba) (tour jet\u00e9) Tour jete tot ringhouding (achterste voet op hoofdhoogte, romp achterover en hoofd achterover)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64399,7 +64399,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.302",
-                "description": " (*) Tour jete met extra \u00bd draai (180\u00ba) met landing op \u00e9\u00e9n of beide voeten of tot zit in spagaat Tour jete met \u00be draai (270\u00b0) in spreidhoek positie met \u00bc draai (90\u00b0) landing op \u00e9\u00e9n of beide voeten  ",
+                "description": "(*) Tour jete met extra \u00bd draai (180\u00ba) met landing op \u00e9\u00e9n of beide voeten of tot zit in spagaat Tour jete met \u00be draai (270\u00b0) in spreidhoek positie met \u00bc draai (90\u00b0) landing op \u00e9\u00e9n of beide voeten",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64420,7 +64420,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.402",
-                "description": " Spagaatsprong voorwaarts met 1/1 draai (360\u00ba) \u2013 afzet van \u00e9\u00e9n been ",
+                "description": "Spagaatsprong voorwaarts met 1/1 draai (360\u00ba) - afzet van \u00e9\u00e9n been",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -64437,7 +64437,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.103",
-                "description": " Hurksprong met spreiden van de benen tot dwars- spagaat (180\u00ba) tijdens de vluchtfase  ",
+                "description": "Hurksprong met spreiden van de benen tot dwars- spagaat (180\u00ba) tijdens de vluchtfase",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64454,7 +64454,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.203",
-                "description": " * Een butterfly v.o. of a.o. \u2013 lichaam parallel aan de vloer, benen gespreid en voeten boven heuphoogte gedurende de vlucht  ",
+                "description": "* Een butterfly v.o. of a.o. - lichaam parallel aan de vloer, benen gespreid en voeten boven heuphoogte gedurende de vlucht",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64473,7 +64473,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.104",
-                "description": " (*) Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal) of zijwaartse spagaat \u2013 landing op \u00e9\u00e9n of beide benen ",
+                "description": "(*) Spagaatsprong voorwaarts met \u00bc draai (90\u00ba) tot spreidhoekpositie (beide benen boven horizontaal) of zijwaartse spagaat - landing op \u00e9\u00e9n of beide benen",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64492,7 +64492,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.204",
-                "description": " Spagaatsprong voorwaarts met beenwissel en \u00bc draai (90\u00ba) tot zijwaartse spagaat of tot spreidhoekpositie (beide benen boven horizontaal (Johnson)  ",
+                "description": "Spagaatsprong voorwaarts met beenwissel en \u00bc draai (90\u00ba) tot zijwaartse spagaat of tot spreidhoekpositie (beide benen boven horizontaal (Johnson)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64509,7 +64509,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.304",
-                "description": " (*) Spagaatsprong voorwaarts met beenwissel en \u00bd draai (180\u00ba) in de vluchtfase  Johnson met toegevoegde \u00bd draai (180\u00b0) ",
+                "description": "(*) Spagaatsprong voorwaarts met beenwissel en \u00bd draai (180\u00ba) in de vluchtfase Johnson met toegevoegde \u00bd draai (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64528,7 +64528,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.404",
-                "description": " (*) Spagaatsprong voorwaarts met beenwissel en 1/1 draai (360\u00b0) in de vluchtfase Johnson met toegevoegde 1/1 draai (360\u00b0) ",
+                "description": "(*) Spagaatsprong voorwaarts met beenwissel en 1/1 draai (360\u00b0) in de vluchtfase Johnson met toegevoegde 1/1 draai (360\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -64547,7 +64547,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.105",
-                "description": " Loopsprong voorwaarts met beenwissel tot hurk-hoekpositie  ",
+                "description": "Loopsprong voorwaarts met beenwissel tot hurk-hoekpositie",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64564,7 +64564,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.205",
-                "description": " Spagaatsprong voorwaarts met beenwissel (180\u00ba beenspreiding na de beenwissel) ",
+                "description": "Spagaatsprong voorwaarts met beenwissel (180\u00ba beenspreiding na de beenwissel)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64581,7 +64581,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.305",
-                "description": " Spagaatsprong voorwaarts met beenwissel tot ringhouding (180\u00ba beenspreiding)   ",
+                "description": "Spagaatsprong voorwaarts met beenwissel tot ringhouding (180\u00ba beenspreiding)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64598,7 +64598,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.405",
-                "description": " Spagaatsprong voorwaarts met beenwissel tot ringhouding en \u00bd draai (180\u00b0)  ",
+                "description": "Spagaatsprong voorwaarts met beenwissel tot ringhouding en \u00bd draai (180\u00b0)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -64644,7 +64644,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.106",
-                "description": " Hoeksprong (heuphoek < 90\u00b0) met \u00bd draai (180\u00ba)  ",
+                "description": "Hoeksprong (heuphoek < 90\u00b0) met \u00bd draai (180\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64660,7 +64660,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.206",
-                "description": " Schaapsprong (bovenlichaam achterwaarts gebogen en hoofd achterover en de voeten bijna het hoofd rakend)  ",
+                "description": "Schaapsprong (bovenlichaam achterwaarts gebogen en hoofd achterover en de voeten bijna het hoofd rakend)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64676,7 +64676,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.306",
-                "description": " Hoeksprong (heuphoek < 90\u00b0) met 1/1 draai (360\u00ba)  ",
+                "description": "Hoeksprong (heuphoek < 90\u00b0) met 1/1 draai (360\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64693,7 +64693,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.107",
-                "description": " (*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel (180\u00ba beenspreiding)  ",
+                "description": "(*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel (180\u00ba beenspreiding)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64711,7 +64711,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.207",
-                "description": " (*) Spreidhoeksprong of spagaatsprong parallel met \u00bd draai (180\u00ba) Spagaatsprong voorwaarts met \u00bd draai (180\u00ba) \u2013 afzet van beide benen ",
+                "description": "(*) Spreidhoeksprong of spagaatsprong parallel met \u00bd draai (180\u00ba) Spagaatsprong voorwaarts met \u00bd draai (180\u00ba) - afzet van beide benen",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64731,7 +64731,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.307",
-                "description": " (*) Spreidhoeksprong of spagaatsprong parallel met 1/1 draai (360\u00ba)  Spagaatsprong voorwaarts met 1/1 draai (360\u00ba) \u2013 afzet van beide benen  ",
+                "description": "(*) Spreidhoeksprong of spagaatsprong parallel met 1/1 draai (360\u00ba) Spagaatsprong voorwaarts met 1/1 draai (360\u00ba) - afzet van beide benen",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64751,7 +64751,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.407",
-                "description": " (*) Spreidhoeksprong of spagaatsprong parallel met 1\u00bd draai (540\u00b0) Spagaatsprong voorwaarts met 1\u00bd draai (540\u00ba) \u2013 afzet van beide benen ",
+                "description": "(*) Spreidhoeksprong of spagaatsprong parallel met 1\u00bd draai (540\u00b0) Spagaatsprong voorwaarts met 1\u00bd draai (540\u00ba) - afzet van beide benen",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -64771,7 +64771,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.108",
-                "description": " (*) Spreidhoeksprong (beide benen boven horizontaal) of spagaatsprong parallel met landing tot ligsteun, ook met \u00bd draai (180\u00ba) Hup met 1/1 draai (360\u00ba) tot spreidpositie met landing tot ligsteun - afzet van \u00e9\u00e9n been ",
+                "description": "(*) Spreidhoeksprong (beide benen boven horizontaal) of spagaatsprong parallel met landing tot ligsteun, ook met \u00bd draai (180\u00ba) Hup met 1/1 draai (360\u00ba) tot spreidpositie met landing tot ligsteun - afzet van \u00e9\u00e9n been",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64792,7 +64792,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.208",
-                "description": " (*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel met 1/1 draai (360\u00b0), landing tot ligsteun   Sprong met 1\u00bd draai (540\u00ba) in de horizontaal, met gesloten benen, landing tot ligsteun - afzet van \u00e9\u00e9n been ",
+                "description": "(*) Spreidhoeksprong (beide benen boven horizontaal), of spagaatsprong parallel met 1/1 draai (360\u00b0), landing tot ligsteun  Sprong met 1\u00bd draai (540\u00ba) in de horizontaal, met gesloten benen, landing tot ligsteun - afzet van \u00e9\u00e9n been",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64811,7 +64811,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.109",
-                "description": " (*) Spagaatsprong voorwaarts (180\u00b0 beenspreiding) - afzet van twee benen  Reesprong \u2013 afzet van twee benen  Reesprong met \u00bd draai (180\u00b0)  Sissone (180\u00ba beenspreiding in de diagonaal / 45\u00b0 t.o.v. de vloer) met afzet van 2 voeten en landing op 1 voet  ",
+                "description": "(*) Spagaatsprong voorwaarts (180\u00b0 beenspreiding) - afzet van twee benen Reesprong - afzet van twee benen Reesprong met \u00bd draai (180\u00b0) Sissone (180\u00ba beenspreiding in de diagonaal / 45\u00b0 t.o.v. de vloer) met afzet van 2 voeten en landing op 1 voet",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64834,7 +64834,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.209",
-                "description": " (*) Ringsprong (achterste voet op hoofdhoogte, romp achterover, 180\u00ba beenspreiding en hoofd achterover) \u2013 afzet van twee benen Reeringsprong (achterste voet op hoofdhoogte, romp achterover en hoofd achterover) \u2013 afzet van twee benen Spagaatringsprong (180\u00ba beenspreiding \u2013 afzet van twee benen Spagaatringsprong met \u00bd draai(180\u00ba) - afzet van twee benen ",
+                "description": "(*) Ringsprong (achterste voet op hoofdhoogte, romp achterover, 180\u00ba beenspreiding en hoofd achterover) - afzet van twee benen Reeringsprong (achterste voet op hoofdhoogte, romp achterover en hoofd achterover) - afzet van twee benen Spagaatringsprong (180\u00ba beenspreiding - afzet van twee benen Spagaatringsprong met \u00bd draai(180\u00ba) - afzet van twee benen",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64857,7 +64857,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.309",
-                "description": " Loopspagaatringsprong (180\u00ba) beenspreiding \u2013 afzet van \u00e9\u00e9n been  ",
+                "description": "Loopspagaatringsprong (180\u00ba) beenspreiding - afzet van \u00e9\u00e9n been",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64874,7 +64874,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.409",
-                "description": " (*) Loopspagaatsprong (afzet van \u00e9\u00e9n been) Spagaatsprong (afzet van twee benen) met 1/1 (360\u00b0) draai tot ringhouding  Wisselspagaat tot ringpositie met \u00bd draai (180\u00ba) ",
+                "description": "(*) Loopspagaatsprong (afzet van \u00e9\u00e9n been) Spagaatsprong (afzet van twee benen) met 1/1 (360\u00b0) draai tot ringhouding Wisselspagaat tot ringpositie met \u00bd draai (180\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "D",
@@ -64896,7 +64896,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.110",
-                "description": " Streksprong met 1/1 draai (360\u00ba) ",
+                "description": "Streksprong met 1/1 draai (360\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64913,7 +64913,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.310",
-                "description": " Streksprong met 2/1 draai (720\u00ba)  ",
+                "description": "Streksprong met 2/1 draai (720\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64929,7 +64929,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.111",
-                "description": " Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal ) ",
+                "description": "Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal )",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64946,7 +64946,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.211",
-                "description": " Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal) met 1/1 draai (360\u00ba)  ",
+                "description": "Kattensprong met afwisselende beenwissel (knie\u00ebn boven horizontaal) met 1/1 draai (360\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -64963,7 +64963,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.311",
-                "description": " Kattensprong met 2/1 draai (720\u00ba) ",
+                "description": "Kattensprong met 2/1 draai (720\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -64980,7 +64980,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.112",
-                "description": " Fouett\u00e9sprong tot landing in arabesque (vrije been boven horizontaal) ",
+                "description": "Fouett\u00e9sprong tot landing in arabesque (vrije been boven horizontaal)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -64997,7 +64997,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.212",
-                "description": " Sprong met \u00bd draai (180\u00b0), vrije been gedurende de draai gestrekt boven horizontaal ",
+                "description": "Sprong met \u00bd draai (180\u00b0), vrije been gedurende de draai gestrekt boven horizontaal",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -65014,7 +65014,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.312",
-                "description": " Sprong met 1/1 draai (360\u00ba), vrije been gedurende de gehele draai gestrekt boven horizontaal  ",
+                "description": "Sprong met 1/1 draai (360\u00ba), vrije been gedurende de gehele draai gestrekt boven horizontaal",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -65031,7 +65031,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.213",
-                "description": " Hurksprong met 1/1 draai (360\u00ba)  ",
+                "description": "Hurksprong met 1/1 draai (360\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -65048,7 +65048,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.313",
-                "description": " (*) Hurksprong met 2/1 draai (720\u00ba), ook met landing tot ligsteun ",
+                "description": "(*) Hurksprong met 2/1 draai (720\u00ba), ook met landing tot ligsteun",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "C",
@@ -65067,7 +65067,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.114",
-                "description": " Hurkhoeksprong (\u00e9\u00e9n been gebogen en het andere been voorwaarts gestrekt, boven horizontaal met gesloten knie\u00ebn) ",
+                "description": "Hurkhoeksprong (\u00e9\u00e9n been gebogen en het andere been voorwaarts gestrekt, boven horizontaal met gesloten knie\u00ebn)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "A",
@@ -65084,7 +65084,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.214",
-                "description": " (*) Hurkhoeksprong met 1/1 draai (360\u00ba) Hurkhoeksprong met 1/1 draai (360\u00ba) - landing tot ligsteun ",
+                "description": "(*) Hurkhoeksprong met 1/1 draai (360\u00ba) Hurkhoeksprong met 1/1 draai (360\u00ba) - landing tot ligsteun",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "B",
@@ -65103,7 +65103,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.514",
-                "description": " Hurkhoeksprong met 2/1 draai (720\u00ba)  ",
+                "description": "Hurkhoeksprong met 2/1 draai (720\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "E",
@@ -65120,7 +65120,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.101",
-                "description": " 1/1 draai (360\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze  ",
+                "description": "1/1 draai (360\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "A",
@@ -65137,7 +65137,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.201",
-                "description": " 2/1 draai (720\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze\u2019  ",
+                "description": "2/1 draai (720\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze\u2019",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65155,7 +65155,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.301",
-                "description": " 3/1 draai (1080\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze ",
+                "description": "3/1 draai (1080\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "C",
@@ -65172,7 +65172,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.501",
-                "description": " 4/1 draai (1440\u00ba) op \u00e9\u00e9n been \u2013 vrije been onder de horizontaal naar keuze ",
+                "description": "4/1 draai (1440\u00ba) op \u00e9\u00e9n been - vrije been onder de horizontaal naar keuze",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -65188,7 +65188,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.202",
-                "description": " 1/1 draai (360\u00ba) met het vrije been van het begin tot het einde van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)  ",
+                "description": "1/1 draai (360\u00ba) met het vrije been van het begin tot het einde van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65205,7 +65205,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.402",
-                "description": " 2/1 draai (720\u00ba) met het vrije been van het begin tot het einde van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)   ",
+                "description": "2/1 draai (720\u00ba) met het vrije been van het begin tot het einde van de draai op horizontaal, ook met vasthouden van het vrije been (standbeen en vrije been mogen gestrekt of gebogen zijn)",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -65222,7 +65222,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.203",
-                "description": " 1/1 draai (360\u00ba) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai  ",
+                "description": "1/1 draai (360\u00ba) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65239,7 +65239,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.403",
-                "description": " 2/1 draai (720\u00b0) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai ",
+                "description": "2/1 draai (720\u00b0) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -65256,7 +65256,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.503",
-                "description": " 3/1 draai (1080\u00ba) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai  ",
+                "description": "3/1 draai (1080\u00ba) met het vrije been vastgehouden in 180\u00ba spagaatpositie gedurende de gehele draai",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -65273,7 +65273,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.204",
-                "description": " 1/1 draai (360\uf0b0) op 1 been in \u201cback attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai) ",
+                "description": "1/1 draai (360\uf0b0) op 1 been in \u201cback attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai)",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65290,7 +65290,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.404",
-                "description": " (*) 2/1 draai (720\uf0b0) op 1 been \u201cin back attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai) 2/1 draai (720\uf0b0) op 1 been met het vrije been achterwaarts vastgehouden met beiden handen gedurende de draai ",
+                "description": "(*) 2/1 draai (720\uf0b0) op 1 been \u201cin back attitude\u201d (de knie van het vrije been op horizontaal gedurende de gehele draai) 2/1 draai (720\uf0b0) op 1 been met het vrije been achterwaarts vastgehouden met beiden handen gedurende de draai",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -65309,7 +65309,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.205",
-                "description": " 1/1 draai (360\uf0b0) in zweefstand met vrije been boven horizontaal gedurende de gehele draai  ",
+                "description": "1/1 draai (360\uf0b0) in zweefstand met vrije been boven horizontaal gedurende de gehele draai",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65326,7 +65326,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.206",
-                "description": " 1/1 duikdraai (360\u00ba) door standspagaat zonder aanraken van de vloer met de handen  ",
+                "description": "1/1 duikdraai (360\u00ba) door standspagaat zonder aanraken van de vloer met de handen",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65343,7 +65343,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.207",
-                "description": " 1/1 draai (360\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai  ",
+                "description": "1/1 draai (360\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65360,7 +65360,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.307",
-                "description": " 2/1 draai (720\u00ba) pirouette gestart met vrije been op horizontaal, naar beneden tot eindiging van draai in hurkhoek positie  ",
+                "description": "2/1 draai (720\u00ba) pirouette gestart met vrije been op horizontaal, naar beneden tot eindiging van draai in hurkhoek positie",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "C",
@@ -65377,7 +65377,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.407",
-                "description": " 2/1 draai (720\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai (geen afzet van de handen toegestaan bij de start van de draai) ",
+                "description": "2/1 draai (720\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai (geen afzet van de handen toegestaan bij de start van de draai)",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "D",
@@ -65394,7 +65394,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.507",
-                "description": " 3/1 draai (1080\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai (geen afzet van de handen toegestaan bij de start van de draai)  ",
+                "description": "3/1 draai (1080\u00ba) pirouette in hurkzit op \u00e9\u00e9n been - vrije been recht gedurende de draai (geen afzet van de handen toegestaan bij de start van de draai)",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "E",
@@ -65411,7 +65411,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "2.208",
-                "description": " 2/1 draai (720\u00ba) of meer op de rug in kiphouding (been - romphoek gesloten) ",
+                "description": "2/1 draai (720\u00ba) of meer op de rug in kiphouding (been - romphoek gesloten)",
                 "group_number": "2",
                 "group_name": "Gymnastische draaien",
                 "difficulty": "B",
@@ -65428,7 +65428,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.101",
-                "description": " Springen, zwaaien of heffen tot handstand \u2013 beweging erna naar keuze, ook met \u00bd en 1/1 draai (180\u00ba-360\u00ba) in handstand ",
+                "description": "Springen, zwaaien of heffen tot handstand - beweging erna naar keuze, ook met \u00bd en 1/1 draai (180\u00ba-360\u00ba) in handstand",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65448,7 +65448,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.201",
-                "description": " Springen, zwaaien of heffen tot handstand met 1\u00bd -2/1 draai (540\u00ba-720\u00ba) in handstand \u2013 beweging erna naar keuze  ",
+                "description": "Springen, zwaaien of heffen tot handstand met 1\u00bd -2/1 draai (540\u00ba-720\u00ba) in handstand - beweging erna naar keuze",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "B",
@@ -65468,7 +65468,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.102",
-                "description": " Hechtrol  ",
+                "description": "Hechtrol",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65485,7 +65485,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.103",
-                "description": " Rol achterover tot handstand met \u00bd of 1/1 draai (180\u00ba-360\u00ba) in handstand  ",
+                "description": "Rol achterover tot handstand met \u00bd of 1/1 draai (180\u00ba-360\u00ba) in handstand",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65502,7 +65502,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.203",
-                "description": " Rol achterover tot handstand met 1\u00bd - 2/1 draai (540\u00b0-720\u00ba) in handstand  ",
+                "description": "Rol achterover tot handstand met 1\u00bd - 2/1 draai (540\u00b0-720\u00ba) in handstand",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "B",
@@ -65520,7 +65520,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.104",
-                "description": " Langzame overslag achterover vanuit stand of hurkspreidzit tot handstand met 1/1 draai (360\u00ba) in handstand - beweging erna naar keuze  ",
+                "description": "Langzame overslag achterover vanuit stand of hurkspreidzit tot handstand met 1/1 draai (360\u00ba) in handstand - beweging erna naar keuze",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65538,7 +65538,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.105",
-                "description": " Overslag v.o. - afzet van \u00e9\u00e9n been of overslag v.o. - afzet van beide benen - met of zonder hechtfase voor de steun van de handen - landing naar keuze Sprong achterwaarts met \u00bd draai (180\u00ba) tot overslag v.o. (twistoverslag) - landing naar keuze  ",
+                "description": "Overslag v.o. - afzet van \u00e9\u00e9n been of overslag v.o. - afzet van beide benen - met of zonder hechtfase voor de steun van de handen - landing naar keuze Sprong achterwaarts met \u00bd draai (180\u00ba) tot overslag v.o. (twistoverslag) - landing naar keuze",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65559,7 +65559,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.305",
-                "description": " Overslag v.o. met 1/1 draai (360\u00ba) na de steun van de handen of voor de steun  ",
+                "description": "Overslag v.o. met 1/1 draai (360\u00ba) na de steun van de handen of voor de steun",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "C",
@@ -65578,7 +65578,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.106",
-                "description": " Arabier  ",
+                "description": "Arabier",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65595,7 +65595,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.107",
-                "description": " Alle flik-flak- en Auerbach-flik-flak- variaties, ook met steun van \u00e9\u00e9n arm  Twist (afzet achterwaarts) met \u00bc draai (90\u00ba) - vrije radslag - doorgaan met \u00bc draai (90\u00ba) tot ligsteun  ",
+                "description": "Alle flik-flak- en Auerbach-flik-flak- variaties, ook met steun van \u00e9\u00e9n arm Twist (afzet achterwaarts) met \u00bc draai (90\u00ba) - vrije radslag - doorgaan met \u00bc draai (90\u00ba) tot ligsteun",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "A",
@@ -65618,7 +65618,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.207",
-                "description": " Flik-flak met 1/1 draai (360\u00ba) voor de steun van de handen ",
+                "description": "Flik-flak met 1/1 draai (360\u00ba) voor de steun van de handen",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "B",
@@ -65635,7 +65635,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.101",
-                "description": " Salto v.o. gehurkt of gehoekt ",
+                "description": "Salto v.o. gehurkt of gehoekt",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "A",
@@ -65654,7 +65654,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.201",
-                "description": " Salto v.o. gehurkt met \u00bd of 1/1 draai (180\u00ba-360\u00ba), ook salto v.o. gehoekt met \u00bd draai (180\u00ba)  ",
+                "description": "Salto v.o. gehurkt met \u00bd of 1/1 draai (180\u00ba-360\u00ba), ook salto v.o. gehoekt met \u00bd draai (180\u00ba)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "B",
@@ -65674,7 +65674,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.501",
-                "description": " Dubbele salto v.o. gehurkt  ",
+                "description": "Dubbele salto v.o. gehurkt",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "E",
@@ -65691,7 +65691,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.601",
-                "description": " Dubbel salto v.o. gehurkt met \u00bd draai (180\u00b0) Dubbel salto v.o. gehoekt  ",
+                "description": "Dubbel salto v.o. gehurkt met \u00bd draai (180\u00b0) Dubbel salto v.o. gehoekt",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "F",
@@ -65709,7 +65709,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.202",
-                "description": " Salto v.o. gestrekt; ook met \u00bd draai (180\u00ba) ",
+                "description": "Salto v.o. gestrekt; ook met \u00bd draai (180\u00ba)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "B",
@@ -65730,7 +65730,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.302",
-                "description": " Salto v.o. gestrekt met 1/1 of 1\u00bd draai (360\u00ba of 540\u00ba) ",
+                "description": "Salto v.o. gestrekt met 1/1 of 1\u00bd draai (360\u00ba of 540\u00ba)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "C",
@@ -65749,7 +65749,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.402",
-                "description": " Salto v.o. gestrekt met 2/1 draai (720\u00ba) ",
+                "description": "Salto v.o. gestrekt met 2/1 draai (720\u00ba)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "D",
@@ -65766,7 +65766,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.502",
-                "description": " Salto v.o. gestrekt met 2\u00bd draai (900\u00ba)  ",
+                "description": "Salto v.o. gestrekt met 2\u00bd draai (900\u00ba)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "E",
@@ -65783,7 +65783,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.103",
-                "description": " Vrije (aerial) overslag v.o.  ",
+                "description": "Vrije (aerial) overslag v.o.",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "A",
@@ -65800,7 +65800,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.104",
-                "description": " Vrije (aerial) radslag of vrije (aerial) arabier  ",
+                "description": "Vrije (aerial) radslag of vrije (aerial) arabier",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "A",
@@ -65819,7 +65819,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.105",
-                "description": " Vanuit afzet vw met \u00e9\u00e9n of beide benen \u2013 salto zijwaarts gehurkt of gehoekt ",
+                "description": "Vanuit afzet vw met \u00e9\u00e9n of beide benen - salto zijwaarts gehurkt of gehoekt",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "A",
@@ -65837,7 +65837,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.205",
-                "description": " Twistsalto gehurkt of gehoekt (afzet achterover met \u00bd draai (180\u00ba), salto v.o.) \u2013 landing naar keuze  ",
+                "description": "Twistsalto gehurkt of gehoekt (afzet achterover met \u00bd draai (180\u00ba), salto v.o.) - landing naar keuze",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "B",
@@ -65855,7 +65855,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.505",
-                "description": " Dubbele twistsalto gehurkt, ook met \u00bd draai (180\uf0b0)  ",
+                "description": "Dubbele twistsalto gehurkt, ook met \u00bd draai (180\uf0b0)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "E",
@@ -65873,7 +65873,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "4.605",
-                "description": " Dubbele twistsalto gehoekt  Ook met \u00bd draai (180\uf0b0)  ",
+                "description": "Dubbele twistsalto gehoekt Ook met \u00bd draai (180\uf0b0)",
                 "group_number": "4",
                 "group_name": "Salto\u2019s v.o. en zijwaarts",
                 "difficulty": "F",
@@ -65892,7 +65892,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.101",
-                "description": " Salto a.o. gehurkt, gehoekt, gestrekt  ",
+                "description": "Salto a.o. gehurkt, gehoekt, gestrekt",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "A",
@@ -65908,7 +65908,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.201",
-                "description": " Salto a.o. gehurkt of gestrekt met \u00bd of 1/1 draai (180\u00ba of 360\u00ba) ",
+                "description": "Salto a.o. gehurkt of gestrekt met \u00bd of 1/1 draai (180\u00ba of 360\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "B",
@@ -65927,7 +65927,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.301",
-                "description": " Salto a.o. gestrekt met 1\u00bd of 2/1 draai (540\u00ba of 720\u00ba)  ",
+                "description": "Salto a.o. gestrekt met 1\u00bd of 2/1 draai (540\u00ba of 720\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "C",
@@ -65946,7 +65946,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.401",
-                "description": " Salto a.o. gestrekt met 2\u00bd draai (900\u00ba) ",
+                "description": "Salto a.o. gestrekt met 2\u00bd draai (900\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "D",
@@ -65963,7 +65963,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.501",
-                "description": " Salto a.o. gestrekt met 3/1 draai (1080\u00ba) ",
+                "description": "Salto a.o. gestrekt met 3/1 draai (1080\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "E",
@@ -65980,7 +65980,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.601",
-                "description": " Salto a.o. gestrekt met 3\u00bd draai (1260\u00ba)  ",
+                "description": "Salto a.o. gestrekt met 3\u00bd draai (1260\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "F",
@@ -65997,7 +65997,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.402",
-                "description": " Dubbele salto a.o. gehurkt of gehoekt  Dubbele salto a.o. gehoekt  ",
+                "description": "Dubbele salto a.o. gehurkt of gehoekt Dubbele salto a.o. gehoekt",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "D",
@@ -66012,7 +66012,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.502",
-                "description": " Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00ba) ",
+                "description": "Dubbele salto a.o. gehurkt of gehoekt met 1/1 draai (360\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "E",
@@ -66025,7 +66025,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.602",
-                "description": " / ",
+                "description": "/",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "F",
@@ -66038,7 +66038,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.802",
-                "description": " Dubbele salto a.o. gehurkt met 2/1 draai (720\u00ba)  ",
+                "description": "Dubbele salto a.o. gehurkt met 2/1 draai (720\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "H",
@@ -66059,7 +66059,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.603",
-                "description": " Dubbele salto a.o. gestrekt  ",
+                "description": "Dubbele salto a.o. gestrekt",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "F",
@@ -66072,7 +66072,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.703",
-                "description": " Dubbel salto a.o. gestrekt met \u00bd draai (180\u00b0)  ",
+                "description": "Dubbel salto a.o. gestrekt met \u00bd draai (180\u00b0)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "G",
@@ -66085,7 +66085,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.803",
-                "description": " Dubbele salto a.o. gestrekt met 1/1 draai (360\u00ba)  ",
+                "description": "Dubbele salto a.o. gestrekt met 1/1 draai (360\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "H",
@@ -66098,7 +66098,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.903",
-                "description": " Dubbel salto a.o. gestrekt met 2/1 draai (720\u00b0)  ",
+                "description": "Dubbel salto a.o. gestrekt met 2/1 draai (720\u00b0)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "I",
@@ -66111,7 +66111,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.104",
-                "description": " Temposalto  ",
+                "description": "Temposalto",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "A",
@@ -66124,7 +66124,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.204",
-                "description": " Temposalto met \u00bd draai (180\u00ba)  ",
+                "description": "Temposalto met \u00bd draai (180\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "B",
@@ -66137,7 +66137,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "5.304",
-                "description": " Temposalto met 1/1 draai (360\u00ba)  ",
+                "description": "Temposalto met 1/1 draai (360\u00ba)",
                 "group_number": "5",
                 "group_name": "Salto\u2019s a.o.",
                 "difficulty": "C",
@@ -66150,7 +66150,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.001",
-                "description": " Loopsprong voorwaarts (beenspreiding 135\u00ba) ",
+                "description": "Loopsprong voorwaarts (beenspreiding 135\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66163,7 +66163,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.002",
-                "description": " Loopsprong op de plaats (beenspreiding 135\u00ba) ",
+                "description": "Loopsprong op de plaats (beenspreiding 135\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66176,7 +66176,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.005",
-                "description": " Wisselloopsprong (beenspreiding 135\u00ba) ",
+                "description": "Wisselloopsprong (beenspreiding 135\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66189,7 +66189,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.007",
-                "description": " Spreidsprong met gestrekte heupen (beenspreiding 135\u00ba)  ",
+                "description": "Spreidsprong met gestrekte heupen (beenspreiding 135\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66202,7 +66202,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.009",
-                "description": " Sisonne (beenspreiding 135\u00ba) ",
+                "description": "Sisonne (beenspreiding 135\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66215,7 +66215,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.010",
-                "description": " Streksprong met 1/2 draai (180\u00ba)  ",
+                "description": "Streksprong met 1/2 draai (180\u00ba)",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66228,7 +66228,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "1.011",
-                "description": " Schaarsprong voorwaarts met gestrekte benen ",
+                "description": "Schaarsprong voorwaarts met gestrekte benen",
                 "group_number": "1",
                 "group_name": "Gymnastische sprongen",
                 "difficulty": "TA",
@@ -66241,7 +66241,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.001",
-                "description": " Zwaaien tot handstand, vluchtig of 1 seconde (180\u00b0) Handstanddoorrol  ",
+                "description": "Zwaaien tot handstand, vluchtig of 1 seconde (180\u00b0) Handstanddoorrol",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "TA",
@@ -66254,7 +66254,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.002",
-                "description": " Rol voorover of snelle rol voorover zonder handensteun  ",
+                "description": "Rol voorover of snelle rol voorover zonder handensteun",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "TA",
@@ -66267,7 +66267,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.003",
-                "description": " Rol achterover (tot handstand)  ",
+                "description": "Rol achterover (tot handstand)",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "TA",
@@ -66280,7 +66280,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.004",
-                "description": " Langzame overslag voorover of langzame overslag v.o., a.o. (Tik-Tak)  ",
+                "description": "Langzame overslag voorover of langzame overslag v.o., a.o. (Tik-Tak)",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "TA",
@@ -66293,7 +66293,7 @@ export const allElements: LanguageType = {
             },
             {
                 "id": "3.006",
-                "description": " Radslag  ",
+                "description": "Radslag",
                 "group_number": "3",
                 "group_name": "Elementen met steun van de handen",
                 "difficulty": "TA",
@@ -66309,4 +66309,4 @@ export const allElements: LanguageType = {
 };
 
 export const availableApparatuses = ['f_m', 'ph', 'r', 'v_m', 'pb', 'hb', 'v_w', 'ub', 'b', 'f_w']
-export const availableLanguages = ['fr', 'nl', 'es', 'en']
+export const availableLanguages = ['nl', 'en', 'fr', 'es']

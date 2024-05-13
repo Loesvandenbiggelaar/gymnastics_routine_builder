@@ -4,7 +4,8 @@ import os
 import shutil
 import re
 import pandas as pd
-from extract_elements import loadConfig, saveJson, loadJson
+from data_functions import loadConfig, saveJson, loadJson
+import argparse
 
 class PageClass:
     def __init__(self, page):
@@ -276,14 +277,26 @@ def do_extraction(output_folder, apparatus, language, config, do_group_extractio
 
 
 def main():
+    # add arguments to the command line wether or not to do the extraction of the images.
+    parser = argparse.ArgumentParser(description='Gymnastics Routine Builder')
+    parser.add_argument('--extract_images', action='store_true', help='Extract images from PDF')
+    args = parser.parse_args()
+
+    extract_images = args.extract_images
+
+    if extract_images:
+        print("Extracting images")
+
     config = loadConfig("data_source/pages_config_women.yaml")
     output_folder = config["output directory"] + "/images/"
-    language = "en"
-    json = {}
-    for apparatus in ["vault", "beam", "uneven bars", "floor"]:
-        json[apparatus] = do_extraction(output_folder, apparatus, language, config, False)
-    saveJson(output_folder + "metadata.json", json)
-   
+    
+    if extract_images:
+        language = "en"
+        json = {}
+        for apparatus in ["vault", "beam", "uneven bars", "floor"]:
+            json[apparatus] = do_extraction(output_folder, apparatus, language, config, False)
+        saveJson(output_folder + "metadata.json", json)
+    
     metadata = loadJson(output_folder + "metadata.json")
     for language in ["en", "nl"]:
         elements_data = loadJson(config["output directory"] + language + "_elements.json")
@@ -292,12 +305,13 @@ def main():
 
     config = loadConfig("data_source/pages_config_men.yaml")
     output_folder = config["output directory"] + "/images/"
-    language = "en"
-    json = {}
-    for apparatus in ["floor", "pommel horse", "rings", "vault", "parallel bars", "high bar"]:
-        json[apparatus] = do_extraction(output_folder, apparatus, language, config, True)
-    saveJson(output_folder + "metadata.json", json)
-   
+    if extract_images:
+        language = "en"
+        json = {}
+        for apparatus in ["floor", "pommel horse", "rings", "vault", "parallel bars", "high bar"]:
+            json[apparatus] = do_extraction(output_folder, apparatus, language, config, True)
+        saveJson(output_folder + "metadata.json", json)
+    
     metadata = loadJson(output_folder + "metadata.json")
     for language in ["en", "nl", "es", "fr"]:
         elements_data = loadJson(config["output directory"] + language + "_elements.json")
