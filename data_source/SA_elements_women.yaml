@@ -1,0 +1,45 @@
+vault:
+  SA1: 
+    ophurken, streksprong af
+    1.00
+  SA2:
+    ophurken, streksprong 1/2 af
+    1.10
+  SA3:
+    overspreiden
+    1.10
+  SA4:
+    overhurken
+    1.30
+  0.80:
+    streksprong op-af
+    1.30
+uneven bars:
+  1.002: Opspringen tot steun.
+  1.001S: Staan tussen de liggers en met afzet van de voeten op de lage ligger komen tot streksteun aan de hoge ligger.
+  3.001: 1x kurbet; in stille hang overstrekte kurbethouding (hol) (1 sec.) gevolgd door gesloten kurbethouding (bol) (1 sec.).
+  3.006: Vanuit stille hang optrekken tot buikhang met kin boven de ligger (1 sec.), terug tot hang.
+  3.001S: Vanuit streksteun op hoge ligger wegzetten tot strekhangzwaai.
+  5.001S: Molendraai voorwaarts of achterwaarts.
+  5.002S: Zitdraai met gebogen benen.
+  5.003S: Opklimmen tot hurkzit op de lage ligger.
+  5.004S: Vanuit zit of ruglingse steun met beide voeten tegelijkertijd inhurken.
+  6.001S: Neerzwaai tussen de liggers, ½ draai in de voorzwaai tot stand.
+  6.002S: Onderzwaai/tegenspreiden vanaf de lage ligger tot stand.
+  6.002: Vanuit streksteun voorover duikelen tot hoekhang (3 sec.) en komen tot stand.
+Beam:
+  1.001S: Afzet met beide benen tot streksteun op de balk, één been overheffen tot rijzit.
+  3.001S:  ½ draai (180°) op één been, vrije been in passé.
+  4.001S: Zweefstand horizontaal (90°) (2sec).
+  4.002S: Vanuit ruglig rollen naar kaarsstand (2 sec).
+  4.003S: Vrije hurksteun met knieën boven navelhoogte (2sec).
+  4.004S: Rol achterover met hoofd naast de balk, ook tot kniezit.
+  4.005: Klemrol voorover.
+  6.001: Streksprong af.
+  6.001S: Hurksprong af.
+  6.002S: Spreidsprong af.
+Floor:
+  2.001: ½ draai (180°) op één been, vrije been in passé.
+  3.001S: Zweefrol voorover (heupen niet gestrekt).
+  3.002S: Zweefstand horizontaal (90°) (2sec).
+  6.001: Spreidzit met buik op de grond, schredezit, spagaat, split of boogje opduwen.
