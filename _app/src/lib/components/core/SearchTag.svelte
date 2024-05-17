@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { data } from '$lib/stores/datastore';
-	import type { SearchListEntry } from '$lib/stores/datastore';
-	export let tag: SearchListEntry;
+	import type { SearchEntry } from '$lib/stores/datastore';
+	export let tag: SearchEntry;
 	import Icon, { iconExists } from '@iconify/svelte';
 
 	export const compactTag: boolean = false;
 	const tagDisabled = tag?.disabled || false;
 	const tagType = tag?.type;
 	var tagIcon: string;
+	const tagText = tag?.friendly || tag.value || 'ERROR';
 
 	// Set tag icon
 	if (tag?.customIcon && iconExists(tag.customIcon)) tagIcon = tag?.customIcon;
@@ -15,11 +16,11 @@
 	else if (tagType === 'search') tagIcon = 'mdi:magnify';
 </script>
 
-<span class="badge variant-filled-surface bg-slate-50" class:disabled={tagDisabled}>
+<span class="badge variant-filled-surface" class:disabled={tagDisabled}>
 	<span id="tagIcon" class:hidden={!tagIcon || compactTag}>
 		<Icon icon={tagIcon} />
 	</span>
-	{tag.value}
+	{tagText}
 	<button
 		id="tagRemove"
 		title="Remove tag"

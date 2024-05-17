@@ -12,7 +12,7 @@
 	};
 
 	// Import SearchListEntry
-	import type { SearchListEntry } from '$lib/stores/datastore';
+	import type { SearchEntry } from '$lib/stores/datastore';
 
 	import Icon from '@iconify/svelte';
 
@@ -80,19 +80,21 @@
 		}
 		if (e.key === 'Enter') {
 			if (value.length <= 0) return;
-			const _entry: SearchListEntry = { value: value, type: 'search' };
+			const _entry: SearchEntry = { value: value, type: 'search' };
+			// Deal with modifiers
+			if (value.startsWith('!')) {
+				_entry.modifier = 'not';
+				_entry.friendly = value.slice(1);
+			}
 			return addToFilterList(_entry);
 		}
 	}
 
-	function addToFilterList(_entry: SearchListEntry) {
+	function addToFilterList(_entry: SearchEntry) {
 		if ($data.filterOptions.searchList.some(({ value }) => value === _entry.value))
 			return clearSearch();
 		if ($data.filterOptions.availableSearchTags.includes(_entry.value)) _entry.type = 'tag';
-		$data.filterOptions.searchList = [
-			...$data.filterOptions.searchList,
-			_entry
-		] as SearchListEntry[];
+		$data.filterOptions.searchList = [...$data.filterOptions.searchList, _entry] as SearchEntry[];
 		clearSearch();
 		$data.searchMultiple();
 		// TODO: add warning when search yields no results

@@ -19,15 +19,23 @@ export let modalElement = writable();
  *   - apparatus: The selected apparatus. This is used to filter the elements.
  */
 
-import { availableApparatuses, availableLanguages } from '$lib/data/elements/all_elements';
+import {
+	availableApparatuses,
+	availableLanguages,
+	type ElementType
+} from '$lib/data/elements/all_elements';
 import { search_tags } from '$lib/data/elements/search_tags';
 
-export type SearchListEntry = {
+export type SearchModifiers = 'exact' | 'not' | 'fuzzy' | 'property';
+export type SearchEntry = {
 	value: string;
+	friendly?: string;
 	type?: 'tag' | 'search';
 	color?: string;
 	customIcon?: string;
 	disabled?: boolean;
+	modifier?: SearchModifiers;
+	searchProperties?: string[];
 };
 
 export class ElementData {
@@ -47,7 +55,7 @@ export class ElementData {
 	filteredData: Array<any>;
 	filterOptions: {
 		search: string;
-		searchList: Array<SearchListEntry>;
+		searchList: Array<SearchEntry>;
 		availableSearchTags: Array<string>;
 		searchProperties: Array<string>;
 		sex: 'm' | 'w' | 'both';
@@ -113,26 +121,14 @@ export class ElementData {
 	}
 
 	// a public function that sets the search properties and updates the filtered data ($data.filteredData)
-	public searchMultiple(searchList?: SearchListEntry[], database?: Object[]) {
-		// Set 'searches' to be the array of strings to go through
-		let searches: string[];
+	public searchMultiple(searchList?: SearchEntry[], database?: Object[]) {
 		// If no search list is provided, use the stored search list
 		if (!searchList) searchList = this.filterOptions.searchList;
-		// If the searchList is an array of SearchListEntry objects, convert it to an array of strings
-		if (
-			Array.isArray(searchList) &&
-			searchList.length > 0 &&
-			typeof searchList[0].value === 'string'
-		) {
-			searches = searchList.map((searchListEntry) => searchListEntry.value);
-		} else {
-			throw new Error('Search list must be an array of either SearchListEntry or string');
-		}
 
 		const _database = database || this.elementData;
 		// use private function to return filtered list and set filteredData
 		var multiFilterList = _database;
-		for (const searchValue of searches) {
+		for (const searchValue of searchList) {
 			multiFilterList = this.returnFilterBySearch(searchValue, multiFilterList);
 		}
 
@@ -150,7 +146,7 @@ export class ElementData {
 		// If multiple search filters, prefilter the database
 		if (this.filterOptions.searchList.length > 0) _database = this.searchMultiple();
 		//use private function to return filtered list and set filteredData
-		this.filteredData = this.returnFilterBySearch(_searchInput, _database);
+		this.filteredData = this.returnFilterBySearch(_searchInput, _database, true);
 
 		console.debug(
 			'Data... Search:',
@@ -163,27 +159,111 @@ export class ElementData {
 
 	// a private function that returns a list of filtered elements using a search input (as string)
 	// Optionally pick a database, useful for filtering the filtered list further! (default is $data.elementData)
-	public returnFilterBySearch(searchValue: string, database?: Object[]) {
+	public returnFilterBySearch(
+		searchInput: string | SearchEntry,
+		database?: Object[],
+		log: boolean = false
+	) {
+		// If no database is provided, use the stored database
 		if (!database) database = this.elementData;
 		let _searchProps = this.filterOptions.searchProperties;
+		let _searchEntry: SearchEntry =
+			typeof searchInput === 'string' ? this.convertSearchStringToEntry(searchInput) : searchInput;
+		if (log) console.error('searchEntry', _searchEntry);
+
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
 		const filteredList = database.filter((element) => {
-			// search each element in the array
-			return Object.entries(element).some(([key, value]) => {
-				// check if the value matches the search input
-				return (
-					// check if the value matches the search props (fields)
-					(_searchProps?.includes(key.toString()) ||
-						_searchProps === undefined ||
-						_searchProps.length === 0) &&
-					// check if the value matches the search input
-					value.toString().toLowerCase().includes(searchValue.toLowerCase())
-				);
-			});
+			// search each element in the array for a match
+			return this.searchElementsWithModifier(_searchEntry, element);
 		});
 		// return the filtered list
 		return filteredList;
+	}
+
+	private convertSearchStringToEntry(searchString: string) {
+		let _modifier: SearchModifiers | undefined;
+		let _property: string | undefined;
+		// Convert search string to entry
+		let _searchInput = searchString.toString().toLocaleLowerCase();
+		// Set modifiers
+		// If it starts with !, set to 'not'
+		if (_searchInput?.includes('!')) {
+			_modifier = 'not';
+			_searchInput = _searchInput.slice(1);
+			// If it conatins :, set to 'property', set _property to the value before the :, set _searchInput to the value after the :
+		} else if (_searchInput?.includes(':')) {
+			_modifier = 'property';
+			_property = _searchInput.split(':')[0];
+			_searchInput = _searchInput.split(':')[1];
+			// If it starts with " and ends with ", set to 'exact'
+		} else if (_searchInput?.startsWith('"') && _searchInput?.endsWith('"')) {
+			_modifier = 'exact';
+			_searchInput = searchString.slice(1, -1); // remove the first and last quotes, but keep all other raw characters
+			// If it starts with ~, set to 'fuzzy'
+		} else if (_searchInput?.startsWith('~')) {
+			_modifier = 'fuzzy';
+			_searchInput = _searchInput.slice(1);
+		}
+
+		let searchEntry = {
+			value: _searchInput,
+			type: 'search',
+			friendly: _searchInput,
+			modifier: _modifier,
+			searchProperties: _property
+		} as SearchEntry;
+		return searchEntry;
+	}
+
+	// Returns true if the searchValue matches the search criteria based on the searchModifier
+	private searchElementsWithModifier(
+		searchEntry: SearchEntry, // the search input
+		element: ElementType | Object // the value in the element to match
+	) {
+		// If no searchValue is provided, return true
+		if (!searchEntry) return true;
+		// set matchValue to a more compatible type
+		let matchValue = element.toString().toLocaleLowerCase();
+		// Prefedefined modifiers
+		let _modifier: SearchModifiers | undefined = searchEntry?.modifier;
+		let _searchInput: string = searchEntry.value;
+		// Set search properties to consider for (mis)matching
+		let _searchProperties: string[] | undefined =
+			searchEntry?.searchProperties || this.filterOptions?.searchProperties || undefined;
+
+		// If there is no search value, return true (match)
+		if (_searchInput === '') return true;
+
+		// SEARCH
+		let match: boolean = false; // Add to data by default
+		// Go through each property
+		Object.entries(element).forEach(([key, value]) => {
+			// Check if the property is in the search properties or if there are no search properties
+			let propertyMatch =
+				_searchProperties?.includes(key.toString()) ||
+				_searchProperties.length === 0 ||
+				_searchProperties === undefined;
+
+			if (match) return; // If the element has a match, keep it in the list
+			if (!propertyMatch) return; // If the property is not in the search properties, don't consider it's value
+
+			let _searchInputString = _searchInput.toString().toLocaleLowerCase();
+
+			switch (_modifier) {
+				case 'exact':
+					match = value.toString().toLocaleLowerCase() === _searchInputString;
+					break;
+				case 'fuzzy':
+					match = value.toString().toLocaleLowerCase().includes(_searchInputString);
+					break;
+				default: // 'not'
+					match = value.toString().toLocaleLowerCase().includes(_searchInputString);
+					break;
+			}
+		});
+		// If there is a match, return the element. If the modifier is 'not', do the opposite
+		return match !== (_modifier === 'not');
 	}
 
 	public setSearchProperties(searchProps: string[] | string) {
