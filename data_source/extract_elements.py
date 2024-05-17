@@ -1,60 +1,18 @@
 import os
 import re
-import yaml
-import json
-# import PyPDF2
 import fitz
 from difflib import SequenceMatcher
+from data_functions import loadConfig, saveJson, cleanText, adjustString
+import argparse
 
 test = False
 
-def loadConfig(file):
-    """
-    Load the config file, which is in YAML format.
-    file: The YAML file to read
-    """
-    assert file.endswith(".yaml")
-    print("Loading config file")
-    with open(file, "r") as f:
-        return yaml.safe_load(f)
 
-def loadJson(file):
-    assert file.endswith(".json")
-    with open(file, "r") as f:
-        return json.load(f)
-
-def saveJson(file, elements):
-    print('write json to', file)
-    assert file.endswith(".json")
-    with open(file, "w") as f:
-        f.write(json.dumps(elements))
-
-def loadPages(file, page_range):
-    pdf = fitz.open(file)
-        # Check if the target page is within the range of pages
-    # Select the given target pages
-    if isinstance(page_range, int):
-        if page_range < 0 or page_range >= len(pdf):
-            print("Error: Invalid target page number.")
-            return
-        pages = [page_range]
-    elif isinstance(page_range, list):
-        pages = range(page_range[0], page_range[1]+1)
-    else:
-        raise ValueError ("target_page not valid")
-    print("page range:", pages)
-    return [pdf.load_page(i -1) for i in pages]
-
-def adjustString(s:str, adjustments) -> str:
-    """Do string replacements listed in the config file."""
-
-    for adj in adjustments:
-        s = s.replace(adj[0], adj[1])
-    return s
-
-def cleanText(s:str) -> str:
-    return s.replace("|", " ").replace("\t", " ").replace("\n", "").replace("  ", " ").strip()
-
+# add command line argument for verbose
+parser = argparse.ArgumentParser(description='Gymnastics Routine Builder')
+parser.add_argument('--verbose', action='store_true', help='verbose')
+args = parser.parse_args()
+verbose = args.verbose
 
 class ProcessElements:
     def __init__(self,config,language, mens_womens):
@@ -75,7 +33,8 @@ class ProcessElements:
     # function to initiate the pdf reader
     def initiateReader(self):
         file =  self.config["file"][self.language]
-        print("reading pages of", file)
+        if verbose:
+            print("reading pages of", file)
         return fitz.open(file)
     
     def loadPages(self, apparatus):
@@ -125,14 +84,16 @@ class ProcessElements:
     def processRegexResultWomens(self, res, apparatus):
         if apparatus == "vault":
             if len(res) != 3:
-                print("[WARNING] not avalid result:", res)
+                if verbose:
+                    print("[WARNING] not avalid result:", res)
                 return
-            self.elements[apparatus][res[0]] = {"id":res[0], "description":res[1], "value":float(res[2])}
+            self.elements[apparatus][res[0]] = {"id":res[0], "description":cleanText(res[1]), "value":float(res[2])}
         else:
             if len(res) != 2:
-                print("[WARNING] not avalid result:", res)
+                if verbose:
+                    print("[WARNING] not avalid result:", res)
                 return 
-            self.elements[apparatus][res[0]] = {"id":res[0], "description":res[1]}
+            self.elements[apparatus][res[0]] = {"id":res[0], "description":cleanText(res[1])}
 
     def processRegexResultMens(self, res, apparatus, group_number):
         if res[1] in ["|", ""]:
@@ -141,22 +102,24 @@ class ProcessElements:
             return
 
         if self.language == "nl":
-            description = res[1]
+            description = cleanText(res[1])
         else:
             if test:
                 print(res)
 
             if len(res) < 4:
-                print("[WARNING], could not process", res)
+                if verbose:
+                    print("[WARNING], could not process", res)
                 return
-            description = res[self.config["language_description_index"][self.language]+1]
+            description = cleanText(res[self.config["language_description_index"][self.language]+1])
         try:
             if description != description.upper():
                 if group_number+"."+res[0] in self.elements[apparatus]:
                     raise ValueError (apparatus, group_number +"."+ res[0], "already exists")
                 self.elements[apparatus][group_number+"."+res[0]] = {"id":group_number+"."+res[0], "description":cleanText(s=description)}
         except IndexError:
-            print("[WARNING] not a valid result!:", res)
+            if verbose:
+                print("[WARNING] not a valid result!:", res)
             return
 
 
@@ -183,8 +146,9 @@ class ProcessElements:
             return
         ratio = SequenceMatcher(None, string, self.groups[apparatus][group_number]).ratio()
         if ratio <0.9:
-            print(string)
-            print(self.groups[apparatus][group_number])
+            if verbose:
+                print(string)
+                print(self.groups[apparatus][group_number])
             raise AssertionError ("items are not similar enough:", ratio)
         return
     
@@ -366,7 +330,7 @@ def main():
             print(language, "not supported for men!")
 
     # run the quality check python script
-    os.system("python data_source/check_quality.py")
+    # os.system("python data_source/check_quality.py")
 
 
 if __name__ == "__main__":

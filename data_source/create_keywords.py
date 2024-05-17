@@ -1,27 +1,9 @@
 # load ts file with all the data
 import json
-from extract_elements import saveJson
-
-
-
-def transform_ts_to_json(file):
-
-    with open(file, 'r') as f:
-        lines = f.readlines()
-        for i, line in enumerate(lines):
-            if "allElements" in line:
-                start = i + 1
-                # print(i, line)
-            if "};" in line:
-                end = i
-                # print(i, line)
-        json_string = "{" + "\n".join(lines[start:end])+ "}"
-
-    # parse the string presentation of the json to an actual json
-    return json.loads(json_string)
+from data_functions import data_ts_to_json
 
 file = "_app/src/lib/data/elements/all_elements.ts"
-data = transform_ts_to_json(file)
+data = data_ts_to_json(file)
 
 # loop over all the elements per language and per apparatus.
 # count each word and store it in a dictionary

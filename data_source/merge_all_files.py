@@ -3,7 +3,7 @@
 # first key should be the language key, the second key should be the apparatus name, and the value should be the list of elements.
 import json
 import os
-from extract_elements import loadJson
+from data_functions import loadJson
 
 
 # translate the apparatus names to a code universally understood by the app
