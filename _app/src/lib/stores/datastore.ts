@@ -22,6 +22,14 @@ export let modalElement = writable();
 import { availableApparatuses, availableLanguages } from '$lib/data/elements/all_elements';
 import { search_tags } from '$lib/data/elements/search_tags';
 
+export type SearchListEntry = {
+	value: string;
+	type?: 'tag' | 'search';
+	color?: string;
+	customIcon?: string;
+	disabled?: boolean;
+};
+
 export class ElementData {
 	rawData: Record<string, Record<string, any>>;
 	availableLanguages: Array<keyof typeof this.rawData>;
@@ -39,7 +47,7 @@ export class ElementData {
 	filteredData: Array<any>;
 	filterOptions: {
 		search: string;
-		searchList: Array<string>;
+		searchList: Array<SearchListEntry>;
 		availableSearchTags: Array<string>;
 		searchProperties: Array<string>;
 		sex: 'm' | 'w' | 'both';
@@ -105,11 +113,21 @@ export class ElementData {
 	}
 
 	// a public function that sets the search properties and updates the filtered data ($data.filteredData)
-	public searchMultiple(searchList?: string[] | string, database?: Object[]) {
-		//
-		let searches: string[]; // put the list in a more readable variable
-		if (Array.isArray(searchList) && searchList) searches = searchList;
-		else searches = this.filterOptions.searchList;
+	public searchMultiple(searchList?: SearchListEntry[], database?: Object[]) {
+		// Set 'searches' to be the array of strings to go through
+		let searches: string[];
+		// If no search list is provided, use the stored search list
+		if (!searchList) searchList = this.filterOptions.searchList;
+		// If the searchList is an array of SearchListEntry objects, convert it to an array of strings
+		if (
+			Array.isArray(searchList) &&
+			searchList.length > 0 &&
+			typeof searchList[0].value === 'string'
+		) {
+			searches = searchList.map((searchListEntry) => searchListEntry.value);
+		} else {
+			throw new Error('Search list must be an array of either SearchListEntry or string');
+		}
 
 		const _database = database || this.elementData;
 		// use private function to return filtered list and set filteredData
@@ -130,7 +148,7 @@ export class ElementData {
 		let _database;
 
 		// If multiple search filters, prefilter the database
-		if (this.filterOptions.searchList.length > 0) _database = this.searchMultiple(_searchInput);
+		if (this.filterOptions.searchList.length > 0) _database = this.searchMultiple();
 		//use private function to return filtered list and set filteredData
 		this.filteredData = this.returnFilterBySearch(_searchInput, _database);
 

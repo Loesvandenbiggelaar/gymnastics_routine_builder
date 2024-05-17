@@ -11,6 +11,9 @@
 		placement: 'bottom'
 	};
 
+	// Import SearchListEntry
+	import type { SearchListEntry } from '$lib/stores/datastore';
+
 	import Icon from '@iconify/svelte';
 
 	let value = '';
@@ -33,7 +36,7 @@
 	$: searchTagList_filtered = searchTagDict.filter(
 		(tag) =>
 			tag.value.toLowerCase().includes(value.toLowerCase()) &&
-			!$data.filterOptions.searchList.includes(tag.value)
+			!$data.filterOptions.searchList.map(({ value }) => value).includes(tag.value)
 	);
 	$: enableSearchDropdown = value.length > 0 && Object.values(searchTagList_filtered).length > 0;
 
@@ -70,21 +73,30 @@
 	// Check if search yields valid results
 	$: validSearch = Array.isArray($data.filteredData) && $data.filteredData.length > 0;
 
+	// Keyboard events in the searchbar
 	function searchKeydown(e: KeyboardEvent) {
 		if (e.key === 'Delete') {
 			return clearSearch();
 		}
 		if (e.key === 'Enter') {
 			if (value.length <= 0) return;
-			return addToFilterList(value);
+			const _entry: SearchListEntry = { value: value, type: 'search' };
+			return addToFilterList(_entry);
 		}
 	}
 
-	function addToFilterList(input: string) {
-		if ($data.filterOptions.searchList.includes(input)) return clearSearch();
-		$data.filterOptions.searchList = [...$data.filterOptions.searchList, input] as string[];
+	function addToFilterList(_entry: SearchListEntry) {
+		if ($data.filterOptions.searchList.some(({ value }) => value === _entry.value))
+			return clearSearch();
+		if ($data.filterOptions.availableSearchTags.includes(_entry.value)) _entry.type = 'tag';
+		$data.filterOptions.searchList = [
+			...$data.filterOptions.searchList,
+			_entry
+		] as SearchListEntry[];
 		clearSearch();
 		$data.searchMultiple();
+		// TODO: add warning when search yields no results
+		document.getElementById('searchInput')?.focus();
 		return;
 	}
 
@@ -121,7 +133,7 @@
 				<button
 					class="btn variant-soft searchTag"
 					class:inactive={tag.amount === 0}
-					on:click={() => addToFilterList(tag.value)}
+					on:click={() => addToFilterList({ value: tag.value, type: 'tag' })}
 				>
 					<Icon icon="mdi:label-outline" />
 					{tag.friendly}
