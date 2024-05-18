@@ -76,6 +76,7 @@
 
 		/* Box Styling */
 		padding: 0.8em;
+		height: 4rem;
 		background-color: rgb(var(--bg-color));
 
 		/* Item positioning */
