@@ -5,6 +5,9 @@
 	import { initializeStores, Drawer, Modal } from '@skeletonlabs/skeleton';
 	initializeStores();
 
+	// Set Dark mode automatically
+	import { autoModeWatcher } from '@skeletonlabs/skeleton';
+
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
 	import 'highlight.js/styles/github-dark.css';
@@ -31,6 +34,8 @@
 	import Icon from '@iconify/svelte';
 </script>
 
+<!-- Set Dark Mode -->
+<svelte:head>{@html '<script>(' + autoModeWatcher.toString() + ')();</script>'}</svelte:head>
 <!-- Init Modals -->
 <Modal />
 
