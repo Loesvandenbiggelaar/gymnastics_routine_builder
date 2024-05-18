@@ -13,6 +13,7 @@
 	// Set tag icon
 	if (tag?.customIcon && iconExists(tag.customIcon)) tagIcon = tag?.customIcon;
 	else if (tagType === 'tag') tagIcon = 'mdi:tag';
+	else if (tag.modifier === 'not') tagIcon = 'mdi:select-search';
 	else if (tagType === 'search') tagIcon = 'mdi:magnify';
 </script>
 

@@ -128,10 +128,9 @@ export class ElementData {
 		const _database = database || this.elementData;
 		// use private function to return filtered list and set filteredData
 		var multiFilterList = _database;
-		for (const searchValue of searchList) {
+		searchList.forEach((searchValue) => {
 			multiFilterList = this.returnFilterBySearch(searchValue, multiFilterList);
-		}
-
+		});
 		// Combine lists in filteredDataLists and store in combinedList
 		return this.returnFilterBySearch(this.filterOptions.search, multiFilterList);
 	}
@@ -146,11 +145,14 @@ export class ElementData {
 		// If multiple search filters, prefilter the database
 		if (this.filterOptions.searchList.length > 0) _database = this.searchMultiple();
 		//use private function to return filtered list and set filteredData
-		this.filteredData = this.returnFilterBySearch(_searchInput, _database, true);
+		this.filteredData = this.returnFilterBySearch(_searchInput, _database);
 
 		console.debug(
-			'Data... Search:',
+			'Datasearch:',
+			`${this.filteredData.length} results found`,
+			'\nSearchterm:',
 			this.filterOptions.search,
+			'\nSearchproperties:',
 			this.filterOptions.searchProperties
 		);
 
@@ -159,17 +161,11 @@ export class ElementData {
 
 	// a private function that returns a list of filtered elements using a search input (as string)
 	// Optionally pick a database, useful for filtering the filtered list further! (default is $data.elementData)
-	public returnFilterBySearch(
-		searchInput: string | SearchEntry,
-		database?: Object[],
-		log: boolean = false
-	) {
+	public returnFilterBySearch(searchInput: string | SearchEntry, database?: Object[]) {
 		// If no database is provided, use the stored database
 		if (!database) database = this.elementData;
-		let _searchProps = this.filterOptions.searchProperties;
 		let _searchEntry: SearchEntry =
 			typeof searchInput === 'string' ? this.convertSearchStringToEntry(searchInput) : searchInput;
-		if (log) console.error('searchEntry', _searchEntry);
 
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
@@ -196,10 +192,10 @@ export class ElementData {
 			_modifier = 'property';
 			_property = _searchInput.split(':')[0];
 			_searchInput = _searchInput.split(':')[1];
-			// If it starts with " and ends with ", set to 'exact'
-		} else if (_searchInput?.startsWith('"') && _searchInput?.endsWith('"')) {
+			// If it starts with =, set to 'exact'
+		} else if (_searchInput?.startsWith('=')) {
 			_modifier = 'exact';
-			_searchInput = searchString.slice(1, -1); // remove the first and last quotes, but keep all other raw characters
+			_searchInput = searchString.toString().slice(1); // remove the first character, but keep all other raw characters
 			// If it starts with ~, set to 'fuzzy'
 		} else if (_searchInput?.startsWith('~')) {
 			_modifier = 'fuzzy';
@@ -223,8 +219,6 @@ export class ElementData {
 	) {
 		// If no searchValue is provided, return true
 		if (!searchEntry) return true;
-		// set matchValue to a more compatible type
-		let matchValue = element.toString().toLocaleLowerCase();
 		// Prefedefined modifiers
 		let _modifier: SearchModifiers | undefined = searchEntry?.modifier;
 		let _searchInput: string = searchEntry.value;

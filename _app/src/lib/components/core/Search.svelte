@@ -114,6 +114,7 @@
 			type="text"
 			bind:value
 			{placeholder}
+			autocomplete="off"
 			class="input w-full {validSearch ? 'validInput' : 'invalidInput'}"
 			on:keydown={searchKeydown}
 		/>
