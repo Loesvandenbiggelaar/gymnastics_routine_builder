@@ -14,7 +14,7 @@ data = data_ts_to_json(file)
 from collections import Counter
 
 # list of words that should not be used
-blacklist = ["with", "met", "also","grip","both", "vanaf", "afzet", "approach", "from", "other","together", "avec", "between", "naar", "aussi", "vanuit", "voor", "door", "terugkomen","keuze", "over" ]
+blacklist = ["with", "met", "also","pommel", "also","grip","both", "vanaf", "afzet", "approach", "from", "other","together", "avec", "between", "naar", "aussi", "vanuit", "voor", "door", "terugkomen","keuze", "over", "beide" ]
 
 # default dict
 count_data = {}
@@ -23,7 +23,7 @@ for language, language_data in data.items():
     for apparatus, elements in language_data.items():
         count_data[language][apparatus] = Counter()
         for element in elements:
-            words = element["description"].replace(")","").replace("(", "").replace(".", "").lower().replace("hdst", "handstand").split(" ")
+            words = element["description"].replace(")","").replace("(", "").replace(".", "").lower().replace("hdst", "handstand").replace("hstd","handstand").replace(",", "").split(" ")
 
             # add the words to the counter
             word_counter = Counter(words)
