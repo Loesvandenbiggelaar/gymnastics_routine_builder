@@ -1,12 +1,12 @@
 
 // load the all_elements file
-import { allElements } from "../data/elements/all_elements.js";
-/** @typedef {import("$lib/data/elements/all_elements.ts").ElementType} ElementType */
+import { allElements } from "../data/elements/all_elements.ts";
+// /** @typedef {import("$lib/data/elements/all_elements.ts").ElementType} ElementType */
 
 
 // based on the list of element ids (including combos), retreive the elements from the allElements object
 /**
- * @param {string[][]} routine_ids
+ * @param {import("./routine_evaluation.js").Routine[][]} routine_ids
  * @param {string} language
  * @param {string} apparatus
  */
@@ -27,7 +27,7 @@ function create_routine(routine_ids, language, apparatus) {
 }
 
 // normal routine, enough elements, no repeated acrobatic elements, no repeated gymnastic elements, dismount done
-const beam_normal_ids = [["1.101"],[ "2.303", "2.101", "2.303"], ["2.310"], ["4.107", "5.201"], ["4.107", "6.204"]]
+const beam_normal_ids = [["1.101"],[ "2.303", "2.101", "2.303"], ["2.310"],["5.312", "5.512"], ["4.107", "5.201"], ["4.107", "6.204"]]
 export const beam_routine_normal = create_routine(beam_normal_ids, "en", "b");
 
 // routine with no dismount
