@@ -1,7 +1,7 @@
-export type ElementType = {id:string, description:string, group_number:string, group_name:string, difficulty:string, type:string, value:number, images:ImageType, };
-export type ImageType = {figure:any, symbol:any, };
-export type ApparatusType = Record<string, ElementType[]>;
-export type LanguageType = Record<string, ApparatusType>;
+export type ElementType = { id: string, description: string, group_number: string, group_name: string, difficulty: string, type: string, value: number, images: ImageType, }
+export type ImageType = { figure: any, symbol: any, }
+export type ApparatusType = Record<string, ElementType[]>
+export type LanguageType = Record<string, ApparatusType>
 export const allElements: LanguageType = {
     "en": {
         "f_m": [
@@ -66306,7 +66306,7 @@ export const allElements: LanguageType = {
             }
         ]
     }
-};
+}
 
 export const availableApparatuses = ['f_m', 'ph', 'r', 'v_m', 'pb', 'hb', 'v_w', 'ub', 'b', 'f_w']
-export const availableLanguages = ['nl', 'en', 'fr', 'es']
+export type availableLanguages = ['nl', 'en', 'fr', 'es']

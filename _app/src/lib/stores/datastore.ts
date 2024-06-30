@@ -1,9 +1,9 @@
-import { writable } from 'svelte/store';
-import { apparatusConfig, type ApparatusConfigEntry } from '$lib/data/elements/apparatusConfig';
+import { writable } from 'svelte/store'
+import { apparatusConfig, type ApparatusConfigEntry } from '$lib/data/elements/apparatusConfig'
 
-export let selectedApparatus = writable(apparatusConfig[0]);
+export let selectedApparatus = writable(apparatusConfig[0])
 // Create a writable store for the selected apparatus
-export let modalElement = writable();
+export let modalElement = writable()
 // Create a writable store for the modal element
 
 /**
@@ -21,84 +21,88 @@ export let modalElement = writable();
 
 import {
 	availableApparatuses,
-	availableLanguages,
-	type ElementType
-} from '$lib/data/elements/all_elements';
-import { search_tags } from '$lib/data/elements/search_tags';
+	// type availableLanguages,
+	type ElementType,
+	type availableLanguages
+} from '$lib/data/elements/all_elements'
+import { search_tags } from '$lib/data/elements/search_tags'
 
-export type SearchModifiers = 'exact' | 'not' | 'fuzzy' | 'property';
+export type SearchModifiers = 'exact' | 'not' | 'fuzzy' | 'property'
 export type SearchEntry = {
-	value: string;
-	friendly?: string;
-	type?: 'tag' | 'search';
-	color?: string;
-	customIcon?: string;
-	disabled?: boolean;
-	modifier?: SearchModifiers;
-	searchProperties?: string[];
-};
+	value: string
+	friendly?: string
+	type?: 'tag' | 'search'
+	color?: string
+	customIcon?: string
+	disabled?: boolean
+	modifier?: SearchModifiers
+	searchProperties?: string[]
+}
 
 export class ElementData {
-	rawData: Record<string, Record<string, any>>;
-	availableLanguages: Array<keyof typeof this.rawData>;
-	availableApparatuses: string[];
+	rawData: Record<string, Record<string, any>>
+	availableLanguages: Array<keyof typeof this.rawData>
+	availableApparatuses: string[]
 
 	userSettings: {
-		lang: string;
-		apparatus: string;
-	};
+		lang: string
+		apparatus: string
+	}
 
-	selectedLanguage: string;
-	selectedApparatus: string;
-	apparatusData: Record<string, any>;
-	elementData: Array<any>;
-	filteredData: Array<any>;
+	selectedLanguage: keyof typeof this.rawData
+	selectedApparatus: string
+	apparatusData: Record<string, any>
+	elementData: Array<any>
+	filteredData: Array<any>
 	filterOptions: {
-		search: string;
-		searchList: Array<SearchEntry>;
-		availableSearchTags: Array<string>;
-		searchProperties: Array<string>;
-		sex: 'm' | 'w' | 'both';
-	};
+		search: string
+		searchList: Array<SearchEntry>
+		availableSearchTags: Array<string>
+		searchProperties: Array<string>
+		sex: 'm' | 'w' | 'both'
+	}
 
 	constructor(
 		rawData: Record<string, Record<string, any>>,
 		_userSettings?: { lang?: string; apparatus?: string }
 	) {
-		this.rawData = rawData;
-		this.availableLanguages = Object.keys(rawData) as Array<keyof typeof this.rawData>;
-		this.availableApparatuses = availableApparatuses;
+		this.rawData = rawData
+		this.availableLanguages = Object.keys(rawData) as Array<keyof typeof this.rawData>
+		this.availableApparatuses = availableApparatuses
 		this.userSettings = {
 			lang: _userSettings?.lang ? _userSettings.lang : this.availableLanguages[0],
 			apparatus: _userSettings?.apparatus ? _userSettings.apparatus : this.availableApparatuses[0]
-		};
+		}
 
 		//Set selected apparatus and language to narrow down dataset
 		this.selectedLanguage = Object.keys(this.rawData).includes(this.userSettings.lang)
 			? this.userSettings.lang
-			: this.availableLanguages[0];
+			: this.availableLanguages[0]
 		this.selectedApparatus = this.availableApparatuses.includes(this.userSettings.apparatus)
 			? this.userSettings.apparatus
-			: this.availableApparatuses[0];
+			: this.availableApparatuses[0]
 
 		// Narrow down dataset to selected apparatus and language
-		this.apparatusData = this.rawData[this.selectedLanguage];
-		this.elementData = this.apparatusData[this.selectedApparatus];
+		this.apparatusData = this.rawData[this.selectedLanguage]
+		this.elementData = this.apparatusData[this.selectedApparatus]
 
 		//Set filters
-		this.filteredData = this.elementData;
+		this.filteredData = this.elementData
+		const _lang = this.selectedLanguage as keyof typeof search_tags
+		const _langTags = search_tags?.[_lang]
+		const _app = this.selectedApparatus as keyof typeof _langTags
 		this.filterOptions = {
 			search: '' as string,
 			searchList: [],
-			availableSearchTags: search_tags?.[this.selectedLanguage]?.[this.selectedApparatus] || [],
+			availableSearchTags: _langTags?.[_app] || [],
 			searchProperties: ['id', 'description', 'value'] as const,
 			sex: 'both'
-		};
+		}
 	}
 	public logData() {
-		console.log(this.elementData);
-		let i = 0;
-		console.log(i in Object.keys(this.rawData));
+		console.log(this.elementData)
+		let i = 0
+		console.log(i in Object.keys(this.rawData))
 	}
 
 	/**
@@ -106,46 +110,46 @@ export class ElementData {
 	 * @param _input - Key of apparatus in rawData
 	 */
 	public setApparatus(_input?: string) {
-		_input = _input || this.selectedApparatus;
-		const _database = this.apparatusData;
+		_input = _input || this.selectedApparatus
+		const _database = this.apparatusData
 		// Check if input is a valid key in rawData
 		if (!Object.keys(_database).includes(_input)) {
-			return console.error(`Invalid apparatus: ${_input}`, Object.keys(_database));
+			return console.error(`Invalid apparatus: ${_input}`, Object.keys(_database))
 		}
 		// Set apparatus and update data
-		let _apparatus = _input as keyof typeof _database;
-		this.elementData = Object.values(_database[_apparatus]);
+		let _apparatus = _input as keyof typeof _database
+		this.elementData = Object.values(_database[_apparatus])
 		// update
-		this.search();
-		data.update(() => this);
+		this.search()
+		data.update(() => this)
 	}
 
 	// a public function that sets the search properties and updates the filtered data ($data.filteredData)
 	public searchMultiple(searchList?: SearchEntry[], database?: Object[]) {
 		// If no search list is provided, use the stored search list
-		if (!searchList) searchList = this.filterOptions.searchList;
+		if (!searchList) searchList = this.filterOptions.searchList
 
-		const _database = database || this.elementData;
+		const _database = database || this.elementData
 		// use private function to return filtered list and set filteredData
-		var multiFilterList = _database;
+		var multiFilterList = _database
 		searchList.forEach((searchValue) => {
-			multiFilterList = this.returnFilterBySearch(searchValue, multiFilterList);
-		});
+			multiFilterList = this.returnFilterBySearch(searchValue, multiFilterList)
+		})
 		// Combine lists in filteredDataLists and store in combinedList
-		return this.returnFilterBySearch(this.filterOptions.search, multiFilterList);
+		return this.returnFilterBySearch(this.filterOptions.search, multiFilterList)
 	}
 
 	// a public function that sets the search input and updates the filtered data ($data.filteredData)
 	public search(searchInput?: string) {
 		//
-		if (searchInput) this.filterOptions.search = searchInput;
-		let _searchInput = this.filterOptions.search || ''; //private searchInput to be matched
-		let _database;
+		if (searchInput) this.filterOptions.search = searchInput
+		let _searchInput = this.filterOptions.search || '' //private searchInput to be matched
+		let _database
 
 		// If multiple search filters, prefilter the database
-		if (this.filterOptions.searchList.length > 0) _database = this.searchMultiple();
+		if (this.filterOptions.searchList.length > 0) _database = this.searchMultiple()
 		//use private function to return filtered list and set filteredData
-		this.filteredData = this.returnFilterBySearch(_searchInput, _database);
+		this.filteredData = this.returnFilterBySearch(_searchInput, _database)
 
 		console.debug(
 			'Datasearch:',
@@ -154,52 +158,52 @@ export class ElementData {
 			this.filterOptions.search,
 			'\nSearchproperties:',
 			this.filterOptions.searchProperties
-		);
+		)
 
-		data.update(() => this);
+		data.update(() => this)
 	}
 
 	// a private function that returns a list of filtered elements using a search input (as string)
 	// Optionally pick a database, useful for filtering the filtered list further! (default is $data.elementData)
 	public returnFilterBySearch(searchInput: string | SearchEntry, database?: Object[]) {
 		// If no database is provided, use the stored database
-		if (!database) database = this.elementData;
+		if (!database) database = this.elementData
 		let _searchEntry: SearchEntry =
-			typeof searchInput === 'string' ? this.convertSearchStringToEntry(searchInput) : searchInput;
+			typeof searchInput === 'string' ? this.convertSearchStringToEntry(searchInput) : searchInput
 
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
 		const filteredList = database.filter((element) => {
 			// search each element in the array for a match
-			return this.searchElementsWithModifier(_searchEntry, element);
-		});
+			return this.searchElementsWithModifier(_searchEntry, element)
+		})
 		// return the filtered list
-		return filteredList;
+		return filteredList
 	}
 
 	private convertSearchStringToEntry(searchString: string) {
-		let _modifier: SearchModifiers | undefined;
-		let _property: string | undefined;
+		let _modifier: SearchModifiers | undefined
+		let _property: string | undefined
 		// Convert search string to entry
-		let _searchInput = searchString.toString().toLocaleLowerCase();
+		let _searchInput = searchString.toString().toLocaleLowerCase()
 		// Set modifiers
 		// If it starts with !, set to 'not'
 		if (_searchInput?.includes('!')) {
-			_modifier = 'not';
-			_searchInput = _searchInput.slice(1);
+			_modifier = 'not'
+			_searchInput = _searchInput.slice(1)
 			// If it conatins :, set to 'property', set _property to the value before the :, set _searchInput to the value after the :
 		} else if (_searchInput?.includes(':')) {
-			_modifier = 'property';
-			_property = _searchInput.split(':')[0];
-			_searchInput = _searchInput.split(':')[1];
+			_modifier = 'property'
+			_property = _searchInput.split(':')[0]
+			_searchInput = _searchInput.split(':')[1]
 			// If it starts with =, set to 'exact'
 		} else if (_searchInput?.startsWith('=')) {
-			_modifier = 'exact';
-			_searchInput = searchString.toString().slice(1); // remove the first character, but keep all other raw characters
+			_modifier = 'exact'
+			_searchInput = searchString.toString().slice(1) // remove the first character, but keep all other raw characters
 			// If it starts with ~, set to 'fuzzy'
 		} else if (_searchInput?.startsWith('~')) {
-			_modifier = 'fuzzy';
-			_searchInput = _searchInput.slice(1);
+			_modifier = 'fuzzy'
+			_searchInput = _searchInput.slice(1)
 		}
 
 		let searchEntry = {
@@ -208,8 +212,8 @@ export class ElementData {
 			friendly: _searchInput,
 			modifier: _modifier,
 			searchProperties: _property
-		} as SearchEntry;
-		return searchEntry;
+		} as SearchEntry
+		return searchEntry
 	}
 
 	// Returns true if the searchValue matches the search criteria based on the searchModifier
@@ -218,84 +222,87 @@ export class ElementData {
 		element: ElementType | Object // the value in the element to match
 	) {
 		// If no searchValue is provided, return true
-		if (!searchEntry) return true;
+		if (!searchEntry) return true
 		// Prefedefined modifiers
-		let _modifier: SearchModifiers | undefined = searchEntry?.modifier;
-		let _searchInput: string = searchEntry.value;
+		let _modifier: SearchModifiers | undefined = searchEntry?.modifier
+		let _searchInput: string = searchEntry.value
 		// Set search properties to consider for (mis)matching
 		let _searchProperties: string[] | undefined =
-			searchEntry?.searchProperties || this.filterOptions?.searchProperties || undefined;
+			searchEntry?.searchProperties || this.filterOptions?.searchProperties || undefined
 
 		// If there is no search value, return true (match)
-		if (_searchInput === '') return true;
+		if (_searchInput === '') return true
 
 		// SEARCH
-		let match: boolean = false; // Add to data by default
+		let match: boolean = false // Add to data by default
 		// Go through each property
 		Object.entries(element).forEach(([key, value]) => {
 			// Check if the property is in the search properties or if there are no search properties
 			let propertyMatch =
 				_searchProperties?.includes(key.toString()) ||
 				_searchProperties.length === 0 ||
-				_searchProperties === undefined;
+				_searchProperties === undefined
 
-			if (match) return; // If the element has a match, keep it in the list
-			if (!propertyMatch) return; // If the property is not in the search properties, don't consider it's value
+			if (match) return // If the element has a match, keep it in the list
+			if (!propertyMatch) return // If the property is not in the search properties, don't consider it's value
 
-			let _searchInputString = _searchInput.toString().toLocaleLowerCase();
+			let _searchInputString = _searchInput.toString().toLocaleLowerCase()
 
 			switch (_modifier) {
 				case 'exact':
-					match = value.toString().toLocaleLowerCase() === _searchInputString;
-					break;
+					match = value.toString().toLocaleLowerCase() === _searchInputString
+					break
 				case 'fuzzy':
-					match = value.toString().toLocaleLowerCase().includes(_searchInputString);
-					break;
+					match = value.toString().toLocaleLowerCase().includes(_searchInputString)
+					break
 				default: // 'not'
-					match = value.toString().toLocaleLowerCase().includes(_searchInputString);
-					break;
+					match = value.toString().toLocaleLowerCase().includes(_searchInputString)
+					break
 			}
-		});
+		})
 		// If there is a match, return the element. If the modifier is 'not', do the opposite
-		return match !== (_modifier === 'not');
+		return match !== (_modifier === 'not')
 	}
 
 	public setSearchProperties(searchProps: string[] | string) {
 		// put search props in an array (if not already)
 		// If undefined, leave it as undefined
 		this.filterOptions.searchProperties =
-			typeof searchProps === 'string' ? [searchProps] : searchProps;
+			typeof searchProps === 'string' ? [searchProps] : searchProps
 		// update the filtered data and notify the store
-		console.debug('selected search properties', this.filterOptions.searchProperties);
+		console.debug('selected search properties', this.filterOptions.searchProperties)
 
 		// Update and refresh search
-		data.update(() => this);
-		this.search();
+		data.update(() => this)
+		this.search()
 	}
 
 	public updateLanguage(lang?: string) {
-		this.userSettings.lang = lang || this.userSettings.lang;
+		this.userSettings.lang = lang || this.userSettings.lang
 		// Set selected apparatus and language to narrow down dataset
 		this.selectedLanguage = Object.keys(this.rawData).includes(this.userSettings.lang)
 			? this.userSettings.lang
-			: this.availableLanguages[0];
+			: this.availableLanguages[0]
 		// Narrow down dataset to selected apparatus and language
-		this.apparatusData = this.rawData[this.selectedLanguage];
+		this.apparatusData = this.rawData[this.selectedLanguage]
 		// Update search tag list
-		this.filterOptions.availableSearchTags =
-			search_tags?.[this.selectedLanguage]?.[this.selectedApparatus] || [];
+		const _lang = this.selectedLanguage as keyof typeof search_tags
+		const _langTags = search_tags?.[_lang]
+		const _app = this.selectedApparatus as keyof typeof _langTags
+		this.filterOptions.availableSearchTags = _langTags?.[_app] || []
 
 		//Update and refresh data
-		data.update(() => this);
+		data.update(() => this)
 	}
 }
 
 // Import dataset from json
-import rawData from '$lib/data/elements/women/nl_elements.json';
-import { allElements } from '$lib/data/elements/all_elements';
+import rawData from '$lib/data/elements/women/nl_elements.json'
+import { allElements } from '$lib/data/elements/all_elements'
+import type SearchTags from '$lib/components/SearchTags.svelte'
 const defaultUserSettings = {
 	lang: 'nlx',
 	apparatus: 'v_w'
-};
+}
 // Instantiate data store
-export let data = writable(new ElementData(allElements, defaultUserSettings));
+export let data = writable(new ElementData(allElements, defaultUserSettings))
