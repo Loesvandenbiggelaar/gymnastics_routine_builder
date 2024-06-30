@@ -5,9 +5,11 @@ export type ApparatusOptions = keyof (typeof allElements)[0]
 const comboEncodingSeparator: string = '-'
 const elementEncodingSeparator: string = '_'
 
+
 // Types for the Routine
 import { type ElementType } from '$lib/data/elements/all_elements'
-import { get } from 'http'
+import { writable } from 'svelte/store'
+// import { get } from 'http'
 import { createCombo, createRoutine, getElement } from './debug_get_routines'
 type RoutineMessage = {
 	msg: string
@@ -44,12 +46,20 @@ function decodeFromBase64(encoded: string): string {
 export class Routine {
 	apparatus: ApparatusOptions
 	routine: ComboType[] = [];
-	flatRoutine: [ElementType[]] = [[]];
 
 	constructor(apparatus: ApparatusOptions, encodedRoutine?: string) {
-		// console.log("apparatus", apparatus)
 		this.apparatus = apparatus
 		this.routine = encodedRoutine ? this.decodeRoutine(encodedRoutine) : [] // decodes the encoded routine when given
+		// this.update()
+	}
+
+	private update() {
+		routineBuilder.update(() => this)
+	}
+
+	public empty() {
+		this.routine = []
+		this.update()
 	}
 
 
@@ -60,6 +70,7 @@ export class Routine {
 	 */
 	private addCombo(combo: ComboType) {
 		this.routine.push(combo)
+		this.update()
 	}
 
 	/**
@@ -69,6 +80,7 @@ export class Routine {
 	 */
 	public removeCombo(comboIndex: number) {
 		this.routine.splice(comboIndex, 1)
+		this.update()
 	}
 
 	/**
@@ -84,6 +96,7 @@ export class Routine {
 		} else {
 			this.addCombo({ elements: [element] })
 		}
+		this.update()
 	}
 
 	/**
@@ -94,6 +107,7 @@ export class Routine {
 	 */
 	public removeElement(comboIndex: number, elementIndex: number) {
 		this.routine[comboIndex].elements.splice(elementIndex, 1)
+		this.update()
 	}
 
 	/**
@@ -111,6 +125,7 @@ export class Routine {
 		} else {
 			this.routine[newComboIndex] = { elements: [element] }
 		}
+		this.update()
 	}
 
 	/**
@@ -122,6 +137,7 @@ export class Routine {
 	public moveCombo(currentIndex: number, newIndex: number) {
 		const combo = this.routine.splice(currentIndex, 1)[0]
 		this.routine.splice(newIndex, 0, combo)
+		this.update()
 	}
 
 	/**
@@ -157,35 +173,79 @@ export class Routine {
 			return { elements: elementStrings.map((elementId) => database.find((element) => element.id === elementId) as ElementType) } as ComboType
 		})
 	}
+
+	// given a combo index and element index, move that element 1 back
+	public moveElementBack(comboIndex: number, elementIndex: number) {
+		if (elementIndex > 0) {
+			const element = this.routine[comboIndex].elements.splice(elementIndex, 1)[0]
+			this.routine[comboIndex].elements.splice(elementIndex - 1, 0, element)
+			this.update()
+		}
+	}
+
 }
 
+import { data } from './datastore' // Import the 'data' variable from the './data' module
 
+function getSelectedApparatusFromStore(): string {
+	let val
+	const unsubscribe = data.subscribe(($data) => val = $data.selectedApparatus)
+	unsubscribe()
+	return val || 'v_w'
+}
 
-const routine = new Routine('b')
+export let routineBuilder = writable(new Routine(getSelectedApparatusFromStore()))
 
-routine.addElement(getElement('b', '1.101') as ElementType)
-console.log("add element:", routine.getRoutineIds())
+// const encodedRoutine="MS4xMDEtMi4zMDNfMi4xMDFfMi4zMDMtMi4zMTAtNS4zMTJfNS4zMTItNC4xMDdfNS4yMDEtNC4xMDdfNi4yMDQ="
+// 
+// const routine = new Routine('b')
 
-routine.addElement(getElement('b', '2.303') as ElementType, 0)
-console.log("add element:", routine.getRoutineIds())
+// routine.addElement(getElement('b', '1.101'))
+// console.log("add element:", routine.getRoutineIds())
 
-routine.addElement(getElement('b', '2.101') as ElementType, 0)
-console.log("add element:", routine.getRoutineIds())
+// routine.addElement(getElement('b', '2.303'))
+// console.log("add element:", routine.getRoutineIds())
 
-routine.addElement(getElement('b', '5.312') as ElementType, 1)
-console.log("add element:", routine.getRoutineIds())
+// routine.addElement(getElement('b', '2.101'), 1)
+// console.log("add element:", routine.getRoutineIds())
 
-routine.removeElement(0, 1)
-console.log("remove element:", routine.getRoutineIds())
+// routine.addElement(getElement('b', '2.303'), 1)
+// console.log("add element:", routine.getRoutineIds())
 
-routine.moveElement(0, 0, 1, 0)
+// routine.addElement(getElement('b', '2.310'))
+// console.log("add element:", routine.getRoutineIds())
 
-console.log("move element:", routine.getRoutineIds())
+// routine.addElement(getElement('b', '5.312'))
+// console.log("add element:", routine.getRoutineIds())
 
-routine.moveCombo(0, 1)
-console.log("move combo:", routine.getRoutineIds())
+// routine.addElement(getElement('b', '5.312'), 3)
+// console.log("add element:", routine.getRoutineIds())
 
-console.log("encoded routine:", routine.encodedRoutine())
+// routine.addElement(getElement('b', '4.107'))
+// console.log("add element:", routine.getRoutineIds())
 
-console.log("decoded routine:", routine.decodeRoutine(routine.encodedRoutine()))
+// routine.addElement(getElement('b', '5.201'), 4)
+// console.log("add element:", routine.getRoutineIds())
+
+// routine.addElement(getElement('b', '4.107'))
+// console.log("add element:", routine.getRoutineIds())
+
+// routine.addElement(getElement('b', '6.204'), 5)
+// console.log("add element:", routine.getRoutineIds())
+
+// console.log(routine.encodedRoutine())
+
+// routine.removeElement(0, 1)
+// console.log("remove element:", routine.getRoutineIds())
+
+// routine.moveElement(0, 0, 1, 0)
+
+// console.log("move element:", routine.getRoutineIds())
+
+// routine.moveCombo(0, 1)
+// console.log("move combo:", routine.getRoutineIds())
+
+// console.log("encoded routine:", routine.encodedRoutine())
+
+// console.log("decoded routine:", routine.decodeRoutine(routine.encodedRoutine()))
 
