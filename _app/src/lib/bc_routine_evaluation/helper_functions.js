@@ -18,21 +18,21 @@ export function flatten_routine(routine) {
 	return routine.flat();
 }
 
-// check if the last element is a dismount. 
-// Return true if last element is of group 6. otherwise false.
-// Only tested for women
-/**
- * @param {ElementType[]} routine_flat
- */
-export function is_dismount_done(routine_flat) {
-	const length_routine = routine_flat.length;
-	let last_element = routine_flat[length_routine - 1];
-	if (last_element['group_number'] == '6') {
-		return true;
-	} else {
-		return false;
-	}
-}
+// // check if the last element is a dismount. 
+// // Return true if last element is of group 6. otherwise false.
+// // Only tested for women
+// /**
+//  * @param {ElementType[]} routine_flat
+//  */
+// export function is_dismount_done(routine_flat) {
+// 	const length_routine = routine_flat.length;
+// 	let last_element = routine_flat[length_routine - 1];
+// 	if (last_element['group_number'] == '6') {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
 
 export function sort_elements(elements_array) {
 	return elements_array.sort((a, b) => {

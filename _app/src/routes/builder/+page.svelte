@@ -8,9 +8,6 @@
 	import {routineBuilder} from '$lib/stores/routineBuilder'
 	// console.log("my routine", routineBuilder.getRoutineIds())
 	import BuilderElement from '$lib/components/builder/BuilderElement.svelte';
-
-
-	$routineBuilder.addElement(getElement("b", "1.101"))
 	console.log("default:routine", $routineBuilder.routine)
 
 
@@ -23,6 +20,7 @@
 		// console(inputValue);
 		$routineBuilder.addElement(getElement("b", inputValue))
 		console.log("routine", $routineBuilder.getRoutineIds())
+		$routineBuilder.calcDiff()
 	}
 
 	function deleteButton(){
@@ -33,6 +31,8 @@
 	}
 
 $: console.log($routineBuilder.routine)
+// $: $routineBuilder.calcDiff()
+$: console.log("total", $routineBuilder.difficulty.totalDifficulty)
 </script>
 
 <!-- Search and Filter -->
@@ -64,8 +64,14 @@ $: console.log($routineBuilder.routine)
 <input type="text" bind:value={inputValue} style="color: black;" />
 
 <!-- Button to trigger the function -->
-<button on:click={processInput}>Process Input</button>
+<button on:click={processInput}>Add</button>
 
+<br>
 
 <!-- Big Delete Button -->
 <button class="deleteButton" on:click={deleteButton}>Delete Routine</button>
+
+<br>
+<br>
+
+difficulty: {$routineBuilder.difficulty.difficultyElements}

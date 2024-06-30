@@ -10,14 +10,28 @@ const elementEncodingSeparator: string = '_'
 import { type ElementType } from '$lib/data/elements/all_elements'
 import { writable } from 'svelte/store'
 // import { get } from 'http'
+
 import { createCombo, createRoutine, getElement } from './debug_get_routines'
+
+
+type Dscore = {
+	difficultyValue: number
+	compositionalRequirements: number
+	connectionValue: number
+	bonus: number
+	diff: number
+
+
+}
 type RoutineMessage = {
 	msg: string
 	type: 'info' | 'warning' | 'error' | string
 	priority?: number
 }
-type ComboType = {
-	elements: ElementType[]
+export type ElementMetadata = { element: ElementType, order?: number, isRepeated?: Boolean, value?: number, elementType?: "dance" | "acrobatic" }
+
+export type ComboType = {
+	elements: ElementMetadata[]
 	title?: string
 	type?: 'acro' | 'dance' | 'mix' | 'salto' | string
 	value?: number
@@ -46,6 +60,8 @@ function decodeFromBase64(encoded: string): string {
 export class Routine {
 	apparatus: ApparatusOptions
 	routine: ComboType[] = [];
+	routineFlatten: ElementMetadata[] = []
+	difficulty = new calculate_difficulty(this)
 
 	constructor(apparatus: ApparatusOptions, encodedRoutine?: string) {
 		this.apparatus = apparatus
@@ -53,8 +69,11 @@ export class Routine {
 		// this.update()
 	}
 
-	private update() {
+	private update(): ElementMetadata[] {
+		this.routineFlatten = this.routine.flatMap(combo => combo.elements)
+		//todo fix this
 		routineBuilder.update(() => this)
+		return this.routineFlatten
 	}
 
 	public empty() {
@@ -92,9 +111,9 @@ export class Routine {
 	 */
 	public addElement(element: ElementType, comboIndex: number = 1e8) {
 		if (this.routine[comboIndex]) {
-			this.routine[comboIndex].elements.push(element)
+			this.routine[comboIndex].elements.push({ element: element })
 		} else {
-			this.addCombo({ elements: [element] })
+			this.addCombo({ elements: [{ element: element }] })
 		}
 		this.update()
 	}
@@ -146,7 +165,7 @@ export class Routine {
 	 * @returns The routine as a list of lists of element IDs.
 	 */
 	public getRoutineIds() {
-		return this.routine.map((combo) => combo.elements.map((element) => element.id))
+		return this.routine.map((combo) => combo.elements.map((element) => element.element.id))
 	}
 
 	/**
@@ -155,7 +174,7 @@ export class Routine {
 	 * @returns The base-64 encoded string representing the routine.
 	 */
 	public encodedRoutine() {
-		return encodeToBase64(this.routine.map((combo) => combo.elements.map((element) => element.id).join(elementEncodingSeparator)).join(comboEncodingSeparator))
+		return encodeToBase64(this.routine.map((combo) => combo.elements.map((element) => element.element.id).join(elementEncodingSeparator)).join(comboEncodingSeparator))
 	}
 
 	/**
@@ -170,7 +189,7 @@ export class Routine {
 		const comboStrings = decoded.split(comboEncodingSeparator)
 		return comboStrings.map((comboString) => {
 			const elementStrings = comboString.split(elementEncodingSeparator)
-			return { elements: elementStrings.map((elementId) => database.find((element) => element.id === elementId) as ElementType) } as ComboType
+			return { elements: elementStrings.map((elementId) => ({ element: database.find((element) => element.id === elementId) })) } as ComboType
 		})
 	}
 
@@ -183,9 +202,21 @@ export class Routine {
 		}
 	}
 
+
+	public calcDiff() {
+		if (this.routineFlatten.length > 0) {
+			console.log("total_difficulty", this.difficulty.do())
+
+			// console.log("diff:", this.difficulty)
+
+		}
+		this.update()
+	}
+
 }
 
 import { data } from './datastore' // Import the 'data' variable from the './data' module
+import { calculate_difficulty } from '$lib/bc_routine_evaluation/beam_difficulty'
 
 function getSelectedApparatusFromStore(): string {
 	let val

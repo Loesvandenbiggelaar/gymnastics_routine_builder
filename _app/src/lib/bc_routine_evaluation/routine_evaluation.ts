@@ -1,12 +1,12 @@
-import { ElementType } from "../data/elements/all_elements"
+// import { ElementType } from "../data/elements/all_elements"
 
-export type ElementMetadata = { element: ElementType, order: number, isRepeated?: Boolean, value?: number, elementType?: "dance" | "acrobatic" }
+// export type ElementMetadata = { element: ElementType, order?: number, isRepeated?: Boolean, value?: number, elementType?: "dance" | "acrobatic" }
 
-export type ComboMetadata = { combo: ElementMetadata[], combinationType?: "dance" | "acrobatic" | "mix", value: number }
+// export type ComboMetadata = { combo: ElementMetadata[], combinationType?: "dance" | "acrobatic" | "mix", value: number }
 
-export type RoutineMetadata = ComboMetadata[]
+// export type RoutineMetadata = ComboMetadata[]
 
-export type Routine = ElementType[][]
+// export type Routine = ElementType[][]
 
 export type Combo = { combo: string[], value: number }
 
