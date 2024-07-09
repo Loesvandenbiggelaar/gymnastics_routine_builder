@@ -66309,4 +66309,4 @@ export const allElements: LanguageType = {
 }
 
 export const availableApparatuses = ['f_m', 'ph', 'r', 'v_m', 'pb', 'hb', 'v_w', 'ub', 'b', 'f_w']
-export type availableLanguages = ['nl', 'en', 'fr', 'es']
+export const availableLanguages = ['nl', 'en', 'fr', 'es']

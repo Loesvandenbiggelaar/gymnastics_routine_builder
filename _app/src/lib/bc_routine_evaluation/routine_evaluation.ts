@@ -83,7 +83,7 @@ export const comboOptionD1: ComboOptions = [{
         strictOrder: false,
         single: true,
         combos: [
-            { combo: ["A", "B", "B"], value: 0.1 }
+            { combo: ["ABCDEFGHI", "BCDEFGHI", "BCDEFGHI"], value: 0.1 }
         ]
     }
 },

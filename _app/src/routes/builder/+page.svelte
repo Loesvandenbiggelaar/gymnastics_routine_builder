@@ -1,50 +1,56 @@
 <script lang="ts">
 	// Import Components
-	import ApparatusPicker from '$lib/components/ApparatusPicker.svelte';
-	import { type ElementType } from '$lib/data/elements/all_elements';
-
-	import { createRoutine, getElement } from '$lib/stores/debug_get_routines';
-
-	import {routineBuilder} from '$lib/stores/routineBuilder'
-	// console.log("my routine", routineBuilder.getRoutineIds())
+	import {getElement } from '$lib/stores/debug_get_routines';
+	import { data } from '$lib/stores/datastore';
 	import BuilderElement from '$lib/components/builder/BuilderElement.svelte';
-	console.log("default:routine", $routineBuilder.routine)
-
-
+	import { onMount } from 'svelte';
+	import {beamRoutine1} from '$lib/data/test_data/beam_routines_en';
+	
 	let inputValue = '';
 
+	$: routine = $data.routineMutations.routine
+
+	$: $routine, $data.calcDiff.dscore = $data.calcDiff.calculate()
+
+
 	function processInput() {
-		// Process the input value here
-		console.log('Input value:', inputValue);
-		// Call your function with the input value
-		// console(inputValue);
-		$routineBuilder.addElement(getElement("b", inputValue))
-		console.log("routine", $routineBuilder.getRoutineIds())
-		$routineBuilder.calcDiff()
+		// Process the input value
+		// 'b' = beam 
+		$data.routineMutations.addElement(getElement("b", inputValue))
 	}
 
-	function deleteButton(){
-		console.log($routineBuilder.routine)
-		console.log("deleting")
-		$routineBuilder.empty()
-		console.log($routineBuilder.routine)
-	}
+	onMount(() => {
+		// replace the value of the routine with the beam routine
+		
+		$data.routineMutations.routine.set(beamRoutine1)
+		
+		$data.calcDiff.dscore = $data.calcDiff.calculate()
 
-$: console.log($routineBuilder.routine)
-// $: $routineBuilder.calcDiff()
-$: console.log("total", $routineBuilder.difficulty.totalDifficulty)
+	});
 </script>
 
-<!-- Search and Filter -->
-<!-- Builder -->
 
+<!-- show all the values of the Dscore -->
+
+totalDifficulty: {$data.calcDiff.dscore.totalDifficulty}
+<br>
+difficulty: {$data.calcDiff.dscore.difficultyValue}
+<br>
+compositionalRequirements: {$data.calcDiff.dscore.compositionalRequirements}
+<br>
+connectionValue: {$data.calcDiff.dscore.connectionValue}
+<br>
+SerieBonus: {$data.calcDiff.dscore.serieBonus}
+<br>
+DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 
 
 <div class="builderWrapper">
-	{#each $routineBuilder.routine as combo, comboIndex}
+	{#each $routine as combo, comboIndex}
 		<!-- Combo -->
 		<div class="comboWrapper" id="combo-{comboIndex}">
 			{#if combo.elements.length > 0}
+			-------
 				{#each combo.elements as element, elementIndex}
 					{#if combo.elements.length > 0}
 						<BuilderElement {element} {elementIndex} {comboIndex} />
@@ -53,7 +59,6 @@ $: console.log("total", $routineBuilder.difficulty.totalDifficulty)
 					{/if}
 				{/each}
 			{:else}
-				<!-- When no combo's are found -->
 				<!-- No combo -->
 			{/if}
 		</div>
@@ -61,17 +66,15 @@ $: console.log("total", $routineBuilder.difficulty.totalDifficulty)
 </div>
 
 <!-- Input -->
-<input type="text" bind:value={inputValue} style="color: black;" />
+<input type="text" bind:value={inputValue} style="color: black;" on:keydown={(event) => {
+	if (event.key === 'Enter') {
+		processInput();
+	}
+}} />
 
 <!-- Button to trigger the function -->
-<button on:click={processInput}>Add</button>
+<button on:click={processInput}>[Add]</button>
 
 <br>
 
-<!-- Big Delete Button -->
-<button class="deleteButton" on:click={deleteButton}>Delete Routine</button>
-
-<br>
-<br>
-
-difficulty: {$routineBuilder.difficulty.difficultyElements}
+<button on:click={() => $data.routineMutations.empty()}>[Delete Routine]</button>

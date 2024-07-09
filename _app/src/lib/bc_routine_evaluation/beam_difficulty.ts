@@ -27,85 +27,91 @@
 //   check for the (Dutch: "eisen"):
 //     - only elements with difficulty points (Dutch: "meerwaarde") can be used
 
-import { roundValue, flatten_routine as flattenRoutine, sort_elements, type ElementType, sliceArray, compareArrayBonus } from './helper_functions.js'
+import { roundValue, sort_elements, sliceArray, compareArrayBonus, dismountDone } from './helper_functions'
 import { comboOptionD1, getComboDescription } from './routine_evaluation.js'
-import { beam_routine_normal } from './test_routines.js'
+import { type Dscore } from '$lib/stores/datastore'
 
-import { routineBuilder } from '$lib/stores/routineBuilder.js'
-import type { Routine, ComboType, ElementMetadata } from '$lib/stores/routineBuilder.js'
+// import { routineBuilder } from '$lib/stores/routineBuilder.js'
+import type { ComboType, ElementMetadata } from '$lib/stores/routineMutations.js'
+import type { RoutineMutations } from '$lib/stores/routineMutations'
+import type { ElementType } from '$lib/data/elements/all_elements.js'
 // These constants are based on the level of the gymnast. 
 const nrElements = 8
 const nrAcrobatic = 3
 const nrGymnastic = 3
 
-export function dismountDone(routine_flat: ElementMetadata[]) {
-	const length_routine = routine_flat.length
-	let last_element = routine_flat[length_routine - 1]
-	if (last_element.element.group_number == '6') {
-		return true
-	} else {
-		return false
-	}
-}
 
-export class calculate_difficulty {
-	routine: Routine
-	// routineMetadata: RoutineMetadata
-	// routineFlatten: ElementType[]
-	difficultyElements: number = 0
-	totalBonus: number = 0
-	eisenTODO: number = 0
-	totalDifficulty: number = 0
+export class calculateDifficulty {
+	routineMutations: RoutineMutations
 	difficultyCalculated: boolean = false
-
-	constructor(routine: Routine) {
-		this.routine = routine
-		// this.routineMetadata = this.convertToMetadata()
-		// this.routineFlatten = flattenRoutine(routine)
-		// this.difficultyElements = 0
-		// this.totalBonus = 0
-		// this.eisenTODO = 0
-		// this.totalDifficulty = this.difficultyElements + this.totalBonus + this.eisenTODO
-
+	dscore: Dscore = {
+		difficultyValue: 0,
+		compositionalRequirements: 0,
+		connectionValue: 0,
+		serieBonus: 0,
+		dismountBonus: 0,
+		totalDifficulty: 0
 	}
 
-	public do() {
+	constructor(routine: RoutineMutations) {
+		this.routineMutations = routine
+		this.addMessages()
+	}
+
+	private addMessages() {
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
+			if (comboMetadata.value) {
+				comboMetadata.messages = []
+			}
+		})
+		this.routineMutations.routine.set(routineValue)
+	}
+
+	private reset() {
+		this.difficultyCalculated = false
+		this.dscore = {
+			difficultyValue: 0,
+			compositionalRequirements: 0,
+			connectionValue: 0,
+			serieBonus: 0,
+			dismountBonus: 0,
+			totalDifficulty: 0
+		}
+	}
+
+	public calculate() {
+		this.reset()
+
+		// if the routineMutations doesn't have any elements; return
+		if (this.routineMutations.getRoutine().length == 0) {
+			return this.dscore
+		}
+
 		this.identifyTypeOfElement()
 		this.identifyRepeatedElements()
-		this.coutDifficultyElements()
-		return this.difficultyElements
+		
+		this.dscore.difficultyValue = roundValue( this.countDifficultyElements())
+		
+		this.dscore.connectionValue = roundValue(this.countConnectionValue())
+
+		// add the serie bonus to the bonus
+		this.dscore.serieBonus += roundValue( this.countSeriesBonus())
+
+		// add the dismount bonus to the bonus
+		this.dscore.dismountBonus += roundValue(this.countDismountBonus())
+
+
+		this.dscore.totalDifficulty = roundValue(this.dscore.difficultyValue + this.dscore.connectionValue + this.dscore.serieBonus + this.dscore.dismountBonus + this.dscore.compositionalRequirements)
+
+		return this.dscore
 	}
 
-	// put elements in a json so metadata can be given to the elements
-	// also put combos in a json so metadata can be given
-	// private convertToMetadata() {
-	// 	/**
-	// 	 * Convert the routine to a metadata format
-	// 	 * 
-	// 	 * @param {Routine}
-	// 	 * @returns {RoutineMetadata}
-	// 	 */
-	// 	return this.routine.map(combo => {
-	// 		return {
-	// 			combo: combo.map((element, index) => {
-	// 				return {
-	// 					element: element,
-	// 					order: index,
-	// 					value: 0,
-	// 				}
-	// 			}),
-	// 			value: 0
-	// 		}
-	// 	})
-	// }
-
 	private identifyTypeOfElement() {
-		/**
-		 * Identify the type of the element
-		 * @param {RoutineMetadata} routineMetadata - the routine metadata
-		 * @returns {void}
-		 */
-		this.routine.routine.map(comboMetadata => {
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			comboMetadata.elements.map((elementMetadata) => {
 				if (elementMetadata.element.type == "acrobatic") {
 					elementMetadata.elementType = "acrobatic"
@@ -120,17 +126,15 @@ export class calculate_difficulty {
 	}
 
 	private identifyRepeatedElements() {
-		/**
-		 * Identify the repeated elements in the routine
-		 * @param {RoutineMetadata}
-		 * @returns {void}
-		 */
 		var _repeated_elements: ElementType[] = []
-		this.routine.routine.map(comboMetadata => {
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
 				if (_repeated_elements.includes(elementMetadata.element)) {
 					elementMetadata.isRepeated = true
-				}
+					comboMetadata.messages ? comboMetadata.messages?.push({ msg: "element is repeated", type: "warning" }) : [];
+					}
 				else {
 					_repeated_elements.push(elementMetadata.element)
 					elementMetadata.isRepeated = false
@@ -139,41 +143,39 @@ export class calculate_difficulty {
 		})
 	}
 
-	coutDifficultyElements() {
-		/**
-		 * Calculate the difficulty elements of the routine
-		 * 
-		 * @param {RoutineMetadata}
-		 * @returns {void}
-		 */
-
-		this.difficultyElements = 0
+	countDifficultyElements() {
+		var difficultyValue = 0
 		var _nr_acrobatic_elements: number = nrAcrobatic
 		var _nr_dance_elements: number = nrGymnastic
 		var _total_nr_elements: number = nrElements - _nr_acrobatic_elements - _nr_dance_elements
 		var _found_elements: ElementType[] = []
 
-		if (!dismountDone(this.routine.routineFlatten)) {
+		if (!dismountDone(this.routineMutations.getRoutine())) {
 			_nr_acrobatic_elements -= 1
 		} else {
 			// the dismount should be added to the routine
-			this.routine.routine.map(comboMetadata => {
+			let routineValue: ComboType[] = []
+			this.routineMutations.routine.subscribe(value => routineValue = value)
+			routineValue.map(comboMetadata => {
 				comboMetadata.elements.map(elementMetadata => {
 					// get the element with group number 6 (=dismount)
 					if (elementMetadata.element.group_number == "6") {
 						_nr_acrobatic_elements -= 1
 						_found_elements.push(elementMetadata.element)
-						this.difficultyElements += elementMetadata.element.value
+						difficultyValue += elementMetadata.element.value
 						elementMetadata.value = elementMetadata.element.value
 						// console.log("dismount", elementMetadata.value, elementMetadata.element.description)
 					}
 				})
 			})
+
 		}
 
 		// get all the acrobatic elements
 		var _acrobatic_elements: ElementMetadata[] = []
-		this.routine.routine.map(comboMetadata => {
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
 				if (elementMetadata.elementType == "acrobatic") {
 					_acrobatic_elements.push(elementMetadata)
@@ -190,7 +192,7 @@ export class calculate_difficulty {
 				if (_nr_acrobatic_elements > 0) {
 					_found_elements.push(elementMetadata.element)
 					_nr_acrobatic_elements -= 1
-					this.difficultyElements += elementMetadata.element.value
+					difficultyValue += elementMetadata.element.value
 					elementMetadata.value = elementMetadata.element.value
 					// console.log("acrobatic", elementMetadata.value, elementMetadata.element.description)
 				}
@@ -199,7 +201,8 @@ export class calculate_difficulty {
 
 		// get all the dance elements
 		var _dance_elements: ElementMetadata[] = []
-		this.routine.routine.map(comboMetadata => {
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			comboMetadata.elements.map((elementMetadata: ElementMetadata) => {
 				if (elementMetadata.elementType == "dance") {
 					_dance_elements.push(elementMetadata)
@@ -217,7 +220,7 @@ export class calculate_difficulty {
 				if (_nr_dance_elements > 0) {
 					_found_elements.push(elementMetadata.element)
 					_nr_dance_elements -= 1
-					this.difficultyElements += elementMetadata.value ?? elementMetadata.element.value
+					difficultyValue += elementMetadata.value ?? elementMetadata.element.value
 					elementMetadata.value = elementMetadata.element.value
 					// console.log("dance", elementMetadata.value, elementMetadata.element.description)
 				}
@@ -226,7 +229,8 @@ export class calculate_difficulty {
 
 		// get all elements
 		var _other_elements: ElementMetadata[] = []
-		this.routine.routine.map((comboMetadata) => {
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map((comboMetadata) => {
 			comboMetadata.elements.map(elementMetadata => {
 				_other_elements.push(elementMetadata)
 			})
@@ -243,7 +247,7 @@ export class calculate_difficulty {
 						_found_elements.push(elementMetadata.element)
 						_total_nr_elements -= 1
 						elementMetadata.value = elementMetadata.element.value
-						this.difficultyElements += elementMetadata.element.value
+						difficultyValue += elementMetadata.element.value
 						// console.log("other", elementMetadata.value, elementMetadata.element.description)
 					}
 				}
@@ -251,16 +255,14 @@ export class calculate_difficulty {
 		})
 
 		this.difficultyCalculated = true
+		return difficultyValue
+
 	}
 
 	showElements() {
-		/**
-		 * Show the elements of the routine
-		 * 
-		 * @param {RoutineMetadata}
-		 * @returns {void}
-		 */
-		this.routine.routine.map(comboMetadata => {
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			console.log("---")
 			comboMetadata.elements.map(elementMetadata => {
 				console.log(elementMetadata.value, elementMetadata.isRepeated, elementMetadata.element.difficulty, elementMetadata.element.description)
@@ -270,7 +272,7 @@ export class calculate_difficulty {
 	}
 
 
-	countCombos() {
+	countConnectionValue() {
 		/**
 		 * Count the combos of the routine
 		 * 
@@ -279,30 +281,30 @@ export class calculate_difficulty {
 		 */
 		// this.countSingleBonus("SerieBonus")
 		// this.countSingleBonus("Acro met vlucht, (mag opsprong en afsprong zijn)")
-		// this.countSingleBonus("Dans")
-		// this.countSingleBonus("Draaien")
-		// this.countSingleBonus("Mix")
+		this.countSingleBonus("Dans")
+		this.countSingleBonus("Draaien")
+		this.countSingleBonus("Mix")
 
-
+		let connectionValue = 0
 		// add all the values of the combos to the combobonus
-		this.routine.routine.map(comboMetadata => {
-			this.totalBonus += comboMetadata.value || 0
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
+			connectionValue += comboMetadata.value || 0
 		})
 
-		// add the serie bonus to the bonus
-		this.totalBonus += this.countSeriesBonus()
-
-		// add the dismount bonus to the bonus
-		this.totalBonus += this.countDismountBonus()
+		return connectionValue
 
 	}
 
 	private countSingleBonus(type: string) {
 
-		console.log("type", type)
+		// console.log("type", type)
 		const comboOptionSerie = getComboDescription(type)
 
-		this.routine.routine.map(comboMetadata => {
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			// filter the combo that it contains all the differnt types of elements specified in the comboOption
 			var _comboElements = comboMetadata.elements.filter(elementMetadata => comboOptionSerie.elementTypes.includes(elementMetadata.elementType))
 			// TODO: this step should be done after the combo's have been spliced. 
@@ -324,7 +326,7 @@ export class calculate_difficulty {
 					}
 				})
 				bonus += _nTimes * comboOption.value
-				console.log("bonus", bonus)
+				// console.log("bonus", bonus)
 			})
 			comboMetadata.value = bonus
 		})
@@ -340,13 +342,23 @@ export class calculate_difficulty {
 		 * @returns {number}
 		 */
 		const comboOptionSerie = getComboDescription("SerieBonus")
-		this.routine.routine.map(comboMetadata => {
+		// console.log(comboOptionSerie)
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
 			// filter the combo that it contains all the differnt types of elements specified in the comboOption
 			var _comboElements = comboMetadata.elements.filter(elementMetadata => comboOptionSerie.elementTypes.includes(elementMetadata.elementType))
-			const _containsAll = comboOptionSerie.elementTypes.every(elementType => _comboElements.map(elementMetadata => elementMetadata.elementType).includes(elementType))
-			console.log(comboMetadata.elements.map(elementMetadata => elementMetadata.element.description))
-			console.log("containsAll", _containsAll)
+			// console.log(comboMetadata.elements.map(elementMetadata => elementMetadata.element.description))
+			
+			// check the combo for the different combinations
+			const values = _comboElements.map(elementMetadata => {
+				return elementMetadata.element.difficulty
+			}
+			)
+			// console.log(values, "vals")
 
+			let b = compareArrayBonus(values, comboOptionSerie.combos[0].combo, comboOptionSerie.strictOrder)
+			// console.log(b, "b")
 		})
 		return 1
 	}
@@ -362,7 +374,9 @@ export class calculate_difficulty {
 		const comboOptionDismount = getComboDescription("dismount_bonus").combos[0]
 		//get the last combo and check if it's a dismount (group number 6)
 		// if the difficulty of the element is higher than in dhe combo options, 
-		const dismount = this.routine.routine[this.routine.routine.length - 1].elements[this.routine.routine[this.routine.routine.length - 1].elements.length - 1]
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		const dismount = routineValue[routineValue.length - 1].elements[routineValue[routineValue.length - 1].elements.length - 1]
 		if (dismount.element.group_number == "6") {
 			const dismountDifficulty = dismount.element.difficulty
 			comboOptionDismount
@@ -372,15 +386,6 @@ export class calculate_difficulty {
 			} else return 0
 		} return 0
 	}
+
+
 }
-
-
-
-// var r = new calculate_difficulty(routineBuilder)
-// // r.showElements()
-// console.log(r.difficultyElements)
-// console.log(r.countCombos())
-// console.log("combobonus", r.totalBonus)
-// r.showElements()
-
-// r.compareArraysSerieBonus(["a", "b", "b"], ["a", "c", "a"])

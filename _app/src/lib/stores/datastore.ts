@@ -1,6 +1,8 @@
-import { writable } from 'svelte/store'
-import { apparatusConfig, type ApparatusConfigEntry } from '$lib/data/elements/apparatusConfig'
-
+import { apparatusConfig } from '$lib/data/elements/apparatusConfig'
+import { availableApparatuses, type ElementType } from '$lib/data/elements/all_elements'
+import { search_tags } from '$lib/data/elements/search_tags'
+import { writable, type Writable } from 'svelte/store'
+import { RoutineMutations } from './routineMutations'
 export let selectedApparatus = writable(apparatusConfig[0])
 // Create a writable store for the selected apparatus
 export let modalElement = writable()
@@ -19,13 +21,6 @@ export let modalElement = writable()
  *   - apparatus: The selected apparatus. This is used to filter the elements.
  */
 
-import {
-	availableApparatuses,
-	// type availableLanguages,
-	type ElementType,
-	type availableLanguages
-} from '$lib/data/elements/all_elements'
-import { search_tags } from '$lib/data/elements/search_tags'
 
 export type SearchModifiers = 'exact' | 'not' | 'fuzzy' | 'property'
 export type SearchEntry = {
@@ -38,17 +33,23 @@ export type SearchEntry = {
 	modifier?: SearchModifiers
 	searchProperties?: string[]
 }
+export type Dscore = {
+	difficultyValue: number
+	compositionalRequirements: number
+	connectionValue: number
+	serieBonus: number
+	dismountBonus: number
+	totalDifficulty: number
+}
 
 export class ElementData {
 	rawData: Record<string, Record<string, any>>
 	availableLanguages: Array<keyof typeof this.rawData>
 	availableApparatuses: string[]
-
 	userSettings: {
 		lang: string
 		apparatus: string
 	}
-
 	selectedLanguage: keyof typeof this.rawData
 	selectedApparatus: string
 	apparatusData: Record<string, any>
@@ -61,6 +62,10 @@ export class ElementData {
 		searchProperties: Array<string>
 		sex: 'm' | 'w' | 'both'
 	}
+
+	routineStorage: Record<string, RoutineMutations> = {}
+	routineMutations: RoutineMutations
+	calcDiff: calculateDifficulty
 
 	constructor(
 		rawData: Record<string, Record<string, any>>,
@@ -98,6 +103,16 @@ export class ElementData {
 			searchProperties: ['id', 'description', 'value'] as const,
 			sex: 'both'
 		}
+
+		// loop over all the available apparatuses and create an object of {apparatus: routine}
+		for (const apparatus of this.availableApparatuses) {
+			this.routineStorage[apparatus] = new RoutineMutations()
+		}
+
+		this.routineMutations = this.routineStorage[this.selectedApparatus]
+
+		this.calcDiff = new calculateDifficulty(this.routineMutations)
+
 	}
 	public logData() {
 		console.log(this.elementData)
@@ -119,6 +134,7 @@ export class ElementData {
 		// Set apparatus and update data
 		let _apparatus = _input as keyof typeof _database
 		this.elementData = Object.values(_database[_apparatus])
+		this.routineMutations = this.routineStorage[this.selectedApparatus]
 		// update
 		this.search()
 		data.update(() => this)
@@ -297,9 +313,8 @@ export class ElementData {
 }
 
 // Import dataset from json
-import rawData from '$lib/data/elements/women/nl_elements.json'
 import { allElements } from '$lib/data/elements/all_elements'
-import type SearchTags from '$lib/components/SearchTags.svelte'
+import { calculateDifficulty } from '$lib/bc_routine_evaluation/beam_difficulty'
 const defaultUserSettings = {
 	lang: 'nlx',
 	apparatus: 'v_w'

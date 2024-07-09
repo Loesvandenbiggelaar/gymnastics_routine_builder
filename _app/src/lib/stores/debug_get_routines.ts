@@ -4,7 +4,7 @@
 
 // import the data
 import { allElements, type ElementType } from '$lib/data/elements/all_elements'
-import type { ApparatusOptions } from './routineBuilder'
+import type { ApparatusOptions } from './routineMutations'
 
 
 // get the element from the database
