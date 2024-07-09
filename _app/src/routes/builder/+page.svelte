@@ -29,7 +29,6 @@
 	});
 </script>
 
-
 <!-- show all the values of the Dscore -->
 
 totalDifficulty: {$data.calcDiff.dscore.totalDifficulty}
@@ -44,13 +43,15 @@ SerieBonus: {$data.calcDiff.dscore.serieBonus}
 <br>
 DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 
-
+<section id="builder">
+	<div class="builderHead">
+		<div class="name">Routine Name</div>
+	</div>
 <div class="builderWrapper">
 	{#each $routine as combo, comboIndex}
 		<!-- Combo -->
 		<div class="comboWrapper" id="combo-{comboIndex}">
 			{#if combo.elements.length > 0}
-			-------
 				{#each combo.elements as element, elementIndex}
 					{#if combo.elements.length > 0}
 						<BuilderElement {element} {elementIndex} {comboIndex} />
@@ -64,6 +65,7 @@ DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 		</div>
 	{/each}
 </div>
+</section>
 
 <!-- Input -->
 <input type="text" bind:value={inputValue} style="color: black;" on:keydown={(event) => {
@@ -75,6 +77,47 @@ DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 <!-- Button to trigger the function -->
 <button on:click={processInput}>[Add]</button>
 
-<br>
+<br />
 
+<!-- Big Delete Button -->
 <button on:click={() => $data.routineMutations.empty()}>[Delete Routine]</button>
+
+
+<style>
+	#builder {
+		padding: 1em 0px;
+		/* Max width */
+		max-width: 240mm;
+		margin: 0 auto;
+	}
+	.builderWrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+	.comboWrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 10px;
+		/* Styling */
+		padding: 0.5em;
+		border-radius: 1em;
+	}
+
+	.comboHeader {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		/* Styling */
+		padding: 0.3em;
+		/* Text */
+		font-weight: bold;
+	}
+</style>

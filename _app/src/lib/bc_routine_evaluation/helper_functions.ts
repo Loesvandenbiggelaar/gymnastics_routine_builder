@@ -23,6 +23,12 @@ export function roundValue(val:number):number {
  * @returns {boolean} - True if the routine is done, false otherwise.
  */
 export function dismountDone(routine: ComboType[]): boolean {
+	// if the last combo is empty, return
+	if (routine.length == 0) {
+		return false
+	}
+
+
 	// get the last element of the routine
 	const last_element = routine[routine.length - 1].elements[routine[routine.length - 1].elements.length - 1]
 	if (last_element.element.group_number == '6') {
