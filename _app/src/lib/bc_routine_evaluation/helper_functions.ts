@@ -28,7 +28,6 @@ export function dismountDone(routine: ComboType[]): boolean {
 		return false
 	}
 
-
 	// get the last element of the routine
 	const last_element = routine[routine.length - 1].elements[routine[routine.length - 1].elements.length - 1]
 	if (last_element.element.group_number == '6') {

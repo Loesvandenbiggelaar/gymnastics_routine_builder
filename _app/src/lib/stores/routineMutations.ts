@@ -5,13 +5,14 @@ const elementEncodingSeparator: string = '_'
 // Types for the Routine
 import { type ElementType } from '$lib/data/elements/all_elements'
 import { writable, type Writable } from 'svelte/store'
+import type { B } from 'vitest/dist/reporters-yx5ZTtEV.js'
 
-type RoutineMessage = {
+export type RoutineMessage = {
 	msg: string
 	type: 'info' | 'warning' | 'error' | string
 	priority?: number
 }
-export type ElementMetadata = { element: ElementType, order?: number, isRepeated?: Boolean, value?: number, elementType?: "dance" | "acrobatic" }
+export type ElementMetadata = { element: ElementType, order?: number, isRepeated?: Boolean, value?: number, elementType?: "dance" | "acrobatic", devaluated?:Boolean }
 
 export type ComboType = {
 	elements: ElementMetadata[]
@@ -92,6 +93,7 @@ export class RoutineMutations {
 	 * @param comboIndex - The index of the combo in the routine. Defaults to a large number to indicate adding to a new combo.
 	 */
 	public addElement(element: ElementType, comboIndex: number = 1e8) {
+		if (!element) return
 		let routineValue: ComboType[] = []
 		this.routine.subscribe(value => routineValue = value) // Get the value of the routine store
 		if (routineValue[comboIndex]) {
@@ -141,7 +143,7 @@ export class RoutineMutations {
 		}
 
 		this.routine.set(routineValue)
-		console.log(routineValue)
+		this.removeEmptyCombos()
 
 		// console.log("WARNING, NEED TO UPDATE STORE!")
 	}

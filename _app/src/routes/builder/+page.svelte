@@ -4,13 +4,16 @@
 	import { data } from '$lib/stores/datastore';
 	import BuilderElement from '$lib/components/builder/BuilderElement.svelte';
 	import { onMount } from 'svelte';
-	import {beamRoutine1} from '$lib/data/test_data/beam_routines_en';
+	import {beamRoutine1, beamRoutineLoes} from '$lib/data/test_data/beam_routines_en';
 	
 	let inputValue = '';
 
 	$: routine = $data.routineMutations.routine
 
 	$: $routine, $data.calcDiff.dscore = $data.calcDiff.calculate()
+
+
+	
 
 
 	function processInput() {
@@ -27,7 +30,25 @@
 		$data.calcDiff.dscore = $data.calcDiff.calculate()
 
 	});
+
+function calc(){
+	$data.calcDiff.dscore = $data.calcDiff.calculate()
+}
 </script>
+
+<!-- dropdown to select the level -->
+<div style="display: flex; justify-content: flex-end;">
+<select bind:value={$data.level} on:change={calc} style="color:black; border: 1px solid #ccc; border-radius: 10px;">
+	<option value="D1" selected>D1</option>
+	<option value="D2">D2</option>
+	<option value="D3">D3</option>
+	<option value="D4">D4</option>
+	<option value="D5">D5</option>
+	<option value="D6">D6</option>
+</select>
+	
+</div>
+
 
 <!-- show all the values of the Dscore -->
 
@@ -43,6 +64,13 @@ SerieBonus: {$data.calcDiff.dscore.serieBonus}
 <br>
 DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 
+<br><br>
+messages <br>
+{#each $data.calcDiff.messages as message}
+    - {message.type}: {message.msg} <br>
+{/each}
+
+
 <section id="builder">
 	<div class="builderHead">
 		<div class="name">Routine Name</div>
@@ -52,7 +80,12 @@ DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 		<!-- Combo -->
 		<div class="comboWrapper" id="combo-{comboIndex}">
 			{#if combo.elements.length > 0}
+			{#each combo.messages || [] as message}
+				<div>{message.msg}</div>
+			{/each}
+
 				{#each combo.elements as element, elementIndex}
+
 					{#if combo.elements.length > 0}
 						<BuilderElement {element} {elementIndex} {comboIndex} />
 					{:else}

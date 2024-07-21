@@ -244,3 +244,180 @@ export const beamRoutine1 = [
         ]
     }
 ]
+
+
+export const beamRoutineLoes = [{
+    "elements": [{ "element":{
+        "id": "1.207",
+        "description": "Jump to roll fwd at end or middle of beam Jump to clear straddle support on end of beam \u00b1 swing bwd to roll fwd",
+        "group_number": "1",
+        "group_name": "Mounts",
+        "difficulty": "B",
+        "type": "acrobatic",
+        "value": 0.2,
+        "images": {
+            "figure": [
+                "/data/elements/women//images/beam/element\\page110_element_1.207_Im947.png",
+                "/data/elements/women//images/beam/element\\page110_element_1.207_Im946.png"
+            ],
+            "symbol": [
+                "/data/elements/women//images/beam/symbol\\page110_element_1.207_Im957.png",
+                "/data/elements/women//images/beam/symbol\\page110_element_1.207_Im959.png"
+            ]
+        }
+    }
+},
+    {"element":{
+        "id": "4.204",
+        "description": "Roll fwd without hand support to sit position or to tuck stand From cross sit, swing bwd to shoulder roll fwd with hip extension to sit position or to tuck stand",
+        "group_number": "4",
+        "group_name": "Holds and acrobatic non-flight",
+        "difficulty": "B",
+        "type": "acrobatic",
+        "value": 0.2,
+        "images": {
+            "figure": [
+                "/data/elements/women//images/beam/element\\page132_element_4.204_Im1238.png"
+            ],
+            "symbol": [
+                "/data/elements/women//images/beam/symbol\\page132_element_4.204_Im1245.png",
+                "/data/elements/women//images/beam/symbol\\page132_element_4.204_Im1239.png"
+            ]
+        }
+    }}
+    ]
+},
+{
+    "elements": [
+       {"element": {
+            "id": "2.202",
+            "description": "Split jump (leg separation 180\u00b0) from cross position",
+            "group_number": "2",
+            "group_name": "Gymnastic leaps, jumps and hops",
+            "difficulty": "B",
+            "type": "dance",
+            "value": 0.2,
+            "images": {
+                "figure": [
+                    "/data/elements/women//images/beam/element\\page120_element_2.202_Im1095.png"
+                ],
+                "symbol": [
+                    "/data/elements/women//images/beam/symbol\\page120_element_2.202_Im1096.png"
+                ]
+            }
+        }},
+        {"element": {
+            "id": "2.112",
+            "description": "(*) Wolf hop or jump from cross position (hip angle at 45\u00b0, knees together)",
+            "group_number": "2",
+            "group_name": "Gymnastic leaps, jumps and hops",
+            "difficulty": "A",
+            "type": "dance",
+            "value": 0.1,
+            "images": {
+                "figure": [
+                    "/data/elements/women//images/beam/element\\page126_element_2.112_Im1165.png",
+                    "/data/elements/women//images/beam/element\\page126_element_2.112_Im1163.png"
+                ],
+                "symbol": [
+                    "/data/elements/women//images/beam/symbol\\page126_element_2.112_Im1166.png",
+                    "/data/elements/women//images/beam/symbol\\page126_element_2.112_Im1164.png"
+                ]
+            }
+        }}
+
+    ]
+},
+{
+    "elements": [
+       {"element": {
+            "id": "3.101",
+            "description": "1/1 turn (360\u00b0) on one leg - free leg optional below horizontal",
+            "group_number": "3",
+            "group_name": "Gymnastic turns",
+            "difficulty": "A",
+            "type": "dance",
+            "value": 0.1,
+            "images": {
+                "figure": [
+                    "/data/elements/women//images/beam/element\\page127_element_3.101_Im1188.png"
+                ],
+                "symbol": [
+                    "/data/elements/women//images/beam/symbol\\page127_element_3.101_Im1189.png"
+                ]
+            }
+        }}
+    ]
+},
+{
+    "elements": [
+        {"element": {
+            "id": "1.214",
+            "description": "Cartwheel on one or both arms",
+            "group_number": "1",
+            "group_name": "Mounts",
+            "difficulty": "B",
+            "type": "acrobatic",
+            "value": 0.2,
+            "images": {
+                "figure": [
+                    "/data/elements/women//images/beam/element\\page115_element_1.214_Im1037.png"
+                ],
+                "symbol": [
+                    "/data/elements/women//images/beam/symbol\\page115_element_1.214_Im1039.png",
+                    "/data/elements/women//images/beam/symbol\\page115_element_1.214_Im1038.png"
+                ]
+            }
+        }
+    }
+    ]
+},
+{
+    "elements": [
+        {   "element": {
+            "id": "2.110",
+            "description": "(*) Cat leap (knees above horizontal alternately) Scissors leap forward (legs above horizontal)",
+            "group_number": "2",
+            "group_name": "Gymnastic leaps, jumps and hops",
+            "difficulty": "A",
+            "type": "dance",
+            "value": 0.1,
+            "images": {
+                "figure": [
+                    "/data/elements/women//images/beam/element\\page125_element_2.110_Im1156.png",
+                    "/data/elements/women//images/beam/element\\page125_element_2.110_Im1155.png"
+                ],
+                "symbol": [
+                    "/data/elements/women//images/beam/symbol\\page125_element_2.110_Im1154.png",
+                    "/data/elements/women//images/beam/symbol\\page125_element_2.110_Im1157.png"
+                ]
+            }
+        }}
+    ]
+},
+{
+    "elements": [
+        {"element": {
+            "id": "6.102",
+            "description": "Salto fwd tucked or piked, also with \u00bd twist (180\u00b0)",
+            "group_number": "6",
+            "group_name": "Dismounts",
+            "difficulty": "A",
+            "type": "acrobatic",
+            "value": 0.1,
+            "images": {
+                "figure": [
+                    "/data/elements/women//images/beam/element\\page142_element_6.102_Im1420.png",
+                    "/data/elements/women//images/beam/element\\page142_element_6.102_Im1401.png"
+                ],
+                "symbol": [
+                    "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1400.png",
+                    "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1402.png",
+                    "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1403.png",
+                    "/data/elements/women//images/beam/symbol\\page142_element_6.102_Im1399.png"
+                ]
+            }
+           }   }
+    ]
+}
+]

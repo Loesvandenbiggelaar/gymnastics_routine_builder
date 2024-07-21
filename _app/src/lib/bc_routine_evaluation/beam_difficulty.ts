@@ -28,22 +28,20 @@
 //     - only elements with difficulty points (Dutch: "meerwaarde") can be used
 
 import { roundValue, sort_elements, sliceArray, compareArrayBonus, dismountDone } from './helper_functions'
-import { comboOptionD1, getComboDescription } from './routine_evaluation.js'
-import { type Dscore } from '$lib/stores/datastore'
+import type { Dscore } from '$lib/stores/datastore'
+import type { RoutineMessage } from '$lib/stores/routineMutations'
 
 // import { routineBuilder } from '$lib/stores/routineBuilder.js'
 import type { ComboType, ElementMetadata } from '$lib/stores/routineMutations.js'
 import type { RoutineMutations } from '$lib/stores/routineMutations'
 import type { ElementType } from '$lib/data/elements/all_elements.js'
+import type { ConnectionValueDetail, Supplement } from './routine_evaluation_beam'
 // These constants are based on the level of the gymnast. 
-const nrElements = 8
-const nrAcrobatic = 3
-const nrGymnastic = 3
-
 
 export class calculateDifficulty {
+	messages: RoutineMessage[]
+	supplement: Supplement
 	routineMutations: RoutineMutations
-	difficultyCalculated: boolean = false
 	dscore: Dscore = {
 		difficultyValue: 0,
 		compositionalRequirements: 0,
@@ -53,24 +51,94 @@ export class calculateDifficulty {
 		totalDifficulty: 0
 	}
 
-	constructor(routine: RoutineMutations) {
+	constructor(routine: RoutineMutations, supplement: Supplement) {
 		this.routineMutations = routine
-		this.addMessages()
+		this.supplement = supplement
+		this.messages = []
+		// console.log(supplement)
 	}
 
-	private addMessages() {
+
+	private addGeneralMessage(message: string, type: string) {
+		this.messages.push({ msg: message, type: type })
+	}
+
+	private addMessage(combo:ComboType, message:string, type:string) {
+		if (!combo.messages) {
+			combo.messages = []
+		}
+		combo.messages.push({ msg: message, type: type })
+	}
+
+
+	private checkMounts() {
+		/**
+		 * Check if the routine starts with a mount
+		 * 
+		 * @param {RoutineMetadata}
+		 * @returns {void}
+		 */
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
-			if (comboMetadata.value) {
-				comboMetadata.messages = []
-			}
-		})
-		this.routineMutations.routine.set(routineValue)
+		// get the first element of the routine
+		const first_element = routineValue[0].elements[0]
+		if (first_element.element.group_number != '1') {
+			// add a message if the routine starts with a mount
+			this.addGeneralMessage("Routine does not start with a mount", "info")
 	}
 
+	// if there are more elements with group number 1, add a message
+	const mounts = routineValue.filter(combo => combo.elements[0].element.group_number == '1')
+	if (mounts.length > 1) {
+		this.addGeneralMessage("More than one mount added", "error")
+	}
+}
+
+private checkDismounts() {
+	/**
+	 * Check if the routine ends with a dismount
+	 * 
+	 * @param {RoutineMetadata}
+	 * @returns {void}
+	 */
+	if (!dismountDone(this.routineMutations.getRoutine())){
+		this.addGeneralMessage("Dismount is not done", "warning")
+	}
+
+
+	// if there are more elements with group number 6, add a message
+	let routineValue: ComboType[] = []
+	this.routineMutations.routine.subscribe(value => routineValue = value)
+	const dismounts = routineValue.filter(combo => combo.elements[combo.elements.length - 1].element.group_number == '6')
+	if (dismounts.length > 1) {
+		this.addGeneralMessage("More than one dismount added", "error")
+	}
+}
+
+private checkNrOfElements() {
+	/**
+	 * Check if the routine contains the correct number of elements
+	 * 
+	 * @param {RoutineMetadata}
+	 * @returns {void}
+	 */
+	let routineValue: ComboType[] = []
+	this.routineMutations.routine.subscribe(value => routineValue = value)
+	// get all the elements which have difficulty value and are not repeated
+	// console.log(routineValue)
+	const elements = routineValue.map(combo => combo.elements.filter(element => element.value)).flat()
+	console.log(elements.length)
+	if (elements.length < this.supplement.maxDV -1) {
+		this.addGeneralMessage(`Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
+	}
+	if (elements.length > this.supplement.maxDV) {
+		this.addGeneralMessage(`Too many elements ${elements.length}/${this.supplement.maxDV}`, "warning")
+	}
+
+}
+
 	private reset() {
-		this.difficultyCalculated = false
+		this.messages = []
 		this.dscore = {
 			difficultyValue: 0,
 			compositionalRequirements: 0,
@@ -83,27 +151,37 @@ export class calculateDifficulty {
 
 	public calculate() {
 		this.reset()
-
 		// if the routineMutations doesn't have any elements; return
 		if (this.routineMutations.getRoutine().length == 0) {
 			return this.dscore
 		}
 
 		this.identifyTypeOfElement()
+		this.identifyValueOfElements()
 		this.identifyRepeatedElements()
+
+
+		const detail = this.supplement.connectionValuesAndBonus
 		
 		this.dscore.difficultyValue = roundValue( this.countDifficultyElements())
 		
 		this.dscore.connectionValue = roundValue(this.countConnectionValue())
 
+		
 		// add the serie bonus to the bonus
-		this.dscore.serieBonus += roundValue( this.countSeriesBonus())
+		const serieBonusDetail = detail.filter(val => val.type == "serieBonus")[0]
+		if(serieBonusDetail) this.dscore.serieBonus += roundValue( this.countSeriesBonus(serieBonusDetail.detail))
 
 		// add the dismount bonus to the bonus
-		this.dscore.dismountBonus += roundValue(this.countDismountBonus())
-
+		const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
+		if (dismountBonusDetail) this.dscore.dismountBonus += roundValue(this.countDismountBonus(dismountBonusDetail.detail))
 
 		this.dscore.totalDifficulty = roundValue(this.dscore.difficultyValue + this.dscore.connectionValue + this.dscore.serieBonus + this.dscore.dismountBonus + this.dscore.compositionalRequirements)
+
+		this.checkNrOfElements()
+		this.checkMounts()
+		this.checkDismounts()
+
 
 		return this.dscore
 	}
@@ -126,45 +204,66 @@ export class calculateDifficulty {
 	}
 
 	private identifyRepeatedElements() {
-		var _repeated_elements: ElementType[] = []
+		var _performed_elements: string[] = []
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
 		routineValue.map(comboMetadata => {
+
 			comboMetadata.elements.map(elementMetadata => {
-				if (_repeated_elements.includes(elementMetadata.element)) {
+				if (_performed_elements.includes(elementMetadata.element.id)) {
 					elementMetadata.isRepeated = true
-					comboMetadata.messages ? comboMetadata.messages?.push({ msg: "element is repeated", type: "warning" }) : [];
 					}
 				else {
-					_repeated_elements.push(elementMetadata.element)
+					_performed_elements.push(elementMetadata.element.id)
 					elementMetadata.isRepeated = false
 				}
 			})
 		})
+		this.routineMutations.routine.set(routineValue)
+	}
+
+	private identifyValueOfElements() {
+		const diff_to_value: { [key: string]: number } = {"A":0.1, "B":0.2, "C":0.3, "D":0.4, "E":0.5, "F":0.6, "G":0.7, "H":0.8, "I":0.9}
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		// console.log(this.supplement.allowedDifficulty)
+		routineValue.map(comboMetadata => {
+			comboMetadata.elements.map(elementMetadata => {
+				if (this.supplement.allowedDifficulty.includes(elementMetadata.element.difficulty)) {
+					elementMetadata.value = Number(elementMetadata.element.value);
+				}
+				else {
+					elementMetadata.value = diff_to_value[this.supplement.allowedDifficulty[this.supplement.allowedDifficulty.length - 1]]
+					elementMetadata.devaluated = true
+					
+				}
+				// console.log(elementMetadata)
+			})
+		})
+	
 	}
 
 	countDifficultyElements() {
 		var difficultyValue = 0
-		var _nr_acrobatic_elements: number = nrAcrobatic
-		var _nr_dance_elements: number = nrGymnastic
-		var _total_nr_elements: number = nrElements - _nr_acrobatic_elements - _nr_dance_elements
+		var _nr_acrobatic_elements: number = this.supplement.minAcro
+		var _nr_dance_elements: number = this.supplement.minDance
+		var _total_nr_elements: number = this.supplement.maxDV - _nr_acrobatic_elements - _nr_dance_elements
 		var _found_elements: ElementType[] = []
 
 		if (!dismountDone(this.routineMutations.getRoutine())) {
 			_nr_acrobatic_elements -= 1
 		} else {
-			// the dismount should be added to the routine
 			let routineValue: ComboType[] = []
 			this.routineMutations.routine.subscribe(value => routineValue = value)
+			
 			routineValue.map(comboMetadata => {
 				comboMetadata.elements.map(elementMetadata => {
 					// get the element with group number 6 (=dismount)
 					if (elementMetadata.element.group_number == "6") {
 						_nr_acrobatic_elements -= 1
 						_found_elements.push(elementMetadata.element)
-						difficultyValue += elementMetadata.element.value
-						elementMetadata.value = elementMetadata.element.value
-						// console.log("dismount", elementMetadata.value, elementMetadata.element.description)
+						difficultyValue += elementMetadata.value ?? 0
+						// elementMetadata.value = elementMetadata.element.value
 					}
 				})
 			})
@@ -183,6 +282,12 @@ export class calculateDifficulty {
 			})
 		})
 
+		const _nr_non_repeated_acro = _acrobatic_elements.filter(element => !element.isRepeated).length
+		// if the routine contains less than the minimum number of acrobatic elements, add a message
+		if (_nr_non_repeated_acro < this.supplement.minAcro) {
+			this.addGeneralMessage(`Not enough acrobatic elements ${_nr_non_repeated_acro}/${this.supplement.minAcro}`, "warning")
+		}
+
 		// loop over the routine and count the number of acrobatic elements
 		// the first n acrobatic elements are counted
 		// the elements with the highest value are counted first
@@ -192,9 +297,8 @@ export class calculateDifficulty {
 				if (_nr_acrobatic_elements > 0) {
 					_found_elements.push(elementMetadata.element)
 					_nr_acrobatic_elements -= 1
-					difficultyValue += elementMetadata.element.value
-					elementMetadata.value = elementMetadata.element.value
-					// console.log("acrobatic", elementMetadata.value, elementMetadata.element.description)
+					difficultyValue += elementMetadata.value ?? 0
+					// elementMetadata.value = elementMetadata.element.value
 				}
 			}
 		})
@@ -210,6 +314,11 @@ export class calculateDifficulty {
 			})
 		})
 
+		// if the routine contains less than the minimum number of dance elements, add a message
+		const _nr_non_repeated_dance = _dance_elements.filter(element => !element.isRepeated).length
+		if (_nr_non_repeated_dance < this.supplement.minDance) {
+			this.addGeneralMessage(`Not enough dance elements ${_nr_non_repeated_dance}/${this.supplement.minDance}`, "warning")
+		}
 
 		// loop over the routine and count the number of dance elements
 		// the first n dance elements are counted
@@ -220,8 +329,8 @@ export class calculateDifficulty {
 				if (_nr_dance_elements > 0) {
 					_found_elements.push(elementMetadata.element)
 					_nr_dance_elements -= 1
-					difficultyValue += elementMetadata.value ?? elementMetadata.element.value
-					elementMetadata.value = elementMetadata.element.value
+					difficultyValue += elementMetadata.value ?? 0
+					// elementMetadata.value = elementMetadata.element.value
 					// console.log("dance", elementMetadata.value, elementMetadata.element.description)
 				}
 			}
@@ -248,13 +357,11 @@ export class calculateDifficulty {
 						_total_nr_elements -= 1
 						elementMetadata.value = elementMetadata.element.value
 						difficultyValue += elementMetadata.element.value
-						// console.log("other", elementMetadata.value, elementMetadata.element.description)
 					}
 				}
 			}
 		})
 
-		this.difficultyCalculated = true
 		return difficultyValue
 
 	}
@@ -281,9 +388,14 @@ export class calculateDifficulty {
 		 */
 		// this.countSingleBonus("SerieBonus")
 		// this.countSingleBonus("Acro met vlucht, (mag opsprong en afsprong zijn)")
-		this.countSingleBonus("Dans")
-		this.countSingleBonus("Draaien")
-		this.countSingleBonus("Mix")
+		const comboOptionSerie = this.supplement.connectionValuesAndBonus
+		
+		comboOptionSerie.forEach((val) => {
+			if (!["dismountBonus", "serieBonus"].includes(val.type)) {
+			// console.log(val)
+			this.countSingleBonus(val.detail)
+			}
+		})
 
 		let connectionValue = 0
 		// add all the values of the combos to the combobonus
@@ -297,11 +409,7 @@ export class calculateDifficulty {
 
 	}
 
-	private countSingleBonus(type: string) {
-
-		// console.log("type", type)
-		const comboOptionSerie = getComboDescription(type)
-
+	private countSingleBonus(comboOptionSerie: ConnectionValueDetail) {		
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
 		routineValue.map(comboMetadata => {
@@ -326,7 +434,6 @@ export class calculateDifficulty {
 					}
 				})
 				bonus += _nTimes * comboOption.value
-				// console.log("bonus", bonus)
 			})
 			comboMetadata.value = bonus
 		})
@@ -334,14 +441,13 @@ export class calculateDifficulty {
 
 	}
 
-	private countSeriesBonus() {
+	private countSeriesBonus(comboOptionSerie: ConnectionValueDetail) {
 		/**
 		 * Count the serie bonus of the routine
 		 * 
 		 * @param {RoutineMetadata}
 		 * @returns {number}
 		 */
-		const comboOptionSerie = getComboDescription("SerieBonus")
 		// console.log(comboOptionSerie)
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
@@ -363,7 +469,7 @@ export class calculateDifficulty {
 		return 1
 	}
 
-	private countDismountBonus() {
+	private countDismountBonus(detail: ConnectionValueDetail) {
 		/**
 		 * Count the dismount bonus of the routine
 		 * 
@@ -371,7 +477,7 @@ export class calculateDifficulty {
 		 * @returns {number}
 		 */
 
-		const comboOptionDismount = getComboDescription("dismount_bonus").combos[0]
+		const comboOptionDismount = detail.combos[0]
 		//get the last combo and check if it's a dismount (group number 6)
 		// if the difficulty of the element is higher than in dhe combo options, 
 		let routineValue: ComboType[] = []
@@ -380,11 +486,12 @@ export class calculateDifficulty {
 		if (dismount.element.group_number == "6") {
 			const dismountDifficulty = dismount.element.difficulty
 			comboOptionDismount
-			if (comboOptionDismount.combo[0].includes(dismountDifficulty)) {
-
+			if (comboOptionDismount.combo.includes(dismountDifficulty)) {
 				return comboOptionDismount.value
-			} else return 0
-		} return 0
+			}
+		} 
+
+		return 0
 	}
 
 

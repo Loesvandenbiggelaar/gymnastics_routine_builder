@@ -43,6 +43,7 @@ export type Dscore = {
 }
 
 export class ElementData {
+	level: string = "D1"
 	rawData: Record<string, Record<string, any>>
 	availableLanguages: Array<keyof typeof this.rawData>
 	availableApparatuses: string[]
@@ -110,15 +111,20 @@ export class ElementData {
 		}
 
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
-
-		this.calcDiff = new calculateDifficulty(this.routineMutations)
-
+		this.calcDiff = new calculateDifficulty(this.routineMutations, routineEvaluationBeam[this.level])
 	}
 	public logData() {
 		console.log(this.elementData)
 		let i = 0
 		console.log(i in Object.keys(this.rawData))
 	}
+
+
+	public calculateDScore() {
+		this.calcDiff = new calculateDifficulty(this.routineMutations, routineEvaluationBeam[this.level])
+		this.calcDiff.dscore = this.calcDiff.calculate()
+	}
+
 
 	/**
 	 * Sets the apparatus of the filter. If input is not a valid key in rawData, console error is logged.
@@ -315,6 +321,7 @@ export class ElementData {
 // Import dataset from json
 import { allElements } from '$lib/data/elements/all_elements'
 import { calculateDifficulty } from '$lib/bc_routine_evaluation/beam_difficulty'
+import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/routine_evaluation_beam'
 const defaultUserSettings = {
 	lang: 'nlx',
 	apparatus: 'v_w'

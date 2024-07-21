@@ -33,9 +33,20 @@
 	class:dragging
 >
 	<div class="elementHead">
+		
 		<div class="announcer">element</div>
+		{#if element.isRepeated}
+		<div class="announcer" style="color:red">warning! element is repeated</div>
+		{/if}
+		{#if element.devaluated}
+		<div class="announcer" style="color:orange">warning! element is devaluated</div>
+		{/if}
+		
 	</div>
-	<div class="elementDescription">{element.element.description}</div>
+	<div class="elementDescription">{element.value} {element.element.description}</div>
+	<br />
+
+	<!-- <div>{element.isRepeated}</div> -->
 	<!-- Drag Handle -->
 	<button id="draghandle" class="dragHandle btn" on:mousedown={isDragging}>
 		<Icon icon="mdi:drag" />
