@@ -9,11 +9,8 @@
 	let inputValue = '';
 
 	$: routine = $data.routineMutations.routine
-
 	$: $routine, $data.calcDiff.dscore = $data.calcDiff.calculate()
-
-
-	
+	$: $data, $data.calculateDScore()
 
 
 	function processInput() {
@@ -26,19 +23,17 @@
 		// replace the value of the routine with the beam routine
 		
 		$data.routineMutations.routine.set(beamRoutine1)
-		
 		$data.calcDiff.dscore = $data.calcDiff.calculate()
 
 	});
 
-function calc(){
-	$data.calcDiff.dscore = $data.calcDiff.calculate()
-}
+	$: $data, console.log($data.level)
+
 </script>
 
 <!-- dropdown to select the level -->
 <div style="display: flex; justify-content: flex-end;">
-<select bind:value={$data.level} on:change={calc} style="color:black; border: 1px solid #ccc; border-radius: 10px;">
+<select bind:value={$data.level} style="color:black; border: 1px solid #ccc; border-radius: 10px;">
 	<option value="D1" selected>D1</option>
 	<option value="D2">D2</option>
 	<option value="D3">D3</option>

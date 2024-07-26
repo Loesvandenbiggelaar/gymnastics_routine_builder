@@ -126,7 +126,7 @@ private checkNrOfElements() {
 	this.routineMutations.routine.subscribe(value => routineValue = value)
 	// get all the elements which have difficulty value and are not repeated
 	// console.log(routineValue)
-	const elements = routineValue.map(combo => combo.elements.filter(element => element.value)).flat()
+	const elements = routineValue.map(combo => combo.elements.filter(element => !element.isRepeated)).flat()
 	console.log(elements.length)
 	if (elements.length < this.supplement.maxDV -1) {
 		this.addGeneralMessage(`Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
@@ -147,6 +147,16 @@ private checkNrOfElements() {
 			dismountBonus: 0,
 			totalDifficulty: 0
 		}
+		// remove the messages from all combos and elements
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		routineValue.map(comboMetadata => {
+			comboMetadata.messages = []
+			comboMetadata.elements.map(elementMetadata => {
+				elementMetadata.devaluated = undefined
+				elementMetadata.value = undefined
+			})
+		})
 	}
 
 	public calculate() {
@@ -182,7 +192,8 @@ private checkNrOfElements() {
 		this.checkMounts()
 		this.checkDismounts()
 
-
+		console.log(this.dscore)
+		console.log(this.routineMutations.getRoutine())
 		return this.dscore
 	}
 
