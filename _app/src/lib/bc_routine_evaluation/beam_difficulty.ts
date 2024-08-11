@@ -61,7 +61,6 @@ export class calculateDifficulty {
 		this.compositionalRequirements = Object.keys(supplement.compositionalRequirements).map((key: string | number) => {
 			return { "requirement": supplement.compositionalRequirements[key].description, "met": false, "number": key }
 		})
-		console.log(this.compositionalRequirements)
 	}
 
 
@@ -142,7 +141,6 @@ export class calculateDifficulty {
 
 		// add the dismount bonus to the bonus
 		const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
-		console.log(dismountBonusDetail)
 		if (dismountBonusDetail) this.dscore.dismountBonus += roundValue(this.countDismountBonus(dismountBonusDetail.detail))
 
 
@@ -535,8 +533,7 @@ export class calculateDifficulty {
 		const dismount = routineValue[routineValue.length - 1].elements[routineValue[routineValue.length - 1].elements.length - 1]
 		if (dismount.element.group_number == "6") {
 			const dismountDifficulty = dismount.element.difficulty
-			comboOptionDismount
-			if (comboOptionDismount.combo.includes(dismountDifficulty)) {
+			if (comboOptionDismount.combo[0].includes(dismountDifficulty)) {
 				return comboOptionDismount.value
 			}
 		}
