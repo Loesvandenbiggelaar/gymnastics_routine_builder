@@ -12,7 +12,6 @@
 	$: $routine, $data.calcDiff.dscore = $data.calcDiff.calculate()
 	$: $data, $data.calculateDScore()
 
-
 	function processInput() {
 		// Process the input value
 		// 'b' = beam 
@@ -21,13 +20,19 @@
 
 	onMount(() => {
 		// replace the value of the routine with the beam routine
-		
-		$data.routineMutations.routine.set(beamRoutine1)
+		// $data.routineMutations.routine.set(beamRoutine1)
+		$data.routineMutations.addElement(getElement("b", "1.303"))
+		$data.routineMutations.addElement(getElement("b", "5.303"))
+		$data.routineMutations.addElement(getElement("b", "5.201"))
+		$data.routineMutations.addElement(getElement("b", "5.202"))
+		$data.routineMutations.addElement(getElement("b", "2.210"))
+		$data.routineMutations.addElement(getElement("b", "2.210"))
+		$data.routineMutations.addElement(getElement("b", "2.202"))
+		$data.routineMutations.moveElement(2,0,1,1)
+		// $data.routineMutations.addElement(getElement("b", "2.204"))
 		$data.calcDiff.dscore = $data.calcDiff.calculate()
 
 	});
-
-	$: $data, console.log($data.level)
 
 </script>
 
@@ -65,6 +70,12 @@ messages <br>
     - {message.type}: {message.msg} <br>
 {/each}
 
+<br><br>
+compositional requirements <br>
+{#each $data.calcDiff.compositionalRequirements as cr}
+	{cr.number}. {cr.requirement}: {cr.met} <br>
+
+{/each}
 
 <section id="builder">
 	<div class="builderHead">

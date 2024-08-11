@@ -72,7 +72,7 @@ const connectionValuesD1: ConnectionValueOptions = [{
 {
     type: "serieBonus",
     detail: {
-        description: "Seriebonus, all combinations of acro and dance elements are allowed. Maximum of 2 acro elements after each other.",
+        description: "Seriebonus, all combinations of acro and dance elements are allowed. Maximum of 2 acro elements after each other",
         elementTypes: ["dance", "acrobatic"],
         uniqueElements: false, // TODO: dance elements cannot be repeated, acrobatic elements can be repeated
         strictOrder: false,
@@ -158,7 +158,7 @@ const connectionValuesD2: ConnectionValueOptions = [{
 {
     type: "serieBonus",
     detail: {
-        description: "Seriebonus, all combinations of acro and dance elements are allowed. Maximum of 2 acro elements after each other.",
+        description: "Seriebonus, all combinations of acro and dance elements are allowed. Maximum of 2 acro elements after each other",
         elementTypes: ["dance", "acrobatic"],
         uniqueElements: false, // TODO: dance elements cannot be repeated, acrobatic elements can be repeated
         strictOrder: false,
@@ -342,6 +342,7 @@ const connectionValuesD6: ConnectionValueOptions = [{
 ]
 
 type CompositionalRequirements = {
+	[x: string]: any
     [key: number]: {
         description: string,
         elementsShouldBeConnected: boolean,
@@ -358,9 +359,9 @@ type CompositionalRequirements = {
 }
 const compositionalRequirementsD1: CompositionalRequirements= {
     1: {
-        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position.",
+        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position",
         elementsShouldBeConnected: true,
-        elementsShouldBeUnique: false,
+        elementsShouldBeUnique: true,
         elements:[
             {
                 type:["dance"],
@@ -381,15 +382,15 @@ const compositionalRequirementsD1: CompositionalRequirements= {
         ]
     },
     2: {
-        description: "A turn from group 3 or rol/flair.",
+        description: "A turn from group 3 or rol/flair",
         elementsShouldBeConnected: false,
-        elementsShouldBeUnique: false,
+        elementsShouldBeUnique: true,
         elements:[
             {
                 type:["dance"],
                 minimalValue: "A",
                 group:[3],
-                keywords:["turn"],
+                keywords:[],
                 antiKeywords:[],
                 specificElements: ["1.303", "1.403", "1.304", "1.207", "1.308", "4.203", "4.204", "4.304", "4.105", "4.305", "4.206", "4.306", "4.307", "5.405"]
             }        
@@ -419,9 +420,9 @@ const compositionalRequirementsD1: CompositionalRequirements= {
         ]
     },
     4: {
-        description: "Acrobatic elements in different directions (backwards and forward/sideways).",
+        description: "Acrobatic elements in different directions (backwards and forward/sideways)",
         elementsShouldBeConnected: false,
-        elementsShouldBeUnique: false,
+        elementsShouldBeUnique: true,
         elements:[
             {
                 type:["acrobatic"],
@@ -446,7 +447,7 @@ const compositionalRequirementsD1: CompositionalRequirements= {
 
 const compositionalRequirementsD2: CompositionalRequirements= {
     1: {
-        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position.",
+        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position",
         elementsShouldBeConnected: true,
         elementsShouldBeUnique: false,
         elements:[
@@ -469,7 +470,7 @@ const compositionalRequirementsD2: CompositionalRequirements= {
         ]
     },
     2: {
-        description: "A turn from group 3 or rol/flair.",
+        description: "A turn from group 3 or rol/flair",
         elementsShouldBeConnected: false,
         elementsShouldBeUnique: false,
         elements:[
@@ -507,7 +508,7 @@ const compositionalRequirementsD2: CompositionalRequirements= {
         ]
     },
     4: {
-        description: "Two different acrobatic elements.",
+        description: "Two different acrobatic elements",
         elementsShouldBeConnected: false,
         elementsShouldBeUnique: true,
         elements:[
@@ -534,7 +535,7 @@ const compositionalRequirementsD2: CompositionalRequirements= {
 
 const compositionalRequirementsD3: CompositionalRequirements= {
     1: {
-        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position.",
+        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position",
         elementsShouldBeConnected: true,
         elementsShouldBeUnique: false,
         elements:[
@@ -557,7 +558,7 @@ const compositionalRequirementsD3: CompositionalRequirements= {
         ]
     },
     2: {
-        description: "A turn from group 3 or rol/flair.",
+        description: "A turn from group 3 or rol/flair",
         elementsShouldBeConnected: false,
         elementsShouldBeUnique: false,
         elements:[
@@ -572,7 +573,7 @@ const compositionalRequirementsD3: CompositionalRequirements= {
         ]
     },
     3: {
-        description: "Two different acrobatic elements, of which 1 at least A value.",
+        description: "Two different acrobatic elements, of which 1 at least A value",
         elementsShouldBeConnected: false,
         elementsShouldBeUnique: true,
         elements:[
@@ -595,7 +596,7 @@ const compositionalRequirementsD3: CompositionalRequirements= {
         ]
     },
     4: {
-        description: "An acrobatic element through or to handstand (minimum A value).",
+        description: "An acrobatic element through or to handstand (minimum A value)",
         elementsShouldBeConnected: false,
         elementsShouldBeUnique: true,
         elements:[

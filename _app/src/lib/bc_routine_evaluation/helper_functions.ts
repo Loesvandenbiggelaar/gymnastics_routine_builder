@@ -101,3 +101,41 @@ export function compareArrayBonus(combo:string[], bonus: string[], strictOrder:b
 	}
 
 }
+
+
+/**
+ * Get the value of a difficulty.
+ * 
+ * @param {string} difficulty - The difficulty to get the value of.
+ * @returns {number} - The value of the difficulty.
+ * @throws {Error} - If the difficulty is not recognized.
+ * 
+ */
+export function difficultyToValue(difficulty: string): number {
+	if (difficulty == "SA") return 0.1
+	if (difficulty == "TA") return 0.1
+	if (difficulty == "A") return 0.1
+	if (difficulty == "B") return 0.2
+	if (difficulty == "C") return 0.3
+	if (difficulty == "D") return 0.4
+	if (difficulty == "E") return 0.5
+	if (difficulty == "F") return 0.6
+	if (difficulty == "G") return 0.7
+	if (difficulty == "H") return 0.8
+	if (difficulty == "I") return 0.9
+	if (difficulty == "J") return 1
+	// throw an error if the difficulty is not recognized
+	throw new Error(`Difficulty ${difficulty} not recognized`)
+}
+
+
+export function checkIfDifficultyIsHigher(difficulty1: string, difficulty2: string, includeEqual=false): boolean {
+	const _difficulties = ["SA", "TA", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+	const index1 = _difficulties.indexOf(difficulty1)
+	const index2 = _difficulties.indexOf(difficulty2)
+	if (includeEqual) {
+		return index1 >= index2
+	} else {
+	return index1 > index2
+	}
+}

@@ -27,7 +27,7 @@
 //   check for the (Dutch: "eisen"):
 //     - only elements with difficulty points (Dutch: "meerwaarde") can be used
 
-import { roundValue, sort_elements, sliceArray, compareArrayBonus, dismountDone } from './helper_functions'
+import { roundValue, sort_elements, sliceArray, compareArrayBonus, dismountDone, checkIfDifficultyIsHigher } from './helper_functions'
 import type { Dscore } from '$lib/stores/datastore'
 import type { RoutineMessage } from '$lib/stores/routineMutations'
 
@@ -42,6 +42,7 @@ export class calculateDifficulty {
 	messages: RoutineMessage[]
 	supplement: Supplement
 	routineMutations: RoutineMutations
+	compositionalRequirements
 	dscore: Dscore = {
 		difficultyValue: 0,
 		compositionalRequirements: 0,
@@ -56,6 +57,11 @@ export class calculateDifficulty {
 		this.supplement = supplement
 		this.messages = []
 		// console.log(supplement)
+		// create an object with description of the comp. requirement + if the requirement is met or not
+		this.compositionalRequirements = Object.keys(supplement.compositionalRequirements).map((key: string | number) => {
+			return { "requirement": supplement.compositionalRequirements[key].description, "met": false, "number": key }
+		})
+		console.log(this.compositionalRequirements)
 	}
 
 
@@ -63,81 +69,20 @@ export class calculateDifficulty {
 		this.messages.push({ msg: message, type: type })
 	}
 
-	private addMessage(combo:ComboType, message:string, type:string) {
+	private addMessage(combo: ComboType, message: string, type: string) {
 		if (!combo.messages) {
 			combo.messages = []
 		}
 		combo.messages.push({ msg: message, type: type })
 	}
 
-
-	private checkMounts() {
+	private reset() {
 		/**
-		 * Check if the routine starts with a mount
+		 * Reset the messages and the dscore
 		 * 
-		 * @param {RoutineMetadata}
+		 * @param {void}
 		 * @returns {void}
 		 */
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		// get the first element of the routine
-		const first_element = routineValue[0].elements[0]
-		if (first_element.element.group_number != '1') {
-			// add a message if the routine starts with a mount
-			this.addGeneralMessage("Routine does not start with a mount", "info")
-	}
-
-	// if there are more elements with group number 1, add a message
-	const mounts = routineValue.filter(combo => combo.elements[0].element.group_number == '1')
-	if (mounts.length > 1) {
-		this.addGeneralMessage("More than one mount added", "error")
-	}
-}
-
-private checkDismounts() {
-	/**
-	 * Check if the routine ends with a dismount
-	 * 
-	 * @param {RoutineMetadata}
-	 * @returns {void}
-	 */
-	if (!dismountDone(this.routineMutations.getRoutine())){
-		this.addGeneralMessage("Dismount is not done", "warning")
-	}
-
-
-	// if there are more elements with group number 6, add a message
-	let routineValue: ComboType[] = []
-	this.routineMutations.routine.subscribe(value => routineValue = value)
-	const dismounts = routineValue.filter(combo => combo.elements[combo.elements.length - 1].element.group_number == '6')
-	if (dismounts.length > 1) {
-		this.addGeneralMessage("More than one dismount added", "error")
-	}
-}
-
-private checkNrOfElements() {
-	/**
-	 * Check if the routine contains the correct number of elements
-	 * 
-	 * @param {RoutineMetadata}
-	 * @returns {void}
-	 */
-	let routineValue: ComboType[] = []
-	this.routineMutations.routine.subscribe(value => routineValue = value)
-	// get all the elements which have difficulty value and are not repeated
-	// console.log(routineValue)
-	const elements = routineValue.map(combo => combo.elements.filter(element => !element.isRepeated)).flat()
-	console.log(elements.length)
-	if (elements.length < this.supplement.maxDV -1) {
-		this.addGeneralMessage(`Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
-	}
-	if (elements.length > this.supplement.maxDV) {
-		this.addGeneralMessage(`Too many elements ${elements.length}/${this.supplement.maxDV}`, "warning")
-	}
-
-}
-
-	private reset() {
 		this.messages = []
 		this.dscore = {
 			difficultyValue: 0,
@@ -160,41 +105,121 @@ private checkNrOfElements() {
 	}
 
 	public calculate() {
+		/**
+		 * Calculate the difficulty of the routine.
+		 * It identifies the elements and it's value, and checks whether the elements are repeated.
+		 * It counts the difficulty elements, the connection value, the serie bonus and the dismount bonus.
+		 * It checks the number of elements, the mounts and the dismounts.
+		 * It adds the difficulty value, the connection value, the serie bonus, the dismount bonus and the compositional requirements to the dscore.
+		 * It adds the general messages to the messages.
+		 * It returns the dscore.
+		 * 
+		 * @param {void}
+		 * @returns {Dscore}
+		 */
+
 		this.reset()
 		// if the routineMutations doesn't have any elements; return
 		if (this.routineMutations.getRoutine().length == 0) {
 			return this.dscore
 		}
 
+		// evaluate the elements
 		this.identifyTypeOfElement()
 		this.identifyValueOfElements()
 		this.identifyRepeatedElements()
 
 
+		// get the detail of the connection values and bonus
 		const detail = this.supplement.connectionValuesAndBonus
-		
-		this.dscore.difficultyValue = roundValue( this.countDifficultyElements())
-		
+		this.dscore.difficultyValue = roundValue(this.countDifficultyElements())
 		this.dscore.connectionValue = roundValue(this.countConnectionValue())
 
-		
-		// add the serie bonus to the bonus
+
+		// add the serie bonus to the bonus (if applicable)
 		const serieBonusDetail = detail.filter(val => val.type == "serieBonus")[0]
-		if(serieBonusDetail) this.dscore.serieBonus += roundValue( this.countSeriesBonus(serieBonusDetail.detail))
+		if (serieBonusDetail) this.dscore.serieBonus += roundValue(this.countSeriesBonus(serieBonusDetail.detail))
 
 		// add the dismount bonus to the bonus
 		const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
+		console.log(dismountBonusDetail)
 		if (dismountBonusDetail) this.dscore.dismountBonus += roundValue(this.countDismountBonus(dismountBonusDetail.detail))
 
+
+		this.dscore.compositionalRequirements = this.countCompositionalRequirements()
+
 		this.dscore.totalDifficulty = roundValue(this.dscore.difficultyValue + this.dscore.connectionValue + this.dscore.serieBonus + this.dscore.dismountBonus + this.dscore.compositionalRequirements)
+
 
 		this.checkNrOfElements()
 		this.checkMounts()
 		this.checkDismounts()
 
-		console.log(this.dscore)
-		console.log(this.routineMutations.getRoutine())
 		return this.dscore
+	}
+
+	private checkMounts() {
+		/**
+		 * Check if the routine starts with a mount
+		 * 
+		 * @param {RoutineMetadata}
+		 * @returns {void}
+		 */
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		// get the first element of the routine
+		const first_element = routineValue[0].elements[0]
+		if (first_element.element.group_number != '1') {
+			// add a message if the routine starts with a mount
+			this.addGeneralMessage("Routine does not start with a mount", "info")
+		}
+
+		// if there are more elements with group number 1, add a message
+		const mounts = routineValue.filter(combo => combo.elements[0].element.group_number == '1')
+		if (mounts.length > 1) {
+			this.addGeneralMessage("More than one mount added", "error")
+		}
+	}
+
+	private checkDismounts() {
+		/**
+		 * Check if the routine ends with a dismount
+		 * 
+		 * @param {RoutineMetadata}
+		 * @returns {void}
+		 */
+		if (!dismountDone(this.routineMutations.getRoutine())) {
+			this.addGeneralMessage("Dismount is not done", "warning")
+		}
+
+
+		// if there are more elements with group number 6, add a message
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		const dismounts = routineValue.filter(combo => combo.elements[combo.elements.length - 1].element.group_number == '6')
+		if (dismounts.length > 1) {
+			this.addGeneralMessage("More than one dismount added", "error")
+		}
+	}
+
+	private checkNrOfElements() {
+		/**
+		 * Check if the routine contains the correct number of elements
+		 * 
+		 * @param {RoutineMetadata}
+		 * @returns {void}
+		 */
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		// get all the elements which have difficulty value and are not repeated
+		const elements = routineValue.map(combo => combo.elements.filter(element => !element.isRepeated)).flat()
+		if (elements.length < this.supplement.maxDV - 1) {
+			this.addGeneralMessage(`Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
+		}
+		if (elements.length > this.supplement.maxDV) {
+			this.addGeneralMessage(`Too many elements ${elements.length}/${this.supplement.maxDV}`, "warning")
+		}
+
 	}
 
 	private identifyTypeOfElement() {
@@ -223,7 +248,7 @@ private checkNrOfElements() {
 			comboMetadata.elements.map(elementMetadata => {
 				if (_performed_elements.includes(elementMetadata.element.id)) {
 					elementMetadata.isRepeated = true
-					}
+				}
 				else {
 					_performed_elements.push(elementMetadata.element.id)
 					elementMetadata.isRepeated = false
@@ -234,24 +259,22 @@ private checkNrOfElements() {
 	}
 
 	private identifyValueOfElements() {
-		const diff_to_value: { [key: string]: number } = {"A":0.1, "B":0.2, "C":0.3, "D":0.4, "E":0.5, "F":0.6, "G":0.7, "H":0.8, "I":0.9}
+		const diff_to_value: { [key: string]: number } = { "A": 0.1, "B": 0.2, "C": 0.3, "D": 0.4, "E": 0.5, "F": 0.6, "G": 0.7, "H": 0.8, "I": 0.9 }
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
-		// console.log(this.supplement.allowedDifficulty)
 		routineValue.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
 				if (this.supplement.allowedDifficulty.includes(elementMetadata.element.difficulty)) {
-					elementMetadata.value = Number(elementMetadata.element.value);
+					elementMetadata.value = Number(elementMetadata.element.value)
 				}
 				else {
 					elementMetadata.value = diff_to_value[this.supplement.allowedDifficulty[this.supplement.allowedDifficulty.length - 1]]
 					elementMetadata.devaluated = true
-					
+
 				}
-				// console.log(elementMetadata)
 			})
 		})
-	
+
 	}
 
 	countDifficultyElements() {
@@ -266,7 +289,7 @@ private checkNrOfElements() {
 		} else {
 			let routineValue: ComboType[] = []
 			this.routineMutations.routine.subscribe(value => routineValue = value)
-			
+
 			routineValue.map(comboMetadata => {
 				comboMetadata.elements.map(elementMetadata => {
 					// get the element with group number 6 (=dismount)
@@ -342,7 +365,6 @@ private checkNrOfElements() {
 					_nr_dance_elements -= 1
 					difficultyValue += elementMetadata.value ?? 0
 					// elementMetadata.value = elementMetadata.element.value
-					// console.log("dance", elementMetadata.value, elementMetadata.element.description)
 				}
 			}
 		})
@@ -400,11 +422,10 @@ private checkNrOfElements() {
 		// this.countSingleBonus("SerieBonus")
 		// this.countSingleBonus("Acro met vlucht, (mag opsprong en afsprong zijn)")
 		const comboOptionSerie = this.supplement.connectionValuesAndBonus
-		
+
 		comboOptionSerie.forEach((val) => {
 			if (!["dismountBonus", "serieBonus"].includes(val.type)) {
-			// console.log(val)
-			this.countSingleBonus(val.detail)
+				this.countSingleBonus(val.detail)
 			}
 		})
 
@@ -420,7 +441,7 @@ private checkNrOfElements() {
 
 	}
 
-	private countSingleBonus(comboOptionSerie: ConnectionValueDetail) {		
+	private countSingleBonus(comboOptionSerie: ConnectionValueDetail) {
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
 		routineValue.map(comboMetadata => {
@@ -459,25 +480,43 @@ private checkNrOfElements() {
 		 * @param {RoutineMetadata}
 		 * @returns {number}
 		 */
-		// console.log(comboOptionSerie)
+
+		var bonusFound = false
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
 		routineValue.map(comboMetadata => {
-			// filter the combo that it contains all the differnt types of elements specified in the comboOption
-			var _comboElements = comboMetadata.elements.filter(elementMetadata => comboOptionSerie.elementTypes.includes(elementMetadata.elementType))
-			// console.log(comboMetadata.elements.map(elementMetadata => elementMetadata.element.description))
-			
+
+			// if the elements in the combo are dance, no repeated elements are allowed
+			if (comboOptionSerie.elementTypes.includes("dance")) {
+				if (comboMetadata.elements.some(elementMetadata => elementMetadata.isRepeated)) {
+					comboMetadata.value = 0
+					return
+				}
+			}
+
+			// if the elements in the combo are acrobatic, only one repeated element is allowed
+			if (comboOptionSerie.elementTypes.includes("acrobatic")) {
+				if (comboMetadata.elements.filter(elementMetadata => elementMetadata.isRepeated).length > 1) {
+					comboMetadata.value = 0
+					return
+				}
+			}
+
 			// check the combo for the different combinations
-			const values = _comboElements.map(elementMetadata => {
-				return elementMetadata.element.difficulty
+			const values: string[] = []
+			comboMetadata.elements.map(elementMetadata => {
+				values.push(elementMetadata.element.difficulty)
 			}
 			)
-			// console.log(values, "vals")
 
 			let b = compareArrayBonus(values, comboOptionSerie.combos[0].combo, comboOptionSerie.strictOrder)
-			// console.log(b, "b")
+			if (b) bonusFound = true
 		})
-		return 1
+
+		if (bonusFound) {
+			return comboOptionSerie.combos[0].value
+		} else return 0
+
 	}
 
 	private countDismountBonus(detail: ConnectionValueDetail) {
@@ -500,10 +539,224 @@ private checkNrOfElements() {
 			if (comboOptionDismount.combo.includes(dismountDifficulty)) {
 				return comboOptionDismount.value
 			}
-		} 
+		}
 
 		return 0
 	}
 
+	private checkIfElementRequirementIsMet(elementMetadata: ElementMetadata, elementRequirement: any) {
+		/**
+		 * Check if the element meets the requirements
+		 * 
+		 * @param {ElementMetadata}
+		 * @param {any}
+		 * @returns {boolean}
+		 */
+
+		const verbose = false
+		var _element_requirement_met = false
+		if (verbose) console.log(elementMetadata.element.description)
+
+		// first check if the element is in the specificElements list
+		if (elementRequirement.specificElements.length > 0) {
+			if (verbose) console.log("checking specific elements")
+			if (elementRequirement.specificElements.includes(elementMetadata.element.id)) {
+				if (verbose) console.log("specific element found")
+				_element_requirement_met = true
+			} else {
+				if (verbose) console.log("specific element not found")
+			}
+		} else {
+			// check if the element is of the right type
+			if (elementRequirement.type.includes(elementMetadata.elementType)) {
+				if (verbose) console.log("type correct")
+				// check if the element is of the right group
+				if (elementRequirement.group.includes(Number(elementMetadata.element.group_number))) {
+					if (verbose) console.log("group correct")
+					// check if the element has the right difficulty
+					if (checkIfDifficultyIsHigher(elementMetadata.element.difficulty, elementRequirement.minimalValue, true)) {
+						if (verbose) console.log("difficulty correct")
+						// check if the description contains the keywords
+						if (elementRequirement.keywords.length > 0) {
+							if (verbose) console.log("checking keywords")
+							// check if the description contains the keywords
+							if (elementRequirement.keywords.every((keyword: string | string[]) => {
+								if (Array.isArray(keyword)) {
+									// if the keyword is an array, it becomes an "or" statement
+									return keyword.some((key: string) => elementMetadata.element.description.toLowerCase().includes(key.toLowerCase()))
+								} else {
+									return elementMetadata.element.description.toLowerCase().includes(keyword.toLowerCase())
+								}
+							})) {
+								if (verbose) console.log("keywords correct")
+								_element_requirement_met = true
+							} else {
+								if (verbose) console.log("keywords not correct")
+								_element_requirement_met = false
+								return _element_requirement_met
+							}
+						} else {
+							if (verbose) console.log("no keywords given")
+							_element_requirement_met = true
+						}
+						// check if the description does not contain the antiKeywords
+						if (elementRequirement.antiKeywords.length > 0) {
+							if (elementRequirement.antiKeywords.every((keyword: string | string[]) => {
+								if (Array.isArray(keyword)) {
+									// if the keyword is an array, it becomes an "or" statement
+									return keyword.some((key: string) => !elementMetadata.element.description.toLowerCase().includes(key.toLowerCase()))
+								} else {
+									return !elementMetadata.element.description.toLowerCase().includes(keyword.toLowerCase())
+								}
+							})) {
+								if (verbose) console.log("antiKeywords correct")
+								_element_requirement_met = true
+							} else {
+								if (verbose) console.log("antiKeywords not correct")
+								_element_requirement_met = false
+								return _element_requirement_met
+							}
+						} else {
+							if (verbose) console.log("no antiKeywords")
+						}
+					} else {
+						if (verbose) console.log("difficulty not correct")
+					}
+				} else {
+					if (verbose) console.log("group not correct")
+				}
+			} else {
+				if (verbose) console.log("type not correct")
+			}
+		}
+
+		return _element_requirement_met
+	}
+
+	private countCompositionalRequirements() {
+		/**
+		 * Count the compositional requirements of the routine
+		 * 
+		 * @param {RoutineMetadata}
+		 * @returns {number}
+		 */
+
+
+		// there are always 4 requirements. we have to check each requirement individually.
+		// each requirement has a description, and one or more elements. it also contains information whether
+		// the elements should be unique, and if the elements should be connected (in a combo). 
+		// the 'elements' key contains a list of one or more elements. 
+		// each elements has the following details:
+		// - type: array of "dance" || "acrobatic"
+		// - minimalValue: value between SA - I
+		// - group: array of group the element should belong. multiple numbers means that the element can be from multiple groups.
+		// - keywords: a list of keywords; the description of the element should contain at all the keywords. the keywords can be nested.
+		//   if a keyword is nested, it becomes an "or" statement. e.g. [a,b,[c,d]] means the description shoud contain a AND b AND (c OR d)
+		// - antiKeywords: the same applies as with the 'keywords' key. only that the description is not allowed to have any of those keywords.
+		// - specificElements: a list of element numbers. if this is specified, the element should be from this list. all other specifications mentioned above are not relevant then.
+
+		let routineValue: ComboType[] = []
+		this.routineMutations.routine.subscribe(value => routineValue = value)
+		let _nr_requirements_met = 0
+		this.compositionalRequirements.map(requirement => {
+			var _requirement_met = false
+			const _requirement = this.supplement.compositionalRequirements[requirement.number]
+			const options = _requirement.elements.map((elementRequirement: any) => {
+				const possibleElements = routineValue.flatMap(comboMetadata => {
+					const comboElements = _requirement.elementsShouldBeUnique ? comboMetadata.elements.filter(elementMetadata => !elementMetadata.isRepeated) : comboMetadata.elements
+					return comboElements.map(elementMetadata => {
+						if (this.checkIfElementRequirementIsMet(elementMetadata, elementRequirement)) {
+							return elementMetadata
+						}
+					})
+				}).filter(elementMetadata => elementMetadata !== undefined)
+				return possibleElements
+			}
+			)
+
+			// options contains all the possible elements for each requirement.
+			// the length of options is the number of elements that a requirement can have
+			// the length of each element in options is the number of possible elements that meet the requirements
+
+
+			// we need to check if there is a combination of elements that meets the requirements
+			// 
+			// if elementsShouldBeConnected is true, we need to check if the elements are connected in a combo
+			// if elementsShouldBeConnected is false, we need to check if the elements are in the routine
+			//
+			// if elementsShouldBeUnique is true, we need to check if the elements are unique
+			// if elementsShouldBeUnique is false, we need don't need to check if the elements are unique
+
+			// if the elements should be connected, a value from option[0] should be connected with any from option[1] and so on
+			// if the elements don't have to be connected, we only need to check if any of option[0] is in the routine, and so on
+
+			// options = [[a,b],[d]]
+			// routine1 = [[a,d],[b]]
+			// routine2 = [[a,b],[d]]
+			// routine3 = [[a,c,d],[b]]
+			// the requirement is met for routine1, because an element of option[0] is connected with an element of option[1]
+			// the requirement is not met for routine3, because an element of option[0] is not connected with an element of option[1]
+			// the requirement is not met for routine2, because an element of option[0] is not connected with an element of option[1]
+			// routine2 qualifies for the requirement if elementsShouldBeConnected is false
+			var isFound: Boolean[] = new Array(options.length).fill(false);
+
+			routineValue.map(comboMetadata => {
+				
+				// check if the elements are connected
+				if (_requirement.elementsShouldBeConnected) {
+					comboMetadata.elements.map((elementMetadata, index) => {
+						for (let i = 0; i < options.length - 1; i++) {
+							if (options[i].includes(elementMetadata)) {
+								// check if the next element is in the next option
+								if (index + 1 < comboMetadata.elements.length) {
+									if (options[i + 1].includes(comboMetadata.elements[index + 1])) {
+										_requirement_met = true
+									}
+								}
+								
+							}
+						}
+					})
+					comboMetadata.elements.map((elementMetadata, index) => {
+						for (let i = 0; i < options.length - 1; i++) {
+							if (options[i].includes(elementMetadata)) {
+								// check if the previous element is in the next option
+								if (index - 1 >= 0) {
+									if (options[i + 1].includes(comboMetadata.elements[index - 1])) {
+										_requirement_met = true
+									}
+								}
+							}
+						}
+					})
+				}
+				else {
+					// check if the elements are in the routine
+					
+					comboMetadata.elements.forEach(elementMetadata => {
+						for (let i = 0; i < options.length; i++) {
+							if (options[i].includes(elementMetadata)) {
+								isFound[i] = true;
+							}
+						}
+					});
+					
+					// Check if all options are found
+					const allOptionsFound = isFound.every(found => found);
+					if (allOptionsFound) {
+						_requirement_met = true;
+					}
+			
+		}
+	})
+
+			if (_requirement_met) {
+				_nr_requirements_met += 1
+				requirement.met = true
+			}
+
+		})
+		return _nr_requirements_met * 0.5
+	}
 
 }
