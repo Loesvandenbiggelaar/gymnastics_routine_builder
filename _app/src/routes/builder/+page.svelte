@@ -64,6 +64,13 @@ SerieBonus: {$data.calcDiff.dscore.serieBonus}
 <br>
 DismountBonus : {$data.calcDiff.dscore.dismountBonus}
 
+<br>
+<br>
+{#if $data.calcDiff.neutralDeduction < 0}
+	<strong>Neutral Deductions: {$data.calcDiff.neutralDeduction}</strong>
+{/if}
+
+
 <br><br>
 messages <br>
 {#each $data.calcDiff.messages as message}

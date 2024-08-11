@@ -51,6 +51,7 @@ export class calculateDifficulty {
 		dismountBonus: 0,
 		totalDifficulty: 0
 	}
+	neutralDeduction = 0
 
 	constructor(routine: RoutineMutations, supplement: Supplement) {
 		this.routineMutations = routine
@@ -91,6 +92,7 @@ export class calculateDifficulty {
 			dismountBonus: 0,
 			totalDifficulty: 0
 		}
+		this.neutralDeduction = 0
 		// remove the messages from all combos and elements
 		let routineValue: ComboType[] = []
 		this.routineMutations.routine.subscribe(value => routineValue = value)
@@ -212,7 +214,8 @@ export class calculateDifficulty {
 		// get all the elements which have difficulty value and are not repeated
 		const elements = routineValue.map(combo => combo.elements.filter(element => !element.isRepeated)).flat()
 		if (elements.length < this.supplement.maxDV - 1) {
-			this.addGeneralMessage(`Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
+			this.addGeneralMessage(`Neutral deduction of - 4 points! Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
+			this.neutralDeduction = -4
 		}
 		if (elements.length > this.supplement.maxDV) {
 			this.addGeneralMessage(`Too many elements ${elements.length}/${this.supplement.maxDV}`, "warning")
@@ -563,7 +566,7 @@ export class calculateDifficulty {
 			} else {
 				if (verbose) console.log("specific element not found")
 			}
-		} else {
+		} 
 			// check if the element is of the right type
 			if (elementRequirement.type.includes(elementMetadata.elementType)) {
 				if (verbose) console.log("type correct")
@@ -625,7 +628,7 @@ export class calculateDifficulty {
 			} else {
 				if (verbose) console.log("type not correct")
 			}
-		}
+		
 
 		return _element_requirement_met
 	}
