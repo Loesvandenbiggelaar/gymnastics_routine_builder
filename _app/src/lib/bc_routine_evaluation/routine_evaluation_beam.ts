@@ -532,7 +532,6 @@ const compositionalRequirementsD2: CompositionalRequirements= {
     }
 }
 
-
 const compositionalRequirementsD3: CompositionalRequirements= {
     1: {
         description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 180° split (cross or side), or straddle position",
@@ -612,6 +611,222 @@ const compositionalRequirementsD3: CompositionalRequirements= {
     }
 }
 
+const compositionalRequirementsD4: CompositionalRequirements= {
+    1: {
+        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 135° split (cross or side), or straddle position",
+        elementsShouldBeConnected: true,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[2],
+                keywords:[["135","180"], "split", ["jump","leap"]],
+                antiKeywords:[],
+                specificElements: []
+            },
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[2, 3],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: []
+            }
+        ]
+    },
+    2: {
+        description: "A turn from group 3",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[3],
+                keywords:["turn"],
+                antiKeywords:[],
+                specificElements: []
+            }        
+        ]
+    },
+    3: {
+        description: "An acrobatic element of at least A value",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["acrobatic"],
+                minimalValue: "A",
+                group:[4, 5],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: []
+            },
+        ]
+    },
+    4: {
+        description: "An acrobatic element through or to handstand (minimum A value)",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["acrobatic"],
+                minimalValue: "A",
+                group:[4,5],
+                keywords:[["handstand", "hstd", "cartweel", "walkover", "handspring", "flic-flac"]],
+                antiKeywords:[],
+                specificElements: []
+            }
+        ]
+    }
+
+}
+
+const compositionalRequirementsD5: CompositionalRequirements= {
+    1: {
+        description: "One connection of at least 2 different dance elements, 1 being a leap or jump with 135° split (cross or side), or straddle position",
+        elementsShouldBeConnected: true,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[2],
+                keywords:[["135","180"], "split", ["jump","leap"]],
+                antiKeywords:[],
+                specificElements: []
+            },
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[2, 3],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: []
+            }
+        ]
+    },
+    2: {
+        description: "A turn from group 3",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[3],
+                keywords:["turn"],
+                antiKeywords:[],
+                specificElements: []
+            }        
+        ]
+    },
+    3: {
+        description: "An acrobatic element of at least TA value",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["acrobatic"],
+                minimalValue: "TA",
+                group:[4, 5],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: []
+            },
+        ]
+    },
+    4: {
+        description: "An acrobatic element through or to handstand (minimum A value)",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["acrobatic"],
+                minimalValue: "A",
+                group:[4,5],
+                keywords:[["handstand", "hstd", "cartweel", "walkover", "handspring", "flic-flac"]],
+                antiKeywords:[],
+                specificElements: []
+            }
+        ]
+    }
+}
+
+const compositionalRequirementsD6: CompositionalRequirements= {
+    1: {
+        description: "One connection of at least 2 different dance elements.",
+        elementsShouldBeConnected: true,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[2, 3],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: []
+            },
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[2, 3],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: []
+            }
+        ]
+    },
+    2: {
+        description: "A turn from group 3",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["dance"],
+                minimalValue: "TA",
+                group:[3],
+                keywords:["turn"],
+                antiKeywords:[],
+                specificElements: []
+            }        
+        ]
+    },
+    3: {
+        description: "A movement close to the beam; where the torso is close to the beam. this does not have to be an element",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["acrobatic", "dance"],
+                minimalValue: "A",
+                group:[4, 5],
+                keywords:["rol"],
+                antiKeywords:[],
+                specificElements: []
+            }
+        ]
+    },
+    4: {
+        description: "An hold element or (hand)stand",
+        elementsShouldBeConnected: false,
+        elementsShouldBeUnique: true,
+        elements:[
+            {
+                type:["acrobatic"],
+                minimalValue: "A",
+                group:[],
+                keywords:[],
+                antiKeywords:[],
+                specificElements: ["4.101", "4.102", "4.202", "4.103", "4.203", "4.002", "4.003" ]
+            }
+        ]
+    }
+
+}
+
+
 export type Supplement =  {
     maxDV: number;
     allowedDifficulty: string[];
@@ -654,7 +869,7 @@ const D4:Supplement = {
     minAcro: 2,
     minDance: 3,
     connectionValuesAndBonus: connectionValuesD4,
-    compositionalRequirements: compositionalRequirementsD1
+    compositionalRequirements: compositionalRequirementsD4
 };
 
 const D5:Supplement = {
@@ -663,7 +878,7 @@ const D5:Supplement = {
     minAcro: 2,
     minDance: 3,
     connectionValuesAndBonus: connectionValuesD5,
-    compositionalRequirements: compositionalRequirementsD1
+    compositionalRequirements: compositionalRequirementsD5
 };
 
 const D6:Supplement = {
@@ -672,7 +887,7 @@ const D6:Supplement = {
     minAcro: 2,
     minDance: 3,
     connectionValuesAndBonus: connectionValuesD6,
-    compositionalRequirements: compositionalRequirementsD1
+    compositionalRequirements: compositionalRequirementsD6
 };
 
 
