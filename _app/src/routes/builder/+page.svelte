@@ -9,6 +9,7 @@
 	//
 	import { onMount } from 'svelte';
 	import { beamRoutine1, beamRoutineLoes } from '$lib/data/test_data/beam_routines_en';
+	import { Warning } from 'postcss';
 
 	let inputValue = '';
 
@@ -22,9 +23,11 @@
 		$data.routineMutations.addElement(getElement('b', inputValue));
 	}
 
-	onMount(() => {
-		// replace the value of the routine with the beam routine
-		// $data.routineMutations.routine.set(beamRoutine1)
+	$: warningMessages = $data.calcDiff.messages
+		.slice()
+		.sort((a, b) => (a.priority || 0) - (b.priority || 0));
+
+	function defaultRoutine() {
 		$data.routineMutations.addElement(getElement('b', '1.303'));
 		$data.routineMutations.addElement(getElement('b', '5.303'));
 		$data.routineMutations.addElement(getElement('b', '5.201'));
@@ -35,6 +38,11 @@
 		$data.routineMutations.moveElement(2, 0, 1, 1);
 		// $data.routineMutations.addElement(getElement("b", "2.204"))
 		$data.calcDiff.dscore = $data.calcDiff.calculate();
+	}
+
+	onMount(() => {
+		// $data.routineMutations.routine.set(beamRoutineLoes);
+		defaultRoutine();
 	});
 </script>
 
@@ -55,50 +63,82 @@
 
 <!-- show all the values of the Dscore -->
 
-{#if $data.calcDiff.compositionalRequirements.length > 0}
-	<Accordion>
-		<AccordionItem>
-			<svelte:fragment slot="lead">
-				<Icon icon="mdi:information-outline" />
-			</svelte:fragment>
-			<svelte:fragment slot="summary">Difficulty</svelte:fragment>
-			<svelte:fragment slot="content">
+<Accordion>
+	<AccordionItem background="bg-warning-500" disabled={warningMessages.length <= 0}>
+		<!-- Warnings -->
+		<svelte:fragment slot="lead">
+			<Icon
+				class={warningMessages.length == 0 ? 'text-success-500' : 'text-error-500'}
+				icon={warningMessages.length == 0 ? 'mdi:check' : 'mdi:warning'}
+			/>
+		</svelte:fragment>
+		<svelte:fragment slot="summary">
+			{#if $data.calcDiff.neutralDeduction < 0}
+				<h4 class="displayHeader underline text-error-500">
+					Warning, Neutral Deduction: {$data.calcDiff.neutralDeduction}
+				</h4>
+			{:else if warningMessages.length == 0}
+				<h4 class="displayHeader">No Warnings</h4>
+			{:else if warningMessages.length == 1}
+				<h4 class="displayHeader">Warning: {warningMessages[0].msg}</h4>
+			{:else}
+				<h4 class="displayHeader">Warnings ({warningMessages.length})</h4>
+			{/if}
+		</svelte:fragment>
+		<svelte:fragment slot="content">
+			{#if warningMessages.length > 0}
+				<div class="warningContainer">
+					{#each warningMessages as message}
+						<WarningBubble message={message.msg} warningType={message.type} />
+					{/each}
+				</div>
+			{/if}
+		</svelte:fragment>
+	</AccordionItem>
+	<AccordionItem>
+		<!-- Difficulty -->
+		<svelte:fragment slot="lead">
+			<Icon icon="mdi:bullseye-arrow" />
+		</svelte:fragment>
+		<svelte:fragment slot="summary">
+			<h4 class="displayHeader">Total Difficulty {$data.calcDiff.dscore.totalDifficulty}</h4>
+		</svelte:fragment>
+		<svelte:fragment slot="content">
+			<dl class="list-dl">
 				{#each Object.entries($data.calcDiff.dscore) as [key, element]}
-					<div class="difficulty_element">
-						{key}: {element}
+					<div>
+						<span class="difficultyElement flex-auto">
+							<dt>{key}</dt>
+							<dd>{element}</dd>
+						</span>
 					</div>
 				{/each}
-			</svelte:fragment>
-		</AccordionItem>
-		<AccordionItem>
+			</dl>
+		</svelte:fragment>
+	</AccordionItem>
+	{#if true}
+		<AccordionItem disabled={$data.calcDiff.compositionalRequirements.length <= 0}>
+			<!-- Compositional Requirements -->
 			<svelte:fragment slot="lead">
 				<Icon icon="mdi:information-outline" />
 			</svelte:fragment>
-			<svelte:fragment slot="summary">Compositional Requirements</svelte:fragment>
+			<svelte:fragment slot="summary">
+				<h4 class="displayHeader">Compositional Requirements</h4>
+			</svelte:fragment>
 			<svelte:fragment slot="content">
-				{#each $data.calcDiff.compositionalRequirements as cr}
-					<div class="cr">
-						{cr.requirement}
-					</div>
-				{/each}
+				<ul class="list">
+					{#each $data.calcDiff.compositionalRequirements as cr}
+						<li class="cr list-item">
+							{cr.requirement}
+						</li>
+					{/each}
+				</ul>
 			</svelte:fragment>
 		</AccordionItem>
-	</Accordion>
-{/if}
-<br />
-<br />
+	{/if}
+</Accordion>
 {#if $data.calcDiff.neutralDeduction < 0}
 	<strong>Neutral Deductions: {$data.calcDiff.neutralDeduction}</strong>
-{/if}
-
-<br /> <br />
-{#if $data.calcDiff.messages.length > 0}
-	<div id="routineWarnings">
-		<h4 class="warningHeader">Warning messages</h4>
-		{#each $data.calcDiff.messages as message}
-			<WarningBubble message={message.msg} warningType={message.type} />
-		{/each}
-	</div>
 {/if}
 
 <section id="builder">
@@ -187,7 +227,7 @@
 		font-weight: bold;
 	}
 
-	#routineWarnings {
+	.warningContainer {
 		display: flex;
 		flex-direction: column;
 		/* Styling */
@@ -197,7 +237,7 @@
 		border: 1px solid rgb(var(--color-warning-500));
 	}
 
-	.warningHeader {
+	.displayHeader {
 		/* Text */
 		font-size: 14px;
 		font-weight: 900;
