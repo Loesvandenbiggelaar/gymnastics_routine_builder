@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
+	import WarningBubble from '$lib/components/builder/WarningBubble.svelte';
+	//
 	export let element: ElementMetadata;
 	export let elementIndex: number;
 	export let comboIndex: number;
@@ -26,6 +28,8 @@
 		if (!dragging) return;
 		dragging = false;
 	}
+
+	let elementTypeMsg = element?.elementType || 'element';
 </script>
 
 <div
@@ -33,33 +37,43 @@
 	class:dragging
 >
 	<div class="elementHead">
-		
-		<div class="announcer">element</div>
+		<div class="announcer">{elementTypeMsg}</div>
 		{#if element.isRepeated}
-		<div class="announcer" style="color:red">warning! element is repeated</div>
+			<WarningBubble warningType="repeated" message="Element is repeated" />
 		{/if}
 		{#if element.devaluated}
-		<div class="announcer" style="color:orange">warning! element is devaluated</div>
+			<div class="announcer" style="color:orange">warning! element is devaluated</div>
 		{/if}
-		
 	</div>
-	<div class="elementDescription">{element.value} {element.element.description}</div>
-	<br />
+	<!-- Content Section -->
+	<div class="elementContent">
+		<div class="elementDescription">{element.value} {element.element.description}</div>
+		<br />
 
-	<!-- <div>{element.isRepeated}</div> -->
-	<!-- Drag Handle -->
-	<button id="draghandle" class="dragHandle btn" on:mousedown={isDragging}>
-		<Icon icon="mdi:drag" />
-	</button>
+		<!-- <div>{element.isRepeated}</div> -->
+		<!-- Drag Handle -->
+		<button id="draghandle" class="dragHandle btn" on:mousedown={isDragging}>
+			<Icon icon="mdi:drag" />
+		</button>
+	</div>
 	<!-- Buttons -->
-	<div class="rbeButtons">
-		<button id="deleteElement" class="btn" on:click={() => $data.routineMutations.removeElement(comboIndex,elementIndex)}
+	<div class="elementButtonRow">
+		<button
+			id="deleteElement"
+			class="btn"
+			on:click={() => $data.routineMutations.removeElement(comboIndex, elementIndex)}
 			><Icon icon="mdi:delete" /></button
 		>
-		<button id="moveElementUp" class="btn" on:click={() => $data.routineMutations.moveElementBack(comboIndex,elementIndex)}
+		<button
+			id="moveElementUp"
+			class="btn"
+			on:click={() => $data.routineMutations.moveElementBack(comboIndex, elementIndex)}
 			><Icon icon="mdi:arrow-up" /></button
 		>
-		<button id="moveElementUp" class="btn" on:click={() => $data.routineMutations.moveElementForward(comboIndex,elementIndex)}
+		<button
+			id="moveElementUp"
+			class="btn"
+			on:click={() => $data.routineMutations.moveElementForward(comboIndex, elementIndex)}
 			><Icon icon="mdi:arrow-down" /></button
 		>
 	</div>
@@ -67,20 +81,23 @@
 
 <style>
 	.routineBuilderElement {
-		display: grid;
-		grid-template-areas:
-			'head head head'
-			'something description draghandle'
-			'buttons buttons buttons';
-		grid-template-columns: min-content 1fr min-content;
+		display: flex;
+		flex-direction: column;
+
+		/* Coloring */
+		background-color: rgb(var(--color-primary-300));
 
 		/* Layout */
 		border-radius: inherit;
 		width: 100%;
-		padding: 0.5em;
+		overflow: hidden;
 
 		/* Animation */
 		transition: all 0.2s ease-in-out;
+	}
+
+	.routineBuilderElement > * {
+		padding: 0.1em 0.5em;
 	}
 
 	.routineBuilderElement:hover {
@@ -94,13 +111,21 @@
 
 	.elementHead {
 		grid-area: head;
-		border-bottom: 0.5px solid rgb(var(--color-surface-500));
+		display: flex;
+		/* Colors */
+		background-color: rgb(var(--color-primary-500));
+		color: rgb(var(--on-primary));
 	}
 
 	.elementHead .announcer {
 		font-size: 9pt;
 		font-weight: 900;
 		font-family: 'Kode Mono', monospace;
+	}
+
+	.elementContent {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.elementDescription {
@@ -111,7 +136,7 @@
 		grid-area: draghandle;
 	}
 
-	.rbeButtons {
+	.elementButtonRow {
 		display: flex;
 		grid-area: buttons;
 	}
