@@ -35,6 +35,7 @@
 <div
 	class="routineBuilderElement bg-surface-100-800-token text-surface-900-50-token"
 	class:dragging
+	id="{comboIndex}.{elementIndex}"
 >
 	<div class="elementHead">
 		<div class="announcer">{elementTypeMsg}</div>
@@ -42,7 +43,7 @@
 			<WarningBubble warningType="repeated" message="Element is repeated" />
 		{/if}
 		{#if element.devaluated}
-			<div class="announcer" style="color:orange">warning! element is devaluated</div>
+			<WarningBubble message="Warning! element is devaluated" />
 		{/if}
 	</div>
 	<!-- Content Section -->
