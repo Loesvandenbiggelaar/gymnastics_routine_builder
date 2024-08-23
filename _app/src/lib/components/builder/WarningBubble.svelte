@@ -4,17 +4,20 @@
 	let warningDict: Record<string, { color: string; icon: string }> = {
 		warning: { color: 'rgb(var(--color-warning-500))', icon: 'mdi:alert-circle-outline' },
 		repeated: { color: 'rgb(var(--color-warning-500))', icon: 'mdi:repeat' },
-		error: { color: 'rgb(var(--color-error-500))', icon: 'mdi:alert' }
+		error: { color: 'rgb(var(--color-error-500))', icon: 'mdi:alert' },
+		info: { color: 'rgb(var(--color-primary-500))', icon: 'mdi:information' }
 	};
 
-	export let warningType: string;
+	export let warningType: string = 'warning';
 	export let message = 'Warning!';
 	export let hideIcon: boolean = false;
 
 	export let icon: string | undefined = undefined;
 	export let color: string | undefined = undefined;
 
-	color = color || (warningType in warningDict ? warningDict[warningType].color : 'blue');
+	color =
+		color ||
+		(warningType in warningDict ? warningDict[warningType].color : 'rgb(var(--color-warning-500))');
 	icon =
 		icon ||
 		(warningType in warningDict ? warningDict[warningType].icon : 'mdi:alert-circle-outline');
