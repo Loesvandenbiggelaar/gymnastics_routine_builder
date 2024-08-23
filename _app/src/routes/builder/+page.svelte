@@ -10,8 +10,8 @@
 	let inputValue = '';
 
 	$: routine = $data.routineMutations.routine;
-
 	$: $routine, ($data.calcDiff.dscore = $data.calcDiff.calculate());
+	$: $data, $data.calculateDScore();
 
 	function processInput() {
 		// Process the input value
@@ -21,22 +21,24 @@
 
 	onMount(() => {
 		// replace the value of the routine with the beam routine
-
-		$data.routineMutations.routine.set(beamRoutine1);
-
+		// $data.routineMutations.routine.set(beamRoutine1)
+		$data.routineMutations.addElement(getElement('b', '1.303'));
+		$data.routineMutations.addElement(getElement('b', '5.303'));
+		$data.routineMutations.addElement(getElement('b', '5.201'));
+		$data.routineMutations.addElement(getElement('b', '5.202'));
+		$data.routineMutations.addElement(getElement('b', '2.210'));
+		$data.routineMutations.addElement(getElement('b', '2.210'));
+		$data.routineMutations.addElement(getElement('b', '2.202'));
+		$data.routineMutations.moveElement(2, 0, 1, 1);
+		// $data.routineMutations.addElement(getElement("b", "2.204"))
 		$data.calcDiff.dscore = $data.calcDiff.calculate();
 	});
-
-	function calc() {
-		$data.calcDiff.dscore = $data.calcDiff.calculate();
-	}
 </script>
 
 <!-- dropdown to select the level -->
 <div style="display: flex; justify-content: flex-end;">
 	<select
 		bind:value={$data.level}
-		on:change={calc}
 		style="color:black; border: 1px solid #ccc; border-radius: 10px;"
 	>
 		<option value="D1" selected>D1</option>
@@ -61,6 +63,12 @@ connectionValue: {$data.calcDiff.dscore.connectionValue}
 SerieBonus: {$data.calcDiff.dscore.serieBonus}
 <br />
 DismountBonus : {$data.calcDiff.dscore.dismountBonus}
+
+<br />
+<br />
+{#if $data.calcDiff.neutralDeduction < 0}
+	<strong>Neutral Deductions: {$data.calcDiff.neutralDeduction}</strong>
+{/if}
 
 <br /> <br />
 {#if $data.calcDiff.messages.length > 0}
