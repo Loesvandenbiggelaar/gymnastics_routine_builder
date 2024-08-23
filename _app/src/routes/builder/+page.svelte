@@ -4,6 +4,9 @@
 	import { data } from '$lib/stores/datastore';
 	import BuilderElement from '$lib/components/builder/BuilderElement.svelte';
 	import WarningBubble from '$lib/components/builder/WarningBubble.svelte';
+	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
+	import Icon from '@iconify/svelte';
+	//
 	import { onMount } from 'svelte';
 	import { beamRoutine1, beamRoutineLoes } from '$lib/data/test_data/beam_routines_en';
 
@@ -52,18 +55,36 @@
 
 <!-- show all the values of the Dscore -->
 
-totalDifficulty: {$data.calcDiff.dscore.totalDifficulty}
-<br />
-difficulty: {$data.calcDiff.dscore.difficultyValue}
-<br />
-compositionalRequirements: {$data.calcDiff.dscore.compositionalRequirements}
-<br />
-connectionValue: {$data.calcDiff.dscore.connectionValue}
-<br />
-SerieBonus: {$data.calcDiff.dscore.serieBonus}
-<br />
-DismountBonus : {$data.calcDiff.dscore.dismountBonus}
-
+{#if $data.calcDiff.compositionalRequirements.length > 0}
+	<Accordion>
+		<AccordionItem>
+			<svelte:fragment slot="lead">
+				<Icon icon="mdi:information-outline" />
+			</svelte:fragment>
+			<svelte:fragment slot="summary">Difficulty</svelte:fragment>
+			<svelte:fragment slot="content">
+				{#each Object.entries($data.calcDiff.dscore) as [key, element]}
+					<div class="difficulty_element">
+						{key}: {element}
+					</div>
+				{/each}
+			</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead">
+				<Icon icon="mdi:information-outline" />
+			</svelte:fragment>
+			<svelte:fragment slot="summary">Compositional Requirements</svelte:fragment>
+			<svelte:fragment slot="content">
+				{#each $data.calcDiff.compositionalRequirements as cr}
+					<div class="cr">
+						{cr.requirement}
+					</div>
+				{/each}
+			</svelte:fragment>
+		</AccordionItem>
+	</Accordion>
+{/if}
 <br />
 <br />
 {#if $data.calcDiff.neutralDeduction < 0}
