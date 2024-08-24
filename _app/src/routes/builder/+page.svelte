@@ -1,6 +1,6 @@
 <script lang="ts">
 	// Import Components
-	import { getElement } from '$lib/stores/debug_get_routines';
+	import { getElement } from '$lib/bc_routine_evaluation/get_elements_and_routines';
 	import { data } from '$lib/stores/datastore';
 	import BuilderElement from '$lib/components/builder/BuilderElement.svelte';
 	import WarningBubble from '$lib/components/builder/WarningBubble.svelte';
@@ -8,8 +8,7 @@
 	import Icon from '@iconify/svelte';
 	//
 	import { onMount } from 'svelte';
-	import { beamRoutine1, beamRoutineLoes } from '$lib/data/test_data/beam_routines_en';
-	import { Warning } from 'postcss';
+	import { floor_routine_normal, beam_routine_loes } from '$lib/data/test_data/test_routines';
 
 	let inputValue = '';
 
@@ -27,22 +26,9 @@
 		.slice()
 		.sort((a, b) => (a.priority || 0) - (b.priority || 0));
 
-	function defaultRoutine() {
-		$data.routineMutations.addElement(getElement('b', '1.303'));
-		$data.routineMutations.addElement(getElement('b', '5.303'));
-		$data.routineMutations.addElement(getElement('b', '5.201'));
-		$data.routineMutations.addElement(getElement('b', '5.202'));
-		$data.routineMutations.addElement(getElement('b', '2.210'));
-		$data.routineMutations.addElement(getElement('b', '2.210'));
-		$data.routineMutations.addElement(getElement('b', '2.202'));
-		$data.routineMutations.moveElement(2, 0, 1, 1);
-		// $data.routineMutations.addElement(getElement("b", "2.204"))
-		$data.calcDiff.dscore = $data.calcDiff.calculate();
-	}
 
 	onMount(() => {
-		// $data.routineMutations.routine.set(beamRoutineLoes);
-		defaultRoutine();
+		$data.routineMutations.routine.set(floor_routine_normal);
 	});
 </script>
 
