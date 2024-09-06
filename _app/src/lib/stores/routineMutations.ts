@@ -5,21 +5,29 @@ const elementEncodingSeparator: string = '_'
 // Types for the Routine
 import { type ElementType } from '$lib/data/elements/all_elements'
 import { writable, type Writable } from 'svelte/store'
-import type { B } from 'vitest/dist/reporters-yx5ZTtEV.js'
 
 export type RoutineMessage = {
 	msg: string
 	type: 'info' | 'warning' | 'error' | string
 	priority?: number
 }
-export type ElementMetadata = { element: ElementType, order?: number, isRepeated?: Boolean, value?: number, elementType?: "dance" | "acrobatic", devaluated?:Boolean }
+export type ElementMetadata = { 
+	element: ElementType, 
+	order?: number, 
+	isRepeated?: Boolean, 
+	value?: number, 
+	elementType?: "dance" | "acrobatic", 
+	devaluated?:Boolean,
+	hasDifficulty?:Boolean 
+}
 
 export type ComboType = {
 	elements: ElementMetadata[]
-	title?: string
-	type?: 'acro' | 'dance' | 'mix' | 'salto' | string
+	// title?: string
+	// type?: 'acro' | 'dance' | 'mix' | 'salto' | string
 	value?: number
-	hasSameElements?: boolean
+	// hasSameElements?: boolean
+	isAcroLine?: boolean
 	messages?: RoutineMessage[]
 }
 

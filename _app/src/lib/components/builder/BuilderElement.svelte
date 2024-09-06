@@ -29,7 +29,7 @@
 		dragging = false;
 	}
 
-	let elementTypeMsg = element?.elementType || 'element';
+	$: elementTypeMsg = element?.elementType || 'element';
 </script>
 
 <div
@@ -38,7 +38,7 @@
 	id="{comboIndex}.{elementIndex}"
 >
 	<div class="elementHead">
-		<div class="announcer">{elementTypeMsg}</div>
+		<div class="announcer">{element.element.id} {elementTypeMsg} {element.hasDifficulty}</div>
 		{#if element.isRepeated}
 			<WarningBubble warningType="repeated" message="Element is repeated" />
 		{/if}

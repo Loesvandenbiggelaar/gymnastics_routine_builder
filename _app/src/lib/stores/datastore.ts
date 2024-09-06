@@ -1,8 +1,18 @@
 import { apparatusConfig } from '$lib/data/elements/apparatusConfig'
 import { availableApparatuses, type ElementType } from '$lib/data/elements/all_elements'
 import { search_tags } from '$lib/data/elements/search_tags'
-import { writable, type Writable } from 'svelte/store'
+import { writable } from 'svelte/store'
 import { RoutineMutations } from './routineMutations'
+import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/beam_routine_evaluation'
+import { routineEvaluationFloor } from '$lib/bc_routine_evaluation/floor_routine_evaluation'
+// Import dataset from json
+import { allElements } from '$lib/data/elements/all_elements'
+import { calculateDifficultyBeam} from '$lib/bc_routine_evaluation/beam_difficulty'
+import { calculateDifficultyFloor} from '$lib/bc_routine_evaluation/floor_difficulty'
+import type { Supplement } from '$lib/bc_routine_evaluation/types'
+import type { DifficultyClass } from '$lib/bc_routine_evaluation/difficulty_class'
+
+
 export let selectedApparatus = writable(apparatusConfig[0])
 // Create a writable store for the selected apparatus
 export let modalElement = writable()
@@ -33,14 +43,9 @@ export type SearchEntry = {
 	modifier?: SearchModifiers
 	searchProperties?: string[]
 }
-export type Dscore = {
-	difficultyValue: number
-	compositionalRequirements: number
-	connectionValue: number
-	serieBonus: number
-	dismountBonus: number
-	totalDifficulty: number
-}
+
+const routineEvaluations: Record<string, Record<string, Supplement>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor}
+const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor} 
 
 export class ElementData {
 	level: string = "D1"
@@ -66,7 +71,9 @@ export class ElementData {
 
 	routineStorage: Record<string, RoutineMutations> = {}
 	routineMutations: RoutineMutations
-	calcDiff: calculateDifficulty
+	calcDiff: DifficultyClass
+
+	routineEvaluation: Supplement
 
 	constructor(
 		rawData: Record<string, Record<string, any>>,
@@ -109,9 +116,12 @@ export class ElementData {
 		for (const apparatus of this.availableApparatuses) {
 			this.routineStorage[apparatus] = new RoutineMutations()
 		}
-
+		this.selectedApparatus = "f_w"
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
-		this.calcDiff = new calculateDifficulty(this.routineMutations, routineEvaluationBeam[this.level])
+		this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
+	
+		
+		this.calcDiff = new calculateDifficulty[this.selectedApparatus](this.routineMutations, this.routineEvaluation)
 	}
 	public logData() {
 		console.log(this.elementData)
@@ -119,12 +129,12 @@ export class ElementData {
 		console.log(i in Object.keys(this.rawData))
 	}
 
-
 	public calculateDScore() {
-		this.calcDiff = new calculateDifficulty(this.routineMutations, routineEvaluationBeam[this.level])
-		this.calcDiff.dscore = this.calcDiff.calculate()
+		console.log(this.level)
+		this.calcDiff = new calculateDifficulty[this.selectedApparatus](this.routineMutations, routineEvaluations[this.selectedApparatus][this.level])
+		// console.log(this.calcDiff)
+		this.calcDiff.dscore = this.calcDiff.resetAndCalculate()
 	}
-
 
 	/**
 	 * Sets the apparatus of the filter. If input is not a valid key in rawData, console error is logged.
@@ -141,6 +151,7 @@ export class ElementData {
 		let _apparatus = _input as keyof typeof _database
 		this.elementData = Object.values(_database[_apparatus])
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
+		this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
 		// update
 		this.search()
 		data.update(() => this)
@@ -318,10 +329,7 @@ export class ElementData {
 	}
 }
 
-// Import dataset from json
-import { allElements } from '$lib/data/elements/all_elements'
-import { calculateDifficulty } from '$lib/bc_routine_evaluation/beam_difficulty'
-import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/routine_evaluation_beam'
+
 const defaultUserSettings = {
 	lang: 'nlx',
 	apparatus: 'v_w'

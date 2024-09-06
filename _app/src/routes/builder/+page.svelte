@@ -13,13 +13,13 @@
 	let inputValue = '';
 
 	$: routine = $data.routineMutations.routine;
-	$: $routine, ($data.calcDiff.dscore = $data.calcDiff.calculate());
+	$: $routine, ($data.calcDiff.dscore = $data.calcDiff.resetAndCalculate());
 	$: $data, $data.calculateDScore();
 
 	function processInput() {
 		// Process the input value
 		// 'b' = beam
-		$data.routineMutations.addElement(getElement('b', inputValue));
+		$data.routineMutations.addElement(getElement('f_w', inputValue));
 	}
 
 	$: warningMessages = $data.calcDiff.messages
@@ -30,6 +30,7 @@
 	onMount(() => {
 		$data.routineMutations.routine.set(floor_routine_normal);
 	});
+
 </script>
 
 <!-- dropdown to select the level -->
