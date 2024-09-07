@@ -5,11 +5,13 @@ import { writable } from 'svelte/store'
 import { RoutineMutations } from './routineMutations'
 import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/beam_routine_evaluation'
 import { routineEvaluationFloor } from '$lib/bc_routine_evaluation/floor_routine_evaluation'
+import { routineEvaluationVault } from '$lib/bc_routine_evaluation/vault_routine_evaluation'
 // Import dataset from json
 import { allElements } from '$lib/data/elements/all_elements'
 import { calculateDifficultyBeam} from '$lib/bc_routine_evaluation/beam_difficulty'
 import { calculateDifficultyFloor} from '$lib/bc_routine_evaluation/floor_difficulty'
-import type { Supplement } from '$lib/bc_routine_evaluation/types'
+import { calculateDifficultyVault } from '$lib/bc_routine_evaluation/vault_difficulty'
+import type { Supplement, Vault } from '$lib/bc_routine_evaluation/types'
 import type { DifficultyClass } from '$lib/bc_routine_evaluation/difficulty_class'
 
 
@@ -44,8 +46,8 @@ export type SearchEntry = {
 	searchProperties?: string[]
 }
 
-const routineEvaluations: Record<string, Record<string, Supplement>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor}
-const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor} 
+const routineEvaluations: Record<string, Record<string, Supplement | Vault>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor, "v_w": routineEvaluationVault}
+const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor, "v_w": calculateDifficultyVault} 
 
 export class ElementData {
 	level: string = "D1"
@@ -73,7 +75,7 @@ export class ElementData {
 	routineMutations: RoutineMutations
 	calcDiff: DifficultyClass
 
-	routineEvaluation: Supplement
+	routineEvaluation: Supplement | Vault
 
 	constructor(
 		rawData: Record<string, Record<string, any>>,
@@ -116,7 +118,7 @@ export class ElementData {
 		for (const apparatus of this.availableApparatuses) {
 			this.routineStorage[apparatus] = new RoutineMutations()
 		}
-		this.selectedApparatus = "f_w"
+		this.selectedApparatus = "v_w"
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
 		this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
 	
@@ -132,7 +134,6 @@ export class ElementData {
 	public calculateDScore() {
 		console.log(this.level)
 		this.calcDiff = new calculateDifficulty[this.selectedApparatus](this.routineMutations, routineEvaluations[this.selectedApparatus][this.level])
-		// console.log(this.calcDiff)
 		this.calcDiff.dscore = this.calcDiff.resetAndCalculate()
 	}
 

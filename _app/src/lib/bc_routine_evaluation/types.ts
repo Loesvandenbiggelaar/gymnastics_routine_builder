@@ -12,6 +12,10 @@ export type ConnectionValueOptions = { type: string, detail: ConnectionValueDeta
 
 export const Levels = ["D1", "D2", "D3", "D4", "D5", "D6"]
 
+export type Vault = {
+    compositionalRequirements: CompositionalRequirements
+}
+
 export type Supplement = {
     maxDV: number
     allowedDifficulty: string[]

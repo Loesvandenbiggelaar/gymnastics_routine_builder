@@ -24,5 +24,13 @@ export const beam_routine_loes = createRoutine("b", beam_loes_ids, "en");
 // --------------------------------
 // floor routines
 
-const floor_normal_ids = [["3.106", "5.201"], ["1.205", "1.211"], ["3.105", "4.302"], ["2.307", "1.213"]]
+const floor_normal_ids = [["3.106", "5.201"], ["1.205", "1.211"], ["3.105", "4.302", "5.301"], ["2.307", "1.213"]]
 export const floor_routine_normal = createRoutine("f_w", floor_normal_ids, "en");
+
+
+
+// --------------------------------
+// vault routines
+
+const vault_normal_ids = [["1.10"], ["1.11"]]
+export const vault_yamashitas = createRoutine("v_w", vault_normal_ids, "en")
