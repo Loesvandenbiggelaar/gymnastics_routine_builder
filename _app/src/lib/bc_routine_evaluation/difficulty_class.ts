@@ -7,6 +7,7 @@ export abstract class DifficultyClass {
     messages: RoutineMessage[]
     supplement: Supplement
     routineMutations: RoutineMutations
+    routine: ComboType[]
     compositionalRequirements
     public dscore: Dscore = {
         difficultyValue: 0,
@@ -22,6 +23,8 @@ export abstract class DifficultyClass {
         this.routineMutations = routine
         this.supplement = supplement
         this.messages = []
+        this.routine = []
+        this.routineMutations.routine.subscribe(value => this.routine = value)
 
         // create an object with description of the comp. requirement + if the requirement is met or not
         this.compositionalRequirements = Object.keys(supplement.compositionalRequirements).map((key: string) => {
@@ -49,10 +52,9 @@ export abstract class DifficultyClass {
             totalDifficulty: 0
         }
         this.neutralDeduction = 0
+
         // remove the messages from all combos and elements
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-        routineValue.map(comboMetadata => {
+        this.routine.map(comboMetadata => {
             comboMetadata.messages = []
             comboMetadata.isAcroLine = undefined
             comboMetadata.elements.map(elementMetadata => {
@@ -70,10 +72,9 @@ export abstract class DifficultyClass {
          * @param {RoutineMetadata}
          * @returns {void}
          */
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
+
         // get all the elements which have difficulty value and are not repeated
-        const elements = routineValue.map(combo => combo.elements.filter(element => !element.isRepeated)).flat()
+        const elements = this.routine.map(combo => combo.elements.filter(element => !element.isRepeated)).flat()
         if (elements.length < this.supplement.maxDV - 1) {
             this.addGeneralMessage(`Neutral deduction of - 4 points! Not enough elements ${elements.length}/${this.supplement.maxDV}`, "warning")
             this.neutralDeduction = -4
@@ -85,9 +86,7 @@ export abstract class DifficultyClass {
     }
 
     identifyTypeOfElement() {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-        routineValue.map(comboMetadata => {
+        this.routine.map(comboMetadata => {
             comboMetadata.elements.map((elementMetadata) => {
                 if (elementMetadata.element.type == "acrobatic") {
                     elementMetadata.elementType = "acrobatic"
@@ -103,13 +102,12 @@ export abstract class DifficultyClass {
 
     identifyRepeatedElements() {
         var _performed_elements: string[] = []
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-        routineValue.map(comboMetadata => {
+        this.routine.map(comboMetadata => {
 
             comboMetadata.elements.map(elementMetadata => {
                 if (_performed_elements.includes(elementMetadata.element.id)) {
                     elementMetadata.isRepeated = true
+                    elementMetadata.hasDifficulty = false
                     elementMetadata.value = 0
                 }
                 else {
@@ -118,13 +116,11 @@ export abstract class DifficultyClass {
                 }
             })
         })
-        this.routineMutations.routine.set(routineValue)
+        this.routineMutations.routine.set(this.routine)
     }
 
     identifyValueOfElements() {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-        routineValue.map(comboMetadata => {
+        this.routine.map(comboMetadata => {
             comboMetadata.elements.map(elementMetadata => {
                 if (this.supplement.allowedDifficulty.includes(elementMetadata.element.difficulty)) {
                     elementMetadata.value = Number(elementMetadata.element.value)
@@ -138,7 +134,6 @@ export abstract class DifficultyClass {
                 }
             })
         })
-        this.routineMutations.routine.set(routineValue)
 
     }
 
@@ -356,12 +351,10 @@ export abstract class DifficultyClass {
          * @returns {number}
          */
 
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
         let compositional_requirement_score = 0
         this.compositionalRequirements.map(requirement => {
             const _requirement = this.supplement.compositionalRequirements[requirement.number]
-            const req_met = this.checkRequirement(_requirement, routineValue)
+            const req_met = this.checkRequirement(_requirement, this.routine)
             if (req_met) {
                 requirement.met = true
                 compositional_requirement_score += 0.5
@@ -389,9 +382,7 @@ export abstract class DifficultyClass {
 
 		let connectionValue = 0
 		// add all the values of the combos to the combobonus
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			connectionValue += comboMetadata.value || 0
 		})
 
@@ -400,9 +391,7 @@ export abstract class DifficultyClass {
 	}
 
 	countSingleBonus(comboOptionSerie: ConnectionValueDetail) {
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			// filter the combo that it contains all the differnt types of elements specified in the comboOption
 			var _comboElements = comboMetadata.elements.filter(elementMetadata => comboOptionSerie.elementTypes.includes(elementMetadata.elementType))
 			// TODO: this step should be done after the combo's have been spliced. 
@@ -441,9 +430,7 @@ export abstract class DifficultyClass {
 		 */
 
 		var bonusFound = false
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 
 			// if the elements in the combo are dance, no repeated elements are allowed
 			if (comboOptionSerie.elementTypes.includes("dance")) {
@@ -481,7 +468,7 @@ export abstract class DifficultyClass {
 
     resetAndCalculate(): Dscore {
         this.reset()
-        if (this.routineMutations.getRoutine().length == 0) {
+        if (this.routine.length == 0) {
             return this.dscore
         }
         this.calculate()

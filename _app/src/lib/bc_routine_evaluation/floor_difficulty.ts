@@ -1,4 +1,4 @@
-import { roundValue, sort_elements, sliceArray, compareArrayBonus, checkIfDifficultyIsHigher } from './utils'
+import { roundValue, sort_elements, sliceArray, compareArrayBonus, checkIfDifficultyIsHigher , difficulties} from './utils'
 import { DifficultyClass } from "./difficulty_class"
 import type { ElementMetadata, ComboType } from "$lib/stores/routineMutations"
 import type { ElementType } from '$lib/data/elements/all_elements.js'
@@ -16,12 +16,10 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		}
 
 		// the dismount is the highest acrobatic element in the last acro line
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
 		let dismountValue = 0
 		let dismountElement: ElementMetadata | undefined = undefined
 		let lastAcroLineIndex = -1
-		routineValue.forEach((comboMetadata, index) => {
+		this.routine.forEach((comboMetadata, index) => {
 			if (comboMetadata.isAcroLine) {
 				lastAcroLineIndex = index
 			}
@@ -30,7 +28,7 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		if (lastAcroLineIndex == -1) {
 			return undefined
 		}
-		routineValue[lastAcroLineIndex].elements.forEach(elementMetadata => {
+		this.routine[lastAcroLineIndex].elements.forEach(elementMetadata => {
 			if (elementMetadata.elementType === "acrobatic" && elementMetadata.value) {
 				if (elementMetadata.value > dismountValue) {
 					dismountValue = elementMetadata.value
@@ -78,9 +76,7 @@ export class calculateDifficultyFloor extends DifficultyClass {
 
 		// get all the acrobatic elements
 		var _acrobatic_elements: ElementMetadata[] = []
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
 				if (elementMetadata.elementType == "acrobatic") {
 					_acrobatic_elements.push(elementMetadata)
@@ -116,8 +112,7 @@ export class calculateDifficultyFloor extends DifficultyClass {
 
 		// get all the dance elements
 		var _dance_elements: ElementMetadata[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			comboMetadata.elements.map((elementMetadata: ElementMetadata) => {
 				if (elementMetadata.elementType == "dance") {
 					_dance_elements.push(elementMetadata)
@@ -148,8 +143,7 @@ export class calculateDifficultyFloor extends DifficultyClass {
 
 		// get all elements
 		var _other_elements: ElementMetadata[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map((comboMetadata) => {
+		this.routine.map((comboMetadata) => {
 			comboMetadata.elements.map(elementMetadata => {
 				_other_elements.push(elementMetadata)
 			})
@@ -176,7 +170,7 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		})
 
 		let c = 0
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
 				// console.log(elementMetadata)
 				if (elementMetadata.hasDifficulty == true) {
@@ -225,16 +219,14 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		}
 
 		// all acrobatic elements after the last acro line are not counted and devaluated
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
 		let lastAcroLineIndex = -1
-		routineValue.forEach((comboMetadata, index) => {
+		this.routine.forEach((comboMetadata, index) => {
 			if (comboMetadata.isAcroLine) {
 				lastAcroLineIndex = index
 			}
 		})
 
-		routineValue.forEach((comboMetadata, index) => {
+		this.routine.forEach((comboMetadata, index) => {
 			if (index > lastAcroLineIndex) {
 				const is_acro_line = comboMetadata.isAcroLine
 				comboMetadata.elements.forEach(elementMetadata => {
@@ -270,14 +262,12 @@ export class calculateDifficultyFloor extends DifficultyClass {
 
 	countAcroLines() {
 		// for every combo, check if it's an acro line
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
 		let acro_lines = 0
 		let acro_lines_for_dismount = 0
 		const requirement = this.supplement.acroLines?.requirement
-		const possibleElements = requirement ? this.getPossibleElements(requirement, routineValue) : undefined
+		const possibleElements = requirement ? this.getPossibleElements(requirement, this.routine) : undefined
 
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			let isAcroLine = this.acroLineRequirement(comboMetadata, possibleElements)
 			if (isAcroLine) {
 				acro_lines_for_dismount += 1

@@ -53,7 +53,7 @@ export class RoutineMutations {
 	routine: Writable<ComboType[]> = writable([])
 
 	// get array of combos
-	getRoutine(): ComboType[] {
+	private getRoutine(): ComboType[] {
 		let val: ComboType[] = []
 		const unsubscribe = this.routine.subscribe(($routine) => val = $routine)
 		unsubscribe()
@@ -66,9 +66,7 @@ export class RoutineMutations {
 
 	// remove empty arrays from the routine
 	private removeEmptyCombos() {
-		let routineValue: ComboType[] = []
-		this.routine.subscribe(value => routineValue = value)
-		this.routine.set(routineValue.filter(combo => combo.elements.length > 0))
+		this.routine.set(this.getRoutine().filter(combo => combo.elements.length > 0))
 	}
 
 
@@ -102,8 +100,7 @@ export class RoutineMutations {
 	 */
 	public addElement(element: ElementType, comboIndex: number = 1e8) {
 		if (!element) return
-		let routineValue: ComboType[] = []
-		this.routine.subscribe(value => routineValue = value) // Get the value of the routine store
+		let routineValue = this.getRoutine()
 		if (routineValue[comboIndex]) {
 			routineValue[comboIndex].elements.push({ element: element })
 		} else {
@@ -138,9 +135,7 @@ export class RoutineMutations {
 	public moveElement(currentComboIndex: number, currentElementIndex: number, newComboIndex: number, newElementIndex: number) {
 
 		console.log("move element", currentComboIndex, currentElementIndex, newComboIndex, newElementIndex)
-		let routineValue: ComboType[] = []
-		this.routine.subscribe(value => routineValue = value) // Get the value of the routine store
-
+		let routineValue = this.getRoutine()
 		const element = routineValue[currentComboIndex].elements.splice(currentElementIndex, 1)[0]
 
 

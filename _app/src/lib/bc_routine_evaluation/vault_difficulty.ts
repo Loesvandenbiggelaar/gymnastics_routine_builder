@@ -17,9 +17,7 @@ export class calculateDifficultyVault extends DifficultyClass {
     }
 
     identifyValueOfElements(): void {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-        routineValue.map(comboMetadata => {
+        this.routine.map(comboMetadata => {
             comboMetadata.elements.map(elementMetadata => {
                 elementMetadata.value = Number(elementMetadata.element.value)
             })
@@ -28,12 +26,9 @@ export class calculateDifficultyVault extends DifficultyClass {
     }
 
     calculateHighest(): number {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-
         let highest_value = 0
 
-        routineValue.forEach(comboMetadata =>
+        this.routine.forEach(comboMetadata =>
             comboMetadata.elements.forEach(element => {
                 if (element.element.value > highest_value) {
                     highest_value = element.value? element.value : 0
@@ -45,12 +40,10 @@ export class calculateDifficultyVault extends DifficultyClass {
     }
 
     calculateAverage(): number {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
         let sum = 0
         let nr_of_scores = 0
 
-        routineValue.forEach(comboMetadata =>
+        this.routine.forEach(comboMetadata =>
             comboMetadata.elements.forEach(element => {
                 sum += element.value? element.value : 0
                 nr_of_scores += 1
@@ -60,11 +53,8 @@ export class calculateDifficultyVault extends DifficultyClass {
     }
 
     checkNrOfScores(): void {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
-
         let nr_of_scores = 0
-        routineValue.forEach(comboMetaData => comboMetaData.elements.forEach(element => nr_of_scores += 1))
+        this.routine.forEach(comboMetaData => comboMetaData.elements.forEach(element => nr_of_scores += 1))
 
         if (nr_of_scores > 2) {
             this.addGeneralMessage("You have more than 2 elements!", "info")
@@ -72,10 +62,8 @@ export class calculateDifficultyVault extends DifficultyClass {
     }
 
     checkFromDifferentGroup(): void {
-        let routineValue: ComboType[] = []
-        this.routineMutations.routine.subscribe(value => routineValue = value)
         let groups: string[] = []
-        routineValue.forEach(comboMetaData => comboMetaData.elements.forEach(element => {
+        this.routine.forEach(comboMetaData => comboMetaData.elements.forEach(element => {
             groups.push(element.element.group_number)
         })
         )
@@ -88,12 +76,10 @@ export class calculateDifficultyVault extends DifficultyClass {
 
 
     checkElements():void {
-        let routineValue: ComboType[] = []
         const requirement = this.supplement.compositionalRequirements[1]
-        this.routineMutations.routine.subscribe(value => routineValue = value)
         let is_allowed = true
 
-        routineValue.forEach(comboMetaData => comboMetaData.elements.forEach(element => {
+        this.routine.forEach(comboMetaData => comboMetaData.elements.forEach(element => {
             const elem = requirement.elements[0]
 
             if (elem){

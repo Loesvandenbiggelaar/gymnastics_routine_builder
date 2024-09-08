@@ -27,10 +27,10 @@
 //   check for the (Dutch: "eisen"):
 //     - only elements with difficulty points (Dutch: "meerwaarde") can be used
 
-import { sort_elements, compareArrayBonus } from './utils'
+import { sort_elements } from './utils'
 import type { ComboType, ElementMetadata } from '$lib/stores/routineMutations.js'
 import type { ElementType } from '$lib/data/elements/all_elements.js'
-import type { ConnectionValueDetail, ElementRequirementDetail } from './types'
+import type { ConnectionValueDetail } from './types'
 import { DifficultyClass } from './difficulty_class'
 
 export class calculateDifficultyBeam extends DifficultyClass {
@@ -85,17 +85,16 @@ export class calculateDifficultyBeam extends DifficultyClass {
 		 * @param {RoutineMetadata}
 		 * @returns {void}
 		 */
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
+
 		// get the first element of the routine
-		const first_element = routineValue[0].elements[0]
+		const first_element = this.routine[0].elements[0]
 		if (first_element.element.group_number != '1') {
 			// add a message if the routine starts with a mount
 			this.addGeneralMessage("Routine does not start with a mount", "info")
 		}
 
 		// if there are more elements with group number 1, add a message
-		const mounts = routineValue.filter(combo => combo.elements[0].element.group_number == '1')
+		const mounts = this.routine.filter(combo => combo.elements[0].element.group_number == '1')
 		if (mounts.length > 1) {
 			this.addGeneralMessage("More than one mount added", "error")
 		}
@@ -108,15 +107,13 @@ export class calculateDifficultyBeam extends DifficultyClass {
 		 * @param {RoutineMetadata}
 		 * @returns {void}
 		 */
-		if (!this.dismountDone(this.routineMutations.getRoutine())) {
+		if (!this.dismountDone(this.routine)) {
 			this.addGeneralMessage("Dismount is not done", "warning")
 		}
 
 
 		// if there are more elements with group number 6, add a message
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		const dismounts = routineValue.filter(combo => combo.elements[combo.elements.length - 1].element.group_number == '6')
+		const dismounts = this.routine.filter(combo => combo.elements[combo.elements.length - 1].element.group_number == '6')
 		if (dismounts.length > 1) {
 			this.addGeneralMessage("More than one dismount added", "error")
 		}
@@ -129,14 +126,11 @@ export class calculateDifficultyBeam extends DifficultyClass {
 		var _total_nr_elements: number = this.supplement.maxDV - _nr_acrobatic_elements - _nr_dance_elements
 		var _found_elements: ElementType[] = []
 
-		if (!this.dismountDone(this.routineMutations.getRoutine())) {
+		if (!this.dismountDone(this.routine)) {
 			_nr_acrobatic_elements -= 1
 		}
 		 {
-			let routineValue: ComboType[] = []
-			this.routineMutations.routine.subscribe(value => routineValue = value)
-
-			routineValue.map(comboMetadata => {
+			this.routine.map(comboMetadata => {
 				comboMetadata.elements.map(elementMetadata => {
 					// get the element with group number 6 (=dismount)
 					if (elementMetadata.element.group_number == "6") {
@@ -152,9 +146,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		// get all the acrobatic elements
 		var _acrobatic_elements: ElementMetadata[] = []
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
 				if (elementMetadata.elementType == "acrobatic") {
 					_acrobatic_elements.push(elementMetadata)
@@ -185,8 +177,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		// get all the dance elements
 		var _dance_elements: ElementMetadata[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map(comboMetadata => {
+		this.routine.map(comboMetadata => {
 			comboMetadata.elements.map((elementMetadata: ElementMetadata) => {
 				if (elementMetadata.elementType == "dance") {
 					_dance_elements.push(elementMetadata)
@@ -217,8 +208,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		// get all elements
 		var _other_elements: ElementMetadata[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		routineValue.map((comboMetadata) => {
+		this.routine.map((comboMetadata) => {
 			comboMetadata.elements.map(elementMetadata => {
 				_other_elements.push(elementMetadata)
 			})
@@ -256,9 +246,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 		const comboOptionDismount = detail.combos[0]
 		//get the last combo and check if it's a dismount (group number 6)
 		// if the difficulty of the element is higher than in dhe combo options, 
-		let routineValue: ComboType[] = []
-		this.routineMutations.routine.subscribe(value => routineValue = value)
-		const dismount = routineValue[routineValue.length - 1].elements[routineValue[routineValue.length - 1].elements.length - 1]
+		const dismount = this.routine[this.routine.length - 1].elements[this.routine[this.routine.length - 1].elements.length - 1]
 		if (dismount.element.group_number == "6") {
 			const dismountDifficulty = dismount.element.difficulty
 			if (comboOptionDismount.combo[0].includes(dismountDifficulty)) {
@@ -277,6 +265,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 	 */
 	dismountDone(routine: ComboType[]): boolean {
 		// get the last element of the routine
+		if (!routine) return false
 		const last_element = routine[routine.length - 1].elements[routine[routine.length - 1].elements.length - 1]
 		if (last_element.element.group_number == '6') {
 			return true
