@@ -8,7 +8,7 @@
 	import Icon from '@iconify/svelte';
 	//
 	import { onMount } from 'svelte';
-	import { floor_routine_normal, beam_routine_loes } from '$lib/data/test_data/test_routines';
+	import { floor_routine_normal, beam_routine_loes, ub_routine_normal_d1 } from '$lib/data/test_data/test_routines';
 
 	let inputValue = '';
 
@@ -19,7 +19,7 @@
 	function processInput() {
 		// Process the input value
 		// 'b' = beam
-		$data.routineMutations.addElement(getElement('f_w', inputValue));
+		$data.routineMutations.addElement(getElement('ub', inputValue));
 	}
 
 	$: warningMessages = $data.calcDiff.messages
@@ -28,7 +28,7 @@
 
 
 	onMount(() => {
-		$data.routineMutations.routine.set(floor_routine_normal);
+		$data.routineMutations.routine.set(ub_routine_normal_d1);
 	});
 
 </script>
