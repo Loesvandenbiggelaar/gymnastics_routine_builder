@@ -46,9 +46,6 @@ function decodeFromBase64(encoded: string): string {
 	return decoder.decode(bytes)
 }
 
-
-
-
 export class RoutineMutations {
 	routine: Writable<ComboType[]> = writable([])
 
@@ -100,7 +97,8 @@ export class RoutineMutations {
 	 */
 	public addElement(element: ElementType, comboIndex: number = 1e8) {
 		if (!element) return
-		let routineValue = this.getRoutine()
+		let routineValue: ComboType[] = []
+		this.routine.subscribe(value => routineValue = value)
 		if (routineValue[comboIndex]) {
 			routineValue[comboIndex].elements.push({ element: element })
 		} else {
@@ -134,7 +132,6 @@ export class RoutineMutations {
 	 */
 	public moveElement(currentComboIndex: number, currentElementIndex: number, newComboIndex: number, newElementIndex: number) {
 
-		console.log("move element", currentComboIndex, currentElementIndex, newComboIndex, newElementIndex)
 		let routineValue = this.getRoutine()
 		const element = routineValue[currentComboIndex].elements.splice(currentElementIndex, 1)[0]
 
@@ -148,7 +145,6 @@ export class RoutineMutations {
 		this.routine.set(routineValue)
 		this.removeEmptyCombos()
 
-		// console.log("WARNING, NEED TO UPDATE STORE!")
 	}
 
 	public moveElementBack(comboIndex: number, elementIndex: number) {

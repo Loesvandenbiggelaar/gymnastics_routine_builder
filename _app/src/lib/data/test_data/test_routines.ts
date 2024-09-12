@@ -34,3 +34,11 @@ export const floor_routine_normal = createRoutine("f_w", floor_normal_ids, "en")
 
 const vault_normal_ids = [["1.10"], ["1.11"]]
 export const vault_yamashitas = createRoutine("v_w", vault_normal_ids, "en")
+
+// --------------------------------
+// uneven bars routines
+const ub_normal_ids_d1 = [["1.101"], ["1.101"], ["2.305", "5.207"], ["1.104", "2.101", "3.201", "3.201", "6.305"], ]
+export const ub_routine_normal_d1 = createRoutine("ub", ub_normal_ids_d1, "en");
+
+const ub_normal_ids_d4 = [["1.101", "2.001", "2.105"], ["5.008", "3.004"], ["6.101"]]
+export const ub_routine_normal_d4 = createRoutine("ub", ub_normal_ids_d4, "en");

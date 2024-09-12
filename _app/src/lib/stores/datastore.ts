@@ -13,6 +13,8 @@ import { calculateDifficultyFloor} from '$lib/bc_routine_evaluation/floor_diffic
 import { calculateDifficultyVault } from '$lib/bc_routine_evaluation/vault_difficulty'
 import type { Supplement, Vault } from '$lib/bc_routine_evaluation/types'
 import type { DifficultyClass } from '$lib/bc_routine_evaluation/difficulty_class'
+import { routineEvaluationUnevenBars } from '$lib/bc_routine_evaluation/uneven_bars_routine_evaluation'
+import { calculateDifficultyUnevenBars } from '$lib/bc_routine_evaluation/uneven_bars_difficulty'
 
 
 export let selectedApparatus = writable(apparatusConfig[0])
@@ -46,8 +48,8 @@ export type SearchEntry = {
 	searchProperties?: string[]
 }
 
-const routineEvaluations: Record<string, Record<string, Supplement | Vault>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor, "v_w": routineEvaluationVault}
-const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor, "v_w": calculateDifficultyVault} 
+const routineEvaluations: Record<string, Record<string, Supplement | Vault>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor, "v_w": routineEvaluationVault, "ub": routineEvaluationUnevenBars}
+const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor, "v_w": calculateDifficultyVault, "ub": calculateDifficultyUnevenBars} 
 
 export class ElementData {
 	level: string = "D1"
@@ -118,7 +120,7 @@ export class ElementData {
 		for (const apparatus of this.availableApparatuses) {
 			this.routineStorage[apparatus] = new RoutineMutations()
 		}
-		this.selectedApparatus = "v_w"
+		this.selectedApparatus = "ub"
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
 		this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
 	

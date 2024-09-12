@@ -127,7 +127,6 @@ export abstract class DifficultyClass {
                 }
                 else {
                     const highest_difficulty = this.supplement.allowedDifficulty[this.supplement.allowedDifficulty.length - 1]
-                    console.log("elementMetadata", elementMetadata.element.description, "difficulty", elementMetadata.element.difficulty, "value", elementMetadata.element.value, "highest_difficulty", highest_difficulty, "value", difficultyToValue(highest_difficulty))
                     elementMetadata.value = difficultyToValue(highest_difficulty)
                     elementMetadata.devaluated = true
 
@@ -164,7 +163,8 @@ export abstract class DifficultyClass {
         if (elementRequirement.type.includes(elementMetadata.elementType)) {
             if (verbose) console.log("type correct")
             // check if the element is of the right group
-            if (elementRequirement.group.includes(Number(elementMetadata.element.group_number))) {
+        // if elementRequirement.group is empty, it means that the group is not important
+            if (elementRequirement.group.length == 0 || elementRequirement.group.includes(Number(elementMetadata.element.group_number))) {
                 if (verbose) console.log("group correct")
                 // check if the element has the right difficulty
                 if (checkIfDifficultyIsHigher(elementMetadata.element.difficulty, elementRequirement.minimalValue, true)) {
@@ -392,9 +392,10 @@ export abstract class DifficultyClass {
 
 	countSingleBonus(comboOptionSerie: ConnectionValueDetail) {
 		this.routine.map(comboMetadata => {
-			// filter the combo that it contains all the differnt types of elements specified in the comboOption
+			// filter the combo that it contains all the different types of elements specified in the comboOption
 			var _comboElements = comboMetadata.elements.filter(elementMetadata => comboOptionSerie.elementTypes.includes(elementMetadata.elementType))
-			// TODO: this step should be done after the combo's have been spliced. 
+			
+            // TODO: this step should be done after the combo's have been spliced. 
 			if (comboOptionSerie.uniqueElements) {
 				_comboElements = _comboElements.filter(elementMetadata => elementMetadata.isRepeated == false)
 			}
@@ -463,6 +464,28 @@ export abstract class DifficultyClass {
 			return comboOptionSerie.combos[0].value
 		} else return 0
 
+	}
+
+    countDismountBonus(detail: ConnectionValueDetail, dismountGroup: string) {
+		/**
+		 * Count the dismount bonus of the routine
+		 * 
+		 * @param {RoutineMetadata}
+		 * @returns {number}
+		 */
+		let bonus = 0
+		const comboOptionDismount = detail.combos[0]
+		//get the last combo and check if it's a dismount (group number 6)
+		// if the difficulty of the element is higher than in dhe combo options, 
+		const dismount = this.routine[this.routine.length - 1].elements[this.routine[this.routine.length - 1].elements.length - 1]
+		if (dismount.element.group_number == dismountGroup) {
+			const dismountDifficulty = dismount.element.difficulty
+			if (comboOptionDismount.combo[0].includes(dismountDifficulty)) {
+				bonus = comboOptionDismount.value
+			}
+		}
+
+		return bonus
 	}
 
 

@@ -67,7 +67,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		// add the dismount bonus to the bonus
 		const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
-		if (dismountBonusDetail) this.dscore.dismountBonus += this.countDismountBonus(dismountBonusDetail.detail)
+		if (dismountBonusDetail) this.dscore.dismountBonus += this.countDismountBonus(dismountBonusDetail.detail, "6")
 
 		this.dscore.compositionalRequirements = this.countCompositionalRequirements()
 
@@ -233,28 +233,6 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		return difficultyValue
 
-	}
-
-	private countDismountBonus(detail: ConnectionValueDetail) {
-		/**
-		 * Count the dismount bonus of the routine
-		 * 
-		 * @param {RoutineMetadata}
-		 * @returns {number}
-		 */
-
-		const comboOptionDismount = detail.combos[0]
-		//get the last combo and check if it's a dismount (group number 6)
-		// if the difficulty of the element is higher than in dhe combo options, 
-		const dismount = this.routine[this.routine.length - 1].elements[this.routine[this.routine.length - 1].elements.length - 1]
-		if (dismount.element.group_number == "6") {
-			const dismountDifficulty = dismount.element.difficulty
-			if (comboOptionDismount.combo[0].includes(dismountDifficulty)) {
-				return comboOptionDismount.value
-			}
-		}
-
-		return 0
 	}
 
 	/**

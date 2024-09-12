@@ -116,7 +116,7 @@
 				<ul class="list">
 					{#each $data.calcDiff.compositionalRequirements as cr}
 						<li class="cr list-item">
-							{cr.requirement}
+							{cr.met} {cr.requirement}
 						</li>
 					{/each}
 				</ul>
