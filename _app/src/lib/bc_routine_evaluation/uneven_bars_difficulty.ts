@@ -1,10 +1,9 @@
 
 import { sort_elements, compareArrayBonus, sliceArray } from './utils'
-import type { ComboType, ElementMetadata } from '$lib/stores/routineMutations.js'
+import type { ElementMetadata } from '$lib/stores/routineMutations.js'
 import type { Dscore, Requirement } from './types'
 import { DifficultyClass } from './difficulty_class'
 import { grips, directions, techniques } from './uneven_bars_root_skills'
-import { root } from 'postcss'
 
 
 export class calculateDifficultyUnevenBars extends DifficultyClass {

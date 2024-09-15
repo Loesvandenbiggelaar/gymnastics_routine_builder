@@ -30,7 +30,6 @@
 import { sort_elements } from './utils'
 import type { ComboType, ElementMetadata } from '$lib/stores/routineMutations.js'
 import type { ElementType } from '$lib/data/elements/all_elements.js'
-import type { ConnectionValueDetail } from './types'
 import { DifficultyClass } from './difficulty_class'
 
 export class calculateDifficultyBeam extends DifficultyClass {

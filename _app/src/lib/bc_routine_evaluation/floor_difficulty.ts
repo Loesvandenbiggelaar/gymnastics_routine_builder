@@ -1,4 +1,4 @@
-import { roundValue, sort_elements, sliceArray, compareArrayBonus, checkIfDifficultyIsHigher , difficulties} from './utils'
+import { sort_elements } from './utils'
 import { DifficultyClass } from "./difficulty_class"
 import type { ElementMetadata, ComboType } from "$lib/stores/routineMutations"
 import type { ElementType } from '$lib/data/elements/all_elements.js'

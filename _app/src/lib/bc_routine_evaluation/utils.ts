@@ -1,4 +1,3 @@
-// @ts-ignore
 import type { ElementMetadata } from "$lib/stores/routineMutations"
 
 // round a value to 2 decimal places
@@ -67,14 +66,12 @@ export function compareArrayBonus(combo: string[], bonus: string[], strictOrder:
 	var res: boolean
 	if (strictOrder) {
 		res = combo.every((el, index) => bonus[index].includes(el))
-		// console.log("res1", res)
 		return res
 	} else {
 		res = permute(combo).some((el: string[]) => {
 			return el.every((el, index) => bonus[index].includes(el))
 		})
 
-		// console.log("res2", res)
 		return res
 	}
 

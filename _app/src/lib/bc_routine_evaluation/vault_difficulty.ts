@@ -1,8 +1,5 @@
 import { DifficultyClass } from "./difficulty_class"
 import type { Dscore } from "./types"
-import type { ComboType } from '$lib/stores/routineMutations.js'
-
-
 
 export class calculateDifficultyVault extends DifficultyClass {
     calculate(): Dscore {
