@@ -62,11 +62,11 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		// add the serie bonus to the bonus (if applicable)
 		const serieBonusDetail = detail.filter(val => val.type == "serieBonus")[0]
-		if (serieBonusDetail) this.dscore.serieBonus += this.countSeriesBonus(serieBonusDetail.detail)
+		if (serieBonusDetail) this.dscore.serieBonus = this.countSeriesBonus(serieBonusDetail.detail)
 
 		// add the dismount bonus to the bonus
 		const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
-		if (dismountBonusDetail) this.dscore.dismountBonus += this.countDismountBonus(dismountBonusDetail.detail, "6")
+		if (dismountBonusDetail) this.dscore.dismountBonus = this.countDismountBonus(dismountBonusDetail.detail, "6")
 
 		this.dscore.compositionalRequirements = this.countCompositionalRequirements()
 

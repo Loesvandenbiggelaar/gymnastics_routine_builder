@@ -21,7 +21,7 @@ export class calculateDifficultyUnevenBars extends DifficultyClass {
 
         // add the dismount bonus to the bonus
         const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
-        if (dismountBonusDetail) this.dscore.dismountBonus += this.countDismountBonus(dismountBonusDetail.detail, "6")
+        if (dismountBonusDetail) this.dscore.dismountBonus = this.countDismountBonus(dismountBonusDetail.detail, "6")
 
 
         this.dscore.compositionalRequirements = this.countCompositionalRequirements()

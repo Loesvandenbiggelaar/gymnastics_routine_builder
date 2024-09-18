@@ -93,12 +93,14 @@
 		<svelte:fragment slot="content">
 			<dl class="list-dl">
 				{#each Object.entries($data.calcDiff.dscore) as [key, element]}
+				{#if key !== 'totalDifficulty'}
 					<div>
 						<span class="difficultyElement flex-auto">
 							<dt>{key}</dt>
 							<dd>{element}</dd>
 						</span>
 					</div>
+				{/if}
 				{/each}
 			</dl>
 		</svelte:fragment>

@@ -11,10 +11,6 @@ export abstract class DifficultyClass {
     compositionalRequirements
     public dscore: Dscore = {
         difficultyValue: 0,
-        compositionalRequirements: 0,
-        connectionValue: 0,
-        serieBonus: 0,
-        dismountBonus: 0,
         totalDifficulty: 0
     }
     neutralDeduction = 0
@@ -45,10 +41,6 @@ export abstract class DifficultyClass {
         this.messages = []
         this.dscore = {
             difficultyValue: 0,
-            compositionalRequirements: 0,
-            connectionValue: 0,
-            serieBonus: 0,
-            dismountBonus: 0,
             totalDifficulty: 0
         }
         this.neutralDeduction = 0
@@ -497,11 +489,13 @@ export abstract class DifficultyClass {
         this.calculate()
 
         // Calculate the total difficulty
-        this.dscore.totalDifficulty = this.dscore.difficultyValue + this.dscore.connectionValue + this.dscore.serieBonus + this.dscore.dismountBonus + this.dscore.compositionalRequirements
 
+        this.dscore.totalDifficulty = (this.dscore.difficultyValue || 0) + (this.dscore.connectionValue || 0) + (this.dscore.serieBonus || 0) + (this.dscore.dismountBonus || 0) + (this.dscore.compositionalRequirements || 0)
         // Loop over every value and round the scores.
         Object.keys(this.dscore).map(key => {
-            this.dscore[key as keyof Dscore] = roundValue(this.dscore[key as keyof Dscore])
+            let _score = this.dscore[key as keyof Dscore]
+            if (_score) {
+            this.dscore[key as keyof Dscore] = roundValue(_score)}
         })
         return this.dscore
 

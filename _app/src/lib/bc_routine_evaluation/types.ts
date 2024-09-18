@@ -52,10 +52,10 @@ export type CompositionalRequirements = {
 
 export type Dscore = {
     difficultyValue: number
-    compositionalRequirements: number
-    connectionValue: number
-    serieBonus: number
-    dismountBonus: number
+    compositionalRequirements?: number
+    connectionValue?: number
+    serieBonus?: number
+    dismountBonus?: number
     totalDifficulty: number
 }
 

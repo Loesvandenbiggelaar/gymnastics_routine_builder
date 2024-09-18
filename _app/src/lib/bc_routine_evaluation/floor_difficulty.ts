@@ -196,10 +196,10 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		const detail = this.supplement.connectionValuesAndBonus
 
 		const dismountBonusDetail = detail.filter(val => val.type == "dismountBonus")[0]
-		if (dismountBonusDetail) this.dscore.dismountBonus += this.countDismountBonus(dismountBonusDetail.detail)
+		if (dismountBonusDetail) this.dscore.dismountBonus = this.countDismountBonus(dismountBonusDetail.detail)
 		
 		const serieBonusDetail = detail.filter(val => val.type == "serieBonus")[0]
-		if (serieBonusDetail) this.dscore.serieBonus += this.countSeriesBonus(serieBonusDetail.detail)
+		if (serieBonusDetail) this.dscore.serieBonus = this.countSeriesBonus(serieBonusDetail.detail)
 
 
 		this.dscore.compositionalRequirements = this.countCompositionalRequirements()
