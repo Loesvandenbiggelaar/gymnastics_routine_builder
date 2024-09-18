@@ -160,8 +160,6 @@ export const crD3: CompositionalRequirements = {
     }
 }
 
-
-
 export const crD4: CompositionalRequirements = {
     1: {
         description: "A kip",
@@ -206,6 +204,112 @@ export const crD4: CompositionalRequirements = {
             keywords: [],
             antiKeywords: [],
             specificElements: ["5.008", "5.105", "5.106", "5.108"]
+        }]
+    }
+}
+
+export const crD5: CompositionalRequirements = {
+    1: {
+        description: "2 swings on high bar",
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [],
+            keywords: [],
+            antiKeywords: [],
+            specificElements: ["3.002"]
+        },
+        {
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [],
+            keywords: [],
+            antiKeywords: [],
+            specificElements: ["3.002"]
+        }
+    ]
+    },
+    2: {
+        description: "Cast to horizontal",
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [],
+            keywords: ["cast"],
+            antiKeywords: [],
+            specificElements: []
+        }]
+    },
+    3: {
+        description: "An element from group 2,4 or 5 (no flight)",
+        elementsShouldBeUnique: true,
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [2,4,5],
+            keywords: [],
+            antiKeywords: ["flight"],
+            specificElements: []
+        }]
+    },
+    4: {
+        description: "An element with change from low bar to high bar",
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [2,3,4,5],
+            keywords: [],
+            antiKeywords: [],
+            specificElements: ["5.008", "5.105", "5.106", "5.108"]
+        }]
+    }
+}
+
+
+export const crD6: CompositionalRequirements = {
+    1: {
+        description: "an element from group 3",
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [3],
+            keywords: [],
+            antiKeywords: [],
+            specificElements: []
+        }]
+    },
+    2: {
+        description: "An element on the low bar",
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [],
+            keywords: [],
+            antiKeywords: [],
+            specificElements: []
+        }]
+    },
+    3: {
+        description: "An element from group 2,4 or 5 (no flight)",
+        elementsShouldBeUnique: true,
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [2,4,5],
+            keywords: [],
+            antiKeywords: ["flight"],
+            specificElements: []
+        }]
+    },
+    4: {
+        description: "An element on the high bar, or with change from low bar to high bar",
+        elements: [{
+            type: ["acrobatic"],
+            minimalValue: "TA",
+            group: [2,3,4,5],
+            keywords: [],
+            antiKeywords: [],
+            specificElements: ["5.008", "5.105", "5.106", "5.108", "3.002","3.003", "3.004", "1.104", "1.105"]
         }]
     }
 }
