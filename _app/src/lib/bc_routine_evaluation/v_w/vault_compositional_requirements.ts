@@ -1,4 +1,4 @@
-import type { CompositionalRequirements } from "./types"
+import type { CompositionalRequirements } from "../types"
 
 export const crD1: CompositionalRequirements = {
     1: {

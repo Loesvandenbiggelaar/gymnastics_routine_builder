@@ -27,10 +27,10 @@
 //   check for the (Dutch: "eisen"):
 //     - only elements with difficulty points (Dutch: "meerwaarde") can be used
 
-import { sort_elements } from './utils'
+import { sort_elements } from '../utils'
 import type { ComboType, ElementMetadata } from '$lib/stores/routineMutations.js'
 import type { ElementType } from '$lib/data/elements/all_elements.js'
-import { DifficultyClass } from './difficulty_class'
+import { DifficultyClass } from '../difficulty_class'
 
 export class calculateDifficultyBeam extends DifficultyClass {
 

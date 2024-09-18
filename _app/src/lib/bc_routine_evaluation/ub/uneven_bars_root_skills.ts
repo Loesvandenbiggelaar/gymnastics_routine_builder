@@ -1,4 +1,4 @@
-import type { Requirement } from './types'
+import type { Requirement } from '../types'
 
 const stalderCircles: Requirement[] = [
     {

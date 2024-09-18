@@ -1,4 +1,4 @@
-import type { ConnectionValueOptions } from './types'
+import type { ConnectionValueOptions } from '../types'
 
 export const cvD1: ConnectionValueOptions = [{
     type: "The same or different elements",

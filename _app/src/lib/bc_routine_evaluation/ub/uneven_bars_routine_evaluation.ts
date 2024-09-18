@@ -1,4 +1,4 @@
-import type { Supplement, Levels } from "./types"
+import type { Supplement, Levels } from "../types"
 import * as ConnectionValues from "./uneven_bars_connection_values"
 import * as CompositionalRequirements from "./uneven_bars_compositional_requirements"
 

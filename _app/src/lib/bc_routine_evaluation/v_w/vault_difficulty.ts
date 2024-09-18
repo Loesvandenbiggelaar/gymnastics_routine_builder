@@ -1,5 +1,5 @@
-import { DifficultyClass } from "./difficulty_class"
-import type { Dscore } from "./types"
+import { DifficultyClass } from "../difficulty_class"
+import type { Dscore } from "../types"
 
 export class calculateDifficultyVault extends DifficultyClass {
     calculate(): Dscore {

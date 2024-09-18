@@ -1,8 +1,8 @@
-import { sort_elements } from './utils'
-import { DifficultyClass } from "./difficulty_class"
+import { sort_elements } from '../utils'
+import { DifficultyClass } from "../difficulty_class"
 import type { ElementMetadata, ComboType } from "$lib/stores/routineMutations"
 import type { ElementType } from '$lib/data/elements/all_elements.js'
-import type { ConnectionValueDetail } from './types'
+import type { ConnectionValueDetail } from '../types'
 
 
 export class calculateDifficultyFloor extends DifficultyClass {

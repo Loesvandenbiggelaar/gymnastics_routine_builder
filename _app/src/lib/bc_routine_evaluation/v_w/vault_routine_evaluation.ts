@@ -1,4 +1,4 @@
-import type { Levels, Vault } from "./types"
+import type { Levels, Vault } from "../types"
 import  * as CompositionalRequirements  from "./vault_compositional_requirements"
 
 const D1: Vault = {

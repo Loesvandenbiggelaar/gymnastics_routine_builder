@@ -3,18 +3,18 @@ import { availableApparatuses, type ElementType } from '$lib/data/elements/all_e
 import { search_tags } from '$lib/data/elements/search_tags'
 import { writable } from 'svelte/store'
 import { RoutineMutations } from './routineMutations'
-import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/beam_routine_evaluation'
-import { routineEvaluationFloor } from '$lib/bc_routine_evaluation/floor_routine_evaluation'
-import { routineEvaluationVault } from '$lib/bc_routine_evaluation/vault_routine_evaluation'
+import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/b/beam_routine_evaluation'
+import { routineEvaluationFloor } from '$lib/bc_routine_evaluation/f_w/floor_routine_evaluation'
+import { routineEvaluationVault } from '$lib/bc_routine_evaluation/v_w/vault_routine_evaluation'
 // Import dataset from json
 import { allElements } from '$lib/data/elements/all_elements'
-import { calculateDifficultyBeam} from '$lib/bc_routine_evaluation/beam_difficulty'
-import { calculateDifficultyFloor} from '$lib/bc_routine_evaluation/floor_difficulty'
-import { calculateDifficultyVault } from '$lib/bc_routine_evaluation/vault_difficulty'
+import { calculateDifficultyBeam} from '$lib/bc_routine_evaluation/b/beam_difficulty'
+import { calculateDifficultyFloor} from '$lib/bc_routine_evaluation/f_w/floor_difficulty'
+import { calculateDifficultyVault } from '$lib/bc_routine_evaluation/v_w/vault_difficulty'
 import type { Supplement, Vault } from '$lib/bc_routine_evaluation/types'
 import type { DifficultyClass } from '$lib/bc_routine_evaluation/difficulty_class'
-import { routineEvaluationUnevenBars } from '$lib/bc_routine_evaluation/uneven_bars_routine_evaluation'
-import { calculateDifficultyUnevenBars } from '$lib/bc_routine_evaluation/uneven_bars_difficulty'
+import { routineEvaluationUnevenBars } from '$lib/bc_routine_evaluation/ub/uneven_bars_routine_evaluation'
+import { calculateDifficultyUnevenBars } from '$lib/bc_routine_evaluation/ub/uneven_bars_difficulty'
 
 
 export let selectedApparatus = writable(apparatusConfig[0])

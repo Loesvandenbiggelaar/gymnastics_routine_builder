@@ -1,4 +1,4 @@
-import type { arcolineType } from "./types"
+import type { arcolineType } from "../types"
 
 export const alD1: arcolineType = {
     max: 4,
