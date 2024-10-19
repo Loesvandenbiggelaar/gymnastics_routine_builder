@@ -1,4 +1,4 @@
-type ElementTypes = "dance" | "acrobatic" | undefined
+export type ElementTypes = "dance" | "acrobatic" | "non-acrobatic" | undefined
 
 export type ConnectionValueDetail = {
     description: string,
@@ -19,8 +19,8 @@ export type Vault = {
 export type Supplement = {
     maxDV: number
     allowedDifficulty: string[]
-    minAcro: number
-    minDance: number
+    minAcro?: number
+    minDance?: number
     connectionValuesAndBonus: ConnectionValueOptions
     compositionalRequirements: CompositionalRequirements
     acroLines?: arcolineType

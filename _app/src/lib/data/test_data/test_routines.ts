@@ -42,3 +42,8 @@ export const ub_routine_normal_d1 = createRoutine("ub", ub_normal_ids_d1, "en");
 
 const ub_normal_ids_d4 = [["1.101", "2.001", "2.105"], ["5.008", "3.004"], ["6.101"]]
 export const ub_routine_normal_d4 = createRoutine("ub", ub_normal_ids_d4, "en");
+
+// --------------------------------
+// floor men
+const floor_men_h1 = [["1.7"], ["2.13", "2.20", "2.20"], ["3.1", "3.31", "3.31"], ["1.19"], ["1.49"]]
+export const floor_men_routine_h1 = createRoutine("f_m", floor_men_h1, "en")

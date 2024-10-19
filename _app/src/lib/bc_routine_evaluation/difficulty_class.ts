@@ -82,10 +82,14 @@ export abstract class DifficultyClass {
             comboMetadata.elements.map((elementMetadata) => {
                 if (elementMetadata.element.type == "acrobatic") {
                     elementMetadata.elementType = "acrobatic"
-                } else if (elementMetadata.element.type == "dance") {
+                }
+                if (elementMetadata.element.type == "dance") {
                     elementMetadata.elementType = "dance"
                 }
-                else {
+                if (elementMetadata.element.type == "non-acrobatic") {
+                    elementMetadata.elementType = "non-acrobatic"
+                }
+                if (elementMetadata.elementType == undefined) {
                     throw new Error("element is neither acrobatic nor dance")
                 }
             })
@@ -155,7 +159,7 @@ export abstract class DifficultyClass {
         if (elementRequirement.type.includes(elementMetadata.elementType)) {
             if (verbose) console.log("type correct")
             // check if the element is of the right group
-        // if elementRequirement.group is empty, it means that the group is not important
+            // if elementRequirement.group is empty, it means that the group is not important
             if (elementRequirement.group.length == 0 || elementRequirement.group.includes(Number(elementMetadata.element.group_number))) {
                 if (verbose) console.log("group correct")
                 // check if the element has the right difficulty

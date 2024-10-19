@@ -5,6 +5,7 @@ const elementEncodingSeparator: string = '_'
 // Types for the Routine
 import { type ElementType } from '$lib/data/elements/all_elements'
 import { writable, type Writable } from 'svelte/store'
+import { type ElementTypes } from '$lib/bc_routine_evaluation/types'
 
 export type RoutineMessage = {
 	msg: string
@@ -16,7 +17,7 @@ export type ElementMetadata = {
 	order?: number, 
 	isRepeated?: Boolean, 
 	value?: number, 
-	elementType?: "dance" | "acrobatic", 
+	elementType?: ElementTypes, 
 	devaluated?:Boolean,
 	hasDifficulty?:Boolean 
 }

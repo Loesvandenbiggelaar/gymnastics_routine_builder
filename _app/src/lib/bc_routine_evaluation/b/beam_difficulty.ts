@@ -120,8 +120,8 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 	countDifficultyElements() {
 		var difficultyValue = 0
-		var _nr_acrobatic_elements: number = this.supplement.minAcro
-		var _nr_dance_elements: number = this.supplement.minDance
+		var _nr_acrobatic_elements: number = this.supplement.minAcro || 0
+		var _nr_dance_elements: number = this.supplement.minDance || 0
 		var _total_nr_elements: number = this.supplement.maxDV - _nr_acrobatic_elements - _nr_dance_elements
 		var _found_elements: ElementType[] = []
 
@@ -155,7 +155,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		const _nr_non_repeated_acro = _acrobatic_elements.filter(element => !element.isRepeated).length
 		// if the routine contains less than the minimum number of acrobatic elements, add a message
-		if (_nr_non_repeated_acro < this.supplement.minAcro) {
+		if (_nr_non_repeated_acro < _nr_acrobatic_elements) {
 			this.addGeneralMessage(`Not enough acrobatic elements ${_nr_non_repeated_acro}/${this.supplement.minAcro}`, "warning")
 		}
 
@@ -186,7 +186,7 @@ export class calculateDifficultyBeam extends DifficultyClass {
 
 		// if the routine contains less than the minimum number of dance elements, add a message
 		const _nr_non_repeated_dance = _dance_elements.filter(element => !element.isRepeated).length
-		if (_nr_non_repeated_dance < this.supplement.minDance) {
+		if (_nr_non_repeated_dance < _nr_dance_elements) {
 			this.addGeneralMessage(`Not enough dance elements ${_nr_non_repeated_dance}/${this.supplement.minDance}`, "warning")
 		}
 

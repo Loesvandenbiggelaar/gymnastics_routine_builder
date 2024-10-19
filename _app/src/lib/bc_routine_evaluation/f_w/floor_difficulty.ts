@@ -54,8 +54,8 @@ export class calculateDifficultyFloor extends DifficultyClass {
 
 	countDifficultyElements() {
 		var difficultyValue = 0
-		var _nr_acrobatic_elements: number = this.supplement.minAcro
-		var _nr_dance_elements: number = this.supplement.minDance
+		var _nr_acrobatic_elements: number = this.supplement.minAcro || 0
+		var _nr_dance_elements: number = this.supplement.minDance || 0
 		var _total_nr_elements: number = this.supplement.maxDV - _nr_acrobatic_elements - _nr_dance_elements
 		var _found_elements: ElementType[] = []
 		var min_acro_lines = this.supplement.acroLines?.min || 0
@@ -84,11 +84,9 @@ export class calculateDifficultyFloor extends DifficultyClass {
 			})
 		})
 
-		console.log(_acrobatic_elements)
 		const _nr_non_repeated_acro = _acrobatic_elements.filter(element => !element.isRepeated).length
-		console.log(_nr_non_repeated_acro)
 		// if the routine contains less than the minimum number of acrobatic elements, add a message
-		if (_nr_non_repeated_acro < this.supplement.minAcro) {
+		if (_nr_non_repeated_acro < _nr_acrobatic_elements) {
 			this.addGeneralMessage(`Not enough acrobatic elements ${_nr_non_repeated_acro}/${this.supplement.minAcro}`, "warning")
 		}
 
@@ -96,7 +94,6 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		// the first n acrobatic elements are counted
 		// the elements with the highest value are counted first
 		// if the element is already counted, it is not counted again
-		console.log(_found_elements)
 		sort_elements(_acrobatic_elements).map((elementMetadata: ElementMetadata) => {
 			if (!_found_elements.includes(elementMetadata.element)) {
 			if (elementMetadata.isRepeated == false && elementMetadata.hasDifficulty == undefined) {
@@ -122,7 +119,7 @@ export class calculateDifficultyFloor extends DifficultyClass {
 
 		// if the routine contains less than the minimum number of dance elements, add a message
 		const _nr_non_repeated_dance = _dance_elements.filter(element => !element.isRepeated).length
-		if (_nr_non_repeated_dance < this.supplement.minDance) {
+		if (_nr_non_repeated_dance < _nr_dance_elements) {
 			this.addGeneralMessage(`Not enough dance elements ${_nr_non_repeated_dance}/${this.supplement.minDance}`, "warning")
 		}
 
@@ -149,13 +146,11 @@ export class calculateDifficultyFloor extends DifficultyClass {
 			})
 		})
  
-		console.log(_found_elements)
 		// loop over the routine and count the number of other elements
 		// the first n other elements are counted
 		// the elements with the highest value are counted first
 		// if the element is already counted, it is not counted again
 		sort_elements(_other_elements).map((elementMetadata: ElementMetadata) => {
-			console.log(elementMetadata)
 			if (!_found_elements.includes(elementMetadata.element)) {
 				if (elementMetadata.isRepeated == false && elementMetadata.hasDifficulty == undefined) {
 					if (_total_nr_elements > 0) {
@@ -172,14 +167,11 @@ export class calculateDifficultyFloor extends DifficultyClass {
 		let c = 0
 		this.routine.map(comboMetadata => {
 			comboMetadata.elements.map(elementMetadata => {
-				// console.log(elementMetadata)
 				if (elementMetadata.hasDifficulty == true) {
 					c += elementMetadata.value ?? 0
 				}
 			})
 		})
-		// console.log(_found_elements)
-		console.log("count", c)
 		return c
 
 	}

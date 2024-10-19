@@ -5,15 +5,17 @@ import { writable } from 'svelte/store'
 import { RoutineMutations } from './routineMutations'
 import { routineEvaluationBeam } from '$lib/bc_routine_evaluation/b/beam_routine_evaluation'
 import { routineEvaluationFloor } from '$lib/bc_routine_evaluation/f_w/floor_routine_evaluation'
+import { routineEvaluationFloorMen } from '$lib/bc_routine_evaluation/f_m/floor_routine_evaluation'
 import { routineEvaluationVault } from '$lib/bc_routine_evaluation/v_w/vault_routine_evaluation'
+import { routineEvaluationUnevenBars } from '$lib/bc_routine_evaluation/ub/uneven_bars_routine_evaluation'
 // Import dataset from json
 import { allElements } from '$lib/data/elements/all_elements'
 import { calculateDifficultyBeam} from '$lib/bc_routine_evaluation/b/beam_difficulty'
 import { calculateDifficultyFloor} from '$lib/bc_routine_evaluation/f_w/floor_difficulty'
+import { calculateDifficultyFloorMen} from '$lib/bc_routine_evaluation/f_m/floor_difficulty'
 import { calculateDifficultyVault } from '$lib/bc_routine_evaluation/v_w/vault_difficulty'
 import type { Supplement, Vault } from '$lib/bc_routine_evaluation/types'
 import type { DifficultyClass } from '$lib/bc_routine_evaluation/difficulty_class'
-import { routineEvaluationUnevenBars } from '$lib/bc_routine_evaluation/ub/uneven_bars_routine_evaluation'
 import { calculateDifficultyUnevenBars } from '$lib/bc_routine_evaluation/ub/uneven_bars_difficulty'
 
 
@@ -48,11 +50,11 @@ export type SearchEntry = {
 	searchProperties?: string[]
 }
 
-const routineEvaluations: Record<string, Record<string, Supplement | Vault>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor, "v_w": routineEvaluationVault, "ub": routineEvaluationUnevenBars}
-const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor, "v_w": calculateDifficultyVault, "ub": calculateDifficultyUnevenBars} 
+const routineEvaluations: Record<string, Record<string, Supplement | Vault>> = {"b": routineEvaluationBeam, "f_w": routineEvaluationFloor, "v_w": routineEvaluationVault, "ub": routineEvaluationUnevenBars, "f_m": routineEvaluationFloorMen}
+const calculateDifficulty: Record<string, any > = {"b": calculateDifficultyBeam, "f_w": calculateDifficultyFloor, "v_w": calculateDifficultyVault, "ub": calculateDifficultyUnevenBars, "f_m": calculateDifficultyFloorMen} 
 
 export class ElementData {
-	level: string = "D1"
+	level: string = "H1"
 	rawData: Record<string, Record<string, any>>
 	availableLanguages: Array<keyof typeof this.rawData>
 	availableApparatuses: string[]
@@ -120,7 +122,7 @@ export class ElementData {
 		for (const apparatus of this.availableApparatuses) {
 			this.routineStorage[apparatus] = new RoutineMutations()
 		}
-		this.selectedApparatus = "ub"
+		this.selectedApparatus = "f_m"
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
 		this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
 	
@@ -154,7 +156,8 @@ export class ElementData {
 		let _apparatus = _input as keyof typeof _database
 		this.elementData = Object.values(_database[_apparatus])
 		this.routineMutations = this.routineStorage[this.selectedApparatus]
-		this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
+
+		if (routineEvaluations[this.selectedApparatus]) this.routineEvaluation = routineEvaluations[this.selectedApparatus][this.level]
 		// update
 		this.search()
 		data.update(() => this)
