@@ -20,10 +20,7 @@ const config = {
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
 			assets: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		},
-		fallback: 'index.html',
-		precompress: true,
-		assetPrefix: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
 	}
 };
 export default config;
