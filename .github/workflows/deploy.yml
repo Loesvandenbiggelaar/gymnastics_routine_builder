@@ -19,9 +19,6 @@ jobs:
       #   with:
       #     version: 8
 
-      - name: Debug Directory Structure
-        run: ls -R ./gymnastics_routine_builder/
-
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
@@ -29,11 +26,13 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install --prefix ../_app
+        working-directory: _app
+        run: npm install
 
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
+        working-directory: _app
         run: |
           npm run build
           touch build/.nojekyll
