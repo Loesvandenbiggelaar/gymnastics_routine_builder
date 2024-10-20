@@ -1,0 +1,9 @@
+en:
+  ub:
+    1.103: 
+      description: Glide on LB (or swing fwd on HB) and stoop through to rear support (back kip); or straddle cut bwd to hang on same bar
+      value: 0.1
+    1.104:
+      description: Jump to hang on HB - also with reverse grip - kip to support
+      group_number: "1"
+    

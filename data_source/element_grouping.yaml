@@ -1,0 +1,19 @@
+womens:
+  beam:
+    '1': acrobatic
+    '2': dance
+    '3': dance
+    '4': acrobatic
+    '5': acrobatic
+    '6': acrobatic
+  floor:
+    '1': dance
+    '2': dance
+    '3': acrobatic
+    '4': acrobatic
+    '5': acrobatic
+mens:
+  floor:
+    '1': non-acrobatic
+    '2': acrobatic
+    '3': acrobatic

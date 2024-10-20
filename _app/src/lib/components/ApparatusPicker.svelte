@@ -1,0 +1,74 @@
+<script lang="ts">
+	import { apparatusConfig } from '$lib/data/elements/apparatusConfig';
+	// Import Components
+	import { ListBox, ListBoxItem, filter } from '@skeletonlabs/skeleton';
+	import { type PopupSettings, popup } from '@skeletonlabs/skeleton';
+	import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
+	import Icon from '@iconify/svelte';
+
+	// Import $data store from datastore.ts
+	import { data } from '$lib/stores/datastore';
+
+	const popupSettings: PopupSettings = {
+		event: 'click',
+		target: 'popupDropdown',
+		placement: 'bottom',
+		closeQuery: '.listbox-item'
+	};
+
+	//TODO fix sex filter, set in datastore.ts
+	$: apparatusConfig_filtered = apparatusConfig.filter(
+		(apparatus) => $data.filterOptions.sex === 'both' || apparatus.sex_id == $data.filterOptions.sex
+	);
+
+	// Update apparatus when value changes
+	$: $data.setApparatus();
+	$: apparatusEntry = apparatusConfig.find(
+		(apparatus) => apparatus.data_name === $data.selectedApparatus
+	);
+</script>
+
+<button
+	use:popup={popupSettings}
+	class="btn w-48 variant-outline-primary flex items-center justify-between gap-2"
+>
+	<span class="flex flex-row gap-2">
+		<Icon icon="mdi:weight-lifter" class="w-6 h-6" />
+		{apparatusEntry?.name || 'Apparatus'}
+	</span>
+	<span>
+		<Icon icon="mdi:chevron-down" />
+	</span>
+</button>
+
+<div class="card w-48 shadow-xl z-50" data-popup="popupDropdown">
+	<RadioGroup class="w-full flex-1 variant-outline-secondary">
+		{#each ['m', 'both', 'w'] as sex}
+			<RadioItem
+				bind:group={$data.filterOptions.sex}
+				name="justify"
+				value={sex}
+				class="flex justify-center items-center"
+				active="variant-filled-secondary"
+			>
+				<Icon
+					icon={sex === 'm'
+						? 'mdi:gender-male'
+						: sex === 'w'
+							? 'mdi:gender-female'
+							: 'mdi:ampersand'}
+				/>
+			</RadioItem>
+		{/each}
+	</RadioGroup>
+	<ListBox rounded="rounded-none" class="w-full max-h-[18em] overflow-y-auto ">
+		{#each apparatusConfig_filtered as apparatus}
+			<ListBoxItem bind:group={$data.selectedApparatus} name="medium" value={apparatus.id}>
+				<span class="flex items-center justify-start gap-2">
+					<Icon icon={apparatus.icon} />
+					{apparatus.full_name}
+				</span>
+			</ListBoxItem>
+		{/each}
+	</ListBox>
+</div>

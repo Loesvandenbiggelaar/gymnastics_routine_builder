@@ -1,0 +1,64 @@
+.lx-table {
+	--radius: 9999px;
+}
+
+.sticky-header {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.lx-table thead {
+	@apply bg-primary-400-500-token;
+}
+
+.lx-table thead tr th {
+	padding: 0.5em 1em;
+}
+
+.lx-table thead th:first-child {
+	border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.lx-table thead th:last-child {
+	border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Set max height and ellipsis */
+.lx-table-row {
+	position: relative;
+	height: 1.5em;
+	overflow: hidden;
+	white-space: normal;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	/* Sick fade out effect for overflowing text */
+	--fadeout-gradient-mask: linear-gradient(to right, #000 85%, transparent);
+	mask-image: var(--fadeout-gradient-mask);
+	-moz-mask-image: var(--fadeout-gradient-mask);
+	-webkit-mask-image: var(--fadeout-gradient-mask);
+	-o-mask-image: var(--fadeout-gradient-mask);
+	/* To support older browsers */
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85)';
+	filter: progid:DXImageTransform.Microsoft.Alpha(GradientFill=(left,right), GradientOrigin=(0,0), FinishStrength=85);
+}
+
+.lx-table tr td {
+	padding: 0.5em 1em;
+}
+
+.lx-table tr td:first-child {
+	border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.lx-table tr td:last-child {
+	border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.lx-table tr:hover td {
+	@apply bg-primary-100-800-token;
+}
+
+.lx-table.alternating tr:nth-child(even) {
+	@apply bg-surface-100-800-token;
+}

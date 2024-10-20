@@ -1,0 +1,1031 @@
+{
+	"floor": {
+		"1.1": {
+			"id": "1.1",
+			"description": "De l\u2019appui renvs. s\u2019abaisser \u00e0 l\u2019\u00e9querre ou \u00e0 l\u2019\u00e9querre \u00e9cart\u00e9e (2 s.).",
+			"group_number": "1",
+			"group_name": "Elements non-acrobatiques ",
+			"difficulty": "A",
+			"type": "non-acrobatic",
+			"value": 0.1
+		},
+		"1.37": {
+			"id": "1.37",
+			"description": "De l\u2019\u00e9querre, \u00e9c., tour arr. \u00e0 la station.",
+			"group_number": "1",
+			"group_name": "Elements non-acrobatiques ",
+			"difficulty": "A",
+			"type": "non-acrobatic",
+			"value": 0.1
+		},
+		"1.67": {
+			"id": "1.67",
+			"description": "Saut en arri\u00e8re \u00e0 l\u2019appui ou couch\u00e9 facial.",
+			"group_number": "1",
+			"group_name": "Elements non-acrobatiques ",
+			"difficulty": "A",
+			"type": "non-acrobatic",
+			"value": 0.1
+		},
+		"1.86": {
+			"id": "1.86",
+			"description": "De l\u2019appui renvers\u00e9 s\u2019abaisser en cercles des jambes \u00e9cart\u00e9es ou serr\u00e9es.",
+			"group_number": "1",
+			"group_name": "Elements non-acrobatiques ",
+			"difficulty": "B",
+			"type": "non-acrobatic",
+			"value": 0.2
+		},
+		"1.98": {
+			"id": "1.98",
+			"description": "Cercles d. jambes \u00e9cart\u00e9s. a \u00bd pivot \u00e0 l\u2019appui renv.",
+			"group_number": "1",
+			"group_name": "Elements non-acrobatiques ",
+			"difficulty": "B",
+			"type": "non-acrobatic",
+			"value": 0.2
+		},
+		"2.7": {
+			"id": "2.7",
+			"description": "Saut de poisson.",
+			"group_number": "2",
+			"group_name": "Parties acrobatiques en avant ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.28": {
+			"id": "2.28",
+			"description": "Salto av. tendu avec 2/1 t.",
+			"group_number": "2",
+			"group_name": "Parties acrobatiques en avant ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.2": {
+			"id": "3.2",
+			"description": "Salto arri\u00e8re tendu. ou tempo.",
+			"group_number": "3",
+			"group_name": "Parties acrobatiques en arri\u00e8re ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.29": {
+			"id": "3.29",
+			"description": "Salto arri\u00e8re tendu avec 7/2 t.",
+			"group_number": "3",
+			"group_name": "Parties acrobatiques en arri\u00e8re ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.60": {
+			"id": "3.60",
+			"description": "Double salto arri\u00e8re t. avec 5/2 t.",
+			"group_number": "3",
+			"group_name": "Parties acrobatiques en arri\u00e8re ",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		}
+	},
+	"rings": {
+		"1.1": {
+			"id": "1.1",
+			"description": "\u00c9tablissement avant \u00e0 l\u2019appui.",
+			"group_number": "1",
+			"group_name": "Bascules et \u00e9l\u00e9ments d\u2019\u00e9lan, \u00e9lans pour ou \u00e0 l\u2019appui renvers\u00e9 (2 s.).",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.49": {
+			"id": "1.49",
+			"description": "Bascule \u00e0 l\u2019appui.",
+			"group_number": "1",
+			"group_name": "Bascules et \u00e9l\u00e9ments d\u2019\u00e9lan, \u00e9lans pour ou \u00e0 l\u2019appui renvers\u00e9 (2 s.).",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.81": {
+			"id": "1.81",
+			"description": "\u00c9tablissement arri\u00e8re ou grand tour \u00e0 l\u2019appui renversement (2 s.).",
+			"group_number": "1",
+			"group_name": "Bascules et \u00e9l\u00e9ments d\u2019\u00e9lan, \u00e9lans pour ou \u00e0 l\u2019appui renvers\u00e9 (2 s.).",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.1": {
+			"id": "2.1",
+			"description": "\u00c9querre (2 s.) ou \u00e9querre \u00e9cart\u00e9e (2 s.).",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments de force et maintien (2 s.) ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.27": {
+			"id": "2.27",
+			"description": "S\u2019\u00e9lev. corps tendu et bras tendus ou de l\u2019appui fac. horiz. \u00e0 l\u2019appui renvers\u00e9 (2 s.).",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments de force et maintien (2 s.) ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.58": {
+			"id": "2.58",
+			"description": "De ou par la susp. dors. horiz., \u00e9tablis. en force bras tendus \u00e0 la croix ou croix angle (2 s.).",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments de force et maintien (2 s.) ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.82": {
+			"id": "2.82",
+			"description": "De l\u2019appui facial horizontal, s\u2019\u00e9lever \u00e0 la croix renverse (2 s.).",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments de force et maintien (2 s.) ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.113": {
+			"id": "2.113",
+			"description": "Tour en arr. lent. corps et bras tendus \u00e0 l\u2019ATR en passant par l\u2019hirondelle .",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments de force et maintien (2 s.) ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.132": {
+			"id": "2.132",
+			"description": "De la suspension \u00e9tablissement en force \u00e0 la croix renverse. (2 s.).",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments de force et maintien (2 s.) ",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.3": {
+			"id": "3.3",
+			"description": "\u00c9tablis. av. \u00e0 l\u2019\u00e9querre jambes lev\u00e9es vert (2 s.).",
+			"group_number": "3",
+			"group_name": "\u00c9lans menant \u00e0 un \u00e9l\u00e9ment de maintien en force (2 s.) ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.40": {
+			"id": "3.40",
+			"description": "Bascule \u00e0 la croix \u00e9querre jambes l. vert. (2 s.).",
+			"group_number": "3",
+			"group_name": "\u00c9lans menant \u00e0 un \u00e9l\u00e9ment de maintien en force (2 s.) ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.71": {
+			"id": "3.71",
+			"description": "\u00c9tablissement. en arri\u00e8re \u00e0 l\u2019hirondelle (2 s.).",
+			"group_number": "3",
+			"group_name": "\u00c9lans menant \u00e0 un \u00e9l\u00e9ment de maintien en force (2 s.) ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.59": {
+			"id": "3.59",
+			"description": "\u00c9tablissement en av. en tournant en arri\u00e8re \u00e0 l\u2019hirondelle (2 s.).",
+			"group_number": "3",
+			"group_name": "\u00c9lans menant \u00e0 un \u00e9l\u00e9ment de maintien en force (2 s.) ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.77": {
+			"id": "3.77",
+			"description": "\u00c9tablissement arri\u00e8re \u00e0 la croix renvs. (2 s.).",
+			"group_number": "3",
+			"group_name": "\u00c9lans menant \u00e0 un \u00e9l\u00e9ment de maintien en force (2 s.) ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.1": {
+			"id": "4.1",
+			"description": "Salto avant carp\u00e9 ou tendu aussi avec \u00bd t",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.32": {
+			"id": "4.32",
+			"description": "Double salto arri\u00e8re group\u00e9 ou carp\u00e9.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.52": {
+			"id": "4.52",
+			"description": "Double salto arri\u00e8re tendu avec \u00bd ou 1/1 t.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		}
+	},
+	"pommel horse": {
+		"1.1": {
+			"id": "1.1",
+			"description": "Ciseau avant.",
+			"group_number": "1",
+			"group_name": "\u00c9lans d\u2019une jambe et ciseaux ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.1": {
+			"id": "2.1",
+			"description": "Tout cercle des jambes ou cercle \u00e9c. (Thomas) en appui lat\u00e9ral.",
+			"group_number": "2",
+			"group_name": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.34": {
+			"id": "2.34",
+			"description": "Tout 1/1 pivot dans max. 2 cercles.",
+			"group_number": "2",
+			"group_name": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.52": {
+			"id": "2.52",
+			"description": "St\u00f6ckli directe A (SDA) \u00e0 l\u2019ext\u00e9rieur des ar\u00e7ons.",
+			"group_number": "2",
+			"group_name": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.79": {
+			"id": "2.79",
+			"description": "Pass\u00e9 facial avant avec \u00bd t. \u00e0 l\u2019appui facial lat. sur l\u2019extr., de l\u2019appui lat\u00e9ral, en utilisant 1 ou 2 ar\u00e7ons.",
+			"group_number": "2",
+			"group_name": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.97": {
+			"id": "2.97",
+			"description": "Facial russe avec 180\u00b0 ou 270\u00b0.",
+			"group_number": "2",
+			"group_name": "Cercles des jambes serr\u00e9es et \u00e9c. avec ou sans pivots et appuis renvers\u00e9, pass\u00e9s dorsaux, russes faciaux, flop et \u00e9l\u00e9ments combin\u00e9s.",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.3": {
+			"id": "3.3",
+			"description": "Tout transport \u00e0 l\u2019appui lat\u00e9ral (3/3), mains entre les ar\u00e7ons.",
+			"group_number": "3",
+			"group_name": "Transports incluant krolls, tong fei, wu guoniang, roth et transport avec pivots. ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.45": {
+			"id": "3.45",
+			"description": "De l\u2019appui transv. sur 1 extr., transp. av. dans 2 cercles d. jambes sur le 1er. ar\u00e7on, sur le 2e. ar\u00e7on avec \u00bc t. sur l\u2019aut. extr\u00e9m. \u00e0 l\u2019appui lat. (3/3).",
+			"group_number": "3",
+			"group_name": "Transports incluant krolls, tong fei, wu guoniang, roth et transport avec pivots. ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.51": {
+			"id": "3.51",
+			"description": "Transport arri\u00e8re avec appui sur le cheval. sur chaque arc. et sur l\u2019autre extr. (3/3) (5-4-2-1).",
+			"group_number": "3",
+			"group_name": "Transports incluant krolls, tong fei, wu guoniang, roth et transport avec pivots. ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.77": {
+			"id": "3.77",
+			"description": "Tout transport 3/3 dans Facial russe avec 720\u00b0 ou plus tours.",
+			"group_number": "3",
+			"group_name": "Transports incluant krolls, tong fei, wu guoniang, roth et transport avec pivots. ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.1": {
+			"id": "4.1",
+			"description": "Facial allemand (du cercle ou cercle jambes \u00e9cart\u00e9es).",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		}
+	},
+	"vault": {
+		"1.103": {
+			"id": "1.103",
+			"description": "Renvs. av. et salto av. gr. avec 2/1 t. (ou Cuervo gr. a. 3/2 t.).",
+			"group_number": "1",
+			"group_name": "Sauts avec salto simple et tours complexes ",
+			"difficulty": "A",
+			"value": 4.0,
+			"type": "acrobatic"
+		},
+		"1.115": {
+			"id": "1.115",
+			"description": "Renversement av. et salto av. tendu avec 2/1 t. (Cuervo tendu 3/2 t.).",
+			"group_number": "1",
+			"group_name": "Sauts avec salto simple et tours complexes ",
+			"difficulty": "A",
+			"value": 5.2,
+			"type": "acrobatic"
+		},
+		"1.117": {
+			"id": "1.117",
+			"description": "Renvs. av. et salto av. tendu av. 3/1 t.",
+			"group_number": "1",
+			"group_name": "Sauts avec salto simple et tours complexes ",
+			"difficulty": "C",
+			"value": 6.0,
+			"type": "acrobatic"
+		},
+		"1.120": {
+			"id": "1.120",
+			"description": "Tsukahara group\u00e9 avec 2/1 t.",
+			"group_number": "1",
+			"group_name": "Sauts avec salto simple et tours complexes ",
+			"difficulty": "F",
+			"value": 3.6,
+			"type": "acrobatic"
+		},
+		"1.119": {
+			"id": "1.119",
+			"description": "Tsukahara gr. avec 3/2 t. ou Kasamatsu gr. avec \u00bd t.",
+			"group_number": "1",
+			"group_name": "Sauts avec salto simple et tours complexes ",
+			"difficulty": "E",
+			"value": 3.2,
+			"type": "acrobatic"
+		},
+		"1.125": {
+			"id": "1.125",
+			"description": "Kasamatsu tendu avec \u00bd t. ou Tsukahara tendu avec 3/2 t.",
+			"group_number": "1",
+			"group_name": "Sauts avec salto simple et tours complexes ",
+			"difficulty": "E",
+			"value": 4.4,
+			"type": "acrobatic"
+		},
+		"2.201": {
+			"id": "2.201",
+			"description": "Renversement avant.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "C",
+			"value": 1.6,
+			"type": "acrobatic"
+		},
+		"2.202": {
+			"id": "2.202",
+			"description": "Renversement avant avec \u00bd t.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "D",
+			"value": 1.8,
+			"type": "acrobatic"
+		},
+		"2.203": {
+			"id": "2.203",
+			"description": "Renversement avant avec 1/1 t.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "E",
+			"value": 2.0,
+			"type": "acrobatic"
+		},
+		"2.204": {
+			"id": "2.204",
+			"description": "Renversement avant avec 3/2 t.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "F",
+			"value": 2.2,
+			"type": "acrobatic"
+		},
+		"2.205": {
+			"id": "2.205",
+			"description": "Renversement avant avec 2/1 t.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "A",
+			"value": 2.4,
+			"type": "acrobatic"
+		},
+		"2.228": {
+			"id": "2.228",
+			"description": "Renv. av. et salto av. gr. avec \u00bd t. et salto arr. gr.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "F",
+			"value": 5.6,
+			"type": "acrobatic"
+		},
+		"2.231": {
+			"id": "2.231",
+			"description": "Renversement av. et double salto av. carp\u00e9.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "C",
+			"value": 5.6,
+			"type": "acrobatic"
+		},
+		"2.232": {
+			"id": "2.232",
+			"description": "Dragulescu carp\u00e9.",
+			"group_number": "2",
+			"group_name": "Renversements avant avec ou sans tours simples et tout double salto avant.",
+			"difficulty": "D",
+			"value": 6.0,
+			"type": "acrobatic"
+		},
+		"3.310": {
+			"id": "3.310",
+			"description": "Renversement lat\u00e9ral avec \u00bc t. et salto av. gr. avec \u00bd t. ou Tsukahara avec 1/1 t.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "D",
+			"value": 2.8,
+			"type": "acrobatic"
+		},
+		"3.308": {
+			"id": "3.308",
+			"description": "Tsukahara carp\u00e9.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "B",
+			"value": 2.4,
+			"type": "acrobatic"
+		},
+		"3.307": {
+			"id": "3.307",
+			"description": "Renversement lat. avec \u00bc t. et salto arr. gr.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "A",
+			"value": 2.2,
+			"type": "acrobatic"
+		},
+		"3.313": {
+			"id": "3.313",
+			"description": "Tsukahara tendu.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "A",
+			"value": 3.2,
+			"type": "acrobatic"
+		},
+		"3.314": {
+			"id": "3.314",
+			"description": "Tsukahara tendu avec \u00bd t.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "B",
+			"value": 3.6,
+			"type": "acrobatic"
+		},
+		"3.320": {
+			"id": "3.320",
+			"description": "Tsukahara avec salto arri\u00e8re carpe.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "B",
+			"value": 5.6,
+			"type": "acrobatic"
+		},
+		"3.301": {
+			"id": "3.301",
+			"description": "Renversement lat\u00e9ral avec \u00bc t.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "A",
+			"value": 1.6,
+			"type": "acrobatic"
+		},
+		"3.302": {
+			"id": "3.302",
+			"description": "Renversement lat\u00e9ral avec 3/4 t.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "B",
+			"value": 1.8,
+			"type": "acrobatic"
+		},
+		"3.303": {
+			"id": "3.303",
+			"description": "Renversement lat\u00e9ral avec 5/4 t.",
+			"group_number": "3",
+			"group_name": "Renversements lat\u00e9raux et tsukahara avec ou sans tours simples et tout double salto arri\u00e8re. ",
+			"difficulty": "C",
+			"value": 2.0,
+			"type": "acrobatic"
+		},
+		"4.401": {
+			"id": "4.401",
+			"description": "Rondade, renversement arri\u00e8re.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "E",
+			"value": 1.6,
+			"type": "acrobatic"
+		},
+		"4.411": {
+			"id": "4.411",
+			"description": "Yurchenko group\u00e9 avec 2/1 t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "C",
+			"value": 3.6,
+			"type": "acrobatic"
+		},
+		"4.408": {
+			"id": "4.408",
+			"description": "Yurchenko group\u00e9 avec \u00bd t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "F",
+			"value": 2.4,
+			"type": "acrobatic"
+		},
+		"4.417": {
+			"id": "4.417",
+			"description": "Yurchenko tendu avec 3/2 t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "C",
+			"value": 4.4,
+			"type": "acrobatic"
+		},
+		"4.419": {
+			"id": "4.419",
+			"description": "Yurchenko tendu avec 5/2 t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "E",
+			"value": 5.2,
+			"type": "acrobatic"
+		},
+		"4.439": {
+			"id": "4.439",
+			"description": "Rondade, \u00bd t. et renversement avant et salto avant tendu.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "A",
+			"value": 3.8,
+			"type": "acrobatic"
+		},
+		"4.441": {
+			"id": "4.441",
+			"description": "Rondade, \u00bd t. et renversement avant et salto avant tendu a. 1/1 t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "C",
+			"value": 4.6,
+			"type": "acrobatic"
+		},
+		"4.444": {
+			"id": "4.444",
+			"description": "Rondade, \u00bd t. et renversement avant et salto avant tendu avec 5/2 t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "F",
+			"value": 5.8,
+			"type": "acrobatic"
+		},
+		"4.431": {
+			"id": "4.431",
+			"description": "Rondade, \u00bd t. et renversement avant.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "E",
+			"value": 1.8,
+			"type": "acrobatic"
+		},
+		"4.433": {
+			"id": "4.433",
+			"description": "Rondade, \u00bd t. et renv. av. avec 1/1 t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "A",
+			"value": 2.2,
+			"type": "acrobatic"
+		},
+		"4.435": {
+			"id": "4.435",
+			"description": "Rondade, \u00bd t. et renversement avant et salto av. group\u00e9 avec \u00bd t.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "C",
+			"value": 3.0,
+			"type": "acrobatic"
+		},
+		"4.426": {
+			"id": "4.426",
+			"description": "Melissanidis carp\u00e9.",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "F",
+			"value": 5.6,
+			"type": "acrobatic"
+		},
+		"4.468": {
+			"id": "4.468",
+			"description": "Scherbo avec \u00bd t._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "F",
+			"value": 4.2,
+			"type": "acrobatic"
+		},
+		"4.470": {
+			"id": "4.470",
+			"description": "Scherbo avec 3/2 t._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "B",
+			"value": 5.0,
+			"type": "acrobatic"
+		},
+		"4.472": {
+			"id": "4.472",
+			"description": "Scherbo avec 5/2 t._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "D",
+			"value": 5.8,
+			"type": "acrobatic"
+		},
+		"4.460": {
+			"id": "4.460",
+			"description": "Rondade, saut arri\u00e8re avec 1/1 t. et renverse- ment arri\u00e8re et salto arri\u00e8re group\u00e9 avec \u00bd t._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "D",
+			"value": 3.0,
+			"type": "acrobatic"
+		},
+		"4.459": {
+			"id": "4.459",
+			"description": "Rondade, saut arri\u00e8re avec 1/1 t. et renverse- ment arri\u00e8re et salto arri\u00e8re carp\u00e9._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "C",
+			"value": 3.0,
+			"type": "acrobatic"
+		},
+		"4.458": {
+			"id": "4.458",
+			"description": "Rondade, saut arri\u00e8re avec 1/1 t. et renverse- ment arri\u00e8re et salto arri\u00e8re group\u00e9._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "B",
+			"value": 2.8,
+			"type": "acrobatic"
+		},
+		"4.455": {
+			"id": "4.455",
+			"description": "Rondade, saut arri\u00e8re avec 1/1 t. et renverse- ment arri\u00e8re._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "E",
+			"value": 2.2,
+			"type": "acrobatic"
+		},
+		"4.449": {
+			"id": "4.449",
+			"description": "Rondade, \u00bd t. et renversement av. et double salto avant group\u00e9._",
+			"group_number": "4",
+			"group_name": "Sauts \u00e0 partir de rondade ",
+			"difficulty": "E",
+			"value": 5.4,
+			"type": "acrobatic"
+		}
+	},
+	"parallel bars": {
+		"1.3": {
+			"id": "1.3",
+			"description": "Demi-tour en avant \u00e0 l\u2019appui renvers\u00e9 (sur 1 ou 2 barres).",
+			"group_number": "1",
+			"group_name": "\u00c9l\u00e9ments en appui ou par l\u2019appui sur les 2 barres ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.27": {
+			"id": "1.27",
+			"description": "Makuts \u00e0 l\u2019appui brachial ou \u00be Diamidov \u00bc",
+			"group_number": "1",
+			"group_name": "\u00c9l\u00e9ments en appui ou par l\u2019appui sur les 2 barres ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.62": {
+			"id": "1.62",
+			"description": "Demi-tour en arri\u00e8re \u00e0 l\u2019appui.",
+			"group_number": "1",
+			"group_name": "\u00c9l\u00e9ments en appui ou par l\u2019appui sur les 2 barres ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.74": {
+			"id": "1.74",
+			"description": "\u00c9lanc\u00e9 en arri\u00e8re avec \u00bd t. saut\u00e9 \u00e0 l\u2019appui renvers\u00e9.",
+			"group_number": "1",
+			"group_name": "\u00c9l\u00e9ments en appui ou par l\u2019appui sur les 2 barres ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.99": {
+			"id": "1.99",
+			"description": "Salto avant \u00e0 l\u2019appui.",
+			"group_number": "1",
+			"group_name": "\u00c9l\u00e9ments en appui ou par l\u2019appui sur les 2 barres ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.7": {
+			"id": "2.7",
+			"description": "\u00c9tablissement en avant avec \u00bc t. \u00e0 la suspen- sion lat\u00e9rale sur une barre",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments qui commencent \u00e0 l\u2019appui brachial ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.29": {
+			"id": "2.29",
+			"description": "Rouler arri\u00e8re avec \u00bd t. gr. \u00e0 la susp.",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments qui commencent \u00e0 l\u2019appui brachial ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.54": {
+			"id": "2.54",
+			"description": "\u00c9tablissement arri\u00e8re et 5/4 salto av. \u00e9cart\u00e9 \u00e0 la suspension.",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments qui commencent \u00e0 l\u2019appui brachial ",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.3": {
+			"id": "3.3",
+			"description": "\u00c9lan av. passer jambes \u00e9cart\u00e9es en arri\u00e8re reprise a l\u2019appui brachial corps tendu a l\u2019horizontal ou bras fl\u00e9chis.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.30": {
+			"id": "3.30",
+			"description": "Grand tour Diamidov avec \u00bc or \u00bd \u00e0 l\u2019app. renv.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. ",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.53": {
+			"id": "3.53",
+			"description": "Grand tour arri\u00e8re avec \u00bd pass. jambes \u00e9cart\u00e9es a l\u2019appui brachial.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.75": {
+			"id": "3.75",
+			"description": "Bascule d\u2019\u00e9lan arri\u00e8re \u00e0 l\u2019appui renvers\u00e9.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.98": {
+			"id": "3.98",
+			"description": "Bascule allemande \u00e0 l\u2019appui.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.128": {
+			"id": "3.128",
+			"description": "Tour d\u2019appui avant avec \u00bd t. \u00e0 l\u2019appui.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments d\u2019\u00e9lans par la suspension sur 1 ou 2 barres et \u00e9tablissements en avant en tournant en arri\u00e8re. ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.1": {
+			"id": "4.1",
+			"description": "Salto avant carp\u00e9 ou tendu, aussi avec \u00bd t.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.45": {
+			"id": "4.45",
+			"description": "De la suspension sur l\u2019extr\u00e9mit\u00e9, double salto arri\u00e8re group\u00e9.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		}
+	},
+	"high bar": {
+		"1.8": {
+			"id": "1.8",
+			"description": "\u00c9lanc\u00e9 en arri\u00e8re et pirouette \u00e0 la suspension.",
+			"group_number": "1",
+			"group_name": "Longs \u00e9lans en suspension et rotations ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.26": {
+			"id": "1.26",
+			"description": "Grand tour avant d\u2019un bras prise palmaire (360\u00b0).",
+			"group_number": "1",
+			"group_name": "Longs \u00e9lans en suspension et rotations ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.50": {
+			"id": "1.50",
+			"description": "Grand tour arri\u00e8re saut\u00e9 avec \u00bd t. en pr. cub.",
+			"group_number": "1",
+			"group_name": "Longs \u00e9lans en suspension et rotations ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.75": {
+			"id": "1.75",
+			"description": "Grand tour cub. avec 1/1 t. par l\u2019app. renvs. pr. mx.",
+			"group_number": "1",
+			"group_name": "Longs \u00e9lans en suspension et rotations ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.2": {
+			"id": "2.2",
+			"description": "\u00c9tablissement arri\u00e8re en pass. les jambes \u00e9car- t\u00e9es en avant \u00e0 la suspension dorsale",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments volants ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"2.36": {
+			"id": "2.36",
+			"description": "Piatti tendu avec 1/1 tour.",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments volants ",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.57": {
+			"id": "2.57",
+			"description": "\u00c9lanc\u00e9 en av. et salto arr. ca. avec \u00bd t. \u00e0 la susp.",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments volants ",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.82": {
+			"id": "2.82",
+			"description": "Salto arri\u00e8re \u00bd t. groupe par-dessus la barre.",
+			"group_number": "2",
+			"group_name": "\u00c9l\u00e9ments volants ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.1": {
+			"id": "3.1",
+			"description": "Bascule d\u2019\u00e9lan \u00e0 l\u2019appui renvers\u00e9 ou de la prise mixte bascule \u00e0 l\u2019appui renvers\u00e9.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments pr\u00e8s de la barre et \u00e9l\u00e9ments adler ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.41": {
+			"id": "3.41",
+			"description": "Stalder avec 3/2 tour saute par l\u2019appui renvers\u00e9 prise cub.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments pr\u00e8s de la barre et \u00e9l\u00e9ments adler ",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.70": {
+			"id": "3.70",
+			"description": "\u00c9lan circulaire Adler avec saut\u00e9 par l\u2019appui renvers\u00e9 prise palmaire ou prise dorsal ou prise mixte.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments pr\u00e8s de la barre et \u00e9l\u00e9ments adler ",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.79": {
+			"id": "3.79",
+			"description": "\u00c9lan. en arri\u00e8re \u00e0 la suspension dorsale.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments pr\u00e8s de la barre et \u00e9l\u00e9ments adler ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.104": {
+			"id": "3.104",
+			"description": "\u00c9lan circ. carp\u00e9 en av. et pass. \u00e9c. par l\u2019appui renv.",
+			"group_number": "3",
+			"group_name": "\u00c9l\u00e9ments pr\u00e8s de la barre et \u00e9l\u00e9ments adler ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.1": {
+			"id": "4.1",
+			"description": "Salto avant carp\u00e9 ou tendu, aussi avec \u00bd t.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.26": {
+			"id": "4.26",
+			"description": "Salto arri\u00e8re tendu avec 3/2 ou 2/1 t.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.50": {
+			"id": "4.50",
+			"description": "Double salto arri\u00e8re gr. par-dessus de la barre.",
+			"group_number": "4",
+			"group_name": "Sorties ",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		}
+	}
+}

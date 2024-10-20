@@ -1,0 +1,5968 @@
+{
+	"vault": {
+		"1.00": {
+			"id": "1.00",
+			"description": "Handspring fwd",
+			"value": 1.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "TA",
+			"type": "acrobatic"
+		},
+		"1.01": {
+			"id": "1.01",
+			"description": "Handspring fwd on \u2013 \u00bd turn (180\u00b0) off",
+			"value": 2.0,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "TA",
+			"type": "acrobatic"
+		},
+		"1.02": {
+			"id": "1.02",
+			"description": "Handspring fwd on \u2013 1/1 turn (360\u00b0) off",
+			"value": 2.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "TA",
+			"type": "acrobatic"
+		},
+		"1.03": {
+			"id": "1.03",
+			"description": "Handspring fwd on \u2013 1\u00bd turn (540\u00b0) off  (Kim)",
+			"value": 3.2,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "TA",
+			"type": "acrobatic"
+		},
+		"1.04": {
+			"id": "1.04",
+			"description": "Handspring fwd on \u2013 2/1 turn (720\u00b0) off",
+			"value": 3.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "TA",
+			"type": "acrobatic"
+		},
+		"1.05": {
+			"id": "1.05",
+			"description": "Handspring fwd on \u2013 2\u00bd turn (900\u00b0) off",
+			"value": 4.0,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "TA",
+			"type": "acrobatic"
+		},
+		"1.10": {
+			"id": "1.10",
+			"description": "Yamashita",
+			"value": 2.0,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"1.11": {
+			"id": "1.11",
+			"description": "Yamashita with \u00bd turn (180\u00b0) off",
+			"value": 2.4,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"1.12": {
+			"id": "1.12",
+			"description": "Yamashita with 1/1 turn (360\u00b0) off",
+			"value": 2.8,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"1.20": {
+			"id": "1.20",
+			"description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 repulsion off",
+			"value": 1.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"1.21": {
+			"id": "1.21",
+			"description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 \u00bd turn (180\u00b0) off (in either direction)",
+			"value": 2.4,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"1.22": {
+			"id": "1.22",
+			"description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 1/1 turn (360\u00b0) off",
+			"value": 2.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"1.23": {
+			"id": "1.23",
+			"description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 1\u00bd turn (540\u00b0) off",
+			"value": 3.2,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"1.24": {
+			"id": "1.24",
+			"description": "Handspring fwd with \u00bd turn (180\u00b0) on \u2013 2/1 turn (720\u00b0) off",
+			"value": 3.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"1.30": {
+			"id": "1.30",
+			"description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 Handspring fwd off",
+			"value": 3.2,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"1.31": {
+			"id": "1.31",
+			"description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 1/1 turn (360\u00b0) off  (Korbut)",
+			"value": 3.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"1.40": {
+			"id": "1.40",
+			"description": "Round-off, flic-flac on \u2013 repulsion off",
+			"value": 2.0,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "D",
+			"type": "acrobatic"
+		},
+		"1.50": {
+			"id": "1.50",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 Handspring fwd off",
+			"value": 2.2,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"1.51": {
+			"id": "1.51",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013\u00bd turn (180\u00b0) off",
+			"value": 2.6,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"1.52": {
+			"id": "1.52",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 1/1 turn (360\u00b0) off",
+			"value": 3.0,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"1.53": {
+			"id": "1.53",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 1\u00bd turn (540\u00b0) off",
+			"value": 3.4,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"1.60": {
+			"id": "1.60",
+			"description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on \u2013 repulsion off",
+			"value": 2.4,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "F",
+			"type": "acrobatic"
+		},
+		"1.61": {
+			"id": "1.61",
+			"description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on \u2013 \u00bd turn (180\u00b0) off",
+			"value": 2.8,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "F",
+			"type": "acrobatic"
+		},
+		"1.62": {
+			"id": "1.62",
+			"description": "Round-off, flic-flac with 1/1 turn (360\u00b0) on \u20131/1 turn (360\u00b0) off",
+			"value": 3.2,
+			"group_number": "1",
+			"group_name": "Handspring, yamashita, round-off with or without la turn in 1st and/or 2nd flight phase",
+			"difficulty": "F",
+			"type": "acrobatic"
+		},
+		"2.10": {
+			"id": "2.10",
+			"description": "Handspring fwd on \u2013 tucked salto fwd off",
+			"value": 3.6,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"2.11": {
+			"id": "2.11",
+			"description": "Handspring fwd on \u2013 tucked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and tucked salto bwd off",
+			"value": 3.8,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"2.12": {
+			"id": "2.12",
+			"description": "Handspring fwd on \u2013 tucked salto fwd with 1/1 twist (360\u00b0) off",
+			"value": 4.2,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"2.13": {
+			"id": "2.13",
+			"description": "Handspring fwd on \u2013 tucked salto fwd with 1\u00bd twist (540\u00b0) off",
+			"value": 4.6,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"2.20": {
+			"id": "2.20",
+			"description": "Handspring fwd on \u2013 piked salto fwd off",
+			"value": 3.8,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"2.21": {
+			"id": "2.21",
+			"description": "Handspring fwd on \u2013 piked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and piked salto bwd off",
+			"value": 4.0,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"2.22": {
+			"id": "2.22",
+			"description": "Handspring fwd on \u2013 piked salto fwd with 1/1 twist (360\u00b0) off (Chusovitina)",
+			"value": 4.4,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"2.30": {
+			"id": "2.30",
+			"description": "Handspring fwd on \u2013 stretched salto fwd off (Evdokimova)",
+			"value": 4.4,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"2.31": {
+			"id": "2.31",
+			"description": "Handspring fwd on \u2013 stretched salto fwd with \u00bd twist (180\u00b0) off (Wang)",
+			"value": 4.6,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"2.32": {
+			"id": "2.32",
+			"description": "Handspring fwd on \u2013 stretched salto fwd with 1/1 twist (360\u00b0) off",
+			"value": 5.0,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"2.33": {
+			"id": "2.33",
+			"description": "Handspring fwd on \u2013 stretched salto fwd with 1\u00bd twist (540\u00b0) off (Chusovitina)",
+			"value": 5.4,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"2.34": {
+			"id": "2.34",
+			"description": "Handspring fwd on \u2013 stretched salto fwd with 2/1 twist (720\u00b0) off (Yeo)",
+			"value": 5.8,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"2.40": {
+			"id": "2.40",
+			"description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 tucked salto fwd off  (Davydova)",
+			"value": 4.8,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "D",
+			"type": "acrobatic"
+		},
+		"2.41": {
+			"id": "2.41",
+			"description": "Handspring fwd with 1/1 turn (360\u00b0) on \u2013 piked salto fwd off",
+			"value": 5.2,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "D",
+			"type": "acrobatic"
+		},
+		"2.50": {
+			"id": "2.50",
+			"description": "Handspring fwd on \u2013 tucked double salto fwd off  (Produnova)",
+			"value": 6.0,
+			"group_number": "2",
+			"group_name": "Handspring fwd with/without 1/1 turn (360\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without la twist in 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"3.10": {
+			"id": "3.10",
+			"description": "Tsukahara tucked  (Tourischeva)",
+			"value": 3.2,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"3.11": {
+			"id": "3.11",
+			"description": "Tsukahara tucked with \u00bd twist (180\u00b0) off",
+			"value": 3.4,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"3.12": {
+			"id": "3.12",
+			"description": "Tsukahara tucked with 1/1 twist (360\u00b0) off (Kim)",
+			"value": 3.8,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"3.13": {
+			"id": "3.13",
+			"description": "Tsukahara tucked with 1\u00bd twist (540\u00b0) off",
+			"value": 4.2,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"3.14": {
+			"id": "3.14",
+			"description": "Tsukahara tucked with 2/1 twist (720\u00b0) off",
+			"value": 4.6,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"3.20": {
+			"id": "3.20",
+			"description": "Tsukahara piked",
+			"value": 3.4,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"3.30": {
+			"id": "3.30",
+			"description": "Tsukahara stretched",
+			"value": 3.8,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"3.31": {
+			"id": "3.31",
+			"description": "Tsukahara stretched with \u00bd twist (180\u00b0) off",
+			"value": 4.0,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"3.32": {
+			"id": "3.32",
+			"description": "Tsukahara stretched with 1/1 twist (360\u00b0) off  (Kim)",
+			"value": 4.4,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"3.33": {
+			"id": "3.33",
+			"description": "Tsukahara stretched with 1\u00bd twist (540\u00b0) off",
+			"value": 4.8,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"3.34": {
+			"id": "3.34",
+			"description": "Tsukahara stretched with 2/1 twist (720\u00b0) off  (Zamolodchikova)",
+			"value": 5.2,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"3.35": {
+			"id": "3.35",
+			"description": "Tsukahara stretched with 2\u00bd twist (900\u00b0) off",
+			"value": 5.6,
+			"group_number": "3",
+			"group_name": "Handspring with \u00bc ",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.10": {
+			"id": "4.10",
+			"description": "Round-off, flic-flac on \u2013 tucked salto bwd off (Yurchenko)",
+			"value": 3.0,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"4.11": {
+			"id": "4.11",
+			"description": "Round-off, flic-flac on \u2013 tucked salto bwd with \u00bd twist (180\u00b0) off",
+			"value": 3.2,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"4.12": {
+			"id": "4.12",
+			"description": "Round-off, flic-flac on - tucked salto bwd with 1/1 twist (360\u00b0) off",
+			"value": 3.6,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"4.13": {
+			"id": "4.13",
+			"description": "Round-off, flic-flac on \u2013 tucked salto bwd with 1\u00bd twist (540\u00b0) off",
+			"value": 4.0,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"4.14": {
+			"id": "4.14",
+			"description": "Round-off, flic-flac on \u2013 tucked salto bwd with 2/1 twist (720\u00b0) off (Dungelova)",
+			"value": 4.4,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"4.20": {
+			"id": "4.20",
+			"description": "Round-off, flic-flac on \u2013 piked salto bwd off",
+			"value": 3.2,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"4.30": {
+			"id": "4.30",
+			"description": "Round-off, flic-flac on \u2013 stretched salto bwd off",
+			"value": 3.6,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.31": {
+			"id": "4.31",
+			"description": "Round-off, flic-flac on \u2013 stretched salto bwd with \u00bd twist (180\u00b0) off",
+			"value": 3.8,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.32": {
+			"id": "4.32",
+			"description": "Round-off, flic-flac on \u2013 stretched salto bwd with 1/1 twist (360\u00b0) off",
+			"value": 4.2,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.33": {
+			"id": "4.33",
+			"description": "Round-off, flic-flac on \u2013 stretched salto bwd with 1\u00bd twist (540\u00b0) off",
+			"value": 4.6,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.34": {
+			"id": "4.34",
+			"description": "Round-off, flic-flac on \u2013 stretched salto bwd with 2/1 twist (720\u00b0) off (Baitova)",
+			"value": 5.0,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.35": {
+			"id": "4.35",
+			"description": "Round-off, flic-flac on \u2013stretched salto bwd with 2\u00bd twist (900\u00b0) off  (Amanar)",
+			"value": 5.4,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "C",
+			"type": "acrobatic"
+		},
+		"4.40": {
+			"id": "4.40",
+			"description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 tucked salto bwd off (Luconi)",
+			"value": 3.6,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "D",
+			"type": "acrobatic"
+		},
+		"4.41": {
+			"id": "4.41",
+			"description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 tucked salto bwd with \u00bd twist (180\u00b0) off",
+			"value": 4.0,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "D",
+			"type": "acrobatic"
+		},
+		"4.42": {
+			"id": "4.42",
+			"description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 tucked salto bwd with 1/1 twist (360\u00b0) off",
+			"value": 4.2,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "D",
+			"type": "acrobatic"
+		},
+		"4.50": {
+			"id": "4.50",
+			"description": "Round-off, flic-flac \u00be turn (270\u00b0) on \u2013 piked salto bwd off",
+			"value": 3.8,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"4.51": {
+			"id": "4.51",
+			"description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 stretched salto bwd off",
+			"value": 4.2,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"4.52": {
+			"id": "4.52",
+			"description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 stretched salto bwd with \u00bd twist (180\u00b0) off",
+			"value": 4.6,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"4.53": {
+			"id": "4.53",
+			"description": "Round-off, flic-flac with \u00be turn (270\u00b0) on \u2013 stretched salto bwd with 1/1 twist (360\u00b0) off",
+			"value": 5.0,
+			"group_number": "4",
+			"group_name": "Round-off (yurchenko) with/wo \u00be turn (270\u00b0) in 1st flight phase \u2013 salto bwd with/without twist in 2nd flight phase",
+			"difficulty": "E",
+			"type": "acrobatic"
+		},
+		"5.10": {
+			"id": "5.10",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 tucked salto fwd off (Ivantcheva)",
+			"value": 3.8,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"5.11": {
+			"id": "5.11",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 tucked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and tucked salto bwd off  (Servente)",
+			"value": 4.0,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"5.12": {
+			"id": "5.12",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 tucked salto fwd with 1/1 twist (360\u00b0) off",
+			"value": 4.4,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"5.13": {
+			"id": "5.13",
+			"description": "Round-off flic-flac with \u00bd turn (180\u00b0) on - tucked salto fwd with 1\u00bd twist (540\u00b0) off (Khorkina)",
+			"value": 4.8,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "A",
+			"type": "acrobatic"
+		},
+		"5.20": {
+			"id": "5.20",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 piked salto fwd off (Omelianchik)",
+			"value": 4.0,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"5.21": {
+			"id": "5.21",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 piked salto fwd with \u00bd twist (180\u00b0) off, also \u2013 \u00bd turn (180\u00b0) and piked salto bwd off (Podkopayeva)",
+			"value": 4.2,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		},
+		"5.22": {
+			"id": "5.22",
+			"description": "Round-off, flic-flac with \u00bd turn (180\u00b0) on \u2013 piked salto fwd with 1/1 twist (360\u00b0) off",
+			"value": 4.6,
+			"group_number": "5",
+			"group_name": "Round-off with \u00bd turn (180\u00b0) in 1st flight phase \u2013 salto fwd/bwd with/without twist in 2nd flight phase",
+			"difficulty": "B",
+			"type": "acrobatic"
+		}
+	},
+	"uneven bars": {
+		"1.000": {
+			"id": "1.000",
+			"description": "\u028a MOUNTS UB \u2013 Group 1 - 6 A B C D E F/G",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.101": {
+			"id": "1.101",
+			"description": "Glide Kip to support on LB, or Glide with \u00bd turn (180\u00b0) kip to support on LB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.201": {
+			"id": "1.201",
+			"description": "1.301",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.401": {
+			"id": "1.401",
+			"description": "1.501",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.601": {
+			"id": "1.601",
+			"description": "1.102 Jump with \u00bd turn (180\u00b0) kip to support on LB Jump with \u00bd turn (180\u00b0) stoop through to rear support on LB (back kip)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.202": {
+			"id": "1.202",
+			"description": "Jump with 1/1 turn (360\u00b0) and Glide kip to support on LB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.302": {
+			"id": "1.302",
+			"description": "1.402",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.502": {
+			"id": "1.502",
+			"description": "1.602 ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.103": {
+			"id": "1.103",
+			"description": "Glide on LB (or swing fwd on HB) and stoop through to rear support (back kip); or straddle cut bwd to hang on same bar",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.203": {
+			"id": "1.203",
+			"description": "Reverse kip from: \u2013 glide fwd on LB \u2013 swing fwd on HB \u2013 stoop through to kip hang, back kip swing, seat (pike) circle bwd to rear support",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.303": {
+			"id": "1.303",
+			"description": "1.403",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.503": {
+			"id": "1.503",
+			"description": "1.603",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.104": {
+			"id": "1.104",
+			"description": "Jump to hang on HB \u2013 also with reverse grip \u2013 kip to support",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.204": {
+			"id": "1.204",
+			"description": "Facing HB \u2013 Jump with \u00bd turn (180\u00b0) \u2013 kip to support on HB  Free jump with \u00bd turn (180\u00b0) over LB to hang on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.304": {
+			"id": "1.304",
+			"description": "Jump with \u00bd turn (180\u00b0) over LB \u2013 kip to support on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.404": {
+			"id": "1.404",
+			"description": "1.504",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.604": {
+			"id": "1.604",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.105": {
+			"id": "1.105",
+			"description": "Facing HB \u2013 jump with 1/1 turn (360\u00b0) to hang on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.205": {
+			"id": "1.205",
+			"description": "1.305",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.405": {
+			"id": "1.405",
+			"description": "1.505",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.605": {
+			"id": "1.605",
+			"description": "1.106 Straddle vault with hand repulsion over LB to catch HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.206": {
+			"id": "1.206",
+			"description": "Free straddle jump over LB to hang on HB Hecht jump (legs together) with hand repulsion over LB to hang on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.306": {
+			"id": "1.306",
+			"description": "Free stretch jump over LB with legs together to hang on HB  (Makhautsova)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.406": {
+			"id": "1.406",
+			"description": "Hecht jump (legs together) with hand repulsion and 1/1 turn (360\u00b0) over LB to hang on HB  (Gebeshian)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.506": {
+			"id": "1.506",
+			"description": "1.606 ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.107": {
+			"id": "1.107",
+			"description": "1.207 Salto fwd tucked, piked or straddled over LB into L hang on LB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.307": {
+			"id": "1.307",
+			"description": "Facing HB \u2013 salto fwd to hang on HB Roll fwd piked with hand repulsion over LB with flight to hang on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.407": {
+			"id": "1.407",
+			"description": "Salto fwd tucked over LB to hang on HB without touching LB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.507": {
+			"id": "1.507",
+			"description": "1.607",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.108": {
+			"id": "1.108",
+			"description": "1.208 Round-off in front of LB \u2013 flight bwd (straddled) through clear straddle support on LB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.308": {
+			"id": "1.308",
+			"description": "Round-off in front of LB \u2013 flight bwd over LB with legs together or straddled to hang on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.408": {
+			"id": "1.408",
+			"description": "Round-off in front of LB \u2013 flight bwd over LB with 1/1 turn (360\u00b0) to hang on HB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.508": {
+			"id": "1.508",
+			"description": "1.608 ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.109": {
+			"id": "1.109",
+			"description": "1.209",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.309": {
+			"id": "1.309",
+			"description": "1.409 Round-off in front of LB \u2013 tucked salto bwd over LB to hang on LB (Jentsch) Round-off in front of LB, flic-flac through hstd phase on LB  (Gonz\u00e1lez)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.509": {
+			"id": "1.509",
+			"description": "Round-off in front of LB, flic-flac with 1/1 turn (360\u00b0) to clear support or through hstd phase on LB  (Gurova)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.609": {
+			"id": "1.609",
+			"description": "Round-off in front of LB \u2013 tucked arabian salto over LB to hang on HB without touching the LB",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.709": {
+			"id": "1.709",
+			"description": "Round-off in front of LB \u2013 piked arabian salto over LB to hang on HB without touching the LB  ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"1.110": {
+			"id": "1.110",
+			"description": "1.210 Jump to hstd on LB with hips bent, then extended, also with \u00bd turn (180\u00b0) in hstd phase, legs together or straddle",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.310": {
+			"id": "1.310",
+			"description": "Jump to hstd on LB with hips bent, then extended and 1/1 turn (360\u00b0) in hstd phase, legs together or straddle  Jump with extended body to hstd on LB also with \u00bd turn (180\u00b0)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.410": {
+			"id": "1.410",
+			"description": "Jump with extended body to hstd on LB with 1/1 turn (360\u00b0) in hstd phase (Maaranen)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.510": {
+			"id": "1.510",
+			"description": "1.610",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.111": {
+			"id": "1.111",
+			"description": "1.211",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.311": {
+			"id": "1.311",
+			"description": "1.411 Jump to clear support on HB \u2013 clear hip circle to hstd on HB, also with \u00bd turn (180\u00b0) in hstd phase on HB  (McNamara) 1. 511",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.611": {
+			"id": "1.611",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.000": {
+			"id": "2.000",
+			"description": "\u2013 CASTS AND CLEAR HIP CIRCLES UB \u2013 Group 2 - 4 A B C D E F/G",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.101": {
+			"id": "2.101",
+			"description": "Cast to hstd with legs straddled or with hips bent; also with hop-grip change",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.201": {
+			"id": "2.201",
+			"description": "Cast to hstd with legs together and hips extended; also with hop-grip change, also with \u00bd turn (180\u00b0) legs together or straddled",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"2.301": {
+			"id": "2.301",
+			"description": "Cast with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.401": {
+			"id": "2.401",
+			"description": "Cast with 1\u00bd turn (540\u00b0) to hstd  (Reeder)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.501": {
+			"id": "2.501",
+			"description": "2.601",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.102": {
+			"id": "2.102",
+			"description": "2.202 Front support on HB \u2013 stoop with flight or free straddle fwd over HB and \u00bd turn (180\u00b0) to hang on HB",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.302": {
+			"id": "2.302",
+			"description": "Hip circle bwd hecht with flight and \u00bd turn (180\u00b0) passing over bar to hang on same bar \u2013 also from clear hip circle bwd",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.402": {
+			"id": "2.402",
+			"description": "2.502",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.602": {
+			"id": "2.602",
+			"description": "",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.103": {
+			"id": "2.103",
+			"description": "2. 203",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.303": {
+			"id": "2.303",
+			"description": "From front support on HB \u2013 swing bwd with release and 1/1 turn (360\u00b0) to hang on HB (Caslavska)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.403": {
+			"id": "2.403",
+			"description": "From inner front support on LB \u2013 cast with salto roll fwd to hang on HB (Radochla roll)  (Radochla)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.503": {
+			"id": "2.503",
+			"description": "Front support on HB \u2013 cast with salto fwd straddled to hang on HB (Comaneci salto)  (Comaneci)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.603": {
+			"id": "2.603",
+			"description": "2.104 Hip circle fwd (hips touching bar)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.204": {
+			"id": "2.204",
+			"description": "2.304",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"2.404": {
+			"id": "2.404",
+			"description": "Clear hip circle fwd to hstd, also with \u00bd turn (180\u00b0) in hstd phase (Weiler-kip)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.504": {
+			"id": "2.504",
+			"description": "2.604 ",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.105": {
+			"id": "2.105",
+			"description": "Hip circle bwd (hips touching bar)  Clear hip circle bwd or hip circle bwd on LB \u2013 hip repulsion (\u201cfalse-pop\u201d) \u2013 with regrasp on LB",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.205": {
+			"id": "2.205",
+			"description": "2.305 Clear hip circle to hstd, also with hop-grip change in hstd phase, or with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"2.405": {
+			"id": "2.405",
+			"description": "Clear hip circle with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.505": {
+			"id": "2.505",
+			"description": "Clear hip circle with 1\u00bd turn (540\u00b0) to hstd",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.605": {
+			"id": "2.605",
+			"description": "",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.106": {
+			"id": "2.106",
+			"description": "2.206 Clear underswing on LB, release and counter movement fwd in flight to hang on HB.",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.306": {
+			"id": "2.306",
+			"description": "2.406 Inner front support on LB \u2013 clear hip circle through hstd with flight to hang on HB (Shaposhnikova)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.506": {
+			"id": "2.506",
+			"description": "Clear hip circle on HB, counter straddle over HB to hang on HB  (Hindorff) Clear hip circle through hstd with \u00bd turn (180\u00b0) in flight to hang on HB (Khorkina)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"2.606": {
+			"id": "2.606",
+			"description": "Clear hip circle on HB, counter pike over HB to hang on HB  (Shang) Clear hip circle on HB with counter straddle over the HB with \u00bd turn (180\u00b0) to hang in mixed L-grip  (Martins)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.107": {
+			"id": "2.107",
+			"description": "2.207",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"2.307": {
+			"id": "2.307",
+			"description": "Outer front support \u2013 clear hip circle bwd on LB with hecht to hang on HB  (Yarotska)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"2.407": {
+			"id": "2.407",
+			"description": "Outer front support \u2013 clear hip circle bwd on LB with hecht with \u00bd turn (180\u00b0) to hang on HB (legs together or straddled)",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"2.507": {
+			"id": "2.507",
+			"description": "2.607  \u0003\u0003 ",
+			"group_number": "2",
+			"group_name": "Casts and clear hip circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.000": {
+			"id": "3.000",
+			"description": "\u028a GIANT CIRCLES UB \u2013 Group 3 - 6 A B C D E F",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.101": {
+			"id": "3.101",
+			"description": "3.201 Giant circle bwd in regular grip, or on one arm (Liu), also with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.301": {
+			"id": "3.301",
+			"description": "Giant circle bwd with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.401": {
+			"id": "3.401",
+			"description": "Giant circle bwd with 1\u00bd or 2/1 turn (540\u00b0 or 720\u00b0) to hstd, also with hop 1/1 turn (360\u00b0) to hstd (Chusovitina)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.501": {
+			"id": "3.501",
+			"description": "3.601",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.102": {
+			"id": "3.102",
+			"description": "3.202",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.302": {
+			"id": "3.302",
+			"description": "3.402 Hang on HB \u00b1 Swing fwd with \u00bd turn (180\u00b0) and flight to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.502": {
+			"id": "3.502",
+			"description": "Hang on HB \u00b1 Swing fwd with 1\u00bd turn (540\u00b0) and flight over LB to hang on LB  (Strong)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.602": {
+			"id": "3.602",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.103": {
+			"id": "3.103",
+			"description": "3.203",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.303": {
+			"id": "3.303",
+			"description": "3.403 Long swing fwd, counter straddle-reverse hecht over HB to hang (Tkatchev) (Davydova)  Swing fwd with \u00bd turn (180\u00b0), pike vault over HB to hang  (Monckton)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.503": {
+			"id": "3.503",
+			"description": "Tkatchev piked  Tkatchev with \u00bd turn (180\u00b0)  (Kononenko) Long swing fwd with \u00bd turn (180\u00b0) - \u00bd turn (180\u00b0) to counter straddle in flight over HB to hang  (Shushunova)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.603": {
+			"id": "3.603",
+			"description": "3.104",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.204": {
+			"id": "3.204",
+			"description": "3.304 Hang on HB, facing LB \u00b1 swing fwd and roll bwd (legs straddled) to clear support on LB",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.404": {
+			"id": "3.404",
+			"description": "Hang on HB, facing LB \u00b1 swing fwd, salto bwd stretched between bars to clear support on LB (Pak)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.504": {
+			"id": "3.504",
+			"description": "Pak Salto with 1/1 turn (360\u00b0) (Bhardwaj)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.604": {
+			"id": "3.604",
+			"description": "Facing outward on HB - swing fwd and counter salto fwd with legs straddled to catch HB in reverse grip ",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.105": {
+			"id": "3.105",
+			"description": "3.205",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.305": {
+			"id": "3.305",
+			"description": "3.405 Swing fwd with \u00bd turn (180\u00b0) and salto fwd straddled (Deltchev Salto), or swing fwd and salto bwd with \u00bd turn (180\u00b0) piked (Gienger Salto) \u00b1 to hang on HB",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.505": {
+			"id": "3.505",
+			"description": "Swing fwd and salto bwd with \u00bd turn (180\u00b0) stretched to hang on HB",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.605": {
+			"id": "3.605",
+			"description": "3.705 Swing fwd and salto bwd stretched with 1\u00bd turn (540\u00b0) to hang on HB (Hristakieva) ",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.106": {
+			"id": "3.106",
+			"description": "3.206 Giant circle fwd in reverse, regular or mix grip, also with legs straddled or hips bent in upswing phase; also with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.306": {
+			"id": "3.306",
+			"description": "Giant circle fwd with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.406": {
+			"id": "3.406",
+			"description": "3.506 Giant circle fwd in reverse grip to hstd with initiation of 1/1 turn (360\u00b0) on one arm before hstd phase, or giant circle fwd in reverse grip with 1\u00bd turn (540\u00b0) to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.606": {
+			"id": "3.606",
+			"description": "3.107",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.207": {
+			"id": "3.207",
+			"description": "3.307 Swing bwd \u00b1 straddle flight bwd over LB to hstd on LB",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.407": {
+			"id": "3.407",
+			"description": "Swing bwd release and \u00bd turn (180\u00b0) in flight between the bars to clear support on LB (Ejova)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.507": {
+			"id": "3.507",
+			"description": "3.607  ",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.108": {
+			"id": "3.108",
+			"description": "3.208",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.308": {
+			"id": "3.308",
+			"description": "Swing bwd salto fwd tucked to hang on HB (Jaeger-Salto)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.408": {
+			"id": "3.408",
+			"description": "Jaeger Salto straddled to hang on HB  Jaeger Salto piked to hang on HB",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.508": {
+			"id": "3.508",
+			"description": "Jaeger Salto straddled with \u00bd turn (180\u00b0) to hang on HB (Li Ya)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.608": {
+			"id": "3.608",
+			"description": "Jaeger Salto stretched to hang on HB  (Cappuccitti)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.708": {
+			"id": "3.708",
+			"description": "Swing bwd with salto fwd tucked over HB to hang on HB (Mo)  ",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"3.109": {
+			"id": "3.109",
+			"description": "3.209",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.309": {
+			"id": "3.309",
+			"description": "Swing bwd with free stoop or straddle vault and \u00bd turn (180\u00b0) over HB to hang  (Zhang / Volpi)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.409": {
+			"id": "3.409",
+			"description": "Swing bwd with \u00bd turn (180\u00b0) and straddle flight bwd over HB to catch HB",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.509": {
+			"id": "3.509",
+			"description": "3.609",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.110": {
+			"id": "3.110",
+			"description": "3.210",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.310": {
+			"id": "3.310",
+			"description": "Giant circle fwd in L grip with piked or stretched body (L grip giant), also with \u00bd turn (180\u00b0) to hstd  (Zaytseva)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.410": {
+			"id": "3.410",
+			"description": "Giant circle fwd in L grip with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"3.510": {
+			"id": "3.510",
+			"description": "Giant circle fwd in L grip with initiation of 1/1 turn (360\u00b0) on 1 arm before hstd phase, completed to hstd, or Giant circle fwd in L grip with 1\u00bd turn (540\u00db) WR hVWd (any technique accepted)",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"3.610": {
+			"id": "3.610",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Giant circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.000": {
+			"id": "4.000",
+			"description": "\u2014 STALDER CIRCLES UB \u2013 Group 4 - 4 A B C D E F/G",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.101": {
+			"id": "4.101",
+			"description": "Clear straddle circle fwd to clear support",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.201": {
+			"id": "4.201",
+			"description": "Kip on HB, passing through clear straddle support \u2013 swing/press to hstd and \u00bd turn (180\u00b0) in hstd phase",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.301": {
+			"id": "4.301",
+			"description": "Stalder fwd to hstd, also with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.401": {
+			"id": "4.401",
+			"description": "Stalder fwd with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.501": {
+			"id": "4.501",
+			"description": "4.601",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.102": {
+			"id": "4.102",
+			"description": "4.202",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.302": {
+			"id": "4.302",
+			"description": "Clear straddle circle bwd on HB with flight to clear support on LB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.402": {
+			"id": "4.402",
+			"description": "Clear straddle circle bwd on HB with flight fwd to hstd on LB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.502": {
+			"id": "4.502",
+			"description": "Stalder bwd on HB with counter straddle - reverse hecht over HB to hang  (Ricna)",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.602": {
+			"id": "4.602",
+			"description": "Stalder bwd on HB with counter pike - reverse hecht over HB to hang (Downie) Stalder bwd on HB with counter straddle reverse hecht over HB with \u00bd (180\u00b0) turn to hang in mixed L-grip (Derwael / Fenton) ",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.103": {
+			"id": "4.103",
+			"description": "Clear straddle circle fwd in L grip to clear support",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.203": {
+			"id": "4.203",
+			"description": "4.303",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.403": {
+			"id": "4.403",
+			"description": "Stalder fwd in L grip to hstd, also with \u00bd turn (180\u00b0) to hstd  (White)",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.503": {
+			"id": "4.503",
+			"description": "Stalder fwd in L grip with 1/1 turn (360\u00b0) to hstd (any technique accepted)",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.603": {
+			"id": "4.603",
+			"description": "4.104 Clear straddle circle bwd to clear support",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.204": {
+			"id": "4.204",
+			"description": "4.304 Stalder bwd to hstd, also with hop-grip change in hstd phase or with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.404": {
+			"id": "4.404",
+			"description": "Stalder bwd with 1/1 turn (360\u00b0) to hstd (Frederick)",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.504": {
+			"id": "4.504",
+			"description": "Stalder bwd with 1\u00bd turn (540\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.604": {
+			"id": "4.604",
+			"description": "",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.105": {
+			"id": "4.105",
+			"description": "4.205 Facing inward \u2013 Stalder bwd with release and counter movement fwd in flight to hang on HB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.305": {
+			"id": "4.305",
+			"description": "Facing inward \u2013 Stalder bwd with hecht flight to hang on HB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.405": {
+			"id": "4.405",
+			"description": "Facing outward \u2013 Stalder bwd through hstd with flight to hang on HB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.505": {
+			"id": "4.505",
+			"description": "Stalder bwd through hstd with flight and \u00bd turn (180\u00b0), to hang on HB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.605": {
+			"id": "4.605",
+			"description": "4.106 Rear support \u2013 seat (pike) circle fwd to rear support",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.206": {
+			"id": "4.206",
+			"description": "4.306",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.406": {
+			"id": "4.406",
+			"description": "Clear pike circle fwd to hstd, also with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.506": {
+			"id": "4.506",
+			"description": "Clear pike circle fwd with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.606": {
+			"id": "4.606",
+			"description": "",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.107": {
+			"id": "4.107",
+			"description": "Rear support \u2013 seat (pike) circle bwd to rear support",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.207": {
+			"id": "4.207",
+			"description": "4.307",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.407": {
+			"id": "4.407",
+			"description": "Clear pike circle bwd to hstd, also with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.507": {
+			"id": "4.507",
+			"description": "Clear pike circle bwd with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.607": {
+			"id": "4.607",
+			"description": "4.108",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.208": {
+			"id": "4.208",
+			"description": "Clear pike circle bwd on LB with counter flight to hang on HB",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.308": {
+			"id": "4.308",
+			"description": "Clear pike circle bwd on LB with hecht flight to hang on HB (Zgoba)",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.408": {
+			"id": "4.408",
+			"description": "4.508 Clear pike circle bwd through hstd with flight to hang on HB, also with \u00bd turn (180\u00b0)  (Komova) Clear pike circle bwd with counter straddle (open hip before flight) \u2013 reverse Hecht over HB to hang (Galante)",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.608": {
+			"id": "4.608",
+			"description": "Clear pike circle bwd with counter pike \u2013 reverse Hecht over HB to hang ",
+			"group_number": "4",
+			"group_name": "Stalder circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.000": {
+			"id": "5.000",
+			"description": "\u028a PIKE CIRCLES UB \u2013 Group 5 - 6 A B C D E F/G",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.101": {
+			"id": "5.101",
+			"description": "Rear support on LB or HB \u2013 seat (pike) circle fwd with straddle cut bwd to hang on same bar",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.201": {
+			"id": "5.201",
+			"description": "5.301 Outer rear support on HB \u2013 fall bwd to inverted pike swing or seat (pike) circle fwd \u2013 straddle cut bwd with flight over LB to hang Rear support on LB - seat (pike) circle fwd with straddle cut bwd and grip change to hang on HB.",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.401": {
+			"id": "5.401",
+			"description": "5.501 Stoop in to Adler-seat (pike) circle fwd through clear extended support to finish in L grip (deviation up to 30\u00b0 allowed), also with \u00bd turn (180\u00b0)  (Luo)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.601": {
+			"id": "5.601",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.103": {
+			"id": "5.103",
+			"description": "5.203",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.303": {
+			"id": "5.303",
+			"description": "Clear rear pike support (legs together) on HB \u2013 full circle swing bwd with stoop out bwd to hang on HB (Li Li)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.403": {
+			"id": "5.403",
+			"description": "Clear rear pike support (legs together) on HB \u2013 full circle swing bwd with counter flight bwd straddled  (Li Li)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.503": {
+			"id": "5.503",
+			"description": "5.603",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.102": {
+			"id": "5.102",
+			"description": "5.202 Rear support on HB \u2013 seat circle bwd with release to hang on LB",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.302": {
+			"id": "5.302",
+			"description": "Clear rear pike support on HB (legs together) \u2013 full circle swing bwd to finish in clear rear support on HB (Steinemann circle)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.402": {
+			"id": "5.402",
+			"description": "Clear rear pike support on HB (legs together) \u2013 full circle swing bwd \u2013 continuing through clear rear pike support bwd over HB into hang  (Mirgoradskaja) From hstd clear pike circle bwd to rear inverted pike support  (Krasnyanska)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.502": {
+			"id": "5.502",
+			"description": "Clear rear pike support on HB (legs together) \u2013 circle swing bwd and continue to salto bwd stretched between bars to clear support on LB  (Teza) \u2013 circle swing bwd and \u00bd turn (180\u00b0) with flight to hstd on LB",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.602": {
+			"id": "5.602",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.104": {
+			"id": "5.104",
+			"description": "Underswing bwd (inverted pike swing), dislocate (Schleudern) to hang on HB",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.204": {
+			"id": "5.204",
+			"description": "5.304 Schleudern to near hstd with hop-change to regular grip on HB  Stoop trough on HB, dislocate and release with half (180\u00b0) turn in flight between the bars to catch LB in hang  (Alt)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.404": {
+			"id": "5.404",
+			"description": "Underswing bwd (inverted pike swing) on HB \u2013 dislocate with flight to hstd on LB (Zuchold-Schleudern) also from stoop through etc...",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.504": {
+			"id": "5.504",
+			"description": "5.604 ",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.105": {
+			"id": "5.105",
+			"description": "Sole circle forward (piked or straddle)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.205": {
+			"id": "5.205",
+			"description": "5.305 Pike sole circle fwd in reverse grip to hstd, also with \u00bd turn (180\u00b0) to hstd",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.405": {
+			"id": "5.405",
+			"description": "Pike sole circle fwd in reverse grip with 1/1 turn (360\u00b0) to hstd (Hoefnagel)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.505": {
+			"id": "5.505",
+			"description": "5.605",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.106": {
+			"id": "5.106",
+			"description": "Sole circle forward in L- grip (piked or straddle)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.206": {
+			"id": "5.206",
+			"description": "5.306 Pike sole circle fwd in L grip to hstd, also with \u00bd turn (180\u00b0)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.406": {
+			"id": "5.406",
+			"description": "Pike sole circle fwd in L grip with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.506": {
+			"id": "5.506",
+			"description": "5.606 ",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.107": {
+			"id": "5.107",
+			"description": "5.207 Underswing on LB (support of feet) with counter movement fwd in flight to hang on HB",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.307": {
+			"id": "5.307",
+			"description": "Underswing on HB or LB with hand release and 1\u00bd turn (540\u00b0) to hang (Burda)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.407": {
+			"id": "5.407",
+			"description": "5.507",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.607": {
+			"id": "5.607",
+			"description": "Facing outward on HB \u2013 underswing with support of feet-counter salto fwd straddled to catch on HB (Kim)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.108": {
+			"id": "5.108",
+			"description": "Sole circle bwd (piked or straddle)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.208": {
+			"id": "5.208",
+			"description": "5.308 Pike sole circle bwd to hstd, also with hop-grip change to reverse grip in hstd phase, also with \u00bd turn (180\u00b0)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.408": {
+			"id": "5.408",
+			"description": "Pike sole circle bwd with 1/1 turn (360\u00b0) to hstd",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.508": {
+			"id": "5.508",
+			"description": "Pike sole circle bwd with 1\u00bd turn (540\u00b0) to hstd  (Lucke)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.608": {
+			"id": "5.608",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.109": {
+			"id": "5.109",
+			"description": "5.209",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.309": {
+			"id": "5.309",
+			"description": "5.409 Inner front support on LB \u2013 pike sole circle bwd through hstd with flight to hang on HB (Maloney)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.509": {
+			"id": "5.509",
+			"description": "Facing outward on LB \u2013 pike sole circle bwd through hstd with flight and \u00bd turn (180\u00b0)  (Van Leeuwen), or 1/1 turn (360\u00b0) to hang on HB  (Seitz)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.110": {
+			"id": "5.110",
+			"description": "5.210",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.310": {
+			"id": "5.310",
+			"description": "5.410 Pike sole circle bwd counter straddle-reverse hecht over HB to hang  (Ray)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.510": {
+			"id": "5.510",
+			"description": "Pike sole circle bwd counter pike hecht over HB to hang  (Church)  Pike sole circle bwd with counter straddle hecht over HB with \u00bd turn (180\u00b0) to hang in mixed L-grip  (Tweddle)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.610": {
+			"id": "5.610",
+			"description": "Pike sole circle bwd with counter stretched \u2013 reverse hecht in layout position over HB to hang (Nabieva)",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.710": {
+			"id": "5.710",
+			"description": "Pike sole circle bwd with counter stretched \u2013 reverse hecht in layout position over HB, with \u00bd turn (180\u00b0) to hang in mixed L-grip  (Derwael) ",
+			"group_number": "5",
+			"group_name": "Pike circles",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"6.000": {
+			"id": "6.000",
+			"description": "DISMOUNTS UB \u2013 Group 6 - 6 A B C D E F/G",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.101": {
+			"id": "6.101",
+			"description": "From HB \u2013 underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.201": {
+			"id": "6.201",
+			"description": "From HB \u2013 underswing with salto fwd tucked or piked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.301": {
+			"id": "6.301",
+			"description": "From HB \u2013 underswing with salto fwd tucked or piked with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.401": {
+			"id": "6.401",
+			"description": "From HB \u2013 underswing with salto fwd tucked with 1\u00bd turn (540\u00b0)  From HB \u2013 underswing with salto fwd stretched with \u00bd turn (180\u00b0)  (Moors)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.501": {
+			"id": "6.501",
+			"description": "6.601",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.102": {
+			"id": "6.102",
+			"description": "From HB \u2013 clear underswing with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) to stand",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.202": {
+			"id": "6.202",
+			"description": "6.302 From HB \u2013 clear underswing with salto fwd tucked or piked also with \u00bd turn (180\u00b0) Clear straddle circle with salto fwd tucked  (Plichta) also with \u00bd (180\u00b0) turn  (Alt)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.402": {
+			"id": "6.402",
+			"description": "From HB \u2013 clear underswing with salto fwd tucked with 1/1 turn (360\u00b0)  Clear pike underswing to salto forward stretched with \u00bd turn (180\u00b0)  (Brunner)  From HB \u2013 clear straddle circle with salto fwd tucked with 1/1 twist (360\u00b0)  (Petz)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.502": {
+			"id": "6.502",
+			"description": "From HB \u2013 clear underswing with salto fwd tucked with 1\u00bd turn (540\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.602": {
+			"id": "6.602",
+			"description": "",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.103": {
+			"id": "6.103",
+			"description": "6.203",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.303": {
+			"id": "6.303",
+			"description": "From HB \u2013 underswing with \u00bd or clear underswing with \u00bd turn (180\u00b0) to salto bwd tucked or piked (Comaneci)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.403": {
+			"id": "6.403",
+			"description": "From HB \u2013 underswing with \u00bd turn (180\u00b0) to salto bwd stretched From HB \u2013 clear underswing with \u00bd turn (180\u00b0) to salto bwd stretched (Okino)  From HB \u2013 underswing with \u00bd turn (180\u00b0) to salto bwd tucked with 1/1 twist (360\u00b0) (Kraeker)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.503": {
+			"id": "6.503",
+			"description": "6.603 ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.104": {
+			"id": "6.104",
+			"description": "Swing fwd to salto bwd tucked, piked or stretched (flyaway)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.204": {
+			"id": "6.204",
+			"description": "Swing fwd to salto bwd tucked, or stretched with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0) (flyaway)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.304": {
+			"id": "6.304",
+			"description": "Swing fwd to salto bwd stretched with 1\u00bd turn (540\u00b0) or 2/1 turn (720\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.404": {
+			"id": "6.404",
+			"description": "Swing fwd to salto bwd stretched with 2\u00bd turn (900\u00b0)  (Ji)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.504": {
+			"id": "6.504",
+			"description": "Swing fwd to salto bwd stretched with 3/1 turn (1080\u00b0) (Bar)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.604": {
+			"id": "6.604",
+			"description": "",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.105": {
+			"id": "6.105",
+			"description": "6.205 Swing fwd to double salto bwd tucked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.305": {
+			"id": "6.305",
+			"description": "Swing fwd to double salto bwd piked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.405": {
+			"id": "6.405",
+			"description": "Swing fwd to double salto bwd tucked or piked with 1/1 turn (360\u00b0) in first or second salto (Morio / Chusovitina)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.505": {
+			"id": "6.505",
+			"description": "Swing fwd to double salto bwd tucked with 1\u00bd turn (540\u00b0)  (Mustafina)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.605": {
+			"id": "6.605",
+			"description": "Swing fwd to double salto bwd tucked with 2/1 turn (720\u00b0) (Fabrichnova)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.106": {
+			"id": "6.106",
+			"description": "6.206",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.306": {
+			"id": "6.306",
+			"description": "6.406 Swing fwd to double salto bwd stretched",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.506": {
+			"id": "6.506",
+			"description": "Swing fwd to double salto bwd stretched with 1/1 turn (360\u00b0) in first or second salto",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.606": {
+			"id": "6.606",
+			"description": "6.706  Swing fwd to double salto bwd stretched with 2/1 turn (720\u00b0) (Ray)  ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.107": {
+			"id": "6.107",
+			"description": "6.207",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.307": {
+			"id": "6.307",
+			"description": "6.407 Swing fwd to salto bwd tucked with \u00bd turn (180\u00b0) \u2013 into salto fwd tucked (Fontaine)  Swing fwd with \u00bd turn (180\u00b0) to double salto fwd tucked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.507": {
+			"id": "6.507",
+			"description": "Swing fwd to salto bwd stretched with \u00bd turn (180\u00b0) \u2013 into salto fwd stretched (Blanco) Swing fwd with \u00bd turn (180\u00b0) to double salto fwd piked  (Giovannini / Li Ya)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.607": {
+			"id": "6.607",
+			"description": "6.707  Swing fwd to triple salto bwd tucked  (Maga\u00f1a)  ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.108": {
+			"id": "6.108",
+			"description": "Swing bwd to salto fwd tucked, piked or stretched or clear straddle circle fwd on HB to salto fwd tucked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.208": {
+			"id": "6.208",
+			"description": "Swing bwd to salto fwd tucked or stretched with \u00bd turn (180\u00b0) or 1/1 turn (360\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.308": {
+			"id": "6.308",
+			"description": "Swing bwd to salto fwd stretched with 1\u00bd turn (540\u00b0) or 2/1 turn (720\u00b0) (Pechstein) From L-grip,swing bwd, \u00bd (180\u00b0) turn, to double salto bwd tucked  (Fan)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.408": {
+			"id": "6.408",
+			"description": "Swing bwd to double salto fwd tucked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.508": {
+			"id": "6.508",
+			"description": "Swing bwd to double salto fwd tucked with \u00bd turn (180\u00b0) also salto fwd with \u00bd turn (180\u00b0) into salto bwd tucked  (Arai)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.608": {
+			"id": "6.608",
+			"description": "Swing bwd to double salto fwd piked with \u00bd turn (180\u00b0)  (Pentek) ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		}
+	},
+	"beam": {
+		"1.000": {
+			"id": "1.000",
+			"description": "\u028a MOUNTS BB \u2013 Group 1 - 12  A B C D E F/G",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.101": {
+			"id": "1.101",
+			"description": "(D) Leap - on landing must show arabesque position (leg min. at horizontal)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.201": {
+			"id": "1.201",
+			"description": "(D) Split leap (180\u00b0)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.401": {
+			"id": "1.401",
+			"description": "(D) Leap fwd with leg change (free leg swing to 45\u00b0) to cross split",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.102": {
+			"id": "1.102",
+			"description": "(D) Thief vault \u00b1 take-off from one leg \u00b1 free leap over beam, one leg after another to rear support \u00b1 90\u00b0 approach to beam or Scissor Leap over beam to cross sit on thigh \u00b1 diagonal approach to beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.302": {
+			"id": "1.302",
+			"description": "(D) Straight Jump with \u00bd turn (180\u00b0) in flight phase to stand \u00b1 take-off from both feet",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.402": {
+			"id": "1.402",
+			"description": "(D) Jump with 1/1 turn (360\u00b0) in flight phase to stand, take-off from both legs \u00b1 approach at end or diagonal to beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.103": {
+			"id": "1.103",
+			"description": "Flank to rear support also with \u00bd turn (180\u00b0)  Jump with hand support, \u00be turn (270\u00db) iQ VXSSRUW WR cURVV ViW RQ thigh",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.303": {
+			"id": "1.303",
+			"description": "Two flying flairs",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.403": {
+			"id": "1.403",
+			"description": "3 flying flairs (Homma) ` Two flank circles followed by leg \u00b3FlaiU\u00b4  (Baitova)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.603": {
+			"id": "1.603",
+			"description": "(D) = To be counted as Dance element ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.204": {
+			"id": "1.204",
+			"description": "(D) Jump with \u00bd turn (180\u00b0) to clear straddle support, or jump bwd through straddle position over the beam to front support, or to side split \u00b1 90\u00b0 approach to beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.304": {
+			"id": "1.304",
+			"description": "(D) Straddle pike jump bwd over beam from round-off into immediate hip circle bwd \u00b1 90\u00b0 approach to beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.105": {
+			"id": "1.105",
+			"description": "(D) Jump with hand support to side split sit or straddle position (must show split without hands touching the beam as final position; in straddle position the trunk must touch the beam) take-off two feet  Take off two feet or leap to cross split sit from one foot take-off \u00b1 diagonal approach to beam (with hand support)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.305": {
+			"id": "1.305",
+			"description": "(D) Free jump to cross split sit take-off from both legs \u00b1 diagonal approach to beam Change leg leap to free cross split sit \u00b1 diagonal approach to beam  (Dick)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.405": {
+			"id": "1.405",
+			"description": "(D) Leap with leg change and \u00bd turn (180\u02da) away from beam to free cross split sit \u00b1 diagonal approach to beam  (Dick)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.605": {
+			"id": "1.605",
+			"description": "(D) = To be counted as Dance element ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.106": {
+			"id": "1.106",
+			"description": "From side stand - squat or stoop through to rear support",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.207": {
+			"id": "1.207",
+			"description": "Jump to roll fwd at end or middle of beam  Jump to clear straddle support on end of beam \u00b1 swing bwd to roll fwd",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.108": {
+			"id": "1.108",
+			"description": "Cartwheel with bending of both arms through chest stand to swing down  Stand at side of beam and jump to chest stand with both arms bent",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.208": {
+			"id": "1.208",
+			"description": "Jump with \u00bd turn (180\u00b0) over shoulder to neck stand, \u00bd turn (180\u00b0) to chest stand",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.308": {
+			"id": "1.308",
+			"description": "Jump with \u00bd turn (180\u00b0) over shoulder to neck stand, 1/1 or 1\u00bd turn (360\u00b0 - 540\u00db) WR Qeck VWaQd",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.608": {
+			"id": "1.608",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.309": {
+			"id": "1.309",
+			"description": "From cross stand facing end of beam \u00b1 head kip From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to front walkover From cross stand facing end of beam \u00b1 jump to hstd with hip angle (pike) to handspring fwd with step-out or land on 2 feet",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.609": {
+			"id": "1.609",
+			"description": "Round-off at end of beam \u00b1 flic-flac with \u00bd turn (180\u00b0) and walkover fwd (Dunn)  ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.210": {
+			"id": "1.210",
+			"description": "Jump, press, or swing to hstd (2 sec.) \u00b1 lower to end position touching beam; also with \u00bd turn (180\u00b0) in hstd.",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.310": {
+			"id": "1.310",
+			"description": "Jump, press or swing to cross or side hstd with 1/1 - 1\u00bd turn (360\u00b0- 540\u00b0) \u00b1 lower to end position touching beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.610": {
+			"id": "1.610",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.111": {
+			"id": "1.111",
+			"description": "Planche with support on one or both bent arms (2 sec.), also legs in cross split position",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.211": {
+			"id": "1.211",
+			"description": "Jump with bent hips to clear front support above horizontal minimum at 45\u00b0 (Planche) (2 sec.) - lower to optional end position",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.311": {
+			"id": "1.311",
+			"description": "Jump with stretched hips to planche (2 sec.) (Shushunova)  Jump, press, or swing to hstd \u00b1 lower to planche (2 sec.) also with \u00bd turn (180\u00b0) in hstd  Jump, press, or swing to hstd \u00b1 lower to clear pike support (2 sec.) also with \u00bd turn (180\u00b0) in hstd  Jump, press, or swing to hstd (2 sec.) release one hand to land on one foot, or with swing down swd; also with \u00bd turn (180\u00b0) in hstd  (Li Yifang)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.411": {
+			"id": "1.411",
+			"description": "Jump, press or swing to hstd \u00b1 1/1 turn (360\u00b0) in hstd \u00b1 lower to planche (2 sec.), or to clear pike support (2 sec.)   Jump, press, or swing to hstd \u00b1 1/1 turn (360\u00b0) in hstd \u00b1 release one hand with swing down swd",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.611": {
+			"id": "1.611",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.312": {
+			"id": "1.312",
+			"description": "Hstd in cross position with large arch span, also piked with one leg vertical, other leg bent (2 sec.) - lower to optional end position Hstd with horizontal leg hold (2 sec.) \u00b1 reverse planche in different variations - lower to optional end position",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.412": {
+			"id": "1.412",
+			"description": "Jump or press to side Hstd \u00b1 walkover fwd to side stand on both legs (Phillips)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.213": {
+			"id": "1.213",
+			"description": "Press to side hstd, with bending - stretching of legs \u00b1 hop with \u00bc turn (90\u00b0) to cross hstd - lower to optional end position",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.313": {
+			"id": "1.313",
+			"description": "Jump, press or swing to hstd shift weight to one arm hstd (2 sec.) \u00b1 lower to optional end position",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.413": {
+			"id": "1.413",
+			"description": "Jump or press on one arm to hstd lower to optional end position, also jump, press or swing to hstd \u00b1 shift weight to side hstd on one arm (2 sec.), lowering to clear straddle support on one arm, also with \u00bc turn (90\u00b0)  (Rankin)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.613": {
+			"id": "1.613",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.114": {
+			"id": "1.114",
+			"description": "Jump to hstd with bent or straight legs \u00b1 lower to optional end position",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"1.214": {
+			"id": "1.214",
+			"description": "Cartwheel on one or both arms",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.314": {
+			"id": "1.314",
+			"description": "90\u00b0 approach to beam \u00b1 jump with \u00bc turn (90\u00b0) and extended hips through a momentary hstd on one arm with immediate \u00bc turn (90\u00b0) and support on second arm to side hstd - lower to optional end position  From rear stand (back towards beam), flic flac over beam to candle position, ending in front support (Beukes)  From rear stand (back towards beam), flic flac with \u00bd turn (180\u00b0) to candle position, ending in front support (grasping under the beam with both hands)  (Soares)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.414": {
+			"id": "1.414",
+			"description": "Round-off in front of beam \u00b1 jump with \u00bd twist (180\u00b0) to near side hstd \u00b1 lower to optional position  (Gurova)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.514": {
+			"id": "1.514",
+			"description": "Round-off in front of beam \u00b1 flic-flac with1/1 twist (360\u00b0) to hip circle bwd (Zamolodchikova)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.614": {
+			"id": "1.614",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.215": {
+			"id": "1.215",
+			"description": "Handspring fwd with hand repulsion from springboard to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh \u00b1 90\u00b0 approach to beam Cartwheel, grasping the beam, to front support \u00b1 90\u00b0 approach to beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"1.315": {
+			"id": "1.315",
+			"description": "Free (aerial) walkover fwd to rear support \u00b1 or with \u00bc turn (90\u00b0) to cross sit on thigh",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.615": {
+			"id": "1.615",
+			"description": "Aerial walkover fwd to cross stand \u00b1 approach at end of beam, take off from both feet ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.416": {
+			"id": "1.416",
+			"description": "Salto fwd tucked to cross or side stand \u00b1 approach at end of beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.516": {
+			"id": "1.516",
+			"description": "Salto fwd piked to stand \u00b1 approach at end of beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.616": {
+			"id": "1.616",
+			"description": "Salto fwd tucked with \u00bd twist (180\u00b0)  (Wong Hiu Ying Angel)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.716": {
+			"id": "1.716",
+			"description": "Round-off at end of beam \u00b1 take off bwd with \u00bd turn (180\u00b0) \u00b1 tucked salto fwd to stand  (Erceg)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"1.317": {
+			"id": "1.317",
+			"description": "Round-off at end of beam \u00b1 flic-flac through hstd with swing down to cross straddle sit",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"1.417": {
+			"id": "1.417",
+			"description": "Round-off at end of beam \u00b1 flic-flac through hstd \u00b1 support on one or both arms \u00b1 to cross stand on beam Round-off at end of beam \u00b1 flic-flac with 1/1 twist (360\u00b0) into swing down to cross straddle sit (Tsavdaridou)",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"1.517": {
+			"id": "1.517",
+			"description": "Round-off at end of beam \u00b1 flic-flac with \u00f4 WZiVW (270\u00db) WR cURVV VWaQd RQ beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.617": {
+			"id": "1.617",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.518": {
+			"id": "1.518",
+			"description": "Round-off at end of beam \u00b1 salto bwd tucked, piked or stretched with step-out to cross or side stand on beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"1.618": {
+			"id": "1.618",
+			"description": "Round-off at end of beam \u00b1 salto bwd tucked with 1/1 twist (360\u00b0) to cross stand (Garrison)  Round-off at end of beam \u00b1 salto bwd stretched to cross stand on beam",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"1.718": {
+			"id": "1.718",
+			"description": "Round-off at end of beam \u00b1 salto bwd stretched with 1/1 twist (360\u00b0) to cross stand on beam ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"1.619": {
+			"id": "1.619",
+			"description": "Jump fwd with \u00bd twist (180\u00b0) \u00b1 salto bwd piked  ",
+			"group_number": "1",
+			"group_name": "Mounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"2.000": {
+			"id": "2.000",
+			"description": "\u2014 GYMNASTIC LEAPS, JUMPS AND HOPS BB \u2013 Group 2 - 7A B C D E F/G",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "TA",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.101": {
+			"id": "2.101",
+			"description": "Split leap fwd (leg separation 180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.301": {
+			"id": "2.301",
+			"description": "Split leap fwd with \u00bd turn (180\u00b0).",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.202": {
+			"id": "2.202",
+			"description": "Split jump (leg separation 180\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.302": {
+			"id": "2.302",
+			"description": "Split jump with \u00bd turn (180\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.402": {
+			"id": "2.402",
+			"description": "Split jump with 1/1 turn (360\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.602": {
+			"id": "2.602",
+			"description": "Jumps from side position finishing in cross position, or vice versa \u2013 consider as elements performed in cross position (additional 90\u00b0 does not make element different) ",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.203": {
+			"id": "2.203",
+			"description": "(*) Straddle pike jump (both legs above horizontal), or side split jump from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.303": {
+			"id": "2.303",
+			"description": "Straddle pike jump with \u00bd turn (180\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.403": {
+			"id": "2.403",
+			"description": "Straddle pike with 1/1 turn (360\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.603": {
+			"id": "2.603",
+			"description": "Jumps from side position finishing in cross position, or vice versa \u2013 consider as elements performed in cross position (additional 90\u00b0 does not make element different) (*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.204": {
+			"id": "2.204",
+			"description": "Fouett\u00e9 hop with \u00bd turn (180\u00b0) to land in arabesque (free leg above horizontal)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.404": {
+			"id": "2.404",
+			"description": "Fouette hop with leg change to cross split (leg separation 180\u00b0) (tour jet\u00e9)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.504": {
+			"id": "2.504",
+			"description": "Tour jet\u00e9 with additional \u00bd turn (180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.105": {
+			"id": "2.105",
+			"description": "Stride leap fwd with change of legs to wolf position (hip angle at 45\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.305": {
+			"id": "2.305",
+			"description": "Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.405": {
+			"id": "2.405",
+			"description": "Switch leap with \u00bd turn (180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.505": {
+			"id": "2.505",
+			"description": "Switch leap to ring position (leg separation 180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.206": {
+			"id": "2.206",
+			"description": "Leap with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal), to land on one or both feet",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.306": {
+			"id": "2.306",
+			"description": "Leap fwd with leg change and \u00bc turn (90\u00b0) to side split (180\u00b0) or straddle pike position  (Johnson)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.506": {
+			"id": "2.506",
+			"description": "Johnson with additional \u00bd turn (180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.606": {
+			"id": "2.606",
+			"description": "",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.107": {
+			"id": "2.107",
+			"description": "Pike jump from cross position (hip <90\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.207": {
+			"id": "2.207",
+			"description": "Pike jump from cross position with \u00bd turn (180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.407": {
+			"id": "2.407",
+			"description": "Pike jump from cross position with 1/1 turn (360\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.108": {
+			"id": "2.108",
+			"description": "Sissone (leg separation 180\u00b0 on the diagonal / 45\u00b0 to the floor) take off from both feet, land on one foot",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.208": {
+			"id": "2.208",
+			"description": "(*) Ring jump (rear foot at head height, body arched and head dropped bwd, leg separation 180\u00b0), or stag-ring jump",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.308": {
+			"id": "2.308",
+			"description": "Jump with upper back arch and head release with feet to head height/closed ring (Sheep jump)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.408": {
+			"id": "2.408",
+			"description": "(*) Split jump to ring position (leg separation 180\u00b0)  Split ring leap (leg separation 180\u00b0)  Jump to cross over split with body arched and head dropped bwd (Yang-Bo)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.608": {
+			"id": "2.608",
+			"description": "\u0003Jumps from side position finishing in cross position, or vice versa \u2013 consider as elements performed in cross position (additional 90\u00b0 does not make element different) (*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.209": {
+			"id": "2.209",
+			"description": "(*) Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout Stretched jump/hop with 1/1turn (360\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.409": {
+			"id": "2.409",
+			"description": "Stretched jump/hop with 1\u00bd turn (540\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.609": {
+			"id": "2.609",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.110": {
+			"id": "2.110",
+			"description": "(*) Cat leap (knees above horizontal alternately)  Scissors leap forward (legs above horizontal)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.210": {
+			"id": "2.210",
+			"description": "Cat leap with \u00bd turn (180\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.310": {
+			"id": "2.310",
+			"description": "Cat leap with 1/1 turn (360\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.610": {
+			"id": "2.610",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.211": {
+			"id": "2.211",
+			"description": "Tuck hop or jump with \u00bd turn (180\u00b0) from cross position (hip & knee angle at 45\u00b0)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.311": {
+			"id": "2.311",
+			"description": "Tuck hop or jump with 1/1 turn (360\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.411": {
+			"id": "2.411",
+			"description": "Tuck hop or jump with 1\u00bd turn (540\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.112": {
+			"id": "2.112",
+			"description": "(*) Wolf hop or jump from cross position (hip angle at 45\u00b0, knees together)",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.212": {
+			"id": "2.212",
+			"description": "Wolf hop or jump with \u00bd turn (180\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.412": {
+			"id": "2.412",
+			"description": "Wolf hop or jump with 1/1 turn (360\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.512": {
+			"id": "2.512",
+			"description": "Wolf hop or jump with 1\u00bd turn (540\u00b0) from cross position",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.612": {
+			"id": "2.612",
+			"description": "Jumps from side position finishing in cross position, or vice versa \u2013 consider as elements performed in cross position (additional 90\u00b0 does not make element different) (*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "2",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"3.000": {
+			"id": "3.000",
+			"description": "\u2015 GYMNASTIC TURNS BB \u2013 Group 3 - 4 A B C D E F/G",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "TA",
+			"type": "dance",
+			"value": 0.1
+		},
+		"3.101": {
+			"id": "3.101",
+			"description": "1/1 turn (360\u00b0) on one leg \u2013 free leg optional below horizontal",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"3.201": {
+			"id": "3.201",
+			"description": "1\u00bd turn (540\u00b0) on one leg \u2013 free leg optional below horizontal",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"3.401": {
+			"id": "3.401",
+			"description": "2/1 turn (720\u00b0) on one leg \u2013 free leg optional below horizontal",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.501": {
+			"id": "3.501",
+			"description": "3/1 turn (1080\u00b0) on one leg \u2013 free leg optional below horizontal (Okino)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"3.302": {
+			"id": "3.302",
+			"description": "1/1 turn (360\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"3.402": {
+			"id": "3.402",
+			"description": "1\u00bd turn (540\u00b0) on one leg, thigh of free leg at horizontal, bwd upward throughout turn",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.602": {
+			"id": "3.602",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"3.403": {
+			"id": "3.403",
+			"description": "1/1 turn (360\u00b0) pirouette with free leg held bwd with both hands (Preziosa)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.304": {
+			"id": "3.304",
+			"description": "1/1 turn (360\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"3.404": {
+			"id": "3.404",
+			"description": "1\u00bd turn (540\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.504": {
+			"id": "3.504",
+			"description": "2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)  (Wevers)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"3.604": {
+			"id": "3.604",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"3.305": {
+			"id": "3.305",
+			"description": "1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"3.405": {
+			"id": "3.405",
+			"description": "1 \u00bd turn (540\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Galante)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.505": {
+			"id": "3.505",
+			"description": "2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Sugihara) 720\u00b0",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"3.206": {
+			"id": "3.206",
+			"description": "\u00bd illusion turn (180\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"3.406": {
+			"id": "3.406",
+			"description": "1/1 illusion turn (360\u00b0) through standing split (180\u00b0 legs separation) with/without brief touching of beam with one hand",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.606": {
+			"id": "3.606",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"3.207": {
+			"id": "3.207",
+			"description": "1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"3.307": {
+			"id": "3.307",
+			"description": "1\u00bd turn (540\u00b0) in tuck stand on one leg - free leg straight throughout turn",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"3.407": {
+			"id": "3.407",
+			"description": "(*) 2/1 turn (720\u00b0) or 2\u00bd turn (900\u00b0) in tuck stand on one leg - free leg straight throughout turn  (Humphrey)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.507": {
+			"id": "3.507",
+			"description": "3/1 turn (1080\u00b0) in tuck stand on one leg - free leg straight throughout turn (Mitchell)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"3.208": {
+			"id": "3.208",
+			"description": "(*) 1/1 turn to 1\u00bd turn (360\u00b0- 540\u00b0) in prone position \u2013 alternate support of hands permitted",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"3.408": {
+			"id": "3.408",
+			"description": "1\u00bc (450\u00b0) turn on back in kip position (hip-leg angle closed) (Li Li)",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"3.608": {
+			"id": "3.608",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "3",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"4.000": {
+			"id": "4.000",
+			"description": "\u2013 HOLDS AND ACROBATIC NON-FLIGHT BB - Group 4 - 4 A B C D E F/G",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.101": {
+			"id": "4.101",
+			"description": "(D) From kneeling sit position, rise upward with body wave through toe-balance stand",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"4.102": {
+			"id": "4.102",
+			"description": "(D) (*) Standing split fwd with hand support in front of support leg (leg separation 180\u00b0) \u2013 Needle scale (2 sec.) or Stand on one leg with foot of free leg in fwd hold above head (2 sec.)  Scale fwd, support leg extended (leg separation 180\u00b0) - 2 sec.",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"4.202": {
+			"id": "4.202",
+			"description": "Clear pike support (2 sec.)",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.103": {
+			"id": "4.103",
+			"description": "Kick to side or cross hstd (2sec), lower to end position touching beam",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.203": {
+			"id": "4.203",
+			"description": "Kick to cross hstd \u2013 roll fwd with or without hand support to sit position or to tuck stand",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.603": {
+			"id": "4.603",
+			"description": "(D) To be counted as dance element (*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"4.204": {
+			"id": "4.204",
+			"description": "Roll fwd without hand support to sit position or to tuck stand  From cross sit, swing bwd to shoulder roll fwd with hip extension to sit position or to tuck stand",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.304": {
+			"id": "4.304",
+			"description": "Free shoulder roll fwd with hip extension and without hand support to sit position or tuck stand",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.105": {
+			"id": "4.105",
+			"description": "Roll bwd with hand support on top of the beam \u2013 landing on one or both feet",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.305": {
+			"id": "4.305",
+			"description": "Roll bwd to hstd - lower to end position touching beam",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.206": {
+			"id": "4.206",
+			"description": "Roll swd, body tucked \u2013 or roll swd stretched or straddle piked through neck stand, also with \u00bd turn (180\u00b0) over shoulder",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.306": {
+			"id": "4.306",
+			"description": "Roll swd, body stretched",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.606": {
+			"id": "4.606",
+			"description": "",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.107": {
+			"id": "4.107",
+			"description": "Cartwheel, also with support on one arm, or Cartwheel with flight phase before or after hand support",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.307": {
+			"id": "4.307",
+			"description": "From cross sit or side split \u2013 roll swd stretched, legs separated \u2013 end position optional",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.108": {
+			"id": "4.108",
+			"description": "Walkover fwd, with/without alternate hand support (Tinsica) Walkover fwd, bwd (Tic-Toc)",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.208": {
+			"id": "4.208",
+			"description": "Walkover fwd, with support of one arm",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.308": {
+			"id": "4.308",
+			"description": "Kick to cross hdst with \u00bd turn (180\u00b0) to walkover fwd  Walkover fwd in side position to Side stand",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.608": {
+			"id": "4.608",
+			"description": "",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.109": {
+			"id": "4.109",
+			"description": "Walkover bwd, with/without alternate hand support, also with swing down to cross sit",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.209": {
+			"id": "4.209",
+			"description": "Walkover bwd, with support of one arm",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.309": {
+			"id": "4.309",
+			"description": "Walkover bwd with \u00bd turn (180\u00b0) to walkover fwd  Walkover bwd in side position to side stand  Walkover bwd with stoop through of one leg to cross split sit",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.210": {
+			"id": "4.210",
+			"description": "From extended tuck sit \u2013 walkover bwd (Valdez)",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.310": {
+			"id": "4.310",
+			"description": "Valdez with 1/1 turn (360\u00b0) lower to end position touching beam    Kick over bwd through horizontal plane with support on one arm (Garrison)",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.610": {
+			"id": "4.610",
+			"description": "",
+			"group_number": "4",
+			"group_name": "Holds and acrobatic non-flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.201": {
+			"id": "5.201",
+			"description": "Handspring fwd with flight to land on one or both legs (same element), also with support on one arm",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.301": {
+			"id": "5.301",
+			"description": "Handspring fwd with leg change in flight phase",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.401": {
+			"id": "5.401",
+			"description": "Jump bwd (flic-flac take-off) with \u00bd twist (180\u00b0) through hstd to walkover fwd  (Onodi) also with support on one arm, or to tic-toc",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.501": {
+			"id": "5.501",
+			"description": "Jump bwd (flic-flac take-off) with \u00bd twist (180\u00b0) to handspring fwd land on 2 feet (Worley)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.202": {
+			"id": "5.202",
+			"description": "Flic-flac to land on both feet",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.302": {
+			"id": "5.302",
+			"description": "Flic-flac with \u00bd twist (180\u00b0) to hstd (2 sec.) - lower to optional end position",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.402": {
+			"id": "5.402",
+			"description": "Flic-flac from side position with \u00bd twist (180\u00b0) to side hstd lower to optional end position  (Kolesnikova)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.602": {
+			"id": "5.602",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.303": {
+			"id": "5.303",
+			"description": "Flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.403": {
+			"id": "5.403",
+			"description": "Flic-flac with \u00be twist (270\u00b0) to side hstd (2 sec.) - lower to optional end position (Omelianchik)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.204": {
+			"id": "5.204",
+			"description": "Flic-flac with step-out, also with support on one arm",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.304": {
+			"id": "5.304",
+			"description": "Flic-flac with \u00bd twist (180\u00b0) after hand support",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.404": {
+			"id": "5.404",
+			"description": "Flic-flac with min. \u00be twist (270\u00b0) before hand support (Kochetkova)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.604": {
+			"id": "5.604",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.405": {
+			"id": "5.405",
+			"description": "Flic-flac with step-out from side position  (Tousek)  Flic-flac from side position to front support or with hip circle bwd",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.505": {
+			"id": "5.505",
+			"description": "Flic-flac from side position with 1/1 twist (360\u00b0) to hip circle bwd  (Teza)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.206": {
+			"id": "5.206",
+			"description": "Gainer flic-flac also with support on one arm",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.306": {
+			"id": "5.306",
+			"description": "Gainer flic-flac with \u00bc twist (90\u00b0) to hstd (2 sec.) - lower to optional end position (Kitti)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.406": {
+			"id": "5.406",
+			"description": "Gainer flic-flac with min. \u00be twist (270\u00b0) before hand support  (Khorkina)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.606": {
+			"id": "5.606",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.207": {
+			"id": "5.207",
+			"description": "Flic-flac or Gainer flic-flac \u2013 with high flight phase, and swing down to cross straddle sit",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.307": {
+			"id": "5.307",
+			"description": "Flic-flac or Gainer flic-flac \u2013 with piking and stretching of hips in flight phase and swing down to cross straddle sit (Rueda)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.407": {
+			"id": "5.407",
+			"description": "Flic-flac with 1/1 twist (360\u00b0) \u2013 swing down to cross straddle sit  (Rulfova)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.208": {
+			"id": "5.208",
+			"description": "Round-off",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.408": {
+			"id": "5.408",
+			"description": "Free (aerial) cartwheel \u2013 landing on one or both feet, in cross or side position, also with leg change",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.508": {
+			"id": "5.508",
+			"description": "Free (aerial) round-off tucked or piked \u2013 take off from 2 feet  Free (aerial) cartwheel in side position (Colussi)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.608": {
+			"id": "5.608",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.409": {
+			"id": "5.409",
+			"description": "Free (aerial) walkover fwd, landing on one or both feet",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.310": {
+			"id": "5.310",
+			"description": "Salto fwd tucked, take-off from one leg to stand on one or two feet  (Liukin)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.410": {
+			"id": "5.410",
+			"description": "Salto fwd tucked to cross stand",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.510": {
+			"id": "5.510",
+			"description": "Salto fwd piked to cross stand",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.610": {
+			"id": "5.610",
+			"description": "",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.411": {
+			"id": "5.411",
+			"description": "Salto swd tucked take off from one leg to side stand",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.511": {
+			"id": "5.511",
+			"description": "Salto swd tucked with \u00bd turn (180\u00b0) take off from one leg to side stand (Schaefer)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.611": {
+			"id": "5.611",
+			"description": "Arabian salto tucked (take-off bwd with \u00bd twist [180\u00b0], salto fwd)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.312": {
+			"id": "5.312",
+			"description": "Salto bwd tucked, piked or stretched (step out)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.512": {
+			"id": "5.512",
+			"description": "Salto bwd stretched with legs together",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.612": {
+			"id": "5.612",
+			"description": "Salto bwd tucked with 1/1 twist (360\u00b0) (Shishova)",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.712": {
+			"id": "5.712",
+			"description": "Salto bwd stretched with 1/1 twist (360\u00b0)  (Shishova)  ",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"5.313": {
+			"id": "5.313",
+			"description": "Gainer salto bwd tucked, piked or stretched-step out",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.613": {
+			"id": "5.613",
+			"description": "Jump fwd with \u00bd twist (180\u00b0) \u2013 salto bwd tucked  \u2013 piked  (Produnova) ",
+			"group_number": "5",
+			"group_name": "Acrobatic flight",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.000": {
+			"id": "6.000",
+			"description": "\u2014 DISMOUNTS BB \u2013 Group 6 - 4 A B C D E F/G/H",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.101": {
+			"id": "6.101",
+			"description": "Free (aerial) walkover fwd with \u00bd twist (180\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.201": {
+			"id": "6.201",
+			"description": "Free (aerial) walkover fwd with 1/1 twist (360\u00b0)  Free (aerial) cartwheel with \u00bd twist (180\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.301": {
+			"id": "6.301",
+			"description": "Free (aerial) walkover fwd with 1\u00bd twist (540\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.501": {
+			"id": "6.501",
+			"description": "Free (aerial) cartwheel into salto bwd tucked (Kim)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.102": {
+			"id": "6.102",
+			"description": "Salto fwd tucked or piked, also with \u00bd twist (180\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.202": {
+			"id": "6.202",
+			"description": "Salto fwd stretched, also with \u00bd twist (180\u00b0)  Salto fwd tucked with 1/1 twist (360\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.302": {
+			"id": "6.302",
+			"description": "Salto fwd stretched with 1/1 twist (360\u00b0) or 1\u00bd twist (540\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.402": {
+			"id": "6.402",
+			"description": "Salto fwd stretched with 2/1 twist (720\u00b0) (Araujo)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.602": {
+			"id": "6.602",
+			"description": "Double salto fwd tucked  ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.203": {
+			"id": "6.203",
+			"description": "Jump bwd, with \u00bd twist (180\u00b0), salto fwd tucked or piked (Arabian salto)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.303": {
+			"id": "6.303",
+			"description": "Stretched jump fwd with 1/1 twist (360\u00b0) and salto fwd tucked or piked,",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.403": {
+			"id": "6.403",
+			"description": "Stretched jump fwd with 1/1 twist (360\u00b0) and salto fwd stretched",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.703": {
+			"id": "6.703",
+			"description": "Arabian double salto fwd. tucked  (Patterson)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"6.104": {
+			"id": "6.104",
+			"description": "Salto bwd tucked, piked, or stretched, also with \u00bd twist (180\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.204": {
+			"id": "6.204",
+			"description": "Salto bwd tucked or stretched with 1/1 twist (360\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.304": {
+			"id": "6.304",
+			"description": "Salto bwd tucked or stretched with 1\u00bd twist (540\u00b0)  (Domingues) Salto bwd stretched with 2/1 twist (720\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.404": {
+			"id": "6.404",
+			"description": "Salto bwd stretched with 2\u00bd twist (900\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.604": {
+			"id": "6.604",
+			"description": "Salto bwd stretched with 3/1 twist (1080\u00b0)  ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"6.405": {
+			"id": "6.405",
+			"description": "Double salto bwd tucked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.505": {
+			"id": "6.505",
+			"description": "Double salto bwd piked",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"6.705": {
+			"id": "6.705",
+			"description": "Double salto bwd tucked or piked with 1/1 twist (360\u00b0)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "G",
+			"type": "acrobatic",
+			"value": 0.7
+		},
+		"6.805": {
+			"id": "6.805",
+			"description": "Double salto bwd tucked with 2/1 twist (720\u00b0)  (Biles) ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "H",
+			"type": "acrobatic",
+			"value": 0.8
+		},
+		"6.106": {
+			"id": "6.106",
+			"description": "Gainer salto tucked, piked, or stretched to side of beam, also with \u00bd twist (180\u00b0) (tucked, or stretched)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"6.206": {
+			"id": "6.206",
+			"description": "Gainer salto tucked or stretched with 1/1 twist (360\u00b0) to side of beam",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"6.306": {
+			"id": "6.306",
+			"description": "Gainer salto bwd tucked or stretched with 1\u00f2 twist (540\u00db) (Bohmerova) or 2/1 twist (720\u00b0) to side of beam",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"6.406": {
+			"id": "6.406",
+			"description": "Gainer salto bwd stretched with 2\u00bd twist (900\u00b0) to side of beam (Khorkina)",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"6.606": {
+			"id": "6.606",
+			"description": "Gainer salto bwd stretched with 3/1 twist (1080\u00b0) to side of beam ",
+			"group_number": "6",
+			"group_name": "Dismounts",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		}
+	},
+	"floor": {
+		"1.000": {
+			"id": "1.000",
+			"description": "\u2013 GYMNASTIC LEAPS, JUMPS AND HOPS FX \u2013 Group 1 - 10 A B C D E F/G",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "TA",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.101": {
+			"id": "1.101",
+			"description": "Split leap fwd (leg separation 180\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.201": {
+			"id": "1.201",
+			"description": "Split leap with \u00bd turn (180\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.301": {
+			"id": "1.301",
+			"description": "Split leap with 1/1 turn (360\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.601": {
+			"id": "1.601",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.202": {
+			"id": "1.202",
+			"description": "(*) Fouette Hop with leg change to cross split (leg separation 180\u00b0) also to ring position (tour jet\u00e9)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.302": {
+			"id": "1.302",
+			"description": "(*) Tour jet\u00e9 with additional \u00bd turn (180\u00b0), landing on one or both feet, or in split sit position  (Produnova)  Leap fwd, through tour jet\u00e9 technique, with \u00be turn (270\u00b0) into straddle pike position with additional \u00bc turn (90\u00b0), landing on one or both feet  (Csillag)  \u0003",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.402": {
+			"id": "1.402",
+			"description": "Tour jet\u00e9 with additional 1/1 turn (360\u00b0), landing on one or both feet  (Gogean)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.602": {
+			"id": "1.602",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.103": {
+			"id": "1.103",
+			"description": "Tuck jump with separation of legs to cross split (180\u00b0) during flight phase",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.203": {
+			"id": "1.203",
+			"description": "(*) Butterfly fwd torso parallel to floor, slightly arched, legs straddled and feet above hip height during flight Butterfly bwd torso parallel to floor, slightly arched, legs straddled and feet at or slightly below hip height during flight.",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.603": {
+			"id": "1.603",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.104": {
+			"id": "1.104",
+			"description": "(*) Leap fwd with \u00bc turn (90\u00b0) into straddle pike position (both legs above horizontal) or side split to land on one or both feet",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.204": {
+			"id": "1.204",
+			"description": "Switch leap with \u00bc turn (90\u00b0) to side split or to straddle pike position (both legs above horizontal) (Johnson)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.304": {
+			"id": "1.304",
+			"description": "(*) Switch leap with \u00bd turn (180\u00b0) in flight phase (Frolova) Johnson with additional \u00bd turn (180\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.404": {
+			"id": "1.404",
+			"description": "(*) Switch leap with 1/1 turn (360\u00b0) in flight phase Johnson with additional 1/1 turn (360\u00b0)  (Bulimar)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.105": {
+			"id": "1.105",
+			"description": "Stride leap fwd with change of legs to wolf position",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.205": {
+			"id": "1.205",
+			"description": "Leap fwd with leg change (free leg swing to 45\u02da) to cross split (180\u00b0 separation < after leg change) (Switch leap)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.305": {
+			"id": "1.305",
+			"description": "Switch leap to ring position (180\u00b0 separation of legs)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.405": {
+			"id": "1.405",
+			"description": "Switch leap to ring position with \u00bd turn (180\u00b0) (Sankova)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.605": {
+			"id": "1.605",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.106": {
+			"id": "1.106",
+			"description": "Pike jump (hip < 90\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.206": {
+			"id": "1.206",
+			"description": "Jump with upper back arch and head release with feet almost touching head (sheep jump)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.306": {
+			"id": "1.306",
+			"description": "Pike jump (hip < 90\u00b0) with 1/1 turn (360\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.107": {
+			"id": "1.107",
+			"description": "(*) Straddle pike jump (both legs above horizontal), or side split jump (leg separation 180\u02da)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.207": {
+			"id": "1.207",
+			"description": "(*) Straddle pike or side split jump with \u00bd turn (180\u00b0) Split Jump with \u00bd turn (180\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.307": {
+			"id": "1.307",
+			"description": "(*) Straddle pike or side split jump with 1/1 turn (360\u00b0) (Popa) Split Jump with 1/1 turn (360\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.407": {
+			"id": "1.407",
+			"description": "(*) Straddle pike or side split jump with 1\u00bd turn (540\u00b0)  Split Jump with 1\u00bd turn (540\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.607": {
+			"id": "1.607",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.108": {
+			"id": "1.108",
+			"description": "(*) Straddle pike (both legs above horizontal), or side split jump landing in front lying support (also with \u00bd turn (180\u00b0)  Hop with 1/1 turn (360\u00b0) to straddle and land in front lying support",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.208": {
+			"id": "1.208",
+			"description": "(*) Straddle pike (both legs above horizontal), or side split jump with 1/1 turn (360\u00b0) landing in front lying support Hop with 1\u00bd turn (540\u00b0) in horizontal plane to land in front lying support",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.608": {
+			"id": "1.608",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.109": {
+			"id": "1.109",
+			"description": "(*) Split jump (leg separation 180\u00b0) Stag jump Stag jump with \u00bd turn (180\u00b0) Sissone (leg separation 180\u00b0on the diagonal/45\u00b0to the floor) take off two feet, land on one foot",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.209": {
+			"id": "1.209",
+			"description": "(*) Ring jump (rear foot at head height, body arched and head dropped bwd, 180\u00b0 separation of legs)  Stag ring jump (rear foot at head height, body arched and head dropped bwd)  Split jump to ring position (180\u00b0 separation of legs)  Split jump to ring position with \u00bd turn (180\u02da)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.309": {
+			"id": "1.309",
+			"description": "Split ring leap (180\u00b0 separation of legs)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.409": {
+			"id": "1.409",
+			"description": "(*) Tour jet\u00e9, to ring position with additional \u00bd turn (180\u00b0)  (Ferrari)  Split jump to ring position with 1/1 turn (360\u00b0) (Jurkowska-Kowalska) Split leap to ring position with \u00bd turn (180\u00b0)  (Ting)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"1.609": {
+			"id": "1.609",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.110": {
+			"id": "1.110",
+			"description": "Stretched hop or jump with 1/1 turn (360\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.310": {
+			"id": "1.310",
+			"description": "Stretched hop or jump with 2/1 turn (720\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.111": {
+			"id": "1.111",
+			"description": "Leap with alternate leg change (knees above horizontal) (Cat leap)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.211": {
+			"id": "1.211",
+			"description": "Cat leap with 1/1 turn (360\u00ba)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.311": {
+			"id": "1.311",
+			"description": "Cat leap with 2/1 turn (720\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.611": {
+			"id": "1.611",
+			"description": "",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.112": {
+			"id": "1.112",
+			"description": "Hop with \u00bd (180\u02da) turn to land in arabesque with free leg above horizontal (Fouett\u00e8-hop)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.212": {
+			"id": "1.212",
+			"description": "Hop with \u00bd turn (180\u00b0) free leg extended above horizontal throughout",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.312": {
+			"id": "1.312",
+			"description": "Hop with 1/1 turn (360\u00b0), free leg extended above horizontal throughout",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.213": {
+			"id": "1.213",
+			"description": "Tuck hop or jump with 1/1 turn (360\u00ba)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.313": {
+			"id": "1.313",
+			"description": "(*) Tuck hop or jump with 2/1 turn (720\u00b0) also landing in front lying support",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"1.613": {
+			"id": "1.613",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"1.114": {
+			"id": "1.114",
+			"description": "Hop or Jump with one leg bent and the other \u2013 extended straight, fwd above horizontal with knees together (Wolf hop or jump)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"1.214": {
+			"id": "1.214",
+			"description": "(*) Wolf hop or jump with 1/1 turn (360\u00b0) Wolf hop or jump with 1/1 turn (360\u00b0) landing in front lying support",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"1.514": {
+			"id": "1.514",
+			"description": "Wolf hop or jump with 2/1 turn (720\u00b0)",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"1.614": {
+			"id": "1.614",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "1",
+			"group_name": "Gymnastic leaps, jumps and hops",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.000": {
+			"id": "2.000",
+			"description": "\u2013 GYMNASTIC TURNS FX \u2013 Group 2 - 3 A B C D E F/G",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "TA",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.101": {
+			"id": "2.101",
+			"description": "1/1 turn (360\u00b0) on one leg \u2013 free leg optional below horizontal",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "A",
+			"type": "dance",
+			"value": 0.1
+		},
+		"2.201": {
+			"id": "2.201",
+			"description": "2/1 turn (720\u00b0) on one leg \u2013 free leg optional below horizontal",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.301": {
+			"id": "2.301",
+			"description": "3/1 turn (1080\u00b0) on one leg \u2013 free leg optional below horizontal",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.501": {
+			"id": "2.501",
+			"description": "4/1 turn (1440\u00b0) on one leg \u2013 free leg optional below horizontal  (Gomez)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.202": {
+			"id": "2.202",
+			"description": "1/1 turn (360\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.402": {
+			"id": "2.402",
+			"description": "2/1 turn (720\u00b0) with heel of extended free leg fwd at horizontal throughout turn (support leg may be straight or bent)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.602": {
+			"id": "2.602",
+			"description": "",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.203": {
+			"id": "2.203",
+			"description": "1/1 turn (360\u00b0) with free leg held upward in 180\u00b0 split position throughout turn",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.403": {
+			"id": "2.403",
+			"description": "2/1 turn (720\u00b0) with free leg held upward in 180\u00b0 split position throughout turn  (Memmel)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.503": {
+			"id": "2.503",
+			"description": "3/1 turn (1080) with free leg held upward in 180\u00b0 split position throughout turn  (Mustafina)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.204": {
+			"id": "2.204",
+			"description": "1/1 turn (360\u00b0) in back attitude (knee of free leg at horizontal throughout turn)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.404": {
+			"id": "2.404",
+			"description": "(*) 2/1 turn (720\u00b0) in back attitude (knee of free leg at horizontal throughout turn)  (Semenova) 2/1 turn (720\u00b0) with free leg held with both hands bwd/upward throughout turn (Berar)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.205": {
+			"id": "2.205",
+			"description": "1/1 turn (360\u00b0) in scale fwd with free leg above horizontal throughout turn",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.605": {
+			"id": "2.605",
+			"description": "(*) Elements in the same box with an asterisk (*) receive credit only once in chronological order ",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"2.206": {
+			"id": "2.206",
+			"description": "1/1 illusion turn (360\u00b0) through standing split without touching floor with hand",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.207": {
+			"id": "2.207",
+			"description": "1/1 turn (360\u00b0) in tuck stand on one leg - free leg straight throughout turn",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.307": {
+			"id": "2.307",
+			"description": "2/1 (720\u00b0) pirouette starting with free leg at horizontal, lowering to complete the turn in wolf position  (Nguyen)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "C",
+			"type": "dance",
+			"value": 0.3
+		},
+		"2.407": {
+			"id": "2.407",
+			"description": "2/1 turn (720\u00b0) in tuck stand on one leg - free leg straight throughout turn (no turn initiation with a push from hands on floor)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "D",
+			"type": "dance",
+			"value": 0.4
+		},
+		"2.507": {
+			"id": "2.507",
+			"description": "3/1 turn (1080\u00b0) in tuck stand on one leg - free leg straight throughout turn (no turn initiation with a push from hands on floor)  (Mitchell)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "E",
+			"type": "dance",
+			"value": 0.5
+		},
+		"2.208": {
+			"id": "2.208",
+			"description": "2/1 spin (720\u00b0) or more on back in kip position (hip-leg < closed)",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "B",
+			"type": "dance",
+			"value": 0.2
+		},
+		"2.608": {
+			"id": "2.608",
+			"description": "",
+			"group_number": "2",
+			"group_name": "Gymnastic turns",
+			"difficulty": "F",
+			"type": "dance",
+			"value": 0.6
+		},
+		"3.000": {
+			"id": "3.000",
+			"description": "\u028a HAND SUPPORT ELEMENTS FX \u2013 Group 3 - 4 A B C D E F/G",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.101": {
+			"id": "3.101",
+			"description": "Jump kick or press to hstd \u2013 return movement optional, also with \u00bd and 1/1 turn (180\u00b0- 360\u00b0) in hstd",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.201": {
+			"id": "3.201",
+			"description": "Jump kick or press to hstd with 1\u00bd - 2/1 turn (540\u00b0- 720\u00b0) in hstd \u2013 return movement optional",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.601": {
+			"id": "3.601",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.102": {
+			"id": "3.102",
+			"description": "Hecht roll",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.103": {
+			"id": "3.103",
+			"description": "Roll bwd to hstd with \u00bd or 1/1 turn (180\u00b0 - 360\u00b0) in hstd",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.203": {
+			"id": "3.203",
+			"description": "Roll bwd to hstd with 1\u00bd - 2/1 (540\u00b0 - 720\u00b0) turn in hstd",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.104": {
+			"id": "3.104",
+			"description": "Walkover bwd from stand or extended tuck-sit to hstd with 1/1 turn (360\u00b0) in hstd \u2013 return movement optional",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.604": {
+			"id": "3.604",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.105": {
+			"id": "3.105",
+			"description": "Handspring fwd, take-off from one leg or Flyspring fwd, take-off from both legs \u2013 with or without hecht phase before hand support \u2013 landing optional  Jump bwd with \u00bd twist (180\u00b0) to handspring fwd \u2013 landing optional",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.305": {
+			"id": "3.305",
+			"description": "Handspring fwd with 1/1 twist (360\u00b0) after hand support or before (Mostepanova)",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"3.106": {
+			"id": "3.106",
+			"description": "Round-off",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.606": {
+			"id": "3.606",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"3.107": {
+			"id": "3.107",
+			"description": "All flic-flac and gainer flic-flac variations, also with support of one arm Arabian (bwd take-off) with \u00bc twist (90\u00b0) \u2013 free (aerial) cartwheel \u2013 continuing with \u00bc twist (90\u00b0) to front lying support (Tsavdaridou)",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"3.207": {
+			"id": "3.207",
+			"description": "Flic-flac with 1/1 twist (360\u00b0) before hand support",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"3.607": {
+			"id": "3.607",
+			"description": "",
+			"group_number": "3",
+			"group_name": "Hand support elements",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.000": {
+			"id": "4.000",
+			"description": "\u2013 SALTOS FORWARD & SIDEWARD FX \u2013 Group 4 - 2 A B C D E F/G/H",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.101": {
+			"id": "4.101",
+			"description": "Salto fwd tucked or piked",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.201": {
+			"id": "4.201",
+			"description": "Salto fwd tucked with \u00bd or 1/1 twist (180\u00b0 or 360\u00b0), also Salto fwd piked with \u00bd twist (180\u00b0)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.501": {
+			"id": "4.501",
+			"description": "Double salto fwd tucked  (Podkopayeva)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.601": {
+			"id": "4.601",
+			"description": "Double salto fwd tucked with \u00bd twist (180\u00b0) (Podkopayeva) Double salto fwd piked (Dowell)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.202": {
+			"id": "4.202",
+			"description": "Salto fwd stretched, also with \u00bd twist (180\u00b0)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.302": {
+			"id": "4.302",
+			"description": "Salto fwd stretched with 1/1 or 1\u00bd twist (360\u00b0 or 540\u00b0)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"4.402": {
+			"id": "4.402",
+			"description": "Salto fwd stretched with 2/1 twist (720\u00b0) (Tarasevich)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"4.502": {
+			"id": "4.502",
+			"description": "Salto fwd stretched with 2\u00bd twist (900\u00b0) (Cojocar)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.602": {
+			"id": "4.602",
+			"description": "Salto fwd stretched with 3/1 twist (1080\u00b0)  (Maldonado) ",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.103": {
+			"id": "4.103",
+			"description": "Free (aerial) walkover fwd",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.104": {
+			"id": "4.104",
+			"description": "Free (aerial) cartwheel or free (aerial) round-off",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.105": {
+			"id": "4.105",
+			"description": "From take-off fwd from one or both legs \u2013 salto swd tucked or piked",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"4.205": {
+			"id": "4.205",
+			"description": "Arabian salto tucked or piked, (take-off bwd with \u00bd twist [180\u00b0], salto fwd) \u2013 landing optional",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"4.505": {
+			"id": "4.505",
+			"description": "Arabian double salto tucked  (Andreasen) / (Jentsch) Arabian double salto tucked with \u00bd twist (180\u00b0)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"4.605": {
+			"id": "4.605",
+			"description": "Arabian double salto piked Also with \u00bd twist  (Dos Santos)  (Oliveira)",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"4.805": {
+			"id": "4.805",
+			"description": "Arabian double salto stretched (Dos Santos) ",
+			"group_number": "4",
+			"group_name": "Saltos forward & sideward",
+			"difficulty": "H",
+			"type": "acrobatic",
+			"value": 0.8
+		},
+		"5.000": {
+			"id": "5.000",
+			"description": "- SALTOS BACKWARD FX \u2013 Group 5 - 1 A B C D E F/G/H/I/J",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "TA",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.101": {
+			"id": "5.101",
+			"description": "Salto bwd tucked, piked, or stretched",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "A",
+			"type": "acrobatic",
+			"value": 0.1
+		},
+		"5.201": {
+			"id": "5.201",
+			"description": "Salto bwd stretched with \u00bd, or salto bwd tucked or stretched with 1/1 twist (180\u00b0 or 360\u00b0)",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "B",
+			"type": "acrobatic",
+			"value": 0.2
+		},
+		"5.301": {
+			"id": "5.301",
+			"description": "Salto bwd stretched with 1\u00bd or 2/1 twist (540\u00b0 or 720\u00b0)",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "C",
+			"type": "acrobatic",
+			"value": 0.3
+		},
+		"5.401": {
+			"id": "5.401",
+			"description": "Salto bwd stretched with 2\u00bd twist (900\u00b0",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.501": {
+			"id": "5.501",
+			"description": "Salto bwd stretched with 3/1 twist (1080\u00b0)",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.601": {
+			"id": "5.601",
+			"description": "Salto bwd stretched with 3\u00bd twist (1260\u00b0)",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "F",
+			"type": "acrobatic",
+			"value": 0.6
+		},
+		"5.402": {
+			"id": "5.402",
+			"description": "Double salto bwd tucked  (Kim)  Double salto bwd pike",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "D",
+			"type": "acrobatic",
+			"value": 0.4
+		},
+		"5.502": {
+			"id": "5.502",
+			"description": "Double salto bwd tucked or piked with 1/1 twist (360\u00b0) (Mukhina)",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "E",
+			"type": "acrobatic",
+			"value": 0.5
+		},
+		"5.802": {
+			"id": "5.802",
+			"description": "Double salto bwd tucked with 2/1 twist (720\u00b0)  (Silivas)",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "H",
+			"type": "acrobatic",
+			"value": 0.8
+		},
+		"5.1002": {
+			"id": "5.1002",
+			"description": "Double salto bwd tucked with 3/1 twist (1080\u00b0)  (Biles)  ",
+			"group_number": "5",
+			"group_name": "Saltos backward",
+			"difficulty": "J",
+			"type": "acrobatic",
+			"value": 1.0
+		}
+	}
+}
