@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./_app
+        working-directory: ../_app
     env:
       LAST_UPDATED: '${{ github.event.head_commit.timestamp }}'
     steps:
