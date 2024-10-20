@@ -6,7 +6,7 @@ export const cardItems = [
 		icon: 'mdi:home',
 		action: {
 			type: 'link',
-			href: '/builder'
+			href: 'builder'
 		},
 		image: {
 			alt: 'rings',
@@ -21,7 +21,7 @@ export const cardItems = [
 		icon: 'mdi:home',
 		action: {
 			type: 'link',
-			href: '/elements'
+			href: 'elements'
 		},
 		image: {
 			alt: 'rings',
@@ -36,7 +36,7 @@ export const cardItems = [
 		icon: 'mdi:home',
 		action: {
 			type: 'link',
-			href: '/about'
+			href: 'about'
 		},
 		image: {
 			alt: 'rings',

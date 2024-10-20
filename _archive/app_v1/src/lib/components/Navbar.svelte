@@ -2,6 +2,7 @@
 	// Components //
 	// Iconify for cool icons!
 	import Icon from '@iconify/svelte';
+	import { base } from '$app/paths';
 	// ---
 	// Language Support
 	import * as m from '$paraglide/messages.js';
@@ -52,7 +53,7 @@
 <title>{tab_title}</title>
 <header id="navbar">
 	<!-- Main Logo -->
-	<a href="/" id="header_logo">{title}</a>
+	<a href="{base}/" id="header_logo">{title}</a>
 	<!-- Available Routes -->
 	<nav>
 		{#each routes as route}

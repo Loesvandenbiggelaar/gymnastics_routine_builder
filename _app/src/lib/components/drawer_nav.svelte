@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import { languageDetails, userSettings } from '$lib/stores/userSettings';
+	import { base } from '$app/paths';
 
 	// Configure Drawer
 	import { getDrawerStore } from '@skeletonlabs/skeleton';
@@ -38,7 +39,7 @@
 	<nav class="list-nav">
 		{#each navRoutes as link}
 			<a
-				href={link.href}
+				href="{base}/{link.href}"
 				class="flex justify-between {classesActive(link.href)}"
 				on:click={closeNavDrawer}
 			>
