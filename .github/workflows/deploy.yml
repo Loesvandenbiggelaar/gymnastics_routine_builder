@@ -26,13 +26,13 @@ jobs:
       #     cache: 'npm'
 
       - name: Install dependencies
-        working-directory: _app
+        working-directory: ./_app
         run: npm install
 
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-        working-directory: _app
+        working-directory: ./_app
         run: |
           npm run build
           touch build/.nojekyll
