@@ -26,8 +26,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        working-directory: ../_app
-        run: npm install
+        run: npm install --prefix ../_app
 
       - name: build
         env:
