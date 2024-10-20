@@ -7,6 +7,9 @@ on:
 jobs:
   build_site:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./_app
     env:
       LAST_UPDATED: '${{ github.event.head_commit.timestamp }}'
     steps:
@@ -26,11 +29,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        working-directory: ./_app
         run: npm install
 
       - name: build
-        working-directory: ./_app
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
