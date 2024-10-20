@@ -26,13 +26,11 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: |
-          cd _app
-          npm install
+        run: cd _app && npm install
 
       - name: build
         env:
-          BASE_PATH: '/_app'
+          BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           cd _app
           npm run build
