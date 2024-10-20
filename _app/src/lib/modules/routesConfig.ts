@@ -7,25 +7,25 @@ export type Route = {
 };
 
 export const routes = [
-	{ name: 'Home', title: '', href: '/', icon: 'mdi:home', display: true },
+	{ name: 'Home', title: '', href: '', icon: 'mdi:home', display: true },
 	{
 		name: 'Builder',
 		title: 'Routine Builder',
-		href: '/builder',
+		href: 'builder',
 		icon: 'mdi:clipboard-list-outline',
 		display: true
 	},
 	{
 		name: 'Elements',
 		title: 'Elements Table',
-		href: '/elements',
+		href: 'elements',
 		icon: 'mdi:format-list-bulleted-type',
 		display: true
 	},
 	{
 		name: 'About',
 		title: 'About Us',
-		href: '/about',
+		href: 'about',
 		icon: 'mdi:information-outline',
 		display: true
 	}
