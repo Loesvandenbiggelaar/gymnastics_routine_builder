@@ -80,7 +80,7 @@
 	</div>
 </div>
 
-<style>
+<style lang="postcss">
 	.routineBuilderElement {
 		display: flex;
 		flex-direction: column;
