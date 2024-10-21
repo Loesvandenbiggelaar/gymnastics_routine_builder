@@ -86,7 +86,7 @@
 		flex-direction: column;
 
 		/* Coloring */
-		background-color: rgb(var(--color-primary-300));
+		@apply bg-primary-900-50-token text-surface-50-900-token;
 
 		/* Layout */
 		border-radius: inherit;
